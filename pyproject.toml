@@ -1,0 +1,17 @@
+[project]
+name = "pdf-reference-reader"
+version = "0.1.0"
+description = "PDF 条款角标引用阅读器：自动链接角标与注释，hover 显示引用内容"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.141.1",
+    "httpx>=0.28.1",
+    "pydantic>=2.13.5",
+    "pymupdf>=1.28.2",
+    "pytest>=9.1.1",
+    "uvicorn[standard]>=0.52.4",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
