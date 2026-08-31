@@ -1,0 +1,42 @@
+{
+ "version": "1.1",
+ "docId": "6aa60000",
+ "meta": {
+  "path": "/home/zhangchi/Documents/insurance/Bowtie/自愿医保/Bowtie自愿医保标准及灵活计划-产品小册子.pdf",
+  "pages": 27,
+  "title": "Bowtie自愿医保标准及灵活计划-产品小册子.pdf",
+  "hasTextLayer": true
+ },
+ "config": {
+  "sizeRatio": 0.8,
+  "riseRatio": 0.22,
+  "gapRatio": 0.6
+ },
+ "notes": [],
+ "hotspots": [
+  {
+   "id": "h0000",
+   "page": 4,
+   "bbox": [
+    262.98,
+    500.74,
+    273.52,
+    548.76
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "$600 億+",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  }
+ ],
+ "stats": {
+  "anchors": 1,
+  "notes": 0,
+  "resolved": 0
+ }
+}

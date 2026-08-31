@@ -1,0 +1,1317 @@
+{
+ "version": "1.1",
+ "docId": "96d9b97b",
+ "meta": {
+  "path": "/home/zhangchi/Documents/insurance/永明/重疾/永明危疾全护保及至尊保-产品小册子.pdf",
+  "pages": 24,
+  "title": "永明危疾全护保及至尊保-产品小册子.pdf",
+  "hasTextLayer": true
+ },
+ "config": {
+  "sizeRatio": 0.8,
+  "riseRatio": 0.22,
+  "gapRatio": 0.6
+ },
+ "notes": [
+  {
+   "noteId": "p11:inline0",
+   "anchor": "inline",
+   "page": 11,
+   "bbox": [
+    235.29,
+    657.92,
+    299.52,
+    666.32
+   ],
+   "number": "",
+   "text": "備註:無需等候期",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:inline1",
+   "anchor": "inline",
+   "page": 11,
+   "bbox": [
+    408.75,
+    681.23,
+    472.97,
+    689.63
+   ],
+   "number": "",
+   "text": "備註:無需等候期",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p12:inline2",
+   "anchor": "inline",
+   "page": 12,
+   "bbox": [
+    50.97,
+    602.54,
+    115.19,
+    610.94
+   ],
+   "number": "",
+   "text": "備註:無需等候期",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:inline3",
+   "anchor": "inline",
+   "page": 12,
+   "bbox": [
+    225.3,
+    602.54,
+    305.59,
+    610.94
+   ],
+   "number": "",
+   "text": "備註:需要一年等候期",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:inline4",
+   "anchor": "inline",
+   "page": 12,
+   "bbox": [
+    398.21,
+    607.82,
+    462.44,
+    616.22
+   ],
+   "number": "",
+   "text": "備註:無需等候期",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p13:inline5",
+   "anchor": "inline",
+   "page": 13,
+   "bbox": [
+    322.68,
+    712.6,
+    386.9,
+    721.0
+   ],
+   "number": "",
+   "text": "備註:無需等候期",
+   "textPages": [
+    13
+   ]
+  }
+ ],
+ "hotspots": [
+  {
+   "id": "h0000",
+   "page": 2,
+   "bbox": [
+    272.77,
+    415.53,
+    274.63,
+    423.8
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "為您而設的十年全護保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0001",
+   "page": 2,
+   "bbox": [
+    212.84,
+    474.31,
+    217.6,
+    482.58
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "早期額外保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0002",
+   "page": 2,
+   "bbox": [
+    212.84,
+    547.03,
+    215.82,
+    555.3
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "糖尿全護保障全面防護",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0003",
+   "page": 3,
+   "bbox": [
+    263.61,
+    212.17,
+    266.9,
+    220.56
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "包括62種危疾、61種早期危疾及9種兒童疾病)。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0004",
+   "page": 3,
+   "bbox": [
+    191.21,
+    266.17,
+    194.38,
+    274.56
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "於確診早期危疾或兒童疾病時,獲得預支相等於計劃原",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0005",
+   "page": 3,
+   "bbox": [
+    125.54,
+    284.17,
+    128.97,
+    292.56
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "有保障額之25%的賠償。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0006",
+   "page": 3,
+   "bbox": [
+    392.49,
+    556.97,
+    395.79,
+    565.79
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "劃原有保障額之300%及1000%7的危疾保障。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0007",
+   "page": 3,
+   "bbox": [
+    440.7,
+    556.97,
+    444.01,
+    565.79
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "劃原有保障額之300%7及1000%的危疾保障。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0008",
+   "page": 4,
+   "bbox": [
+    274.04,
+    107.29,
+    277.96,
+    117.79
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "賠償額高達計劃原有保障額之300%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0009",
+   "page": 4,
+   "bbox": [
+    279.42,
+    430.08,
+    283.34,
+    440.58
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "賠償額高達計劃原有保障額之1000%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0010",
+   "page": 5,
+   "bbox": [
+    361.96,
+    106.17,
+    365.12,
+    120.16
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "為您而設十年全護保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0011",
+   "page": 5,
+   "bbox": [
+    344.7,
+    360.65,
+    349.41,
+    371.5
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "早期危疾保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0012",
+   "page": 5,
+   "bbox": [
+    200.02,
+    437.66,
+    204.79,
+    448.51
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "身故保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0013",
+   "page": 5,
+   "bbox": [
+    457.26,
+    437.66,
+    461.5,
+    448.51
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "危疾保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0014",
+   "page": 5,
+   "bbox": [
+    472.96,
+    578.61,
+    477.22,
+    589.45
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "早期額外保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0015",
+   "page": 5,
+   "bbox": [
+    200.31,
+    578.61,
+    204.5,
+    589.45
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "復發保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0016",
+   "page": 5,
+   "bbox": [
+    344.56,
+    653.86,
+    348.64,
+    664.71
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "糖尿全護保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0017",
+   "page": 6,
+   "bbox": [
+    275.23,
+    106.1,
+    280.61,
+    120.09
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "早期額外保障為您提供無微不至的支援",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0018",
+   "page": 6,
+   "bbox": [
+    185.63,
+    282.77,
+    188.49,
+    289.76
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "原位癌或早期惡性腫瘤",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0019",
+   "page": 7,
+   "bbox": [
+    275.03,
+    105.82,
+    280.07,
+    119.82
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "糖尿全護保障全面防護",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0020",
+   "page": 7,
+   "bbox": [
+    454.53,
+    315.46,
+    456.64,
+    321.06
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "保障金額",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0021",
+   "page": 8,
+   "bbox": [
+    108.22,
+    298.28,
+    112.41,
+    305.28
+   ],
+   "text": "12",
+   "kind": "numeric",
+   "contextBefore": "僅4年即可申請其後癌症索償,為您提供更高的保障。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0022",
+   "page": 8,
+   "bbox": [
+    503.37,
+    617.33,
+    507.57,
+    624.33
+   ],
+   "text": "12",
+   "kind": "numeric",
+   "contextBefore": "4年無癌症等候期",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0023",
+   "page": 9,
+   "bbox": [
+    186.27,
+    182.27,
+    192.96,
+    193.46
+   ],
+   "text": "13",
+   "kind": "numeric",
+   "contextBefore": "可享特別紅利",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0024",
+   "page": 9,
+   "bbox": [
+    447.13,
+    390.72,
+    451.44,
+    397.72
+   ],
+   "text": "14",
+   "kind": "numeric",
+   "contextBefore": "」保提供血管成形術的加強保障,並最高獲3次賠償。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0025",
+   "page": 9,
+   "bbox": [
+    153.83,
+    472.22,
+    158.56,
+    483.42
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "身故保障助您減輕家庭經濟負擔",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0026",
+   "page": 10,
+   "bbox": [
+    196.74,
+    254.36,
+    200.95,
+    261.35
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "第二醫療意見服務;",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0027",
+   "page": 10,
+   "bbox": [
+    268.81,
+    319.86,
+    275.73,
+    331.05
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "「愛屋及烏」保障升級版",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0028",
+   "page": 15,
+   "bbox": [
+    129.07,
+    149.25,
+    132.04,
+    156.94
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "保障╱賠償類型",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0029",
+   "page": 15,
+   "bbox": [
+    380.16,
+    253.55,
+    382.78,
+    260.54
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "高達1000%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0030",
+   "page": 15,
+   "bbox": [
+    490.71,
+    253.55,
+    493.33,
+    260.54
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "高達900%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0031",
+   "page": 15,
+   "bbox": [
+    376.76,
+    289.55,
+    379.38,
+    296.54
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "高達300%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0032",
+   "page": 15,
+   "bbox": [
+    490.31,
+    289.55,
+    492.93,
+    296.54
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "高達200%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0033",
+   "page": 15,
+   "bbox": [
+    119.91,
+    411.3,
+    122.65,
+    418.29
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "危疾保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0034",
+   "page": 15,
+   "bbox": [
+    156.4,
+    429.3,
+    157.89,
+    436.29
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "十年全護保障適用於",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0035",
+   "page": 15,
+   "bbox": [
+    401.38,
+    429.3,
+    405.56,
+    436.29
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "(i) 現有保障額之",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0036",
+   "page": 15,
+   "bbox": [
+    514.76,
+    429.3,
+    518.95,
+    436.29
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "(i) 現有保障額之",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0037",
+   "page": 15,
+   "bbox": [
+    368.36,
+    447.3,
+    372.79,
+    454.29
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "150% + 特別紅利",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0038",
+   "page": 15,
+   "bbox": [
+    142.18,
+    623.89,
+    145.22,
+    630.89
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "早期危疾保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0039",
+   "page": 15,
+   "bbox": [
+    420.29,
+    623.89,
+    424.76,
+    630.89
+   ],
+   "text": "18",
+   "kind": "numeric",
+   "contextBefore": "原有保障額之37.5%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0040",
+   "page": 15,
+   "bbox": [
+    156.4,
+    641.89,
+    157.89,
+    648.89
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "十年全護保障適用於",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0041",
+   "page": 16,
+   "bbox": [
+    129.07,
+    149.25,
+    132.04,
+    156.95
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "保障╱賠償類型",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0042",
+   "page": 16,
+   "bbox": [
+    142.18,
+    235.55,
+    144.93,
+    242.55
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "早期額外保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0043",
+   "page": 16,
+   "bbox": [
+    420.29,
+    235.55,
+    426.1,
+    242.55
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "原有保障額之37.5%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0044",
+   "page": 16,
+   "bbox": [
+    156.4,
+    253.55,
+    157.89,
+    260.55
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "十年全護保障適用於",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0045",
+   "page": 16,
+   "bbox": [
+    242.78,
+    253.55,
+    247.77,
+    260.55
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "腫瘤",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0046",
+   "page": 16,
+   "bbox": [
+    142.18,
+    501.72,
+    144.82,
+    508.72
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "糖尿全護保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0047",
+   "page": 16,
+   "bbox": [
+    156.4,
+    519.72,
+    157.89,
+    526.72
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "十年全護保障適用於",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0048",
+   "page": 16,
+   "bbox": [
+    420.29,
+    519.72,
+    424.71,
+    526.72
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "原有保障額之37.5%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0049",
+   "page": 16,
+   "bbox": [
+    357.43,
+    609.72,
+    361.86,
+    616.72
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "37.5%(額外)",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0050",
+   "page": 17,
+   "bbox": [
+    128.37,
+    149.25,
+    131.34,
+    156.95
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "保障╱賠償類型",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0051",
+   "page": 17,
+   "bbox": [
+    161.76,
+    236.69,
+    173.15,
+    243.68
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "危疾多重額外保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0051"
+  },
+  {
+   "id": "h0052",
+   "page": 17,
+   "bbox": [
+    161.76,
+    236.69,
+    173.15,
+    243.68
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "危疾多重額外保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0051"
+  },
+  {
+   "id": "h0053",
+   "page": 17,
+   "bbox": [
+    419.59,
+    431.71,
+    425.4,
+    438.7
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "原有保障額之37.5%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0054",
+   "page": 17,
+   "bbox": [
+    155.7,
+    449.71,
+    157.19,
+    456.7
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "十年全護保障適用於",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0055",
+   "page": 17,
+   "bbox": [
+    228.52,
+    449.71,
+    231.13,
+    456.7
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "中風",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0056",
+   "page": 17,
+   "bbox": [
+    121.21,
+    590.45,
+    124.29,
+    597.44
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "身故保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0057",
+   "page": 17,
+   "bbox": [
+    155.7,
+    608.45,
+    157.19,
+    615.44
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "十年全護保障適用於",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0058",
+   "page": 17,
+   "bbox": [
+    400.68,
+    608.45,
+    404.86,
+    615.44
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "(i) 現有保障額之",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0059",
+   "page": 17,
+   "bbox": [
+    514.06,
+    608.45,
+    518.25,
+    615.44
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "(i) 現有保障額之",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0060",
+   "page": 17,
+   "bbox": [
+    367.66,
+    626.45,
+    372.09,
+    633.44
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "150% + 特別紅利",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0061",
+   "page": 20,
+   "bbox": [
+    141.13,
+    197.11,
+    143.42,
+    202.7
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "自動終止。早期額外保障的賠償將不會計算在危疾多重",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0062",
+   "page": 20,
+   "bbox": [
+    236.81,
+    440.78,
+    240.15,
+    446.38
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "證現金價值、特別紅利(如有)及保費將按比例減少。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  }
+ ],
+ "stats": {
+  "anchors": 63,
+  "notes": 6,
+  "resolved": 0
+ }
+}

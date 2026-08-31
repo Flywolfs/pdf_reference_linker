@@ -1,0 +1,2528 @@
+{
+ "version": "1.1",
+ "docId": "8dcf85c7",
+ "meta": {
+  "path": "/home/zhangchi/Documents/insurance/富通/自愿医保/周大福人寿悦康保医疗计划(VHIS)-产品小册子.pdf",
+  "pages": 25,
+  "title": "「悅康保」醫療保障計劃產品小冊子",
+  "hasTextLayer": true
+ },
+ "config": {
+  "sizeRatio": 0.8,
+  "riseRatio": 0.22,
+  "gapRatio": 0.6
+ },
+ "notes": [
+  {
+   "noteId": "p12:1",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    253.22,
+    448.69,
+    263.0
+   ],
+   "number": "1",
+   "text": "除精神科治療及於香港的私家醫院入住合資格病房級別以下之病房的現金保障外(如適用),所有保障均適用於全球。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:2",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    262.72,
+    425.89,
+    272.5
+   ],
+   "number": "2",
+   "text": "全數受保是指不設分項賠償限額,合資格費用及其他費用的賠償金額須受每傷病每保單年度保障總額所規限。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:3",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    272.22,
+    540.74,
+    335.85
+   ],
+   "number": "3",
+   "text": "(i) 就同一傷病的每次住院或每宗日間手術,保障表內列明按 「每傷病每保單年度」 作賠償準則適用的個別保障項目賠償限額(如有)及每傷病 每保單年度保障總額將會重新計算,前提是該住院或日間手術並不是在同一傷病之前一次住院或接受日間手術的最後日期(於自願醫保 認可產品之補充文件的第四部分中第(a)(i)(3)節定義)起計連續90日內發生。 (ii) 當受保人因多於1個傷病住院或接受任何日間手術時,在同一次住院或同一宗日間手術所涉及的所有不同的傷病將會受限於1個適用的個別 保障項目賠償限額(如有)及 / 或每傷病每保單年度保障總額。 有關詳情,請參閱自願醫保認可產品之補充文件的第四部分第(a)節。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:4",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    329.24,
+    540.74,
+    358.02
+   ],
+   "number": "4",
+   "text": "稅務扣減適用於您或同住配偶以保單持有人身分為您自己 / 合資格家人(須在該課稅年度內為香港居民)繳付之自願醫保計劃保費。合資格家人 包括您的配偶及子女;及您及您配偶的父母、祖父母、外祖父母和兄弟姊妹。家人之投保資格須符合當時公司的行政規定。就自願醫保計劃 所繳付的合資格保費每年均可作稅務扣減,每課稅年度的上限為每名受保人8,000港元。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:5",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    357.75,
+    538.64,
+    386.53
+   ],
+   "number": "5",
+   "text": "醫療增值服務及免費環球緊急支援服務並非構成本計劃的一部分並由第三方服務供應商提供。周大福人壽保險有限公司保留修改醫療增值服務 及免費環球緊急支援服務詳情、條款及細則之權利而毋須事先通知及將不會就第三方服務供應商所提供的服務負上任何責任。此等服務毋須額 外保費。有關醫療增值服務之詳情、條款及細則,請參閱周大福人壽網頁,或向您的理財顧問查詢。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:6",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    386.25,
+    283.37,
+    415.04
+   ],
+   "number": "6",
+   "text": "指定手術是指: a. 皮膚或皮下病變組織切除術 / 冷凍術 / 電灼術 / 激光治療;及 b. 關節抽吸術 / 注射。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:7",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    414.76,
+    289.54,
+    424.54
+   ],
+   "number": "7",
+   "text": "治療只包括放射性治療、化療、標靶治療、免疫治療及荷爾蒙治療。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:8",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    424.26,
+    425.89,
+    434.04
+   ],
+   "number": "8",
+   "text": "周大福人壽有權要求有關書面建議的證明,例如轉介信或由主診醫生或註冊醫生在索償申請表內提供的陳述。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:9",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    433.77,
+    533.87,
+    443.55
+   ],
+   "number": "9",
+   "text": "檢測只包括電腦斷層掃描 ( 「CT」掃描)、磁力共振掃描 ( 「MRI」 掃描)、正電子放射斷層掃描 ( 「PET」 掃描)、PET-CT組合及PET-MRI組合。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:10",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    443.27,
+    323.44,
+    491.06
+   ],
+   "number": "10",
+   "text": "指定日間手術是指以下手術: a. 食道胃十二指腸內窺鏡檢查,連或不連活體組織檢查及 / 或息肉切除術; b. 食道胃十二指腸內窺鏡檢查連異物清除; c. 結腸鏡檢查連或不連活體組織檢查;及 d. 結腸鏡檢查,連息肉切除術。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:11",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    485.48,
+    540.74,
+    510.06
+   ],
+   "number": "11",
+   "text": "原居地意外身故賠償 / 海外意外身故賠償為恩恤身故賠償以外之額外賠償。有關詳情請參閱自願醫保認可產品之補充文件的第六部分第(f) 及(g)節。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:12",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    509.79,
+    540.74,
+    544.91
+   ],
+   "number": "12",
+   "text": "此保障為恩恤身故賠償及原居地意外身故賠償或海外意外身故賠償(如適用)以外之額外賠償;將於受保人死後合法地被捐贈及移植主要器官 給付一次。「主要器官」 只限於受保人的腎、肝、心臟、肺、眼角膜、骨及皮膚及 / 或由香港特別行政區政府衞生署或當地合法機構所刊登之 合適作為遺體器官捐贈的器官。有關詳情請參閱自願醫保認可產品之補充文件的第六部分第(h)節。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:13",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    538.29,
+    538.66,
+    567.08
+   ],
+   "number": "13",
+   "text": "除 I) 基本保障、II) 額外保障及 III) 其他保障下給付的保障外,若因醫院的醫護人員在醫院內進行的任何醫療程序或治療過程中所發生的任何錯 誤或疏忽行為或遺漏或因沒有遵守合理及慣常準則,而直接導致受保人在已呈報及證實有醫療疏忽之事故發生後的30日內死亡或遭受完全及永 久傷殘,及該疏忽和責任需經由相關機構向公眾承認,本公司將給付醫療疏忽事故保障。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:14",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    566.8,
+    540.74,
+    614.59
+   ],
+   "number": "14",
+   "text": "額外無索償折扣金額乃根據扣除無索償折扣前的續保保費計算。若於獲享無索償折扣及額外無索償折扣後方獲給付一個之前的保單年度之 索償(身故賠償及特別現金津貼除外),周大福人壽將重新審視該保單年度是否合資格獲取無索償折扣及額外無索償折扣。所有自該保單年度起 提供的無索償折扣將重新計算,周大福人壽將追回重新計算後的無索償折扣及為續保應繳付保費已提供的無索償折扣中間之差額。當任何保單 年度的無索償折扣於重新計算後不再相等於16%,該保單年度內應繳付之續保保費將不會獲享額外無索償折扣,而已於該保單年度內獲享的額 外無索償折扣金額將被追回。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:15",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    614.31,
+    334.98,
+    624.09
+   ],
+   "number": "15",
+   "text": "除非另有說明,同一項目的合資格費用不可獲保障表中多於一個保障項目的賠償。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:16",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.35,
+    623.82,
+    540.74,
+    668.44
+   ],
+   "number": "16",
+   "text": "精神科治療所招致的合資格費用及於香港的私家醫院入住合資格病房級別以下之病房的現金保障(如適用),只會就於香港的住院作出賠償。 在合資格費用同時涉及精神科治療與非精神科治療但未能明確分攤費用的情況下,如精神科治療為最初導致住院的原因,有關合資格費用會 全數由本保障賠償;如精神科治療並非最初導致住院的原因,則有關合資格費用會全數於 I) 基本保障(a)-(k)之相關保障項目下賠償(如適用)。 請參閱條款及保障第六部分第3(I)節及自願醫保認可產品之補充文件的第六部分第(b)節以了解詳情。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:17",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.35,
+    661.83,
+    350.12,
+    671.61
+   ],
+   "number": "17",
+   "text": "此百分比適用於外科醫生費實際賠償的金額或外科醫生費的保障限額,以較低者為準。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:18",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.35,
+    671.33,
+    540.71,
+    690.61
+   ],
+   "number": "18",
+   "text": "由意外引起緊急門診治療將賠償於意外發生後24小時內在醫院接受急症治療之合資格費用。而由意外引起緊急門診牙科治療將賠償於意外發生後 30日內,天然牙齒須接受由註冊牙醫於合法註冊牙醫診所內提供的急症治療所產生的合理及慣常費用。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:19",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.35,
+    685.03,
+    357.7,
+    706.45
+   ],
+   "number": "19",
+   "text": "有關額外保障及其他保障的詳情,請參閱自願醫保認可產品之補充文件的第五及六部分。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:20",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.35,
+    699.84,
+    357.7,
+    709.62
+   ],
+   "number": "20",
+   "text": "若受保人於同日接受多於一次護士到訪,則只賠償當中最高合資格費用的一次護士到訪。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:21",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.35,
+    709.34,
+    538.59,
+    757.13
+   ],
+   "number": "21",
+   "text": "受保人需作為一位在生器官捐贈者,並合法地在醫院進行器官移除及移植。本保障將根據 I) 基本保障(a)-(h)下相關賠償限額賠償合資格費用及 包括緊接器官受贈人已接受清除所有骨髓療程後從受保人採集骨髓、從骨髓中取得幹細胞或透過周邊血抽取造血幹細胞用作治療器官受贈人的 傷病及受保人捐贈整個或部份器官(即腎臟、胰臟、肝臟或肺),以用作移植至一個末期器官衰竭之受贈人之實際醫療費用。為免存疑,此項保 障不包括任何有關器官受贈人所招致的費用及任何因器官捐贈而導致受保人產生的併發症。有關本保障的詳情,請參閱自願醫保認可產品之補 充文件的第五部分第(i)節。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:22",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.35,
+    756.85,
+    540.74,
+    791.97
+   ],
+   "number": "22",
+   "text": "涵蓋的妊娠期併發症指宮外孕、葡萄胎、瀰漫性血管內凝血、子癇前期、流產、先兆流產、醫學處方的人工流產、死胎、產後出血需要切除 子宮、子癇、羊水栓塞或懷孕的肺栓塞。上述併發症的確診日期必須在保單生效日起計12個月後。有關 「涵蓋的妊娠併發症」 或此計劃之保障 詳情,請參閱自願醫保認可產品之補充文件的第五部分第(h)節。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:23",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    62.36,
+    785.36,
+    552.76,
+    819.41
+   ],
+   "number": "23",
+   "text": "若受保人被確診壽命只餘下不超過由該確診起計12個月,本公司將就受保人入住註冊善終院舍並接受該院舍的護理服務的合理及慣常的費用 作出賠償。 12",
+   "textPages": [
+    12
+   ]
+  }
+ ],
+ "hotspots": [
+  {
+   "id": "h0000",
+   "page": 1,
+   "bbox": [
+    420.66,
+    483.95,
+    424.23,
+    492.31
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "本計劃靈活彈性,保障覆蓋全球及就多項保障項目的合",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0001",
+   "page": 1,
+   "bbox": [
+    147.68,
+    499.95,
+    151.24,
+    508.31
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "更全面地支援您的醫療開支。萬一不幸患上常見嚴重疾",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0002",
+   "page": 1,
+   "bbox": [
+    344.19,
+    515.95,
+    347.75,
+    524.31
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "傷病每保單年度保障總額3 ( 「保障總額」 )。",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0003",
+   "page": 1,
+   "bbox": [
+    446.97,
+    515.95,
+    450.54,
+    524.31
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "傷病3每保單年度保障總額 ( 「保障總額」 )。",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0004",
+   "page": 2,
+   "bbox": [
+    190.39,
+    164.71,
+    193.96,
+    173.07
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "所有保障全球適用",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0005",
+   "page": 2,
+   "bbox": [
+    494.52,
+    172.71,
+    498.09,
+    181.07
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "不設細項賠償限額 全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0006",
+   "page": 2,
+   "bbox": [
+    145.51,
+    229.52,
+    149.08,
+    237.89
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "以每傷病每保單年度為準則",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0007",
+   "page": 2,
+   "bbox": [
+    267.92,
+    447.39,
+    270.35,
+    453.09
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "達25萬港元,遠超市場上大部份自願醫保靈活計劃。",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0008",
+   "page": 2,
+   "bbox": [
+    171.04,
+    473.72,
+    175.58,
+    484.56
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "保費折扣及稅務扣減",
+   "targets": [
+    "p12:4"
+   ],
+   "targetDisplay": "P13 · 備註 4",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0009",
+   "page": 2,
+   "bbox": [
+    415.98,
+    518.31,
+    419.55,
+    526.68
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "可享稅務扣減,令保費更相宜",
+   "targets": [
+    "p12:4"
+   ],
+   "targetDisplay": "P13 · 備註 4",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0010",
+   "page": 2,
+   "bbox": [
+    228.16,
+    576.57,
+    232.7,
+    587.4
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "周大福人壽客戶專享增值服務",
+   "targets": [
+    "p12:5"
+   ],
+   "targetDisplay": "P13 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0011",
+   "page": 3,
+   "bbox": [
+    203.53,
+    98.97,
+    208.07,
+    109.81
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "所有保障全球適用",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0012",
+   "page": 3,
+   "bbox": [
+    190.27,
+    153.8,
+    193.84,
+    162.16
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "終身賠償限額,讓您毋須擔心因移居別國而失去保障。",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0013",
+   "page": 3,
+   "bbox": [
+    274.93,
+    204.46,
+    279.47,
+    215.3
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "不設細項賠償限額 全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0014",
+   "page": 3,
+   "bbox": [
+    212.71,
+    243.3,
+    216.28,
+    251.66
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "分項賠償限額,全數受保合資格費用,當中覆蓋:",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0015",
+   "page": 3,
+   "bbox": [
+    165.23,
+    259.3,
+    168.8,
+    267.66
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "非指定手術費用",
+   "targets": [
+    "p12:6"
+   ],
+   "targetDisplay": "P13 · 備註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0016",
+   "page": 3,
+   "bbox": [
+    210.11,
+    275.3,
+    213.68,
+    283.66
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "訂明非手術癌症治療,如化療、標靶治療等",
+   "targets": [
+    "p12:7"
+   ],
+   "targetDisplay": "P13 · 備註 7",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0017",
+   "page": 3,
+   "bbox": [
+    203.53,
+    373.96,
+    208.07,
+    384.8
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "額以每傷病每保單年度為準則 讓您輕鬆面對治療費用",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0018",
+   "page": 3,
+   "bbox": [
+    243.44,
+    396.79,
+    247.01,
+    405.15
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "保單年度為準則,此賠償機制更能體貼客人需要,即使",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0019",
+   "page": 3,
+   "bbox": [
+    257.7,
+    412.79,
+    261.27,
+    421.15
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "接受長期治療,或於同一保單年度因不同傷病3而多次",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0020",
+   "page": 3,
+   "bbox": [
+    497.17,
+    412.79,
+    500.74,
+    421.15
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "而接受長期治療,或於同一保單年度因不同傷病而多次",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0021",
+   "page": 3,
+   "bbox": [
+    114.82,
+    586.7,
+    118.38,
+    595.22
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "傷病",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0022",
+   "page": 3,
+   "bbox": [
+    374.12,
+    586.7,
+    377.68,
+    595.22
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "每傷病每保單年度保障總額",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0023",
+   "page": 3,
+   "bbox": [
+    137.26,
+    692.38,
+    140.82,
+    700.75
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "其他傷病",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0024",
+   "page": 4,
+   "bbox": [
+    217.16,
+    54.58,
+    220.72,
+    62.95
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "例子1:於同一保單年度因不同傷病接受治療",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0025",
+   "page": 4,
+   "bbox": [
+    217.16,
+    357.4,
+    220.72,
+    365.76
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "例子2:於不同保單年度因同一傷病而接受長期治療",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0026",
+   "page": 4,
+   "bbox": [
+    424.98,
+    610.55,
+    427.41,
+    616.25
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": ",而實際賠償金額受限於每傷病每保單年度保障總額。",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0027",
+   "page": 5,
+   "bbox": [
+    446.81,
+    197.36,
+    450.38,
+    205.72
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0028",
+   "page": 5,
+   "bbox": [
+    346.91,
+    402.44,
+    350.47,
+    410.8
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": " 每傷病每保單年度高達25萬港元,而 I) 基本",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0029",
+   "page": 5,
+   "bbox": [
+    334.14,
+    559.52,
+    337.7,
+    567.89
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0030",
+   "page": 6,
+   "bbox": [
+    176.45,
+    382.94,
+    183.71,
+    391.3
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "指定日間手術現金津貼 (即門診腸胃鏡手術)",
+   "targets": [
+    "p12:10"
+   ],
+   "targetDisplay": "P13 · 備註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0031",
+   "page": 6,
+   "bbox": [
+    409.19,
+    514.77,
+    416.37,
+    523.13
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "20萬港元之海外意外身故賠償,特高海外保障額加倍",
+   "targets": [
+    "p12:11"
+   ],
+   "targetDisplay": "P13 · 備註 11",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0032",
+   "page": 6,
+   "bbox": [
+    135.39,
+    562.77,
+    142.57,
+    571.13
+   ],
+   "text": "12",
+   "kind": "numeric",
+   "contextBefore": "醫療疏忽事故而導致死亡或完全及永久傷殘,我們將給",
+   "targets": [
+    "p12:12"
+   ],
+   "targetDisplay": "P13 · 備註 12",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0033",
+   "page": 6,
+   "bbox": [
+    268.02,
+    578.77,
+    275.2,
+    587.13
+   ],
+   "text": "13",
+   "kind": "numeric",
+   "contextBefore": "付高達20萬港元之醫療疏忽事故保障。",
+   "targets": [
+    "p12:13"
+   ],
+   "targetDisplay": "P13 · 備註 13",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0034",
+   "page": 7,
+   "bbox": [
+    115.61,
+    67.13,
+    127.54,
+    80.82
+   ],
+   "text": "14",
+   "kind": "numeric",
+   "contextBefore": "保費折扣及稅務扣減4",
+   "targets": [
+    "p12:14"
+   ],
+   "targetDisplay": "P13 · 備註 14",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0035",
+   "page": 7,
+   "bbox": [
+    220.06,
+    67.13,
+    225.89,
+    80.82
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "保費折扣14及稅務扣減",
+   "targets": [
+    "p12:4"
+   ],
+   "targetDisplay": "P13 · 備註 4",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0036",
+   "page": 7,
+   "bbox": [
+    144.68,
+    339.28,
+    151.94,
+    347.64
+   ],
+   "text": "14",
+   "kind": "numeric",
+   "contextBefore": ",連同原有之無索償折扣,最高可享20%總折扣率。",
+   "targets": [
+    "p12:14"
+   ],
+   "targetDisplay": "P13 · 備註 14",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0037",
+   "page": 7,
+   "bbox": [
+    348.03,
+    391.22,
+    356.05,
+    399.95
+   ],
+   "text": "14",
+   "kind": "numeric",
+   "contextBefore": "額外無索償折扣",
+   "targets": [
+    "p12:14"
+   ],
+   "targetDisplay": "P13 · 備註 14",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0038",
+   "page": 8,
+   "bbox": [
+    146.41,
+    62.44,
+    150.95,
+    73.27
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "稅務扣減",
+   "targets": [
+    "p12:4"
+   ],
+   "targetDisplay": "P13 · 備註 4",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0039",
+   "page": 8,
+   "bbox": [
+    282.37,
+    310.54,
+    288.2,
+    324.22
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "周大福人壽客戶專享增值服務",
+   "targets": [
+    "p12:5"
+   ],
+   "targetDisplay": "P13 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0040",
+   "page": 9,
+   "bbox": [
+    91.65,
+    315.32,
+    99.66,
+    324.04
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [
+    "p12:15"
+   ],
+   "targetDisplay": "P13 · 備註 15",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0041",
+   "page": 9,
+   "bbox": [
+    353.88,
+    376.47,
+    361.14,
+    384.83
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "除精神科治療及於香港的私家醫院入住",
+   "targets": [
+    "p12:16"
+   ],
+   "targetDisplay": "P13 · 備註 16",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0042",
+   "page": 9,
+   "bbox": [
+    114.09,
+    376.47,
+    121.35,
+    384.83
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "地區範圍限制",
+   "targets": [
+    "p12:16"
+   ],
+   "targetDisplay": "P13 · 備註 16",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0043",
+   "page": 9,
+   "bbox": [
+    372.55,
+    460.97,
+    376.12,
+    469.33
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "每傷病每保單年度",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0044",
+   "page": 9,
+   "bbox": [
+    178.81,
+    492.97,
+    182.38,
+    501.33
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "在此保障表下的每傷病每保單",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0045",
+   "page": 9,
+   "bbox": [
+    382.4,
+    501.98,
+    385.96,
+    510.34
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "i) - (v) 以外之傷病:每傷病3每保單年度",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0046",
+   "page": 9,
+   "bbox": [
+    430.97,
+    501.98,
+    434.54,
+    510.34
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "i) - (v) 以外之傷病3:每傷病每保單年度",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0047",
+   "page": 10,
+   "bbox": [
+    91.65,
+    59.72,
+    99.66,
+    68.44
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [
+    "p12:15"
+   ],
+   "targetDisplay": "P13 · 備註 15",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0048",
+   "page": 10,
+   "bbox": [
+    367.9,
+    100.37,
+    371.47,
+    108.73
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "指定手術",
+   "targets": [
+    "p12:6"
+   ],
+   "targetDisplay": "P13 · 備註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0049",
+   "page": 10,
+   "bbox": [
+    450.05,
+    100.37,
+    453.61,
+    108.73
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "非指定手術",
+   "targets": [
+    "p12:6"
+   ],
+   "targetDisplay": "P13 · 備註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0050",
+   "page": 10,
+   "bbox": [
+    520.97,
+    100.37,
+    524.54,
+    108.73
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "指定手術",
+   "targets": [
+    "p12:6"
+   ],
+   "targetDisplay": "P13 · 備註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0051",
+   "page": 10,
+   "bbox": [
+    296.98,
+    100.37,
+    300.54,
+    108.73
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "非指定手術",
+   "targets": [
+    "p12:6"
+   ],
+   "targetDisplay": "P13 · 備註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0052",
+   "page": 10,
+   "bbox": [
+    367.9,
+    120.87,
+    371.47,
+    129.23
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0053",
+   "page": 10,
+   "bbox": [
+    520.97,
+    120.87,
+    524.54,
+    129.23
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0054",
+   "page": 10,
+   "bbox": [
+    345.4,
+    141.37,
+    348.97,
+    149.73
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "每傷病每保單",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0055",
+   "page": 10,
+   "bbox": [
+    498.47,
+    141.37,
+    502.04,
+    149.73
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "每傷病每保單",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0056",
+   "page": 10,
+   "bbox": [
+    520.97,
+    199.38,
+    524.54,
+    207.74
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0057",
+   "page": 10,
+   "bbox": [
+    367.9,
+    199.38,
+    371.47,
+    207.74
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0058",
+   "page": 10,
+   "bbox": [
+    122.71,
+    200.38,
+    126.28,
+    208.74
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "(d)\t 專科醫生費",
+   "targets": [
+    "p12:8"
+   ],
+   "targetDisplay": "P13 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0059",
+   "page": 10,
+   "bbox": [
+    291.37,
+    225.63,
+    294.93,
+    233.99
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0060",
+   "page": 10,
+   "bbox": [
+    444.44,
+    225.63,
+    448.0,
+    233.99
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0061",
+   "page": 10,
+   "bbox": [
+    508.02,
+    293.88,
+    515.28,
+    302.25
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "35%",
+   "targets": [
+    "p12:17"
+   ],
+   "targetDisplay": "P13 · 備註 17",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0062",
+   "page": 10,
+   "bbox": [
+    354.95,
+    293.88,
+    362.21,
+    302.25
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "35%",
+   "targets": [
+    "p12:17"
+   ],
+   "targetDisplay": "P13 · 備註 17",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0063",
+   "page": 10,
+   "bbox": [
+    354.95,
+    330.38,
+    362.21,
+    338.75
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "35%",
+   "targets": [
+    "p12:17"
+   ],
+   "targetDisplay": "P13 · 備註 17",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0064",
+   "page": 10,
+   "bbox": [
+    508.02,
+    330.38,
+    515.28,
+    338.75
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "35%",
+   "targets": [
+    "p12:17"
+   ],
+   "targetDisplay": "P13 · 備註 17",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0065",
+   "page": 10,
+   "bbox": [
+    406.17,
+    350.89,
+    409.73,
+    359.25
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0066",
+   "page": 10,
+   "bbox": [
+    406.17,
+    403.39,
+    409.73,
+    411.75
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0067",
+   "page": 10,
+   "bbox": [
+    167.59,
+    403.39,
+    171.16,
+    411.75
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "(j)\t訂明非手術癌症治療",
+   "targets": [
+    "p12:7"
+   ],
+   "targetDisplay": "P13 · 備註 7",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0068",
+   "page": 10,
+   "bbox": [
+    122.71,
+    439.89,
+    126.28,
+    448.25
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "的門診護理",
+   "targets": [
+    "p12:8"
+   ],
+   "targetDisplay": "P13 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0069",
+   "page": 10,
+   "bbox": [
+    272.2,
+    485.4,
+    275.77,
+    493.76
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "每傷病每保單年度$200,000",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0070",
+   "page": 10,
+   "bbox": [
+    425.28,
+    485.4,
+    428.84,
+    493.76
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "每傷病每保單年度$250,000",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0071",
+   "page": 10,
+   "bbox": [
+    122.71,
+    485.4,
+    129.97,
+    493.76
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "(l)\t精神科治療",
+   "targets": [
+    "p12:16"
+   ],
+   "targetDisplay": "P13 · 備註 16",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0072",
+   "page": 10,
+   "bbox": [
+    111.49,
+    505.9,
+    118.75,
+    514.26
+   ],
+   "text": "19",
+   "kind": "numeric",
+   "contextBefore": "II)\t額外保障",
+   "targets": [
+    "p12:19"
+   ],
+   "targetDisplay": "P13 · 備註 19",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0073",
+   "page": 10,
+   "bbox": [
+    406.17,
+    526.4,
+    409.73,
+    534.76
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0074",
+   "page": 10,
+   "bbox": [
+    406.17,
+    546.34,
+    409.73,
+    554.7
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0075",
+   "page": 10,
+   "bbox": [
+    281.57,
+    562.34,
+    285.14,
+    570.7
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "病每保單年度最多30日,惟只限於每日由1位註冊或",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0076",
+   "page": 10,
+   "bbox": [
+    406.17,
+    678.27,
+    409.73,
+    686.63
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0077",
+   "page": 10,
+   "bbox": [
+    281.57,
+    694.27,
+    285.14,
+    702.63
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "病每保單年度最多30日,惟只限於每日由1位註冊或",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0078",
+   "page": 11,
+   "bbox": [
+    91.65,
+    59.72,
+    99.66,
+    68.44
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [
+    "p12:15"
+   ],
+   "targetDisplay": "P13 · 備註 15",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0079",
+   "page": 11,
+   "bbox": [
+    111.49,
+    79.86,
+    118.75,
+    88.23
+   ],
+   "text": "19",
+   "kind": "numeric",
+   "contextBefore": "II)\t額外保障",
+   "targets": [
+    "p12:19"
+   ],
+   "targetDisplay": "P13 · 備註 19",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0080",
+   "page": 11,
+   "bbox": [
+    406.17,
+    115.2,
+    409.73,
+    123.56
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0081",
+   "page": 11,
+   "bbox": [
+    406.17,
+    158.26,
+    409.73,
+    166.62
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0082",
+   "page": 11,
+   "bbox": [
+    212.47,
+    258.35,
+    219.73,
+    266.71
+   ],
+   "text": "18",
+   "kind": "numeric",
+   "contextBefore": "(e)\t 由意外引起緊急門診牙科治療",
+   "targets": [
+    "p12:18"
+   ],
+   "targetDisplay": "P13 · 備註 18",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0083",
+   "page": 11,
+   "bbox": [
+    133.93,
+    278.28,
+    137.5,
+    286.64
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "(f)\t門診腎臟透析",
+   "targets": [
+    "p12:8"
+   ],
+   "targetDisplay": "P13 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0084",
+   "page": 11,
+   "bbox": [
+    406.17,
+    278.28,
+    409.73,
+    286.64
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全數受保",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0085",
+   "page": 11,
+   "bbox": [
+    190.03,
+    298.22,
+    197.29,
+    306.58
+   ],
+   "text": "18",
+   "kind": "numeric",
+   "contextBefore": "(g)\t 由意外引起緊急門診治療",
+   "targets": [
+    "p12:18"
+   ],
+   "targetDisplay": "P13 · 備註 18",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0086",
+   "page": 11,
+   "bbox": [
+    343.35,
+    318.15,
+    350.61,
+    326.51
+   ],
+   "text": "22",
+   "kind": "numeric",
+   "contextBefore": "的妊娠併發症給付之合資格費用及 / 或費用受制於",
+   "targets": [
+    "p12:22"
+   ],
+   "targetDisplay": "P13 · 備註 22",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0087",
+   "page": 11,
+   "bbox": [
+    190.03,
+    370.09,
+    197.29,
+    378.45
+   ],
+   "text": "21",
+   "kind": "numeric",
+   "contextBefore": "(i)\t在生器官捐贈者手術費用",
+   "targets": [
+    "p12:21"
+   ],
+   "targetDisplay": "P13 · 備註 21",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0088",
+   "page": 11,
+   "bbox": [
+    111.49,
+    390.02,
+    118.75,
+    398.38
+   ],
+   "text": "23",
+   "kind": "numeric",
+   "contextBefore": "(j)\t善終服務",
+   "targets": [
+    "p12:23"
+   ],
+   "targetDisplay": "P13 · 備註 23",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0089",
+   "page": 11,
+   "bbox": [
+    111.49,
+    409.96,
+    118.75,
+    418.32
+   ],
+   "text": "19",
+   "kind": "numeric",
+   "contextBefore": "III)\t 其他保障",
+   "targets": [
+    "p12:19"
+   ],
+   "targetDisplay": "P13 · 備註 19",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0090",
+   "page": 11,
+   "bbox": [
+    133.93,
+    429.89,
+    141.19,
+    438.25
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "(a)\t 指定日間手術現金津貼24",
+   "targets": [
+    "p12:10"
+   ],
+   "targetDisplay": "P13 · 備註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0091",
+   "page": 11,
+   "bbox": [
+    186.2,
+    429.89,
+    193.46,
+    438.25
+   ],
+   "text": "24",
+   "kind": "numeric",
+   "contextBefore": "(a)\t 指定日間手術10現金津貼",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0092",
+   "page": 11,
+   "bbox": [
+    331.99,
+    429.89,
+    339.25,
+    438.25
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "每次指定日間手術$800,",
+   "targets": [
+    "p12:10"
+   ],
+   "targetDisplay": "P13 · 備註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0093",
+   "page": 11,
+   "bbox": [
+    480.25,
+    429.89,
+    487.51,
+    438.25
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "每次指定日間手術$1,200,",
+   "targets": [
+    "p12:10"
+   ],
+   "targetDisplay": "P13 · 備註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0094",
+   "page": 11,
+   "bbox": [
+    426.73,
+    533.76,
+    432.21,
+    542.12
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "每傷病 每保單年度最多15日",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0095",
+   "page": 11,
+   "bbox": [
+    220.61,
+    533.76,
+    227.75,
+    542.12
+   ],
+   "text": "24",
+   "kind": "numeric",
+   "contextBefore": "病房級別以下之病房的現金保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0096",
+   "page": 11,
+   "bbox": [
+    442.43,
+    569.7,
+    446.0,
+    578.06
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "其他第三方賠償金額的5%,每傷病每保單年度",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0097",
+   "page": 11,
+   "bbox": [
+    212.47,
+    609.57,
+    219.73,
+    617.93
+   ],
+   "text": "25",
+   "kind": "numeric",
+   "contextBefore": "(d)\t 器官捐贈後健康補品現金津貼",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0098",
+   "page": 11,
+   "bbox": [
+    167.59,
+    649.44,
+    174.85,
+    657.8
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "(f)\t原居地意外身故賠償",
+   "targets": [
+    "p12:11"
+   ],
+   "targetDisplay": "P13 · 備註 11",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0099",
+   "page": 11,
+   "bbox": [
+    156.37,
+    669.37,
+    163.63,
+    677.74
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "(g)\t 海外意外身故賠償",
+   "targets": [
+    "p12:11"
+   ],
+   "targetDisplay": "P13 · 備註 11",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0100",
+   "page": 11,
+   "bbox": [
+    190.03,
+    689.31,
+    197.29,
+    697.67
+   ],
+   "text": "12",
+   "kind": "numeric",
+   "contextBefore": "(h)\t 器官捐贈者額外身故津貼",
+   "targets": [
+    "p12:12"
+   ],
+   "targetDisplay": "P13 · 備註 12",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0101",
+   "page": 11,
+   "bbox": [
+    156.37,
+    709.24,
+    163.63,
+    717.61
+   ],
+   "text": "13",
+   "kind": "numeric",
+   "contextBefore": "(i)\t醫療疏忽事故保障",
+   "targets": [
+    "p12:13"
+   ],
+   "targetDisplay": "P13 · 備註 13",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  }
+ ],
+ "stats": {
+  "anchors": 102,
+  "notes": 23,
+  "resolved": 99
+ }
+}

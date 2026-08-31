@@ -84,6 +84,14 @@ def save_override(doc_id: str, hotspot_id: str, patch: dict) -> None:
     (OVERRIDE_DIR / f"{doc_id}.json").write_text(json.dumps(all_ov, ensure_ascii=False))
 
 
+def delete_override(doc_id: str, hotspot_id: str) -> None:
+    """用户改判“正确”时清除旧的重绑覆盖。"""
+    all_ov = load_overrides(doc_id)
+    if hotspot_id in all_ov:
+        del all_ov[hotspot_id]
+        (OVERRIDE_DIR / f"{doc_id}.json").write_text(json.dumps(all_ov, ensure_ascii=False))
+
+
 def apply_overrides(analysis: dict, overrides: dict) -> dict:
     """rebind → 改绑 targets/targetDisplay；ignore → confidence=0 且 targets 清空。"""
     for hs in analysis.get("hotspots", []):

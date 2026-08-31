@@ -1,0 +1,1090 @@
+{
+ "version": "1.1",
+ "docId": "000c839b",
+ "meta": {
+  "path": "/home/zhangchi/Documents/insurance/永明/自愿医保/永明港称心医疗保-产品小册子.pdf",
+  "pages": 24,
+  "title": "永明港称心医疗保-产品小册子.pdf",
+  "hasTextLayer": true
+ },
+ "config": {
+  "sizeRatio": 0.8,
+  "riseRatio": 0.22,
+  "gapRatio": 0.6
+ },
+ "notes": [
+  {
+   "noteId": "p15:1",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    42.52,
+    177.82,
+    284.21,
+    202.12
+   ],
+   "number": "1",
+   "text": "任何非醫療所需治療、治療程序、藥物、檢測或服務的費用。",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:2",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    42.52,
+    193.49,
+    554.71,
+    217.78
+   ],
+   "number": "2",
+   "text": "若純粹為接受診斷程序或專職醫療服務(包括但不限於物理治療、職業治療及言語治療)而住院,該住院期間所招致的全部或部分費用。",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:3",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    42.52,
+    229.15,
+    556.02,
+    253.45
+   ],
+   "number": "3",
+   "text": "在保單生效日前,因感染或出現人體免疫力缺乏病毒(「HIV」)及其相關的傷病所招致的費用。不論保單持有人或受保人在遞交投保申",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:4",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    42.52,
+    300.5,
+    552.77,
+    324.79
+   ],
+   "number": "4",
+   "text": "因倚賴或過量服用藥物、酒精、毒品或類似物質(或受其影響)、故意自殘身體或企圖自殺、參與非法活動、或性病及經由性接觸傳染",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:5",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    42.52,
+    326.17,
+    121.86,
+    350.46
+   ],
+   "number": "5",
+   "text": "以下服務的收費:",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:6",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    42.52,
+    371.83,
+    552.73,
+    396.13
+   ],
+   "number": "6",
+   "text": "預防性治療及預防性護理的費用,包括但不限於並無症狀下的一般身體檢查、定期檢測或篩查程序、或僅因受保人及/或其家人過往",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:7",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    42.52,
+    427.5,
+    554.71,
+    451.8
+   ],
+   "number": "7",
+   "text": "牙科醫生進行的牙科治療及口腔頷面手術的費用,惟受保人因意外引致在住院期間接受的急症治療及手術則不屬此項。出院後的跟進",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:8",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    42.52,
+    453.17,
+    552.76,
+    477.47
+   ],
+   "number": "8",
+   "text": "下列醫療服務及輔導服務的費用 - 產科狀況及其併發症,包括但不限於懷孕、分娩、墮胎或流產的診斷檢測;節育或恢復生育;任何",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:9",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    42.52,
+    478.84,
+    554.71,
+    503.13
+   ],
+   "number": "9",
+   "text": "購買屬耐用品的醫療設備及儀器的費用,包括但不限於輪椅、床及家具、呼吸道壓力機及面罩、可攜式氧氣及氧氣治療儀器、血液透析機、",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:10",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    42.52,
+    514.51,
+    554.71,
+    538.81
+   ],
+   "number": "10",
+   "text": "除出院後/日間手術後脊椎治療師/針灸治療師/物理治療師診療保障另有規定外,傳統中醫治療的費用,包括但不限於中草藥治療、",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:11",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    42.52,
+    550.17,
+    554.71,
+    574.47
+   ],
+   "number": "11",
+   "text": "按接受治療、治療程序、檢測或服務所在地的普遍標準(或尚未經當地認可機構批准)界定為實驗性或未經證實醫療成效的醫療技術或",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:12",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    42.52,
+    575.85,
+    310.56,
+    600.15
+   ],
+   "number": "12",
+   "text": "受保人年屆八歲前發病或確診的先天性疾病所招致的醫療服務費用。",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:13",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    42.52,
+    591.52,
+    385.36,
+    615.82
+   ],
+   "number": "13",
+   "text": "已獲任何法律,或由任何政府、僱主或第三方提供的醫療或保險計劃賠償的合資格費用。",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:14",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    42.52,
+    607.19,
+    539.21,
+    631.49
+   ],
+   "number": "14",
+   "text": "因戰爭(不論宣戰與否)、內戰、侵略、外敵行動、敵對行動、叛亂、革命、起義、或軍事政變或奪權事故傷病所招致的治療費用。",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p23:1",
+   "anchor": "standalone",
+   "page": 23,
+   "bbox": [
+    28.35,
+    179.91,
+    196.3,
+    191.13
+   ],
+   "number": "1",
+   "text": "在藍色方格內之保費金額只適用於續保。",
+   "textPages": [
+    23
+   ]
+  },
+  {
+   "noteId": "p23:2",
+   "anchor": "standalone",
+   "page": 23,
+   "bbox": [
+    28.35,
+    194.74,
+    554.78,
+    205.96
+   ],
+   "number": "2",
+   "text": "上述年繳、半年繳及月繳標準保費表(「標準保費表」)適用於非吸煙者及吸煙者。標準保費表並未包括由保險業監管局徵收的保費徵費。",
+   "textPages": [
+    23
+   ]
+  },
+  {
+   "noteId": "p23:3",
+   "anchor": "standalone",
+   "page": 23,
+   "bbox": [
+    24.35,
+    209.58,
+    575.39,
+    805.73
+   ],
+   "number": "3",
+   "text": "標準保費並非保證不變,及有可能因反映醫療費用上漲、過往經驗、修訂將來預算及保障改變而作出調整。不論香港永明金融有限公司 在續保時有否修訂本保單的條款及保障,香港永明金融有限公司將有權按當時採用的標準保費表向所有同一類別保單調整標準保費。 4.標準保費表只供參考,並由香港永明金融有限公司不時作出變動而不另作通知。 Sun Life Hong Kong Limited (Incorporated in Bermuda with limited liability) Client Service Centre G/F, MU Tower B, No. 18 Hung Luen Road, Hunghom, Kowloon, Hong Kong Client Service Hotline: 2103 8928 Fax: 2103 8938 sunlife.com.hk 香港永明金融有限公司 (於百慕達註冊成立之有限責任公司) 客戶服務中心 香港九龍紅磡紅鸞道18號都大中心B座地下 客戶服務熱線: 2103 8928 傳真: 2103 8938 sunlife.com.hk A member of the Sun Life group of companies. Head Office in Toronto, Canada. Printed in September 2025 Issued by Sun Life Hong Kong Limited 永明金融集團成員之一總公司設於加拿大多倫多 2025年9月編印由香港永明金融有限公司刊發 9010250/09-2025",
+   "textPages": [
+    23
+   ]
+  }
+ ],
+ "hotspots": [
+  {
+   "id": "h0000",
+   "page": 1,
+   "bbox": [
+    280.24,
+    259.05,
+    282.53,
+    266.77
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "設,提供全方位的終身醫療保障,讓您生活更加稱心。",
+   "targets": [
+    "p23:1",
+    "p15:1"
+   ],
+   "targetDisplay": "P24 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0001",
+   "page": 2,
+   "bbox": [
+    176.53,
+    225.95,
+    179.89,
+    233.67
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "保費均可申請稅務扣除,而每位受保人於每個財政年度",
+   "targets": [
+    "p23:2",
+    "p15:2"
+   ],
+   "targetDisplay": "P24 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0002",
+   "page": 2,
+   "bbox": [
+    167.35,
+    240.95,
+    170.76,
+    248.67
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "限,但納稅人須為保單持有人。這個計劃既可保障您和",
+   "targets": [
+    "p23:3",
+    "p15:3"
+   ],
+   "targetDisplay": "P24 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0003",
+   "page": 2,
+   "bbox": [
+    376.64,
+    398.89,
+    379.82,
+    406.0
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "可獲稅務扣除的款額",
+   "targets": [
+    "p23:3",
+    "p15:3"
+   ],
+   "targetDisplay": "P24 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0004",
+   "page": 2,
+   "bbox": [
+    466.21,
+    480.41,
+    469.3,
+    487.39
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "扣除。",
+   "targets": [
+    "p23:3",
+    "p15:3"
+   ],
+   "targetDisplay": "P24 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0005",
+   "page": 3,
+   "bbox": [
+    495.59,
+    228.94,
+    499.16,
+    236.66
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "更高的賠償限額,計劃亦不設終身保障限額,讓您可以",
+   "targets": [
+    "p15:4"
+   ],
+   "targetDisplay": "P16 · 備註 4",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0006",
+   "page": 3,
+   "bbox": [
+    117.73,
+    409.84,
+    120.99,
+    416.94
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "病房及膳食",
+   "targets": [
+    "p15:5"
+   ],
+   "targetDisplay": "P16 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0007",
+   "page": 3,
+   "bbox": [
+    128.53,
+    503.2,
+    131.85,
+    510.3
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "額外醫療保障",
+   "targets": [
+    "p15:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0008",
+   "page": 4,
+   "bbox": [
+    234.04,
+    114.87,
+    237.07,
+    122.59
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "您在患病之時,亦能得到可靠的支援。全面保障由保單",
+   "targets": [
+    "p15:7"
+   ],
+   "targetDisplay": "P16 · 備註 7",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0009",
+   "page": 4,
+   "bbox": [
+    213.2,
+    346.48,
+    216.77,
+    354.2
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "狀況有何變化,仍然可以安心面對。續保的保費會根據",
+   "targets": [
+    "p15:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0010",
+   "page": 5,
+   "bbox": [
+    178.26,
+    189.38,
+    181.78,
+    197.1
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "手術獲得現金津貼、特別現金保障或就曾經作出除住院",
+   "targets": [
+    "p15:9"
+   ],
+   "targetDisplay": "P16 · 備註 9",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0011",
+   "page": 6,
+   "bbox": [
+    506.26,
+    446.9,
+    510.84,
+    454.62
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "就永明港稱心醫療保申請住院及手術保障索償,理賠過",
+   "targets": [
+    "p15:11"
+   ],
+   "targetDisplay": "P16 · 備註 11",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0012",
+   "page": 8,
+   "bbox": [
+    746.73,
+    219.87,
+    749.97,
+    227.22
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "稅務扣除。",
+   "targets": [
+    "p23:3",
+    "p15:3"
+   ],
+   "targetDisplay": "P24 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0013",
+   "page": 9,
+   "bbox": [
+    746.73,
+    219.87,
+    749.97,
+    227.22
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "稅務扣除。",
+   "targets": [
+    "p23:3",
+    "p15:3"
+   ],
+   "targetDisplay": "P24 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0014",
+   "page": 9,
+   "bbox": [
+    492.96,
+    501.28,
+    498.19,
+    508.26
+   ],
+   "text": "13",
+   "kind": "numeric",
+   "contextBefore": "港元31,600",
+   "targets": [
+    "p15:13"
+   ],
+   "targetDisplay": "P16 · 備註 13",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0015",
+   "page": 9,
+   "bbox": [
+    123.28,
+    501.28,
+    126.47,
+    508.26
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "額外醫療保障",
+   "targets": [
+    "p15:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0016",
+   "page": 9,
+   "bbox": [
+    703.1,
+    532.98,
+    706.29,
+    539.96
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "額外醫療保障",
+   "targets": [
+    "p15:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0017",
+   "page": 9,
+   "bbox": [
+    1072.98,
+    532.98,
+    1078.21,
+    539.96
+   ],
+   "text": "13",
+   "kind": "numeric",
+   "contextBefore": "港元40,784",
+   "targets": [
+    "p15:13"
+   ],
+   "targetDisplay": "P16 · 備註 13",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0018",
+   "page": 10,
+   "bbox": [
+    356.96,
+    152.01,
+    362.82,
+    159.73
+   ],
+   "text": "14",
+   "kind": "numeric",
+   "contextBefore": "保障,我們亦提供以下增值服務,讓您享有多重保障。",
+   "targets": [
+    "p15:14"
+   ],
+   "targetDisplay": "P16 · 備註 14",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0019",
+   "page": 10,
+   "bbox": [
+    341.1,
+    245.12,
+    346.36,
+    252.11
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "護送服務。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0020",
+   "page": 10,
+   "bbox": [
+    239.25,
+    276.17,
+    244.97,
+    283.27
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "可賠償金額估算和免找數安排服務",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0021",
+   "page": 10,
+   "bbox": [
+    390.21,
+    311.0,
+    395.6,
+    317.99
+   ],
+   "text": "18",
+   "kind": "numeric",
+   "contextBefore": "預繳任何住院保證金。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0022",
+   "page": 10,
+   "bbox": [
+    259.51,
+    436.88,
+    264.78,
+    443.87
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "供應商安排下列服務,以便您可盡快恢復正常生活:",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0023",
+   "page": 11,
+   "bbox": [
+    407.97,
+    336.32,
+    411.2,
+    343.31
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "保證續保至100歲",
+   "targets": [
+    "p15:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0024",
+   "page": 12,
+   "bbox": [
+    86.74,
+    175.01,
+    100.5,
+    182.11
+   ],
+   "text": "20",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0024"
+  },
+  {
+   "id": "h0025",
+   "page": 12,
+   "bbox": [
+    86.74,
+    175.01,
+    100.5,
+    182.11
+   ],
+   "text": "21",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0024"
+  },
+  {
+   "id": "h0026",
+   "page": 12,
+   "bbox": [
+    117.69,
+    194.84,
+    120.81,
+    201.83
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "病房及膳食",
+   "targets": [
+    "p15:5"
+   ],
+   "targetDisplay": "P16 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0027",
+   "page": 12,
+   "bbox": [
+    118.64,
+    322.0,
+    124.71,
+    328.98
+   ],
+   "text": "22",
+   "kind": "numeric",
+   "contextBefore": "(d) 專科醫生費",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0028",
+   "page": 12,
+   "bbox": [
+    441.68,
+    386.3,
+    447.28,
+    393.28
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "每項手術,按手術表劃分的手術分類:",
+   "targets": [
+    "p15:10"
+   ],
+   "targetDisplay": "P16 · 備註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0029",
+   "page": 12,
+   "bbox": [
+    407.79,
+    518.11,
+    413.91,
+    525.09
+   ],
+   "text": "23",
+   "kind": "numeric",
+   "contextBefore": "外科醫生費的35%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0030",
+   "page": 12,
+   "bbox": [
+    407.79,
+    543.62,
+    413.91,
+    550.6
+   ],
+   "text": "23",
+   "kind": "numeric",
+   "contextBefore": "外科醫生費的35%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0031",
+   "page": 12,
+   "bbox": [
+    136.69,
+    641.43,
+    142.76,
+    648.42
+   ],
+   "text": "22",
+   "kind": "numeric",
+   "contextBefore": "前後的門診護理",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0032",
+   "page": 13,
+   "bbox": [
+    86.61,
+    174.75,
+    100.38,
+    181.86
+   ],
+   "text": "20",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0032"
+  },
+  {
+   "id": "h0033",
+   "page": 13,
+   "bbox": [
+    86.61,
+    174.75,
+    100.38,
+    181.86
+   ],
+   "text": "21",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0032"
+  },
+  {
+   "id": "h0034",
+   "page": 13,
+   "bbox": [
+    127.06,
+    232.43,
+    133.13,
+    239.42
+   ],
+   "text": "22",
+   "kind": "numeric",
+   "contextBefore": "居家看護保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0035",
+   "page": 13,
+   "bbox": [
+    127.06,
+    276.13,
+    133.13,
+    283.11
+   ],
+   "text": "22",
+   "kind": "numeric",
+   "contextBefore": "洗腎治療保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0036",
+   "page": 13,
+   "bbox": [
+    146.06,
+    333.34,
+    152.13,
+    340.33
+   ],
+   "text": "22",
+   "kind": "numeric",
+   "contextBefore": "心臟復康診療保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0037",
+   "page": 13,
+   "bbox": [
+    155.56,
+    414.74,
+    161.63,
+    421.72
+   ],
+   "text": "22",
+   "kind": "numeric",
+   "contextBefore": "物理治療師診療保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0038",
+   "page": 13,
+   "bbox": [
+    127.06,
+    440.44,
+    130.25,
+    447.42
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "額外醫療保障",
+   "targets": [
+    "p15:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  }
+ ],
+ "stats": {
+  "anchors": 39,
+  "notes": 17,
+  "resolved": 23
+ }
+}

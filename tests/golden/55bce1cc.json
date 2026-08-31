@@ -1,0 +1,1217 @@
+{
+ "version": "1.1",
+ "docId": "55bce1cc",
+ "meta": {
+  "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/自愿医保灵活计划+.pdf",
+  "pages": 20,
+  "title": "自愿医保灵活计划+.pdf",
+  "hasTextLayer": true
+ },
+ "config": {
+  "sizeRatio": 0.8,
+  "riseRatio": 0.22,
+  "gapRatio": 0.6
+ },
+ "notes": [
+  {
+   "noteId": "p14:1",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    28.35,
+    655.81,
+    329.1,
+    666.25
+   ],
+   "number": "1",
+   "text": "除另有說明外,同一項目的合資格費用不可獲上述表中多於一個保障項目的賠償。",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:2",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    28.35,
+    667.65,
+    401.1,
+    678.08
+   ],
+   "number": "2",
+   "text": "我們有權要求有關書面建議的證明,例如轉介信或由主診醫生或註冊醫生在索償申請表內提供的陳述。",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:3",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    28.35,
+    679.48,
+    498.99,
+    689.91
+   ],
+   "number": "3",
+   "text": "檢測只包括電腦斷層掃描(“CT”掃描)、磁力共振掃描(“MRI”掃描)、正電子放射斷層掃描(“PET”掃描)、PET–CT組合及PET–MRI組合。",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:4",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    28.35,
+    691.31,
+    281.1,
+    701.74
+   ],
+   "number": "4",
+   "text": "治療只包括放射性治療、化療、標靶治療、免疫治療及荷爾蒙治療。",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:5",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    28.35,
+    703.14,
+    401.1,
+    713.57
+   ],
+   "number": "5",
+   "text": "此百分比適用於外科醫生費實際賠償的金額或根據手術分類下外科醫生費的保障限額,以較低者為準。",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:6",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    28.35,
+    714.97,
+    497.1,
+    725.41
+   ],
+   "number": "6",
+   "text": "環球緊急支援服務是一個額外保障,並不構成自願醫保認可產品的一部份。保單持有人可以書面方式通知本公司取消此額外保障。",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:7",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    28.35,
+    726.81,
+    534.3,
+    737.24
+   ],
+   "number": "7",
+   "text": "自願醫保下的自願醫保標準計劃的條款及保障亦同時提供保障表第I (a) - (l)項,並受其保障限額所規限。有關詳情,請參閱www.vhis.gov.hk。",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:8",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    28.35,
+    738.64,
+    209.1,
+    749.07
+   ],
+   "number": "8",
+   "text": "保障項目的每保單年度限額只適用於網絡保障。",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:9",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    28.35,
+    750.47,
+    217.1,
+    760.9
+   ],
+   "number": "9",
+   "text": "保障項目的每保單年度限額只適用於非網絡保障。",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:10",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    28.35,
+    762.3,
+    409.1,
+    772.73
+   ],
+   "number": "10",
+   "text": "於任何情況下,於網絡保障及非網絡保障下以每保單年度計算的已使用總限額不得超過網絡保障的限額。",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:11",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    28.35,
+    774.13,
+    568.76,
+    793.57
+   ],
+   "number": "11",
+   "text": "共同保險為您須自費按百分比分擔的合資格費用。舉例說,假如合資格費用為10,000港元,在15%共同保險下,您須負責1,500港元(即15%合資格費用) 而我們會賠償餘下的8,500港元(即85%合資格費用)。",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:12",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    28.34,
+    794.97,
+    568.75,
+    814.4
+   ],
+   "number": "12",
+   "text": "共同保險為您須自費按百分比分擔的合資格費用。舉例說,假如合資格費用為10,000港元,在20%共同保險下,您須負責2,000港元(即20%合資格費用) 而我們會賠償餘下的8,000港元(即80%合資格費用)。",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p17:1",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    28.35,
+    120.02,
+    78.13,
+    132.76
+   ],
+   "number": "1",
+   "text": "保費調整",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:1",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    311.81,
+    120.13,
+    566.93,
+    131.87
+   ],
+   "number": "1",
+   "text": "我們只會根據「醫療所需」和「合理及慣常」的原則,為受保",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:2",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    28.36,
+    287.56,
+    99.03,
+    300.29
+   ],
+   "number": "2",
+   "text": "產品內容改動",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:2",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    311.81,
+    525.11,
+    566.93,
+    536.85
+   ],
+   "number": "2",
+   "text": "每項手術的外科醫生費之最高限額將視乎相關手術的分類及該",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:3",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    311.81,
+    559.03,
+    566.93,
+    570.77
+   ],
+   "number": "3",
+   "text": "精神科治療 (見保障表I(l) 項) 只賠償受保人在專科醫生建議",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p8:inline17",
+   "anchor": "inline",
+   "page": 8,
+   "bbox": [
+    36.47,
+    462.27,
+    273.46,
+    472.7
+   ],
+   "number": "",
+   "text": "註:「AIA Vitality 健康程式」並非保險產品,加入須繳交會員年費。",
+   "textPages": [
+    8
+   ]
+  },
+  {
+   "noteId": "p10:inline18",
+   "anchor": "inline",
+   "page": 10,
+   "bbox": [
+    36.67,
+    609.03,
+    242.08,
+    619.47
+   ],
+   "number": "",
+   "text": "註:個案假設 – 保單週年日及受保人出生日期為1月1日。",
+   "textPages": [
+    10
+   ]
+  }
+ ],
+ "hotspots": [
+  {
+   "id": "h0000",
+   "page": 11,
+   "bbox": [
+    314.44,
+    376.54,
+    326.81,
+    383.06
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "網絡保障",
+   "targets": [
+    "p14:8"
+   ],
+   "targetDisplay": "P15 · 腳註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0000"
+  },
+  {
+   "id": "h0001",
+   "page": 11,
+   "bbox": [
+    314.44,
+    376.54,
+    326.81,
+    383.06
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "網絡保障",
+   "targets": [
+    "p14:10"
+   ],
+   "targetDisplay": "P15 · 腳註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0000"
+  },
+  {
+   "id": "h0002",
+   "page": 11,
+   "bbox": [
+    498.02,
+    376.54,
+    510.4,
+    383.06
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "非網絡保障",
+   "targets": [
+    "p14:9"
+   ],
+   "targetDisplay": "P15 · 腳註 9",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0002"
+  },
+  {
+   "id": "h0003",
+   "page": 11,
+   "bbox": [
+    498.02,
+    376.54,
+    510.4,
+    383.06
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "非網絡保障",
+   "targets": [
+    "p14:10"
+   ],
+   "targetDisplay": "P15 · 腳註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0002"
+  },
+  {
+   "id": "h0004",
+   "page": 11,
+   "bbox": [
+    88.84,
+    398.3,
+    96.61,
+    404.81
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [
+    "p14:1",
+    "p17:1",
+    "p17:1"
+   ],
+   "targetDisplay": "P15 · 腳註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0004"
+  },
+  {
+   "id": "h0005",
+   "page": 11,
+   "bbox": [
+    88.84,
+    398.3,
+    96.61,
+    404.81
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [
+    "p14:7"
+   ],
+   "targetDisplay": "P15 · 腳註 7",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0004"
+  },
+  {
+   "id": "h0006",
+   "page": 11,
+   "bbox": [
+    112.94,
+    526.98,
+    117.54,
+    533.5
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "d.  專科醫生費",
+   "targets": [
+    "p14:2",
+    "p17:2",
+    "p17:2"
+   ],
+   "targetDisplay": "P15 · 腳註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0007",
+   "page": 11,
+   "bbox": [
+    419.82,
+    731.69,
+    422.43,
+    736.86
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "外科醫生費的35%",
+   "targets": [
+    "p14:5"
+   ],
+   "targetDisplay": "P15 · 腳註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0008",
+   "page": 11,
+   "bbox": [
+    419.82,
+    747.28,
+    422.43,
+    752.45
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "外科醫生費的35%",
+   "targets": [
+    "p14:5"
+   ],
+   "targetDisplay": "P15 · 腳註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0009",
+   "page": 11,
+   "bbox": [
+    143.08,
+    770.05,
+    152.19,
+    777.07
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "i.    訂明診斷成像檢測",
+   "targets": [
+    "p14:2",
+    "p17:2",
+    "p17:2"
+   ],
+   "targetDisplay": "P15 · 腳註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0009"
+  },
+  {
+   "id": "h0010",
+   "page": 11,
+   "bbox": [
+    143.08,
+    770.05,
+    152.19,
+    777.07
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "i.    訂明診斷成像檢測",
+   "targets": [
+    "p14:3",
+    "p17:3"
+   ],
+   "targetDisplay": "P15 · 腳註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0009"
+  },
+  {
+   "id": "h0011",
+   "page": 12,
+   "bbox": [
+    314.44,
+    163.58,
+    326.81,
+    170.1
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "網絡保障",
+   "targets": [
+    "p14:8"
+   ],
+   "targetDisplay": "P15 · 腳註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0011"
+  },
+  {
+   "id": "h0012",
+   "page": 12,
+   "bbox": [
+    314.44,
+    163.58,
+    326.81,
+    170.1
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "網絡保障",
+   "targets": [
+    "p14:10"
+   ],
+   "targetDisplay": "P15 · 腳註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0011"
+  },
+  {
+   "id": "h0013",
+   "page": 12,
+   "bbox": [
+    498.02,
+    163.58,
+    510.4,
+    170.1
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "非網絡保障",
+   "targets": [
+    "p14:9"
+   ],
+   "targetDisplay": "P15 · 腳註 9",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0013"
+  },
+  {
+   "id": "h0014",
+   "page": 12,
+   "bbox": [
+    498.02,
+    163.58,
+    510.4,
+    170.1
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "非網絡保障",
+   "targets": [
+    "p14:10"
+   ],
+   "targetDisplay": "P15 · 腳註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0013"
+  },
+  {
+   "id": "h0015",
+   "page": 12,
+   "bbox": [
+    88.84,
+    185.84,
+    96.61,
+    192.36
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [
+    "p14:1",
+    "p17:1",
+    "p17:1"
+   ],
+   "targetDisplay": "P15 · 腳註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0015"
+  },
+  {
+   "id": "h0016",
+   "page": 12,
+   "bbox": [
+    88.84,
+    185.84,
+    96.61,
+    192.36
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [
+    "p14:7"
+   ],
+   "targetDisplay": "P15 · 腳註 7",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0015"
+  },
+  {
+   "id": "h0017",
+   "page": 12,
+   "bbox": [
+    152.38,
+    228.78,
+    156.98,
+    235.3
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "j.    訂明非手術癌症治療",
+   "targets": [
+    "p14:4"
+   ],
+   "targetDisplay": "P15 · 腳註 4",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0018",
+   "page": 12,
+   "bbox": [
+    172.19,
+    273.87,
+    175.46,
+    280.39
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "日間手術前後的門診護理",
+   "targets": [
+    "p14:2",
+    "p17:2",
+    "p17:2"
+   ],
+   "targetDisplay": "P15 · 腳註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0019",
+   "page": 12,
+   "bbox": [
+    178.67,
+    502.02,
+    183.27,
+    508.54
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "m. 長期治療賠償 - 腎臟透析",
+   "targets": [
+    "p14:2",
+    "p17:2",
+    "p17:2"
+   ],
+   "targetDisplay": "P15 · 腳註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0020",
+   "page": 12,
+   "bbox": [
+    191.89,
+    536.54,
+    196.49,
+    543.05
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "n.  手術後家中每日看護費用賠償",
+   "targets": [
+    "p14:2",
+    "p17:2",
+    "p17:2"
+   ],
+   "targetDisplay": "P15 · 腳註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0021",
+   "page": 13,
+   "bbox": [
+    318.69,
+    202.49,
+    331.07,
+    209.01
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "網絡保障",
+   "targets": [
+    "p14:8"
+   ],
+   "targetDisplay": "P15 · 腳註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0021"
+  },
+  {
+   "id": "h0022",
+   "page": 13,
+   "bbox": [
+    318.69,
+    202.49,
+    331.07,
+    209.01
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "網絡保障",
+   "targets": [
+    "p14:10"
+   ],
+   "targetDisplay": "P15 · 腳註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0021"
+  },
+  {
+   "id": "h0023",
+   "page": 13,
+   "bbox": [
+    499.44,
+    202.49,
+    511.81,
+    209.01
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "非網絡保障",
+   "targets": [
+    "p14:9"
+   ],
+   "targetDisplay": "P15 · 腳註 9",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0023"
+  },
+  {
+   "id": "h0024",
+   "page": 13,
+   "bbox": [
+    499.44,
+    202.49,
+    511.81,
+    209.01
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "非網絡保障",
+   "targets": [
+    "p14:10"
+   ],
+   "targetDisplay": "P15 · 腳註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0023"
+  },
+  {
+   "id": "h0025",
+   "page": 13,
+   "bbox": [
+    88.84,
+    223.25,
+    96.61,
+    229.77
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [
+    "p14:1",
+    "p17:1",
+    "p17:1"
+   ],
+   "targetDisplay": "P15 · 腳註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0025"
+  },
+  {
+   "id": "h0026",
+   "page": 13,
+   "bbox": [
+    88.84,
+    223.25,
+    96.61,
+    229.77
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [
+    "p14:7"
+   ],
+   "targetDisplay": "P15 · 腳註 7",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0025"
+  },
+  {
+   "id": "h0027",
+   "page": 13,
+   "bbox": [
+    337.0,
+    314.0,
+    342.22,
+    319.17
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "受限於15%共同保險",
+   "targets": [
+    "p14:11"
+   ],
+   "targetDisplay": "P15 · 腳註 11",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0028",
+   "page": 13,
+   "bbox": [
+    512.74,
+    314.0,
+    517.97,
+    319.17
+   ],
+   "text": "12",
+   "kind": "numeric",
+   "contextBefore": "受限於20%共同保險",
+   "targets": [
+    "p14:12"
+   ],
+   "targetDisplay": "P15 · 腳註 12",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0029",
+   "page": 13,
+   "bbox": [
+    136.2,
+    446.6,
+    140.81,
+    454.12
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "(iv)    專科醫生費",
+   "targets": [
+    "p14:2",
+    "p17:2",
+    "p17:2"
+   ],
+   "targetDisplay": "P15 · 腳註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0030",
+   "page": 13,
+   "bbox": [
+    165.68,
+    561.68,
+    174.79,
+    569.2
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "(ix)    訂明診斷成像檢測",
+   "targets": [
+    "p14:2",
+    "p17:2",
+    "p17:2"
+   ],
+   "targetDisplay": "P15 · 腳註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0030"
+  },
+  {
+   "id": "h0031",
+   "page": 13,
+   "bbox": [
+    165.68,
+    561.68,
+    174.79,
+    569.2
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "(ix)    訂明診斷成像檢測",
+   "targets": [
+    "p14:3",
+    "p17:3"
+   ],
+   "targetDisplay": "P15 · 腳註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0030"
+  },
+  {
+   "id": "h0032",
+   "page": 13,
+   "bbox": [
+    185.29,
+    604.0,
+    189.89,
+    610.52
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "日間手術後的門診護理",
+   "targets": [
+    "p14:2",
+    "p17:2",
+    "p17:2"
+   ],
+   "targetDisplay": "P15 · 腳註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0033",
+   "page": 13,
+   "bbox": [
+    126.29,
+    672.75,
+    130.89,
+    680.27
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "費用賠償",
+   "targets": [
+    "p14:2",
+    "p17:2",
+    "p17:2"
+   ],
+   "targetDisplay": "P15 · 腳註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0034",
+   "page": 14,
+   "bbox": [
+    314.08,
+    164.29,
+    326.46,
+    170.81
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "網絡保障",
+   "targets": [
+    "p14:8"
+   ],
+   "targetDisplay": "P15 · 腳註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0034"
+  },
+  {
+   "id": "h0035",
+   "page": 14,
+   "bbox": [
+    314.08,
+    164.29,
+    326.46,
+    170.81
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "網絡保障",
+   "targets": [
+    "p14:10"
+   ],
+   "targetDisplay": "P15 · 腳註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0034"
+  },
+  {
+   "id": "h0036",
+   "page": 14,
+   "bbox": [
+    497.67,
+    164.29,
+    510.04,
+    170.81
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "非網絡保障",
+   "targets": [
+    "p14:9"
+   ],
+   "targetDisplay": "P15 · 腳註 9",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0036"
+  },
+  {
+   "id": "h0037",
+   "page": 14,
+   "bbox": [
+    497.67,
+    164.29,
+    510.04,
+    170.81
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "非網絡保障",
+   "targets": [
+    "p14:10"
+   ],
+   "targetDisplay": "P15 · 腳註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0036"
+  },
+  {
+   "id": "h0038",
+   "page": 14,
+   "bbox": [
+    88.48,
+    185.05,
+    96.25,
+    191.57
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [
+    "p14:1",
+    "p17:1",
+    "p17:1"
+   ],
+   "targetDisplay": "P15 · 腳註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0038"
+  },
+  {
+   "id": "h0039",
+   "page": 14,
+   "bbox": [
+    88.48,
+    185.05,
+    96.25,
+    191.57
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [
+    "p14:7"
+   ],
+   "targetDisplay": "P15 · 腳註 7",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0038"
+  },
+  {
+   "id": "h0040",
+   "page": 14,
+   "bbox": [
+    142.22,
+    409.93,
+    146.83,
+    417.45
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "i.   環球緊急支援服務",
+   "targets": [
+    "p14:6"
+   ],
+   "targetDisplay": "P15 · 腳註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  }
+ ],
+ "stats": {
+  "anchors": 41,
+  "notes": 19,
+  "resolved": 41
+ }
+}

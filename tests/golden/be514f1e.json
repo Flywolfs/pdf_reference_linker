@@ -1,0 +1,310 @@
+{
+ "version": "1.1",
+ "docId": "be514f1e",
+ "meta": {
+  "path": "/home/zhangchi/Documents/insurance/AXA/重疾/AXA爱唯守危疾保障(升级版)-产品说明书.pdf",
+  "pages": 46,
+  "title": "LPPM 907-RDC TotalAssure Plus TotalAssure Plus BabyPro Product Brochure_HK&MA (Chi)",
+  "hasTextLayer": true
+ },
+ "config": {
+  "sizeRatio": 0.8,
+  "riseRatio": 0.22,
+  "gapRatio": 0.6
+ },
+ "notes": [
+  {
+   "noteId": "p3:inline0",
+   "anchor": "inline",
+   "page": 3,
+   "bbox": [
+    42.99,
+    704.74,
+    552.92,
+    727.59
+   ],
+   "number": "",
+   "text": "註: 嚴重疾病多重保險賠償俯,修俯之等候期:任何俯種嚴重疾病的診斷日期相距最少修年。(上一次癌症的復發或擴散或持續癌症除外,癌症等候期之詳情",
+   "textPages": [
+    3
+   ]
+  },
+  {
+   "noteId": "p5:inline1",
+   "anchor": "inline",
+   "page": 5,
+   "bbox": [
+    90.14,
+    739.32,
+    456.4,
+    762.17
+   ],
+   "number": "",
+   "text": "註:一旦在任何期間已支付持續癌症保險賠償俯,修俯,修俱,您則不可再就任何癌症獲得嚴重疾病多重保險賠償俯,修俯。",
+   "textPages": [
+    5
+   ]
+  },
+  {
+   "noteId": "p6:inline2",
+   "anchor": "inline",
+   "page": 6,
+   "bbox": [
+    43.02,
+    436.23,
+    552.92,
+    459.08
+   ],
+   "number": "",
+   "text": "註: 就即時支援保險賠償俯,修俵而言,被保人被診斷患有的晚期癌症修俴必須符合癌症及晚期癌症修俴定義中所列的條款及條件。您需於確診患有",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p8:inline3",
+   "anchor": "inline",
+   "page": 8,
+   "bbox": [
+    43.02,
+    765.3,
+    553.02,
+    788.15
+   ],
+   "number": "",
+   "text": "註: 假設(a)有關疾病並不在「愛唯守(升級版)」的不保事項之列,並符合保單合約所列之有關規定及條件;(b)未曾就保單已付及/或應付其他",
+   "textPages": [
+    8
+   ]
+  },
+  {
+   "noteId": "p11:inline4",
+   "anchor": "inline",
+   "page": 11,
+   "bbox": [
+    43.02,
+    765.3,
+    553.02,
+    788.15
+   ],
+   "number": "",
+   "text": "註: 假設(a)有關疾病並不在「愛唯守(升級版)」的不保事項之列,並符合保單合約所列之有關規定及條件;(b)未曾就保單已付及/或應付其他",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p19:inline5",
+   "anchor": "inline",
+   "page": 19,
+   "bbox": [
+    43.02,
+    762.47,
+    552.96,
+    785.32
+   ],
+   "number": "",
+   "text": "註: 假設(a)有關疾病並不在「愛唯守(升級版) ‒ 愛寶保」的不保事項之列,並符合保單合約所列之有關規定及條件;(b)未曾就保單已付及/或",
+   "textPages": [
+    19
+   ]
+  }
+ ],
+ "hotspots": [
+  {
+   "id": "h0000",
+   "page": 2,
+   "bbox": [
+    514.95,
+    441.68,
+    520.78,
+    458.33
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "之創傷性療法,以及其他非嚴重疾病,",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0001",
+   "page": 2,
+   "bbox": [
+    699.94,
+    456.67,
+    705.77,
+    473.33
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "被保人修俭俭歲",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0002",
+   "page": 2,
+   "bbox": [
+    424.49,
+    456.68,
+    430.32,
+    473.33
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "保障直至修俭俭歲",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0003",
+   "page": 2,
+   "bbox": [
+    214.39,
+    456.88,
+    220.22,
+    473.53
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "乳房癌前病變,保障直至修俭俭歲",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0004",
+   "page": 2,
+   "bbox": [
+    479.05,
+    476.68,
+    484.88,
+    493.33
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "重大手術俴,保障直至 修俭俭 歲",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0005",
+   "page": 10,
+   "bbox": [
+    70.75,
+    321.72,
+    76.58,
+    338.37
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": ",助您應付大幅調整生活模式及長期護理所需的開支。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0006",
+   "page": 28,
+   "bbox": [
+    325.68,
+    213.13,
+    328.36,
+    229.78
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "每次賠償為保額俱的俯俭%,而就",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0007",
+   "page": 28,
+   "bbox": [
+    495.13,
+    285.13,
+    500.96,
+    301.78
+   ],
+   "text": "‡",
+   "kind": "asterisk",
+   "contextBefore": "非嚴重疾病保險賠償金額的俯俭%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0008",
+   "page": 28,
+   "bbox": [
+    528.45,
+    485.85,
+    534.28,
+    502.5
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "保額俱的俯俭%計算賠償的應付金額",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0009",
+   "page": 35,
+   "bbox": [
+    467.72,
+    318.71,
+    470.54,
+    335.34
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "分配",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  }
+ ],
+ "stats": {
+  "anchors": 10,
+  "notes": 6,
+  "resolved": 0
+ }
+}

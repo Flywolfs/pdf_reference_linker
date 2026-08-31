@@ -7,9 +7,11 @@ import PageView from './PageView'
 interface Props {
   docId: string
   analysis: Analysis
+  missMode: boolean
+  onMissBoxed: (pageNo: number, bboxPdf: number[]) => void
 }
 
-export default function PdfViewer({ docId, analysis }: Props) {
+export default function PdfViewer({ docId, analysis, missMode, onMissBoxed }: Props) {
   const scrollRef = useRef<HTMLDivElement>(null)
   const [pdf, setPdf] = useState<any>(null)
   const [pages, setPages] = useState<PDFPageProxy[]>([])
@@ -86,6 +88,8 @@ export default function PdfViewer({ docId, analysis }: Props) {
             highlightNoteId={highlightNoteId}
             onJumpNote={jumpToNote}
             registerRendered={registerRendered}
+            missMode={missMode}
+            onMissBoxed={onMissBoxed}
           />
         ))}
       </div>

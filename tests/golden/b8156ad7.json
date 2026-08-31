@@ -1,0 +1,451 @@
+{
+ "version": "1.1",
+ "docId": "b8156ad7",
+ "meta": {
+  "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/自愿医保标准计划.pdf",
+  "pages": 16,
+  "title": "自愿医保标准计划.pdf",
+  "hasTextLayer": true
+ },
+ "config": {
+  "sizeRatio": 0.8,
+  "riseRatio": 0.22,
+  "gapRatio": 0.6
+ },
+ "notes": [
+  {
+   "noteId": "p10:1",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    28.35,
+    739.0,
+    409.1,
+    749.43
+   ],
+   "number": "1",
+   "text": "同一項目的合資格費用不可獲上述表中多於一個保障項目的賠償。所有保障均不設病房級別選擇的限制。",
+   "textPages": [
+    10
+   ]
+  },
+  {
+   "noteId": "p10:2",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    28.35,
+    750.34,
+    401.1,
+    760.77
+   ],
+   "number": "2",
+   "text": "我們有權要求有關書面建議的證明,例如轉介信或由主診醫生或註冊醫生在索償申請表內提供的陳述。",
+   "textPages": [
+    10
+   ]
+  },
+  {
+   "noteId": "p10:3",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    28.35,
+    760.67,
+    514.28,
+    772.11
+   ],
+   "number": "3",
+   "text": "檢測只包括電腦斷層掃描(“CT” 掃描 )、磁力共振掃描(“MRI” 掃描 )、正電子放射斷層掃描(“PET” 掃描 )、PET–CT組合及PET–MRI組合。",
+   "textPages": [
+    10
+   ]
+  },
+  {
+   "noteId": "p10:4",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    28.35,
+    773.01,
+    281.1,
+    783.44
+   ],
+   "number": "4",
+   "text": "治療只包括放射性治療、化療、標靶治療、免疫治療及荷爾蒙治療。",
+   "textPages": [
+    10
+   ]
+  },
+  {
+   "noteId": "p10:5",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    28.35,
+    784.35,
+    401.1,
+    794.78
+   ],
+   "number": "5",
+   "text": "此百分比適用於外科醫生費實際賠償的金額或根據手術分類下外科醫生費的保障限額,以較低者為準。",
+   "textPages": [
+    10
+   ]
+  },
+  {
+   "noteId": "p10:6",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    28.35,
+    795.68,
+    569.15,
+    814.61
+   ],
+   "number": "6",
+   "text": "共同保險為您須自費按百分比分擔的合資格費用。舉例說,假如合資格費用為10,000港元,在30%共同保險下,您須負責3,000港元(即30%合資格 費用)而我們會賠償餘下的7,000港元(即70%合資格費用)。",
+   "textPages": [
+    10
+   ]
+  },
+  {
+   "noteId": "p14:4",
+   "anchor": "standalone",
+   "page": 14,
+   "bbox": [
+    311.82,
+    138.21,
+    566.97,
+    149.95
+   ],
+   "number": "4",
+   "text": "如合資格費用已獲任何法律,或由任何政府、僱主、第三方",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:1",
+   "anchor": "standalone",
+   "page": 14,
+   "bbox": [
+    28.35,
+    161.97,
+    283.5,
+    173.71
+   ],
+   "number": "1",
+   "text": "我們只會根據「醫療所需」和「合理及慣常」的原則,為受",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:5",
+   "anchor": "standalone",
+   "page": 14,
+   "bbox": [
+    311.82,
+    184.13,
+    569.45,
+    195.87
+   ],
+   "number": "5",
+   "text": "醫療網絡服務、「出院免找數服務」及「醫療費用預先批核",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:2",
+   "anchor": "standalone",
+   "page": 14,
+   "bbox": [
+    28.35,
+    578.95,
+    283.5,
+    590.69
+   ],
+   "number": "2",
+   "text": "每項手術的外科醫生費之最高限額將視乎相關手術的分類及",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:3",
+   "anchor": "standalone",
+   "page": 14,
+   "bbox": [
+    28.35,
+    611.88,
+    283.5,
+    624.61
+   ],
+   "number": "3",
+   "text": "精神科治療(見保障表第(l) 項) 只賠償受保人在專科醫生建",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p6:inline11",
+   "anchor": "inline",
+   "page": 6,
+   "bbox": [
+    36.47,
+    370.08,
+    273.46,
+    380.51
+   ],
+   "number": "",
+   "text": "註:「AIA Vitality 健康程式」並非保險產品,加入須繳交會員年費。",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p8:inline12",
+   "anchor": "inline",
+   "page": 8,
+   "bbox": [
+    36.09,
+    653.15,
+    241.5,
+    663.58
+   ],
+   "number": "",
+   "text": "註:個案假設 – 保單週年日及受保人出生日期為1月1日。",
+   "textPages": [
+    8
+   ]
+  }
+ ],
+ "hotspots": [
+  {
+   "id": "h0000",
+   "page": 9,
+   "bbox": [
+    94.71,
+    377.09,
+    97.98,
+    383.55
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [
+    "p10:1",
+    "p14:1"
+   ],
+   "targetDisplay": "P11 · 腳註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0001",
+   "page": 9,
+   "bbox": [
+    120.31,
+    487.56,
+    123.58,
+    494.03
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "d.   專科醫生費",
+   "targets": [
+    "p10:2",
+    "p14:2"
+   ],
+   "targetDisplay": "P11 · 腳註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0002",
+   "page": 9,
+   "bbox": [
+    492.47,
+    629.37,
+    495.74,
+    635.84
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "外科醫生費的35%",
+   "targets": [
+    "p10:5",
+    "p14:5"
+   ],
+   "targetDisplay": "P11 · 腳註 5",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0003",
+   "page": 9,
+   "bbox": [
+    492.47,
+    646.38,
+    495.74,
+    652.85
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "外科醫生費的35%",
+   "targets": [
+    "p10:5",
+    "p14:5"
+   ],
+   "targetDisplay": "P11 · 腳註 5",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0004",
+   "page": 9,
+   "bbox": [
+    150.15,
+    663.31,
+    157.83,
+    669.77
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "i.    訂明診斷成像檢測",
+   "targets": [
+    "p10:2",
+    "p14:2"
+   ],
+   "targetDisplay": "P11 · 腳註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0004"
+  },
+  {
+   "id": "h0005",
+   "page": 9,
+   "bbox": [
+    150.15,
+    663.31,
+    157.83,
+    669.77
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "i.    訂明診斷成像檢測",
+   "targets": [
+    "p10:3",
+    "p14:3"
+   ],
+   "targetDisplay": "P11 · 腳註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0004"
+  },
+  {
+   "id": "h0006",
+   "page": 9,
+   "bbox": [
+    479.87,
+    674.31,
+    483.14,
+    680.77
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "設30%共同保險",
+   "targets": [
+    "p10:6"
+   ],
+   "targetDisplay": "P11 · 腳註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0007",
+   "page": 9,
+   "bbox": [
+    160.15,
+    691.65,
+    164.76,
+    698.12
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "j.    訂明非手術癌症治療",
+   "targets": [
+    "p10:4",
+    "p14:4"
+   ],
+   "targetDisplay": "P11 · 腳註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0008",
+   "page": 9,
+   "bbox": [
+    255.35,
+    739.84,
+    258.62,
+    746.31
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": ".   入院前或出院後/ 日間手術前後的門診護理",
+   "targets": [
+    "p10:2",
+    "p14:2"
+   ],
+   "targetDisplay": "P11 · 腳註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0009",
+   "page": 10,
+   "bbox": [
+    175.02,
+    555.6,
+    178.29,
+    562.06
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "保障項目",
+   "targets": [
+    "p10:1",
+    "p14:1"
+   ],
+   "targetDisplay": "P11 · 腳註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  }
+ ],
+ "stats": {
+  "anchors": 10,
+  "notes": 13,
+  "resolved": 10
+ }
+}

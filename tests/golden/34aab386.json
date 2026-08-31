@@ -1,0 +1,1345 @@
+{
+ "version": "1.1",
+ "docId": "34aab386",
+ "meta": {
+  "path": "/home/zhangchi/Documents/insurance/保誠/重疾/保诚诚保一生危疾保系列-产品小册子.pdf",
+  "pages": 35,
+  "title": "保诚诚保一生危疾保系列-产品小册子.pdf",
+  "hasTextLayer": true
+ },
+ "config": {
+  "sizeRatio": 0.8,
+  "riseRatio": 0.22,
+  "gapRatio": 0.6
+ },
+ "notes": [
+  {
+   "noteId": "p17:1",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    35.43,
+    100.55,
+    557.15,
+    144.0
+   ],
+   "number": "1",
+   "text": "於孩子出生前,受保人為孕婦,並只受保於恩恤賠償。於孩子出生後,您必須於不遲於第1個保單周年日的14日前完成 初生嬰兒登記(包括向我們遞交相應的出生證明),否則保單將於第1個保單周年日終止。此登記完成後,受保人將會更改 為孩子。詳情請參閱保單條款。",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:2",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    35.43,
+    151.38,
+    551.76,
+    194.83
+   ],
+   "number": "2",
+   "text": "「產後抑鬱」指由孩子出生日起6個月內,親生母親由註冊精神科專科醫生確診符合根據最新版《精神疾病診斷與統計 手冊》(DSM) 中定義的產後抑鬱症,且該親生母親於診斷日期的6個月內接受了至少6次由相關醫學範疇的註冊專科醫生 或當地的註冊心理學家進行的認知行為治療。",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:3",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    35.43,
+    202.22,
+    553.61,
+    293.66
+   ],
+   "number": "3",
+   "text": "假如受保人於同一次住院或同一事件中確診早期嚴重病況及/或兒童疾病保障以及符合深切治療保障的要求,我們只會 就同一受保人名下所有「誠保一生」危疾保及「誠保一生」危疾保—摯愛寶下的 (i) 早期嚴重疾病保障及/或兒童疾病 保障;及 (ii) 深切治療保障之賠償額較高者作出賠償(或於賠償額相同的情況下,我們只會就早期嚴重疾病保障及/或 兒童疾病保障作出賠償)。「事件」是指 (i) 任何造成身體受傷的意外導致多於1種或1次可被索償的病況或可被索償的 合資格的深切治療部留醫;或 (ii) 任何疾病、治療或併發症導致多於1種或1次可被索償的病況或可被索償的合資格的 深切治療部留醫,不論是否於同一次住院中發生。",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:4",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    35.43,
+    301.05,
+    546.83,
+    328.5
+   ],
+   "number": "4",
+   "text": "嚴重疾病保障已支付及/或應支付後,我們將不會提供兒童疾病保障、早期嚴重疾病保障、深切治療保障、身故保障及 退保價值。",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:5",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    35.43,
+    335.89,
+    549.35,
+    380.38
+   ],
+   "number": "5",
+   "text": "假如初生嬰兒於出生後90日內符合兒童疾病保障、早期嚴重疾病保障或深切治療保障的相關要求,應付賠償將減少至 保障金額的20%,但在計算退保價值、身故保障或嚴重疾病保障時將被視為全數賠償(即保障金額的100%)。此全數 賠償額亦將被計算在就兒童疾病保障、早期嚴重疾病保障及深切治療保障不得超出基本保額95%的限制內。",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:6",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    35.43,
+    386.72,
+    549.0,
+    415.21
+   ],
+   "number": "6",
+   "text": "冠狀動脈血管成形術最多可索償2次。若就冠狀動脈血管成形術提出第2次索償,接受該治療的主要冠狀動脈的狹窄或 阻塞位置必須在首次索償時的冠狀動脈造影顯示,其狹窄程度為不多於60%。",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:7",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    35.43,
+    421.56,
+    544.8,
+    466.05
+   ],
+   "number": "7",
+   "text": "原位癌最多可索償2次。若就原位癌提出第2次索償,該原位癌位於的器官必須與首次索償並獲支付賠償的相關器官 不同。處理原位癌索償時,若器官由左右兩部分所構成(包括但不限於乳房、輸卵管、肺、卵巢及睪丸),將視該器官的 左右兩部分為同一個器官。",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:8",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    35.43,
+    472.39,
+    548.06,
+    499.84
+   ],
+   "number": "8",
+   "text": "指定的8種早期嚴重病況包括原位癌、冠狀動脈血管成形術、早期甲狀腺或前列腺癌、次級侵害性惡性腫瘤、嚴重中樞 神經性睡眠窒息症或混合性睡眠窒息症、嚴重腦癇症、嚴重阻塞性睡眠窒息症及嚴重精神病。",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:9",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    35.43,
+    507.22,
+    556.32,
+    566.67
+   ],
+   "number": "9",
+   "text": "受保人須於同一次住院中的深切治療部連續留醫3日或以上,而該次留醫符合合資格的深切治療部留醫的要求,方合資格 索償此保障。合資格的深切治療部留醫指因醫療需要入住深切治療部。如入住的深切治療部位於香港或澳門境外,我們 將只會視因醫療需要而入住於三級護理醫院的深切治療部為合資格的深切治療部留醫。有關合資格的深切治療部留醫的 要求,請參閱保單條款。",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:10",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    35.43,
+    574.06,
+    542.07,
+    617.51
+   ],
+   "number": "10",
+   "text": "特別紅利為一次性非保證紅利,並會於下列最早發生的情況下支付:(i) 支付身故保障;或 (ii) 支付嚴重疾病保障;或 (iii) 計劃終止,惟相關情況必須發生於第5個保單周年日或以後。金額由我們絕對酌情釐訂。詳情請參閱「系列的詳細 資料」之「特別紅利」部分。",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:11",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    35.43,
+    624.89,
+    576.4,
+    830.96
+   ],
+   "number": "11",
+   "text": "特別紅利及退保價值並不適用於升級保障。升級保障會於以下情況被終止:(i) 計劃終止時;(ii) 當身故保障或嚴重疾病 保障已支付或應支付;或 (iii) 在第10個保單周年日,以最早者為準。 19",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p22:1",
+   "anchor": "standalone",
+   "page": 22,
+   "bbox": [
+    35.43,
+    105.67,
+    320.94,
+    118.16
+   ],
+   "number": "1",
+   "text": "原位癌包括所有器官,惟皮膚原位癌(包括原位黑色素瘤)除外。",
+   "textPages": [
+    22
+   ]
+  },
+  {
+   "noteId": "p22:2",
+   "anchor": "standalone",
+   "page": 22,
+   "bbox": [
+    35.43,
+    124.5,
+    538.7,
+    152.99
+   ],
+   "number": "2",
+   "text": "早期甲狀腺或前列腺癌指以下任何一種惡性腫瘤情況:(a) 根據TNM評級系統被界定為T1N0M0級別的甲狀腺腫瘤; 或 (b) 根據TNM評級系統被界定為T1a或T1b級別的前列腺腫瘤。",
+   "textPages": [
+    22
+   ]
+  },
+  {
+   "noteId": "p22:3",
+   "anchor": "standalone",
+   "page": 22,
+   "bbox": [
+    35.43,
+    159.34,
+    495.06,
+    187.83
+   ],
+   "number": "3",
+   "text": "次級侵害性惡性腫瘤指以下任何一種惡性腫瘤情況:(a) 被界定為RAI第I期或第II期的慢性淋巴性白血病; 或 (b) 最少為AJCC第II期或以上的非黑色素瘤皮膚癌。",
+   "textPages": [
+    22
+   ]
+  },
+  {
+   "noteId": "p22:4",
+   "anchor": "standalone",
+   "page": 22,
+   "bbox": [
+    35.43,
+    194.17,
+    576.55,
+    830.96
+   ],
+   "number": "4",
+   "text": "癌症不包括:(a) 根據TNM評級系統被界定為T1N0M0或以下級別的甲狀腺腫瘤;(b) 根據TNM評級系統被界定為 T1a或T1b或以下級別的前列腺腫瘤;(c) RAI第III期以下的慢性淋巴性白血病;(d) 任何惡性黑色素瘤以外的 皮膚癌;(e) 任何在人類免疫缺陷病毒 (HIV) 存在下出現的腫瘤;(f) 子宮頸上皮內瘤樣病變(CIN I、CIN II或CIN III)或 子宮頸鱗狀上皮內病變;及 (g) 分類為癌前病變、非浸潤性、或原位癌,或交界性或低惡性潛力的腫瘤。 24",
+   "textPages": [
+    22
+   ]
+  },
+  {
+   "noteId": "p4:inline15",
+   "anchor": "inline",
+   "page": 4,
+   "bbox": [
+    35.43,
+    748.96,
+    268.34,
+    756.96
+   ],
+   "number": "",
+   "text": "註:有關保障的詳情或保障上限,請參閱以下「系列之保障表」部分。",
+   "textPages": [
+    4
+   ]
+  },
+  {
+   "noteId": "p6:inline16",
+   "anchor": "inline",
+   "page": 6,
+   "bbox": [
+    35.43,
+    708.46,
+    268.34,
+    716.46
+   ],
+   "number": "",
+   "text": "註:有關保障的詳情或保障上限,請參閱以下「系列之保障表」部分。",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p16:inline17",
+   "anchor": "inline",
+   "page": 16,
+   "bbox": [
+    35.43,
+    478.11,
+    270.66,
+    488.11
+   ],
+   "number": "",
+   "text": "註:以上所有保障須扣除未償還之貸款及利息(如有)。",
+   "textPages": [
+    16
+   ]
+  }
+ ],
+ "hotspots": [
+  {
+   "id": "h0000",
+   "page": 2,
+   "bbox": [
+    223.16,
+    80.71,
+    225.6,
+    89.46
+   ],
+   "text": "I",
+   "kind": "letter",
+   "contextBefore": "孕婦懷中未出生的",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0001",
+   "page": 3,
+   "bbox": [
+    171.31,
+    348.78,
+    178.17,
+    357.52
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "1名會患上產後抑鬱",
+   "targets": [
+    "p17:1",
+    "p22:1"
+   ],
+   "targetDisplay": "P18 · 備註 1",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0002",
+   "page": 3,
+   "bbox": [
+    146.42,
+    520.19,
+    150.2,
+    528.93
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "6名患上黃疸",
+   "targets": [
+    "p17:2",
+    "p22:2"
+   ],
+   "targetDisplay": "P18 · 備註 2",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0003",
+   "page": 5,
+   "bbox": [
+    133.18,
+    364.56,
+    136.96,
+    373.31
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "例如心臟病發作或中風",
+   "targets": [
+    "p17:3",
+    "p22:3"
+   ],
+   "targetDisplay": "P18 · 備註 3",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0004",
+   "page": 5,
+   "bbox": [
+    201.56,
+    597.74,
+    205.34,
+    606.48
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "1人將會於75歲前患上癌症",
+   "targets": [
+    "p17:4",
+    "p22:4"
+   ],
+   "targetDisplay": "P18 · 備註 4",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0005",
+   "page": 6,
+   "bbox": [
+    382.75,
+    180.72,
+    388.44,
+    192.96
+   ],
+   "text": "V",
+   "kind": "letter",
+   "contextBefore": "預支保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0006",
+   "page": 6,
+   "bbox": [
+    111.61,
+    505.39,
+    115.67,
+    514.13
+   ],
+   "text": "V",
+   "kind": "letter",
+   "contextBefore": "預支保障)",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0007",
+   "page": 8,
+   "bbox": [
+    103.43,
+    373.06,
+    107.21,
+    381.81
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "患有腦退化疾病",
+   "targets": [
+    "p17:6"
+   ],
+   "targetDisplay": "P18 · 備註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0008",
+   "page": 12,
+   "bbox": [
+    385.31,
+    99.7,
+    389.09,
+    108.44
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "寶下,下列保障只適用於孩子出生後並成為受保人時。",
+   "targets": [
+    "p17:1",
+    "p22:1"
+   ],
+   "targetDisplay": "P18 · 備註 1",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0009",
+   "page": 12,
+   "bbox": [
+    400.52,
+    197.86,
+    404.3,
+    206.6
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "內確診的產後抑鬱支付1次賠償。不論該等保單於何地",
+   "targets": [
+    "p17:2",
+    "p22:2"
+   ],
+   "targetDisplay": "P18 · 備註 2",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0010",
+   "page": 12,
+   "bbox": [
+    100.85,
+    372.25,
+    109.98,
+    381.0
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "兒童疾病保障",
+   "targets": [
+    "p17:3",
+    "p22:3"
+   ],
+   "targetDisplay": "P18 · 備註 3",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0010"
+  },
+  {
+   "id": "h0011",
+   "page": 12,
+   "bbox": [
+    100.85,
+    372.25,
+    109.98,
+    381.0
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "兒童疾病保障",
+   "targets": [
+    "p17:4",
+    "p22:4"
+   ],
+   "targetDisplay": "P18 · 備註 4",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0010"
+  },
+  {
+   "id": "h0012",
+   "page": 12,
+   "bbox": [
+    268.67,
+    484.79,
+    272.45,
+    493.53
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "將減少至保障金額的20%。",
+   "targets": [
+    "p17:5"
+   ],
+   "targetDisplay": "P18 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0013",
+   "page": 12,
+   "bbox": [
+    239.12,
+    560.13,
+    242.9,
+    568.87
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "於基本保額的95%。",
+   "targets": [
+    "p17:5"
+   ],
+   "targetDisplay": "P18 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0014",
+   "page": 13,
+   "bbox": [
+    119.31,
+    113.26,
+    128.16,
+    122.0
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "早期嚴重疾病保障",
+   "targets": [
+    "p17:3",
+    "p22:3"
+   ],
+   "targetDisplay": "P18 · 備註 3",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0014"
+  },
+  {
+   "id": "h0015",
+   "page": 13,
+   "bbox": [
+    119.31,
+    113.26,
+    128.16,
+    122.0
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "早期嚴重疾病保障",
+   "targets": [
+    "p17:4",
+    "p22:4"
+   ],
+   "targetDisplay": "P18 · 備註 4",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0014"
+  },
+  {
+   "id": "h0016",
+   "page": 13,
+   "bbox": [
+    307.88,
+    217.8,
+    311.66,
+    226.54
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "應付賠償將減少至保障金額的20%。",
+   "targets": [
+    "p17:5"
+   ],
+   "targetDisplay": "P18 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0017",
+   "page": 13,
+   "bbox": [
+    447.52,
+    239.46,
+    451.3,
+    248.21
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "次賠償,惟冠狀動脈血管成形術及原位癌7最多可分別",
+   "targets": [
+    "p17:6"
+   ],
+   "targetDisplay": "P18 · 備註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0018",
+   "page": 13,
+   "bbox": [
+    490.73,
+    239.46,
+    493.72,
+    248.21
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "次賠償,惟冠狀動脈血管成形術6及原位癌最多可分別",
+   "targets": [
+    "p17:7"
+   ],
+   "targetDisplay": "P18 · 備註 7",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0019",
+   "page": 13,
+   "bbox": [
+    239.11,
+    293.13,
+    242.89,
+    301.88
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "於基本保額的95%。",
+   "targets": [
+    "p17:5"
+   ],
+   "targetDisplay": "P18 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0020",
+   "page": 13,
+   "bbox": [
+    406.62,
+    330.8,
+    410.4,
+    339.55
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "的8種早期嚴重病況下每種病況已支付及/或應支付的",
+   "targets": [
+    "p17:8"
+   ],
+   "targetDisplay": "P18 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0021",
+   "page": 13,
+   "bbox": [
+    100.31,
+    367.07,
+    109.31,
+    375.82
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "深切治療保障",
+   "targets": [
+    "p17:3",
+    "p22:3"
+   ],
+   "targetDisplay": "P18 · 備註 3",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0021"
+  },
+  {
+   "id": "h0022",
+   "page": 13,
+   "bbox": [
+    100.31,
+    367.07,
+    109.31,
+    375.82
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "深切治療保障",
+   "targets": [
+    "p17:4",
+    "p22:4"
+   ],
+   "targetDisplay": "P18 · 備註 4",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0021"
+  },
+  {
+   "id": "h0023",
+   "page": 13,
+   "bbox": [
+    263.11,
+    367.07,
+    266.89,
+    375.82
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "合資格的深切治療部留醫",
+   "targets": [
+    "p17:9"
+   ],
+   "targetDisplay": "P18 · 備註 9",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0024",
+   "page": 13,
+   "bbox": [
+    343.29,
+    466.1,
+    347.07,
+    474.84
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "90日內,應付賠償將減少至保障金額的20%。",
+   "targets": [
+    "p17:5"
+   ],
+   "targetDisplay": "P18 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0025",
+   "page": 13,
+   "bbox": [
+    239.11,
+    525.43,
+    242.89,
+    534.18
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "於基本保額的95%。",
+   "targets": [
+    "p17:5"
+   ],
+   "targetDisplay": "P18 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0026",
+   "page": 14,
+   "bbox": [
+    490.96,
+    158.93,
+    498.35,
+    167.67
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "+ 特別紅利的面值",
+   "targets": [
+    "p17:10"
+   ],
+   "targetDisplay": "P18 · 備註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0027",
+   "page": 14,
+   "bbox": [
+    202.39,
+    270.53,
+    206.17,
+    279.28
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "賠償總額。",
+   "targets": [
+    "p17:5"
+   ],
+   "targetDisplay": "P18 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0028",
+   "page": 14,
+   "bbox": [
+    80.11,
+    290.8,
+    83.89,
+    299.55
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "身故保障",
+   "targets": [
+    "p17:4",
+    "p22:4"
+   ],
+   "targetDisplay": "P18 · 備註 4",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0029",
+   "page": 14,
+   "bbox": [
+    490.96,
+    336.47,
+    498.35,
+    345.22
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "+ 特別紅利的面值",
+   "targets": [
+    "p17:10"
+   ],
+   "targetDisplay": "P18 · 備註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0030",
+   "page": 14,
+   "bbox": [
+    202.39,
+    426.41,
+    206.17,
+    435.15
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "賠償總額。",
+   "targets": [
+    "p17:5"
+   ],
+   "targetDisplay": "P18 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0031",
+   "page": 14,
+   "bbox": [
+    79.79,
+    446.68,
+    86.87,
+    455.42
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "升級保障",
+   "targets": [
+    "p17:11"
+   ],
+   "targetDisplay": "P18 · 備註 11",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0032",
+   "page": 15,
+   "bbox": [
+    119.64,
+    137.29,
+    126.84,
+    146.04
+   ],
+   "text": "12",
+   "kind": "numeric",
+   "contextBefore": "嚴重疾病延伸保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0033",
+   "page": 15,
+   "bbox": [
+    239.36,
+    272.43,
+    246.67,
+    281.17
+   ],
+   "text": "14",
+   "kind": "numeric",
+   "contextBefore": "癌症",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0034",
+   "page": 15,
+   "bbox": [
+    269.46,
+    287.29,
+    276.71,
+    296.03
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "心臟病發作/中風15",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0035",
+   "page": 15,
+   "bbox": [
+    299.97,
+    287.29,
+    307.22,
+    296.03
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "心臟病發作15/中風",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0036",
+   "page": 15,
+   "bbox": [
+    238.83,
+    347.35,
+    246.18,
+    356.09
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "其他",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0037",
+   "page": 15,
+   "bbox": [
+    213.67,
+    479.23,
+    220.84,
+    487.97
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "嚴重腦退化症或柏金遜病",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0038",
+   "page": 15,
+   "bbox": [
+    249.74,
+    511.42,
+    256.71,
+    520.16
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "柏金遜病1年後開始支付,直至受保人身故為止18。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0039",
+   "page": 15,
+   "bbox": [
+    457.27,
+    511.42,
+    464.44,
+    520.16
+   ],
+   "text": "18",
+   "kind": "numeric",
+   "contextBefore": "7或柏金遜病1年後開始支付,直至受保人身故為止。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0040",
+   "page": 15,
+   "bbox": [
+    243.02,
+    553.35,
+    250.32,
+    562.1
+   ],
+   "text": "19",
+   "kind": "numeric",
+   "contextBefore": "與首次確診嚴重病況相隔最少1年並於",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0041",
+   "page": 16,
+   "bbox": [
+    338.3,
+    193.23,
+    345.95,
+    201.97
+   ],
+   "text": "20",
+   "kind": "numeric",
+   "contextBefore": "配偶身故時,由下一個保費到期日起直至受保人26歲",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0042",
+   "page": 16,
+   "bbox": [
+    350.6,
+    209.23,
+    358.08,
+    217.97
+   ],
+   "text": "21",
+   "kind": "numeric",
+   "contextBefore": "(下次生日年齡)的所有基本計劃保費將被豁免。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0043",
+   "page": 16,
+   "bbox": [
+    282.51,
+    268.56,
+    289.98,
+    277.31
+   ],
+   "text": "22",
+   "kind": "numeric",
+   "contextBefore": " 本保障須符合2年等候期要求(因意外身故除外)。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0044",
+   "page": 16,
+   "bbox": [
+    70.21,
+    362.56,
+    86.76,
+    371.3
+   ],
+   "text": "23",
+   "kind": "numeric",
+   "contextBefore": "安心醫",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0044"
+  },
+  {
+   "id": "h0045",
+   "page": 16,
+   "bbox": [
+    70.21,
+    362.56,
+    86.76,
+    371.3
+   ],
+   "text": "24",
+   "kind": "numeric",
+   "contextBefore": "安心醫",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0044"
+  },
+  {
+   "id": "h0046",
+   "page": 20,
+   "bbox": [
+    84.12,
+    131.04,
+    87.9,
+    139.79
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "1. 原位癌",
+   "targets": [
+    "p22:1",
+    "p17:1"
+   ],
+   "targetDisplay": "P23 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0047",
+   "page": 20,
+   "bbox": [
+    153.07,
+    147.04,
+    156.85,
+    155.79
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "2. 早期甲狀腺或前列腺癌",
+   "targets": [
+    "p22:2",
+    "p17:2"
+   ],
+   "targetDisplay": "P23 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0048",
+   "page": 20,
+   "bbox": [
+    144.01,
+    163.04,
+    147.79,
+    171.79
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "3. 次級侵害性惡性腫瘤",
+   "targets": [
+    "p22:3",
+    "p17:3"
+   ],
+   "targetDisplay": "P23 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0049",
+   "page": 21,
+   "bbox": [
+    74.66,
+    131.04,
+    78.44,
+    139.79
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "1. 癌症",
+   "targets": [
+    "p22:4",
+    "p17:4"
+   ],
+   "targetDisplay": "P23 · 備註 4",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  }
+ ],
+ "stats": {
+  "anchors": 50,
+  "notes": 18,
+  "resolved": 33
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "version": "1.1",
+ "docId": "a09dc116",
+ "meta": {
+  "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/自愿医保标准计划保费表.pdf",
+  "pages": 8,
+  "title": "自愿医保标准计划保费表.pdf",
+  "hasTextLayer": true
+ },
+ "config": {
+  "sizeRatio": 0.8,
+  "riseRatio": 0.22,
+  "gapRatio": 0.6
+ },
+ "notes": [],
+ "hotspots": [],
+ "stats": {
+  "anchors": 0,
+  "notes": 0,
+  "resolved": 0
+ }
+}

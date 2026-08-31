@@ -134,6 +134,45 @@ body {
 .badge-probable { background: #fdf0d4; color: #9a6b00; }
 .badge-unresolved { background: #eceef1; color: #6b7280; }
 .badge-native { background: #e3edfd; color: #2b62b5; }
+.badge-pending { background: #e8eaf6; color: #3f51b5; }
+
+/* ---- 人工标注闭环（FR-7） ---- */
+.ref-head { display: flex; align-items: center; justify-content: space-between; padding: 0 12px; }
+.ref-head h3 { margin: 10px 0; }
+.rev-toggle { display: flex; gap: 4px; align-items: center; font-size: 12px; color: #5f6368; cursor: pointer; user-select: none; }
+.rev-actions { display: flex; gap: 6px; padding: 0 12px 8px; }
+.rev-actions button {
+  flex: 1; padding: 5px 6px; font-size: 11px; border: 1px solid #d9c98d; border-radius: 6px;
+  background: #fffdf5; color: #7a5d0d; cursor: pointer; white-space: nowrap;
+}
+.rev-actions button:hover { background: #f7ecc8; }
+.rev-actions button.on { background: #1a73e8; border-color: #1a73e8; color: #fff; }
+.rev-btns { display: flex; gap: 3px; align-items: center; margin-left: auto; }
+.rev-btns button {
+  width: 22px; height: 20px; border: 1px solid #d5d9e0; border-radius: 4px;
+  background: #fff; cursor: pointer; font-size: 11px; line-height: 1;
+}
+.rev-btns button:hover { border-color: #1a73e8; color: #1a73e8; }
+.rev-done { color: #2c7a39; font-weight: 700; font-size: 12px; padding: 0 3px; }
+.ref-item .rev-btns { margin-left: auto; flex: none; }
+.cand-panel { display: flex; flex-direction: column; gap: 4px; padding: 8px 12px; background: #fafbfc; border-bottom: 1px solid #eceef1; }
+.cand-title { font-size: 11px; color: #5f6368; }
+.cand-panel button {
+  text-align: left; padding: 5px 8px; font-size: 11px; border: 1px solid #e3e5e9;
+  border-radius: 6px; background: #fff; cursor: pointer; line-height: 1.4;
+}
+.cand-panel button:hover { border-color: #1a73e8; background: #f4f8fe; }
+.cand-panel button.cand-ai { color: #3f51b5; border-style: dashed; }
+.miss-sep { padding: 10px 12px 4px; font-size: 11px; font-weight: 700; color: #8a6d1a; border-top: 1px solid #efe6c8; margin-top: 6px; }
+
+/* ---- 補標框选 ---- */
+.ref-layer.miss-mode { cursor: crosshair; }
+.ref-layer.miss-mode .hotspot { pointer-events: none; }
+.ref-layer.miss-mode .tooltip { display: none; }
+.miss-drag {
+  position: absolute; z-index: 25; pointer-events: none;
+  border: 2px dashed #1a73e8; background: rgba(26, 115, 232, .08);
+}
 
 /* ---- 右侧引用总览 ---- */
 .ref-pane {

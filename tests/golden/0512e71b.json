@@ -1,0 +1,3715 @@
+{
+ "version": "1.1",
+ "docId": "0512e71b",
+ "meta": {
+  "path": "/home/zhangchi/Documents/insurance/FWD/自愿医保/倍衛您醫療計劃-產品宣傳單張.pdf",
+  "pages": 35,
+  "title": "vBooster TC (2025_1230)",
+  "hasTextLayer": true
+ },
+ "config": {
+  "sizeRatio": 0.8,
+  "riseRatio": 0.22,
+  "gapRatio": 0.6
+ },
+ "notes": [
+  {
+   "noteId": "p15:1",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    43.66,
+    166.45,
+    551.06,
+    234.01
+   ],
+   "number": "1",
+   "text": "全數保障是指不設分項賠償限額,並為合資格費用及其他費用於扣除餘下的自付費(如有)後的實際金額,及受每 年保障限額所規限。全數保障只適用於指定保障項目,而其他保障項目並不獲全數保障及受限於相關項目的賠償 限額。詳情請參閱保障表及保單條款。全數保障只限於醫療所需的醫療服務所招致的合理及慣常收費或開支。請 參閱以下「重要字句」部分有關「醫療所需」及「合理及慣常」之定義。",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:2",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    43.66,
+    220.45,
+    548.31,
+    249.01
+   ],
+   "number": "2",
+   "text": "自付費是指在富衛賠償餘下的合資格費用或費用前,保單持有人在每個保單年度必須分擔的定額合資格費用或費用。",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:3",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    43.66,
+    235.45,
+    551.05,
+    277.01
+   ],
+   "number": "3",
+   "text": "此保障/服務為自選性質,並不屬於自願醫保認可產品- 倍衛您醫療計劃的條款及保障(認可產品編號:F00069)。 您有權選擇拒絕此保障/服務。若您不希望獲得此免費額外保障/服務,請透過書面通知富衛。",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:4",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    43.66,
+    263.45,
+    551.07,
+    357.01
+   ],
+   "number": "4",
+   "text": "臻一尊貴優才管理團隊、第二醫療意見服務、國際SOS24小時環球支援服務、跨境癌症管理計劃、樂活復康服務(適用 於中風)及中國內地專屬服務由第三方服務供應商提供並不保證續訂。富衛並不會就他們所提供的醫療諮詢、意見、服 務或治療之行為、疏忽或遺漏承擔責任。富衛保留修改、暫停或終止服務的權利,不作另行通知。樂活復康服務(適用 於中風)只適用於香港。有關以上服務之詳情,請參閱相關服務小冊子。就樂活復康服務(適用於中風)再次作出索償 設有一年等候期。有關樂活復康服務(適用於中風)之服務詳情,請參閱保單條款之批註 ‒ 嬰兒之特別保障及樂活復康 服務(適用於中風)第一部分第2節。",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:5",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    43.67,
+    343.45,
+    551.07,
+    411.01
+   ],
+   "number": "5",
+   "text": "如您是香港納稅人,並為自己及指明親屬投保,您就每名受保人每課稅年度或可就您已繳付的保費享獲免稅額 高達8,000港元。稅務扣減受限於香港特別行政區稅務局(「稅務局」)不時的最新政策及條例。就任何稅務建議, 請參閱稅務局(www.ird.gov.hk/chi/)及自願醫保計劃的網頁(www.vhis.gov.hk/tc/),或直接聯絡稅務局。 富衛及其中介人不會提供任何稅務建議。如有疑問,您應諮詢專業稅務顧問。",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:6",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    43.67,
+    397.45,
+    551.06,
+    454.01
+   ],
+   "number": "6",
+   "text": "富衛將保證於每個保單週年日續保至受保人100歲(實際年齡),惟只要富衛保持為註冊自願醫保的產品提供者, 富衛保證條款及保障將按不差於續保時由政府公布最新版本的標準計劃條款及保障。 富衛保留於續保前30日提供預先通知修改條款及保障的權利,但須事先獲得政府的批准和重新認證。",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:7",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    62.1,
+    440.45,
+    553.3,
+    637.01
+   ],
+   "number": "7",
+   "text": "指定危疾包括由心肌病所導致的心臟功能受損、由原發性肺動脈高壓所導致的心臟功能受損、慢性肝病、冠狀 動脈搭橋手術、末期肺病、暴發性肝炎、突發性心臟病(急性心肌梗塞)、腎衰竭、主要器官移植、心瓣手術、 柏金遜症、嚴重類風濕關節炎、指定癌症、中風、主動脈手術及末期疾病。有關保障詳情,包括指定危疾之定義, 請參閱保單條款內的補充文件 ‒ 指定危疾之全額賠償 ‒ 豁免自付費。 若保單持有人或受保人在本保單的保單生效日起計九十(90)日內已察覺或理應察覺任何指定危疾。在以下情況 發生時,保單持有人或受保人理應已可察覺到指定危疾‒ (a) 該指定危疾被確診; (b) 該指定危疾出現清晰及明確的病徵或症狀;或 (c) 就該指定危疾已尋求、獲建議或接受醫療意見或診治。 本計劃之保單條款內的補充文件 ‒ 指定危疾之全額賠償 ‒ 豁免自付費中的「指定危疾之全額賠償 ‒ 豁免自付費」 將不適用於由該指定危疾所引致的醫療服務。 為免存疑,本計劃之保單條款內的補充文件 ‒ 指定危疾之全額賠償 ‒ 豁免自付費中的「指定危疾之全額賠償 ‒ 豁免自付費」不適用於任何所選取的自付費選項為零元($0)之保單。",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:8",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    43.67,
+    623.45,
+    508.89,
+    652.01
+   ],
+   "number": "8",
+   "text": "富衛有權要求有關書面建議的證明,例如轉介信或由主診醫生或註冊醫生在索償申請表內提供的陳述。",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:9",
+   "anchor": "standalone",
+   "page": 15,
+   "bbox": [
+    42.53,
+    638.45,
+    551.05,
+    815.31
+   ],
+   "number": "9",
+   "text": "於本保單生效期間及保單自保單生效日起計生效連續2個保單年度之後,如受保人或受保人的配偶生育子女(「受保 子女」),則富衛將提供2年指定醫療保險計劃予受保子女而毋須進一步提供可受保證明及支付額外費用。 在富衛對受保子女的保障生效後,如受保子女在保障期間出現傷病,富衛將根據指定醫療保險計劃的條款及保障 支付賠償。該賠償金額將不會從本保單扣除且不會影響受保人於本保單下享有的保障。 保單持有人須於受保人的子女出生後的180天內以書面形式通知富衛及向富衛提供由具備合法司法管轄權的主管 機關當局簽發的出生證明。 本保障受限於由富衛將不時全權酌情釐定的指定醫療保險計劃之條款及保障及富衛當時的規則及規例。 有關詳細資料,請參閱保單條款之批註 ‒ 嬰兒之特別保障及樂活復康服務(適用於中風)第一部分第1節。 15",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p19:1",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    43.66,
+    183.83,
+    322.96,
+    212.39
+   ],
+   "number": "1",
+   "text": "任何非醫療所需治療、治療程序、藥物、檢測或服務的費用。",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:2",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    43.66,
+    201.83,
+    551.03,
+    230.39
+   ],
+   "number": "2",
+   "text": "若純粹為接受診斷程序或專職醫療服務(包括但不限於物理治療、職業治療及言語治療)而住院,該住院期間",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:3",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    43.66,
+    245.83,
+    551.04,
+    274.39
+   ],
+   "number": "3",
+   "text": "在保單生效日前,因感染或出現人體免疫力缺乏病毒(“HIV”)及其相關的傷病所招致的費用。不論保單持有人",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:4",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    43.66,
+    346.83,
+    551.03,
+    375.39
+   ],
+   "number": "4",
+   "text": "因倚賴或過量服用藥物、酒精、毒品或類似物質(或受其影響)、故意自殘身體或企圖自殺、參與非法活動、或性病",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:5",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    43.65,
+    377.83,
+    139.51,
+    406.39
+   ],
+   "number": "5",
+   "text": "以下服務的收費 ‒",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:6",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    43.66,
+    457.83,
+    551.04,
+    486.39
+   ],
+   "number": "6",
+   "text": "預防性治療及預防性護理的費用,包括但不限於並無症狀下的一般身體檢查、定期檢測或篩查程序、或僅因受保人",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:8",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    43.65,
+    586.83,
+    551.03,
+    615.39
+   ],
+   "number": "8",
+   "text": "除保單條款之補充文件-升級保障第一部分第13節另有規定外,下列醫療服務及輔導服務的費用 - 產科狀況及其",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:9",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    43.65,
+    630.83,
+    551.03,
+    659.39
+   ],
+   "number": "9",
+   "text": "除保單條款之補充文件-升級保障第一部分第7(a)節另有規定外,購買屬耐用品的醫療設備及儀器的費用,包括",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:10",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    43.65,
+    687.83,
+    551.02,
+    716.39
+   ],
+   "number": "10",
+   "text": "除保單條款之補充文件-升級保障第一部分第7(b)及12節另有規定外,傳統中醫治療的費用,包括但不限於中草藥",
+   "textPages": [
+    19
+   ]
+  }
+ ],
+ "hotspots": [
+  {
+   "id": "h0000",
+   "page": 1,
+   "bbox": [
+    252.0,
+    390.9,
+    256.66,
+    414.2
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "手術費用為您提供全數保障,高達每保單年度800萬",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0001",
+   "page": 1,
+   "bbox": [
+    354.33,
+    412.9,
+    358.98,
+    436.2
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": ",並不設終身保障限額。本計劃具有多種自付費選項,",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0002",
+   "page": 1,
+   "bbox": [
+    375.58,
+    466.9,
+    387.65,
+    490.2
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "如您需要醫療援助,您可以尋求我們的健康支援服務,",
+   "targets": [
+    "p15:3",
+    "p19:3"
+   ],
+   "targetDisplay": "P16 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0002"
+  },
+  {
+   "id": "h0003",
+   "page": 1,
+   "bbox": [
+    375.58,
+    466.9,
+    387.65,
+    490.2
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "如您需要醫療援助,您可以尋求我們的健康支援服務,",
+   "targets": [
+    "p15:4",
+    "p19:4"
+   ],
+   "targetDisplay": "P16 · 備註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0002"
+  },
+  {
+   "id": "h0004",
+   "page": 1,
+   "bbox": [
+    100.35,
+    510.9,
+    105.0,
+    534.2
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "稅優惠外,您還有可能獲得無索償保費折扣,以鼓勵您",
+   "targets": [
+    "p15:5",
+    "p19:5"
+   ],
+   "targetDisplay": "P16 · 備註 5",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0005",
+   "page": 2,
+   "bbox": [
+    162.56,
+    167.17,
+    166.68,
+    187.13
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障一系列住院及手術費用",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0006",
+   "page": 2,
+   "bbox": [
+    444.49,
+    181.57,
+    451.79,
+    201.53
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "保證續保至受保人",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0007",
+   "page": 2,
+   "bbox": [
+    184.1,
+    415.37,
+    188.22,
+    435.32
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "設不同自付費選項",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0008",
+   "page": 2,
+   "bbox": [
+    455.04,
+    429.77,
+    471.94,
+    449.72
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "豁免自付費",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0008"
+  },
+  {
+   "id": "h0009",
+   "page": 2,
+   "bbox": [
+    455.04,
+    429.77,
+    471.94,
+    449.72
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "豁免自付費",
+   "targets": [
+    "p15:7"
+   ],
+   "targetDisplay": "P16 · 備註 7",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0008"
+  },
+  {
+   "id": "h0010",
+   "page": 2,
+   "bbox": [
+    455.04,
+    429.77,
+    471.94,
+    449.72
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "豁免自付費",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0008"
+  },
+  {
+   "id": "h0011",
+   "page": 2,
+   "bbox": [
+    444.08,
+    505.39,
+    449.79,
+    525.35
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "扣稅優惠",
+   "targets": [
+    "p15:5",
+    "p19:5"
+   ],
+   "targetDisplay": "P16 · 備註 5",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0012",
+   "page": 2,
+   "bbox": [
+    209.73,
+    632.56,
+    220.61,
+    652.51
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "給新生兒尊貴守護",
+   "targets": [
+    "p15:3",
+    "p19:3"
+   ],
+   "targetDisplay": "P16 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0012"
+  },
+  {
+   "id": "h0013",
+   "page": 2,
+   "bbox": [
+    209.73,
+    632.56,
+    220.61,
+    652.51
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "給新生兒尊貴守護",
+   "targets": [
+    "p15:9",
+    "p19:9"
+   ],
+   "targetDisplay": "P16 · 備註 9",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0012"
+  },
+  {
+   "id": "h0014",
+   "page": 2,
+   "bbox": [
+    492.9,
+    642.2,
+    503.68,
+    662.16
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "尊貴健康支援服務",
+   "targets": [
+    "p15:3",
+    "p19:3"
+   ],
+   "targetDisplay": "P16 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0014"
+  },
+  {
+   "id": "h0015",
+   "page": 2,
+   "bbox": [
+    492.9,
+    642.2,
+    503.68,
+    662.16
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "尊貴健康支援服務",
+   "targets": [
+    "p15:4",
+    "p19:4"
+   ],
+   "targetDisplay": "P16 · 備註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0014"
+  },
+  {
+   "id": "h0016",
+   "page": 3,
+   "bbox": [
+    222.23,
+    122.57,
+    228.85,
+    145.85
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "一系列住院及手術費用高達每保單年度800萬港元,",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0017",
+   "page": 3,
+   "bbox": [
+    279.58,
+    184.71,
+    283.14,
+    203.03
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "。本計劃不設終身保障限額,讓您於每個保單年度可獲",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0018",
+   "page": 3,
+   "bbox": [
+    511.35,
+    224.71,
+    514.91,
+    243.03
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "因急症而需接受醫療護理,本計劃亦將全數保障合資格",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0019",
+   "page": 3,
+   "bbox": [
+    436.75,
+    242.71,
+    443.96,
+    261.03
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "外門診治療及緊急門診牙科治療,時刻為您候命。無論",
+   "targets": [
+    "p19:10"
+   ],
+   "targetDisplay": "P20 · 備註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0020",
+   "page": 3,
+   "bbox": [
+    288.8,
+    310.27,
+    295.46,
+    333.55
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "屬保障   保證續保至受保人100歲(實際年齡)",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0021",
+   "page": 3,
+   "bbox": [
+    247.2,
+    336.42,
+    250.76,
+    354.73
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "00歲(實際年齡),確保您受尊貴的醫療計劃保障,",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0022",
+   "page": 3,
+   "bbox": [
+    380.51,
+    562.25,
+    384.07,
+    580.57
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "出提供全數保障,包括訂明非手術癌症治療11、腎臟",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0023",
+   "page": 3,
+   "bbox": [
+    511.79,
+    562.25,
+    519.0,
+    580.57
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "支出提供全數保障1,包括訂明非手術癌症治療、腎臟",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0024",
+   "page": 3,
+   "bbox": [
+    188.48,
+    580.25,
+    192.04,
+    598.57
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "臟透析機的租借費用)及器官或骨髓移植。除每年保障",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0025",
+   "page": 4,
+   "bbox": [
+    540.18,
+    188.71,
+    547.42,
+    207.03
+   ],
+   "text": "12",
+   "kind": "numeric",
+   "contextBefore": "[自願醫保市場首創+]受保人於指定醫療服務提供者",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0026",
+   "page": 4,
+   "bbox": [
+    339.74,
+    228.71,
+    347.1,
+    247.02
+   ],
+   "text": "13",
+   "kind": "numeric",
+   "contextBefore": "(ii) 您已經得到其他保險公司的賠償;",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0027",
+   "page": 4,
+   "bbox": [
+    436.51,
+    486.03,
+    441.74,
+    504.32
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "中風復康治療",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0028",
+   "page": 4,
+   "bbox": [
+    243.14,
+    490.04,
+    252.78,
+    508.33
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "樂活復康服務",
+   "targets": [
+    "p15:3",
+    "p19:3"
+   ],
+   "targetDisplay": "P16 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0028"
+  },
+  {
+   "id": "h0029",
+   "page": 4,
+   "bbox": [
+    243.14,
+    490.04,
+    252.78,
+    508.33
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "樂活復康服務",
+   "targets": [
+    "p15:4",
+    "p19:4"
+   ],
+   "targetDisplay": "P16 · 備註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0028"
+  },
+  {
+   "id": "h0030",
+   "page": 4,
+   "bbox": [
+    486.27,
+    568.98,
+    495.28,
+    587.27
+   ],
+   "text": "14",
+   "kind": "numeric",
+   "contextBefore": "傷殘津貼保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0031",
+   "page": 4,
+   "bbox": [
+    315.11,
+    611.1,
+    320.34,
+    629.39
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "家居設備提升保障",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0032",
+   "page": 5,
+   "bbox": [
+    248.91,
+    122.57,
+    256.77,
+    145.85
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "設不同自付費選項 增添彈性",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0033",
+   "page": 5,
+   "bbox": [
+    276.73,
+    148.71,
+    280.29,
+    167.03
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "項,讓您就各項治療之自付費2靈活作出選擇。此外,",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0034",
+   "page": 5,
+   "bbox": [
+    435.41,
+    148.71,
+    438.97,
+    167.03
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "選項,讓您就各項治療之自付費靈活作出選擇。此外,",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0035",
+   "page": 5,
+   "bbox": [
+    359.35,
+    184.71,
+    362.91,
+    203.03
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "少或免除自付費而毋須進一步提交任何健康證明,每張",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0036",
+   "page": 5,
+   "bbox": [
+    377.91,
+    276.35,
+    397.42,
+    299.63
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "指定危疾之全額賠償 ‒ 豁免自付費",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0036"
+  },
+  {
+   "id": "h0037",
+   "page": 5,
+   "bbox": [
+    377.91,
+    276.35,
+    397.42,
+    299.63
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "指定危疾之全額賠償 ‒ 豁免自付費",
+   "targets": [
+    "p15:7"
+   ],
+   "targetDisplay": "P16 · 備註 7",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0036"
+  },
+  {
+   "id": "h0038",
+   "page": 5,
+   "bbox": [
+    377.91,
+    276.35,
+    397.42,
+    299.63
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "指定危疾之全額賠償 ‒ 豁免自付費",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0036"
+  },
+  {
+   "id": "h0039",
+   "page": 5,
+   "bbox": [
+    501.0,
+    320.49,
+    504.56,
+    338.81
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "發性心臟病或中風,而同時投保了附有自付費的計劃,",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0040",
+   "page": 5,
+   "bbox": [
+    199.59,
+    338.49,
+    203.15,
+    356.81
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "‒ 豁免自付費2,7,8下獲豁免,免除您於治療上",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0041",
+   "page": 5,
+   "bbox": [
+    404.6,
+    338.49,
+    418.79,
+    356.81
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全額賠償 ‒ 豁免自付費下獲豁免,免除您於治療上",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0041"
+  },
+  {
+   "id": "h0042",
+   "page": 5,
+   "bbox": [
+    404.6,
+    338.49,
+    418.79,
+    356.81
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "全額賠償 ‒ 豁免自付費下獲豁免,免除您於治療上",
+   "targets": [
+    "p15:7"
+   ],
+   "targetDisplay": "P16 · 備註 7",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0041"
+  },
+  {
+   "id": "h0043",
+   "page": 5,
+   "bbox": [
+    404.6,
+    338.49,
+    418.79,
+    356.81
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "全額賠償 ‒ 豁免自付費下獲豁免,免除您於治療上",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0041"
+  },
+  {
+   "id": "h0044",
+   "page": 6,
+   "bbox": [
+    406.08,
+    166.71,
+    409.64,
+    185.03
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "康,倘若您在緊接保單續保前連續兩個保單年度或以上",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0045",
+   "page": 6,
+   "bbox": [
+    453.36,
+    184.71,
+    456.92,
+    203.03
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "任何年齡,本計劃將在您下次續保保費提供高達15%",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0046",
+   "page": 6,
+   "bbox": [
+    259.94,
+    233.04,
+    265.9,
+    249.67
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "緊接保單續保前之無索償期",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0047",
+   "page": 6,
+   "bbox": [
+    471.31,
+    233.04,
+    476.01,
+    249.67
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "無索償保費折扣(續保保費折扣率)",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0048",
+   "page": 6,
+   "bbox": [
+    463.61,
+    365.5,
+    470.91,
+    383.82
+   ],
+   "text": "12",
+   "kind": "numeric",
+   "contextBefore": "仍可於無索償期就指定醫療服務提供者進行的任何指定",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0049",
+   "page": 6,
+   "bbox": [
+    488.01,
+    419.5,
+    491.57,
+    437.82
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "自己及您摯愛作為受保人的保單在緊接續保前連續兩個",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0050",
+   "page": 6,
+   "bbox": [
+    400.96,
+    437.5,
+    404.52,
+    455.82
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "有索償,本計劃就下次續保保費提供額外的無索償保費",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0051",
+   "page": 6,
+   "bbox": [
+    235.82,
+    495.67,
+    240.52,
+    512.3
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "任何續保日時合資格享有以上",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0052",
+   "page": 6,
+   "bbox": [
+    436.66,
+    511.42,
+    441.36,
+    528.05
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "(續保保費折扣率)",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0053",
+   "page": 6,
+   "bbox": [
+    222.55,
+    655.33,
+    227.36,
+    678.61
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "扣稅優惠",
+   "targets": [
+    "p15:5",
+    "p19:5"
+   ],
+   "targetDisplay": "P16 · 備註 5",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0054",
+   "page": 7,
+   "bbox": [
+    281.88,
+    129.1,
+    294.48,
+    152.38
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "給新生兒 尊貴守護",
+   "targets": [
+    "p15:3",
+    "p19:3"
+   ],
+   "targetDisplay": "P16 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0054"
+  },
+  {
+   "id": "h0055",
+   "page": 7,
+   "bbox": [
+    281.88,
+    129.1,
+    294.48,
+    152.38
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "給新生兒 尊貴守護",
+   "targets": [
+    "p15:9",
+    "p19:9"
+   ],
+   "targetDisplay": "P16 · 備註 9",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0054"
+  },
+  {
+   "id": "h0056",
+   "page": 7,
+   "bbox": [
+    279.3,
+    256.9,
+    291.77,
+    280.18
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "尊貴健康支援服務",
+   "targets": [
+    "p15:3",
+    "p19:3"
+   ],
+   "targetDisplay": "P16 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0056"
+  },
+  {
+   "id": "h0057",
+   "page": 7,
+   "bbox": [
+    279.3,
+    256.9,
+    291.77,
+    280.18
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "尊貴健康支援服務",
+   "targets": [
+    "p15:4",
+    "p19:4"
+   ],
+   "targetDisplay": "P16 · 備註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0056"
+  },
+  {
+   "id": "h0058",
+   "page": 7,
+   "bbox": [
+    244.21,
+    310.06,
+    247.99,
+    328.35
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "一站式醫護服務",
+   "targets": [
+    "p15:4",
+    "p19:4"
+   ],
+   "targetDisplay": "P16 · 備註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0059",
+   "page": 7,
+   "bbox": [
+    233.38,
+    378.06,
+    237.16,
+    396.35
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "癌症管理計劃",
+   "targets": [
+    "p15:4",
+    "p19:4"
+   ],
+   "targetDisplay": "P16 · 備註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0060",
+   "page": 7,
+   "bbox": [
+    254.79,
+    538.06,
+    258.57,
+    556.35
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "中國內地專屬服務",
+   "targets": [
+    "p15:4",
+    "p19:4"
+   ],
+   "targetDisplay": "P16 · 備註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0061",
+   "page": 8,
+   "bbox": [
+    278.81,
+    217.74,
+    284.66,
+    234.39
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "保證每年續保至100歲(實際年齡)",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0062",
+   "page": 8,
+   "bbox": [
+    250.5,
+    262.11,
+    256.35,
+    278.76
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "證並將每年按照受保人續保 6 時之實際年齡而釐定",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0063",
+   "page": 8,
+   "bbox": [
+    426.34,
+    262.11,
+    432.19,
+    278.76
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "為非保證並將每年按照受保人續保時之實際年齡而釐定",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0064",
+   "page": 8,
+   "bbox": [
+    81.17,
+    360.0,
+    87.01,
+    376.66
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "自付費選項及認可產品編號",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0065",
+   "page": 8,
+   "bbox": [
+    310.54,
+    382.15,
+    314.35,
+    395.45
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "自付費",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0066",
+   "page": 9,
+   "bbox": [
+    317.92,
+    96.58,
+    376.46,
+    136.49
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0066"
+  },
+  {
+   "id": "h0067",
+   "page": 9,
+   "bbox": [
+    317.92,
+    96.58,
+    376.46,
+    136.49
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0066"
+  },
+  {
+   "id": "h0068",
+   "page": 9,
+   "bbox": [
+    317.92,
+    96.58,
+    376.46,
+    136.49
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0066"
+  },
+  {
+   "id": "h0069",
+   "page": 9,
+   "bbox": [
+    111.34,
+    166.58,
+    117.81,
+    183.23
+   ],
+   "text": "18",
+   "kind": "numeric",
+   "contextBefore": "地域範圍限制",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0070",
+   "page": 9,
+   "bbox": [
+    294.62,
+    183.58,
+    303.7,
+    200.23
+   ],
+   "text": "19",
+   "kind": "numeric",
+   "contextBefore": "非急症治療:亞洲",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0071",
+   "page": 9,
+   "bbox": [
+    158.13,
+    395.01,
+    162.67,
+    411.66
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "中的保障項目3的 自付費",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0072",
+   "page": 9,
+   "bbox": [
+    101.34,
+    431.72,
+    114.29,
+    448.37
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "豁免自付費",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0072"
+  },
+  {
+   "id": "h0073",
+   "page": 9,
+   "bbox": [
+    101.34,
+    431.72,
+    114.29,
+    448.37
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "豁免自付費",
+   "targets": [
+    "p15:7"
+   ],
+   "targetDisplay": "P16 · 備註 7",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0072"
+  },
+  {
+   "id": "h0074",
+   "page": 9,
+   "bbox": [
+    101.34,
+    431.72,
+    114.29,
+    448.37
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "豁免自付費",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0072"
+  },
+  {
+   "id": "h0075",
+   "page": 9,
+   "bbox": [
+    289.62,
+    511.52,
+    295.46,
+    528.17
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "有及如適用)將就該醫療服務被減少至零元($0)。",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0076",
+   "page": 9,
+   "bbox": [
+    279.62,
+    534.87,
+    287.39,
+    551.52
+   ],
+   "text": "20",
+   "kind": "numeric",
+   "contextBefore": "標準普通病房",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0077",
+   "page": 10,
+   "bbox": [
+    317.92,
+    96.58,
+    376.47,
+    136.49
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0077"
+  },
+  {
+   "id": "h0078",
+   "page": 10,
+   "bbox": [
+    317.92,
+    96.58,
+    376.47,
+    136.49
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0077"
+  },
+  {
+   "id": "h0079",
+   "page": 10,
+   "bbox": [
+    317.92,
+    96.58,
+    376.47,
+    136.49
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0077"
+  },
+  {
+   "id": "h0080",
+   "page": 10,
+   "bbox": [
+    259.62,
+    183.71,
+    264.16,
+    200.36
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0081",
+   "page": 10,
+   "bbox": [
+    259.62,
+    201.32,
+    264.16,
+    217.97
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0082",
+   "page": 10,
+   "bbox": [
+    259.62,
+    218.94,
+    264.16,
+    235.59
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0083",
+   "page": 10,
+   "bbox": [
+    119.11,
+    236.56,
+    122.34,
+    253.21
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "(d) 專科醫生費",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0084",
+   "page": 10,
+   "bbox": [
+    259.62,
+    236.56,
+    264.16,
+    253.21
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0085",
+   "page": 10,
+   "bbox": [
+    259.62,
+    254.18,
+    264.16,
+    270.83
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0086",
+   "page": 10,
+   "bbox": [
+    339.62,
+    271.79,
+    344.16,
+    288.44
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "不論手術的分類均全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0087",
+   "page": 10,
+   "bbox": [
+    259.62,
+    289.41,
+    264.16,
+    306.06
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0088",
+   "page": 10,
+   "bbox": [
+    259.62,
+    307.03,
+    264.16,
+    323.68
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0089",
+   "page": 10,
+   "bbox": [
+    259.62,
+    324.65,
+    264.16,
+    341.3
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0090",
+   "page": 10,
+   "bbox": [
+    149.11,
+    324.65,
+    160.43,
+    341.3
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "(i) 訂明診斷成像檢測",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0090"
+  },
+  {
+   "id": "h0091",
+   "page": 10,
+   "bbox": [
+    149.11,
+    324.65,
+    160.43,
+    341.3
+   ],
+   "text": "21",
+   "kind": "numeric",
+   "contextBefore": "(i) 訂明診斷成像檢測",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0090"
+  },
+  {
+   "id": "h0092",
+   "page": 10,
+   "bbox": [
+    159.11,
+    342.26,
+    165.58,
+    358.91
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "(j) 訂明非手術癌症治療",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0093",
+   "page": 10,
+   "bbox": [
+    259.62,
+    342.26,
+    264.16,
+    358.91
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0094",
+   "page": 10,
+   "bbox": [
+    259.62,
+    362.67,
+    264.16,
+    379.32
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0095",
+   "page": 10,
+   "bbox": [
+    139.11,
+    376.67,
+    142.34,
+    393.32
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "前後的門診護理",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0096",
+   "page": 10,
+   "bbox": [
+    119.11,
+    418.36,
+    125.58,
+    435.01
+   ],
+   "text": "22",
+   "kind": "numeric",
+   "contextBefore": "(l) 精神科治療",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0097",
+   "page": 11,
+   "bbox": [
+    317.92,
+    96.58,
+    376.46,
+    136.49
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0097"
+  },
+  {
+   "id": "h0098",
+   "page": 11,
+   "bbox": [
+    317.92,
+    96.58,
+    376.46,
+    136.49
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0097"
+  },
+  {
+   "id": "h0099",
+   "page": 11,
+   "bbox": [
+    317.92,
+    96.58,
+    376.46,
+    136.49
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0097"
+  },
+  {
+   "id": "h0100",
+   "page": 11,
+   "bbox": [
+    129.11,
+    183.87,
+    132.34,
+    200.52
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "1. 重建手術保障",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0101",
+   "page": 11,
+   "bbox": [
+    119.11,
+    219.86,
+    125.58,
+    236.51
+   ],
+   "text": "23",
+   "kind": "numeric",
+   "contextBefore": "3. 捐贈者保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0102",
+   "page": 11,
+   "bbox": [
+    259.61,
+    237.86,
+    264.16,
+    254.51
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0103",
+   "page": 11,
+   "bbox": [
+    129.11,
+    255.86,
+    132.34,
+    272.51
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "5. 門診腎臟透析",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0104",
+   "page": 11,
+   "bbox": [
+    259.61,
+    255.86,
+    264.16,
+    272.51
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0105",
+   "page": 11,
+   "bbox": [
+    109.11,
+    273.85,
+    112.34,
+    290.5
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "6. 復康治療",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0106",
+   "page": 11,
+   "bbox": [
+    314.25,
+    291.85,
+    318.8,
+    308.5
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "(a) 家居設備提升保障",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0107",
+   "page": 11,
+   "bbox": [
+    294.79,
+    312.24,
+    299.34,
+    328.89
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "(b) 中風輔助保障",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0108",
+   "page": 11,
+   "bbox": [
+    293.71,
+    367.43,
+    301.48,
+    384.08
+   ],
+   "text": "14",
+   "kind": "numeric",
+   "contextBefore": "(c) 傷殘津貼保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0109",
+   "page": 11,
+   "bbox": [
+    129.11,
+    423.19,
+    132.34,
+    439.84
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "9. 私家看護費用",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0110",
+   "page": 11,
+   "bbox": [
+    259.79,
+    423.19,
+    264.34,
+    439.84
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0111",
+   "page": 11,
+   "bbox": [
+    139.11,
+    457.43,
+    142.34,
+    474.08
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "10. 出院後私家看護",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0112",
+   "page": 11,
+   "bbox": [
+    259.79,
+    457.43,
+    264.34,
+    474.08
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0113",
+   "page": 11,
+   "bbox": [
+    259.79,
+    506.49,
+    264.34,
+    523.14
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0114",
+   "page": 11,
+   "bbox": [
+    139.11,
+    560.25,
+    145.58,
+    576.9
+   ],
+   "text": "24",
+   "kind": "numeric",
+   "contextBefore": "13. 妊娠併發症保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0115",
+   "page": 11,
+   "bbox": [
+    259.79,
+    560.25,
+    264.34,
+    576.9
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0116",
+   "page": 11,
+   "bbox": [
+    159.81,
+    580.75,
+    167.65,
+    597.4
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "14. 訂明非手術癌症治療、",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0117",
+   "page": 11,
+   "bbox": [
+    109.54,
+    594.75,
+    114.08,
+    611.4
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "腎臟透析及器官或骨髓移植",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0118",
+   "page": 11,
+   "bbox": [
+    338.03,
+    597.75,
+    347.11,
+    614.4
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "癌症治療於I.基本保障中的保障項目(j)的賠償;",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0119",
+   "page": 11,
+   "bbox": [
+    338.03,
+    614.75,
+    343.88,
+    631.4
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "腎臟透析於I.基本保障中的保障項目(b)的賠償;",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0120",
+   "page": 11,
+   "bbox": [
+    308.03,
+    631.75,
+    313.88,
+    648.4
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "腎臟透析於II.升級保障中的保障項目5的賠償;或",
+   "targets": [
+    "p15:8",
+    "p19:8"
+   ],
+   "targetDisplay": "P16 · 備註 8",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0121",
+   "page": 12,
+   "bbox": [
+    308.94,
+    97.67,
+    365.56,
+    136.27
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0121"
+  },
+  {
+   "id": "h0122",
+   "page": 12,
+   "bbox": [
+    308.94,
+    97.67,
+    365.56,
+    136.27
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0121"
+  },
+  {
+   "id": "h0123",
+   "page": 12,
+   "bbox": [
+    308.94,
+    97.67,
+    365.56,
+    136.27
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0121"
+  },
+  {
+   "id": "h0124",
+   "page": 12,
+   "bbox": [
+    149.11,
+    218.94,
+    155.58,
+    235.59
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "3. 緊急門診牙科治療",
+   "targets": [
+    "p19:10"
+   ],
+   "targetDisplay": "P20 · 備註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0125",
+   "page": 12,
+   "bbox": [
+    259.62,
+    218.94,
+    264.16,
+    235.59
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全數保障",
+   "targets": [
+    "p15:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P16 · 備註 1",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0126",
+   "page": 12,
+   "bbox": [
+    336.62,
+    237.52,
+    343.09,
+    254.17
+   ],
+   "text": "12",
+   "kind": "numeric",
+   "contextBefore": "(i) 於指定醫療服務提供者或於中國",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0127",
+   "page": 12,
+   "bbox": [
+    149.11,
+    387.89,
+    155.58,
+    404.54
+   ],
+   "text": "13",
+   "kind": "numeric",
+   "contextBefore": "5. 額外現金補貼保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0128",
+   "page": 12,
+   "bbox": [
+    249.62,
+    443.87,
+    255.46,
+    460.52
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "費0港元/16,000港元/25,000港元 :",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0129",
+   "page": 12,
+   "bbox": [
+    249.62,
+    490.87,
+    255.46,
+    507.52
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "港元/100,000港元/180,000港元 :",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0130",
+   "page": 12,
+   "bbox": [
+    249.62,
+    560.73,
+    255.46,
+    577.38
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "費0港元/16,000港元/25,000港元 :",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0131",
+   "page": 12,
+   "bbox": [
+    249.62,
+    593.73,
+    255.46,
+    610.38
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "港元/100,000港元/180,000港元 :",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0132",
+   "page": 13,
+   "bbox": [
+    317.92,
+    96.58,
+    376.46,
+    136.49
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0132"
+  },
+  {
+   "id": "h0133",
+   "page": 13,
+   "bbox": [
+    317.92,
+    96.58,
+    376.46,
+    136.49
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0132"
+  },
+  {
+   "id": "h0134",
+   "page": 13,
+   "bbox": [
+    317.92,
+    96.58,
+    376.46,
+    136.49
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0132"
+  },
+  {
+   "id": "h0135",
+   "page": 13,
+   "bbox": [
+    299.62,
+    200.71,
+    305.46,
+    217.36
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "前連續兩個或以上保單年度沒有索償紀錄,將合資格獲",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0136",
+   "page": 13,
+   "bbox": [
+    334.62,
+    214.71,
+    340.46,
+    231.36
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "無索償保費折扣。有關續保保費折扣,請參閱下表。",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0137",
+   "page": 13,
+   "bbox": [
+    300.2,
+    235.87,
+    305.46,
+    250.85
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "緊接保單續保前之無索償期",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0138",
+   "page": 13,
+   "bbox": [
+    484.62,
+    235.87,
+    489.89,
+    250.85
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "無索償保費折扣(續保保費折扣率)",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0139",
+   "page": 13,
+   "bbox": [
+    484.62,
+    324.33,
+    491.09,
+    340.98
+   ],
+   "text": "12",
+   "kind": "numeric",
+   "contextBefore": ",受保人於無索償期在指定醫療服務提供者進行的任何",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0140",
+   "page": 13,
+   "bbox": [
+    484.62,
+    395.33,
+    490.46,
+    411.98
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "您及您的家庭成員的保單於在緊接保單續保前最少連續",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0141",
+   "page": 13,
+   "bbox": [
+    464.62,
+    409.33,
+    470.46,
+    425.98
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "或以上沒有索償紀錄,您合資格保單的續保保費就可獲",
+   "targets": [
+    "p15:6",
+    "p19:6"
+   ],
+   "targetDisplay": "P16 · 備註 6",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0142",
+   "page": 14,
+   "bbox": [
+    317.92,
+    96.58,
+    376.47,
+    136.49
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0142"
+  },
+  {
+   "id": "h0143",
+   "page": 14,
+   "bbox": [
+    317.92,
+    96.58,
+    376.47,
+    136.49
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0142"
+  },
+  {
+   "id": "h0144",
+   "page": 14,
+   "bbox": [
+    317.92,
+    96.58,
+    376.47,
+    136.49
+   ],
+   "text": "17",
+   "kind": "numeric",
+   "contextBefore": "倍衛您醫療計劃-保障表",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0142"
+  },
+  {
+   "id": "h0145",
+   "page": 14,
+   "bbox": [
+    121.34,
+    185.87,
+    130.73,
+    202.52
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "嬰兒之特別保障",
+   "targets": [
+    "p15:3",
+    "p19:3"
+   ],
+   "targetDisplay": "P16 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0145"
+  },
+  {
+   "id": "h0146",
+   "page": 14,
+   "bbox": [
+    121.34,
+    185.87,
+    130.73,
+    202.52
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "嬰兒之特別保障",
+   "targets": [
+    "p15:9",
+    "p19:9"
+   ],
+   "targetDisplay": "P16 · 備註 9",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0145"
+  },
+  {
+   "id": "h0147",
+   "page": 14,
+   "bbox": [
+    348.13,
+    260.93,
+    357.53,
+    277.58
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "臻一尊貴優才管理團隊",
+   "targets": [
+    "p15:3",
+    "p19:3"
+   ],
+   "targetDisplay": "P16 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0147"
+  },
+  {
+   "id": "h0148",
+   "page": 14,
+   "bbox": [
+    348.13,
+    260.93,
+    357.53,
+    277.58
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "臻一尊貴優才管理團隊",
+   "targets": [
+    "p15:4",
+    "p19:4"
+   ],
+   "targetDisplay": "P16 · 備註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0147"
+  },
+  {
+   "id": "h0149",
+   "page": 14,
+   "bbox": [
+    338.13,
+    278.54,
+    347.53,
+    295.19
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "第二醫療意見服務",
+   "targets": [
+    "p15:3",
+    "p19:3"
+   ],
+   "targetDisplay": "P16 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0149"
+  },
+  {
+   "id": "h0150",
+   "page": 14,
+   "bbox": [
+    338.13,
+    278.54,
+    347.53,
+    295.19
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "第二醫療意見服務",
+   "targets": [
+    "p15:4",
+    "p19:4"
+   ],
+   "targetDisplay": "P16 · 備註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0149"
+  },
+  {
+   "id": "h0151",
+   "page": 14,
+   "bbox": [
+    365.48,
+    296.16,
+    374.88,
+    312.81
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "國際SOS 24小時環球支援服務",
+   "targets": [
+    "p15:3",
+    "p19:3"
+   ],
+   "targetDisplay": "P16 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0151"
+  },
+  {
+   "id": "h0152",
+   "page": 14,
+   "bbox": [
+    365.48,
+    296.16,
+    374.88,
+    312.81
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "國際SOS 24小時環球支援服務",
+   "targets": [
+    "p15:4",
+    "p19:4"
+   ],
+   "targetDisplay": "P16 · 備註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0151"
+  },
+  {
+   "id": "h0153",
+   "page": 14,
+   "bbox": [
+    338.13,
+    313.78,
+    347.53,
+    330.43
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "跨境癌症管理計劃",
+   "targets": [
+    "p15:3",
+    "p19:3"
+   ],
+   "targetDisplay": "P16 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0153"
+  },
+  {
+   "id": "h0154",
+   "page": 14,
+   "bbox": [
+    338.13,
+    313.78,
+    347.53,
+    330.43
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "跨境癌症管理計劃",
+   "targets": [
+    "p15:4",
+    "p19:4"
+   ],
+   "targetDisplay": "P16 · 備註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0153"
+  },
+  {
+   "id": "h0155",
+   "page": 14,
+   "bbox": [
+    298.13,
+    332.21,
+    307.53,
+    348.86
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "樂活復康服務(適用於中風)",
+   "targets": [
+    "p15:3",
+    "p19:3"
+   ],
+   "targetDisplay": "P16 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0155"
+  },
+  {
+   "id": "h0156",
+   "page": 14,
+   "bbox": [
+    298.13,
+    332.21,
+    307.53,
+    348.86
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "樂活復康服務(適用於中風)",
+   "targets": [
+    "p15:4",
+    "p19:4"
+   ],
+   "targetDisplay": "P16 · 備註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0155"
+  },
+  {
+   "id": "h0157",
+   "page": 14,
+   "bbox": [
+    338.13,
+    349.21,
+    347.53,
+    365.86
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "中國內地專屬服務",
+   "targets": [
+    "p15:3",
+    "p19:3"
+   ],
+   "targetDisplay": "P16 · 備註 3",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0157"
+  },
+  {
+   "id": "h0158",
+   "page": 14,
+   "bbox": [
+    338.13,
+    349.21,
+    347.53,
+    365.86
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "中國內地專屬服務",
+   "targets": [
+    "p15:4",
+    "p19:4"
+   ],
+   "targetDisplay": "P16 · 備註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0157"
+  },
+  {
+   "id": "h0159",
+   "page": 14,
+   "bbox": [
+    161.69,
+    410.9,
+    167.59,
+    427.53
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "您可於富衛網頁參閱自付費例子或其他資料。",
+   "targets": [
+    "p15:2",
+    "p19:2"
+   ],
+   "targetDisplay": "P16 · 備註 2",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  }
+ ],
+ "stats": {
+  "anchors": 160,
+  "notes": 18,
+  "resolved": 123
+ }
+}

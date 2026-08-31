@@ -1,0 +1,1151 @@
+{
+ "version": "1.1",
+ "docId": "eaf05fa6",
+ "meta": {
+  "path": "/home/zhangchi/Documents/insurance/AXA/自愿医保/AXA智尊守慧医疗保障-产品说明书.pdf",
+  "pages": 24,
+  "title": "HPPM 892-RDC AXA WiseGuard Pro Medical Insurance Plan Product brochure_Chi",
+  "hasTextLayer": true
+ },
+ "config": {
+  "sizeRatio": 0.8,
+  "riseRatio": 0.22,
+  "gapRatio": 0.6
+ },
+ "notes": [
+  {
+   "noteId": "p19:1",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    63.78,
+    195.62,
+    333.78,
+    224.18
+   ],
+   "number": "1",
+   "text": "任何非醫療所需治療、治療程序、藥物、檢測或服務的費用。",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:2",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    63.78,
+    220.12,
+    553.58,
+    280.68
+   ],
+   "number": "2",
+   "text": "若純粹為接受診斷程序或專職醫療服務(包括但不限於物理治療、職業治療及言語治療)而住院,該住院期間 所招致的全部或部分費用。惟若該等程序或服務是在註冊醫生建議下因而進行醫療所需的診斷,或無法以為 日症病人提供醫療服務的方式下有效地進行的傷病治療,則不屬此項。",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:3",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    63.78,
+    276.62,
+    553.58,
+    409.68
+   ],
+   "number": "3",
+   "text": "在保單生效日前,因感染或出現人體免疫力缺乏病毒(“HIV”)及其相關的傷病所招致的費用。不論保單持有人 或受保人在遞交投保申請文件(若本公司在保單合約的第一部分第8節提出要求,則包括相關必需資料的任何更新 及改動)時是否知悉,若此傷病在保單生效日前已存在,保單合約的條款及保障則不會賠償此傷病。若無法證明 初次感染或出現此傷病的時間,則此傷病於保單生效日起計5年內發病,將被推定為於保單生效日前已感染或出 現;若在這5年後發病,將被推定為於保單生效日後感染或出現。 惟此第3節的不保事項並不適用於因性侵犯、醫療援助、器官移植、輸血或捐血、或出生時受HIV感染所引致 的傷病,有關賠償將按保單合約的條款及保障內其他條款處理。",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:4",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    63.78,
+    405.62,
+    551.28,
+    450.18
+   ],
+   "number": "4",
+   "text": "因倚賴或過量服用藥物、酒精、毒品或類似物質(或受其影響)、故意自殘身體或企圖自殺、參與非法活動、或 性病及經由性接觸傳染的疾病或其後遺症(HIV及其相關的傷病將按以上第3節處理)的醫療服務費用。",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:5",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    56.87,
+    446.12,
+    553.58,
+    531.18
+   ],
+   "number": "5",
+   "text": "以下服務的收費 — (a)以美容或整容為目的的服務,惟受保人因意外而受傷,並於意外後90日內接受的必要醫療服務則不屬此項;或 (b)矯正視力或屈光不正的服務,而該等視力問題可透過驗配眼鏡或隱形眼鏡矯正,包括但不限於眼部屈光 治療、角膜激光矯視手術(LASIK),以及任何相關的檢測、治療程序及服務。",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:6",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    56.31,
+    527.12,
+    553.58,
+    644.18
+   ],
+   "number": "6",
+   "text": "預防性治療及預防性護理的費用,包括但不限於並無症狀下的一般身體檢查、定期檢測或篩查程序、或僅因 受保人及/或其家人過往病歷而進行的篩查或監測程序、頭髮重金屬元素分析、接種疫苗或健康補充品。為免 存疑,此第6節並不適用於 — (a)為了避免因接受其他醫療服務引起的併發症而進行的治療、監測、檢查或治療程序; (b)移除癌前病變;及 (c)為預防過往傷病復發或其併發症的治療。",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:7",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    63.78,
+    640.12,
+    553.58,
+    684.68
+   ],
+   "number": "7",
+   "text": "牙科醫生進行的牙科治療及口腔頜面手術的費用,惟受保人因意外引致在住院期間接受的急症治療及手術則 不屬此項。出院後的跟進牙科治療及口腔手術則不會獲得賠償。",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:8",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    63.78,
+    680.62,
+    551.34,
+    741.18
+   ],
+   "number": "8",
+   "text": "下列醫療服務及輔導服務的費用 — 產科狀況及其併發症,包括但不限於懷孕、分娩、墮胎或流產的診斷檢測; 節育或恢復生育;任何性別的結紮或變性;不育(包括體外受孕或任何其他人工受孕);以及性機能失常,包括 但不限於任何原因導致的陽萎、不舉或早泄。",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:9",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    43.94,
+    737.12,
+    551.3,
+    855.48
+   ],
+   "number": "9",
+   "text": "購買屬耐用品的醫療設備及儀器的費用,包括但不限於輪椅、床及家具、呼吸道壓力機及面罩、可攜式氧氣及 氧氣治療儀器、血液透析機、運動設備、眼鏡、助聽器、特殊支架、輔助步行器具、非處方藥物、家居使用的 空氣清新機或空調及供熱裝置。為免存疑,住院期間或日間手術當日所租用的醫療設備及儀器則不屬此項。 19 | AXA安盛智尊守慧醫療保障",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p21:10",
+   "anchor": "standalone",
+   "page": 21,
+   "bbox": [
+    43.93,
+    505.32,
+    553.12,
+    552.17
+   ],
+   "number": "10",
+   "text": "將保障級別升級至尊貴級別而無需重新進行醫療核保的權利只適用於「智尊守慧」保單生效期間且受保人已提交書面要求更改居住地址至列於 其「智尊守慧」的保障表下的保障地域範圍(非急症治療之地域範圍限制)以外。AXA安盛有權要求令本公司滿意的相關居住地址證明。將 保障級別升級至尊貴級別的要求須於保單續保日前30日內提交至AXA安盛。個人終身只限行使此權利一次。",
+   "textPages": [
+    21
+   ]
+  },
+  {
+   "noteId": "p21:11",
+   "anchor": "standalone",
+   "page": 21,
+   "bbox": [
+    43.93,
+    545.57,
+    553.12,
+    629.18
+   ],
+   "number": "11",
+   "text": "AXA Goal會籍年度之定義如下: (a)首會籍年度是由合資格客戶於「智尊守慧」保單生效後,並完成AXAGoal登記當日起開始生效及將於該相關「智尊守慧」保單首保單週年日 前的42日終止(「首會籍年度」)。 (b)第二個會籍年度由首會籍年度完結的下一日起即時生效及將為期12個月。 (c)第三個會籍年度及其後的會籍年度由前一個會籍年度完結的下一日起即時生效及將為期12個月。",
+   "textPages": [
+    21
+   ]
+  },
+  {
+   "noteId": "p21:12",
+   "anchor": "standalone",
+   "page": 21,
+   "bbox": [
+    43.93,
+    622.59,
+    553.12,
+    657.44
+   ],
+   "number": "12",
+   "text": "每名已符合所有在AXAGoal宣傳單張已訂明的相關條款及細則之合資格客戶,便可獲得保費回贈,以便作抵銷其相關「智尊守慧」保單的 未來保費之用。有關詳情,請參閱 AXA Goal 宣傳單張。",
+   "textPages": [
+    21
+   ]
+  },
+  {
+   "noteId": "p21:13",
+   "anchor": "standalone",
+   "page": 21,
+   "bbox": [
+    43.93,
+    650.84,
+    553.12,
+    685.69
+   ],
+   "number": "13",
+   "text": "實際保費回贈的金額相等於適用的保費回贈百分比乘以緊接在「智尊守慧」保單續保日前之保單年度的年度化保費(無索償折扣(如有)後及 保險徵費前),並以四捨五入方式調整至小數點後2位。",
+   "textPages": [
+    21
+   ]
+  },
+  {
+   "noteId": "p21:14",
+   "anchor": "standalone",
+   "page": 21,
+   "bbox": [
+    43.93,
+    679.09,
+    551.32,
+    855.48
+   ],
+   "number": "14",
+   "text": "每當會籍年度結束後,相關保費回贈會存入保費儲備金戶口(「戶口」)。只要合資格客戶於上一個會籍年度已達到條款及細則所述的獎賞 級別,AXA安盛會在「智尊守慧」保單續保日把已存入戶口的全部或部份的保費回贈(視乎具體情況而定)用作抵銷相關「智尊守慧」保單 任何的未來保費,一切以AXA安盛認為合適為準。AXAGoal計劃的保費回贈之任何部份均不可從戶口中提取。若「智尊守慧」之保單因任何 原因終止、取消或不續保,在戶口中仍未用的保費回贈金額將被沒收及取消。 21 | AXA安盛智尊守慧醫療保障",
+   "textPages": [
+    21
+   ]
+  }
+ ],
+ "hotspots": [
+  {
+   "id": "h0000",
+   "page": 1,
+   "bbox": [
+    446.71,
+    687.1,
+    449.94,
+    703.75
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "提供周全及靈活的保障,全額支付合資格的醫療費用,",
+   "targets": [
+    "p19:1"
+   ],
+   "targetDisplay": "P20 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0001",
+   "page": 2,
+   "bbox": [
+    426.42,
+    201.88,
+    429.98,
+    220.2
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "不設細項賠償限額及終身保障限額",
+   "targets": [
+    "p19:1"
+   ],
+   "targetDisplay": "P20 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0002",
+   "page": 3,
+   "bbox": [
+    458.02,
+    213.54,
+    471.55,
+    235.15
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "由我們的醫療服務供應商",
+   "targets": [
+    "p19:4"
+   ],
+   "targetDisplay": "P20 · 備註 4",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0002"
+  },
+  {
+   "id": "h0003",
+   "page": 3,
+   "bbox": [
+    458.02,
+    213.54,
+    471.55,
+    235.15
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "由我們的醫療服務供應商",
+   "targets": [
+    "p19:5"
+   ],
+   "targetDisplay": "P20 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0002"
+  },
+  {
+   "id": "h0004",
+   "page": 5,
+   "bbox": [
+    194.61,
+    98.75,
+    202.51,
+    136.99
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "全額支付住院及手術費用",
+   "targets": [
+    "p19:1"
+   ],
+   "targetDisplay": "P20 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0005",
+   "page": 5,
+   "bbox": [
+    244.75,
+    177.76,
+    247.99,
+    194.41
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "限額,全額支付1您的住院及手術費用如病房及膳食、",
+   "targets": [
+    "p19:1"
+   ],
+   "targetDisplay": "P20 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0006",
+   "page": 5,
+   "bbox": [
+    376.59,
+    177.76,
+    379.83,
+    194.41
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "障限額,全額支付您的住院及手術費用如病房及膳食、",
+   "targets": [
+    "p19:1"
+   ],
+   "targetDisplay": "P20 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0007",
+   "page": 7,
+   "bbox": [
+    188.81,
+    98.75,
+    196.7,
+    136.99
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "全額支付訂明非手術癌症治療及門診洗腎",
+   "targets": [
+    "p19:2"
+   ],
+   "targetDisplay": "P20 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0008",
+   "page": 7,
+   "bbox": [
+    215.52,
+    149.76,
+    218.75,
+    166.41
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "療、放射性治療、標靶治療、免疫治療及荷爾蒙治療)",
+   "targets": [
+    "p19:2"
+   ],
+   "targetDisplay": "P20 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0009",
+   "page": 7,
+   "bbox": [
+    275.83,
+    630.2,
+    283.0,
+    646.85
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "至尊貴級別而無需重新進行醫療核保。每名",
+   "targets": [
+    "p21:10"
+   ],
+   "targetDisplay": "P22 · 備註 10",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0010",
+   "page": 8,
+   "bbox": [
+    211.38,
+    370.75,
+    219.28,
+    409.0
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "無索償折扣",
+   "targets": [
+    "p19:3"
+   ],
+   "targetDisplay": "P20 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0011",
+   "page": 8,
+   "bbox": [
+    508.88,
+    453.77,
+    512.12,
+    470.42
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "),您即可享高達每年保費15%之保費折扣(該每年",
+   "targets": [
+    "p19:3"
+   ],
+   "targetDisplay": "P20 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0012",
+   "page": 8,
+   "bbox": [
+    450.24,
+    512.7,
+    453.67,
+    529.32
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "無索償折扣百分比",
+   "targets": [
+    "p19:3"
+   ],
+   "targetDisplay": "P20 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0013",
+   "page": 9,
+   "bbox": [
+    307.54,
+    230.95,
+    314.03,
+    247.6
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "達標日數按下表釐訂。於該會籍年度11完結後發放至",
+   "targets": [
+    "p21:11"
+   ],
+   "targetDisplay": "P22 · 備註 11",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0014",
+   "page": 9,
+   "bbox": [
+    484.65,
+    230.95,
+    491.14,
+    247.6
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "1的達標日數按下表釐訂。於該會籍年度完結後發放至",
+   "targets": [
+    "p21:11"
+   ],
+   "targetDisplay": "P22 · 備註 11",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0015",
+   "page": 9,
+   "bbox": [
+    142.48,
+    320.8,
+    165.13,
+    337.45
+   ],
+   "text": "12",
+   "kind": "numeric",
+   "contextBefore": "保費回贈百分比",
+   "targets": [
+    "p21:12"
+   ],
+   "targetDisplay": "P22 · 備註 12",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0015"
+  },
+  {
+   "id": "h0016",
+   "page": 9,
+   "bbox": [
+    142.48,
+    320.8,
+    165.13,
+    337.45
+   ],
+   "text": "13",
+   "kind": "numeric",
+   "contextBefore": "保費回贈百分比",
+   "targets": [
+    "p21:13"
+   ],
+   "targetDisplay": "P22 · 備註 13",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0015"
+  },
+  {
+   "id": "h0017",
+   "page": 9,
+   "bbox": [
+    142.48,
+    320.8,
+    165.13,
+    337.45
+   ],
+   "text": "14",
+   "kind": "numeric",
+   "contextBefore": "保費回贈百分比",
+   "targets": [
+    "p21:14"
+   ],
+   "targetDisplay": "P22 · 備註 14",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0015"
+  },
+  {
+   "id": "h0018",
+   "page": 9,
+   "bbox": [
+    162.48,
+    351.98,
+    168.95,
+    368.63
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "每一會籍年度之最少達標日數",
+   "targets": [
+    "p21:11"
+   ],
+   "targetDisplay": "P22 · 備註 11",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0019",
+   "page": 10,
+   "bbox": [
+    173.65,
+    219.04,
+    182.81,
+    235.7
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "透過AXA安盛特選醫療網絡,我們可以直接繳付",
+   "targets": [
+    "p19:4"
+   ],
+   "targetDisplay": "P20 · 備註 4",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0019"
+  },
+  {
+   "id": "h0020",
+   "page": 10,
+   "bbox": [
+    173.65,
+    219.04,
+    182.81,
+    235.7
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "透過AXA安盛特選醫療網絡,我們可以直接繳付",
+   "targets": [
+    "p19:5"
+   ],
+   "targetDisplay": "P20 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0019"
+  },
+  {
+   "id": "h0021",
+   "page": 10,
+   "bbox": [
+    338.93,
+    233.99,
+    347.56,
+    250.64
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "供應商,尊享支援全球之免找數服務,惟須受限於",
+   "targets": [
+    "p19:4"
+   ],
+   "targetDisplay": "P20 · 備註 4",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0021"
+  },
+  {
+   "id": "h0022",
+   "page": 10,
+   "bbox": [
+    338.93,
+    233.99,
+    347.56,
+    250.64
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "供應商,尊享支援全球之免找數服務,惟須受限於",
+   "targets": [
+    "p19:5"
+   ],
+   "targetDisplay": "P20 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0021"
+  },
+  {
+   "id": "h0023",
+   "page": 10,
+   "bbox": [
+    461.67,
+    341.53,
+    473.77,
+    361.48
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "免費第二醫療意見",
+   "targets": [
+    "p19:4"
+   ],
+   "targetDisplay": "P20 · 備註 4",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0023"
+  },
+  {
+   "id": "h0024",
+   "page": 10,
+   "bbox": [
+    461.67,
+    341.53,
+    473.77,
+    361.48
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "免費第二醫療意見",
+   "targets": [
+    "p19:8"
+   ],
+   "targetDisplay": "P20 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0023"
+  },
+  {
+   "id": "h0025",
+   "page": 10,
+   "bbox": [
+    262.96,
+    345.83,
+    279.87,
+    365.78
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "免費中國內地住院按金保證服務",
+   "targets": [
+    "p19:6"
+   ],
+   "targetDisplay": "P20 · 備註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0025"
+  },
+  {
+   "id": "h0026",
+   "page": 10,
+   "bbox": [
+    262.96,
+    345.83,
+    279.87,
+    365.78
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "免費中國內地住院按金保證服務",
+   "targets": [
+    "p19:7"
+   ],
+   "targetDisplay": "P20 · 備註 7",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0025"
+  },
+  {
+   "id": "h0027",
+   "page": 10,
+   "bbox": [
+    262.96,
+    345.83,
+    279.87,
+    365.78
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "免費中國內地住院按金保證服務",
+   "targets": [
+    "p19:8"
+   ],
+   "targetDisplay": "P20 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0025"
+  },
+  {
+   "id": "h0028",
+   "page": 10,
+   "bbox": [
+    178.85,
+    392.94,
+    187.39,
+    409.59
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "於網絡內指定的中國內地醫院,只要出示您的身份",
+   "targets": [
+    "p19:6"
+   ],
+   "targetDisplay": "P20 · 備註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0028"
+  },
+  {
+   "id": "h0029",
+   "page": 10,
+   "bbox": [
+    178.85,
+    392.94,
+    187.39,
+    409.59
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "於網絡內指定的中國內地醫院,只要出示您的身份",
+   "targets": [
+    "p19:7"
+   ],
+   "targetDisplay": "P20 · 備註 7",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0028"
+  },
+  {
+   "id": "h0030",
+   "page": 10,
+   "bbox": [
+    510.58,
+    409.12,
+    519.5,
+    425.77
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "「智尊守慧」提供的第二醫療意見諮詢服務,您可",
+   "targets": [
+    "p19:4"
+   ],
+   "targetDisplay": "P20 · 備註 4",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0030"
+  },
+  {
+   "id": "h0031",
+   "page": 10,
+   "bbox": [
+    510.58,
+    409.12,
+    519.5,
+    425.77
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "「智尊守慧」提供的第二醫療意見諮詢服務,您可",
+   "targets": [
+    "p19:8"
+   ],
+   "targetDisplay": "P20 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0030"
+  },
+  {
+   "id": "h0032",
+   "page": 10,
+   "bbox": [
+    454.86,
+    425.12,
+    463.97,
+    441.77
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "與AXA安盛特選醫療網絡醫生(「網絡醫生」)或",
+   "targets": [
+    "p19:4"
+   ],
+   "targetDisplay": "P20 · 備註 4",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0032"
+  },
+  {
+   "id": "h0033",
+   "page": 10,
+   "bbox": [
+    454.86,
+    425.12,
+    463.97,
+    441.77
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "與AXA安盛特選醫療網絡醫生(「網絡醫生」)或",
+   "targets": [
+    "p19:5"
+   ],
+   "targetDisplay": "P20 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0032"
+  },
+  {
+   "id": "h0034",
+   "page": 10,
+   "bbox": [
+    374.05,
+    457.12,
+    382.02,
+    473.77
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "第二醫療意見。",
+   "targets": [
+    "p19:4"
+   ],
+   "targetDisplay": "P20 · 備註 4",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0034"
+  },
+  {
+   "id": "h0035",
+   "page": 10,
+   "bbox": [
+    374.05,
+    457.12,
+    382.02,
+    473.77
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "第二醫療意見。",
+   "targets": [
+    "p19:8"
+   ],
+   "targetDisplay": "P20 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0034"
+  },
+  {
+   "id": "h0036",
+   "page": 10,
+   "bbox": [
+    190.96,
+    540.47,
+    203.06,
+    560.42
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "病人特別協助服務",
+   "targets": [
+    "p19:8"
+   ],
+   "targetDisplay": "P20 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0036"
+  },
+  {
+   "id": "h0037",
+   "page": 10,
+   "bbox": [
+    190.96,
+    540.47,
+    203.06,
+    560.42
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "病人特別協助服務",
+   "targets": [
+    "p19:9"
+   ],
+   "targetDisplay": "P20 · 備註 9",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0036"
+  },
+  {
+   "id": "h0038",
+   "page": 10,
+   "bbox": [
+    460.58,
+    548.26,
+    472.68,
+    568.21
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "AXA安盛護士熱線",
+   "targets": [
+    "p19:8"
+   ],
+   "targetDisplay": "P20 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0038"
+  },
+  {
+   "id": "h0039",
+   "page": 10,
+   "bbox": [
+    460.58,
+    548.26,
+    472.68,
+    568.21
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "AXA安盛護士熱線",
+   "targets": [
+    "p19:9"
+   ],
+   "targetDisplay": "P20 · 備註 9",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0038"
+  },
+  {
+   "id": "h0040",
+   "page": 11,
+   "bbox": [
+    223.51,
+    133.0,
+    231.83,
+    149.65
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "需出示AXA安盛康健卡/醫療卡,符合相關的條款和",
+   "targets": [
+    "p19:4"
+   ],
+   "targetDisplay": "P20 · 備註 4",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0040"
+  },
+  {
+   "id": "h0041",
+   "page": 11,
+   "bbox": [
+    223.51,
+    133.0,
+    231.83,
+    149.65
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "需出示AXA安盛康健卡/醫療卡,符合相關的條款和",
+   "targets": [
+    "p19:5"
+   ],
+   "targetDisplay": "P20 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0040"
+  },
+  {
+   "id": "h0042",
+   "page": 11,
+   "bbox": [
+    281.31,
+    165.0,
+    284.55,
+    181.65
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "有關條款及細則,請參閱保單持有人指南。",
+   "targets": [
+    "p19:8"
+   ],
+   "targetDisplay": "P20 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  }
+ ],
+ "stats": {
+  "anchors": 43,
+  "notes": 14,
+  "resolved": 43
+ }
+}

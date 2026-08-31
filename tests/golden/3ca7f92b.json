@@ -1,0 +1,1583 @@
+{
+ "version": "1.1",
+ "docId": "3ca7f92b",
+ "meta": {
+  "path": "/home/zhangchi/Documents/insurance/FWD/重疾/危疾應援保_危疾應援保-升級版-產品宣傳單張.pdf",
+  "pages": 32,
+  "title": "FWD Crisis USupporter (Kid Starter)_TC (2023_1009)",
+  "hasTextLayer": true
+ },
+ "config": {
+  "sizeRatio": 0.8,
+  "riseRatio": 0.22,
+  "gapRatio": 0.6
+ },
+ "notes": [
+  {
+   "noteId": "p18:1",
+   "anchor": "standalone",
+   "page": 18,
+   "bbox": [
+    57.23,
+    355.84,
+    162.29,
+    374.4
+   ],
+   "number": "1",
+   "text": "美國食品藥品監督管理局(FDA)",
+   "textPages": [
+    18
+   ]
+  },
+  {
+   "noteId": "p18:2",
+   "anchor": "standalone",
+   "page": 18,
+   "bbox": [
+    57.23,
+    366.84,
+    136.87,
+    385.4
+   ],
+   "number": "2",
+   "text": "歐洲藥品管理局(EMA)",
+   "textPages": [
+    18
+   ]
+  },
+  {
+   "noteId": "p18:3",
+   "anchor": "standalone",
+   "page": 18,
+   "bbox": [
+    57.23,
+    377.84,
+    168.46,
+    396.4
+   ],
+   "number": "3",
+   "text": "中國國家藥品監督管理局(NMPA)",
+   "textPages": [
+    18
+   ]
+  },
+  {
+   "noteId": "p18:4",
+   "anchor": "standalone",
+   "page": 18,
+   "bbox": [
+    57.23,
+    388.83,
+    460.06,
+    429.39
+   ],
+   "number": "4",
+   "text": "香港衛生署 富衛就索償本保單的指定危疾之危疾醫療增值權益對(i)試驗性藥物之定義的解釋及(ii)試驗性藥物之適當性的決定為最終及不可推翻的。 就索償本保單的指定危疾之危疾醫療增值權益,合理及慣常指符合以下條件的費用或開支:",
+   "textPages": [
+    18
+   ]
+  },
+  {
+   "noteId": "p18:1",
+   "anchor": "standalone",
+   "page": 18,
+   "bbox": [
+    57.23,
+    421.83,
+    209.25,
+    440.39
+   ],
+   "number": "1",
+   "text": "屬醫療需要之治療、物資或醫療服務的實際收費;",
+   "textPages": [
+    18
+   ]
+  },
+  {
+   "noteId": "p18:2",
+   "anchor": "standalone",
+   "page": 18,
+   "bbox": [
+    57.23,
+    432.83,
+    322.59,
+    451.39
+   ],
+   "number": "2",
+   "text": "不超過在產生開支當地提供類似治療、物資或醫療服務收取的一般或合理平均收費水準;",
+   "textPages": [
+    18
+   ]
+  },
+  {
+   "noteId": "p18:3",
+   "anchor": "standalone",
+   "page": 18,
+   "bbox": [
+    43.06,
+    443.82,
+    550.44,
+    543.38
+   ],
+   "number": "3",
+   "text": "不包括因為有保險才衍生的收費。 在比較產生該筆費用或開支之所在地的政府、相關當局或認可之醫學會使用的費用表後,若富衛判定該筆費用或開支為不合理及慣常,富衛可能會調整本保單下的應付權益。 若保單權益人可以從任何其他來源獲發還任何原本可於本權益下獲賠償的開支,富衛將只賠償超出由其他來源獲發還的部分,惟受限於上述限額。若被保人可以從任何其他 來源獲發還原本可於本權益下獲賠償的全部或部分費用,保單權益人必須告知富衛。若富衛已經支付可從另一來源獲發還的權益,保單權益人必須向富衛退還該有關款項。 6 當保單仍然生效,若被保人因醫療需要而須入住深切治療部連續3天或以上並需使用侵入性維生支持,富衛將支付重大醫療護理權益。此權益於本保單下只會被支付一次。 7 此額外權益金額並不會從現有投保額中扣除。此權益於本保單下只會被支付一次。此權益將在緊接被保人86歲生日之前的一個保單週年日終止。 此權益受以下條件所限:",
+   "textPages": [
+    18
+   ]
+  },
+  {
+   "noteId": "p18:1",
+   "anchor": "standalone",
+   "page": 18,
+   "bbox": [
+    57.23,
+    535.81,
+    423.81,
+    554.38
+   ],
+   "number": "1",
+   "text": "若富衛因同一情況須支付(一)危疾權益或指定危疾之多重權益,及(二)生活守護權益,屆時富衛將不會支付生活守護權益。",
+   "textPages": [
+    18
+   ]
+  },
+  {
+   "noteId": "p18:2",
+   "anchor": "standalone",
+   "page": 18,
+   "bbox": [
+    43.06,
+    546.81,
+    551.34,
+    819.31
+   ],
+   "number": "2",
+   "text": "若先前已為病症或損傷支付危疾權益或指定危疾之多重權益的賠償,富衛將不會就同一病症或損傷支付生活守護權益。 8 亞爾茲默氏病、腎衰竭或柏金遜症 在本保單生效期間,若獲支付危疾權益後,隨後被保人86歲(下次生日年齡)或之前被首次確認診斷患上亞爾茲默氏病、腎衰竭或柏金遜症,並由被首次確認診斷患上 該亞爾茲默氏病、腎衰竭或柏金遜症的日期起生存至少14天,惟當隨後索償的亞爾茲默氏病、腎衰竭或柏金遜症的首次確認診斷日期,必須是在緊接上一次就本保單下已獲 保險賠償的危疾權益或指定危疾之多重權益之首次確認診斷日期最少相隔1年,方可獲得賠償。 本保單下亞爾茲默氏病及柏金遜症僅可於危疾權益及指定危疾之多重權益下索償一次。若亞爾茲默氏病或柏金遜症的賠償於危疾權益或指定危疾之多重權益下已被支付, 所有隨後之亞爾茲默氏病及柏金遜症的賠償於指定危疾之多重權益將不獲支付。 本保單下腎衰竭僅可於危疾權益及指定危疾之多重權益下索償一次。若腎衰竭的賠償於危疾權益或指定危疾之多重權益下已被支付,所有隨後之腎衰竭的賠償於指定危疾 之多重權益將不獲支付。 癌症、急性心肌梗塞或中風 當保單仍然生效,如被保人於危疾權益獲支付後隨後被診斷患上癌症、急性心肌梗塞或中風,並由被首次確認患上該癌症(持續癌症除外)、急性心肌梗塞或中風的日期起存 活最少14天,須受癌症、急性心肌梗塞或中風的個別定義所載的額外要求及根據以下條件,此指定危疾之多重權益將可獲得支付: (a) 當就本保單下緊接上一次已被支付的賠償為任何受保危疾的危疾權益或癌症、急性心肌梗塞、中風、亞爾茲默氏病、腎衰竭或柏金遜症的指定危疾之多重權益,隨後 索償的癌症、急性心肌梗塞或中風的首次確認診斷日期,必須是在緊接上一次就本保單下已獲保險賠償的任何受保危疾的危疾權益或癌症、急性心肌梗塞、中風、 亞爾茲默氏病、腎衰竭或柏金遜症的指定危疾之多重權益之首次確認診斷日期最少相隔1年,方可獲得賠償;及 18",
+   "textPages": [
+    18
+   ]
+  },
+  {
+   "noteId": "p25:1",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    186.68,
+    190.63,
+    215.24
+   ],
+   "number": "1",
+   "text": "基本保單已告終止或繳清之日;",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:2",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    201.68,
+    394.04,
+    230.24
+   ],
+   "number": "2",
+   "text": "保費到期日,若繳付保費的寬限期屆滿之日,而於當日我們仍未收到保費付款;",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:3",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    216.68,
+    311.83,
+    245.24
+   ],
+   "number": "3",
+   "text": "保單權益人以書面申請終止本附約後的第一個保費到期日;",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:4",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    231.68,
+    220.04,
+    260.24
+   ],
+   "number": "4",
+   "text": "基本保單之現有投保額減至零之日;及",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:5",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    246.68,
+    549.59,
+    275.24
+   ],
+   "number": "5",
+   "text": "當父母身故保費豁免權益附約就保單權益人及父母後續權益人如下述終止時(只適用於父母身故保費豁免權益附約);或",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:6",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    261.68,
+    537.06,
+    290.24
+   ],
+   "number": "6",
+   "text": "緊接配偶權益人或配偶受益人年滿75歲(只適用於10年/15年/20年保費供款年期)或80歲(只適用於25年/30年",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:1",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    320.68,
+    224.78,
+    349.24
+   ],
+   "number": "1",
+   "text": "緊接被保人年滿25歲前的保單週年日;",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:2",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    335.68,
+    551.78,
+    364.24
+   ],
+   "number": "2",
+   "text": "緊接保單權益人年滿75歲(只適用於10年/15年/20年保費供款年期)或80歲(只適用於25年/30年保費供款年期)前的",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:3",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    364.68,
+    429.1,
+    393.24
+   ],
+   "number": "3",
+   "text": "在父母後續權益人較保單權益人先行身故下,本附約就父母後續權益人而言生效當日。",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:1",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    409.68,
+    222.54,
+    438.24
+   ],
+   "number": "1",
+   "text": "緊接被保人年滿25歲前的保單週年日;",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:2",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    424.68,
+    536.55,
+    453.24
+   ],
+   "number": "2",
+   "text": "緊接父母後續權益人年滿75歲(只適用於10年/15年/20年保費供款年期)或80歲(只適用於25年/30年保費供款",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:3",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    453.68,
+    408.56,
+    482.24
+   ],
+   "number": "3",
+   "text": "在保單權益人較父母後續權益人先行身故下,本附約就保單權益人而言生效當日。",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:1",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    571.08,
+    526.04,
+    599.64
+   ],
+   "number": "1",
+   "text": "感染人類免疫力缺乏病毒(HIV)所引致之任何病症,包括愛滋病(AIDS)及/或源於HIV感染引發的各種突變,",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:2",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    600.08,
+    396.69,
+    628.64
+   ],
+   "number": "2",
+   "text": "蓄意自我毀傷或企圖自殺,不論當時神智是否清醒,或是否受藥物或酒精影響。",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:3",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    615.08,
+    142.76,
+    643.64
+   ],
+   "number": "3",
+   "text": "參與任何刑事犯罪。",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:4",
+   "anchor": "standalone",
+   "page": 25,
+   "bbox": [
+    42.23,
+    630.08,
+    526.07,
+    658.64
+   ],
+   "number": "4",
+   "text": "由於服用過量有毒性之藥物,精神科藥物,吸毒或濫用酒精或濫用溶劑及物質而引起任何狀況,醫生處方開列",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p17:inline25",
+   "anchor": "inline",
+   "page": 17,
+   "bbox": [
+    41.86,
+    782.94,
+    391.08,
+    801.51
+   ],
+   "number": "",
+   "text": "註:危疾及特別疾病權益之賠償須符合保單條款。有關危疾及特別疾病的詳情,請參閱保單條款內危疾及特別疾病之定義。",
+   "textPages": [
+    17
+   ]
+  }
+ ],
+ "hotspots": [
+  {
+   "id": "h0000",
+   "page": 3,
+   "bbox": [
+    470.81,
+    189.56,
+    485.86,
+    207.87
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "障,覆蓋範圍廣泛,讓您能更輕鬆與安心地面對危疾。",
+   "targets": [
+    "p18:1",
+    "p18:1",
+    "p18:1",
+    "p25:1",
+    "p25:1",
+    "p25:1",
+    "p25:1"
+   ],
+   "targetDisplay": "P19 · 備註 1",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0000"
+  },
+  {
+   "id": "h0001",
+   "page": 3,
+   "bbox": [
+    470.81,
+    189.56,
+    485.86,
+    207.87
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "障,覆蓋範圍廣泛,讓您能更輕鬆與安心地面對危疾。",
+   "targets": [
+    "p18:2",
+    "p18:2",
+    "p18:2",
+    "p25:2",
+    "p25:2",
+    "p25:2",
+    "p25:2"
+   ],
+   "targetDisplay": "P19 · 備註 2",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0000"
+  },
+  {
+   "id": "h0002",
+   "page": 3,
+   "bbox": [
+    470.81,
+    189.56,
+    485.86,
+    207.87
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "障,覆蓋範圍廣泛,讓您能更輕鬆與安心地面對危疾。",
+   "targets": [
+    "p18:3",
+    "p18:3",
+    "p25:3",
+    "p25:3",
+    "p25:3",
+    "p25:3"
+   ],
+   "targetDisplay": "P19 · 備註 3",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0000"
+  },
+  {
+   "id": "h0003",
+   "page": 3,
+   "bbox": [
+    541.21,
+    274.08,
+    544.77,
+    292.4
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "延伸重大醫療護理權益(額外原有投保額的50%)。",
+   "targets": [
+    "p18:4",
+    "p25:4",
+    "p25:4"
+   ],
+   "targetDisplay": "P19 · 備註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0004",
+   "page": 4,
+   "bbox": [
+    516.91,
+    171.56,
+    528.87,
+    189.87
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "院連續3天或以上,此等計劃將支付重大醫療護理權益",
+   "targets": [
+    "p18:1",
+    "p18:1",
+    "p18:1",
+    "p25:1",
+    "p25:1",
+    "p25:1",
+    "p25:1"
+   ],
+   "targetDisplay": "P19 · 備註 1",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0004"
+  },
+  {
+   "id": "h0005",
+   "page": 4,
+   "bbox": [
+    516.91,
+    171.56,
+    528.87,
+    189.87
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "院連續3天或以上,此等計劃將支付重大醫療護理權益",
+   "targets": [
+    "p25:6"
+   ],
+   "targetDisplay": "P26 · 備註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0004"
+  },
+  {
+   "id": "h0006",
+   "page": 4,
+   "bbox": [
+    533.8,
+    229.56,
+    544.11,
+    247.87
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "影響並符合指定條件時,此等計劃將提供生活守護權益",
+   "targets": [
+    "p18:1",
+    "p18:1",
+    "p18:1",
+    "p25:1",
+    "p25:1",
+    "p25:1",
+    "p25:1"
+   ],
+   "targetDisplay": "P19 · 備註 1",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0006"
+  },
+  {
+   "id": "h0007",
+   "page": 4,
+   "bbox": [
+    533.8,
+    229.56,
+    544.11,
+    247.87
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "影響並符合指定條件時,此等計劃將提供生活守護權益",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0006"
+  },
+  {
+   "id": "h0008",
+   "page": 4,
+   "bbox": [
+    425.17,
+    478.8,
+    428.73,
+    497.11
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "投保額的100%,便可獲豁免此等計劃之保費餘額。",
+   "targets": [
+    "p18:1",
+    "p18:1",
+    "p18:1",
+    "p25:1",
+    "p25:1",
+    "p25:1",
+    "p25:1"
+   ],
+   "targetDisplay": "P19 · 備註 1",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0009",
+   "page": 4,
+   "bbox": [
+    510.91,
+    614.31,
+    520.13,
+    632.62
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "疾之多重權益,總額可達額外原有投保額的990%。",
+   "targets": [
+    "p18:1",
+    "p18:1",
+    "p18:1",
+    "p25:1",
+    "p25:1",
+    "p25:1",
+    "p25:1"
+   ],
+   "targetDisplay": "P19 · 備註 1",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0009"
+  },
+  {
+   "id": "h0010",
+   "page": 4,
+   "bbox": [
+    510.91,
+    614.31,
+    520.13,
+    632.62
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "疾之多重權益,總額可達額外原有投保額的990%。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0009"
+  },
+  {
+   "id": "h0011",
+   "page": 5,
+   "bbox": [
+    393.3,
+    171.62,
+    398.3,
+    189.94
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "劃會作出額外高達原有投保額的75%之賠償。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0012",
+   "page": 5,
+   "bbox": [
+    282.83,
+    229.26,
+    305.52,
+    252.53
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "保障先天性疾病",
+   "targets": [
+    "p18:1",
+    "p18:1",
+    "p18:1",
+    "p25:1",
+    "p25:1",
+    "p25:1",
+    "p25:1"
+   ],
+   "targetDisplay": "P19 · 備註 1",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0012"
+  },
+  {
+   "id": "h0013",
+   "page": 5,
+   "bbox": [
+    282.83,
+    229.26,
+    305.52,
+    252.53
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "保障先天性疾病",
+   "targets": [
+    "p18:2",
+    "p18:2",
+    "p18:2",
+    "p25:2",
+    "p25:2",
+    "p25:2",
+    "p25:2"
+   ],
+   "targetDisplay": "P19 · 備註 2",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0012"
+  },
+  {
+   "id": "h0014",
+   "page": 5,
+   "bbox": [
+    282.83,
+    229.26,
+    305.52,
+    252.53
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "保障先天性疾病",
+   "targets": [
+    "p18:3",
+    "p18:3",
+    "p25:3",
+    "p25:3",
+    "p25:3",
+    "p25:3"
+   ],
+   "targetDisplay": "P19 · 備註 3",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0012"
+  },
+  {
+   "id": "h0015",
+   "page": 5,
+   "bbox": [
+    526.33,
+    489.61,
+    533.45,
+    507.92
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "級版)- 童步守護為10%),為期最長連續5年。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0016",
+   "page": 5,
+   "bbox": [
+    530.44,
+    565.61,
+    537.44,
+    583.92
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "保(升級版)- 童步守護為期最長連續12個月)。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0017",
+   "page": 5,
+   "bbox": [
+    525.45,
+    599.98,
+    533.81,
+    618.3
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "性心肌梗塞或中風而獲得危疾權益賠償,優活健康管理",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0018",
+   "page": 5,
+   "bbox": [
+    294.08,
+    657.98,
+    303.37,
+    676.3
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "理更會為被保人提供轉介服務,揀選最合適的復康計劃",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0019",
+   "page": 5,
+   "bbox": [
+    395.61,
+    715.98,
+    405.28,
+    734.3
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "茲默氏病後,優活健康管理會提供度身訂造的支援計劃",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0020",
+   "page": 6,
+   "bbox": [
+    368.84,
+    171.75,
+    377.59,
+    190.07
+   ],
+   "text": "12",
+   "kind": "numeric",
+   "contextBefore": "6、8及10個保單週年日提供身體檢查券。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0021",
+   "page": 6,
+   "bbox": [
+    206.02,
+    466.4,
+    214.81,
+    484.71
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "提供轉介服務(「家庭關懷服務」)16,讓您的家人",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0022",
+   "page": 7,
+   "bbox": [
+    497.02,
+    542.45,
+    504.26,
+    560.76
+   ],
+   "text": "18",
+   "kind": "numeric",
+   "contextBefore": "獲賠償相等於原有投保額的10%的不孕症治療權益。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0023",
+   "page": 8,
+   "bbox": [
+    380.97,
+    127.61,
+    392.55,
+    150.89
+   ],
+   "text": "19",
+   "kind": "numeric",
+   "contextBefore": "提早為您寶貴的新生兒提供保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0024",
+   "page": 8,
+   "bbox": [
+    382.56,
+    229.75,
+    391.21,
+    248.07
+   ],
+   "text": "20",
+   "kind": "numeric",
+   "contextBefore": "得受保病症的權益之20%,而且在嬰孩出生日期起計",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0025",
+   "page": 12,
+   "bbox": [
+    250.72,
+    292.13,
+    258.72,
+    308.78
+   ],
+   "text": "22",
+   "kind": "numeric",
+   "contextBefore": "費並非保證,惟不會隨著被保人下次生日的年齡而增加",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0026",
+   "page": 12,
+   "bbox": [
+    121.6,
+    377.3,
+    129.64,
+    393.95
+   ],
+   "text": "23",
+   "kind": "numeric",
+   "contextBefore": "最高原有投保額",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0027",
+   "page": 12,
+   "bbox": [
+    91.71,
+    398.6,
+    101.49,
+    415.25
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "危疾權益",
+   "targets": [
+    "p18:1",
+    "p18:1",
+    "p18:1",
+    "p25:1",
+    "p25:1",
+    "p25:1",
+    "p25:1"
+   ],
+   "targetDisplay": "P19 · 備註 1",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0027"
+  },
+  {
+   "id": "h0028",
+   "page": 12,
+   "bbox": [
+    91.71,
+    398.6,
+    101.49,
+    415.25
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "危疾權益",
+   "targets": [
+    "p18:3",
+    "p18:3",
+    "p25:3",
+    "p25:3",
+    "p25:3",
+    "p25:3"
+   ],
+   "targetDisplay": "P19 · 備註 3",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0027"
+  },
+  {
+   "id": "h0029",
+   "page": 12,
+   "bbox": [
+    141.68,
+    431.66,
+    151.4,
+    448.31
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "指定危疾之多重權益",
+   "targets": [
+    "p18:1",
+    "p18:1",
+    "p18:1",
+    "p25:1",
+    "p25:1",
+    "p25:1",
+    "p25:1"
+   ],
+   "targetDisplay": "P19 · 備註 1",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0029"
+  },
+  {
+   "id": "h0030",
+   "page": 12,
+   "bbox": [
+    141.68,
+    431.66,
+    151.4,
+    448.31
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "指定危疾之多重權益",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0029"
+  },
+  {
+   "id": "h0031",
+   "page": 12,
+   "bbox": [
+    111.73,
+    485.31,
+    121.49,
+    501.96
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "特別疾病權益",
+   "targets": [
+    "p18:1",
+    "p18:1",
+    "p18:1",
+    "p25:1",
+    "p25:1",
+    "p25:1",
+    "p25:1"
+   ],
+   "targetDisplay": "P19 · 備註 1",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0031"
+  },
+  {
+   "id": "h0032",
+   "page": 12,
+   "bbox": [
+    111.73,
+    485.31,
+    121.49,
+    501.96
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "特別疾病權益",
+   "targets": [
+    "p18:2",
+    "p18:2",
+    "p18:2",
+    "p25:2",
+    "p25:2",
+    "p25:2",
+    "p25:2"
+   ],
+   "targetDisplay": "P19 · 備註 2",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0031"
+  },
+  {
+   "id": "h0033",
+   "page": 12,
+   "bbox": [
+    132.28,
+    538.9,
+    141.87,
+    555.55
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "重大醫療護理權益",
+   "targets": [
+    "p18:1",
+    "p18:1",
+    "p18:1",
+    "p25:1",
+    "p25:1",
+    "p25:1",
+    "p25:1"
+   ],
+   "targetDisplay": "P19 · 備註 1",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0033"
+  },
+  {
+   "id": "h0034",
+   "page": 12,
+   "bbox": [
+    132.28,
+    538.9,
+    141.87,
+    555.55
+   ],
+   "text": "6",
+   "kind": "numeric",
+   "contextBefore": "重大醫療護理權益",
+   "targets": [
+    "p25:6"
+   ],
+   "targetDisplay": "P26 · 備註 6",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0033"
+  },
+  {
+   "id": "h0035",
+   "page": 12,
+   "bbox": [
+    112.02,
+    584.95,
+    116.56,
+    601.6
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "額外保障權益",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0036",
+   "page": 12,
+   "bbox": [
+    128.59,
+    667.36,
+    136.39,
+    684.01
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "3大疾病現金權益",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0037",
+   "page": 13,
+   "bbox": [
+    111.84,
+    161.35,
+    121.25,
+    178.0
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "生活守護權益",
+   "targets": [
+    "p18:1",
+    "p18:1",
+    "p18:1",
+    "p25:1",
+    "p25:1",
+    "p25:1",
+    "p25:1"
+   ],
+   "targetDisplay": "P19 · 備註 1",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0037"
+  },
+  {
+   "id": "h0038",
+   "page": 13,
+   "bbox": [
+    111.84,
+    161.35,
+    121.25,
+    178.0
+   ],
+   "text": "7",
+   "kind": "numeric",
+   "contextBefore": "生活守護權益",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0037"
+  },
+  {
+   "id": "h0039",
+   "page": 13,
+   "bbox": [
+    122.03,
+    215.42,
+    129.93,
+    232.07
+   ],
+   "text": "18",
+   "kind": "numeric",
+   "contextBefore": "不孕症治療權益",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0040",
+   "page": 13,
+   "bbox": [
+    91.44,
+    265.16,
+    95.98,
+    281.81
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "身故權益",
+   "targets": [
+    "p18:1",
+    "p18:1",
+    "p18:1",
+    "p25:1",
+    "p25:1",
+    "p25:1",
+    "p25:1"
+   ],
+   "targetDisplay": "P19 · 備註 1",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0041",
+   "page": 13,
+   "bbox": [
+    91.57,
+    293.65,
+    99.53,
+    310.3
+   ],
+   "text": "12",
+   "kind": "numeric",
+   "contextBefore": "身體檢查",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0042",
+   "page": 13,
+   "bbox": [
+    112.1,
+    322.13,
+    119.95,
+    338.78
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "優活健康管理",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0043",
+   "page": 13,
+   "bbox": [
+    131.37,
+    356.76,
+    139.11,
+    373.41
+   ],
+   "text": "14",
+   "kind": "numeric",
+   "contextBefore": "優才醫護管理團隊",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0044",
+   "page": 13,
+   "bbox": [
+    111.17,
+    378.86,
+    119.17,
+    395.51
+   ],
+   "text": "15",
+   "kind": "numeric",
+   "contextBefore": "第二醫療意見",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0045",
+   "page": 13,
+   "bbox": [
+    112.0,
+    400.49,
+    119.77,
+    417.14
+   ],
+   "text": "16",
+   "kind": "numeric",
+   "contextBefore": "家庭關懷服務",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0046",
+   "page": 13,
+   "bbox": [
+    121.78,
+    433.89,
+    129.56,
+    450.54
+   ],
+   "text": "24",
+   "kind": "numeric",
+   "contextBefore": "延伸寬限期權益",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0047",
+   "page": 13,
+   "bbox": [
+    152.31,
+    470.22,
+    156.86,
+    486.87
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "延伸重大醫療護理權益",
+   "targets": [
+    "p18:4",
+    "p25:4",
+    "p25:4"
+   ],
+   "targetDisplay": "P19 · 備註 4",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0048",
+   "page": 13,
+   "bbox": [
+    91.48,
+    525.79,
+    96.02,
+    542.44
+   ],
+   "text": "5",
+   "kind": "numeric",
+   "contextBefore": "增值權益",
+   "targets": [
+    "p25:5"
+   ],
+   "targetDisplay": "P26 · 備註 5",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0049",
+   "page": 14,
+   "bbox": [
+    388.22,
+    228.19,
+    397.1,
+    244.84
+   ],
+   "text": "19",
+   "kind": "numeric",
+   "contextBefore": "您的嬰孩可在出生後即時獲得受保在危疾",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0050",
+   "page": 14,
+   "bbox": [
+    121.94,
+    264.04,
+    129.82,
+    280.69
+   ],
+   "text": "20",
+   "kind": "numeric",
+   "contextBefore": "童步守護的保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0051",
+   "page": 14,
+   "bbox": [
+    388.22,
+    305.16,
+    397.1,
+    321.81
+   ],
+   "text": "19",
+   "kind": "numeric",
+   "contextBefore": "您的嬰孩可在出生後即時獲得受保在危疾",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  }
+ ],
+ "stats": {
+  "anchors": 52,
+  "notes": 26,
+  "resolved": 23
+ }
+}

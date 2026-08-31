@@ -13,6 +13,8 @@ interface Props {
   highlightNoteId: string | null
   onJumpNote: (note: Note) => void
   registerRendered: (pageNo: number, height: number) => void
+  missMode: boolean                  // 補標模式：拖框选漏检角标
+  onMissBoxed: (pageNo: number, bboxPdf: number[]) => void
 }
 
 interface HoverState {
@@ -20,7 +22,7 @@ interface HoverState {
   rect: [number, number, number, number]
 }
 
-export default function PageView({ page, pageNo, scale, analysis, highlightNoteId, onJumpNote, registerRendered }: Props) {
+export default function PageView({ page, pageNo, scale, analysis, highlightNoteId, onJumpNote, registerRendered, missMode, onMissBoxed }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const hostRef = useRef<HTMLDivElement>(null)
   const hoverTimer = useRef<number | null>(null)
@@ -105,12 +107,58 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
   const hsClassConf = (conf: number) =>
     'hotspot ' + (conf >= 0.95 ? 'hs-certain' : conf >= 0.7 ? 'hs-probable' : 'hs-unresolved')
 
+  // ---- 補標框选（missMode）----
+  const [dragRect, setDragRect] = useState<{ x0: number; y0: number; x1: number; y1: number } | null>(null)
+  const dragStart = useRef<{ x: number; y: number } | null>(null)
+
+  const missDown = (e: React.MouseEvent) => {
+    if (!missMode) return
+    const { offsetX, offsetY } = e.nativeEvent
+    dragStart.current = { x: offsetX, y: offsetY }
+    setDragRect({ x0: offsetX, y0: offsetY, x1: offsetX, y1: offsetY })
+  }
+  const missMove = (e: React.MouseEvent) => {
+    if (!dragStart.current) return
+    const { offsetX, offsetY } = e.nativeEvent
+    setDragRect((r) => (r ? { ...r, x1: offsetX, y1: offsetY } : r))
+  }
+  const missUp = () => {
+    const st = dragStart.current
+    const r = dragRect
+    dragStart.current = null
+    setDragRect(null)
+    if (!st || !r) return
+    const x0 = Math.min(r.x0, r.x1)
+    const x1 = Math.max(r.x0, r.x1)
+    const y0 = Math.min(r.y0, r.y1)
+    const y1 = Math.max(r.y0, r.y1)
+    if (x1 - x0 < 4 || y1 - y0 < 4) return       // 误触
+    // css 坐标 → PDF pt（左上原点，同管线 bbox）
+    onMissBoxed(pageNo, [x0 / scale, y0 / scale, x1 / scale, y1 / scale])
+  }
+
   return (
     <div className="page-host" data-page={pageNo} ref={hostRef}>
       <div className="page-canvas" style={dims ? { width: dims.w, height: dims.h } : undefined}>
         <canvas ref={canvasRef} />
         {dims && (
-          <div className="ref-layer">
+          <div
+            className={'ref-layer' + (missMode ? ' miss-mode' : '')}
+            onMouseDown={missMode ? missDown : undefined}
+            onMouseMove={missMode ? missMove : undefined}
+            onMouseUp={missMode ? missUp : undefined}
+          >
+            {dragRect && (
+              <div
+                className="miss-drag"
+                style={{
+                  left: Math.min(dragRect.x0, dragRect.x1),
+                  top: Math.min(dragRect.y0, dragRect.y1),
+                  width: Math.abs(dragRect.x1 - dragRect.x0),
+                  height: Math.abs(dragRect.y1 - dragRect.y0),
+                }}
+              />
+            )}
             {/* 注释条目框（跳转高亮脉冲） */}
             {notes.map((n) => {
               const r = toCssRect(page, scale, n.bbox)
