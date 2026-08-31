@@ -1,10 +1,9 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Analysis, Hotspot, Note } from '../api'
 import { renderPage, toCssRect, type PDFPageProxy } from '../pdfjs'
 
 const HOVER_DELAY_MS = 120          // §8.2 hover 防抖
 const TOOLTIP_W = 440
-const TOOLTIP_EST_H = 240
 
 interface Props {
   page: PDFPageProxy
@@ -17,7 +16,7 @@ interface Props {
 }
 
 interface HoverState {
-  hotspot: Hotspot
+  items: Hotspot[]                  // 同 group 的多编号引用（单编号时长度 1）
   rect: [number, number, number, number]
 }
 
@@ -30,6 +29,19 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
 
   const hotspots = analysis.hotspots.filter((h) => h.page === pageNo)
   const notes = analysis.notes.filter((n) => n.page === pageNo && n.anchor !== 'inline')
+
+  // 同一多编号角标（如 '2,3' 共享 group）聚合为单一命中区，tooltip 列出全部引用
+  const hsGroups = useMemo(() => {
+    const map = new Map<string, Hotspot[]>()
+    for (const h of hotspots) {
+      const key = h.group ?? h.id
+      const arr = map.get(key)
+      if (arr) arr.push(h)
+      else map.set(key, [h])
+    }
+    return [...map.values()]
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [analysis, pageNo])
 
   // 可见时渲染 canvas（IntersectionObserver 懒加载）
   useEffect(() => {
@@ -68,34 +80,30 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dims !== null, scale, page])
 
-  const enter = (hs: Hotspot) => {
+  const enter = (items: Hotspot[]) => {
     if (hoverTimer.current) window.clearTimeout(hoverTimer.current)
-    const rect = toCssRect(page, scale, hs.bbox)
-    hoverTimer.current = window.setTimeout(() => setHover({ hotspot: hs, rect }), HOVER_DELAY_MS)
+    const rect = toCssRect(page, scale, items[0].bbox)
+    hoverTimer.current = window.setTimeout(() => setHover({ items, rect }), HOVER_DELAY_MS)
   }
   const leave = () => {
     if (hoverTimer.current) window.clearTimeout(hoverTimer.current)
     hoverTimer.current = window.setTimeout(() => setHover(null), 60)
   }
 
-  const hoveredNote: Note | null = hover
-    ? analysis.notes.find((n) => n.noteId === hover.hotspot.targets[0]) ?? null
-    : null
-
-  // tooltip 定位（§8.2：下方优先，空间不足上翻，水平 clamp）
+  // tooltip 定位（§8.2：下方优先，空间不足上翻，水平 clamp）；高度按条目数估算
   let tipStyle: React.CSSProperties | null = null
   if (hover && dims) {
     const [rx0, ry0, rx1, ry1] = hover.rect
     const w = Math.min(TOOLTIP_W, Math.max(280, dims.w - 16))
-    const estH = Math.min(TOOLTIP_EST_H, dims.h * 0.5)
+    const estH = Math.min(120 + 110 * hover.items.length, dims.h * 0.6)
     let top = ry1 + 8
     if (top + estH > dims.h - 8) top = Math.max(8, ry0 - 8 - estH)
     const left = Math.min(Math.max(rx0 - 24, 8), Math.max(8, dims.w - w - 8))
     tipStyle = { top, left, width: w }
   }
 
-  const hsClass = (hs: Hotspot) =>
-    'hotspot ' + (hs.confidence >= 0.95 ? 'hs-certain' : hs.confidence >= 0.7 ? 'hs-probable' : 'hs-unresolved')
+  const hsClassConf = (conf: number) =>
+    'hotspot ' + (conf >= 0.95 ? 'hs-certain' : conf >= 0.7 ? 'hs-probable' : 'hs-unresolved')
 
   return (
     <div className="page-host" data-page={pageNo} ref={hostRef}>
@@ -109,50 +117,64 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
               return (
                 <div
                   key={n.noteId}
-                  className={'note-box' + (highlightNoteId === n.noteId ? ' note-pulse' : '')}
+                  className={'note-box' + (highlightNoteId === n.noteId ? ' active note-pulse' : '')}
                   style={{ left: r[0], top: r[1], width: r[2] - r[0], height: r[3] - r[1] }}
                 />
               )
             })}
-            {/* 角标命中区（§5.5 外扩命中） */}
-            {hotspots.map((hs) => {
-              const [x0, y0, x1, y1] = toCssRect(page, scale, hs.bbox)
+            {/* 角标命中区（§5.5 外扩命中；同 group 多编号聚合为一个命中区） */}
+            {hsGroups.map((items) => {
+              const [x0, y0, x1, y1] = toCssRect(page, scale, items[0].bbox)
               const pad = Math.max(3, (y1 - y0) * 0.18)
               const minHit = 7
               const w = Math.max(x1 - x0 + pad * 2, minHit)
               const h = Math.max(y1 - y0 + pad * 2, minHit)
+              const conf = Math.max(...items.map((s) => s.confidence))
               return (
                 <div
-                  key={hs.id}
-                  className={hsClass(hs)}
+                  key={items[0].id}
+                  className={hsClassConf(conf)}
                   style={{ left: x0 - (w - (x1 - x0)) / 2, top: y0 - (h - (y1 - y0)) / 2, width: w, height: h }}
-                  onMouseEnter={() => enter(hs)}
+                  onMouseEnter={() => enter(items)}
                   onMouseLeave={leave}
                   onClick={() => {
-                    const note = analysis.notes.find((n) => n.noteId === hs.targets[0])
+                    const note = items
+                      .map((s) => analysis.notes.find((n) => n.noteId === s.targets[0]))
+                      .find(Boolean)
                     if (note) onJumpNote(note)
                   }}
                 />
               )
             })}
-            {/* hover 浮层 */}
+            {/* hover 浮层：单编号单条；多编号列表展示全部引用，逐条独立跳转 */}
             {hover && tipStyle && (
               <div className="tooltip" style={tipStyle} onMouseEnter={() => { if (hoverTimer.current) window.clearTimeout(hoverTimer.current) }} onMouseLeave={leave}>
-                <div className="tip-head">
-                  <span className="tip-loc">{hover.hotspot.targetDisplay ?? '未找到對應註釋'}</span>
-                  {hover.hotspot.source === 'native' && <span className="badge badge-native">原生鏈接</span>}
-                  {hover.hotspot.confidence >= 0.95 && <span className="badge badge-certain">✓</span>}
-                  {hover.hotspot.confidence >= 0.7 && hover.hotspot.confidence < 0.95 && <span className="badge badge-probable">可能</span>}
-                  {hover.hotspot.confidence < 0.7 && <span className="badge badge-unresolved">?</span>}
-                </div>
-                <div className="tip-body">
-                  {hoveredNote ? hoveredNote.text : '未能在文檔中找到此編號的註釋條目，可在右側引用總覽中人工校對。'}
-                </div>
-                {hoveredNote && (
-                  <div className="tip-foot">
-                    <button onClick={() => onJumpNote(hoveredNote)}>跳轉原文</button>
-                  </div>
+                {hover.items.length > 1 && (
+                  <div className="tip-multi">此處引用 {hover.items.length} 條註釋</div>
                 )}
+                {hover.items.map((hs) => {
+                  const note = analysis.notes.find((n) => n.noteId === hs.targets[0]) ?? null
+                  return (
+                    <div className="tip-item" key={hs.id}>
+                      <div className="tip-head">
+                        <span className="tip-num">{hs.text}</span>
+                        <span className="tip-loc">{hs.targetDisplay ?? '未找到對應註釋'}</span>
+                        {hs.source === 'native' && <span className="badge badge-native">原生鏈接</span>}
+                        {hs.confidence >= 0.95 && <span className="badge badge-certain">✓</span>}
+                        {hs.confidence >= 0.7 && hs.confidence < 0.95 && <span className="badge badge-probable">可能</span>}
+                        {hs.confidence < 0.7 && <span className="badge badge-unresolved">?</span>}
+                      </div>
+                      <div className="tip-body">
+                        {note ? note.text : '未能在文檔中找到此編號的註釋條目，可在右側引用總覽中人工校對。'}
+                      </div>
+                      {note && (
+                        <div className="tip-foot">
+                          <button onClick={() => onJumpNote(note)}>跳轉原文</button>
+                        </div>
+                      )}
+                    </div>
+                  )
+                })}
               </div>
             )}
           </div>

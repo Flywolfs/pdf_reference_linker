@@ -30,6 +30,7 @@ export interface Hotspot {
   targetDisplay: string | null
   confidence: number
   source: 'native' | 'derived'
+  group?: string | null // 同一多编号角标（如 '2,3'）共享的组 id
 }
 
 export interface Analysis {

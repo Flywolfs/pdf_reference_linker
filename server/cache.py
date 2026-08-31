@@ -4,6 +4,8 @@ import json
 import os
 from pathlib import Path
 
+from .pipeline.schema import ANALYSIS_VERSION
+
 CACHE_DIR = Path.home() / ".cache" / "pdf_ref_reader"
 INDEX_FILE = CACHE_DIR / "index.json"
 OVERRIDE_DIR = CACHE_DIR / "overrides"
@@ -25,7 +27,9 @@ def load_analysis(doc_id: str, mtime: float) -> dict | None:
         return None
     try:
         data = json.loads(p.read_text())
-        if data.get("meta", {}).get("mtime") == mtime:
+        # version 不一致（schema 变更）或 mtime 不一致均视为 miss
+        if (data.get("version") == ANALYSIS_VERSION
+                and data.get("meta", {}).get("mtime") == mtime):
             return data
     except (json.JSONDecodeError, OSError):
         pass

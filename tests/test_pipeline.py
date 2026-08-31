@@ -77,10 +77,16 @@ def test_fwd_notes_parsed(fwd):
 
 
 def test_fwd_multi_number_split(fwd):
-    """多角标连写（如 '2,3'）拆分为独立 hotspot。"""
+    """多角标连写（如 '2,3'）拆分为独立 hotspot，且共享 group 供前端聚合。"""
     pairs = [(h.text, h.contextBefore) for h in fwd.hotspots]
     nums = [t for t, _ in pairs]
     assert any(t in nums for t in ("2", "3"))
+    grouped = [h for h in fwd.hotspots if h.group]
+    assert grouped, "多编号角标应有 group"
+    by_group: dict[str, set[str]] = {}
+    for h in grouped:
+        by_group.setdefault(h.group, set()).add(h.text)
+    assert any(len(v) > 1 for v in by_group.values()), "同组应含 >1 个编号"
 
 
 # ---------- AIA 灵活计划：表格角标跨页 → p15 註：区 ----------

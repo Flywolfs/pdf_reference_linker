@@ -37,12 +37,15 @@ def analyze_pdf(path: str, doc_id: str, config: ParseConfig = DEFAULT_CONFIG) ->
     anchors = detect_anchors(lines, config)
     seq = 0
     for a in anchors:
+        # 多编号角标（如 '2,3'）：每编号独立热点（匹配/校对各異），
+        # 但共享 group 供前端聚合为单一命中区 + 列表浮层
+        group = f"g{seq:04d}" if len(a.numbers) > 1 else None
         for num in a.numbers:
             out.hotspots.append(Hotspot(
                 id=f"h{seq:04d}", page=a.page,
                 bbox=[round(v, 2) for v in a.bbox],
                 text=num, kind=a.kind, contextBefore=a.context,
-                confidence=a.confidence))
+                confidence=a.confidence, group=group))
             seq += 1
 
     # ---- 目标端 ----

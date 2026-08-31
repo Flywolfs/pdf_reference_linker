@@ -15,12 +15,12 @@ export default function PdfViewer({ docId, analysis }: Props) {
   const [pages, setPages] = useState<PDFPageProxy[]>([])
   const [scale, setScale] = useState(1.3)
   const [highlightNoteId, setHighlightNoteId] = useState<string | null>(null)
-  const highlightTimer = useRef<number | null>(null)
   const fitDone = useRef(false)
 
   // 加载 PDF 文档与全部 page 对象（用于尺寸计算与坐标换算）
   useEffect(() => {
     let doc: any = null
+    setHighlightNoteId(null)
     getDocument(api.pdfUrl(docId)).promise.then(async (d: PDFDocumentProxy) => {
       doc = d
       setPdf(d)
@@ -57,9 +57,8 @@ export default function PdfViewer({ docId, analysis }: Props) {
       if (!container || !pageEl || !pdfPage) return
       const [, vy] = toCssPoint(pdfPage, scale, 0, note.bbox[1])
       container.scrollTo({ top: pageEl.offsetTop + vy - 90, behavior: 'smooth' })
-      if (highlightTimer.current) window.clearTimeout(highlightTimer.current)
+      // 高亮保持至下一次跳转/切换文档，不自动消失（用户反馈 2s 脉冲看不清）
       setHighlightNoteId(note.noteId)
-      highlightTimer.current = window.setTimeout(() => setHighlightNoteId(null), 2000)
     },
     [pages, scale],
   )

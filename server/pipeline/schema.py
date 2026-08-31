@@ -4,6 +4,8 @@ from typing import Optional
 
 from pydantic import BaseModel, Field
 
+ANALYSIS_VERSION = "1.1"          # schema 变更时 bump，缓存自动失效
+
 
 class DocMeta(BaseModel):
     path: str
@@ -46,10 +48,11 @@ class Hotspot(BaseModel):
     confidence: float
     source: str = "derived"           # native | derived
     nativeLink: Optional[NativeLink] = None
+    group: Optional[str] = None       # 同一多编号角标（如 '2,3'）共享的组 id
 
 
 class AnalysisDoc(BaseModel):
-    version: str = "1.0"
+    version: str = ANALYSIS_VERSION
     docId: str
     meta: DocMeta
     config: ConfigSnapshot

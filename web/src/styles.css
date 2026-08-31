@@ -83,6 +83,11 @@ body {
 .hs-unresolved { background: rgba(130, 138, 150, .18); outline: 1px dashed rgba(130, 138, 150, .4); }
 
 .note-box { position: absolute; pointer-events: none; border-radius: 4px; }
+/* 跳转后的持续高亮：脉冲动画结束后保持，直到下一次跳转/切换文档（FR-5 用户反馈调整） */
+.note-box.active {
+  background: rgba(66, 133, 244, .12);
+  outline: 2px solid rgba(66, 133, 244, .55);
+}
 .note-pulse { animation: pulse 0.9s ease-in-out 2; }
 @keyframes pulse {
   0%, 100% { box-shadow: none; background: transparent; }
@@ -96,6 +101,7 @@ body {
   box-shadow: 0 6px 24px rgba(30, 30, 30, .18);
   font-size: 13px; line-height: 1.65;
   display: flex; flex-direction: column;
+  max-height: 62vh; overflow-y: auto;
 }
 .tip-head {
   display: flex; align-items: center; gap: 6px;
@@ -112,6 +118,15 @@ body {
   background: #f7ecc8; color: #7a5d0d; cursor: pointer; font-size: 12px;
 }
 .tip-foot button:hover { background: #f0e2ae; }
+/* 多编号角标：列表式浮层，每条引用独立展示与跳转 */
+.tip-multi { padding: 7px 12px 0; font-size: 11px; font-weight: 700; color: #8a6d1a; }
+.tip-item { border-top: 1px solid #f0e8cf; }
+.tip-item:first-of-type { border-top: none; }
+.tip-num {
+  flex: none; min-width: 20px; text-align: center;
+  background: #f0e2ae; color: #7a5d0d; border-radius: 4px;
+  font-size: 11px; font-weight: 700; padding: 1px 4px;
+}
 .badge {
   font-size: 10px; padding: 1px 6px; border-radius: 8px; font-weight: 500;
 }
