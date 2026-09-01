@@ -1,14 +1,21 @@
 # -*- coding: utf-8 -*-
-"""磁盘缓存 + 校对覆盖（DESIGN.md §6）：mtime 失效、overrides 叠加。"""
+"""磁盘缓存 + 校对覆盖（DESIGN.md §6）：mtime 失效、overrides 叠加。
+
+存储分工：解析缓存（可再生、体积大）留 ~/.cache/pdf_ref_reader；
+人工数据（标注/换绑/AI 任务与结果）属劳动成果，存项目内 data/（可环境变量覆盖）。
+"""
 import json
 import os
 from pathlib import Path
 
 from .pipeline.schema import ANALYSIS_VERSION
 
-CACHE_DIR = Path.home() / ".cache" / "pdf_ref_reader"
+CACHE_DIR = Path.home() / ".cache" / "pdf_ref_reader"          # 解析缓存（可再生）
+# 人工数据：默认项目根/data，PDF_REF_DATA 可覆盖
+DATA_DIR = Path(os.environ.get("PDF_REF_DATA",
+                               Path(__file__).resolve().parent.parent / "data"))
 INDEX_FILE = CACHE_DIR / "index.json"
-OVERRIDE_DIR = CACHE_DIR / "overrides"
+OVERRIDE_DIR = DATA_DIR / "overrides"
 
 
 def _ensure() -> None:

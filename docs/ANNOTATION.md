@@ -12,7 +12,7 @@
 │    confirmed 的修正即时写入 overrides，阅读器立刻显示正确结果      │
 │ 2. 无法即时判断的 → pending_ai；漏检的 → 補標框选                  │
 ├─────────────────────────────────────────────────────────────┤
-│ 3. [導出AI任務] → ~/.cache/pdf_ref_reader/ai_tasks/{docId}.json │
+│ 3. [導出AI任務] → 项目内 data/ai_tasks/{docId}.json │
 ├─────────────────────────────────────────────────────────────┤
 │ 4. AI 处理任务文件（两种方式，schema 相同）：                      │
 │    a. Qoder 会话：让助手读取任务文件，结合 PDF 内容逐项分析        │
@@ -23,7 +23,7 @@
 └─────────────────────────────────────────────────────────────┘
 ```
 
-## 任务文件 schema（`ai_tasks/{docId}.json`）
+## 任务文件 schema（`data/ai_tasks/{docId}.json`）
 
 ```jsonc
 {
@@ -80,7 +80,7 @@
 ## 给 Qoder 会话的处理方式
 
 直接对助手说：
-> 处理 `~/.cache/pdf_ref_reader/ai_tasks/{docId}.json` 里的标注任务，
+> 处理 `data/ai_tasks/{docId}.json` 里的标注任务，
 > 结合 PDF 原文分析，完成后生成结果文件 `ai_results/{docId}.json`
 
 助手会读取 PDF（pdfPath）、核对每项任务的正确目标、写出结果 JSON，
@@ -89,11 +89,13 @@
 
 ## 数据存放
 
-| 数据 | 位置 |
+标注类人工数据存**项目内 `data/`**（劳动成果，避免 `~/.cache` 被清理工具误删；可环境变量 `PDF_REF_DATA` 覆盖）；解析缓存（可再生）仍在 `~/.cache/pdf_ref_reader/`：
+
+| 内容 | 路径 |
 |------|------|
-| 标注条目 | `~/.cache/pdf_ref_reader/annotations/{docId}.json` |
-| AI 任务 | `~/.cache/pdf_ref_reader/ai_tasks/{docId}.json` |
-| 生效修正（overrides） | `~/.cache/pdf_ref_reader/overrides/{docId}.json` |
+| 标注条目（verdict+miss 合一） | `<项目根>/data/annotations/{docId}.json` |
+| AI 任务 | `<项目根>/data/ai_tasks/{docId}.json` |
+| 生效修正（overrides） | `<项目根>/data/overrides/{docId}.json` |
 
 ## 条目状态机
 

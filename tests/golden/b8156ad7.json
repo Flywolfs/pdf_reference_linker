@@ -1,5 +1,5 @@
 {
- "version": "1.1",
+ "version": "1.2",
  "docId": "b8156ad7",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/自愿医保标准计划.pdf",
@@ -110,7 +110,7 @@
    ]
   },
   {
-   "noteId": "p14:4",
+   "noteId": "p14:1",
    "anchor": "standalone",
    "page": 14,
    "bbox": [
@@ -126,7 +126,7 @@
    ]
   },
   {
-   "noteId": "p14:1",
+   "noteId": "p14:2",
    "anchor": "standalone",
    "page": 14,
    "bbox": [
@@ -142,7 +142,7 @@
    ]
   },
   {
-   "noteId": "p14:5",
+   "noteId": "p14:3",
    "anchor": "standalone",
    "page": 14,
    "bbox": [
@@ -158,7 +158,7 @@
    ]
   },
   {
-   "noteId": "p14:2",
+   "noteId": "p14:4",
    "anchor": "standalone",
    "page": 14,
    "bbox": [
@@ -174,7 +174,7 @@
    ]
   },
   {
-   "noteId": "p14:3",
+   "noteId": "p14:5",
    "anchor": "standalone",
    "page": 14,
    "bbox": [
@@ -237,7 +237,7 @@
    "contextBefore": "保障項目",
    "targets": [
     "p10:1",
-    "p14:1"
+    "p14:2"
    ],
    "targetDisplay": "P11 · 腳註 1",
    "confidence": 0.8,
@@ -259,7 +259,7 @@
    "contextBefore": "d.   專科醫生費",
    "targets": [
     "p10:2",
-    "p14:2"
+    "p14:4"
    ],
    "targetDisplay": "P11 · 腳註 2",
    "confidence": 0.8,
@@ -281,7 +281,7 @@
    "contextBefore": "外科醫生費的35%",
    "targets": [
     "p10:5",
-    "p14:5"
+    "p14:3"
    ],
    "targetDisplay": "P11 · 腳註 5",
    "confidence": 0.8,
@@ -303,7 +303,7 @@
    "contextBefore": "外科醫生費的35%",
    "targets": [
     "p10:5",
-    "p14:5"
+    "p14:3"
    ],
    "targetDisplay": "P11 · 腳註 5",
    "confidence": 0.8,
@@ -325,7 +325,7 @@
    "contextBefore": "i.    訂明診斷成像檢測",
    "targets": [
     "p10:2",
-    "p14:2"
+    "p14:4"
    ],
    "targetDisplay": "P11 · 腳註 2",
    "confidence": 0.8,
@@ -347,7 +347,7 @@
    "contextBefore": "i.    訂明診斷成像檢測",
    "targets": [
     "p10:3",
-    "p14:3"
+    "p14:5"
    ],
    "targetDisplay": "P11 · 腳註 3",
    "confidence": 0.8,
@@ -390,7 +390,7 @@
    "contextBefore": "j.    訂明非手術癌症治療",
    "targets": [
     "p10:4",
-    "p14:4"
+    "p14:1"
    ],
    "targetDisplay": "P11 · 腳註 4",
    "confidence": 0.8,
@@ -412,7 +412,7 @@
    "contextBefore": ".   入院前或出院後/ 日間手術前後的門診護理",
    "targets": [
     "p10:2",
-    "p14:2"
+    "p14:4"
    ],
    "targetDisplay": "P11 · 腳註 2",
    "confidence": 0.8,
@@ -434,7 +434,7 @@
    "contextBefore": "保障項目",
    "targets": [
     "p10:1",
-    "p14:1"
+    "p14:2"
    ],
    "targetDisplay": "P11 · 腳註 1",
    "confidence": 0.98,

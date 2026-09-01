@@ -1,5 +1,5 @@
 {
- "version": "1.1",
+ "version": "1.2",
  "docId": "3b665cd4",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/重疾/AIA爱伴航保险计划2-产品简介.pdf",
@@ -14,7 +14,7 @@
  },
  "notes": [
   {
-   "noteId": "p14:2",
+   "noteId": "p14:1",
    "anchor": "standalone",
    "page": 14,
    "bbox": [
@@ -30,7 +30,7 @@
    ]
   },
   {
-   "noteId": "p14:3",
+   "noteId": "p14:2",
    "anchor": "standalone",
    "page": 14,
    "bbox": [
@@ -46,7 +46,7 @@
    ]
   },
   {
-   "noteId": "p14:4",
+   "noteId": "p14:3",
    "anchor": "standalone",
    "page": 14,
    "bbox": [
@@ -62,7 +62,7 @@
    ]
   },
   {
-   "noteId": "p14:5",
+   "noteId": "p14:4",
    "anchor": "standalone",
    "page": 14,
    "bbox": [
@@ -78,7 +78,7 @@
    ]
   },
   {
-   "noteId": "p14:6",
+   "noteId": "p14:5",
    "anchor": "standalone",
    "page": 14,
    "bbox": [
@@ -94,7 +94,7 @@
    ]
   },
   {
-   "noteId": "p14:7",
+   "noteId": "p14:6",
    "anchor": "standalone",
    "page": 14,
    "bbox": [
@@ -110,7 +110,7 @@
    ]
   },
   {
-   "noteId": "p14:8",
+   "noteId": "p14:7",
    "anchor": "standalone",
    "page": 14,
    "bbox": [
@@ -126,7 +126,7 @@
    ]
   },
   {
-   "noteId": "p14:9",
+   "noteId": "p14:8",
    "anchor": "standalone",
    "page": 14,
    "bbox": [
@@ -142,7 +142,7 @@
    ]
   },
   {
-   "noteId": "p14:21",
+   "noteId": "p14:9",
    "anchor": "standalone",
    "page": 14,
    "bbox": [
@@ -158,7 +158,7 @@
    ]
   },
   {
-   "noteId": "p15:5",
+   "noteId": "p15:1",
    "anchor": "footer",
    "page": 15,
    "bbox": [
@@ -190,7 +190,7 @@
    ]
   },
   {
-   "noteId": "p18:5",
+   "noteId": "p18:1",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -206,7 +206,7 @@
    ]
   },
   {
-   "noteId": "p18:11",
+   "noteId": "p18:2",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -222,7 +222,7 @@
    ]
   },
   {
-   "noteId": "p18:12",
+   "noteId": "p18:3",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -238,7 +238,7 @@
    ]
   },
   {
-   "noteId": "p18:6",
+   "noteId": "p18:4",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -254,7 +254,7 @@
    ]
   },
   {
-   "noteId": "p18:13",
+   "noteId": "p18:5",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -270,7 +270,7 @@
    ]
   },
   {
-   "noteId": "p18:14",
+   "noteId": "p18:6",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -302,7 +302,7 @@
    ]
   },
   {
-   "noteId": "p18:15",
+   "noteId": "p18:8",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -318,7 +318,7 @@
    ]
   },
   {
-   "noteId": "p18:8",
+   "noteId": "p18:9",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -334,7 +334,7 @@
    ]
   },
   {
-   "noteId": "p18:16",
+   "noteId": "p18:10",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -350,7 +350,7 @@
    ]
   },
   {
-   "noteId": "p18:17",
+   "noteId": "p18:11",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -366,7 +366,7 @@
    ]
   },
   {
-   "noteId": "p18:9",
+   "noteId": "p18:12",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -382,7 +382,7 @@
    ]
   },
   {
-   "noteId": "p18:10",
+   "noteId": "p18:13",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -481,7 +481,7 @@
    "kind": "numeric",
    "contextBefore": "香港三大常見癌症及其5年復發率1",
    "targets": [
-    "p14:2"
+    "p14:1"
    ],
    "targetDisplay": "P15 · 備註 2",
    "confidence": 0.98,
@@ -523,7 +523,7 @@
    "kind": "numeric",
    "contextBefore": "每10個長者便有1名患上腦退化疾病。",
    "targets": [
-    "p14:4"
+    "p14:3"
    ],
    "targetDisplay": "P15 · 備註 4",
    "confidence": 0.98,
@@ -544,7 +544,7 @@
    "kind": "numeric",
    "contextBefore": "天使綜合症可引致嚴重發展遲緩。",
    "targets": [
-    "p14:7",
+    "p14:6",
     "p18:7"
    ],
    "targetDisplay": "P15 · 備註 7",
@@ -566,7 +566,7 @@
    "kind": "numeric",
    "contextBefore": "每年平均新增確診病例3至5宗。",
    "targets": [
-    "p14:7",
+    "p14:6",
     "p18:7"
    ],
    "targetDisplay": "P15 · 備註 7",
@@ -588,8 +588,8 @@
    "kind": "numeric",
    "contextBefore": "年齡增長而增加。",
    "targets": [
-    "p14:6",
-    "p18:6"
+    "p14:5",
+    "p18:4"
    ],
    "targetDisplay": "P15 · 備註 6",
    "confidence": 0.8,
@@ -610,8 +610,8 @@
    "kind": "numeric",
    "contextBefore": "臍帶血或可協助治療癌症。",
    "targets": [
-    "p14:9",
-    "p18:9"
+    "p14:8",
+    "p18:12"
    ],
    "targetDisplay": "P15 · 備註 9",
    "confidence": 0.8,
@@ -632,8 +632,8 @@
    "kind": "numeric",
    "contextBefore": "專注力不足 / 過度活躍症。",
    "targets": [
-    "p14:8",
-    "p18:8"
+    "p14:7",
+    "p18:9"
    ],
    "targetDisplay": "P15 · 備註 8",
    "confidence": 0.8,
@@ -654,7 +654,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -675,7 +675,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -696,7 +696,7 @@
    "kind": "numeric",
    "contextBefore": "香港保險業首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -717,7 +717,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -738,7 +738,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -759,7 +759,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -780,7 +780,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -801,7 +801,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -822,7 +822,7 @@
    "kind": "numeric",
    "contextBefore": "手術表分類為複雜的手術",
    "targets": [
-    "p18:13"
+    "p18:5"
    ],
    "targetDisplay": "P19 · 備註 13",
    "confidence": 0.98,
@@ -843,7 +843,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -883,7 +883,7 @@
    "kind": "numeric",
    "contextBefore": "倍早期危疾賠償1次。此保障可助受保人獲得所需財務",
    "targets": [
-    "p18:14"
+    "p18:6"
    ],
    "targetDisplay": "P19 · 備註 14",
    "confidence": 0.98,
@@ -904,7 +904,7 @@
    "kind": "numeric",
    "contextBefore": "病、兒童成長保障下的兒童疾病(只適用於「愛伴航–",
    "targets": [
-    "p18:15"
+    "p18:8"
    ],
    "targetDisplay": "P19 · 備註 15",
    "confidence": 0.98,
@@ -925,7 +925,7 @@
    "kind": "numeric",
    "contextBefore": "本保單的應付定期保費餘額也將按已減少的現時保額而",
    "targets": [
-    "p18:15"
+    "p18:8"
    ],
    "targetDisplay": "P19 · 備註 15",
    "confidence": 0.98,
@@ -946,7 +946,7 @@
    "kind": "numeric",
    "contextBefore": "且持續接受治療,或有助延緩退化。「愛伴航」保險計",
    "targets": [
-    "p18:17"
+    "p18:11"
    ],
    "targetDisplay": "P19 · 備註 17",
    "confidence": 0.98,
@@ -967,7 +967,7 @@
    "kind": "numeric",
    "contextBefore": "確定為末期癌症),相隔僅1年等候期後^,您可選擇",
    "targets": [
-    "p18:16"
+    "p18:10"
    ],
    "targetDisplay": "P19 · 備註 16",
    "confidence": 0.98,
@@ -1026,7 +1026,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -1047,7 +1047,7 @@
    "kind": "numeric",
    "contextBefore": "現時保額及任何可用升級保障餘額的總和的20%;或",
    "targets": [
-    "p18:15"
+    "p18:8"
    ],
    "targetDisplay": "P19 · 備註 15",
    "confidence": 0.98,
@@ -1087,7 +1087,7 @@
    "kind": "numeric",
    "contextBefore": "愛伴航 –首護摯寶」保險計劃2已付基本保費總和,",
    "targets": [
-    "p14:21"
+    "p14:9"
    ],
    "targetDisplay": "P15 · 備註 21",
    "confidence": 0.98,
@@ -1127,7 +1127,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -1148,7 +1148,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -1207,7 +1207,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -1266,7 +1266,7 @@
    "kind": "numeric",
    "contextBefore": "和的105%。",
    "targets": [
-    "p14:21"
+    "p14:9"
    ],
    "targetDisplay": "P15 · 備註 21",
    "confidence": 0.98,
@@ -1306,7 +1306,7 @@
    "kind": "numeric",
    "contextBefore": "和的105%(如準媽媽與其胎兒一同身故)。",
    "targets": [
-    "p14:21"
+    "p14:9"
    ],
    "targetDisplay": "P15 · 備註 21",
    "confidence": 0.98,
@@ -1327,7 +1327,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -1367,7 +1367,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -1388,7 +1388,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -1409,7 +1409,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -1430,7 +1430,7 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -1451,7 +1451,7 @@
    "kind": "numeric",
    "contextBefore": "現時保額",
    "targets": [
-    "p18:15"
+    "p18:8"
    ],
    "targetDisplay": "P19 · 備註 15",
    "confidence": 0.98,
@@ -1472,7 +1472,7 @@
    "kind": "numeric",
    "contextBefore": "香港保險業首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -1493,7 +1493,7 @@
    "kind": "numeric",
    "contextBefore": "香港保險業首創",
    "targets": [
-    "p18:10"
+    "p18:13"
    ],
    "targetDisplay": "P19 · 備註 10",
    "confidence": 0.98,
@@ -1533,7 +1533,7 @@
    "kind": "numeric",
    "contextBefore": "終期分紅,保證現金價值及現時保額將遞減至零。有關",
    "targets": [
-    "p18:15"
+    "p18:8"
    ],
    "targetDisplay": "P19 · 備註 15",
    "confidence": 0.98,
@@ -1554,7 +1554,7 @@
    "kind": "numeric",
    "contextBefore": "現時保額",
    "targets": [
-    "p18:15"
+    "p18:8"
    ],
    "targetDisplay": "P19 · 備註 15",
    "confidence": 0.98,
@@ -1613,7 +1613,7 @@
    "kind": "numeric",
    "contextBefore": "賠償。於級別二深切治療保障賠償下,如果受保人已入",
    "targets": [
-    "p18:11"
+    "p18:2"
    ],
    "targetDisplay": "P19 · 備註 11",
    "confidence": 0.98,
@@ -1634,7 +1634,7 @@
    "kind": "numeric",
    "contextBefore": "賠償。於級別二深切治療保障賠償下,如果受保人已入",
    "targets": [
-    "p18:12"
+    "p18:3"
    ],
    "targetDisplay": "P19 · 備註 12",
    "confidence": 0.98,
@@ -1655,7 +1655,7 @@
    "kind": "numeric",
    "contextBefore": "中被分類為「複雜」的手術,您可獲得相等於原有保額",
    "targets": [
-    "p18:13"
+    "p18:5"
    ],
    "targetDisplay": "P19 · 備註 13",
    "confidence": 0.98,
@@ -1676,7 +1676,7 @@
    "kind": "numeric",
    "contextBefore": "本保單的現時保額,未來保費、保證現金價值及終期分",
    "targets": [
-    "p18:15"
+    "p18:8"
    ],
    "targetDisplay": "P19 · 備註 15",
    "confidence": 0.98,
@@ -1697,7 +1697,7 @@
    "kind": "numeric",
    "contextBefore": "時保額相應減少。當現時保額15遞減至零,保證現金",
    "targets": [
-    "p18:15"
+    "p18:8"
    ],
    "targetDisplay": "P19 · 備註 15",
    "confidence": 0.98,
@@ -1718,7 +1718,7 @@
    "kind": "numeric",
    "contextBefore": "時保額15相應減少。當現時保額遞減至零,保證現金",
    "targets": [
-    "p18:15"
+    "p18:8"
    ],
    "targetDisplay": "P19 · 備註 15",
    "confidence": 0.98,
@@ -1758,7 +1758,7 @@
    "kind": "numeric",
    "contextBefore": "療(如已就該癌症提供由註冊專科醫生發出的末期癌症",
    "targets": [
-    "p18:16"
+    "p18:10"
    ],
    "targetDisplay": "P19 · 備註 16",
    "confidence": 0.98,
@@ -1798,7 +1798,7 @@
    "kind": "numeric",
    "contextBefore": "05%,並會於以下情況支付:流產、胎死腹中、接受",
    "targets": [
-    "p14:21"
+    "p14:9"
    ],
    "targetDisplay": "P15 · 備註 21",
    "confidence": 0.98,
@@ -1819,7 +1819,7 @@
    "kind": "numeric",
    "contextBefore": "時保額。「愛伴航」保險計劃2 /",
    "targets": [
-    "p18:15"
+    "p18:8"
    ],
    "targetDisplay": "P19 · 備註 15",
    "confidence": 0.98,
@@ -1840,7 +1840,7 @@
    "kind": "numeric",
    "contextBefore": "費亦會按已減少的現時保額相應減少。",
    "targets": [
-    "p18:15"
+    "p18:8"
    ],
    "targetDisplay": "P19 · 備註 15",
    "confidence": 0.98,
@@ -1880,7 +1880,7 @@
    "kind": "numeric",
    "contextBefore": "現時保額",
    "targets": [
-    "p18:15"
+    "p18:8"
    ],
    "targetDisplay": "P19 · 備註 15",
    "confidence": 0.98,
@@ -1901,7 +1901,7 @@
    "kind": "numeric",
    "contextBefore": "^ 按現時保額調整",
    "targets": [
-    "p18:15"
+    "p18:8"
    ],
    "targetDisplay": "P19 · 備註 15",
    "confidence": 0.98,
@@ -1922,7 +1922,7 @@
    "kind": "numeric",
    "contextBefore": "i) 現時保額;及",
    "targets": [
-    "p18:15"
+    "p18:8"
    ],
    "targetDisplay": "P19 · 備註 15",
    "confidence": 0.98,
@@ -1943,7 +1943,7 @@
    "kind": "numeric",
    "contextBefore": "i.  已付基本保費總和;或",
    "targets": [
-    "p14:21"
+    "p14:9"
    ],
    "targetDisplay": "P15 · 備註 21",
    "confidence": 0.98,
@@ -1964,7 +1964,7 @@
    "kind": "numeric",
    "contextBefore": "ii. 現時保額及任何升級保障餘額總和的20%,",
    "targets": [
-    "p18:15"
+    "p18:8"
    ],
    "targetDisplay": "P19 · 備註 15",
    "confidence": 0.98,

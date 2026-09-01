@@ -4,7 +4,7 @@ from typing import Optional
 
 from pydantic import BaseModel, Field
 
-ANALYSIS_VERSION = "1.1"          # schema 变更时 bump，缓存自动失效
+ANALYSIS_VERSION = "1.2"   # 1.2: noteId 改页内序号（修同页同编号 ID 冲突）          # schema 变更时 bump，缓存自动失效
 
 
 class DocMeta(BaseModel):
@@ -22,7 +22,7 @@ class ConfigSnapshot(BaseModel):
 
 
 class NoteEntry(BaseModel):
-    noteId: str                       # p{page}:{number}
+    noteId: str                       # p{page}:{seq}，页内递增序号（同页同编号不冲突）
     anchor: str                       # footer | standalone | inline
     page: int                         # 0-based
     bbox: list[float]                 # PDF pt，左上原点

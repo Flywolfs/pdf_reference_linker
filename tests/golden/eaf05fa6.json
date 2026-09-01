@@ -1,5 +1,5 @@
 {
- "version": "1.1",
+ "version": "1.2",
  "docId": "eaf05fa6",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AXA/自愿医保/AXA智尊守慧医疗保障-产品说明书.pdf",
@@ -158,7 +158,7 @@
    ]
   },
   {
-   "noteId": "p21:10",
+   "noteId": "p21:1",
    "anchor": "standalone",
    "page": 21,
    "bbox": [
@@ -174,7 +174,7 @@
    ]
   },
   {
-   "noteId": "p21:11",
+   "noteId": "p21:2",
    "anchor": "standalone",
    "page": 21,
    "bbox": [
@@ -190,7 +190,7 @@
    ]
   },
   {
-   "noteId": "p21:12",
+   "noteId": "p21:3",
    "anchor": "standalone",
    "page": 21,
    "bbox": [
@@ -206,7 +206,7 @@
    ]
   },
   {
-   "noteId": "p21:13",
+   "noteId": "p21:4",
    "anchor": "standalone",
    "page": 21,
    "bbox": [
@@ -222,7 +222,7 @@
    ]
   },
   {
-   "noteId": "p21:14",
+   "noteId": "p21:5",
    "anchor": "standalone",
    "page": 21,
    "bbox": [
@@ -441,7 +441,7 @@
    "kind": "numeric",
    "contextBefore": "至尊貴級別而無需重新進行醫療核保。每名",
    "targets": [
-    "p21:10"
+    "p21:1"
    ],
    "targetDisplay": "P22 · 備註 10",
    "confidence": 0.98,
@@ -525,7 +525,7 @@
    "kind": "numeric",
    "contextBefore": "達標日數按下表釐訂。於該會籍年度11完結後發放至",
    "targets": [
-    "p21:11"
+    "p21:2"
    ],
    "targetDisplay": "P22 · 備註 11",
    "confidence": 0.98,
@@ -546,7 +546,7 @@
    "kind": "numeric",
    "contextBefore": "1的達標日數按下表釐訂。於該會籍年度完結後發放至",
    "targets": [
-    "p21:11"
+    "p21:2"
    ],
    "targetDisplay": "P22 · 備註 11",
    "confidence": 0.98,
@@ -567,7 +567,7 @@
    "kind": "numeric",
    "contextBefore": "保費回贈百分比",
    "targets": [
-    "p21:12"
+    "p21:3"
    ],
    "targetDisplay": "P22 · 備註 12",
    "confidence": 0.98,
@@ -588,7 +588,7 @@
    "kind": "numeric",
    "contextBefore": "保費回贈百分比",
    "targets": [
-    "p21:13"
+    "p21:4"
    ],
    "targetDisplay": "P22 · 備註 13",
    "confidence": 0.98,
@@ -609,7 +609,7 @@
    "kind": "numeric",
    "contextBefore": "保費回贈百分比",
    "targets": [
-    "p21:14"
+    "p21:5"
    ],
    "targetDisplay": "P22 · 備註 14",
    "confidence": 0.98,
@@ -630,7 +630,7 @@
    "kind": "numeric",
    "contextBefore": "每一會籍年度之最少達標日數",
    "targets": [
-    "p21:11"
+    "p21:2"
    ],
    "targetDisplay": "P22 · 備註 11",
    "confidence": 0.98,

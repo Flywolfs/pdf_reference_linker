@@ -1,5 +1,5 @@
 {
- "version": "1.1",
+ "version": "1.2",
  "docId": "0512e71b",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/FWD/自愿医保/倍衛您醫療計劃-產品宣傳單張.pdf",
@@ -254,7 +254,7 @@
    ]
   },
   {
-   "noteId": "p19:8",
+   "noteId": "p19:7",
    "anchor": "standalone",
    "page": 19,
    "bbox": [
@@ -270,7 +270,7 @@
    ]
   },
   {
-   "noteId": "p19:9",
+   "noteId": "p19:8",
    "anchor": "standalone",
    "page": 19,
    "bbox": [
@@ -286,7 +286,7 @@
    ]
   },
   {
-   "noteId": "p19:10",
+   "noteId": "p19:9",
    "anchor": "standalone",
    "page": 19,
    "bbox": [
@@ -536,7 +536,7 @@
    "contextBefore": "豁免自付費",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -602,7 +602,7 @@
    "contextBefore": "給新生兒尊貴守護",
    "targets": [
     "p15:9",
-    "p19:9"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 9",
    "confidence": 0.8,
@@ -733,7 +733,7 @@
    "kind": "numeric",
    "contextBefore": "外門診治療及緊急門診牙科治療,時刻為您候命。無論",
    "targets": [
-    "p19:10"
+    "p19:9"
    ],
    "targetDisplay": "P20 · 備註 10",
    "confidence": 0.98,
@@ -840,7 +840,7 @@
    "contextBefore": "臟透析機的租借費用)及器官或骨髓移植。除每年保障",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -900,7 +900,7 @@
    "contextBefore": "中風復康治療",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -985,7 +985,7 @@
    "contextBefore": "家居設備提升保障",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -1138,7 +1138,7 @@
    "contextBefore": "指定危疾之全額賠償 ‒ 豁免自付費",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -1247,7 +1247,7 @@
    "contextBefore": "全額賠償 ‒ 豁免自付費下獲豁免,免除您於治療上",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -1508,7 +1508,7 @@
    "contextBefore": "給新生兒 尊貴守護",
    "targets": [
     "p15:9",
-    "p19:9"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 9",
    "confidence": 0.8,
@@ -1910,7 +1910,7 @@
    "contextBefore": "豁免自付費",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -2096,7 +2096,7 @@
    "contextBefore": "(d) 專科醫生費",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -2250,7 +2250,7 @@
    "contextBefore": "(i) 訂明診斷成像檢測",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -2354,7 +2354,7 @@
    "contextBefore": "前後的門診護理",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -2452,7 +2452,7 @@
    "contextBefore": "1. 重建手術保障",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -2515,7 +2515,7 @@
    "contextBefore": "5. 門診腎臟透析",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -2559,7 +2559,7 @@
    "contextBefore": "6. 復康治療",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -2581,7 +2581,7 @@
    "contextBefore": "(a) 家居設備提升保障",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -2603,7 +2603,7 @@
    "contextBefore": "(b) 中風輔助保障",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -2644,7 +2644,7 @@
    "contextBefore": "9. 私家看護費用",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -2688,7 +2688,7 @@
    "contextBefore": "10. 出院後私家看護",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -2814,7 +2814,7 @@
    "contextBefore": "腎臟透析及器官或骨髓移植",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -2855,7 +2855,7 @@
    "contextBefore": "腎臟透析於I.基本保障中的保障項目(b)的賠償;",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -2877,7 +2877,7 @@
    "contextBefore": "腎臟透析於II.升級保障中的保障項目5的賠償;或",
    "targets": [
     "p15:8",
-    "p19:8"
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 8",
    "confidence": 0.8,
@@ -2955,7 +2955,7 @@
    "kind": "numeric",
    "contextBefore": "3. 緊急門診牙科治療",
    "targets": [
-    "p19:10"
+    "p19:9"
    ],
    "targetDisplay": "P20 · 備註 10",
    "confidence": 0.98,
@@ -3412,7 +3412,7 @@
    "contextBefore": "嬰兒之特別保障",
    "targets": [
     "p15:9",
-    "p19:9"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 9",
    "confidence": 0.8,

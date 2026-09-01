@@ -1,5 +1,5 @@
 {
- "version": "1.1",
+ "version": "1.2",
  "docId": "3ca7f92b",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/FWD/重疾/危疾應援保_危疾應援保-升級版-產品宣傳單張.pdf",
@@ -78,7 +78,7 @@
    ]
   },
   {
-   "noteId": "p18:1",
+   "noteId": "p18:5",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -94,7 +94,7 @@
    ]
   },
   {
-   "noteId": "p18:2",
+   "noteId": "p18:6",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -110,7 +110,7 @@
    ]
   },
   {
-   "noteId": "p18:3",
+   "noteId": "p18:7",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -126,7 +126,7 @@
    ]
   },
   {
-   "noteId": "p18:1",
+   "noteId": "p18:8",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -142,7 +142,7 @@
    ]
   },
   {
-   "noteId": "p18:2",
+   "noteId": "p18:9",
    "anchor": "standalone",
    "page": 18,
    "bbox": [
@@ -254,7 +254,7 @@
    ]
   },
   {
-   "noteId": "p25:1",
+   "noteId": "p25:7",
    "anchor": "standalone",
    "page": 25,
    "bbox": [
@@ -270,7 +270,7 @@
    ]
   },
   {
-   "noteId": "p25:2",
+   "noteId": "p25:8",
    "anchor": "standalone",
    "page": 25,
    "bbox": [
@@ -286,7 +286,7 @@
    ]
   },
   {
-   "noteId": "p25:3",
+   "noteId": "p25:9",
    "anchor": "standalone",
    "page": 25,
    "bbox": [
@@ -302,7 +302,7 @@
    ]
   },
   {
-   "noteId": "p25:1",
+   "noteId": "p25:10",
    "anchor": "standalone",
    "page": 25,
    "bbox": [
@@ -318,7 +318,7 @@
    ]
   },
   {
-   "noteId": "p25:2",
+   "noteId": "p25:11",
    "anchor": "standalone",
    "page": 25,
    "bbox": [
@@ -334,7 +334,7 @@
    ]
   },
   {
-   "noteId": "p25:3",
+   "noteId": "p25:12",
    "anchor": "standalone",
    "page": 25,
    "bbox": [
@@ -350,7 +350,7 @@
    ]
   },
   {
-   "noteId": "p25:1",
+   "noteId": "p25:13",
    "anchor": "standalone",
    "page": 25,
    "bbox": [
@@ -366,7 +366,7 @@
    ]
   },
   {
-   "noteId": "p25:2",
+   "noteId": "p25:14",
    "anchor": "standalone",
    "page": 25,
    "bbox": [
@@ -382,7 +382,7 @@
    ]
   },
   {
-   "noteId": "p25:3",
+   "noteId": "p25:15",
    "anchor": "standalone",
    "page": 25,
    "bbox": [
@@ -398,7 +398,7 @@
    ]
   },
   {
-   "noteId": "p25:4",
+   "noteId": "p25:16",
    "anchor": "standalone",
    "page": 25,
    "bbox": [
@@ -445,12 +445,12 @@
    "contextBefore": "障,覆蓋範圍廣泛,讓您能更輕鬆與安心地面對危疾。",
    "targets": [
     "p18:1",
-    "p18:1",
-    "p18:1",
+    "p18:5",
+    "p18:8",
     "p25:1",
-    "p25:1",
-    "p25:1",
-    "p25:1"
+    "p25:7",
+    "p25:10",
+    "p25:13"
    ],
    "targetDisplay": "P19 · 備註 1",
    "confidence": 0.75,
@@ -472,12 +472,12 @@
    "contextBefore": "障,覆蓋範圍廣泛,讓您能更輕鬆與安心地面對危疾。",
    "targets": [
     "p18:2",
-    "p18:2",
-    "p18:2",
+    "p18:6",
+    "p18:9",
     "p25:2",
-    "p25:2",
-    "p25:2",
-    "p25:2"
+    "p25:8",
+    "p25:11",
+    "p25:14"
    ],
    "targetDisplay": "P19 · 備註 2",
    "confidence": 0.75,
@@ -499,11 +499,11 @@
    "contextBefore": "障,覆蓋範圍廣泛,讓您能更輕鬆與安心地面對危疾。",
    "targets": [
     "p18:3",
-    "p18:3",
+    "p18:7",
     "p25:3",
-    "p25:3",
-    "p25:3",
-    "p25:3"
+    "p25:9",
+    "p25:12",
+    "p25:15"
    ],
    "targetDisplay": "P19 · 備註 3",
    "confidence": 0.75,
@@ -526,7 +526,7 @@
    "targets": [
     "p18:4",
     "p25:4",
-    "p25:4"
+    "p25:16"
    ],
    "targetDisplay": "P19 · 備註 4",
    "confidence": 0.8,
@@ -548,12 +548,12 @@
    "contextBefore": "院連續3天或以上,此等計劃將支付重大醫療護理權益",
    "targets": [
     "p18:1",
-    "p18:1",
-    "p18:1",
+    "p18:5",
+    "p18:8",
     "p25:1",
-    "p25:1",
-    "p25:1",
-    "p25:1"
+    "p25:7",
+    "p25:10",
+    "p25:13"
    ],
    "targetDisplay": "P19 · 備註 1",
    "confidence": 0.75,
@@ -596,12 +596,12 @@
    "contextBefore": "影響並符合指定條件時,此等計劃將提供生活守護權益",
    "targets": [
     "p18:1",
-    "p18:1",
-    "p18:1",
+    "p18:5",
+    "p18:8",
     "p25:1",
-    "p25:1",
-    "p25:1",
-    "p25:1"
+    "p25:7",
+    "p25:10",
+    "p25:13"
    ],
    "targetDisplay": "P19 · 備註 1",
    "confidence": 0.75,
@@ -642,12 +642,12 @@
    "contextBefore": "投保額的100%,便可獲豁免此等計劃之保費餘額。",
    "targets": [
     "p18:1",
-    "p18:1",
-    "p18:1",
+    "p18:5",
+    "p18:8",
     "p25:1",
-    "p25:1",
-    "p25:1",
-    "p25:1"
+    "p25:7",
+    "p25:10",
+    "p25:13"
    ],
    "targetDisplay": "P19 · 備註 1",
    "confidence": 0.75,
@@ -669,12 +669,12 @@
    "contextBefore": "疾之多重權益,總額可達額外原有投保額的990%。",
    "targets": [
     "p18:1",
-    "p18:1",
-    "p18:1",
+    "p18:5",
+    "p18:8",
     "p25:1",
-    "p25:1",
-    "p25:1",
-    "p25:1"
+    "p25:7",
+    "p25:10",
+    "p25:13"
    ],
    "targetDisplay": "P19 · 備註 1",
    "confidence": 0.75,
@@ -734,12 +734,12 @@
    "contextBefore": "保障先天性疾病",
    "targets": [
     "p18:1",
-    "p18:1",
-    "p18:1",
+    "p18:5",
+    "p18:8",
     "p25:1",
-    "p25:1",
-    "p25:1",
-    "p25:1"
+    "p25:7",
+    "p25:10",
+    "p25:13"
    ],
    "targetDisplay": "P19 · 備註 1",
    "confidence": 0.75,
@@ -761,12 +761,12 @@
    "contextBefore": "保障先天性疾病",
    "targets": [
     "p18:2",
-    "p18:2",
-    "p18:2",
+    "p18:6",
+    "p18:9",
     "p25:2",
-    "p25:2",
-    "p25:2",
-    "p25:2"
+    "p25:8",
+    "p25:11",
+    "p25:14"
    ],
    "targetDisplay": "P19 · 備註 2",
    "confidence": 0.75,
@@ -788,11 +788,11 @@
    "contextBefore": "保障先天性疾病",
    "targets": [
     "p18:3",
-    "p18:3",
+    "p18:7",
     "p25:3",
-    "p25:3",
-    "p25:3",
-    "p25:3"
+    "p25:9",
+    "p25:12",
+    "p25:15"
    ],
    "targetDisplay": "P19 · 備註 3",
    "confidence": 0.75,
@@ -1042,12 +1042,12 @@
    "contextBefore": "危疾權益",
    "targets": [
     "p18:1",
-    "p18:1",
-    "p18:1",
+    "p18:5",
+    "p18:8",
     "p25:1",
-    "p25:1",
-    "p25:1",
-    "p25:1"
+    "p25:7",
+    "p25:10",
+    "p25:13"
    ],
    "targetDisplay": "P19 · 備註 1",
    "confidence": 0.75,
@@ -1069,11 +1069,11 @@
    "contextBefore": "危疾權益",
    "targets": [
     "p18:3",
-    "p18:3",
+    "p18:7",
     "p25:3",
-    "p25:3",
-    "p25:3",
-    "p25:3"
+    "p25:9",
+    "p25:12",
+    "p25:15"
    ],
    "targetDisplay": "P19 · 備註 3",
    "confidence": 0.75,
@@ -1095,12 +1095,12 @@
    "contextBefore": "指定危疾之多重權益",
    "targets": [
     "p18:1",
-    "p18:1",
-    "p18:1",
+    "p18:5",
+    "p18:8",
     "p25:1",
-    "p25:1",
-    "p25:1",
-    "p25:1"
+    "p25:7",
+    "p25:10",
+    "p25:13"
    ],
    "targetDisplay": "P19 · 備註 1",
    "confidence": 0.75,
@@ -1141,12 +1141,12 @@
    "contextBefore": "特別疾病權益",
    "targets": [
     "p18:1",
-    "p18:1",
-    "p18:1",
+    "p18:5",
+    "p18:8",
     "p25:1",
-    "p25:1",
-    "p25:1",
-    "p25:1"
+    "p25:7",
+    "p25:10",
+    "p25:13"
    ],
    "targetDisplay": "P19 · 備註 1",
    "confidence": 0.75,
@@ -1168,12 +1168,12 @@
    "contextBefore": "特別疾病權益",
    "targets": [
     "p18:2",
-    "p18:2",
-    "p18:2",
+    "p18:6",
+    "p18:9",
     "p25:2",
-    "p25:2",
-    "p25:2",
-    "p25:2"
+    "p25:8",
+    "p25:11",
+    "p25:14"
    ],
    "targetDisplay": "P19 · 備註 2",
    "confidence": 0.75,
@@ -1195,12 +1195,12 @@
    "contextBefore": "重大醫療護理權益",
    "targets": [
     "p18:1",
-    "p18:1",
-    "p18:1",
+    "p18:5",
+    "p18:8",
     "p25:1",
-    "p25:1",
-    "p25:1",
-    "p25:1"
+    "p25:7",
+    "p25:10",
+    "p25:13"
    ],
    "targetDisplay": "P19 · 備註 1",
    "confidence": 0.75,
@@ -1281,12 +1281,12 @@
    "contextBefore": "生活守護權益",
    "targets": [
     "p18:1",
-    "p18:1",
-    "p18:1",
+    "p18:5",
+    "p18:8",
     "p25:1",
-    "p25:1",
-    "p25:1",
-    "p25:1"
+    "p25:7",
+    "p25:10",
+    "p25:13"
    ],
    "targetDisplay": "P19 · 備註 1",
    "confidence": 0.75,
@@ -1346,12 +1346,12 @@
    "contextBefore": "身故權益",
    "targets": [
     "p18:1",
-    "p18:1",
-    "p18:1",
+    "p18:5",
+    "p18:8",
     "p25:1",
-    "p25:1",
-    "p25:1",
-    "p25:1"
+    "p25:7",
+    "p25:10",
+    "p25:13"
    ],
    "targetDisplay": "P19 · 備註 1",
    "confidence": 0.75,
@@ -1488,7 +1488,7 @@
    "targets": [
     "p18:4",
     "p25:4",
-    "p25:4"
+    "p25:16"
    ],
    "targetDisplay": "P19 · 備註 4",
    "confidence": 0.8,

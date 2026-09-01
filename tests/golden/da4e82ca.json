@@ -1,5 +1,5 @@
 {
- "version": "1.1",
+ "version": "1.2",
  "docId": "da4e82ca",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/showdoc.jsp.pdf",
@@ -222,7 +222,7 @@
    ]
   },
   {
-   "noteId": "p16:1",
+   "noteId": "p16:4",
    "anchor": "standalone",
    "page": 16,
    "bbox": [
@@ -238,7 +238,7 @@
    ]
   },
   {
-   "noteId": "p16:1",
+   "noteId": "p16:5",
    "anchor": "standalone",
    "page": 16,
    "bbox": [
@@ -254,7 +254,7 @@
    ]
   },
   {
-   "noteId": "p16:2",
+   "noteId": "p16:6",
    "anchor": "standalone",
    "page": 16,
    "bbox": [
@@ -361,8 +361,8 @@
    "targets": [
     "p14:1",
     "p16:1",
-    "p16:1",
-    "p16:1"
+    "p16:4",
+    "p16:5"
    ],
    "targetDisplay": "P15 · 腳註 1",
    "confidence": 0.8,
@@ -385,8 +385,8 @@
    "targets": [
     "p14:1",
     "p16:1",
-    "p16:1",
-    "p16:1"
+    "p16:4",
+    "p16:5"
    ],
    "targetDisplay": "P15 · 腳註 1",
    "confidence": 0.8,
@@ -409,7 +409,7 @@
    "targets": [
     "p14:2",
     "p16:2",
-    "p16:2"
+    "p16:6"
    ],
    "targetDisplay": "P15 · 腳註 2",
    "confidence": 0.8,
@@ -703,8 +703,8 @@
    "targets": [
     "p14:1",
     "p16:1",
-    "p16:1",
-    "p16:1"
+    "p16:4",
+    "p16:5"
    ],
    "targetDisplay": "P15 · 腳註 1",
    "confidence": 0.8,
@@ -727,7 +727,7 @@
    "targets": [
     "p14:2",
     "p16:2",
-    "p16:2"
+    "p16:6"
    ],
    "targetDisplay": "P15 · 腳註 2",
    "confidence": 0.8,

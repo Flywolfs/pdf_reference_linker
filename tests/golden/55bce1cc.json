@@ -1,5 +1,5 @@
 {
- "version": "1.1",
+ "version": "1.2",
  "docId": "55bce1cc",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/自愿医保灵活计划+.pdf",
@@ -222,7 +222,7 @@
    ]
   },
   {
-   "noteId": "p17:1",
+   "noteId": "p17:2",
    "anchor": "standalone",
    "page": 17,
    "bbox": [
@@ -238,7 +238,7 @@
    ]
   },
   {
-   "noteId": "p17:2",
+   "noteId": "p17:3",
    "anchor": "standalone",
    "page": 17,
    "bbox": [
@@ -254,7 +254,7 @@
    ]
   },
   {
-   "noteId": "p17:2",
+   "noteId": "p17:4",
    "anchor": "standalone",
    "page": 17,
    "bbox": [
@@ -270,7 +270,7 @@
    ]
   },
   {
-   "noteId": "p17:3",
+   "noteId": "p17:5",
    "anchor": "standalone",
    "page": 17,
    "bbox": [
@@ -418,7 +418,7 @@
    "targets": [
     "p14:1",
     "p17:1",
-    "p17:1"
+    "p17:2"
    ],
    "targetDisplay": "P15 · 腳註 1",
    "confidence": 0.8,
@@ -461,8 +461,8 @@
    "contextBefore": "d.  專科醫生費",
    "targets": [
     "p14:2",
-    "p17:2",
-    "p17:2"
+    "p17:3",
+    "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
    "confidence": 0.8,
@@ -526,8 +526,8 @@
    "contextBefore": "i.    訂明診斷成像檢測",
    "targets": [
     "p14:2",
-    "p17:2",
-    "p17:2"
+    "p17:3",
+    "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
    "confidence": 0.8,
@@ -549,7 +549,7 @@
    "contextBefore": "i.    訂明診斷成像檢測",
    "targets": [
     "p14:3",
-    "p17:3"
+    "p17:5"
    ],
    "targetDisplay": "P15 · 腳註 3",
    "confidence": 0.8,
@@ -656,7 +656,7 @@
    "targets": [
     "p14:1",
     "p17:1",
-    "p17:1"
+    "p17:2"
    ],
    "targetDisplay": "P15 · 腳註 1",
    "confidence": 0.8,
@@ -720,8 +720,8 @@
    "contextBefore": "日間手術前後的門診護理",
    "targets": [
     "p14:2",
-    "p17:2",
-    "p17:2"
+    "p17:3",
+    "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
    "confidence": 0.8,
@@ -743,8 +743,8 @@
    "contextBefore": "m. 長期治療賠償 - 腎臟透析",
    "targets": [
     "p14:2",
-    "p17:2",
-    "p17:2"
+    "p17:3",
+    "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
    "confidence": 0.8,
@@ -766,8 +766,8 @@
    "contextBefore": "n.  手術後家中每日看護費用賠償",
    "targets": [
     "p14:2",
-    "p17:2",
-    "p17:2"
+    "p17:3",
+    "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
    "confidence": 0.8,
@@ -874,7 +874,7 @@
    "targets": [
     "p14:1",
     "p17:1",
-    "p17:1"
+    "p17:2"
    ],
    "targetDisplay": "P15 · 腳註 1",
    "confidence": 0.8,
@@ -959,8 +959,8 @@
    "contextBefore": "(iv)    專科醫生費",
    "targets": [
     "p14:2",
-    "p17:2",
-    "p17:2"
+    "p17:3",
+    "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
    "confidence": 0.8,
@@ -982,8 +982,8 @@
    "contextBefore": "(ix)    訂明診斷成像檢測",
    "targets": [
     "p14:2",
-    "p17:2",
-    "p17:2"
+    "p17:3",
+    "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
    "confidence": 0.8,
@@ -1005,7 +1005,7 @@
    "contextBefore": "(ix)    訂明診斷成像檢測",
    "targets": [
     "p14:3",
-    "p17:3"
+    "p17:5"
    ],
    "targetDisplay": "P15 · 腳註 3",
    "confidence": 0.8,
@@ -1027,8 +1027,8 @@
    "contextBefore": "日間手術後的門診護理",
    "targets": [
     "p14:2",
-    "p17:2",
-    "p17:2"
+    "p17:3",
+    "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
    "confidence": 0.8,
@@ -1050,8 +1050,8 @@
    "contextBefore": "費用賠償",
    "targets": [
     "p14:2",
-    "p17:2",
-    "p17:2"
+    "p17:3",
+    "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
    "confidence": 0.8,
@@ -1158,7 +1158,7 @@
    "targets": [
     "p14:1",
     "p17:1",
-    "p17:1"
+    "p17:2"
    ],
    "targetDisplay": "P15 · 腳註 1",
    "confidence": 0.98,

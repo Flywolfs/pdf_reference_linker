@@ -1,5 +1,5 @@
 {
- "version": "1.1",
+ "version": "1.2",
  "docId": "a9d21f52",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/showdoc.jsp (1).pdf",
@@ -206,7 +206,7 @@
    ]
   },
   {
-   "noteId": "p13:17",
+   "noteId": "p13:1",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -222,7 +222,7 @@
    ]
   },
   {
-   "noteId": "p13:1",
+   "noteId": "p13:2",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -238,7 +238,7 @@
    ]
   },
   {
-   "noteId": "p13:18",
+   "noteId": "p13:3",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -254,7 +254,7 @@
    ]
   },
   {
-   "noteId": "p13:2",
+   "noteId": "p13:4",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -270,7 +270,7 @@
    ]
   },
   {
-   "noteId": "p13:3",
+   "noteId": "p13:5",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -286,7 +286,7 @@
    ]
   },
   {
-   "noteId": "p13:4",
+   "noteId": "p13:6",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -302,7 +302,7 @@
    ]
   },
   {
-   "noteId": "p13:5",
+   "noteId": "p13:7",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -318,7 +318,7 @@
    ]
   },
   {
-   "noteId": "p13:6",
+   "noteId": "p13:8",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -334,7 +334,7 @@
    ]
   },
   {
-   "noteId": "p13:7",
+   "noteId": "p13:9",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -350,7 +350,7 @@
    ]
   },
   {
-   "noteId": "p13:8",
+   "noteId": "p13:10",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -366,7 +366,7 @@
    ]
   },
   {
-   "noteId": "p13:9",
+   "noteId": "p13:11",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -382,7 +382,7 @@
    ]
   },
   {
-   "noteId": "p13:10",
+   "noteId": "p13:12",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -398,7 +398,7 @@
    ]
   },
   {
-   "noteId": "p13:11",
+   "noteId": "p13:13",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -414,7 +414,7 @@
    ]
   },
   {
-   "noteId": "p13:12",
+   "noteId": "p13:14",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -430,7 +430,7 @@
    ]
   },
   {
-   "noteId": "p13:13",
+   "noteId": "p13:15",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -446,7 +446,7 @@
    ]
   },
   {
-   "noteId": "p13:14",
+   "noteId": "p13:16",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -462,7 +462,7 @@
    ]
   },
   {
-   "noteId": "p13:15",
+   "noteId": "p13:17",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -478,7 +478,7 @@
    ]
   },
   {
-   "noteId": "p13:16",
+   "noteId": "p13:18",
    "anchor": "standalone",
    "page": 13,
    "bbox": [
@@ -589,7 +589,7 @@
    "contextBefore": "定資格要求,此計劃更可為您提供舒適病房級別。",
    "targets": [
     "p9:2",
-    "p13:2",
+    "p13:4",
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
@@ -612,7 +612,7 @@
    "contextBefore": "劃同時提供多項醫護服務,包括您可透過於香港的優質",
    "targets": [
     "p9:3",
-    "p13:3",
+    "p13:5",
     "p18:3"
    ],
    "targetDisplay": "P10 · 備註 3",
@@ -635,7 +635,7 @@
    "contextBefore": "睿選指定醫院」獲享卓越的醫療體驗,讓您未來安心無",
    "targets": [
     "p9:1",
-    "p13:1",
+    "p13:2",
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
@@ -696,7 +696,7 @@
    "contextBefore": "貼心保障,另設專屬支援,",
    "targets": [
     "p9:5",
-    "p13:5"
+    "p13:7"
    ],
    "targetDisplay": "P10 · 備註 5",
    "confidence": 0.75,
@@ -718,7 +718,7 @@
    "contextBefore": "舒適病房級別的選項",
    "targets": [
     "p9:2",
-    "p13:2",
+    "p13:4",
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
@@ -741,7 +741,7 @@
    "contextBefore": "以可持續及相宜保費,享有入住舒適病房級別的",
    "targets": [
     "p9:2",
-    "p13:2",
+    "p13:4",
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
@@ -764,7 +764,7 @@
    "contextBefore": "我們於中國內地精選兩組「睿選指定醫院」供",
    "targets": [
     "p9:1",
-    "p13:1",
+    "p13:2",
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
@@ -787,7 +787,7 @@
    "contextBefore": "‧ 於香港及澳門,當您選擇於「睿選指定醫院」",
    "targets": [
     "p9:1",
-    "p13:1",
+    "p13:2",
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
@@ -810,7 +810,7 @@
    "contextBefore": "住院,您可享更舒適病房級別",
    "targets": [
     "p9:2",
-    "p13:2",
+    "p13:4",
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
@@ -833,7 +833,7 @@
    "contextBefore": "當     您於香港的「睿選指定醫院」住院,",
    "targets": [
     "p9:1",
-    "p13:1",
+    "p13:2",
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
@@ -856,7 +856,7 @@
    "contextBefore": "‧ 於中國內地,您可從兩組「睿選指定醫院」中",
    "targets": [
     "p9:1",
-    "p13:1",
+    "p13:2",
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
@@ -879,7 +879,7 @@
    "contextBefore": "保險業首創",
    "targets": [
     "p9:4",
-    "p13:4"
+    "p13:6"
    ],
    "targetDisplay": "P10 · 備註 4",
    "confidence": 0.75,
@@ -901,7 +901,7 @@
    "contextBefore": "選擇入住的醫院,而兩組「睿選指定醫院」均",
    "targets": [
     "p9:1",
-    "p13:1",
+    "p13:2",
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
@@ -924,7 +924,7 @@
    "contextBefore": "預先批核^,※,您可於半私家房住院",
    "targets": [
     "p9:2",
-    "p13:2",
+    "p13:4",
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
@@ -947,7 +947,7 @@
    "contextBefore": "廣泛保障,主要醫療費用不設分項賠償限額",
    "targets": [
     "p9:3",
-    "p13:3",
+    "p13:5",
     "p18:3"
    ],
    "targetDisplay": "P10 · 備註 3",
@@ -970,7 +970,7 @@
    "contextBefore": "並於住院期間享有入住舒適病房級別的選項",
    "targets": [
     "p9:2",
-    "p13:2",
+    "p13:4",
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
@@ -993,7 +993,7 @@
    "contextBefore": "院」1住院並符合以下資格要求,您可入住半私家房。",
    "targets": [
     "p9:2",
-    "p13:2",
+    "p13:4",
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
@@ -1016,7 +1016,7 @@
    "contextBefore": "‧ 復蓋亞洲的住院及手術保障",
    "targets": [
     "p9:5",
-    "p13:5"
+    "p13:7"
    ],
    "targetDisplay": "P10 · 備註 5",
    "confidence": 0.75,
@@ -1038,7 +1038,7 @@
    "contextBefore": "半私家房",
    "targets": [
     "p9:2",
-    "p13:2",
+    "p13:4",
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
@@ -1061,7 +1061,7 @@
    "contextBefore": "‧ 廣泛保障,主要醫療費用更不設分項賠償限額",
    "targets": [
     "p9:3",
-    "p13:3",
+    "p13:5",
     "p18:3"
    ],
    "targetDisplay": "P10 · 備註 3",
@@ -1084,7 +1084,7 @@
    "contextBefore": "就     於「睿選指定醫院」住院,",
    "targets": [
     "p9:1",
-    "p13:1",
+    "p13:2",
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
@@ -1107,7 +1107,7 @@
    "contextBefore": "以可持續及相宜保費  享有入住舒適病房級別的選項",
    "targets": [
     "p9:2",
-    "p13:2",
+    "p13:4",
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
@@ -1130,7 +1130,7 @@
    "contextBefore": "擇於「睿選指定醫院」1住院,並享舒適病房級別2。",
    "targets": [
     "p9:5",
-    "p13:5"
+    "p13:7"
    ],
    "targetDisplay": "P10 · 備註 5",
    "confidence": 0.75,
@@ -1152,7 +1152,7 @@
    "contextBefore": "選擇於「睿選指定醫院」1住院,並享舒適病房級別。",
    "targets": [
     "p9:2",
-    "p13:2",
+    "p13:4",
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
@@ -1175,7 +1175,7 @@
    "contextBefore": "港或澳門選擇入住低於合資格半私家房的病房級別時,",
    "targets": [
     "p9:2",
-    "p13:2",
+    "p13:4",
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
@@ -1198,7 +1198,7 @@
    "contextBefore": "您將可享次級病房級別現金惠益。",
    "targets": [
     "p9:6",
-    "p13:6"
+    "p13:8"
    ],
    "targetDisplay": "P10 · 備註 6",
    "confidence": 0.75,
@@ -1220,7 +1220,7 @@
    "contextBefore": "行醫療服務提供保障。就於中國內地之非「睿選指定醫",
    "targets": [
     "p9:1",
-    "p13:1",
+    "p13:2",
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
@@ -1243,7 +1243,7 @@
    "contextBefore": "長者癌症支援 – 指定癌症豁免自付費",
    "targets": [
     "p9:7",
-    "p13:7"
+    "p13:9"
    ],
    "targetDisplay": "P10 · 備註 7",
    "confidence": 0.75,
@@ -1265,7 +1265,7 @@
    "contextBefore": "患上指定癌症,我們將豁免就受保人指定癌症7所",
    "targets": [
     "p9:7",
-    "p13:7"
+    "p13:9"
    ],
    "targetDisplay": "P10 · 備註 7",
    "confidence": 0.75,
@@ -1287,7 +1287,7 @@
    "contextBefore": "患上指定癌症7,我們將豁免就受保人指定癌症所",
    "targets": [
     "p9:7",
-    "p13:7"
+    "p13:9"
    ],
    "targetDisplay": "P10 · 備註 7",
    "confidence": 0.75,
@@ -1309,7 +1309,7 @@
    "contextBefore": "務負擔",
    "targets": [
     "p9:8",
-    "p13:8"
+    "p13:10"
    ],
    "targetDisplay": "P10 · 備註 8",
    "confidence": 0.75,
@@ -1331,7 +1331,7 @@
    "contextBefore": "享半私家房保障",
    "targets": [
     "p9:2",
-    "p13:2",
+    "p13:4",
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
@@ -1354,7 +1354,7 @@
    "contextBefore": "指定醫院」的半私家房2,使康復過程更為舒適,並享",
    "targets": [
     "p9:1",
-    "p13:1",
+    "p13:2",
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
@@ -1377,7 +1377,7 @@
    "contextBefore": "指定醫院」1的半私家房,使康復過程更為舒適,並享",
    "targets": [
     "p9:2",
-    "p13:2",
+    "p13:4",
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
@@ -1400,7 +1400,7 @@
    "contextBefore": "保險業首創",
    "targets": [
     "p9:4",
-    "p13:4"
+    "p13:6"
    ],
    "targetDisplay": "P10 · 備註 4",
    "confidence": 0.75,
@@ -1422,7 +1422,7 @@
    "contextBefore": "‧ 於香港的「睿選指定醫院」住院",
    "targets": [
     "p9:1",
-    "p13:1",
+    "p13:2",
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
@@ -1445,7 +1445,7 @@
    "contextBefore": "機構,節省您為繳付",
    "targets": [
     "p9:11",
-    "p13:11"
+    "p13:13"
    ],
    "targetDisplay": "P10 · 備註 11",
    "confidence": 0.75,
@@ -1467,7 +1467,7 @@
    "contextBefore": "的門診護理",
    "targets": [
     "p9:9",
-    "p13:9"
+    "p13:11"
    ],
    "targetDisplay": "P10 · 備註 9",
    "confidence": 0.75,
@@ -1489,7 +1489,7 @@
    "contextBefore": "的門診護理",
    "targets": [
     "p9:10",
-    "p13:10"
+    "p13:12"
    ],
    "targetDisplay": "P10 · 備註 10",
    "confidence": 0.75,
@@ -1511,7 +1511,7 @@
    "contextBefore": "的門診護理",
    "targets": [
     "p9:9",
-    "p13:9"
+    "p13:11"
    ],
    "targetDisplay": "P10 · 備註 9",
    "confidence": 0.75,
@@ -1533,7 +1533,7 @@
    "contextBefore": "的門診護理",
    "targets": [
     "p9:10",
-    "p13:10"
+    "p13:12"
    ],
    "targetDisplay": "P10 · 備註 10",
    "confidence": 0.75,
@@ -1555,7 +1555,7 @@
    "contextBefore": "惠益",
    "targets": [
     "p9:6",
-    "p13:6"
+    "p13:8"
    ],
    "targetDisplay": "P10 · 備註 6",
    "confidence": 0.75,
@@ -1577,7 +1577,7 @@
    "contextBefore": "‧ 中醫的門診護理",
    "targets": [
     "p9:9",
-    "p13:9"
+    "p13:11"
    ],
    "targetDisplay": "P10 · 備註 9",
    "confidence": 0.75,
@@ -1599,7 +1599,7 @@
    "contextBefore": "‧ 中醫的門診護理",
    "targets": [
     "p9:10",
-    "p13:10"
+    "p13:12"
    ],
    "targetDisplay": "P10 · 備註 10",
    "confidence": 0.75,
@@ -1621,7 +1621,7 @@
    "contextBefore": "日間手術現金惠益",
    "targets": [
     "p9:9",
-    "p13:9"
+    "p13:11"
    ],
    "targetDisplay": "P10 · 備註 9",
    "confidence": 0.75,
@@ -1643,7 +1643,7 @@
    "contextBefore": "日間手術現金惠益",
    "targets": [
     "p9:10",
-    "p13:10"
+    "p13:12"
    ],
    "targetDisplay": "P10 · 備註 10",
    "confidence": 0.75,
@@ -1665,7 +1665,7 @@
    "contextBefore": "於「睿選指定醫院」1提供貼心保障,",
    "targets": [
     "p9:5",
-    "p13:5"
+    "p13:7"
    ],
    "targetDisplay": "P10 · 備註 5",
    "confidence": 0.75,
@@ -1687,7 +1687,7 @@
    "contextBefore": "保險業首創",
    "targets": [
     "p9:4",
-    "p13:4"
+    "p13:6"
    ],
    "targetDisplay": "P10 · 備註 4",
    "confidence": 0.75,
@@ -1709,7 +1709,7 @@
    "contextBefore": "– 組別A的醫院主要位於大灣區,而組別B的醫院則",
    "targets": [
     "p9:1",
-    "p13:1",
+    "p13:2",
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
@@ -1732,7 +1732,7 @@
    "contextBefore": "院後/日間手術前後的門診護理或中醫的門診護理9提",
    "targets": [
     "p9:9",
-    "p13:9"
+    "p13:11"
    ],
    "targetDisplay": "P10 · 備註 9",
    "confidence": 0.75,
@@ -1754,7 +1754,7 @@
    "contextBefore": "院後/日間手術前後的門診護理9或中醫的門診護理提",
    "targets": [
     "p9:9",
-    "p13:9"
+    "p13:11"
    ],
    "targetDisplay": "P10 · 備註 9",
    "confidence": 0.75,
@@ -1776,7 +1776,7 @@
    "contextBefore": "術,亦可獲提供日間手術現金惠益。請注意此計劃並不",
    "targets": [
     "p9:9",
-    "p13:9"
+    "p13:11"
    ],
    "targetDisplay": "P10 · 備註 9",
    "confidence": 0.75,
@@ -1798,7 +1798,7 @@
    "contextBefore": "地接受非急症治療的醫療服務可享交通費用津貼惠益。",
    "targets": [
     "p9:12",
-    "p13:12"
+    "p13:14"
    ],
    "targetDisplay": "P10 · 備註 12",
    "confidence": 0.75,
@@ -1820,7 +1820,7 @@
    "contextBefore": "找數服務†,※,讓您毋須為繳費及索賠程序而操心。",
    "targets": [
     "p9:11",
-    "p13:11"
+    "p13:13"
    ],
    "targetDisplay": "P10 · 備註 11",
    "confidence": 0.75,
@@ -1899,7 +1899,7 @@
    "contextBefore": "的指定醫療機構",
    "targets": [
     "p9:11",
-    "p13:11"
+    "p13:13"
    ],
    "targetDisplay": "P10 · 備註 11",
    "confidence": 0.75,
@@ -1921,7 +1921,7 @@
    "contextBefore": "國)的指定醫院",
    "targets": [
     "p9:11",
-    "p13:11"
+    "p13:13"
    ],
    "targetDisplay": "P10 · 備註 11",
    "confidence": 0.75,
@@ -1943,7 +1943,7 @@
    "contextBefore": "「睿選醫療網絡」*的網絡醫生於「睿選指定醫院」進",
    "targets": [
     "p9:1",
-    "p13:1",
+    "p13:2",
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
@@ -1966,7 +1966,7 @@
    "contextBefore": "行,Vincent可享半私家房的資格",
    "targets": [
     "p9:2",
-    "p13:2",
+    "p13:4",
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
@@ -1989,7 +1989,7 @@
    "contextBefore": "cent於「睿選指定醫院」完成檢查,並被診斷患有",
    "targets": [
     "p9:1",
-    "p13:1",
+    "p13:2",
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
@@ -2012,7 +2012,7 @@
    "contextBefore": "(半私家房保障)",
    "targets": [
     "p9:2",
-    "p13:2",
+    "p13:4",
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
@@ -2035,7 +2035,7 @@
    "contextBefore": "由首個保單年度第31日開始提供保障。",
    "targets": [
     "p9:3",
-    "p13:3",
+    "p13:5",
     "p18:3"
    ],
    "targetDisplay": "P10 · 備註 3",
@@ -2057,7 +2057,7 @@
    "kind": "numeric",
    "contextBefore": "地域保障範圍",
    "targets": [
-    "p13:1",
+    "p13:2",
     "p18:1",
     "p9:1"
    ],
@@ -2080,7 +2080,7 @@
    "kind": "numeric",
    "contextBefore": "及澳門保障的精神科治療及次級病房級別現金惠益;及",
    "targets": [
-    "p13:2",
+    "p13:4",
     "p18:2",
     "p9:2"
    ],
@@ -2103,7 +2103,7 @@
    "kind": "numeric",
    "contextBefore": "香港:",
    "targets": [
-    "p13:3",
+    "p13:5",
     "p18:3",
     "p9:3"
    ],
@@ -2126,7 +2126,7 @@
    "kind": "numeric",
    "contextBefore": "外科醫生皆為「睿選醫療網絡」的網絡醫生:半私家房",
    "targets": [
-    "p13:4",
+    "p13:6",
     "p9:4"
    ],
    "targetDisplay": "P14 · 備註 4",
@@ -2148,7 +2148,7 @@
    "kind": "numeric",
    "contextBefore": "澳門:",
    "targets": [
-    "p13:3",
+    "p13:5",
     "p18:3",
     "p9:3"
    ],
@@ -2171,7 +2171,7 @@
    "kind": "numeric",
    "contextBefore": "中國內地:",
    "targets": [
-    "p13:3",
+    "p13:5",
     "p18:3",
     "p9:3"
    ],
@@ -2194,7 +2194,7 @@
    "kind": "numeric",
    "contextBefore": ") 於組別A內的「睿選指定醫院」住院:標準私家房",
    "targets": [
-    "p13:5",
+    "p13:7",
     "p9:5"
    ],
    "targetDisplay": "P14 · 備註 5",
@@ -2216,7 +2216,7 @@
    "kind": "numeric",
    "contextBefore": "b) 於組別B內的「睿選指定醫院」住院:半私家房",
    "targets": [
-    "p13:5",
+    "p13:7",
     "p9:5"
    ],
    "targetDisplay": "P14 · 備註 5",
@@ -2238,7 +2238,7 @@
    "kind": "numeric",
    "contextBefore": "亞洲內(除香港、澳門3及中國內地3外):普通房",
    "targets": [
-    "p13:3",
+    "p13:5",
     "p18:3",
     "p9:3"
    ],
@@ -2261,7 +2261,7 @@
    "kind": "numeric",
    "contextBefore": "亞洲內(除香港3、澳門及中國內地3外):普通房",
    "targets": [
-    "p13:3",
+    "p13:5",
     "p18:3",
     "p9:3"
    ],
@@ -2284,7 +2284,7 @@
    "kind": "numeric",
    "contextBefore": "亞洲內(除香港3、澳門3及中國內地外):普通房",
    "targets": [
-    "p13:3",
+    "p13:5",
     "p18:3",
     "p9:3"
    ],
@@ -2307,7 +2307,7 @@
    "kind": "numeric",
    "contextBefore": "長者癌症支援 – 指定癌症豁免自付費",
    "targets": [
-    "p13:6",
+    "p13:8",
     "p9:6"
    ],
    "targetDisplay": "P14 · 備註 6",
@@ -2329,7 +2329,7 @@
    "kind": "numeric",
    "contextBefore": "‧ 罹患指定癌症;及",
    "targets": [
-    "p13:7",
+    "p13:9",
     "p9:7"
    ],
    "targetDisplay": "P14 · 備註 7",
@@ -2351,7 +2351,7 @@
    "kind": "numeric",
    "contextBefore": "‧ 因該指定癌症而接受任何醫療服務,",
    "targets": [
-    "p13:7",
+    "p13:9",
     "p9:7"
    ],
    "targetDisplay": "P14 · 備註 7",
@@ -2373,7 +2373,7 @@
    "kind": "numeric",
    "contextBefore": "定癌症所引起的該醫療服務有關的每年自付費余額(如",
    "targets": [
-    "p13:7",
+    "p13:9",
     "p9:7"
    ],
    "targetDisplay": "P14 · 備註 7",
@@ -2395,7 +2395,7 @@
    "kind": "numeric",
    "contextBefore": "保障項目",
    "targets": [
-    "p13:8",
+    "p13:10",
     "p9:8"
    ],
    "targetDisplay": "P14 · 備註 8",
@@ -2417,7 +2417,7 @@
    "kind": "numeric",
    "contextBefore": "保障項目",
    "targets": [
-    "p13:8",
+    "p13:10",
     "p9:8"
    ],
    "targetDisplay": "P14 · 備註 8",
@@ -2439,7 +2439,7 @@
    "kind": "numeric",
    "contextBefore": "m.私家看護費用",
    "targets": [
-    "p13:9",
+    "p13:11",
     "p9:9"
    ],
    "targetDisplay": "P14 · 備註 9",
@@ -2461,7 +2461,7 @@
    "kind": "numeric",
    "contextBefore": "透析費用惠益",
    "targets": [
-    "p13:9",
+    "p13:11",
     "p9:9"
    ],
    "targetDisplay": "P14 · 備註 9",
@@ -2483,7 +2483,7 @@
    "kind": "numeric",
    "contextBefore": "出院後家中看護惠益",
    "targets": [
-    "p13:9",
+    "p13:11",
     "p9:9"
    ],
    "targetDisplay": "P14 · 備註 9",
@@ -2505,7 +2505,7 @@
    "kind": "numeric",
    "contextBefore": "專科醫生費",
    "targets": [
-    "p13:9",
+    "p13:11",
     "p9:9"
    ],
    "targetDisplay": "P14 · 備註 9",
@@ -2527,7 +2527,7 @@
    "kind": "numeric",
    "contextBefore": "重建手術惠益",
    "targets": [
-    "p13:9",
+    "p13:11",
     "p9:9"
    ],
    "targetDisplay": "P14 · 備註 9",
@@ -2549,7 +2549,7 @@
    "kind": "numeric",
    "contextBefore": "訂明診斷成像檢測",
    "targets": [
-    "p13:9",
+    "p13:11",
     "p9:9"
    ],
    "targetDisplay": "P14 · 備註 9",
@@ -2571,7 +2571,7 @@
    "kind": "numeric",
    "contextBefore": "訂明診斷成像檢測",
    "targets": [
-    "p13:10",
+    "p13:12",
     "p9:10"
    ],
    "targetDisplay": "P14 · 備註 10",
@@ -2593,7 +2593,7 @@
    "kind": "numeric",
    "contextBefore": "訂明非手術癌症治療",
    "targets": [
-    "p13:11",
+    "p13:13",
     "p9:11"
    ],
    "targetDisplay": "P14 · 備註 11",
@@ -2615,7 +2615,7 @@
    "kind": "numeric",
    "contextBefore": "門診護理",
    "targets": [
-    "p13:9",
+    "p13:11",
     "p9:9"
    ],
    "targetDisplay": "P14 · 備註 9",
@@ -2637,7 +2637,7 @@
    "kind": "numeric",
    "contextBefore": "網絡保障(只適用於香港)",
    "targets": [
-    "p13:12",
+    "p13:14",
     "p9:12"
    ],
    "targetDisplay": "P14 · 備註 12",
@@ -2659,7 +2659,7 @@
    "kind": "numeric",
    "contextBefore": "診症",
    "targets": [
-    "p13:15"
+    "p13:17"
    ],
    "targetDisplay": "P14 · 備註 15",
    "confidence": 0.98,
@@ -2680,7 +2680,7 @@
    "kind": "numeric",
    "contextBefore": "保障項目",
    "targets": [
-    "p13:8",
+    "p13:10",
     "p9:8"
    ],
    "targetDisplay": "P14 · 備註 8",
@@ -2702,7 +2702,7 @@
    "kind": "numeric",
    "contextBefore": "醫院」內提供的醫療服務(只適用於澳門及中國內地)",
    "targets": [
-    "p13:13"
+    "p13:15"
    ],
    "targetDisplay": "P14 · 備註 13",
    "confidence": 0.98,
@@ -2723,7 +2723,7 @@
    "kind": "numeric",
    "contextBefore": "器官移植手術費用總和的30%",
    "targets": [
-    "p13:17"
+    "p13:1"
    ],
    "targetDisplay": "P14 · 備註 17",
    "confidence": 0.98,
@@ -2744,7 +2744,7 @@
    "kind": "numeric",
    "contextBefore": "非網絡保障(適用於亞洲,但澳門及中國內地除外)",
    "targets": [
-    "p13:12",
+    "p13:14",
     "p9:12"
    ],
    "targetDisplay": "P14 · 備註 12",
@@ -2766,7 +2766,7 @@
    "kind": "numeric",
    "contextBefore": "「睿選指定醫院」內提供的醫療服務(只適用於澳門)",
    "targets": [
-    "p13:14"
+    "p13:16"
    ],
    "targetDisplay": "P14 · 備註 14",
    "confidence": 0.98,
@@ -2787,7 +2787,7 @@
    "kind": "numeric",
    "contextBefore": "網絡保障(只適用於香港)",
    "targets": [
-    "p13:12",
+    "p13:14",
     "p9:12"
    ],
    "targetDisplay": "P14 · 備註 12",
@@ -2809,7 +2809,7 @@
    "kind": "numeric",
    "contextBefore": "醫院」內提供的醫療服務(只適用於澳門及中國內地)",
    "targets": [
-    "p13:13"
+    "p13:15"
    ],
    "targetDisplay": "P14 · 備註 13",
    "confidence": 0.98,
@@ -2830,7 +2830,7 @@
    "kind": "numeric",
    "contextBefore": "出院後/日間手術後的跟進門診",
    "targets": [
-    "p13:16"
+    "p13:18"
    ],
    "targetDisplay": "P14 · 備註 16",
    "confidence": 0.98,
@@ -2851,7 +2851,7 @@
    "kind": "numeric",
    "contextBefore": "網絡保障(只適用於香港)",
    "targets": [
-    "p13:12",
+    "p13:14",
     "p9:12"
    ],
    "targetDisplay": "P14 · 備註 12",
@@ -2873,7 +2873,7 @@
    "kind": "numeric",
    "contextBefore": "非網絡保障(適用於亞洲,但澳門及中國內地除外)",
    "targets": [
-    "p13:12",
+    "p13:14",
     "p9:12"
    ],
    "targetDisplay": "P14 · 備註 12",
@@ -2895,7 +2895,7 @@
    "kind": "numeric",
    "contextBefore": "醫院」內提供的醫療服務(只適用於澳門及中國內地)",
    "targets": [
-    "p13:13"
+    "p13:15"
    ],
    "targetDisplay": "P14 · 備註 13",
    "confidence": 0.98,
@@ -2916,7 +2916,7 @@
    "kind": "numeric",
    "contextBefore": "「睿選指定醫院」內提供的醫療服務(只適用於澳門)",
    "targets": [
-    "p13:14"
+    "p13:16"
    ],
    "targetDisplay": "P14 · 備註 14",
    "confidence": 0.98,
@@ -2937,7 +2937,7 @@
    "kind": "numeric",
    "contextBefore": "康復惠益",
    "targets": [
-    "p13:9",
+    "p13:11",
     "p9:9"
    ],
    "targetDisplay": "P14 · 備註 9",
@@ -2959,7 +2959,7 @@
    "kind": "numeric",
    "contextBefore": "非網絡保障(適用於亞洲,但澳門及中國內地除外)",
    "targets": [
-    "p13:12",
+    "p13:14",
     "p9:12"
    ],
    "targetDisplay": "P14 · 備註 12",
@@ -2981,7 +2981,7 @@
    "kind": "numeric",
    "contextBefore": "「睿選指定醫院」內提供的醫療服務(只適用於澳門)",
    "targets": [
-    "p13:14"
+    "p13:16"
    ],
    "targetDisplay": "P14 · 備註 14",
    "confidence": 0.98,
@@ -3002,7 +3002,7 @@
    "kind": "numeric",
    "contextBefore": "善終關懷服務惠益",
    "targets": [
-    "p13:9",
+    "p13:11",
     "p9:9"
    ],
    "targetDisplay": "P14 · 備註 9",
@@ -3024,7 +3024,7 @@
    "kind": "numeric",
    "contextBefore": "保障項目",
    "targets": [
-    "p13:8",
+    "p13:10",
     "p9:8"
    ],
    "targetDisplay": "P14 · 備註 8",
@@ -3046,7 +3046,7 @@
    "kind": "numeric",
    "contextBefore": "保障項目",
    "targets": [
-    "p13:8",
+    "p13:10",
     "p9:8"
    ],
    "targetDisplay": "P14 · 備註 8",
@@ -3068,7 +3068,7 @@
    "kind": "numeric",
    "contextBefore": "次級病房級別現金惠益",
    "targets": [
-    "p13:2",
+    "p13:4",
     "p18:2",
     "p9:2"
    ],
@@ -3091,7 +3091,7 @@
    "kind": "numeric",
    "contextBefore": "必須於「睿選指定醫院」名單內的私家醫",
    "targets": [
-    "p13:3",
+    "p13:5",
     "p18:3",
     "p9:3"
    ],
@@ -3114,7 +3114,7 @@
    "kind": "numeric",
    "contextBefore": "m.妊娠併發症惠益",
    "targets": [
-    "p13:9",
+    "p13:11",
     "p9:9"
    ],
    "targetDisplay": "P14 · 備註 9",
@@ -3136,7 +3136,7 @@
    "kind": "numeric",
    "contextBefore": "m.妊娠併發症惠益",
    "targets": [
-    "p13:18"
+    "p13:3"
    ],
    "targetDisplay": "P14 · 備註 18",
    "confidence": 0.98,
@@ -3157,7 +3157,7 @@
    "kind": "numeric",
    "contextBefore": "網絡保障(只適用於香港)",
    "targets": [
-    "p13:12",
+    "p13:14",
     "p9:12"
    ],
    "targetDisplay": "P14 · 備註 12",
@@ -3179,7 +3179,7 @@
    "kind": "numeric",
    "contextBefore": "醫院」內提供的醫療服務(只適用於澳門及中國內地)",
    "targets": [
-    "p13:13"
+    "p13:15"
    ],
    "targetDisplay": "P14 · 備註 13",
    "confidence": 0.98,
@@ -3200,7 +3200,7 @@
    "kind": "numeric",
    "contextBefore": "非網絡保障(適用於亞洲,但澳門及中國內地除外)",
    "targets": [
-    "p13:12",
+    "p13:14",
     "p9:12"
    ],
    "targetDisplay": "P14 · 備註 12",
@@ -3222,7 +3222,7 @@
    "kind": "numeric",
    "contextBefore": "「睿選指定醫院」內提供的醫療服務(只適用於澳門)",
    "targets": [
-    "p13:14"
+    "p13:16"
    ],
    "targetDisplay": "P14 · 備註 14",
    "confidence": 0.98,
@@ -3243,7 +3243,7 @@
    "kind": "numeric",
    "contextBefore": "(i)   家中設備提升惠益",
    "targets": [
-    "p13:9",
+    "p13:11",
     "p9:9"
    ],
    "targetDisplay": "P14 · 備註 9",
@@ -3265,7 +3265,7 @@
    "kind": "numeric",
    "contextBefore": "醫生",
    "targets": [
-    "p13:9",
+    "p13:11",
     "p9:9"
    ],
    "targetDisplay": "P14 · 備註 9",
@@ -3287,7 +3287,7 @@
    "kind": "numeric",
    "contextBefore": "腦神經科醫生",
    "targets": [
-    "p13:9",
+    "p13:11",
     "p9:9"
    ],
    "targetDisplay": "P14 · 備註 9",
@@ -3311,7 +3311,7 @@
    "targets": [
     "p18:1",
     "p9:1",
-    "p13:1"
+    "p13:2"
    ],
    "targetDisplay": "P19 · 備註 1",
    "confidence": 0.98,
@@ -3334,7 +3334,7 @@
    "targets": [
     "p18:3",
     "p9:3",
-    "p13:3"
+    "p13:5"
    ],
    "targetDisplay": "P19 · 備註 3",
    "confidence": 0.98,
@@ -3357,7 +3357,7 @@
    "targets": [
     "p18:2",
     "p9:2",
-    "p13:2"
+    "p13:4"
    ],
    "targetDisplay": "P19 · 備註 2",
    "confidence": 0.98,
@@ -3380,7 +3380,7 @@
    "targets": [
     "p18:2",
     "p9:2",
-    "p13:2"
+    "p13:4"
    ],
    "targetDisplay": "P19 · 備註 2",
    "confidence": 0.98,

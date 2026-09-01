@@ -17,16 +17,17 @@ import re
 import time
 import uuid
 
-from .cache import CACHE_DIR
+from .cache import DATA_DIR
 from .config import ParseConfig
 from .pipeline.anchors import classify
 from .pipeline.extract import _norm
 from .pipeline.match import match_hotspots
 from .pipeline.schema import Hotspot, NoteEntry
 
-ANNO_DIR = CACHE_DIR / "annotations"
-TASKS_DIR = CACHE_DIR / "ai_tasks"
-RESULTS_DIR = CACHE_DIR / "ai_results"
+# 人工数据存项目内 data/（劳动成果，不放 ~/.cache 以免被清理工具误删）
+ANNO_DIR = DATA_DIR / "annotations"
+TASKS_DIR = DATA_DIR / "ai_tasks"
+RESULTS_DIR = DATA_DIR / "ai_results"
 
 
 def anno_path(doc_id: str):

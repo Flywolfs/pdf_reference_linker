@@ -1,5 +1,5 @@
 {
- "version": "1.1",
+ "version": "1.2",
  "docId": "e07720d3",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/FWD/自愿医保/醫家保醫療計劃-產品宣傳單張.pdf",
@@ -270,7 +270,7 @@
    ]
   },
   {
-   "noteId": "p16:8",
+   "noteId": "p16:7",
    "anchor": "standalone",
    "page": 16,
    "bbox": [
@@ -286,7 +286,7 @@
    ]
   },
   {
-   "noteId": "p16:9",
+   "noteId": "p16:8",
    "anchor": "standalone",
    "page": 16,
    "bbox": [
@@ -302,7 +302,7 @@
    ]
   },
   {
-   "noteId": "p16:10",
+   "noteId": "p16:9",
    "anchor": "standalone",
    "page": 16,
    "bbox": [
@@ -318,7 +318,7 @@
    ]
   },
   {
-   "noteId": "p16:11",
+   "noteId": "p16:10",
    "anchor": "standalone",
    "page": 16,
    "bbox": [
@@ -334,7 +334,7 @@
    ]
   },
   {
-   "noteId": "p16:12",
+   "noteId": "p16:11",
    "anchor": "standalone",
    "page": 16,
    "bbox": [
@@ -350,7 +350,7 @@
    ]
   },
   {
-   "noteId": "p16:13",
+   "noteId": "p16:12",
    "anchor": "standalone",
    "page": 16,
    "bbox": [
@@ -666,7 +666,7 @@
    "contextBefore": "數保障1,以及就妊娠併發症而於香港入住深切治療部",
    "targets": [
     "p12:8",
-    "p16:8"
+    "p16:7"
    ],
    "targetDisplay": "P13 · 備註 8",
    "confidence": 0.8,
@@ -688,7 +688,7 @@
    "contextBefore": "數保障1,以及就妊娠併發症而於香港入住深切治療部",
    "targets": [
     "p12:9",
-    "p16:9"
+    "p16:8"
    ],
    "targetDisplay": "P13 · 備註 9",
    "confidence": 0.8,
@@ -776,7 +776,7 @@
    "contextBefore": "的開支",
    "targets": [
     "p12:10",
-    "p16:10"
+    "p16:9"
    ],
    "targetDisplay": "P13 · 備註 10",
    "confidence": 0.8,
@@ -797,7 +797,7 @@
    "kind": "numeric",
    "contextBefore": "的開支",
    "targets": [
-    "p16:11"
+    "p16:10"
    ],
    "targetDisplay": "P17 · 備註 11",
    "confidence": 0.98,
@@ -819,7 +819,7 @@
    "contextBefore": "第三方專業健康支援服務",
    "targets": [
     "p12:10",
-    "p16:10"
+    "p16:9"
    ],
    "targetDisplay": "P13 · 備註 10",
    "confidence": 0.8,
@@ -840,7 +840,7 @@
    "kind": "numeric",
    "contextBefore": "第三方專業健康支援服務",
    "targets": [
-    "p16:12"
+    "p16:11"
    ],
    "targetDisplay": "P17 · 備註 12",
    "confidence": 0.98,
@@ -1418,7 +1418,7 @@
    "contextBefore": "港元的於香港入住深切治療部的現金保障及身故保障8",
    "targets": [
     "p12:9",
-    "p16:9"
+    "p16:8"
    ],
    "targetDisplay": "P13 · 備註 9",
    "confidence": 0.8,
@@ -1440,7 +1440,7 @@
    "contextBefore": "港元的於香港入住深切治療部的現金保障9及身故保障",
    "targets": [
     "p12:8",
-    "p16:8"
+    "p16:7"
    ],
    "targetDisplay": "P13 · 備註 8",
    "confidence": 0.8,
@@ -1792,7 +1792,7 @@
    "contextBefore": "賠償參與保健活動的開支",
    "targets": [
     "p12:10",
-    "p16:10"
+    "p16:9"
    ],
    "targetDisplay": "P13 · 備註 10",
    "confidence": 0.8,
@@ -1813,7 +1813,7 @@
    "kind": "numeric",
    "contextBefore": "賠償參與保健活動的開支",
    "targets": [
-    "p16:11"
+    "p16:10"
    ],
    "targetDisplay": "P17 · 備註 11",
    "confidence": 0.98,
@@ -1834,7 +1834,7 @@
    "kind": "numeric",
    "contextBefore": "康保障,賠償保健活動,包括旅遊、運動/健康課程或",
    "targets": [
-    "p16:11"
+    "p16:10"
    ],
    "targetDisplay": "P17 · 備註 11",
    "confidence": 0.98,
@@ -1856,7 +1856,7 @@
    "contextBefore": "第三方專業健康支援服務",
    "targets": [
     "p12:10",
-    "p16:10"
+    "p16:9"
    ],
    "targetDisplay": "P13 · 備註 10",
    "confidence": 0.8,
@@ -1877,7 +1877,7 @@
    "kind": "numeric",
    "contextBefore": "第三方專業健康支援服務",
    "targets": [
-    "p16:12"
+    "p16:11"
    ],
    "targetDisplay": "P17 · 備註 12",
    "confidence": 0.98,
@@ -2063,7 +2063,7 @@
    "contextBefore": "入住深切治療部的現金保障外,所有保障均適用於全球",
    "targets": [
     "p12:9",
-    "p16:9"
+    "p16:8"
    ],
    "targetDisplay": "P13 · 備註 9",
    "confidence": 0.8,
@@ -2437,7 +2437,7 @@
    "kind": "numeric",
    "contextBefore": "(j) 訂明非手術癌症治療",
    "targets": [
-    "p16:13"
+    "p16:12"
    ],
    "targetDisplay": "P17 · 備註 13",
    "confidence": 0.98,
@@ -2857,7 +2857,7 @@
    "kind": "numeric",
    "contextBefore": "(I) 訂明非手術癌症治療、",
    "targets": [
-    "p16:13"
+    "p16:12"
    ],
    "targetDisplay": "P17 · 備註 13",
    "confidence": 0.98,
@@ -2897,7 +2897,7 @@
    "kind": "numeric",
    "contextBefore": "癌症治療於I.基本保障中的保障項目(j)的賠償;",
    "targets": [
-    "p16:13"
+    "p16:12"
    ],
    "targetDisplay": "P17 · 備註 13",
    "confidence": 0.98,
@@ -3077,7 +3077,7 @@
    "contextBefore": "3. 妊娠併發症之身故保障",
    "targets": [
     "p12:8",
-    "p16:8"
+    "p16:7"
    ],
    "targetDisplay": "P13 · 備註 8",
    "confidence": 0.8,
@@ -3200,7 +3200,7 @@
    "contextBefore": "深切治療部的現金保障",
    "targets": [
     "p12:9",
-    "p16:9"
+    "p16:8"
    ],
    "targetDisplay": "P13 · 備註 9",
    "confidence": 0.8,
@@ -3433,7 +3433,7 @@
    "contextBefore": "揀易保癌症尊線",
    "targets": [
     "p12:10",
-    "p16:10"
+    "p16:9"
    ],
    "targetDisplay": "P13 · 備註 10",
    "confidence": 0.8,
@@ -3454,7 +3454,7 @@
    "kind": "numeric",
    "contextBefore": "揀易保癌症尊線",
    "targets": [
-    "p16:12"
+    "p16:11"
    ],
    "targetDisplay": "P17 · 備註 12",
    "confidence": 0.98,
@@ -3476,7 +3476,7 @@
    "contextBefore": "第二醫療意見服務",
    "targets": [
     "p12:10",
-    "p16:10"
+    "p16:9"
    ],
    "targetDisplay": "P13 · 備註 10",
    "confidence": 0.8,
@@ -3497,7 +3497,7 @@
    "kind": "numeric",
    "contextBefore": "第二醫療意見服務",
    "targets": [
-    "p16:12"
+    "p16:11"
    ],
    "targetDisplay": "P17 · 備註 12",
    "confidence": 0.98,
@@ -3519,7 +3519,7 @@
    "contextBefore": "國際SOS 24小時環球支援服務",
    "targets": [
     "p12:10",
-    "p16:10"
+    "p16:9"
    ],
    "targetDisplay": "P13 · 備註 10",
    "confidence": 0.8,
@@ -3540,7 +3540,7 @@
    "kind": "numeric",
    "contextBefore": "國際SOS 24小時環球支援服務",
    "targets": [
-    "p16:12"
+    "p16:11"
    ],
    "targetDisplay": "P17 · 備註 12",
    "confidence": 0.98,

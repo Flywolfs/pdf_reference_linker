@@ -50,9 +50,12 @@ def analyze_pdf(path: str, doc_id: str, config: ParseConfig = DEFAULT_CONFIG) ->
 
     # ---- 目标端 ----
     titled_ids: set[str] = set()
+    page_seq: dict[int, int] = {}          # 页内递增序号：同页同编号（備註1+註1）ID 不得冲突
     for region in find_regions(lines, heights, config):
         for note in parse_region(region, config):
-            note_id = f"p{note.page}:{note.number}"
+            seq = page_seq.get(note.page, 0) + 1
+            page_seq[note.page] = seq
+            note_id = f"p{note.page}:{seq}"
             x0, y0, x1, y1 = note.bbox
             out.notes.append(NoteEntry(
                 noteId=note_id, anchor=note.anchor,

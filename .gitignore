@@ -18,3 +18,7 @@ web/dist/
 step*.png
 *.log
 .DS_Store
+# 人工标注数据（劳动成果留本地；如需 git 备份可删除此行）
+data/
+# 调试截图（开发过程产物）
+debug_*.png

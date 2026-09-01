@@ -1,5 +1,5 @@
 {
- "version": "1.1",
+ "version": "1.2",
  "docId": "2be31889",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/滙豐/自愿医保/汇丰自愿医保灵活计划-产品册子.pdf",
@@ -142,7 +142,7 @@
    ]
   },
   {
-   "noteId": "p19:9",
+   "noteId": "p19:1",
    "anchor": "standalone",
    "page": 19,
    "bbox": [
@@ -158,7 +158,7 @@
    ]
   },
   {
-   "noteId": "p19:10",
+   "noteId": "p19:2",
    "anchor": "standalone",
    "page": 19,
    "bbox": [
@@ -174,7 +174,7 @@
    ]
   },
   {
-   "noteId": "p19:11",
+   "noteId": "p19:3",
    "anchor": "standalone",
    "page": 19,
    "bbox": [
@@ -190,7 +190,7 @@
    ]
   },
   {
-   "noteId": "p19:12",
+   "noteId": "p19:4",
    "anchor": "standalone",
    "page": 19,
    "bbox": [
@@ -206,7 +206,7 @@
    ]
   },
   {
-   "noteId": "p19:13",
+   "noteId": "p19:5",
    "anchor": "standalone",
    "page": 19,
    "bbox": [
@@ -222,7 +222,7 @@
    ]
   },
   {
-   "noteId": "p19:14",
+   "noteId": "p19:6",
    "anchor": "standalone",
    "page": 19,
    "bbox": [
@@ -238,7 +238,7 @@
    ]
   },
   {
-   "noteId": "p19:15",
+   "noteId": "p19:7",
    "anchor": "standalone",
    "page": 19,
    "bbox": [
@@ -810,7 +810,7 @@
    "kind": "numeric",
    "contextBefore": "醫療禮賓服務",
    "targets": [
-    "p19:11"
+    "p19:3"
    ],
    "targetDisplay": "P20 · 備註 11",
    "confidence": 0.98,
@@ -831,7 +831,7 @@
    "kind": "numeric",
    "contextBefore": "第二醫療意見",
    "targets": [
-    "p19:9"
+    "p19:1"
    ],
    "targetDisplay": "P20 · 備註 9",
    "confidence": 0.98,
@@ -852,7 +852,7 @@
    "kind": "numeric",
    "contextBefore": "醫療意見的條款及細則中所列的任何嚴重疾病,我們可",
    "targets": [
-    "p19:9"
+    "p19:1"
    ],
    "targetDisplay": "P20 · 備註 9",
    "confidence": 0.98,
@@ -873,7 +873,7 @@
    "kind": "numeric",
    "contextBefore": "網絡名單上的醫生或其他醫療專家尋求第二醫療意見。",
    "targets": [
-    "p19:9"
+    "p19:1"
    ],
    "targetDisplay": "P20 · 備註 9",
    "confidence": 0.98,
@@ -894,7 +894,7 @@
    "kind": "numeric",
    "contextBefore": "全球緊急支援",
    "targets": [
-    "p19:10"
+    "p19:2"
    ],
    "targetDisplay": "P20 · 備註 10",
    "confidence": 0.98,
@@ -915,7 +915,7 @@
    "kind": "numeric",
    "contextBefore": "無索償折扣",
    "targets": [
-    "p19:12"
+    "p19:4"
    ],
    "targetDisplay": "P20 · 備註 12",
    "confidence": 0.98,
@@ -936,7 +936,7 @@
    "kind": "numeric",
    "contextBefore": "• 保單持有人或其配偶或伴侶或他們的:",
    "targets": [
-    "p19:13"
+    "p19:5"
    ],
    "targetDisplay": "P20 · 備註 13",
    "confidence": 0.98,
@@ -978,7 +978,7 @@
    "kind": "numeric",
    "contextBefore": "每年可就該課稅年度繳付的合資格保費獲享扣稅優惠:",
    "targets": [
-    "p19:14"
+    "p19:6"
    ],
    "targetDisplay": "P20 · 備註 14",
    "confidence": 0.98,
@@ -1041,7 +1041,7 @@
    "kind": "numeric",
    "contextBefore": "(假設稅率為15%)",
    "targets": [
-    "p19:15"
+    "p19:7"
    ],
    "targetDisplay": "P20 · 備註 15",
    "confidence": 0.98,
@@ -1062,7 +1062,7 @@
    "kind": "numeric",
    "contextBefore": "問全力協助,透過免找數服務7,8,入住滙豐保險的",
    "targets": [
-    "p19:11"
+    "p19:3"
    ],
    "targetDisplay": "P20 · 備註 11",
    "confidence": 0.98,
@@ -1125,7 +1125,7 @@
    "kind": "numeric",
    "contextBefore": "醫療禮賓服務為您打點一切",
    "targets": [
-    "p19:11"
+    "p19:3"
    ],
    "targetDisplay": "P20 · 備註 11",
    "confidence": 0.98,
@@ -1146,7 +1146,7 @@
    "kind": "numeric",
    "contextBefore": "• 預約診症服務",
    "targets": [
-    "p19:11"
+    "p19:3"
    ],
    "targetDisplay": "P20 · 備註 11",
    "confidence": 0.98,
@@ -1419,7 +1419,7 @@
    "kind": "numeric",
    "contextBefore": "伴侶,但基於香港現行法例,伴侶未能享有稅務扣減的",
    "targets": [
-    "p19:13"
+    "p19:5"
    ],
    "targetDisplay": "P20 · 備註 13",
    "confidence": 0.98,
@@ -1898,7 +1898,7 @@
    "kind": "numeric",
    "contextBefore": "edical Concierge Service",
    "targets": [
-    "p19:11"
+    "p19:3"
    ],
    "targetDisplay": "P20 · 備註 11",
    "confidence": 0.98,
@@ -1919,7 +1919,7 @@
    "kind": "numeric",
    "contextBefore": "Second medical opinion",
    "targets": [
-    "p19:9"
+    "p19:1"
    ],
    "targetDisplay": "P20 · 備註 9",
    "confidence": 0.98,
@@ -1940,7 +1940,7 @@
    "kind": "numeric",
    "contextBefore": "d in your policy, we can",
    "targets": [
-    "p19:9"
+    "p19:1"
    ],
    "targetDisplay": "P20 · 備註 9",
    "confidence": 0.98,
@@ -1961,7 +1961,7 @@
    "kind": "numeric",
    "contextBefore": "Care+ Medical Network by",
    "targets": [
-    "p19:9"
+    "p19:1"
    ],
    "targetDisplay": "P20 · 備註 9",
    "confidence": 0.98,
@@ -1982,7 +1982,7 @@
    "kind": "numeric",
    "contextBefore": "ide emergency assistance",
    "targets": [
-    "p19:10"
+    "p19:2"
    ],
    "targetDisplay": "P20 · 備註 10",
    "confidence": 0.98,
@@ -2003,7 +2003,7 @@
    "kind": "numeric",
    "contextBefore": "No claim discount",
    "targets": [
-    "p19:12"
+    "p19:4"
    ],
    "targetDisplay": "P20 · 備註 12",
    "confidence": 0.98,
@@ -2024,7 +2024,7 @@
    "kind": "numeric",
    "contextBefore": "use or partner or their:",
    "targets": [
-    "p19:13"
+    "p19:5"
    ],
    "targetDisplay": "P20 · 備註 13",
    "confidence": 0.98,
@@ -2045,7 +2045,7 @@
    "kind": "numeric",
    "contextBefore": " our service provider at",
    "targets": [
-    "p19:11"
+    "p19:3"
    ],
    "targetDisplay": "P20 · 備註 11",
    "confidence": 0.98,
@@ -2087,7 +2087,7 @@
    "kind": "numeric",
    "contextBefore": "ums paid in each year of",
    "targets": [
-    "p19:14"
+    "p19:6"
    ],
    "targetDisplay": "P20 · 備註 14",
    "confidence": 0.98,
@@ -2150,7 +2150,7 @@
    "kind": "numeric",
    "contextBefore": "(Assuming 15% tax rate)",
    "targets": [
-    "p19:15"
+    "p19:7"
    ],
    "targetDisplay": "P20 · 備註 15",
    "confidence": 0.98,
@@ -2171,7 +2171,7 @@
    "kind": "numeric",
    "contextBefore": "ed to a private hospital",
    "targets": [
-    "p19:11"
+    "p19:3"
    ],
    "targetDisplay": "P20 · 備註 11",
    "confidence": 0.98,
@@ -2192,7 +2192,7 @@
    "kind": "numeric",
    "contextBefore": "edical Concierge Service",
    "targets": [
-    "p19:11"
+    "p19:3"
    ],
    "targetDisplay": "P20 · 備註 11",
    "confidence": 0.98,
@@ -2213,7 +2213,7 @@
    "kind": "numeric",
    "contextBefore": "ical appointment booking",
    "targets": [
-    "p19:11"
+    "p19:3"
    ],
    "targetDisplay": "P20 · 備註 11",
    "confidence": 0.98,
@@ -2360,7 +2360,7 @@
    "kind": "numeric",
    "contextBefore": "rrent laws of Hong Kong.",
    "targets": [
-    "p19:13"
+    "p19:5"
    ],
    "targetDisplay": "P20 · 備註 13",
    "confidence": 0.98,
@@ -2923,7 +2923,7 @@
    "kind": "numeric",
    "contextBefore": "医疗礼宾服务",
    "targets": [
-    "p19:11"
+    "p19:3"
    ],
    "targetDisplay": "P20 · 備註 11",
    "confidence": 0.98,
@@ -2944,7 +2944,7 @@
    "kind": "numeric",
    "contextBefore": "第二医疗意见",
    "targets": [
-    "p19:9"
+    "p19:1"
    ],
    "targetDisplay": "P20 · 備註 9",
    "confidence": 0.98,
@@ -2965,7 +2965,7 @@
    "kind": "numeric",
    "contextBefore": "医疗意见的条款及细则中所列的任何严重疾病,我们可",
    "targets": [
-    "p19:9"
+    "p19:1"
    ],
    "targetDisplay": "P20 · 備註 9",
    "confidence": 0.98,
@@ -2986,7 +2986,7 @@
    "kind": "numeric",
    "contextBefore": "网络名单上的医生或其他医疗专家寻求第二医疗意见。",
    "targets": [
-    "p19:9"
+    "p19:1"
    ],
    "targetDisplay": "P20 · 備註 9",
    "confidence": 0.98,
@@ -3007,7 +3007,7 @@
    "kind": "numeric",
    "contextBefore": "全球紧急支援",
    "targets": [
-    "p19:10"
+    "p19:2"
    ],
    "targetDisplay": "P20 · 備註 10",
    "confidence": 0.98,
@@ -3028,7 +3028,7 @@
    "kind": "numeric",
    "contextBefore": "无索偿折扣",
    "targets": [
-    "p19:12"
+    "p19:4"
    ],
    "targetDisplay": "P20 · 備註 12",
    "confidence": 0.98,
@@ -3049,7 +3049,7 @@
    "kind": "numeric",
    "contextBefore": "•\u0001保单持有人或其配偶或伴侣或他们的:",
    "targets": [
-    "p19:13"
+    "p19:5"
    ],
    "targetDisplay": "P20 · 備註 13",
    "confidence": 0.98,
@@ -3091,7 +3091,7 @@
    "kind": "numeric",
    "contextBefore": "每年可就该课税年度缴付的合资格保费获享扣税优惠:",
    "targets": [
-    "p19:14"
+    "p19:6"
    ],
    "targetDisplay": "P20 · 備註 14",
    "confidence": 0.98,
@@ -3154,7 +3154,7 @@
    "kind": "numeric",
    "contextBefore": "(假设税率为15%)",
    "targets": [
-    "p19:15"
+    "p19:7"
    ],
    "targetDisplay": "P20 · 備註 15",
    "confidence": 0.98,
@@ -3175,7 +3175,7 @@
    "kind": "numeric",
    "contextBefore": "问全力协助,透过免找数服务7,8,入住汇丰保险的",
    "targets": [
-    "p19:11"
+    "p19:3"
    ],
    "targetDisplay": "P20 · 備註 11",
    "confidence": 0.98,
@@ -3238,7 +3238,7 @@
    "kind": "numeric",
    "contextBefore": "医疗礼宾服务为您打点一切",
    "targets": [
-    "p19:11"
+    "p19:3"
    ],
    "targetDisplay": "P20 · 備註 11",
    "confidence": 0.98,
@@ -3259,7 +3259,7 @@
    "kind": "numeric",
    "contextBefore": "• 预约诊症服务",
    "targets": [
-    "p19:11"
+    "p19:3"
    ],
    "targetDisplay": "P20 · 備註 11",
    "confidence": 0.98,
@@ -3532,7 +3532,7 @@
    "kind": "numeric",
    "contextBefore": "伴侣,但基于香港现行法例,伴侣未能享有税务扣减的",
    "targets": [
-    "p19:13"
+    "p19:5"
    ],
    "targetDisplay": "P20 · 備註 13",
    "confidence": 0.98,

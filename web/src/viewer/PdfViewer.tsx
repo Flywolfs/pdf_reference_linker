@@ -25,7 +25,13 @@ export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jump
   useEffect(() => {
     let doc: any = null
     setHighlightNoteId(null)
-    getDocument(api.pdfUrl(docId)).promise.then(async (d: PDFDocumentProxy) => {
+    // cMap/standardFont 必备：Type0/CID 字体（如 AIA ETen-B5-H 中文）渲染需要
+    getDocument({
+      url: api.pdfUrl(docId),
+      cMapUrl: '/pdfjs/cmaps/',
+      cMapPacked: true,
+      standardFontDataUrl: '/pdfjs/standard_fonts/',
+    }).promise.then(async (d: PDFDocumentProxy) => {
       doc = d
       setPdf(d)
       const tasks: Promise<PDFPageProxy>[] = []
