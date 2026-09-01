@@ -3,6 +3,9 @@ import type { Analysis, Annotations, DocInfo, Hotspot } from './api'
 import { api } from './api'
 import PdfViewer from './viewer/PdfViewer'
 
+const DOC_LIST_DEFAULT = 250
+const REF_PANE_DEFAULT = 300
+
 export default function App() {
   const [docs, setDocs] = useState<DocInfo[]>([])
   const [root, setRoot] = useState('')
@@ -10,6 +13,11 @@ export default function App() {
   const [selected, setSelected] = useState<{ doc: DocInfo; analysis: Analysis } | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
+  // 可拖拽分栏宽度（§8.1 布局：左文档列表 / 中阅读器 / 右引用总览）
+  const [docListW, setDocListW] = useState(DOC_LIST_DEFAULT)
+  const [refPaneW, setRefPaneW] = useState(REF_PANE_DEFAULT)
+  // 右栏点击 → 阅读器跳转到对应角标并持续高亮（对象引用变化即触发）
+  const [jumpHotspotReq, setJumpHotspotReq] = useState<{ id: string } | null>(null)
 
   // ---- 人工标注闭环状态 ----
   const [annos, setAnnos] = useState<Annotations | null>(null)
@@ -129,10 +137,33 @@ export default function App() {
   const missEntries = annos ? Object.entries(annos.entries).filter(([, e]) => e.kind === 'miss') : []
   const pendingAi = annos ? Object.values(annos.entries).filter((e) => e.status === 'pending_ai').length : 0
 
+  // 分栏拖拽：window 级监听避免移出分隔条丢事件；双击复原图用 §8.1 默认宽度
+  const startDrag = (e: React.MouseEvent, which: 'doc' | 'ref') => {
+    e.preventDefault()
+    const startX = e.clientX
+    const startW = which === 'doc' ? docListW : refPaneW
+    document.body.classList.add('resizing')
+    const onMove = (ev: MouseEvent) => {
+      const dx = ev.clientX - startX
+      if (which === 'doc') setDocListW(Math.min(480, Math.max(170, startW + dx)))
+      else setRefPaneW(Math.min(640, Math.max(220, startW - dx)))  // 右栏向左拖 = 加宽
+    }
+    const onUp = () => {
+      window.removeEventListener('mousemove', onMove)
+      window.removeEventListener('mouseup', onUp)
+      document.body.classList.remove('resizing')
+    }
+    window.addEventListener('mousemove', onMove)
+    window.addEventListener('mouseup', onUp)
+  }
+
   return (
     <div className="app">
       {/* 左：文档列表（FR-1） */}
-      <aside className="doc-list">
+      <aside
+        className="doc-list"
+        style={{ width: docListW, minWidth: docListW, maxWidth: docListW }}
+      >
         <h1>條款角標閱讀器</h1>
         <div className="root-path" title={root}>{root}</div>
         <input
@@ -159,9 +190,23 @@ export default function App() {
         </div>
       </aside>
 
+      {/* 可拖拽分隔：左 | 中 */}
+      <div
+        className="resizer"
+        title="拖動調整寬度，雙擊復原"
+        onMouseDown={(e) => startDrag(e, 'doc')}
+        onDoubleClick={() => setDocListW(DOC_LIST_DEFAULT)}
+      />
+
       {/* 中：阅读器 */}
       {selected ? (
-        <PdfViewer docId={selected.doc.docId} analysis={selected.analysis} missMode={missMode} onMissBoxed={handleMissBoxed} />
+        <PdfViewer
+          docId={selected.doc.docId}
+          analysis={selected.analysis}
+          missMode={missMode}
+          onMissBoxed={handleMissBoxed}
+          jumpHotspotReq={jumpHotspotReq}
+        />
       ) : (
         <main className="viewer-pane empty">
           <div className="placeholder">
@@ -173,9 +218,22 @@ export default function App() {
         </main>
       )}
 
+      {/* 可拖拽分隔：中 | 右 */}
+      {selected && (
+        <div
+          className="resizer"
+          title="拖動調整寬度，雙擊復原"
+          onMouseDown={(e) => startDrag(e, 'ref')}
+          onDoubleClick={() => setRefPaneW(REF_PANE_DEFAULT)}
+        />
+      )}
+
       {/* 右：引用总览 + 人工标注闭环（FR-7） */}
       {selected && (
-        <aside className="ref-pane">
+        <aside
+          className="ref-pane"
+          style={{ width: refPaneW, minWidth: refPaneW, maxWidth: refPaneW }}
+        >
           <div className="ref-head">
             <h3>引用總覽</h3>
             <label className="rev-toggle">
@@ -215,14 +273,7 @@ export default function App() {
                   <div
                     className={'ref-item' + (h.targets.length ? '' : ' unresolved')}
                     title={h.targetDisplay ?? ''}
-                    onClick={() => {
-                      const pageEl = document.querySelector(`[data-page="${h.page}"]`) as HTMLElement | null
-                      const container = document.querySelector('.scroll')
-                      if (pageEl && container) {
-                        const vpTop = h.bbox[1] * (pageEl.querySelector('.page-canvas')?.clientHeight ?? 0) / pageHeightPt(selected.analysis, h.page)
-                        container.scrollTo({ top: pageEl.offsetTop + vpTop - 120, behavior: 'smooth' })
-                      }
-                    }}
+                    onClick={() => setJumpHotspotReq({ id: h.id })}
                   >
                     <span className="ref-page">P{h.page + 1}</span>
                     <span className="ref-ctx">{h.contextBefore || '…'}</span>
@@ -295,3 +346,4 @@ function pageHeightPt(analysis: Analysis, page: number): number {
   void analysis
   return 842 / 1
 }
+void pageHeightPt  // 精确定位已改由 PdfViewer.toCssPoint 承担，保留备用

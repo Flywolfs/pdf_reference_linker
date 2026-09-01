@@ -11,6 +11,7 @@ interface Props {
   scale: number
   analysis: Analysis
   highlightNoteId: string | null
+  highlightHotspotId: string | null   // 右栏点击跳转后的角标持续高亮
   onJumpNote: (note: Note) => void
   registerRendered: (pageNo: number, height: number) => void
   missMode: boolean                  // 補標模式：拖框选漏检角标
@@ -22,7 +23,7 @@ interface HoverState {
   rect: [number, number, number, number]
 }
 
-export default function PageView({ page, pageNo, scale, analysis, highlightNoteId, onJumpNote, registerRendered, missMode, onMissBoxed }: Props) {
+export default function PageView({ page, pageNo, scale, analysis, highlightNoteId, highlightHotspotId, onJumpNote, registerRendered, missMode, onMissBoxed }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const hostRef = useRef<HTMLDivElement>(null)
   const hoverTimer = useRef<number | null>(null)
@@ -178,10 +179,12 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
               const w = Math.max(x1 - x0 + pad * 2, minHit)
               const h = Math.max(y1 - y0 + pad * 2, minHit)
               const conf = Math.max(...items.map((s) => s.confidence))
+              // 右栏跳转高亮：命中组内任一编号（多编号角标整组高亮）
+              const lit = highlightHotspotId != null && items.some((s) => s.id === highlightHotspotId)
               return (
                 <div
                   key={items[0].id}
-                  className={hsClassConf(conf)}
+                  className={hsClassConf(conf) + (lit ? ' active' : '')}
                   style={{ left: x0 - (w - (x1 - x0)) / 2, top: y0 - (h - (y1 - y0)) / 2, width: w, height: h }}
                   onMouseEnter={() => enter(items)}
                   onMouseLeave={leave}

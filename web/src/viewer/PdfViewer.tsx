@@ -9,14 +9,16 @@ interface Props {
   analysis: Analysis
   missMode: boolean
   onMissBoxed: (pageNo: number, bboxPdf: number[]) => void
+  jumpHotspotReq: { id: string } | null   // 右栏点击 → 跳转并高亮对应角标
 }
 
-export default function PdfViewer({ docId, analysis, missMode, onMissBoxed }: Props) {
+export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jumpHotspotReq }: Props) {
   const scrollRef = useRef<HTMLDivElement>(null)
   const [pdf, setPdf] = useState<any>(null)
   const [pages, setPages] = useState<PDFPageProxy[]>([])
   const [scale, setScale] = useState(1.3)
   const [highlightNoteId, setHighlightNoteId] = useState<string | null>(null)
+  const [highlightHotspotId, setHighlightHotspotId] = useState<string | null>(null)
   const fitDone = useRef(false)
 
   // 加载 PDF 文档与全部 page 对象（用于尺寸计算与坐标换算）
@@ -65,6 +67,27 @@ export default function PdfViewer({ docId, analysis, missMode, onMissBoxed }: Pr
     [pages, scale],
   )
 
+  /** 右栏点击：精确滚动到对应角标并持续高亮（同注释端交互，直至下一次点击） */
+  const jumpToHotspot = useCallback(
+    (hotspotId: string) => {
+      const hs = analysis.hotspots.find((x) => x.id === hotspotId)
+      const container = scrollRef.current
+      if (!hs || !container) return
+      const pageEl = container.querySelector(`[data-page="${hs.page}"]`) as HTMLElement | null
+      const pdfPage = pages[hs.page]
+      if (!pageEl || !pdfPage) return
+      const [, vy] = toCssPoint(pdfPage, scale, 0, hs.bbox[1])
+      container.scrollTo({ top: pageEl.offsetTop + vy - 120, behavior: 'smooth' })
+      setHighlightHotspotId(hotspotId)
+    },
+    [analysis, pages, scale],
+  )
+
+  useEffect(() => {
+    if (jumpHotspotReq) jumpToHotspot(jumpHotspotReq.id)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [jumpHotspotReq])
+
   return (
     <main className="viewer-pane">
       <div className="toolbar">
@@ -86,6 +109,7 @@ export default function PdfViewer({ docId, analysis, missMode, onMissBoxed }: Pr
             scale={scale}
             analysis={analysis}
             highlightNoteId={highlightNoteId}
+            highlightHotspotId={highlightHotspotId}
             onJumpNote={jumpToNote}
             registerRendered={registerRendered}
             missMode={missMode}
