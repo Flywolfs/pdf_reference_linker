@@ -15,6 +15,10 @@ from dataclasses import dataclass, field
 from ..config import ParseConfig
 from .extract import Line
 
+# 宽松条目起始判定（仅用于区域终止豁免）：'15.內容' 无空格紧排也算条目行，
+# 不含严格 item_pat 的 `(?:\s+|$)` 后置条件（那会把紧排误判为非条目）
+_LOOSE_ITEM_START = re.compile(r"^\s*\d{1,3}\s*[.、)]")
+
 
 @dataclass
 class NoteRegion:
@@ -165,6 +169,37 @@ def _extend_cross_columns(pls: list, cols: list, title_idx: int,
             body.append(l)
 
 
+def _truncate_at_heading(body: list, config: ParseConfig) -> list:
+    """T1 同栏正文终止（DESIGN.md §5.2 区域边界 b：下一个非注释大字号标题）。
+
+    同栏下方出现字号明显大于注文主字号的**非条目行**（后续小节标题，showdoc
+    P19「重要資料」12pt vs 註文 8pt 实测）时区域即止，避免把后续章节整节吞进
+    最后一个条目（bbox 横跨大半页）。两类例外（注文序列仍在继续）：
+    - 以条目编号开头的行（宽松判定，兼容「15.內容」无空格紧排）——同一注释区
+      内条目首行字号可能偏大（爱伴航 p14 附註 15/19~22 首行 11.3pt 实测）；
+    - 大字号行之后 2 行内出现数字编号条目——条目续行与首行同享大字号，其后
+      仍是编号序列（爱伴航 21 续行 11.3pt 后接 '22.' 实测）；而真节标题之后
+      是字母编号（'a.'）、页脚或非注文内容。
+    参考字号取首个编号行的主字号——区域可能已吞入大段外节内容，中位数会
+    失真；终止扫描仅从首编号行开始，标题与首条目间的前导杂行不参与判定。
+    """
+    first_item = next((i for i, l in enumerate(body) if _match_item(l.text, config)), None)
+    if first_item is None:
+        return body
+    ref = max(s.size for s in body[first_item].spans)
+    for i in range(first_item, len(body)):
+        l = body[i]
+        if max(s.size for s in l.spans) <= ref * config.t1_term_ratio:
+            continue
+        if _LOOSE_ITEM_START.match(l.text):
+            continue
+        lookahead = body[i + 1:i + 3]
+        if any(_LOOSE_ITEM_START.match(x.text) for x in lookahead):
+            continue
+        return body[:i]
+    return body
+
+
 def find_regions(lines: list[Line], page_heights: list[float],
                  config: ParseConfig) -> list[NoteRegion]:
     by_page: dict[int, list[Line]] = {}
@@ -183,6 +218,7 @@ def find_regions(lines: list[Line], page_heights: list[float],
                 below = [l for l in pls if l.bbox[1] > ln.bbox[3] - 1]
                 cols = _page_columns([ln] + below)
                 body = [l for k, l in enumerate(below, start=1) if cols[k] == cols[0]]
+                body = _truncate_at_heading(body, config)
                 if body:
                     _extend_cross_columns([ln] + below, cols, 0, body, config)
                     regions.append(NoteRegion(page, zone, True, body, kind="t1"))

@@ -1,5 +1,5 @@
 {
- "version": "1.3",
+ "version": "1.5",
  "docId": "da4e82ca",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/showdoc.jsp.pdf",
@@ -228,11 +228,11 @@
    "bbox": [
     28.35,
     671.13,
-    513.13,
-    814.78
+    306.83,
+    681.56
    ],
    "number": "10",
-   "text": "根據保障項目 I (a) 至 (i)、(k)、(m)、(o) 及/或 II (b) 的相關賠償限額支付。 基礎計劃保障表 若閣下希望了解基礎計劃保障表,可瀏覽網址: www.aia.com.hk/content/dam/hk/zh-hk/pdf/benefit-schedule/base-plan-benefit-schedule-tc.pdf",
+   "text": "根據保障項目 I (a) 至 (i)、(k)、(m)、(o) 及/或 II (b) 的相關賠償限額支付。",
    "textPages": [
     14
    ]
