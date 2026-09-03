@@ -287,7 +287,7 @@ export default function App() {
                           <span className="rev-done">✓</span>
                         ) : (
                           <>
-                            <button title="鏈接正確" onClick={() => doVerdict(h.id, true)}>✓</button>
+                            <button title="鏈接正確" onClick={() => { setExpandedId(null); doVerdict(h.id, true) }}>✓</button>
                             <button title="鏈接錯誤" onClick={() => setExpandedId(expandedId === h.id ? null : h.id)}>✗</button>
                           </>
                         )}
