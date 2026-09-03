@@ -4,7 +4,7 @@ from typing import Optional
 
 from pydantic import BaseModel, Field
 
-ANALYSIS_VERSION = "1.2"   # 1.2: noteId 改页内序号（修同页同编号 ID 冲突）          # schema 变更时 bump，缓存自动失效
+ANALYSIS_VERSION = "1.4"   # 1.4: T1 区域同栏限定 + 跨栏阅读流续排（修双栏页 bbox 横跨全页）  # schema 变更时 bump，缓存自动失效
 
 
 class DocMeta(BaseModel):

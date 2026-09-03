@@ -1,5 +1,5 @@
 {
- "version": "1.2",
+ "version": "1.3",
  "docId": "63773c74",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/滙豐/重疾/汇达保危疾保障计划-产品册子.pdf",
@@ -13,6 +13,38 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p1:1",
+   "anchor": "footer",
+   "page": 1,
+   "bbox": [
+    36.64,
+    786.35,
+    409.49,
+    803.72
+   ],
+   "number": "*",
+   "text": "「十大致命疾病」由世界衛生組織於2020年12月發佈 + 醫院管理局香港癌症資料統計中心:2019年香港癌症資料統計概覽(2021年10月,https://www3.ha.org.hk/cancereg)",
+   "textPages": [
+    1
+   ]
+  },
+  {
+   "noteId": "p1:2",
+   "anchor": "footer",
+   "page": 1,
+   "bbox": [
+    36.64,
+    803.16,
+    285.78,
+    812.12
+   ],
+   "number": "#",
+   "text": "醫院管理局香港癌症資料統計中心:2019年香港十大女性癌症(2021年公佈)",
+   "textPages": [
+    1
+   ]
+  },
   {
    "noteId": "p13:1",
    "anchor": "standalone",
@@ -1663,7 +1695,7 @@
  ],
  "stats": {
   "anchors": 73,
-  "notes": 7,
+  "notes": 9,
   "resolved": 73
  }
 }

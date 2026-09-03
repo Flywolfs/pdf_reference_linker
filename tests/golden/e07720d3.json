@@ -1,5 +1,5 @@
 {
- "version": "1.2",
+ "version": "1.3",
  "docId": "e07720d3",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/FWD/自愿医保/醫家保醫療計劃-產品宣傳單張.pdf",
@@ -13,6 +13,54 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p3:1",
+   "anchor": "footer",
+   "page": 3,
+   "bbox": [
+    42.79,
+    690.42,
+    524.33,
+    708.98
+   ],
+   "number": "*",
+   "text": "此最高可賠償金額由兩部分組成,包括每傷病每保單年度保障總額55萬港元及訂明非手術癌症治療、腎臟透析及器官或骨髓移植的額外保障之每保單年度每傷病55萬港元。",
+   "textPages": [
+    3
+   ]
+  },
+  {
+   "noteId": "p3:2",
+   "anchor": "footer",
+   "page": 3,
+   "bbox": [
+    42.79,
+    700.41,
+    355.13,
+    718.98
+   ],
+   "number": "#",
+   "text": "假設病症3於第2個保單年度及第3個保單年度的合資格費用都是90萬港元,跨越兩個保單年度合共180萬港元。",
+   "textPages": [
+    3
+   ]
+  },
+  {
+   "noteId": "p3:3",
+   "anchor": "footer",
+   "page": 3,
+   "bbox": [
+    42.53,
+    710.41,
+    552.78,
+    819.31
+   ],
+   "number": "^",
+   "text": "雖然病症1與病症3的合資格費用同因結腸癌於同一保單年度所招致,但因病症3的住院於病症1的出院日期超過90日後發生,所以訂明非手術癌症治療、腎臟透析及器官或骨髓移植的 額外保障之每保單年度每傷病最高保障限額及每傷病每保單年度保障總額重新計算。 3",
+   "textPages": [
+    3
+   ]
+  },
   {
    "noteId": "p12:1",
    "anchor": "standalone",
@@ -363,6 +411,38 @@
    "text": "因戰爭(不論宣戰與否)、內戰、侵略、外敵行動、敵對行動、叛亂、革命、起義、或軍事政變或奪權事故所招致的",
    "textPages": [
     16
+   ]
+  },
+  {
+   "noteId": "p25:1",
+   "anchor": "footer",
+   "page": 25,
+   "bbox": [
+    28.35,
+    706.91,
+    97.78,
+    729.76
+   ],
+   "number": "^",
+   "text": "只適用於續保。",
+   "textPages": [
+    25
+   ]
+  },
+  {
+   "noteId": "p25:2",
+   "anchor": "footer",
+   "page": 25,
+   "bbox": [
+    28.35,
+    722.6,
+    392.08,
+    770.15
+   ],
+   "number": "^",
+   "text": "For Renewal only. 此標準保費表並未包括由保險業監管局徵收的保費徵費。 This Standard Premium Schedule does not include levy which is collected by the Insurance Authority.",
+   "textPages": [
+    25
    ]
   }
  ],
@@ -3551,7 +3631,7 @@
  ],
  "stats": {
   "anchors": 150,
-  "notes": 22,
+  "notes": 27,
   "resolved": 115
  }
 }

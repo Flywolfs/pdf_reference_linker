@@ -1,5 +1,5 @@
 {
- "version": "1.2",
+ "version": "1.3",
  "docId": "b8156ad7",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/自愿医保标准计划.pdf",
@@ -13,6 +13,70 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p1:1",
+   "anchor": "footer",
+   "page": 1,
+   "bbox": [
+    28.35,
+    762.76,
+    565.71,
+    783.68
+   ],
+   "number": "#",
+   "text": "稅務扣減是從應課稅入息中可申請扣除的項目之一,並不等於可從應繳總稅款直接扣減。有關稅務扣減詳請,請參閱香港稅務局網頁,並向您的稅務及 會計顧問徵詢稅務意見。",
+   "textPages": [
+    1
+   ]
+  },
+  {
+   "noteId": "p1:2",
+   "anchor": "footer",
+   "page": 1,
+   "bbox": [
+    22.68,
+    785.59,
+    438.75,
+    813.69
+   ],
+   "number": "*",
+   "text": "指明親屬的定義是根據《稅務條例》(第112章)所界定。 「AIA」、「本公司」或「我們」是指友邦保險 (國際) 有限公司 (於百慕達註冊成立之有限公司) 。",
+   "textPages": [
+    1
+   ]
+  },
+  {
+   "noteId": "p2:1",
+   "anchor": "footer",
+   "page": 2,
+   "bbox": [
+    28.36,
+    529.54,
+    128.55,
+    543.58
+   ],
+   "number": "x",
+   "text": "4)的稅務扣減金額。",
+   "textPages": [
+    2
+   ]
+  },
+  {
+   "noteId": "p2:2",
+   "anchor": "footer",
+   "page": 2,
+   "bbox": [
+    28.35,
+    803.38,
+    227.82,
+    814.81
+   ],
+   "number": "*",
+   "text": "指明親屬的定義是根據《稅務條例》(第112章)所界定。",
+   "textPages": [
+    2
+   ]
+  },
   {
    "noteId": "p10:1",
    "anchor": "footer",
@@ -190,7 +254,7 @@
    ]
   },
   {
-   "noteId": "p6:inline11",
+   "noteId": "p6:inline15",
    "anchor": "inline",
    "page": 6,
    "bbox": [
@@ -206,7 +270,7 @@
    ]
   },
   {
-   "noteId": "p8:inline12",
+   "noteId": "p8:inline16",
    "anchor": "inline",
    "page": 8,
    "bbox": [
@@ -445,7 +509,7 @@
  ],
  "stats": {
   "anchors": 10,
-  "notes": 13,
+  "notes": 17,
   "resolved": 10
  }
 }

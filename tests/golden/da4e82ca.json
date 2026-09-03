@@ -1,5 +1,5 @@
 {
- "version": "1.2",
+ "version": "1.3",
  "docId": "da4e82ca",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/showdoc.jsp.pdf",
@@ -13,6 +13,70 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p13:1",
+   "anchor": "footer",
+   "page": 13,
+   "bbox": [
+    78.45,
+    547.64,
+    285.8,
+    580.66
+   ],
+   "number": "1",
+   "text": "脊骨神經科醫生/物理治療師/言語治療師/職業治療師/ 神經外科醫生5 • 診症及/或診療",
+   "textPages": [
+    13
+   ]
+  },
+  {
+   "noteId": "p13:2",
+   "anchor": "footer",
+   "page": 13,
+   "bbox": [
+    78.45,
+    582.74,
+    180.11,
+    603.46
+   ],
+   "number": "2",
+   "text": "腦神經科醫生5 •診症、診療及/或處方西藥",
+   "textPages": [
+    13
+   ]
+  },
+  {
+   "noteId": "p13:3",
+   "anchor": "footer",
+   "page": 13,
+   "bbox": [
+    64.28,
+    605.54,
+    180.11,
+    653.54
+   ],
+   "number": "3",
+   "text": "中醫 •診症、診療及/或處方藥物 (iii)傷殘津貼惠益 連續傷殘超過6個月",
+   "textPages": [
+    13
+   ]
+  },
+  {
+   "noteId": "p13:4",
+   "anchor": "footer",
+   "page": 13,
+   "bbox": [
+    51.52,
+    662.61,
+    230.68,
+    712.25
+   ],
+   "number": "i",
+   "text": "緊急牙齒治療費用賠償 意外發生後3個月內的治療 j. 身故恩恤賠償 如受保人不幸身故,我們將支付此賠償予受益人",
+   "textPages": [
+    13
+   ]
+  },
   {
    "noteId": "p14:1",
    "anchor": "footer",
@@ -270,7 +334,7 @@
    ]
   },
   {
-   "noteId": "p7:inline16",
+   "noteId": "p7:inline20",
    "anchor": "inline",
    "page": 7,
    "bbox": [
@@ -286,7 +350,7 @@
    ]
   },
   {
-   "noteId": "p8:inline17",
+   "noteId": "p8:inline21",
    "anchor": "inline",
    "page": 8,
    "bbox": [
@@ -338,6 +402,7 @@
    "contextBefore": "且不受其他個人醫療保險計劃",
    "targets": [
     "p14:3",
+    "p13:3",
     "p16:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
@@ -360,6 +425,7 @@
    "contextBefore": "累計上升約39%及27%1",
    "targets": [
     "p14:1",
+    "p13:1",
     "p16:1",
     "p16:4",
     "p16:5"
@@ -384,6 +450,7 @@
    "contextBefore": "累計上升約39%1及27%",
    "targets": [
     "p14:1",
+    "p13:1",
     "p16:1",
     "p16:4",
     "p16:5"
@@ -408,6 +475,7 @@
    "contextBefore": "每日可高達3,800港元",
    "targets": [
     "p14:2",
+    "p13:2",
     "p16:2",
     "p16:6"
    ],
@@ -473,6 +541,7 @@
    "contextBefore": "市場首創",
    "targets": [
     "p14:3",
+    "p13:3",
     "p16:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
@@ -537,6 +606,7 @@
    "contextBefore": "市場首創",
    "targets": [
     "p14:3",
+    "p13:3",
     "p16:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
@@ -702,6 +772,7 @@
    "contextBefore": "地域保障範圍選擇",
    "targets": [
     "p14:1",
+    "p13:1",
     "p16:1",
     "p16:4",
     "p16:5"
@@ -726,6 +797,7 @@
    "contextBefore": "長者癌症支援 – 指定癌症豁免自付費",
    "targets": [
     "p14:2",
+    "p13:2",
     "p16:2",
     "p16:6"
    ],
@@ -749,6 +821,7 @@
    "contextBefore": "•罹患指定癌症;及",
    "targets": [
     "p14:3",
+    "p13:3",
     "p16:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
@@ -771,6 +844,7 @@
    "contextBefore": "•\t因該指定癌症而接受任何醫療服務,",
    "targets": [
     "p14:3",
+    "p13:3",
     "p16:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
@@ -793,6 +867,7 @@
    "contextBefore": "受保人罹患的指定癌症所引起的該醫療服務有關的每年",
    "targets": [
     "p14:3",
+    "p13:3",
     "p16:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
@@ -1193,7 +1268,8 @@
    "contextBefore": "\t 第三期及第四期指定癌症及無法治癒的血液系統惡",
    "targets": [
     "p14:3",
-    "p16:3"
+    "p16:3",
+    "p13:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
    "confidence": 0.98,
@@ -1288,7 +1364,7 @@
  ],
  "stats": {
   "anchors": 46,
-  "notes": 18,
+  "notes": 22,
   "resolved": 44
  }
 }

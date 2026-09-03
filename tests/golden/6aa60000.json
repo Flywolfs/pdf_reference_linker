@@ -1,5 +1,5 @@
 {
- "version": "1.2",
+ "version": "1.3",
  "docId": "6aa60000",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/Bowtie/自愿医保/Bowtie自愿医保标准及灵活计划-产品小册子.pdf",
@@ -12,7 +12,104 @@
   "riseRatio": 0.22,
   "gapRatio": 0.6
  },
- "notes": [],
+ "notes": [
+  {
+   "noteId": "p18:1",
+   "anchor": "footer",
+   "page": 18,
+   "bbox": [
+    48.0,
+    800.36,
+    178.95,
+    810.12
+   ],
+   "number": "^",
+   "text": "年齡指受保人上次生日時的已屆年齡",
+   "textPages": [
+    18
+   ]
+  },
+  {
+   "noteId": "p18:2",
+   "anchor": "footer",
+   "page": 18,
+   "bbox": [
+    48.0,
+    810.36,
+    99.62,
+    820.12
+   ],
+   "number": "*",
+   "text": "只適用於續保",
+   "textPages": [
+    18
+   ]
+  },
+  {
+   "noteId": "p19:1",
+   "anchor": "footer",
+   "page": 19,
+   "bbox": [
+    48.0,
+    800.36,
+    178.95,
+    810.12
+   ],
+   "number": "^",
+   "text": "年齡指受保人上次生日時的已屆年齡",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:2",
+   "anchor": "footer",
+   "page": 19,
+   "bbox": [
+    48.0,
+    810.36,
+    99.62,
+    820.12
+   ],
+   "number": "*",
+   "text": "只適用於續保",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p20:1",
+   "anchor": "footer",
+   "page": 20,
+   "bbox": [
+    48.0,
+    800.34,
+    178.95,
+    810.12
+   ],
+   "number": "^",
+   "text": "年齡指受保人上次生日時的已屆年齡",
+   "textPages": [
+    20
+   ]
+  },
+  {
+   "noteId": "p20:2",
+   "anchor": "footer",
+   "page": 20,
+   "bbox": [
+    48.0,
+    810.34,
+    99.62,
+    820.12
+   ],
+   "number": "*",
+   "text": "只適用於續保",
+   "textPages": [
+    20
+   ]
+  }
+ ],
  "hotspots": [
   {
    "id": "h0000",
@@ -26,9 +123,13 @@
    "text": "*",
    "kind": "asterisk",
    "contextBefore": "$600 億+",
-   "targets": [],
-   "targetDisplay": null,
-   "confidence": 0.5,
+   "targets": [
+    "p18:2",
+    "p19:2",
+    "p20:2"
+   ],
+   "targetDisplay": "P19 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -36,7 +137,7 @@
  ],
  "stats": {
   "anchors": 1,
-  "notes": 0,
-  "resolved": 0
+  "notes": 6,
+  "resolved": 1
  }
 }

@@ -1,5 +1,5 @@
 {
- "version": "1.2",
+ "version": "1.3",
  "docId": "3d63a43d",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/富通/重疾/守护168危疾保障计划(加强版)-产品小册子.pdf",
@@ -350,7 +350,39 @@
    ]
   },
   {
-   "noteId": "p2:inline21",
+   "noteId": "p18:1",
+   "anchor": "footer",
+   "page": 18,
+   "bbox": [
+    29.38,
+    777.58,
+    512.67,
+    794.72
+   ],
+   "number": "*",
+   "text": "三大皇牌產品系列包括(i)「盛世」/「匠心」系列(「匠心•飛越」同類型產品)、(ii)「守護168」系列 (「守護家倍198」同類型產品 )及(iii)「愛豐盛」系列 (「榮耀世代」同類型產品 ) 。",
+   "textPages": [
+    18
+   ]
+  },
+  {
+   "noteId": "p18:2",
+   "anchor": "footer",
+   "page": 18,
+   "bbox": [
+    29.38,
+    786.58,
+    434.66,
+    810.72
+   ],
+   "number": "^",
+   "text": "上述三大皇牌產品系列在2015年至2024年生效的保單於每個保單生效年份之週年紅利 / 復歸紅利 / 終期紅利 / 終期分紅的分紅實現率均達到100%或以上。 請瀏覽周大福人壽網站了解上述或其他產品的最新分紅實現率資料。過往分紅實現率資料及表現僅供參考,並不能作為分紅產品未來表現的指標。",
+   "textPages": [
+    18
+   ]
+  },
+  {
+   "noteId": "p2:inline23",
    "anchor": "inline",
    "page": 2,
    "bbox": [
@@ -366,7 +398,7 @@
    ]
   },
   {
-   "noteId": "p9:inline22",
+   "noteId": "p9:inline24",
    "anchor": "inline",
    "page": 9,
    "bbox": [
@@ -2810,9 +2842,11 @@
    "text": "*",
    "kind": "asterisk",
    "contextBefore": "三大皇牌產品系列俹俷俹俼年度分紅實現率全面達標",
-   "targets": [],
-   "targetDisplay": null,
-   "confidence": 0.5,
+   "targets": [
+    "p18:1"
+   ],
+   "targetDisplay": "P19 · 腳註 *",
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2820,7 +2854,7 @@
  ],
  "stats": {
   "anchors": 116,
-  "notes": 23,
-  "resolved": 115
+  "notes": 25,
+  "resolved": 116
  }
 }

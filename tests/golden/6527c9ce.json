@@ -1,5 +1,5 @@
 {
- "version": "1.2",
+ "version": "1.3",
  "docId": "6527c9ce",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/中銀人壽/自愿医保/中银人寿标准自愿医保-产品小册子.pdf",
@@ -222,7 +222,39 @@
    ]
   },
   {
-   "noteId": "p4:inline13",
+   "noteId": "p4:1",
+   "anchor": "footer",
+   "page": 4,
+   "bbox": [
+    308.75,
+    662.61,
+    566.21,
+    696.86
+   ],
+   "number": "10",
+   "text": "傳統中醫治療的費用,包括但不限於中草藥治療、跌打、針灸、穴位 按摩及推拿,以及另類治療,包括但不限於催眠治療、氣功、按摩治 療、香薰治療、自然療法、水療法、順勢療法及其他類似的治療。",
+   "textPages": [
+    4
+   ]
+  },
+  {
+   "noteId": "p4:2",
+   "anchor": "footer",
+   "page": 4,
+   "bbox": [
+    308.75,
+    706.61,
+    566.23,
+    740.86
+   ],
+   "number": "11",
+   "text": "按接受治療、治療程序、檢測或服務所在地的普遍標準(或尚未經當地 認可機構批准)界定為實驗性或未經證實醫療成效的醫療技術或治療程 序的費用。",
+   "textPages": [
+    4
+   ]
+  },
+  {
+   "noteId": "p4:inline15",
    "anchor": "inline",
    "page": 4,
    "bbox": [
@@ -241,7 +273,7 @@
  "hotspots": [],
  "stats": {
   "anchors": 0,
-  "notes": 14,
+  "notes": 16,
   "resolved": 0
  }
 }

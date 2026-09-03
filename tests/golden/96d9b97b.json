@@ -1,5 +1,5 @@
 {
- "version": "1.2",
+ "version": "1.3",
  "docId": "96d9b97b",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/永明/重疾/永明危疾全护保及至尊保-产品小册子.pdf",
@@ -14,7 +14,39 @@
  },
  "notes": [
   {
-   "noteId": "p11:inline0",
+   "noteId": "p19:1",
+   "anchor": "footer",
+   "page": 19,
+   "bbox": [
+    53.86,
+    787.94,
+    131.31,
+    796.64
+   ],
+   "number": "*",
+   "text": "保障期限於65歲至85歲。",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:2",
+   "anchor": "footer",
+   "page": 19,
+   "bbox": [
+    42.52,
+    818.04,
+    50.11,
+    830.04
+   ],
+   "number": "#",
+   "text": "19",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p11:inline2",
    "anchor": "inline",
    "page": 11,
    "bbox": [
@@ -30,7 +62,7 @@
    ]
   },
   {
-   "noteId": "p11:inline1",
+   "noteId": "p11:inline3",
    "anchor": "inline",
    "page": 11,
    "bbox": [
@@ -46,7 +78,7 @@
    ]
   },
   {
-   "noteId": "p12:inline2",
+   "noteId": "p12:inline4",
    "anchor": "inline",
    "page": 12,
    "bbox": [
@@ -62,7 +94,7 @@
    ]
   },
   {
-   "noteId": "p12:inline3",
+   "noteId": "p12:inline5",
    "anchor": "inline",
    "page": 12,
    "bbox": [
@@ -78,7 +110,7 @@
    ]
   },
   {
-   "noteId": "p12:inline4",
+   "noteId": "p12:inline6",
    "anchor": "inline",
    "page": 12,
    "bbox": [
@@ -94,7 +126,7 @@
    ]
   },
   {
-   "noteId": "p13:inline5",
+   "noteId": "p13:inline7",
    "anchor": "inline",
    "page": 13,
    "bbox": [
@@ -1311,7 +1343,7 @@
  ],
  "stats": {
   "anchors": 63,
-  "notes": 6,
+  "notes": 8,
   "resolved": 0
  }
 }
