@@ -92,11 +92,11 @@ def identify_miss(pdf_path: str, page: int, bbox: list[float],
     cands = []
     for sp in spans:
         t = _norm(sp["text"]).strip()
-        kind = classify(t)
+        kind = classify(t) or classify(t.rstrip(".、)"))   # 悬挂编号 '7.' 去尾点后识别
         if kind:
-            cands.append((t, kind, float(sp["size"]), tuple(sp["bbox"])))
+            cands.append((t.rstrip(".、)") or t, kind, float(sp["size"]), tuple(sp["bbox"])))
             continue
-        m = re.search(r"(\d{1,3})$", t)
+        m = re.search(r"(\d{1,3})[.、)]?$", t)
         if m:
             cands.append((m.group(1), "numeric", float(sp["size"]), tuple(sp["bbox"])))
     if not cands:
@@ -108,14 +108,20 @@ def identify_miss(pdf_path: str, page: int, bbox: list[float],
                   bbox=[round(v, 2) for v in sbbox],
                   text=num, kind=kind, confidence=0.85)]
     notes = [NoteEntry(**n) for n in analysis["notes"]]
-    titled = {n["noteId"] for n in notes if n.anchor == "footer"}
+    titled = {n.noteId for n in notes if n.anchor == "footer"}
     match_hotspots(hs, notes, config, titled)
     return {"number": num, "spanBbox": hs[0].bbox,
             "targets": hs[0].targets, "targetDisplay": hs[0].targetDisplay}
 
 
-def add_miss(doc_id: str, page: int, bbox: list[float], proposal: dict | None) -> tuple[str, dict]:
-    entry_id = "m-" + uuid.uuid4().hex[:8]
+def add_miss(doc_id: str, page: int, bbox: list[float],
+             proposal: dict | None) -> tuple[str, dict, bool]:
+    """新增補標條目。同一角標重複框選 → 覆蓋舊條目（含已確認/已拒絕的，重框即重報）。
+
+    判定：同頁 miss 條目、識別中心（spanBbox 優先，退化用框選 bbox）與新框
+    中心距 ≤8pt（用戶每次框選的細微差別遠小於此）視為同一角標。
+    返回 (entryId, entry, replaced)。
+    """
     if proposal:
         entry = {"kind": "miss", "page": page, "bbox": bbox,
                  "number": proposal["number"], "spanBbox": proposal["spanBbox"],
@@ -125,8 +131,19 @@ def add_miss(doc_id: str, page: int, bbox: list[float], proposal: dict | None) -
     else:
         entry = {"kind": "miss", "page": page, "bbox": bbox, "number": None,
                  "method": "auto", "status": "pending_ai"}
+    data = load_annotations(doc_id)
+    ref = proposal["spanBbox"] if proposal else bbox
+    cx, cy = (ref[0] + ref[2]) / 2, (ref[1] + ref[3]) / 2
+    for eid, e in data["entries"].items():
+        if e.get("kind") != "miss" or e.get("page") != page:
+            continue
+        b = e.get("spanBbox") or e.get("bbox")
+        if b and abs((b[0] + b[2]) / 2 - cx) <= 8 and abs((b[1] + b[3]) / 2 - cy) <= 8:
+            set_entry(doc_id, eid, entry)
+            return eid, entry, True
+    entry_id = "m-" + uuid.uuid4().hex[:8]
     set_entry(doc_id, entry_id, entry)
-    return entry_id, entry
+    return entry_id, entry, False
 
 
 def review(doc_id: str, entry_id: str, accept: bool, rebind_to: str | None = None) -> dict | None:

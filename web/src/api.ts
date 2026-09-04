@@ -100,7 +100,7 @@ export const api = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ docId, page, bbox }),
-    }).then(json<{ entryId: string; entry: AnnoEntry }>),
+    }).then(json<{ entryId: string; entry: AnnoEntry; replaced: boolean }>),
 
   review: (docId: string, entryId: string, accept: boolean, rebindTo?: string) =>
     fetch('/api/annotate/review', {

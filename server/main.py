@@ -130,8 +130,8 @@ def annotate_miss(body: MissBody):
         analysis = analyze_pdf(path, body.docId, DEFAULT_CONFIG).model_dump()
         cache.save_analysis(body.docId, analysis)
     proposal = annotations.identify_miss(path, body.page, body.bbox, analysis, DEFAULT_CONFIG)
-    entry_id, entry = annotations.add_miss(body.docId, body.page, body.bbox, proposal)
-    return {"entryId": entry_id, "entry": entry}
+    entry_id, entry, replaced = annotations.add_miss(body.docId, body.page, body.bbox, proposal)
+    return {"entryId": entry_id, "entry": entry, "replaced": replaced}
 
 
 class ReviewBody(BaseModel):

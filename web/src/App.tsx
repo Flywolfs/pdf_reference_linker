@@ -83,7 +83,8 @@ export default function App() {
       const desc = e.number
         ? `識別到角標「${e.number}」${e.targetDisplay ? `→ ${e.targetDisplay}` : '，未找到匹配條目'}`
         : '未識別到角標編號（可框得更精確一些）'
-      alert(`補標完成：${desc}\n狀態：${e.status === 'ai_proposed' ? '待複審（見右欄底部）' : '待 AI 處理（可導出任務文件）'}`)
+      const rep = r.replaced ? '\n（同位置已有補標，已更新原條目）' : ''
+      alert(`補標完成：${desc}${rep}\n狀態：${e.status === 'ai_proposed' ? '待複審（見右欄底部）' : '待 AI 處理（可導出任務文件）'}`)
       await reloadAnnos(selected.doc.docId)
     } catch (e) {
       alert(`補標失敗：${e}`)
