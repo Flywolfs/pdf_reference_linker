@@ -47,6 +47,8 @@ export interface AnnoEntry {
   targetDisplay?: string | null
   method?: string
   reason?: string
+  group?: string | null  // 多符號/多編號簇共享的組 id（一次框選整組生成）
+  anchorKind?: string    // 補標識別的錨點類型（numeric/asterisk/…），注入熱點用
   ts?: number
 }
 
@@ -100,7 +102,7 @@ export const api = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ docId, page, bbox }),
-    }).then(json<{ entryId: string; entry: AnnoEntry; replaced: boolean }>),
+    }).then(json<{ created: { entryId: string; entry: AnnoEntry; replaced: boolean }[] }>),
 
   deleteMiss: (docId: string, entryId: string) =>
     fetch(`/api/annotate/miss/${docId}/${entryId}`, { method: 'DELETE' }).then(json<{ ok: boolean }>),

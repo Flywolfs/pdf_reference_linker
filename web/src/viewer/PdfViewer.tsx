@@ -4,7 +4,7 @@ import { api } from '../api'
 import { getDocument, toCssPoint, type PDFDocumentProxy, type PDFPageProxy } from '../pdfjs'
 import PageView from './PageView'
 
-interface MissBox {
+interface MissItem {
   id: string
   page: number
   bbox: number[]
@@ -13,13 +13,20 @@ interface MissBox {
   targetNoteId: string | null     // 建议目标 noteId（top1），供浮层取文本/跳转
 }
 
+interface MissUnit {              // 渲染单元：同 group 簿记成员聚合为一个框
+  key: string
+  page: number
+  bbox: number[]                  // 成员 bbox 的并集
+  members: MissItem[]
+}
+
 interface Props {
   docId: string
   analysis: Analysis
   missMode: boolean
   onMissBoxed: (pageNo: number, bboxPdf: number[]) => void
   jumpHotspotReq: { id: string } | null   // 右栏点击 → 跳转并高亮对应角标
-  misses: MissBox[]                       // 待审补标条目 → 阅读器虚线框
+  misses: MissUnit[]                      // 待审补标单元 → 阅读器虚线框
   jumpMissReq: { id: string; page: number; bbox: number[] } | null  // 右栏补标点击 → 跳补标位置
 }
 

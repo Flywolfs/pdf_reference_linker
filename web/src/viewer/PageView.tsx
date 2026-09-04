@@ -12,7 +12,7 @@ interface Props {
   analysis: Analysis
   highlightNoteId: string | null
   highlightHotspotId: string | null   // 右栏点击跳转后的角标持续高亮
-  misses: { id: string; page: number; bbox: number[]; number: string | null; targetDisplay: string | null; targetNoteId: string | null }[]  // 待审补标条目（本页过滤后渲染）
+  misses: { key: string; page: number; bbox: number[]; members: { id: string; bbox: number[]; number: string | null; targetDisplay: string | null; targetNoteId: string | null }[] }[]  // 待审补标单元（本页过滤后渲染）
   highlightMissId: string | null      // 右栏补标点击跳转后的持续高亮
   onJumpNote: (note: Note) => void
   registerRendered: (pageNo: number, height: number) => void
@@ -25,13 +25,19 @@ interface HoverState {
   rect: [number, number, number, number]
 }
 
-interface MissItem {               // 待审补标条目（右栏 annos 投影）
+interface MissItem {               // 待审补标成员（右栏 annos 投影）
   id: string
-  page: number
   bbox: number[]
   number: string | null
   targetDisplay: string | null
   targetNoteId: string | null
+}
+
+interface MissUnit {               // 渲染单元：同 group 成员聚合为一个框
+  key: string
+  page: number
+  bbox: number[]
+  members: MissItem[]
 }
 
 export default function PageView({ page, pageNo, scale, analysis, highlightNoteId, highlightHotspotId, misses, highlightMissId, onJumpNote, registerRendered, missMode, onMissBoxed }: Props) {
@@ -104,15 +110,16 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
     hoverTimer.current = window.setTimeout(() => setHover(null), 60)
   }
 
-  // 补标框 hover：与引擎热点同款浮层（编号 + 建议目标 + 注释内容 + 跳轉原文）
-  const [missHover, setMissHover] = useState<{ miss: MissItem; rect: [number, number, number, number] } | null>(null)
+  // 补标框 hover：与引擎热点同款浮层（编号 + 建议目标 + 注释内容 + 跳轉原文）；
+  // 多成员单元逐条列出（同引擎多编号 tooltip）
+  const [missHover, setMissHover] = useState<{ unit: MissUnit; rect: [number, number, number, number] } | null>(null)
   const missTimer = useRef<number | null>(null)
   const missNote = (m: MissItem) =>
     m.targetNoteId ? analysis.notes.find((n) => n.noteId === m.targetNoteId) ?? null : null
-  const missEnter = (m: MissItem) => {
+  const missEnter = (unit: MissUnit) => {
     if (missTimer.current) window.clearTimeout(missTimer.current)
-    const rect = toCssRect(page, scale, m.bbox)
-    missTimer.current = window.setTimeout(() => setMissHover({ miss: m, rect }), HOVER_DELAY_MS)
+    const rect = toCssRect(page, scale, unit.bbox)
+    missTimer.current = window.setTimeout(() => setMissHover({ unit, rect }), HOVER_DELAY_MS)
   }
   const missLeave = () => {
     if (missTimer.current) window.clearTimeout(missTimer.current)
@@ -132,7 +139,7 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
     const left = Math.min(Math.max(rx0 - 24, 8), Math.max(8, dims.w - w - 8))
     tipStyle = { top, left, width: w }
   }
-  const missHoverNote = missHover ? missNote(missHover.miss) : null
+  const missHoverNote = missHover ? missHover.unit.members.map((m) => missNote(m)).find(Boolean) ?? null : null
 
   const hsClassConf = (conf: number) =>
     'hotspot ' + (conf >= 0.95 ? 'hs-certain' : conf >= 0.7 ? 'hs-probable' : 'hs-unresolved')
@@ -200,21 +207,22 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                 />
               )
             })}
-            {/* 待审补标条目框：紫色虚线（确认后注入为常规热点，此框消失）。
-                hover 显示建议目标浮层，点击跳转建议目标（同引擎热点） */}
-            {misses.filter((m) => m.page === pageNo).map((m) => {
-              const [x0, y0, x1, y1] = toCssRect(page, scale, m.bbox)
+            {/* 待审补标单元框：紫色虚线（同 group 簿记成员聚合为一个框）。
+                hover 显示各成员建议目标浮层，点击跳转首个有目标的成员（同引擎热点） */}
+            {misses.filter((u) => u.page === pageNo).map((u) => {
+              const [x0, y0, x1, y1] = toCssRect(page, scale, u.bbox)
               const pad = Math.max(3, (y1 - y0) * 0.18)   // §5.5 外扩命中，角标太小须保证可 hover
               const w = Math.max(x1 - x0 + pad * 2, 10)
               const h = Math.max(y1 - y0 + pad * 2, 10)
+              const firstNote = u.members.map((m) => missNote(m)).find(Boolean) ?? null
               return (
                 <div
-                  key={m.id}
-                  className={'miss-box' + (highlightMissId === m.id ? ' active note-pulse' : '')}
+                  key={u.key}
+                  className={'miss-box' + (highlightMissId === u.key ? ' active note-pulse' : '')}
                   style={{ left: x0 - (w - (x1 - x0)) / 2, top: y0 - (h - (y1 - y0)) / 2, width: w, height: h }}
-                  onMouseEnter={() => missEnter(m)}
+                  onMouseEnter={() => missEnter(u)}
                   onMouseLeave={missLeave}
-                  onClick={() => { const n = missNote(m); if (n) onJumpNote(n) }}
+                  onClick={() => { if (firstNote) onJumpNote(firstNote) }}
                 />
               )
             })}
@@ -275,7 +283,7 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                 })}
               </div>
             )}
-            {/* 补标 hover 浮层：编号 + 建议目标 + 注释内容 + 跳轉原文 */}
+            {/* 补标 hover 浮层：多成员逐条列出（编号 + 建议目标 + 注释内容 + 跳轉原文） */}
             {missHover && tipStyle && (
               <div
                 className="tooltip"
@@ -283,21 +291,29 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                 onMouseEnter={() => { if (missTimer.current) window.clearTimeout(missTimer.current) }}
                 onMouseLeave={missLeave}
               >
-                <div className="tip-head">
-                  <span className="tip-num">{missHover.miss.number ?? '?'}</span>
-                  <span className="tip-loc">{missHover.miss.targetDisplay ?? '未找到匹配條目'}</span>
-                  <span className="badge badge-pending">補標</span>
-                </div>
-                <div className="tip-body">
-                  {missHoverNote
-                    ? missHoverNote.text
-                    : '未能在文檔中找到此編號的註釋條目，可導出 AI 任務處理。'}
-                </div>
-                {missHoverNote && (
-                  <div className="tip-foot">
-                    <button onClick={() => onJumpNote(missHoverNote)}>跳轉原文</button>
-                  </div>
+                {missHover.unit.members.length > 1 && (
+                  <div className="tip-multi">此處補標 {missHover.unit.members.length} 條註釋</div>
                 )}
+                {missHover.unit.members.map((m) => {
+                  const note = missNote(m)
+                  return (
+                    <div className="tip-item" key={m.id}>
+                      <div className="tip-head">
+                        <span className="tip-num">{m.number ?? '?'}</span>
+                        <span className="tip-loc">{m.targetDisplay ?? '未找到匹配條目'}</span>
+                        <span className="badge badge-pending">補標</span>
+                      </div>
+                      <div className="tip-body">
+                        {note ? note.text : '未能在文檔中找到此編號的註釋條目，可導出 AI 任務處理。'}
+                      </div>
+                      {note && (
+                        <div className="tip-foot">
+                          <button onClick={() => onJumpNote(note)}>跳轉原文</button>
+                        </div>
+                      )}
+                    </div>
+                  )
+                })}
               </div>
             )}
           </div>

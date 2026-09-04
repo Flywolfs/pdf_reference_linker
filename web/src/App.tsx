@@ -86,17 +86,21 @@ export default function App() {
     await refreshAnalysis(selected.doc.docId)
   }
 
-  // 补标框选回调（PageView 拖框 → PDF pt bbox）
+  // 补标框选回调（PageView 拖框 → PDF pt bbox）；多符號簇一次生成整組條目
   const handleMissBoxed = async (pageNo: number, bboxPdf: number[]) => {
     if (!selected) return
     try {
       const r = await api.miss(selected.doc.docId, pageNo, bboxPdf)
-      const e = r.entry
-      const desc = e.number
-        ? `識別到角標「${e.number}」${e.targetDisplay ? `→ ${e.targetDisplay}` : '，未找到匹配條目'}`
-        : '未識別到角標編號（可框得更精確一些）'
-      const rep = r.replaced ? '\n（同位置已有補標，已更新原條目）' : ''
-      alert(`補標完成：${desc}${rep}\n狀態：${e.status === 'ai_proposed' ? '待複審（見右欄底部）' : '待 AI 處理（可導出任務文件）'}`)
+      if (!r.created.length) {
+        alert('未識別到角標編號（可框得更精確一些）')
+        return
+      }
+      const nums = r.created.map((c) => c.entry.number).filter(Boolean).join('、')
+      const nProp = r.created.filter((c) => c.entry.status === 'ai_proposed').length
+      const nPend = r.created.length - nProp
+      const rep = r.created.some((c) => c.replaced) ? '\n（同位置舊補標已更新）' : ''
+      alert(`補標完成：識別到 ${r.created.length} 個角標${nums ? `「${nums}」` : ''}${rep}\n` +
+        `狀態：${nProp} 條待複審、${nPend} 條待AI處理（見右欄底部）`)
       await reloadAnnos(selected.doc.docId)
     } catch (e) {
       alert(`補標失敗：${e}`)
@@ -149,19 +153,40 @@ export default function App() {
   const verdictEntries = annos ? Object.entries(annos.entries).filter(([, e]) => e.kind === 'verdict') : []
   const missEntries = annos ? Object.entries(annos.entries).filter(([, e]) => e.kind === 'miss') : []
   const pendingAi = annos ? Object.values(annos.entries).filter((e) => e.status === 'pending_ai').length : 0
-  // 待审补标 → 阅读器虚线框（确认后由 apply_manual 注入为常规热点，此处框消失）
-  const missBoxes = annos
-    ? Object.entries(annos.entries)
-        .filter(([, e]) => e.kind === 'miss' && (e.status === 'ai_proposed' || e.status === 'pending_ai'))
-        .map(([id, e]) => ({
-          id,
-          page: e.page ?? 0,
-          bbox: e.spanBbox ?? e.bbox ?? [0, 0, 0, 0],
-          number: e.number ?? null,
-          targetDisplay: e.targetDisplay ?? null,
-          targetNoteId: e.rebindTo ?? (e.targets ?? [])[0] ?? null,
-        }))
-    : []
+  // 待审补标 → 阅读器虚线框单元：同 group 成员（多符號簇一次框选生成）聚合为
+  // 一个框 + 多成员浮层；确认后由 apply_manual 注入为常规热点，此处框消失
+  const missUnits = useMemo(() => {
+    if (!annos) return []
+    const raw = Object.entries(annos.entries)
+      .filter(([, e]) => e.kind === 'miss' && (e.status === 'ai_proposed' || e.status === 'pending_ai'))
+      .map(([id, e]) => ({
+        id,
+        page: e.page ?? 0,
+        bbox: e.spanBbox ?? e.bbox ?? [0, 0, 0, 0],
+        number: e.number ?? null,
+        targetDisplay: e.targetDisplay ?? null,
+        targetNoteId: e.rebindTo ?? (e.targets ?? [])[0] ?? null,
+        group: e.group ?? null,
+      }))
+    const units = new Map<string, typeof raw>()
+    for (const m of raw) {
+      const key = m.group ?? m.id
+      const arr = units.get(key)
+      if (arr) arr.push(m)
+      else units.set(key, [m])
+    }
+    return [...units.values()].map((members) => ({
+      key: members[0].group ?? members[0].id,
+      page: members[0].page,
+      bbox: [
+        Math.min(...members.map((m) => m.bbox[0])),
+        Math.min(...members.map((m) => m.bbox[1])),
+        Math.max(...members.map((m) => m.bbox[2])),
+        Math.max(...members.map((m) => m.bbox[3])),
+      ],
+      members,
+    }))
+  }, [annos])
 
   // 分栏拖拽：window 级监听避免移出分隔条丢事件；双击复原图用 §8.1 默认宽度
   const startDrag = (e: React.MouseEvent, which: 'doc' | 'ref') => {
@@ -232,7 +257,7 @@ export default function App() {
           missMode={missMode}
           onMissBoxed={handleMissBoxed}
           jumpHotspotReq={jumpHotspotReq}
-          misses={missBoxes}
+          misses={missUnits}
           jumpMissReq={jumpMissReq}
         />
       ) : (
@@ -348,7 +373,7 @@ export default function App() {
                     key={id}
                     className="ref-item miss-item"
                     title="點擊跳轉到補標位置；hover 框上浮層可預覽建議目標"
-                    onClick={() => setJumpMissReq({ id, page: e.page ?? 0, bbox: e.spanBbox ?? e.bbox ?? [0, 0, 0, 0] })}
+                    onClick={() => setJumpMissReq({ id: e.group ?? id, page: e.page ?? 0, bbox: e.spanBbox ?? e.bbox ?? [0, 0, 0, 0] })}
                   >
                     <span className="ref-page">P{(e.page ?? 0) + 1}</span>
                     <span className="ref-ctx">補標 {e.number ?? '?'}</span>

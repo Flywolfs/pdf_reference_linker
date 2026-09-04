@@ -129,9 +129,9 @@ def annotate_miss(body: MissBody):
     if not analysis:
         analysis = analyze_pdf(path, body.docId, DEFAULT_CONFIG).model_dump()
         cache.save_analysis(body.docId, analysis)
-    proposal = annotations.identify_miss(path, body.page, body.bbox, analysis, DEFAULT_CONFIG)
-    entry_id, entry, replaced = annotations.add_miss(body.docId, body.page, body.bbox, proposal)
-    return {"entryId": entry_id, "entry": entry, "replaced": replaced}
+    proposals = annotations.identify_miss(path, body.page, body.bbox, analysis, DEFAULT_CONFIG)
+    created = annotations.add_miss(body.docId, body.page, body.bbox, proposals)
+    return {"created": created}
 
 
 @app.delete("/api/annotate/miss/{doc_id}/{entry_id}")
