@@ -102,6 +102,9 @@ export const api = {
       body: JSON.stringify({ docId, page, bbox }),
     }).then(json<{ entryId: string; entry: AnnoEntry; replaced: boolean }>),
 
+  deleteMiss: (docId: string, entryId: string) =>
+    fetch(`/api/annotate/miss/${docId}/${entryId}`, { method: 'DELETE' }).then(json<{ ok: boolean }>),
+
   review: (docId: string, entryId: string, accept: boolean, rebindTo?: string) =>
     fetch('/api/annotate/review', {
       method: 'POST',

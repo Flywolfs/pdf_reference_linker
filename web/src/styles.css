@@ -110,6 +110,19 @@ body.resizing canvas { pointer-events: none; }
   50% { box-shadow: 0 0 0 3px rgba(66, 133, 244, .35); background: rgba(66, 133, 244, .12); }
 }
 
+/* 待审补标条目框：紫色虚线（区别于角标黄系与注释蓝系）；
+   可 hover 预览建议目标、点击跳转（同引擎热点交互） */
+.miss-box {
+  position: absolute; cursor: pointer; border-radius: 4px;
+  background: rgba(143, 99, 236, .14);
+  outline: 1.5px dashed rgba(143, 99, 236, .65);
+}
+.miss-box:hover { background: rgba(143, 99, 236, .28); outline-color: rgba(120, 70, 220, .9); }
+.miss-box.active {
+  background: rgba(66, 133, 244, .12);
+  outline: 2px solid rgba(66, 133, 244, .6);
+}
+
 /* ---- tooltip ---- */
 .tooltip {
   position: absolute; z-index: 30;

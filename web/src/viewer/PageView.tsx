@@ -12,6 +12,8 @@ interface Props {
   analysis: Analysis
   highlightNoteId: string | null
   highlightHotspotId: string | null   // 右栏点击跳转后的角标持续高亮
+  misses: { id: string; page: number; bbox: number[]; number: string | null; targetDisplay: string | null; targetNoteId: string | null }[]  // 待审补标条目（本页过滤后渲染）
+  highlightMissId: string | null      // 右栏补标点击跳转后的持续高亮
   onJumpNote: (note: Note) => void
   registerRendered: (pageNo: number, height: number) => void
   missMode: boolean                  // 補標模式：拖框选漏检角标
@@ -23,7 +25,16 @@ interface HoverState {
   rect: [number, number, number, number]
 }
 
-export default function PageView({ page, pageNo, scale, analysis, highlightNoteId, highlightHotspotId, onJumpNote, registerRendered, missMode, onMissBoxed }: Props) {
+interface MissItem {               // 待审补标条目（右栏 annos 投影）
+  id: string
+  page: number
+  bbox: number[]
+  number: string | null
+  targetDisplay: string | null
+  targetNoteId: string | null
+}
+
+export default function PageView({ page, pageNo, scale, analysis, highlightNoteId, highlightHotspotId, misses, highlightMissId, onJumpNote, registerRendered, missMode, onMissBoxed }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const hostRef = useRef<HTMLDivElement>(null)
   const hoverTimer = useRef<number | null>(null)
@@ -93,17 +104,35 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
     hoverTimer.current = window.setTimeout(() => setHover(null), 60)
   }
 
+  // 补标框 hover：与引擎热点同款浮层（编号 + 建议目标 + 注释内容 + 跳轉原文）
+  const [missHover, setMissHover] = useState<{ miss: MissItem; rect: [number, number, number, number] } | null>(null)
+  const missTimer = useRef<number | null>(null)
+  const missNote = (m: MissItem) =>
+    m.targetNoteId ? analysis.notes.find((n) => n.noteId === m.targetNoteId) ?? null : null
+  const missEnter = (m: MissItem) => {
+    if (missTimer.current) window.clearTimeout(missTimer.current)
+    const rect = toCssRect(page, scale, m.bbox)
+    missTimer.current = window.setTimeout(() => setMissHover({ miss: m, rect }), HOVER_DELAY_MS)
+  }
+  const missLeave = () => {
+    if (missTimer.current) window.clearTimeout(missTimer.current)
+    missTimer.current = window.setTimeout(() => setMissHover(null), 60)
+  }
+
   // tooltip 定位（§8.2：下方优先，空间不足上翻，水平 clamp）；高度按条目数估算
+  const activeRect = hover?.rect ?? missHover?.rect ?? null
+  const tipItems = hover ? hover.items.length : missHover ? 1 : 0
   let tipStyle: React.CSSProperties | null = null
-  if (hover && dims) {
-    const [rx0, ry0, rx1, ry1] = hover.rect
+  if (activeRect && dims) {
+    const [rx0, ry0, rx1, ry1] = activeRect
     const w = Math.min(TOOLTIP_W, Math.max(280, dims.w - 16))
-    const estH = Math.min(120 + 110 * hover.items.length, dims.h * 0.6)
+    const estH = Math.min(120 + 110 * tipItems, dims.h * 0.6)
     let top = ry1 + 8
     if (top + estH > dims.h - 8) top = Math.max(8, ry0 - 8 - estH)
     const left = Math.min(Math.max(rx0 - 24, 8), Math.max(8, dims.w - w - 8))
     tipStyle = { top, left, width: w }
   }
+  const missHoverNote = missHover ? missNote(missHover.miss) : null
 
   const hsClassConf = (conf: number) =>
     'hotspot ' + (conf >= 0.95 ? 'hs-certain' : conf >= 0.7 ? 'hs-probable' : 'hs-unresolved')
@@ -171,6 +200,24 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                 />
               )
             })}
+            {/* 待审补标条目框：紫色虚线（确认后注入为常规热点，此框消失）。
+                hover 显示建议目标浮层，点击跳转建议目标（同引擎热点） */}
+            {misses.filter((m) => m.page === pageNo).map((m) => {
+              const [x0, y0, x1, y1] = toCssRect(page, scale, m.bbox)
+              const pad = Math.max(3, (y1 - y0) * 0.18)   // §5.5 外扩命中，角标太小须保证可 hover
+              const w = Math.max(x1 - x0 + pad * 2, 10)
+              const h = Math.max(y1 - y0 + pad * 2, 10)
+              return (
+                <div
+                  key={m.id}
+                  className={'miss-box' + (highlightMissId === m.id ? ' active note-pulse' : '')}
+                  style={{ left: x0 - (w - (x1 - x0)) / 2, top: y0 - (h - (y1 - y0)) / 2, width: w, height: h }}
+                  onMouseEnter={() => missEnter(m)}
+                  onMouseLeave={missLeave}
+                  onClick={() => { const n = missNote(m); if (n) onJumpNote(n) }}
+                />
+              )
+            })}
             {/* 角标命中区（§5.5 外扩命中；同 group 多编号聚合为一个命中区） */}
             {hsGroups.map((items) => {
               const [x0, y0, x1, y1] = toCssRect(page, scale, items[0].bbox)
@@ -226,6 +273,31 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                     </div>
                   )
                 })}
+              </div>
+            )}
+            {/* 补标 hover 浮层：编号 + 建议目标 + 注释内容 + 跳轉原文 */}
+            {missHover && tipStyle && (
+              <div
+                className="tooltip"
+                style={tipStyle}
+                onMouseEnter={() => { if (missTimer.current) window.clearTimeout(missTimer.current) }}
+                onMouseLeave={missLeave}
+              >
+                <div className="tip-head">
+                  <span className="tip-num">{missHover.miss.number ?? '?'}</span>
+                  <span className="tip-loc">{missHover.miss.targetDisplay ?? '未找到匹配條目'}</span>
+                  <span className="badge badge-pending">補標</span>
+                </div>
+                <div className="tip-body">
+                  {missHoverNote
+                    ? missHoverNote.text
+                    : '未能在文檔中找到此編號的註釋條目，可導出 AI 任務處理。'}
+                </div>
+                {missHoverNote && (
+                  <div className="tip-foot">
+                    <button onClick={() => onJumpNote(missHoverNote)}>跳轉原文</button>
+                  </div>
+                )}
               </div>
             )}
           </div>

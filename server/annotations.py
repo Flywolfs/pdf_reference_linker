@@ -146,6 +146,16 @@ def add_miss(doc_id: str, page: int, bbox: list[float],
     return entry_id, entry, False
 
 
+def delete_entry(doc_id: str, entry_id: str) -> bool:
+    """刪除标注条目（取消補標：误框/重报后不想要了，记录彻底移除）。"""
+    data = load_annotations(doc_id)
+    if entry_id not in data.get("entries", {}):
+        return False
+    del data["entries"][entry_id]
+    save_annotations(doc_id, data)
+    return True
+
+
 def review(doc_id: str, entry_id: str, accept: bool, rebind_to: str | None = None) -> dict | None:
     """复审 ai_proposed：accept → confirmed；reject → rejected。"""
     data = load_annotations(doc_id)

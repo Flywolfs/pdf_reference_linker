@@ -134,6 +134,15 @@ def annotate_miss(body: MissBody):
     return {"entryId": entry_id, "entry": entry, "replaced": replaced}
 
 
+@app.delete("/api/annotate/miss/{doc_id}/{entry_id}")
+def delete_miss(doc_id: str, entry_id: str):
+    """取消補標：删除该标注条目（含已确认的，同步移除注入的手工热点）。"""
+    _resolve(doc_id)
+    if not annotations.delete_entry(doc_id, entry_id):
+        raise HTTPException(404, detail="entry not found")
+    return {"ok": True}
+
+
 class ReviewBody(BaseModel):
     docId: str
     entryId: str

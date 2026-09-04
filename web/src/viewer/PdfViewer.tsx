@@ -4,27 +4,40 @@ import { api } from '../api'
 import { getDocument, toCssPoint, type PDFDocumentProxy, type PDFPageProxy } from '../pdfjs'
 import PageView from './PageView'
 
+interface MissBox {
+  id: string
+  page: number
+  bbox: number[]
+  number: string | null           // 识别出的角标编号
+  targetDisplay: string | null    // 建议目标展示（如 'P10 · 備註 1'）
+  targetNoteId: string | null     // 建议目标 noteId（top1），供浮层取文本/跳转
+}
+
 interface Props {
   docId: string
   analysis: Analysis
   missMode: boolean
   onMissBoxed: (pageNo: number, bboxPdf: number[]) => void
   jumpHotspotReq: { id: string } | null   // 右栏点击 → 跳转并高亮对应角标
+  misses: MissBox[]                       // 待审补标条目 → 阅读器虚线框
+  jumpMissReq: { id: string; page: number; bbox: number[] } | null  // 右栏补标点击 → 跳补标位置
 }
 
-export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jumpHotspotReq }: Props) {
+export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jumpHotspotReq, misses, jumpMissReq }: Props) {
   const scrollRef = useRef<HTMLDivElement>(null)
   const [pdf, setPdf] = useState<any>(null)
   const [pages, setPages] = useState<PDFPageProxy[]>([])
   const [scale, setScale] = useState(1.3)
   const [highlightNoteId, setHighlightNoteId] = useState<string | null>(null)
   const [highlightHotspotId, setHighlightHotspotId] = useState<string | null>(null)
+  const [highlightMissId, setHighlightMissId] = useState<string | null>(null)
   const fitDone = useRef(false)
 
   // 加载 PDF 文档与全部 page 对象（用于尺寸计算与坐标换算）
   useEffect(() => {
     let doc: any = null
     setHighlightNoteId(null)
+    setHighlightMissId(null)
     // cMap/standardFont 必备：Type0/CID 字体（如 AIA ETen-B5-H 中文）渲染需要
     getDocument({
       url: api.pdfUrl(docId),
@@ -94,6 +107,25 @@ export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jump
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [jumpHotspotReq])
 
+  /** 右栏补标条目点击：跳转到补标位置并持续高亮虚线框 */
+  const jumpToMiss = useCallback(
+    (req: { id: string; page: number; bbox: number[] }) => {
+      const container = scrollRef.current
+      const pageEl = container?.querySelector(`[data-page="${req.page}"]`) as HTMLElement | null
+      const pdfPage = pages[req.page]
+      if (!container || !pageEl || !pdfPage) return
+      const [, vy] = toCssPoint(pdfPage, scale, 0, req.bbox[1])
+      container.scrollTo({ top: pageEl.offsetTop + vy - 120, behavior: 'smooth' })
+      setHighlightMissId(req.id)
+    },
+    [pages, scale],
+  )
+
+  useEffect(() => {
+    if (jumpMissReq) jumpToMiss(jumpMissReq)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [jumpMissReq])
+
   return (
     <main className="viewer-pane">
       <div className="toolbar">
@@ -116,6 +148,8 @@ export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jump
             analysis={analysis}
             highlightNoteId={highlightNoteId}
             highlightHotspotId={highlightHotspotId}
+            misses={misses}
+            highlightMissId={highlightMissId}
             onJumpNote={jumpToNote}
             registerRendered={registerRendered}
             missMode={missMode}

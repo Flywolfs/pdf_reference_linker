@@ -18,6 +18,9 @@ export default function App() {
   const [refPaneW, setRefPaneW] = useState(REF_PANE_DEFAULT)
   // 右栏点击 → 阅读器跳转到对应角标并持续高亮（对象引用变化即触发）
   const [jumpHotspotReq, setJumpHotspotReq] = useState<{ id: string } | null>(null)
+  // 右栏补标条目点击 → 跳到补标位置（待审条目尚非热点，直接带 page/bbox；
+  // 建议目标内容由补标框 hover 浮层预览，跳转原文与引擎热点同路径）
+  const [jumpMissReq, setJumpMissReq] = useState<{ id: string; page: number; bbox: number[] } | null>(null)
 
   // ---- 人工标注闭环状态 ----
   const [annos, setAnnos] = useState<Annotations | null>(null)
@@ -70,6 +73,15 @@ export default function App() {
   const doReview = async (entryId: string, accept: boolean) => {
     if (!selected) return
     await api.review(selected.doc.docId, entryId, accept)
+    await reloadAnnos(selected.doc.docId)
+    await refreshAnalysis(selected.doc.docId)
+  }
+
+  // 取消補標：删除记录（误框 / 不再需要），已确认的同步移除注入的手工热点
+  const doDeleteMiss = async (entryId: string) => {
+    if (!selected) return
+    if (!window.confirm('取消這條補標？將刪除該記錄。')) return
+    await api.deleteMiss(selected.doc.docId, entryId)
     await reloadAnnos(selected.doc.docId)
     await refreshAnalysis(selected.doc.docId)
   }
@@ -137,6 +149,19 @@ export default function App() {
   const verdictEntries = annos ? Object.entries(annos.entries).filter(([, e]) => e.kind === 'verdict') : []
   const missEntries = annos ? Object.entries(annos.entries).filter(([, e]) => e.kind === 'miss') : []
   const pendingAi = annos ? Object.values(annos.entries).filter((e) => e.status === 'pending_ai').length : 0
+  // 待审补标 → 阅读器虚线框（确认后由 apply_manual 注入为常规热点，此处框消失）
+  const missBoxes = annos
+    ? Object.entries(annos.entries)
+        .filter(([, e]) => e.kind === 'miss' && (e.status === 'ai_proposed' || e.status === 'pending_ai'))
+        .map(([id, e]) => ({
+          id,
+          page: e.page ?? 0,
+          bbox: e.spanBbox ?? e.bbox ?? [0, 0, 0, 0],
+          number: e.number ?? null,
+          targetDisplay: e.targetDisplay ?? null,
+          targetNoteId: e.rebindTo ?? (e.targets ?? [])[0] ?? null,
+        }))
+    : []
 
   // 分栏拖拽：window 级监听避免移出分隔条丢事件；双击复原图用 §8.1 默认宽度
   const startDrag = (e: React.MouseEvent, which: 'doc' | 'ref') => {
@@ -207,6 +232,8 @@ export default function App() {
           missMode={missMode}
           onMissBoxed={handleMissBoxed}
           jumpHotspotReq={jumpHotspotReq}
+          misses={missBoxes}
+          jumpMissReq={jumpMissReq}
         />
       ) : (
         <main className="viewer-pane empty">
@@ -317,20 +344,28 @@ export default function App() {
               <>
                 <div className="miss-sep">補標條目（{missEntries.length}）</div>
                 {missEntries.map(([id, e]) => (
-                  <div key={id} className="ref-item miss-item">
+                  <div
+                    key={id}
+                    className="ref-item miss-item"
+                    title="點擊跳轉到補標位置；hover 框上浮層可預覽建議目標"
+                    onClick={() => setJumpMissReq({ id, page: e.page ?? 0, bbox: e.spanBbox ?? e.bbox ?? [0, 0, 0, 0] })}
+                  >
                     <span className="ref-page">P{(e.page ?? 0) + 1}</span>
                     <span className="ref-ctx">補標 {e.number ?? '?'}</span>
                     <span className="ref-arrow">→</span>
                     <span className="ref-target">{e.targetDisplay ?? e.rebindTo ?? e.targetNoteId ?? '未匹配'}</span>
-                    {e.status === 'ai_proposed' && (
-                      <span className="rev-btns" >
-                        <button title="接受補標" onClick={() => doReview(id, true)}>✓</button>
-                        <button title="拒絕補標" onClick={() => doReview(id, false)}>✗</button>
-                      </span>
-                    )}
-                    {e.status === 'pending_ai' && <span className="badge badge-pending">待AI</span>}
-                    {e.status === 'confirmed' && <span className="rev-done">✓已生效</span>}
-                    {e.status === 'rejected' && <span className="rev-done">已拒絕</span>}
+                    <span className="rev-btns" onClick={(ev) => ev.stopPropagation()}>
+                      {e.status === 'ai_proposed' && (
+                        <>
+                          <button title="接受補標" onClick={() => doReview(id, true)}>✓</button>
+                          <button title="拒絕補標" onClick={() => doReview(id, false)}>✗</button>
+                        </>
+                      )}
+                      {e.status === 'pending_ai' && <span className="badge badge-pending">待AI</span>}
+                      {e.status === 'confirmed' && <span className="rev-done">✓已生效</span>}
+                      {e.status === 'rejected' && <span className="rev-done">已拒絕</span>}
+                      <button title="取消此補標（刪除記錄）" onClick={() => doDeleteMiss(id)}>✕</button>
+                    </span>
                   </div>
                 ))}
               </>
