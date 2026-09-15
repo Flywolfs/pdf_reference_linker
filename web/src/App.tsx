@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Analysis, Annotations, DocInfo, Hotspot } from './api'
 import { api } from './api'
 import PdfViewer from './viewer/PdfViewer'
@@ -21,6 +21,20 @@ export default function App() {
   // 右栏补标条目点击 → 跳到补标位置（待审条目尚非热点，直接带 page/bbox；
   // 建议目标内容由补标框 hover 浮层预览，跳转原文与引擎热点同路径）
   const [jumpMissReq, setJumpMissReq] = useState<{ id: string; page: number; bbox: number[] } | null>(null)
+
+  // PDF 内点击框 → 右栏列表滚动定位到对应条目并闪烁提示（双向定位）
+  const refListRef = useRef<HTMLDivElement>(null)
+  const [locatedId, setLocatedId] = useState<string | null>(null)
+  const locateRef = (id: string) => {
+    const scroller = refListRef.current
+    const el = scroller?.querySelector(`[data-ref-id="${id}"]`) as HTMLElement | null
+    if (!scroller || !el) return
+    const er = el.getBoundingClientRect()
+    const sr = scroller.getBoundingClientRect()
+    scroller.scrollTo({ top: scroller.scrollTop + er.top - sr.top - scroller.clientHeight / 2 + er.height / 2, behavior: 'smooth' })
+    setLocatedId(id)
+    window.setTimeout(() => setLocatedId((cur) => (cur === id ? null : cur)), 2200)
+  }
 
   // ---- 人工标注闭环状态 ----
   const [annos, setAnnos] = useState<Annotations | null>(null)
@@ -259,6 +273,7 @@ export default function App() {
           jumpHotspotReq={jumpHotspotReq}
           misses={missUnits}
           jumpMissReq={jumpMissReq}
+          onLocateRef={locateRef}
         />
       ) : (
         <main className="viewer-pane empty">
@@ -317,14 +332,15 @@ export default function App() {
               <button onClick={doImport}>導入結果</button>
             </div>
           )}
-          <div className="ref-scroll">
+          <div className="ref-scroll" ref={refListRef}>
             {hotspots.map((h) => {
               const v = annos?.entries[h.id]
               const reviewed = v?.kind === 'verdict' && v.status === 'confirmed' && v.correct
               return (
                 <div key={h.id}>
                   <div
-                    className={'ref-item' + (h.targets.length ? '' : ' unresolved')}
+                    data-ref-id={h.id}
+                    className={'ref-item' + (h.targets.length ? '' : ' unresolved') + (locatedId === h.id ? ' locate-flash' : '')}
                     title={h.targetDisplay ?? ''}
                     onClick={() => setJumpHotspotReq({ id: h.id })}
                   >
@@ -371,7 +387,8 @@ export default function App() {
                 {missEntries.map(([id, e]) => (
                   <div
                     key={id}
-                    className="ref-item miss-item"
+                    data-ref-id={id}
+                    className={'ref-item miss-item' + (locatedId === id ? ' locate-flash' : '')}
                     title="點擊跳轉到補標位置；hover 框上浮層可預覽建議目標"
                     onClick={() => setJumpMissReq({ id: e.group ?? id, page: e.page ?? 0, bbox: e.spanBbox ?? e.bbox ?? [0, 0, 0, 0] })}
                   >

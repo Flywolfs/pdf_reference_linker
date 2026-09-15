@@ -28,9 +28,10 @@ interface Props {
   jumpHotspotReq: { id: string } | null   // 右栏点击 → 跳转并高亮对应角标
   misses: MissUnit[]                      // 待审补标单元 → 阅读器虚线框
   jumpMissReq: { id: string; page: number; bbox: number[] } | null  // 右栏补标点击 → 跳补标位置
+  onLocateRef: (id: string) => void       // PDF 内点击框 → 右栏列表定位到对应条目
 }
 
-export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jumpHotspotReq, misses, jumpMissReq }: Props) {
+export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jumpHotspotReq, misses, jumpMissReq, onLocateRef }: Props) {
   const scrollRef = useRef<HTMLDivElement>(null)
   const [pdf, setPdf] = useState<any>(null)
   const [pages, setPages] = useState<PDFPageProxy[]>([])
@@ -39,6 +40,22 @@ export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jump
   const [highlightHotspotId, setHighlightHotspotId] = useState<string | null>(null)
   const [highlightMissId, setHighlightMissId] = useState<string | null>(null)
   const fitDone = useRef(false)
+  const [pageInput, setPageInput] = useState('')   // 工具栏页码跳转输入
+
+  /** 工具栏页码跳转：输入 1-based 页码回车 → 平滑滚动到该页顶部 */
+  const gotoPage = (raw: string) => {
+    const n = parseInt(raw, 10)
+    if (!Number.isFinite(n)) return
+    const container = scrollRef.current
+    if (!container || !pages.length) return
+    const idx = Math.min(Math.max(1, n), pages.length) - 1
+    const pageEl = container.querySelector(`[data-page="${idx}"]`) as HTMLElement | null
+    const firstEl = container.querySelector('[data-page="0"]') as HTMLElement | null
+    if (!pageEl || !firstEl) return
+    // 同一 offsetParent 下 offsetTop 差值即内容坐标（与 offsetParent 是谁无关）；
+    // +18 为 .scroll 顶部 padding，使页顶精确落在视口顶端
+    container.scrollTo({ top: pageEl.offsetTop - firstEl.offsetTop + 18, behavior: 'smooth' })
+  }
 
   // 加载 PDF 文档与全部 page 对象（用于尺寸计算与坐标换算）
   useEffect(() => {
@@ -139,6 +156,19 @@ export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jump
         <button onClick={() => setScale((s) => Math.max(0.5, s - 0.15))}>－</button>
         <span className="zoom">{Math.round(scale * 100)}%</span>
         <button onClick={() => setScale((s) => Math.min(3, s + 0.15))}>＋</button>
+        <span className="page-jump">
+          <input
+            className="page-input"
+            value={pageInput}
+            placeholder="頁碼"
+            title="輸入頁碼後按 Enter 跳轉"
+            onChange={(e) => setPageInput(e.target.value.replace(/\D/g, '').slice(0, 3))}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') { gotoPage(pageInput); setPageInput('') }
+            }}
+          />
+          <span className="page-total">/ {pages.length || '…'}</span>
+        </span>
         <span className="meta">
           {analysis.meta.title} · {analysis.meta.pages} 頁 · 角標 {analysis.hotspots.length} · 註釋 {analysis.notes.length}
           {analysis.stats.resolved != null && ` · 已鏈接 ${analysis.stats.resolved}`}
@@ -161,6 +191,7 @@ export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jump
             registerRendered={registerRendered}
             missMode={missMode}
             onMissBoxed={onMissBoxed}
+            onLocateRef={onLocateRef}
           />
         ))}
       </div>

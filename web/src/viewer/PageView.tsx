@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Analysis, Hotspot, Note } from '../api'
-import { renderPage, toCssRect, type PDFPageProxy } from '../pdfjs'
+import { renderPage, toCssRect, TextLayer, type PDFPageProxy } from '../pdfjs'
 
 const HOVER_DELAY_MS = 120          // §8.2 hover 防抖
 const TOOLTIP_W = 440
@@ -18,6 +18,7 @@ interface Props {
   registerRendered: (pageNo: number, height: number) => void
   missMode: boolean                  // 補標模式：拖框选漏检角标
   onMissBoxed: (pageNo: number, bboxPdf: number[]) => void
+  onLocateRef: (id: string) => void  // 点击 PDF 框 → 右栏列表定位到对应条目
 }
 
 interface HoverState {
@@ -40,15 +41,36 @@ interface MissUnit {               // 渲染单元：同 group 成员聚合为�
   members: MissItem[]
 }
 
-export default function PageView({ page, pageNo, scale, analysis, highlightNoteId, highlightHotspotId, misses, highlightMissId, onJumpNote, registerRendered, missMode, onMissBoxed }: Props) {
+export default function PageView({ page, pageNo, scale, analysis, highlightNoteId, highlightHotspotId, misses, highlightMissId, onJumpNote, registerRendered, missMode, onMissBoxed, onLocateRef }: Props) {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const hostRef = useRef<HTMLDivElement>(null)
+  const textRef = useRef<HTMLDivElement>(null)   // pdf.js 文本层（可选中/复制）
   const hoverTimer = useRef<number | null>(null)
   const [hover, setHover] = useState<HoverState | null>(null)
   const [dims, setDims] = useState<{ w: number; h: number } | null>(null)
+  // 视口尺寸同步可得：canvas 懒渲染前先按真实尺寸预留占位，
+  // 否则未渲染页高度塌陷，深层页码/注释跳转的 offsetTop 全错
+  const vpSize = useMemo(() => {
+    const v = page.getViewport({ scale })
+    return { w: v.width, h: v.height }
+  }, [page, scale])
 
   const hotspots = analysis.hotspots.filter((h) => h.page === pageNo)
   const notes = analysis.notes.filter((n) => n.page === pageNo && n.anchor !== 'inline')
+
+  // pdf.js 文本层：与 canvas 同视口重建，使页面文字可选中/复制。
+  // 置于 canvas 之上、引用层之下；引用层 pointer-events:none 放行选区
+  useEffect(() => {
+    const el = textRef.current
+    if (!dims || !el) return
+    el.replaceChildren()
+    const vp = page.getViewport({ scale })
+    el.style.setProperty('--scale-factor', String(vp.scale))
+    const tl = new TextLayer({ textContentSource: page.streamTextContent(), container: el, viewport: vp })
+    tl.render().catch(() => {})
+    return () => { el.replaceChildren() }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [page, scale, dims !== null])
 
   // 同一多编号角标（如 '2,3' 共享 group）聚合为单一命中区，tooltip 列出全部引用
   const hsGroups = useMemo(() => {
@@ -144,6 +166,18 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
   const hsClassConf = (conf: number) =>
     'hotspot ' + (conf >= 0.95 ? 'hs-certain' : conf >= 0.7 ? 'hs-probable' : 'hs-unresolved')
 
+  // 跳转聚光：高亮变更后 3s 内压暗其余框 + 高亮框脉冲扩散，解决页面框多难定位
+  const [spotlight, setSpotlight] = useState(false)
+  useEffect(() => {
+    if (highlightHotspotId == null && highlightNoteId == null && highlightMissId == null) {
+      setSpotlight(false)
+      return
+    }
+    setSpotlight(true)
+    const t = window.setTimeout(() => setSpotlight(false), 3000)
+    return () => window.clearTimeout(t)
+  }, [highlightHotspotId, highlightNoteId, highlightMissId])
+
   // ---- 補標框选（missMode）----
   const [dragRect, setDragRect] = useState<{ x0: number; y0: number; x1: number; y1: number } | null>(null)
   const dragStart = useRef<{ x: number; y: number } | null>(null)
@@ -176,11 +210,12 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
 
   return (
     <div className="page-host" data-page={pageNo} ref={hostRef}>
-      <div className="page-canvas" style={dims ? { width: dims.w, height: dims.h } : undefined}>
+      <div className="page-canvas" style={{ width: vpSize.w, height: vpSize.h }}>
         <canvas ref={canvasRef} />
+        <div className="textLayer" ref={textRef} />
         {dims && (
           <div
-            className={'ref-layer' + (missMode ? ' miss-mode' : '')}
+              className={'ref-layer' + (missMode ? ' miss-mode' : '') + (spotlight ? ' spotlight' : '')}
             onMouseDown={missMode ? missDown : undefined}
             onMouseMove={missMode ? missMove : undefined}
             onMouseUp={missMode ? missUp : undefined}
@@ -214,7 +249,7 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
               const pad = Math.max(3, (y1 - y0) * 0.18)   // §5.5 外扩命中，角标太小须保证可 hover
               const w = Math.max(x1 - x0 + pad * 2, 10)
               const h = Math.max(y1 - y0 + pad * 2, 10)
-              const firstNote = u.members.map((m) => missNote(m)).find(Boolean) ?? null
+              const firstNoteM = u.members.find((m) => missNote(m)) ?? null
               return (
                 <div
                   key={u.key}
@@ -222,7 +257,12 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                   style={{ left: x0 - (w - (x1 - x0)) / 2, top: y0 - (h - (y1 - y0)) / 2, width: w, height: h }}
                   onMouseEnter={() => missEnter(u)}
                   onMouseLeave={missLeave}
-                  onClick={() => { if (firstNote) onJumpNote(firstNote) }}
+                  onClick={() => {
+                    if (firstNoteM) {
+                      onJumpNote(missNote(firstNoteM)!)
+                      onLocateRef(firstNoteM.id)   // 右栏列表同步定位
+                    }
+                  }}
                 />
               )
             })}
@@ -248,6 +288,7 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                       .map((s) => analysis.notes.find((n) => n.noteId === s.targets[0]))
                       .find(Boolean)
                     if (note) onJumpNote(note)
+                    onLocateRef(items[0].id)   // 右栏列表同步定位
                   }}
                 />
               )
@@ -275,7 +316,7 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                       </div>
                       {note && (
                         <div className="tip-foot">
-                          <button onClick={() => onJumpNote(note)}>跳轉原文</button>
+                          <button onClick={() => { onJumpNote(note); onLocateRef(hs.id) }}>跳轉原文</button>
                         </div>
                       )}
                     </div>
@@ -308,7 +349,7 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                       </div>
                       {note && (
                         <div className="tip-foot">
-                          <button onClick={() => onJumpNote(note)}>跳轉原文</button>
+                          <button onClick={() => { onJumpNote(note); onLocateRef(m.id) }}>跳轉原文</button>
                         </div>
                       )}
                     </div>

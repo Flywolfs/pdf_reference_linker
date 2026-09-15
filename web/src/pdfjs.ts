@@ -6,6 +6,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = workerUrl
 export type PDFDocumentProxy = pdfjsLib.PDFDocumentProxy
 export type PDFPageProxy = pdfjsLib.PDFPageProxy
 export const getDocument = pdfjsLib.getDocument
+export const TextLayer = pdfjsLib.TextLayer   // v4.10：文本层（可选中/复制）
 
 /** 渲染一页到 canvas（含 devicePixelRatio 清晰度处理） */
 export async function renderPage(
