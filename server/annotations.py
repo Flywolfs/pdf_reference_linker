@@ -71,7 +71,7 @@ def verdict(doc_id: str, hotspot_id: str, correct: bool, rebind_to: str | None =
 
 # 補標識別的符號全集：與 notes T4 symbol_item_pat 同集（寬於引擎檢測 STARS——
 # 引擎檢測通道保持保守不動以免黃金快照漂移；人工框選有位置先驗，可放寬）
-MISS_SYMS = set("※*†‡§▲#♣^")
+MISS_SYMS = set("※*†‡§▲#♣^★")
 ROMAN_RE = re.compile(r"x{0,2}(?:ix|iv|v?i{0,3})", re.IGNORECASE)
 
 

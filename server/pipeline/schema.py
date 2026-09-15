@@ -4,7 +4,7 @@ from typing import Optional
 
 from pydantic import BaseModel, Field
 
-ANALYSIS_VERSION = "1.5"   # 1.5: T1 同栏正文大字号标题终止（修注释条目吞后续整节 bbox 横跨大半页）  # schema 变更时 bump，缓存自动失效
+ANALYSIS_VERSION = "1.6"   # 1.6: T4 符號集增 ★（拆出獨立 ★ 條目，頁內編號順延）  # schema 变更时 bump，缓存自动失效
 
 
 class DocMeta(BaseModel):
