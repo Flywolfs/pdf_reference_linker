@@ -48,9 +48,15 @@ def main() -> None:
                 if e.get("status") != "confirmed":
                     continue
                 if e.get("kind") == "verdict":
-                    h = hs.get(eid, {})
+                    # verdict 条目 key 带 'v-' 前缀（annotations.verdict_entry_id），
+                    # 剥离后才为热点 id；对人工补标热点（'m-'）的 verdict 不入金标——
+                    # 非引擎链接记录，且引擎缓存中无该热点
+                    hs_id = eid[2:] if eid.startswith("v-") else eid
+                    if hs_id.startswith("m-"):
+                        continue
+                    h = hs.get(hs_id, {})
                     rec = {
-                        "id": eid, "docId": doc_id,
+                        "id": hs_id, "docId": doc_id,
                         "kind": "link_ok" if e.get("correct") else "link_fix",
                         "page": h.get("page"), "number": h.get("text"),
                         "contextBefore": h.get("contextBefore"),
@@ -61,13 +67,18 @@ def main() -> None:
                         "ts": e.get("ts"),
                     }
                 else:
+                    # miss_add 的 finalTarget 以最终生效目标为准：主列表換綁後的
+                    # verdict 記錄（v-{eid}）rebindTo 優先，其後才是補標接受時
+                    # 鎖定的 rebindTo / 當時建議（接受後又換綁的場景實測存在）
+                    vd = ann["entries"].get(f"v-{eid}") or {}
                     rec = {
                         "id": eid, "docId": doc_id, "kind": "miss_add",
                         "page": e.get("page"), "number": e.get("number"),
                         "contextBefore": None,
                         "anchorBbox": e.get("spanBbox") or e.get("bbox"),
                         "engineTargets": [],
-                        "finalTarget": e.get("rebindTo") or (e.get("targets") or [None])[0],
+                        "finalTarget": vd.get("rebindTo") or e.get("rebindTo")
+                                       or (e.get("targets") or [None])[0],
                         "method": e.get("method"), "ts": e.get("ts"),
                     }
                 w.write(json.dumps(rec, ensure_ascii=False) + "\n")

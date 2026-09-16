@@ -187,6 +187,12 @@ body.resizing canvas { pointer-events: none; }
 .tip-multi { padding: 7px 12px 0; font-size: 11px; font-weight: 700; color: #8a6d1a; }
 .tip-item { border-top: 1px solid #f0e8cf; }
 .tip-item:first-of-type { border-top: none; }
+/* 浮层内引用 ID：同右栏 ref-id 风格，点击复制 */
+.tip-id {
+  flex: none; font-family: ui-monospace, 'SF Mono', Consolas, monospace;
+  font-size: 10px; color: #a8aeb8; cursor: pointer; user-select: none;
+}
+.tip-id:hover { color: #1a73e8; }
 .tip-num {
   flex: none; min-width: 20px; text-align: center;
   background: #f0e2ae; color: #7a5d0d; border-radius: 4px;
@@ -260,6 +266,12 @@ body.resizing canvas { pointer-events: none; }
 .ref-item:hover { background: #f6f8fb; }
 .ref-item.unresolved { opacity: .55; }
 .ref-page { color: #9aa1ab; min-width: 30px; }
+/* 引用 ID（用户反馈定位用）：小号等宽，点击复制 */
+.ref-id {
+  flex: none; font-family: ui-monospace, 'SF Mono', Consolas, monospace;
+  font-size: 10px; color: #a8aeb8; cursor: pointer; user-select: none;
+}
+.ref-id:hover { color: #1a73e8; }
 .ref-ctx {
   flex: 1; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
   color: #3c4048;

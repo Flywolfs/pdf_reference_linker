@@ -34,6 +34,16 @@ def _mtime(path: str) -> float:
     return os.path.getmtime(path)
 
 
+def _composite(doc_id: str, analysis: dict) -> dict:
+    """缓存分析 + 人工数据合成：override 鏈接修正 + 補標熱點注入。
+
+    /api/analyze 與 /api/analysis 必須走同一後處理——否則重開文檔後人工補標
+    框與換綁修正全部失效（僅校對後的 refreshAnalysis 路徑可見，實測 bug）。
+    """
+    return annotations.apply_manual(
+        cache.apply_overrides(analysis, cache.load_overrides(doc_id)), doc_id)
+
+
 # ---------- API ----------
 
 @app.get("/api/documents")
@@ -58,14 +68,14 @@ def analyze(body: AnalyzeBody):
     mtime = _mtime(path)
     cached = cache.load_analysis(doc_id, mtime)
     if cached:
-        return {"docId": doc_id, "cached": True, "analysis": cached}
+        return {"docId": doc_id, "cached": True, "analysis": _composite(doc_id, cached)}
     try:
         analysis = analyze_pdf(path, doc_id, DEFAULT_CONFIG)
     except Exception as e:  # noqa: BLE001 —— 管线异常带阶段信息返回
         raise HTTPException(500, detail=f"pipeline error: {e}") from e
     data = analysis.model_dump()
     cache.save_analysis(doc_id, data)
-    return {"docId": doc_id, "cached": False, "analysis": data}
+    return {"docId": doc_id, "cached": False, "analysis": _composite(doc_id, data)}
 
 
 @app.get("/api/analysis/{doc_id}")
@@ -75,8 +85,7 @@ def get_analysis(doc_id: str):
     if not cached:
         cached = analyze_pdf(path, doc_id, DEFAULT_CONFIG).model_dump()
         cache.save_analysis(doc_id, cached)
-    return annotations.apply_manual(
-        cache.apply_overrides(cached, cache.load_overrides(doc_id)), doc_id)
+    return _composite(doc_id, cached)
 
 
 # ---------- 人工标注闭环（FR-7 扩展） ----------

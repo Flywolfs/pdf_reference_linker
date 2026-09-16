@@ -2,7 +2,8 @@
 """人工标注闭环（FR-7 校对扩展）：verdict/miss 标注 → AI 任务导出/回写 → 复审。
 
 条目状态机（annotations/{docId}.json）：
-  verdict（对已有热点的判定）
+  verdict（对已有热点的判定；key = 'v-{hotspotId}'，与热点/补标记录分 key 存放，
+          避免对人工补标注入热点做判定时覆盖原 miss 记录导致补标失效）
     correct=true                          → confirmed
     correct=false + rebindTo              → confirmed（同时写 override，阅读器即时生效）
     correct=false 且无候选可换            → pending_ai（进入 AI 任务文件）
@@ -34,11 +35,49 @@ def anno_path(doc_id: str):
     return ANNO_DIR / f"{doc_id}.json"
 
 
+def verdict_entry_id(hotspot_id: str) -> str:
+    """verdict 条目的独立 key：'v-{hotspotId}'。
+
+    不与热点/补标记录共用 key：补标注入热点的 id 即其 miss 条目 id（'m-xxx'），
+    若 verdict 直接以热点 id 为 key，会覆盖 miss 记录 → apply_manual 失去
+    confirmed 来源 → 注入热点从阅读器消失（旧版实测 bug）。
+    """
+    return f"v-{hotspot_id}"
+
+
+def _migrate_entries(data: dict) -> bool:
+    """旧格式迁移：verdict 曾以热点 id 为 key，统一改挂 'v-' 前缀。就地修改，返回是否变更。
+
+    注意：历史上若已对补标注入热点（'m-xxx' key）做过判定，原 miss 记录已被
+    覆盖、无法恢复，只能迁移 verdict 记录本身（该补标需重新框选）。
+    """
+    entries = data.get("entries")
+    if not isinstance(entries, dict):
+        return False
+    moved = []
+    for eid, e in entries.items():
+        if eid.startswith("v-"):
+            continue
+        if isinstance(e, dict) and e.get("kind") == "verdict":
+            moved.append(eid)
+    changed = False
+    for eid in moved:
+        new_id = verdict_entry_id(eid)
+        if new_id not in entries:            # 已存在同 key（理论不可能）则保留新记录
+            entries[new_id] = entries[eid]
+        del entries[eid]
+        changed = True
+    return changed
+
+
 def load_annotations(doc_id: str) -> dict:
     p = anno_path(doc_id)
     if p.exists():
         try:
-            return json.loads(p.read_text())
+            data = json.loads(p.read_text())
+            if _migrate_entries(data):
+                save_annotations(doc_id, data)
+            return data
         except json.JSONDecodeError:
             pass
     return {"version": 1, "entries": {}}
@@ -58,14 +97,15 @@ def set_entry(doc_id: str, entry_id: str, entry: dict) -> dict:
 
 
 def verdict(doc_id: str, hotspot_id: str, correct: bool, rebind_to: str | None = None) -> dict:
+    eid = verdict_entry_id(hotspot_id)
     if correct:
-        return set_entry(doc_id, hotspot_id,
+        return set_entry(doc_id, eid,
                          {"kind": "verdict", "correct": True, "status": "confirmed"})
     if rebind_to:
-        return set_entry(doc_id, hotspot_id,
+        return set_entry(doc_id, eid,
                          {"kind": "verdict", "correct": False, "rebindTo": rebind_to,
                           "status": "confirmed"})
-    return set_entry(doc_id, hotspot_id,
+    return set_entry(doc_id, eid,
                      {"kind": "verdict", "correct": False, "status": "pending_ai"})
 
 
@@ -275,7 +315,9 @@ def export_tasks(doc_id: str, pdf_path: str, analysis: dict) -> tuple[str, int]:
         if e.get("status") != "pending_ai":
             continue
         if e["kind"] == "verdict":
-            h = hs_index.get(eid, {})
+            # 条目 key 带 'v-' 前缀，剥离后才为热点 id
+            hs_id = eid[2:] if eid.startswith("v-") else eid
+            h = hs_index.get(hs_id, {})
             tasks.append({
                 "id": eid, "kind": "wrong_link", "page": h.get("page"),
                 "number": h.get("text"), "contextBefore": h.get("contextBefore"),

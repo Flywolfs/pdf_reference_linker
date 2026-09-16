@@ -36,6 +36,14 @@ export default function App() {
     window.setTimeout(() => setLocatedId((cur) => (cur === id ? null : cur)), 2200)
   }
 
+  // 引用 ID 点击复制：方便用户反馈问题时直接粘贴 ID（如 'h0123' / 'm-a3abdbf8'）
+  const [copiedId, setCopiedId] = useState<string | null>(null)
+  const copyId = (id: string) => {
+    navigator.clipboard?.writeText(id).catch(() => {})
+    setCopiedId(id)
+    window.setTimeout(() => setCopiedId((cur) => (cur === id ? null : cur)), 1200)
+  }
+
   // ---- 人工标注闭环状态 ----
   const [annos, setAnnos] = useState<Annotations | null>(null)
   const [reviewMode, setReviewMode] = useState(false)
@@ -334,7 +342,8 @@ export default function App() {
           )}
           <div className="ref-scroll" ref={refListRef}>
             {hotspots.map((h) => {
-              const v = annos?.entries[h.id]
+              // verdict 记录与热点/补标记录分 key（'v-{hotspotId}'），见 annotations.verdict_entry_id
+              const v = annos?.entries[`v-${h.id}`]
               const reviewed = v?.kind === 'verdict' && v.status === 'confirmed' && v.correct
               return (
                 <div key={h.id}>
@@ -345,6 +354,10 @@ export default function App() {
                     onClick={() => setJumpHotspotReq({ id: h.id })}
                   >
                     <span className="ref-page">P{h.page + 1}</span>
+                    <span
+                      className="ref-id" title="點擊複製引用 ID"
+                      onClick={(e) => { e.stopPropagation(); copyId(h.id) }}
+                    >{copiedId === h.id ? '已複製' : h.id}</span>
                     <span className="ref-ctx">{h.contextBefore || '…'}</span>
                     <sup className="ref-num">{h.text}</sup>
                     <span className="ref-arrow">→</span>
@@ -393,6 +406,10 @@ export default function App() {
                     onClick={() => setJumpMissReq({ id: e.group ?? id, page: e.page ?? 0, bbox: e.spanBbox ?? e.bbox ?? [0, 0, 0, 0] })}
                   >
                     <span className="ref-page">P{(e.page ?? 0) + 1}</span>
+                    <span
+                      className="ref-id" title="點擊複製補標 ID"
+                      onClick={(ev) => { ev.stopPropagation(); copyId(id) }}
+                    >{copiedId === id ? '已複製' : id}</span>
                     <span className="ref-ctx">補標 {e.number ?? '?'}</span>
                     <span className="ref-arrow">→</span>
                     <span className="ref-target">{e.targetDisplay ?? e.rebindTo ?? e.targetNoteId ?? '未匹配'}</span>

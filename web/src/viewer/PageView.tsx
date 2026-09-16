@@ -307,6 +307,10 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                       <div className="tip-head">
                         <span className="tip-num">{hs.text}</span>
                         <span className="tip-loc">{hs.targetDisplay ?? '未找到對應註釋'}</span>
+                        <span
+                          className="tip-id" title="點擊複製引用 ID"
+                          onClick={(e) => { e.stopPropagation(); navigator.clipboard?.writeText(hs.id).catch(() => {}) }}
+                        >#{hs.id}</span>
                         {hs.source === 'native' && <span className="badge badge-native">原生鏈接</span>}
                         {hs.confidence >= 0.95 && <span className="badge badge-certain">✓</span>}
                         {hs.confidence >= 0.7 && hs.confidence < 0.95 && <span className="badge badge-probable">可能</span>}
@@ -344,6 +348,10 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                       <div className="tip-head">
                         <span className="tip-num">{m.number ?? '?'}</span>
                         <span className="tip-loc">{m.targetDisplay ?? '未找到匹配條目'}</span>
+                        <span
+                          className="tip-id" title="點擊複製補標 ID"
+                          onClick={(e) => { e.stopPropagation(); navigator.clipboard?.writeText(m.id).catch(() => {}) }}
+                        >#{m.id}</span>
                         <span className="badge badge-pending">補標</span>
                       </div>
                       <div className="tip-body">
