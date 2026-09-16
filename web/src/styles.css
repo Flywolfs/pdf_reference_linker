@@ -233,7 +233,9 @@ body.resizing canvas { pointer-events: none; }
 /* ---- 補標框选 ---- */
 .ref-layer.miss-mode { cursor: crosshair; }
 .ref-layer.miss-mode .hotspot { pointer-events: none; }
-.ref-layer.miss-mode .tooltip { display: none; }
+/* 補標模式下仍顯示補標框 tooltip（用戶框選後需 hover 核對建議目標）；
+   引擎角標 tooltip 由 JSX !missMode 門控（hotspot 已 pointer-events:none 不會觸發） */
+.ref-layer.miss-mode .tooltip { cursor: auto; }
 .miss-drag {
   position: absolute; z-index: 25; pointer-events: none;
   border: 2px dashed #1a73e8; background: rgba(26, 115, 232, .08);

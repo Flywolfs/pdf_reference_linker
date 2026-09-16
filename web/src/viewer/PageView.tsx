@@ -293,8 +293,9 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                 />
               )
             })}
-            {/* hover 浮层：单编号单条；多编号列表展示全部引用，逐条独立跳转 */}
-            {hover && tipStyle && (
+            {/* hover 浮層：單編號單條；多編號列表展示全部引用，逐條獨立跳轉。
+                補標模式不渲染（框選時不留浮層，也清掉切換前殘留的 hover） */}
+            {hover && tipStyle && !missMode && (
               <div className="tooltip" style={tipStyle} onMouseEnter={() => { if (hoverTimer.current) window.clearTimeout(hoverTimer.current) }} onMouseLeave={leave}>
                 {hover.items.length > 1 && (
                   <div className="tip-multi">此處引用 {hover.items.length} 條註釋</div>
@@ -324,8 +325,9 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                 })}
               </div>
             )}
-            {/* 补标 hover 浮层：多成员逐条列出（编号 + 建议目标 + 注释内容 + 跳轉原文） */}
-            {missHover && tipStyle && (
+            {/* 補標 hover 浮層：多成員逐條列出（編號 + 建議目標 + 註釋內容 + 跳轉原文）。
+                補標模式下也顯示（框選後即時核對），僅拖框過程中隱藏 */}
+            {missHover && tipStyle && !dragRect && (
               <div
                 className="tooltip"
                 style={tipStyle}
