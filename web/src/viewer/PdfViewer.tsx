@@ -61,6 +61,7 @@ export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jump
   useEffect(() => {
     let doc: any = null
     setHighlightNoteId(null)
+    setHighlightHotspotId(null)
     setHighlightMissId(null)
     // cMap/standardFont 必备：Type0/CID 字体（如 AIA ETen-B5-H 中文）渲染需要
     getDocument({
@@ -95,7 +96,9 @@ export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jump
 
   const registerRendered = useCallback(() => {}, [])
 
-  /** 跳转到注释条目并高亮 2s（§8.2 / FR-5） */
+  /** 跳转到注释条目并高亮（§8.2 / FR-5）。
+   *  高亮保持至下一次跳转/切换文档（用户反馈 2s 脉冲看不清）；
+   *  任意跳转都是唯一焦点——清除其他两类高亮（角标/补标），避免旧框残留 */
   const jumpToNote = useCallback(
     (note: Note) => {
       const container = scrollRef.current
@@ -104,8 +107,9 @@ export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jump
       if (!container || !pageEl || !pdfPage) return
       const [, vy] = toCssPoint(pdfPage, scale, 0, note.bbox[1])
       container.scrollTo({ top: pageEl.offsetTop + vy - 90, behavior: 'smooth' })
-      // 高亮保持至下一次跳转/切换文档，不自动消失（用户反馈 2s 脉冲看不清）
       setHighlightNoteId(note.noteId)
+      setHighlightHotspotId(null)
+      setHighlightMissId(null)
     },
     [pages, scale],
   )
@@ -122,6 +126,8 @@ export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jump
       const [, vy] = toCssPoint(pdfPage, scale, 0, hs.bbox[1])
       container.scrollTo({ top: pageEl.offsetTop + vy - 120, behavior: 'smooth' })
       setHighlightHotspotId(hotspotId)
+      setHighlightNoteId(null)   // 清掉上次「跳轉原文」留下的原文高亮
+      setHighlightMissId(null)
     },
     [analysis, pages, scale],
   )
@@ -141,6 +147,8 @@ export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jump
       const [, vy] = toCssPoint(pdfPage, scale, 0, req.bbox[1])
       container.scrollTo({ top: pageEl.offsetTop + vy - 120, behavior: 'smooth' })
       setHighlightMissId(req.id)
+      setHighlightNoteId(null)   // 唯一焦點：清除其他兩類高亮
+      setHighlightHotspotId(null)
     },
     [pages, scale],
   )
