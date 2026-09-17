@@ -98,9 +98,10 @@ export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jump
 
   /** 跳转到注释条目并高亮（§8.2 / FR-5）。
    *  高亮保持至下一次跳转/切换文档（用户反馈 2s 脉冲看不清）；
-   *  任意跳转都是唯一焦点——清除其他两类高亮（角标/补标），避免旧框残留 */
+   *  source 标明跳转出发点：源头框（角标/补标）与原文框同时保持点亮，
+   *  另一类高亮清除——即"这次跳转的源头→原文"是唯一焦点对 */
   const jumpToNote = useCallback(
-    (note: Note) => {
+    (note: Note, source?: { kind: 'hotspot' | 'miss'; id: string }) => {
       const container = scrollRef.current
       const pageEl = container?.querySelector(`[data-page="${note.page}"]`) as HTMLElement | null
       const pdfPage = pages[note.page]
@@ -108,8 +109,8 @@ export default function PdfViewer({ docId, analysis, missMode, onMissBoxed, jump
       const [, vy] = toCssPoint(pdfPage, scale, 0, note.bbox[1])
       container.scrollTo({ top: pageEl.offsetTop + vy - 90, behavior: 'smooth' })
       setHighlightNoteId(note.noteId)
-      setHighlightHotspotId(null)
-      setHighlightMissId(null)
+      setHighlightHotspotId(source?.kind === 'hotspot' ? source.id : null)
+      setHighlightMissId(source?.kind === 'miss' ? source.id : null)
     },
     [pages, scale],
   )

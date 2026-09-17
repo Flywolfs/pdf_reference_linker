@@ -14,7 +14,7 @@ interface Props {
   highlightHotspotId: string | null   // 右栏点击跳转后的角标持续高亮
   misses: { key: string; page: number; bbox: number[]; members: { id: string; bbox: number[]; number: string | null; targetDisplay: string | null; targetNoteId: string | null }[] }[]  // 待审补标单元（本页过滤后渲染）
   highlightMissId: string | null      // 右栏补标点击跳转后的持续高亮
-  onJumpNote: (note: Note) => void
+  onJumpNote: (note: Note, source?: { kind: 'hotspot' | 'miss'; id: string }) => void
   registerRendered: (pageNo: number, height: number) => void
   missMode: boolean                  // 補標模式：拖框选漏检角标
   onMissBoxed: (pageNo: number, bboxPdf: number[]) => void
@@ -259,7 +259,7 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                   onMouseLeave={missLeave}
                   onClick={() => {
                     if (firstNoteM) {
-                      onJumpNote(missNote(firstNoteM)!)
+                      onJumpNote(missNote(firstNoteM)!, { kind: 'miss', id: u.key })   // 源頭補標框與原文同亮
                       onLocateRef(firstNoteM.id)   // 右栏列表同步定位
                     }
                   }}
@@ -287,7 +287,7 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                     const note = items
                       .map((s) => analysis.notes.find((n) => n.noteId === s.targets[0]))
                       .find(Boolean)
-                    if (note) onJumpNote(note)
+                    if (note) onJumpNote(note, { kind: 'hotspot', id: items[0].id })   // 源頭角標框與原文同亮
                     onLocateRef(items[0].id)   // 右栏列表同步定位
                   }}
                 />
@@ -321,7 +321,7 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                       </div>
                       {note && (
                         <div className="tip-foot">
-                          <button onClick={() => { onJumpNote(note); onLocateRef(hs.id) }}>跳轉原文</button>
+                          <button onClick={() => { onJumpNote(note, { kind: 'hotspot', id: hs.id }); onLocateRef(hs.id) }}>跳轉原文</button>
                         </div>
                       )}
                     </div>
@@ -359,7 +359,7 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                       </div>
                       {note && (
                         <div className="tip-foot">
-                          <button onClick={() => { onJumpNote(note); onLocateRef(m.id) }}>跳轉原文</button>
+                          <button onClick={() => { onJumpNote(note, { kind: 'miss', id: missHover.unit.key }); onLocateRef(m.id) }}>跳轉原文</button>
                         </div>
                       )}
                     </div>
