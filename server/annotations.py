@@ -115,8 +115,55 @@ def verdict(doc_id: str, hotspot_id: str, correct: bool, rebind_to: str | None =
 
 
 # 補標識別的符號全集：與 notes T4 symbol_item_pat 同集（寬於引擎檢測 STARS——
-# 引擎檢測通道保持保守不動以免黃金快照漂移；人工框選有位置先驗，可放寬）
-MISS_SYMS = set("※*†‡§▲#♣^★")
+# 引擎檢測通道保持保守不動以免黃金快照漂移；人工框選有位置先驗，可放寬）。
+# BASE 之外支援 UI 運行時追加（data/config/symbols.json），即時生效於補標識別。
+BASE_MISS_SYMS = "※*†‡§▲#♣^★♠"
+_EXTRA_SYMS_FILE = DATA_DIR / "config" / "symbols.json"
+
+
+def load_extra_symbols() -> list[str]:
+    """UI 追加的自定義符號列表（每項 1~2 個非字母數字字符）。"""
+    if not _EXTRA_SYMS_FILE.exists():
+        return []
+    try:
+        return [s for s in json.loads(_EXTRA_SYMS_FILE.read_text(encoding="utf-8")).get("extras", [])
+                if isinstance(s, str) and s]
+    except (json.JSONDecodeError, OSError):
+        return []
+
+
+def _save_extra_symbols(extras: list[str]) -> None:
+    _EXTRA_SYMS_FILE.parent.mkdir(parents=True, exist_ok=True)
+    _EXTRA_SYMS_FILE.write_text(json.dumps({"extras": extras}, ensure_ascii=False),
+                                encoding="utf-8")
+
+
+def add_extra_symbol(symbol: str) -> dict:
+    """追加自定義符號：1~2 字符、須含非字母數字字符、去重（基礎集/已存在）。"""
+    symbol = symbol.strip()
+    if not symbol or len(symbol) > 2:
+        raise ValueError("符號須為 1~2 個字符")
+    if any(ch.isalnum() for ch in symbol):
+        raise ValueError("符號不能包含字母或數字")
+    extras = load_extra_symbols()
+    if symbol in extras or all(ch in BASE_MISS_SYMS for ch in symbol):
+        return {"extras": extras, "added": False}
+    extras.append(symbol)
+    _save_extra_symbols(extras)
+    return {"extras": extras, "added": True}
+
+
+def remove_extra_symbol(symbol: str) -> dict:
+    extras = [s for s in load_extra_symbols() if s != symbol]
+    _save_extra_symbols(extras)
+    return {"extras": extras, "removed": True}
+
+
+def miss_syms() -> set:
+    """補標識別符號全集 = 基礎集 ∪ UI 自定義追加（即時生效）。"""
+    return set(BASE_MISS_SYMS) | {ch for s in load_extra_symbols() for ch in s}
+
+
 ROMAN_RE = re.compile(r"x{0,2}(?:ix|iv|v?i{0,3})", re.IGNORECASE)
 
 
@@ -128,7 +175,7 @@ def _anchor_token(t: str) -> str | None:
     t = t.strip().rstrip(".、)，, ")
     if not t:
         return None
-    if classify(t) or all(ch in MISS_SYMS for ch in t) or ROMAN_RE.fullmatch(t):
+    if classify(t) or all(ch in miss_syms() for ch in t) or ROMAN_RE.fullmatch(t):
         return t
     return None
 
@@ -153,7 +200,7 @@ def identify_miss(pdf_path: str, page: int, bbox: list[float],
 
     相鄰簇（'^,※,▲' 四 span、'i,iii' 單 span，showdoc P3 實測）拆為多成員，
     一次框選產生條目組（共享 group，前端聚合渲染/複審）；每成員獨立匹配，
-    有候選 → ai_proposed，無 → pending_ai。符號集用 T4 同集（見 MISS_SYMS）。
+    有候選 → ai_proposed，無 → pending_ai。符號集用 T4 同集（見 miss_syms）。
     """
     import pymupdf
 

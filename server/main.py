@@ -222,6 +222,30 @@ def annotate_restore(body: CancelBody):
     return {"ok": ok}
 
 
+# ---------- 自定義符號（補標識別運行時擴展） ----------
+
+@app.get("/api/config/symbols")
+def get_symbols():
+    return {"base": annotations.BASE_MISS_SYMS, "extras": annotations.load_extra_symbols()}
+
+
+class SymbolBody(BaseModel):
+    symbol: str
+
+
+@app.post("/api/config/symbols/add")
+def add_symbol(body: SymbolBody):
+    try:
+        return {"ok": True, **annotations.add_extra_symbol(body.symbol)}
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+
+
+@app.post("/api/config/symbols/remove")
+def remove_symbol(body: SymbolBody):
+    return {"ok": True, **annotations.remove_extra_symbol(body.symbol)}
+
+
 class ImportBody(BaseModel):
     docId: str
     results: dict               # {"results": [{id, targetNoteId, method?, reason?}]}

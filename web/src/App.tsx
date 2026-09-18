@@ -51,6 +51,11 @@ export default function App() {
   const [expandedId, setExpandedId] = useState<string | null>(null)
   const [pageHint, setPageHint] = useState('')   // 候選均不對時的頁碼提示（幫 AI 定位）
   const [lastExportAt, setLastExportAt] = useState<number | null>(null)  // 上次導出時間（紅點提醒用）
+  // 自定義符號面板（補標識別運行時擴展）
+  const [symPanelOpen, setSymPanelOpen] = useState(false)
+  const [baseSyms, setBaseSyms] = useState('')
+  const [extraSyms, setExtraSyms] = useState<string[]>([])
+  const [symInput, setSymInput] = useState('')
 
   useEffect(() => {
     api.documents()
@@ -358,6 +363,7 @@ export default function App() {
             {reviewMode && ` · 已審 ${verdictEntries.length} · 待AI ${pendingAi}`}
           </div>
           {reviewMode && (
+            <>
             <div className="rev-actions">
               <button className={missMode ? 'on' : ''} onClick={() => setMissMode((m) => !m)}>
                 {missMode ? '補標中…（在頁面拖框）' : '補標漏檢'}
@@ -367,7 +373,59 @@ export default function App() {
                 {exportStale && <span className="dot-badge" />}
               </button>
               <button onClick={doImport}>導入結果</button>
+              <button
+                className={symPanelOpen ? 'on' : ''}
+                title="新增/移除自定義角標符號（即時生效於補標識別）"
+                onClick={() => {
+                  if (!symPanelOpen) api.getSymbols().then((r) => { setBaseSyms(r.base); setExtraSyms(r.extras) }).catch(() => {})
+                  setSymPanelOpen((o) => !o)
+                }}
+              >符號</button>
             </div>
+            {symPanelOpen && (
+              <div className="sym-panel">
+                <div className="sym-row">
+                  <span className="sym-label">內置</span>
+                  {[...baseSyms].map((s) => <span key={s} className="sym-chip fixed">{s}</span>)}
+                </div>
+                {extraSyms.length > 0 && (
+                  <div className="sym-row">
+                    <span className="sym-label">自定義</span>
+                    {extraSyms.map((s) => (
+                      <span key={s} className="sym-chip">
+                        {s}
+                        <button title="移除此符號" onClick={() => api.removeSymbol(s).then((r) => setExtraSyms(r.extras))}>×</button>
+                      </span>
+                    ))}
+                  </div>
+                )}
+                <div className="sym-row">
+                  <input
+                    className="sym-input"
+                    placeholder="新符號（1~2字符）"
+                    value={symInput}
+                    onChange={(e) => setSymInput(e.target.value)}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter' && symInput.trim()) {
+                        api.addSymbol(symInput.trim())
+                          .then((r) => { setExtraSyms(r.extras); setSymInput('') })
+                          .catch((err) => alert(`添加失敗：${err}`))
+                      }
+                    }}
+                  />
+                  <button
+                    onClick={() => {
+                      if (!symInput.trim()) return
+                      api.addSymbol(symInput.trim())
+                        .then((r) => { setExtraSyms(r.extras); setSymInput('') })
+                        .catch((err) => alert(`添加失敗：${err}`))
+                    }}
+                  >加入</button>
+                  <span className="sym-hint">即時生效於補標識別</span>
+                </div>
+              </div>
+            )}
+            </>
           )}
           <div className="ref-scroll" ref={refListRef}>
             {hotspots.map((h) => {

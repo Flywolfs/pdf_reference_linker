@@ -218,6 +218,32 @@ body.resizing canvas { pointer-events: none; }
 }
 .rev-actions button:hover { background: #f7ecc8; }
 .rev-actions button.on { background: #1a73e8; border-color: #1a73e8; color: #fff; }
+/* 自定義符號面板（補標識別運行時擴展） */
+.sym-panel {
+  display: flex; flex-direction: column; gap: 6px; padding: 8px 12px;
+  background: #fafbfc; border-bottom: 1px solid #eceef1; font-size: 11px;
+}
+.sym-row { display: flex; align-items: center; gap: 4px; flex-wrap: wrap; }
+.sym-label { color: #8a919c; flex: none; min-width: 34px; }
+.sym-chip {
+  display: inline-flex; align-items: center; gap: 2px; padding: 1px 6px;
+  background: #f0e2ae; color: #7a5d0d; border-radius: 4px; font-size: 12px; font-weight: 600;
+}
+.sym-chip.fixed { background: #eceef1; color: #5f6368; }
+.sym-chip button {
+  border: none; background: none; cursor: pointer; color: #b3261e;
+  font-size: 12px; padding: 0 1px; line-height: 1;
+}
+.sym-input {
+  width: 110px; padding: 4px 6px; font-size: 11px; border: 1px solid #e3e5e9; border-radius: 6px;
+}
+.sym-input:focus { outline: none; border-color: #1a73e8; }
+.sym-row button {
+  padding: 4px 10px; font-size: 11px; border: 1px solid #d9c98d; border-radius: 6px;
+  background: #fffdf5; color: #7a5d0d; cursor: pointer;
+}
+.sym-row button:hover { background: #f7ecc8; }
+.sym-hint { color: #a3a9b3; font-size: 10px; }
 /* 導出按鈕紅點：有待AI條目變更未導出（任務文件為導出時快照） */
 .export-btn { position: relative; }
 .export-btn .dot-badge {

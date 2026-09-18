@@ -115,6 +115,23 @@ export const api = {
       body: JSON.stringify({ docId, hotspotId }),
     }).then(json<{ ok: boolean }>),
 
+  getSymbols: () =>
+    fetch('/api/config/symbols').then(json<{ base: string; extras: string[] }>),
+
+  addSymbol: (symbol: string) =>
+    fetch('/api/config/symbols/add', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ symbol }),
+    }).then(json<{ ok: boolean; extras: string[]; added: boolean }>),
+
+  removeSymbol: (symbol: string) =>
+    fetch('/api/config/symbols/remove', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ symbol }),
+    }).then(json<{ ok: boolean; extras: string[] }>),
+
   miss: (docId: string, page: number, bbox: number[]) =>
     fetch('/api/annotate/miss', {
       method: 'POST',
