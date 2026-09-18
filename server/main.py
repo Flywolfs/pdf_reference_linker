@@ -119,8 +119,8 @@ def annotate_verdict(body: VerdictBody):
         cache.save_override(body.docId, body.hotspotId,
                             {"action": "rebind", "targetNoteId": body.rebindTo,
                              "targetDisplay": disp})
-    if entry["status"] == "confirmed" and entry["correct"]:
-        # 改判正确 → 清除旧覆盖
+    else:
+        # 改判正確 / 標記待AI → 清除舊換綁覆蓋（重選場景：舊綁定不再生效）
         cache.delete_override(body.docId, body.hotspotId)
     return {"ok": True, "entry": entry}
 

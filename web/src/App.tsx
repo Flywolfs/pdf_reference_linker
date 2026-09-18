@@ -345,6 +345,7 @@ export default function App() {
               // verdict 记录与热点/补标记录分 key（'v-{hotspotId}'），见 annotations.verdict_entry_id
               const v = annos?.entries[`v-${h.id}`]
               const reviewed = v?.kind === 'verdict' && v.status === 'confirmed' && v.correct
+              const verdictWrong = v?.kind === 'verdict' && !v.correct
               return (
                 <div key={h.id}>
                   <div
@@ -365,14 +366,17 @@ export default function App() {
                     <span className={'dot ' + (h.confidence >= 0.95 ? 'green' : h.confidence >= 0.7 ? 'amber' : 'gray')} />
                     {reviewMode && (
                       <span className="rev-btns" onClick={(e) => e.stopPropagation()}>
-                        {reviewed ? (
-                          <span className="rev-done">✓</span>
-                        ) : (
-                          <>
-                            <button title="鏈接正確" onClick={() => { setExpandedId(null); doVerdict(h.id, true) }}>✓</button>
-                            <button title="鏈接錯誤" onClick={() => setExpandedId(expandedId === h.id ? null : h.id)}>✗</button>
-                          </>
-                        )}
+                        {/* ✓/✗ 常駐可改判：已判定的按鈕帶狀態色，選錯了隨時重選 */}
+                        <button
+                          title={reviewed ? '已判定鏈接正確（可重新選擇）' : '鏈接正確'}
+                          className={reviewed ? 'ok' : ''}
+                          onClick={() => { setExpandedId(null); doVerdict(h.id, true) }}
+                        >✓</button>
+                        <button
+                          title={verdictWrong ? '已判定鏈接錯誤（可重新選擇）' : '鏈接錯誤'}
+                          className={verdictWrong ? 'bad' : ''}
+                          onClick={() => setExpandedId(expandedId === h.id ? null : h.id)}
+                        >✗</button>
                         {v?.status === 'pending_ai' && <span className="badge badge-pending">待AI</span>}
                       </span>
                     )}

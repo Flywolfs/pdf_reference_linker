@@ -223,6 +223,9 @@ body.resizing canvas { pointer-events: none; }
   width: 22px; height: 20px; border: 1px solid #d5d9e0; border-radius: 4px;
   background: #fff; cursor: pointer; font-size: 11px; line-height: 1;
 }
+/* 改判狀態色：已判定的一側帶色，仍可點另一側重選 */
+.rev-btns button.ok { background: #e2f2e4; border-color: #2c7a39; color: #2c7a39; }
+.rev-btns button.bad { background: #fbe9e7; border-color: #b3261e; color: #b3261e; }
 .rev-btns button:hover { border-color: #1a73e8; color: #1a73e8; }
 .rev-done { color: #2c7a39; font-weight: 700; font-size: 12px; padding: 0 3px; }
 .ref-item .rev-btns { margin-left: auto; flex: none; }
