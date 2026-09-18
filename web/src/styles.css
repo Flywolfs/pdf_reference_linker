@@ -218,6 +218,12 @@ body.resizing canvas { pointer-events: none; }
 }
 .rev-actions button:hover { background: #f7ecc8; }
 .rev-actions button.on { background: #1a73e8; border-color: #1a73e8; color: #fff; }
+/* 導出按鈕紅點：有待AI條目變更未導出（任務文件為導出時快照） */
+.export-btn { position: relative; }
+.export-btn .dot-badge {
+  position: absolute; top: -4px; right: -4px; width: 9px; height: 9px;
+  border-radius: 50%; background: #d93025; border: 1.5px solid #fff;
+}
 .rev-btns { display: flex; gap: 3px; align-items: center; margin-left: auto; }
 .rev-btns button {
   width: 22px; height: 20px; border: 1px solid #d5d9e0; border-radius: 4px;
@@ -237,7 +243,18 @@ body.resizing canvas { pointer-events: none; }
 }
 .cand-panel button:hover { border-color: #1a73e8; background: #f4f8fe; }
 .cand-panel button.cand-ai { color: #3f51b5; border-style: dashed; }
+/* 頁碼提示 + 待AI 按鈕同行 */
+.cand-ai-row { display: flex; gap: 4px; align-items: center; }
+.cand-ai-row .cand-ai { flex: 1; }
+.cand-page {
+  width: 72px; flex: none; padding: 5px 6px; font-size: 11px; text-align: center;
+  border: 1px solid #e3e5e9; border-radius: 6px;
+}
+.cand-page:focus { outline: none; border-color: #1a73e8; box-shadow: 0 0 0 2px rgba(66, 133, 244, .15); }
 .miss-sep { padding: 10px 12px 4px; font-size: 11px; font-weight: 700; color: #8a6d1a; border-top: 1px solid #efe6c8; margin-top: 6px; }
+/* 已取消引用（誤檢隱藏墓碑） */
+.cancelled-item { opacity: .55; }
+.cancelled-item .rev-btns button { width: auto; padding: 0 8px; }
 
 /* ---- 補標框选 ---- */
 .ref-layer.miss-mode { cursor: crosshair; }

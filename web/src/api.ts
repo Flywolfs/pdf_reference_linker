@@ -34,7 +34,7 @@ export interface Hotspot {
 }
 
 export interface AnnoEntry {
-  kind: 'verdict' | 'miss'
+  kind: 'verdict' | 'miss' | 'cancelled'
   status: 'confirmed' | 'pending_ai' | 'ai_proposed' | 'rejected'
   correct?: boolean
   rebindTo?: string
@@ -47,6 +47,7 @@ export interface AnnoEntry {
   targetDisplay?: string | null
   method?: string
   reason?: string
+  pageHint?: number      // 候選均不對時用戶填的頁碼提示（1-based，隨 AI 任務導出）
   group?: string | null  // 多符號/多編號簇共享的組 id（一次框選整組生成）
   anchorKind?: string    // 補標識別的錨點類型（numeric/asterisk/…），注入熱點用
   ts?: number
@@ -90,12 +91,29 @@ export const api = {
   annotations: (docId: string) =>
     fetch(`/api/annotations/${docId}`).then(json<Annotations>),
 
-  verdict: (docId: string, hotspotId: string, correct: boolean, rebindTo?: string) =>
+  verdict: (docId: string, hotspotId: string, correct: boolean, rebindTo?: string, pageHint?: number) =>
     fetch('/api/annotate/verdict', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ docId, hotspotId, correct, rebindTo }),
+      body: JSON.stringify({ docId, hotspotId, correct, rebindTo, pageHint }),
     }).then(json<{ ok: boolean; entry: AnnoEntry }>),
+
+  lastExport: (docId: string) =>
+    fetch(`/api/annotate/last-export/${docId}`).then(json<{ generatedAt: number | null }>),
+
+  cancelHotspot: (docId: string, hotspotId: string, page?: number, number?: string) =>
+    fetch('/api/annotate/cancel', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ docId, hotspotId, page, number }),
+    }).then(json<{ ok: boolean; entry: AnnoEntry }>),
+
+  restoreHotspot: (docId: string, hotspotId: string) =>
+    fetch('/api/annotate/restore', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ docId, hotspotId }),
+    }).then(json<{ ok: boolean }>),
 
   miss: (docId: string, page: number, bbox: number[]) =>
     fetch('/api/annotate/miss', {
@@ -119,7 +137,7 @@ export const api = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ docId }),
-    }).then(json<{ ok: boolean; file: string; taskCount: number }>),
+    }).then(json<{ ok: boolean; file: string; taskCount: number; generatedAt?: number }>),
 
   importResults: (docId: string, results: unknown) =>
     fetch('/api/annotate/import', {

@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """FastAPI 入口（DESIGN.md §7 API 设计）。启动：uv run uvicorn server.main:app --port 8000"""
+import json
 import os
 import re
 
@@ -101,12 +102,14 @@ class VerdictBody(BaseModel):
     hotspotId: str
     correct: bool
     rebindTo: str | None = None
+    pageHint: int | None = None      # 候選均不對時用戶填的頁碼提示（1-based）
 
 
 @app.post("/api/annotate/verdict")
 def annotate_verdict(body: VerdictBody):
     path = _resolve(body.docId)
-    entry = annotations.verdict(body.docId, body.hotspotId, body.correct, body.rebindTo)
+    entry = annotations.verdict(body.docId, body.hotspotId, body.correct,
+                                body.rebindTo, body.pageHint)
     if entry["status"] == "confirmed" and not entry["correct"]:
         # 错链换候选 → 写 override（生成友好 display），阅读器即时生效
         analysis = cache.load_analysis(body.docId, _mtime(path))
@@ -180,7 +183,43 @@ def annotate_export(body: DocBody):
         analysis = analyze_pdf(path, body.docId, DEFAULT_CONFIG).model_dump()
         cache.save_analysis(body.docId, analysis)
     file, n = annotations.export_tasks(body.docId, path, analysis)
-    return {"ok": True, "file": file, "taskCount": n}
+    gen = json.loads(open(file, encoding="utf-8").read()).get("generatedAt")
+    return {"ok": True, "file": file, "taskCount": n, "generatedAt": gen}
+
+
+@app.get("/api/annotate/last-export/{doc_id}")
+def annotate_last_export(doc_id: str):
+    """上次 AI 任务导出时间（供前端提示'有待AI变更未导出'红点）。"""
+    _resolve(doc_id)
+    p = annotations.TASKS_DIR / f"{doc_id}.json"
+    if not p.exists():
+        return {"generatedAt": None}
+    try:
+        return {"generatedAt": json.loads(p.read_text(encoding="utf-8")).get("generatedAt")}
+    except json.JSONDecodeError:
+        return {"generatedAt": None}
+
+
+class CancelBody(BaseModel):
+    docId: str
+    hotspotId: str
+    page: int | None = None         # 墓碑展示用（0-based）
+    number: str | None = None       # 墓碑展示用（角標編號）
+
+
+@app.post("/api/annotate/cancel")
+def annotate_cancel(body: CancelBody):
+    _resolve(body.docId)
+    entry = annotations.cancel_hotspot(body.docId, body.hotspotId,
+                                       {"page": body.page, "number": body.number})
+    return {"ok": True, "entry": entry}
+
+
+@app.post("/api/annotate/restore")
+def annotate_restore(body: CancelBody):
+    _resolve(body.docId)
+    ok = annotations.restore_hotspot(body.docId, body.hotspotId)
+    return {"ok": ok}
 
 
 class ImportBody(BaseModel):

@@ -49,6 +49,8 @@ export default function App() {
   const [reviewMode, setReviewMode] = useState(false)
   const [missMode, setMissMode] = useState(false)
   const [expandedId, setExpandedId] = useState<string | null>(null)
+  const [pageHint, setPageHint] = useState('')   // 候選均不對時的頁碼提示（幫 AI 定位）
+  const [lastExportAt, setLastExportAt] = useState<number | null>(null)  // 上次導出時間（紅點提醒用）
 
   useEffect(() => {
     api.documents()
@@ -68,6 +70,7 @@ export default function App() {
       const r = await api.analyze(doc.path)
       setSelected({ doc, analysis: r.analysis })
       api.annotations(doc.docId).then(setAnnos).catch(() => setAnnos({ version: 1, entries: {} }))
+      api.lastExport(doc.docId).then((r) => setLastExportAt(r.generatedAt)).catch(() => setLastExportAt(null))
     } catch (e) {
       setError(String(e))
     } finally {
@@ -85,9 +88,9 @@ export default function App() {
     setAnnos(await api.annotations(docId))
   }
 
-  const doVerdict = async (hotspotId: string, correct: boolean, rebindTo?: string) => {
+  const doVerdict = async (hotspotId: string, correct: boolean, rebindTo?: string, pageHint?: number) => {
     if (!selected) return
-    await api.verdict(selected.doc.docId, hotspotId, correct, rebindTo)
+    await api.verdict(selected.doc.docId, hotspotId, correct, rebindTo, pageHint)
     await reloadAnnos(selected.doc.docId)
     await refreshAnalysis(selected.doc.docId)
   }
@@ -104,6 +107,22 @@ export default function App() {
     if (!selected) return
     if (!window.confirm('取消這條補標？將刪除該記錄。')) return
     await api.deleteMiss(selected.doc.docId, entryId)
+    await reloadAnnos(selected.doc.docId)
+    await refreshAnalysis(selected.doc.docId)
+  }
+
+  // 取消引用（誤檢隱藏）：墓碑條目過濾，列表與 PDF 同步消失；底部可恢復
+  const doCancelHotspot = async (hotspotId: string, page: number, number: string) => {
+    if (!selected) return
+    if (!window.confirm('取消此引用？將從列表與 PDF 中隱藏（誤檢；可在右欄底部恢復）。')) return
+    await api.cancelHotspot(selected.doc.docId, hotspotId, page, number)
+    await reloadAnnos(selected.doc.docId)
+    await refreshAnalysis(selected.doc.docId)
+  }
+
+  const doRestoreHotspot = async (hotspotId: string) => {
+    if (!selected) return
+    await api.restoreHotspot(selected.doc.docId, hotspotId)
     await reloadAnnos(selected.doc.docId)
     await refreshAnalysis(selected.doc.docId)
   }
@@ -133,6 +152,7 @@ export default function App() {
     if (!selected) return
     try {
       const r = await api.exportTasks(selected.doc.docId)
+      if (r.generatedAt) setLastExportAt(r.generatedAt)   // 紅點消失
       alert(`已導出 ${r.taskCount} 項待處理任務 →\n${r.file}\n\n可交由 AI 會話或指定 LLM 按約定 schema 處理後導入。`)
     } catch (e) {
       alert(`導出失敗：${e}`)
@@ -174,7 +194,13 @@ export default function App() {
 
   const verdictEntries = annos ? Object.entries(annos.entries).filter(([, e]) => e.kind === 'verdict') : []
   const missEntries = annos ? Object.entries(annos.entries).filter(([, e]) => e.kind === 'miss') : []
+  const cancelledEntries = annos ? Object.entries(annos.entries).filter(([, e]) => e.kind === 'cancelled') : []
   const pendingAi = annos ? Object.values(annos.entries).filter((e) => e.status === 'pending_ai').length : 0
+  // 有待AI條目在上次導出後發生變更 → 導出按鈕紅點提醒（任務文件是導出時的快照）
+  const exportStale = pendingAi > 0 && (
+    lastExportAt == null ||
+    Object.values(annos?.entries ?? {}).some((e) => e.status === 'pending_ai' && (e.ts ?? 0) > lastExportAt)
+  )
   // 待审补标 → 阅读器虚线框单元：同 group 成员（多符號簇一次框选生成）聚合为
   // 一个框 + 多成员浮层；确认后由 apply_manual 注入为常规热点，此处框消失
   const missUnits = useMemo(() => {
@@ -336,7 +362,10 @@ export default function App() {
               <button className={missMode ? 'on' : ''} onClick={() => setMissMode((m) => !m)}>
                 {missMode ? '補標中…（在頁面拖框）' : '補標漏檢'}
               </button>
-              <button onClick={doExport}>導出AI任務</button>
+              <button className="export-btn" title={exportStale ? '有待AI變更未導出，任務文件非最新' : '導出待 AI 處理任務'} onClick={doExport}>
+                導出AI任務
+                {exportStale && <span className="dot-badge" />}
+              </button>
               <button onClick={doImport}>導入結果</button>
             </div>
           )}
@@ -375,9 +404,18 @@ export default function App() {
                         <button
                           title={verdictWrong ? '已判定鏈接錯誤（可重新選擇）' : '鏈接錯誤'}
                           className={verdictWrong ? 'bad' : ''}
-                          onClick={() => setExpandedId(expandedId === h.id ? null : h.id)}
+                          onClick={() => {
+                            setPageHint(v?.pageHint ? String(v.pageHint) : '')   // 改判時回填已有提示
+                            setExpandedId(expandedId === h.id ? null : h.id)
+                          }}
                         >✗</button>
-                        {v?.status === 'pending_ai' && <span className="badge badge-pending">待AI</span>}
+                        {v?.status === 'pending_ai' && (
+                          <span className="badge badge-pending">待AI{v.pageHint ? ` · P${v.pageHint}` : ''}</span>
+                        )}
+                        <button
+                          title="取消此引用（誤檢隱藏，可恢復）"
+                          onClick={() => doCancelHotspot(h.id, h.page, h.text)}
+                        >✕</button>
                       </span>
                     )}
                   </div>
@@ -389,9 +427,18 @@ export default function App() {
                           P{n.page + 1} · {n.text.slice(0, 44)}{n.text.length > 44 ? '…' : ''}
                         </button>
                       ))}
-                      <button className="cand-ai" onClick={() => { setExpandedId(null); doVerdict(h.id, false) }}>
-                        均不正確 → 標記待 AI 處理
-                      </button>
+                      <div className="cand-ai-row">
+                        <input
+                          className="cand-page"
+                          placeholder="頁碼提示"
+                          title="正確原文所在頁碼（PDF 頁碼），幫助 AI 快速定位"
+                          value={pageHint}
+                          onChange={(e) => setPageHint(e.target.value.replace(/\D/g, '').slice(0, 3))}
+                        />
+                        <button className="cand-ai" onClick={() => { setExpandedId(null); doVerdict(h.id, false, undefined, pageHint ? parseInt(pageHint, 10) : undefined) }}>
+                          均不正確 → 標記待 AI 處理
+                        </button>
+                      </div>
                     </div>
                   )}
                 </div>
@@ -428,6 +475,21 @@ export default function App() {
                       {e.status === 'confirmed' && <span className="rev-done">✓已生效</span>}
                       {e.status === 'rejected' && <span className="rev-done">已拒絕</span>}
                       <button title="取消此補標（刪除記錄）" onClick={() => doDeleteMiss(id)}>✕</button>
+                    </span>
+                  </div>
+                ))}
+              </>
+            )}
+            {/* 已取消引用（誤檢隱藏）：墓碑列表，可恢復 */}
+            {reviewMode && cancelledEntries.length > 0 && (
+              <>
+                <div className="miss-sep">已取消引用（{cancelledEntries.length}）</div>
+                {cancelledEntries.map(([id, e]) => (
+                  <div key={id} className="ref-item cancelled-item">
+                    <span className="ref-page">{e.page != null ? `P${e.page + 1}` : ''}</span>
+                    <span className="ref-ctx">已取消 {e.number ?? ''}</span>
+                    <span className="rev-btns" onClick={(ev) => ev.stopPropagation()}>
+                      <button title="恢復此引用（重新顯示於列表與 PDF）" onClick={() => doRestoreHotspot(id.slice(2))}>恢復</button>
                     </span>
                   </div>
                 ))}

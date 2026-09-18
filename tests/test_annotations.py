@@ -82,3 +82,44 @@ def test_apply_manual_survives_verdict(monkeypatch, tmp_path):
     assert len(analysis["hotspots"]) == 1
     hs = analysis["hotspots"][0]
     assert hs["id"] == "m-feed0001" and hs["targets"] == ["p4:5"] and hs["source"] == "manual"
+
+
+def test_cancel_and_restore_hotspot(monkeypatch, tmp_path):
+    """取消引用：墓碑過濾列表與 PDF 熱點；恢復後重現；歷史判定保留。"""
+    doc = _tmp_doc(monkeypatch, tmp_path)
+    hs = {"id": "h0007", "page": 1, "bbox": [1, 1, 9, 9], "targets": ["p2:1"]}
+    analysis = {"hotspots": [hs, {"id": "h0008", "page": 2, "bbox": [1, 1, 9, 9], "targets": []}],
+                "notes": []}
+
+    ann.cancel_hotspot(doc, "h0007", {"page": 1, "number": "3"})
+    out = ann.apply_manual({"hotspots": [dict(hs), {"id": "h0008", "page": 2}], "notes": []}, doc)
+    assert [h["id"] for h in out["hotspots"]] == ["h0008"]      # h0007 被過濾
+
+    ann.verdict(doc, "h0007", correct=True)                     # 取消後判定仍可寫（恢復後生效）
+    ann.restore_hotspot(doc, "h0007")
+    out2 = ann.apply_manual({"hotspots": [dict(hs)], "notes": []}, doc)
+    assert [h["id"] for h in out2["hotspots"]] == ["h0007"]     # 恢復重現
+    entries = ann.load_annotations(doc)["entries"]
+    assert "x-h0007" not in entries and "v-h0007" in entries    # 墓碑已刪、判定保留
+
+
+def test_cancel_confirmed_miss_injection(monkeypatch, tmp_path):
+    """取消一個 confirmed 補標的注入熱點：過濾須在注入之後（實測 bug 回歸）。"""
+    doc = _tmp_doc(monkeypatch, tmp_path)
+    ann.set_entry(doc, "m-cafe1234", {
+        "kind": "miss", "page": 1, "bbox": [1, 1, 9, 9], "number": "8",
+        "anchorKind": "asterisk", "spanBbox": [2, 2, 6, 6], "targets": ["p3:8"],
+        "targetDisplay": "P3 · 腳註 8", "group": None, "method": "auto",
+        "status": "ai_proposed"})
+    ann.review(doc, "m-cafe1234", accept=True)
+
+    out = ann.apply_manual({"hotspots": [], "notes": []}, doc)
+    assert [h["id"] for h in out["hotspots"]] == ["m-cafe1234"]     # 注入正常
+
+    ann.cancel_hotspot(doc, "m-cafe1234", {"page": 1, "number": "8"})
+    out2 = ann.apply_manual({"hotspots": [], "notes": []}, doc)
+    assert out2["hotspots"] == []                                   # 注入後仍被墓碑過濾
+
+    ann.restore_hotspot(doc, "m-cafe1234")
+    out3 = ann.apply_manual({"hotspots": [], "notes": []}, doc)
+    assert [h["id"] for h in out3["hotspots"]] == ["m-cafe1234"]    # 恢復重現

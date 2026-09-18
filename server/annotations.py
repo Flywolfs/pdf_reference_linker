@@ -96,7 +96,10 @@ def set_entry(doc_id: str, entry_id: str, entry: dict) -> dict:
     return entry
 
 
-def verdict(doc_id: str, hotspot_id: str, correct: bool, rebind_to: str | None = None) -> dict:
+def verdict(doc_id: str, hotspot_id: str, correct: bool, rebind_to: str | None = None,
+            page_hint: int | None = None) -> dict:
+    """page_hint：用戶在候選均不對時填寫的頁碼提示（1-based，與 PDF 頁面一致），
+    隨 AI 任務導出，幫助 AI 快速定位正確原文。"""
     eid = verdict_entry_id(hotspot_id)
     if correct:
         return set_entry(doc_id, eid,
@@ -105,8 +108,10 @@ def verdict(doc_id: str, hotspot_id: str, correct: bool, rebind_to: str | None =
         return set_entry(doc_id, eid,
                          {"kind": "verdict", "correct": False, "rebindTo": rebind_to,
                           "status": "confirmed"})
-    return set_entry(doc_id, eid,
-                     {"kind": "verdict", "correct": False, "status": "pending_ai"})
+    e = {"kind": "verdict", "correct": False, "status": "pending_ai"}
+    if page_hint:
+        e["pageHint"] = page_hint
+    return set_entry(doc_id, eid, e)
 
 
 # 補標識別的符號全集：與 notes T4 symbol_item_pat 同集（寬於引擎檢測 STARS——
@@ -283,9 +288,24 @@ def review(doc_id: str, entry_id: str, accept: bool, rebind_to: str | None = Non
     return e
 
 
+def cancel_hotspot(doc_id: str, hotspot_id: str, info: dict | None = None) -> dict:
+    """取消引用（誤檢隱藏）：墓碑條目 x-{hotspotId}，apply_manual 合成時過濾掉；
+    引擎輸出不可刪（重解析會再生），墓碑可隨時恢復，歷史判定（v- 條目）保留。"""
+    entry = {"kind": "cancelled", **(info or {})}
+    return set_entry(doc_id, f"x-{hotspot_id}", entry)
+
+
+def restore_hotspot(doc_id: str, hotspot_id: str) -> bool:
+    """恢復被取消的引用：移除墓碑條目。"""
+    return delete_entry(doc_id, f"x-{hotspot_id}")
+
+
 def apply_manual(analysis: dict, doc_id: str) -> dict:
-    """把 confirmed 的 miss 条目作为手工热点注入分析输出（阅读器可见）。"""
+    """人工數據合成：注入 confirmed 補標熱點 + 過濾已取消引用（誤檢隱藏）。
+    過濾須在注入之後——否則取消一個補標注入熱點會被注入步驟加回。"""
     entries = load_annotations(doc_id).get("entries", {})
+    cancelled = {eid[2:] for eid, e in entries.items()
+                 if e.get("kind") == "cancelled" and eid.startswith("x-")}
     for eid, e in entries.items():
         if e.get("kind") != "miss" or e.get("status") != "confirmed":
             continue
@@ -301,6 +321,8 @@ def apply_manual(analysis: dict, doc_id: str) -> dict:
             "confidence": 0.90, "source": "manual", "nativeLink": None,
             "group": e.get("group"),
         })
+    analysis["hotspots"] = [h for h in analysis.get("hotspots", [])
+                            if h.get("id") not in cancelled]
     return analysis
 
 
@@ -318,11 +340,14 @@ def export_tasks(doc_id: str, pdf_path: str, analysis: dict) -> tuple[str, int]:
             # 条目 key 带 'v-' 前缀，剥离后才为热点 id
             hs_id = eid[2:] if eid.startswith("v-") else eid
             h = hs_index.get(hs_id, {})
+            ph = e.get("pageHint")
             tasks.append({
                 "id": eid, "kind": "wrong_link", "page": h.get("page"),
                 "number": h.get("text"), "contextBefore": h.get("contextBefore"),
                 "currentTargets": h.get("targets", []),
-                "hint": "用户判定当前链接错误，请从 notesIndex 中找出正确条目",
+                "pageHint": ph,
+                "hint": "用户判定当前链接错误，请从 notesIndex 中找出正确条目"
+                        + (f"；用户提示正确原文可能在第 {ph} 页（PDF 页码，1-based）" if ph else ""),
             })
         else:
             tasks.append({
