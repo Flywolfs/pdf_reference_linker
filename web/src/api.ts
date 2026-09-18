@@ -1,5 +1,11 @@
 // 后端 API 客户端与类型（对应 server/pipeline/schema.py 数据契约）
 
+/** PUA 私用区字符（U+E000–F8FF，字體自定義圖形符號）无法直接渲染 → □。
+ *  匹配层保持原字符，仅展示层替换。 */
+export function dispText(s: string | null | undefined): string {
+  return (s ?? '').replace(/[\uE000-\uF8FF]/g, '□')
+}
+
 export interface DocInfo {
   name: string
   relPath: string

@@ -1,5 +1,5 @@
 {
- "version": "1.7",
+ "version": "1.8",
  "docId": "a9d21f52",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/showdoc.jsp (1).pdf",
@@ -19,6 +19,22 @@
    "page": 1,
    "bbox": [
     623.62,
+    699.18,
+    1116.19,
+    724.37
+   ],
+   "number": "",
+   "text": "有關資格要求的詳情,請參閱本產品簡介第5至6頁。此計劃並不為於中國內地之非「睿選指定醫院」住院及接受或進行醫療服務提供保障。 資料來源(資料搜集日期:2025年9月):",
+   "textPages": [
+    1
+   ]
+  },
+  {
+   "noteId": "p1:2",
+   "anchor": "footer",
+   "page": 1,
+   "bbox": [
+    623.62,
     726.87,
     817.99,
     735.79
@@ -30,7 +46,7 @@
    ]
   },
   {
-   "noteId": "p1:2",
+   "noteId": "p1:3",
    "anchor": "footer",
    "page": 1,
    "bbox": [
@@ -46,7 +62,7 @@
    ]
   },
   {
-   "noteId": "p1:3",
+   "noteId": "p1:4",
    "anchor": "footer",
    "page": 1,
    "bbox": [
@@ -62,7 +78,7 @@
    ]
   },
   {
-   "noteId": "p1:4",
+   "noteId": "p1:5",
    "anchor": "footer",
    "page": 1,
    "bbox": [
@@ -78,7 +94,7 @@
    ]
   },
   {
-   "noteId": "p1:5",
+   "noteId": "p1:6",
    "anchor": "footer",
    "page": 1,
    "bbox": [
@@ -94,7 +110,7 @@
    ]
   },
   {
-   "noteId": "p1:6",
+   "noteId": "p1:7",
    "anchor": "footer",
    "page": 1,
    "bbox": [
@@ -110,7 +126,7 @@
    ]
   },
   {
-   "noteId": "p1:7",
+   "noteId": "p1:8",
    "anchor": "footer",
    "page": 1,
    "bbox": [
@@ -126,7 +142,7 @@
    ]
   },
   {
-   "noteId": "p1:8",
+   "noteId": "p1:9",
    "anchor": "footer",
    "page": 1,
    "bbox": [
@@ -532,17 +548,33 @@
    "bbox": [
     623.62,
     763.92,
-    1162.21,
-    793.68
+    876.92,
+    772.26
    ],
    "number": "▲",
-   "text": "受保人須向友邦提交醫療費用預先批核及出院免找數服務的申請表。  遙距視像醫療服務只適用於身處香港的受保人。以優惠價提供的服務包括醫療諮詢費用、3天基本藥物及藥物運送服務,受服務的相關條款和細則約束。詳 情請參閱本公司的網頁。",
+   "text": "受保人須向友邦提交醫療費用預先批核及出院免找數服務的申請表。",
    "textPages": [
     7
    ]
   },
   {
    "noteId": "p7:8",
+   "anchor": "footer",
+   "page": 7,
+   "bbox": [
+    623.62,
+    774.16,
+    1162.21,
+    793.68
+   ],
+   "number": "",
+   "text": "遙距視像醫療服務只適用於身處香港的受保人。以優惠價提供的服務包括醫療諮詢費用、3天基本藥物及藥物運送服務,受服務的相關條款和細則約束。詳 情請參閱本公司的網頁。",
+   "textPages": [
+    7
+   ]
+  },
+  {
+   "noteId": "p7:9",
    "anchor": "footer",
    "page": 7,
    "bbox": [
@@ -1150,7 +1182,7 @@
    ]
   },
   {
-   "noteId": "p7:inline71",
+   "noteId": "p7:inline73",
    "anchor": "inline",
    "page": 7,
    "bbox": [
@@ -1166,7 +1198,7 @@
    ]
   },
   {
-   "noteId": "p7:inline72",
+   "noteId": "p7:inline74",
    "anchor": "inline",
    "page": 7,
    "bbox": [
@@ -1265,7 +1297,7 @@
    "kind": "letter",
    "contextBefore": "於2024年,香港的醫療通脹率高達10.3%,而",
    "targets": [
-    "p1:1"
+    "p1:2"
    ],
    "targetDisplay": "P2 · 腳註 i",
    "confidence": 0.98,
@@ -1286,7 +1318,7 @@
    "kind": "letter",
    "contextBefore": "以上人口佔47%",
    "targets": [
-    "p1:5"
+    "p1:6"
    ],
    "targetDisplay": "P2 · 腳註 v",
    "confidence": 0.98,
@@ -4024,7 +4056,7 @@
  ],
  "stats": {
   "anchors": 127,
-  "notes": 73,
+  "notes": 75,
   "resolved": 127
  }
 }

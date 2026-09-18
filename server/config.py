@@ -33,9 +33,10 @@ class ParseConfig:
     note_head_pat: str = r"^\s*(?:備註|附註|註釋|注釋|备注|備注|註|注|Notes?)\s*[:：]?\s*$"
     inline_note_pat: str = r"^\s*(?:註|注|備註|备注)\s*[:：]\s*\S"
     item_pat: str = r"^\s*(\d{1,3})\s*[.、)](?:\s+|$)(.*)$"  # 编号点后必须是空白/行尾，排除小数费率（保费表 '0.545'）
-    # T4 通道编号（无点悬挂形态，编号后须空白或行尾）：
+    # T4 通道编号（无点悬挂形态，编号后须空白或行尾）。PUA 私用区（U+E000–F8FF，
+    # 字體自定義符號如 Wingdings 圖形）無法枚舉，以範圍分支納入：
     roman_item_pat: str = r"^\s*(x{0,2}(?:ix|iv|v?i{0,3}))[.、)]?(?:\s+|$)(.*)$"   # i~xxx 小写罗马数字
-    symbol_item_pat: str = r"^\s*([※*†‡§▲#♣^★♠]{1,2})[.、)]?(?:\s+|$)(.*)$"      # ※/*/…/雙字符 **/♠
+    symbol_item_pat: str = r"^\s*([※*†‡§▲#♣^★♠\ue000-\uf8ff]{1,2})[.、)]?(?:\s+|$)(.*)$"
 
 
 DEFAULT_CONFIG = ParseConfig()

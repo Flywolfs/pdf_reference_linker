@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Analysis, Annotations, DocInfo, Hotspot } from './api'
-import { api } from './api'
+import { api, dispText } from './api'
 import PdfViewer from './viewer/PdfViewer'
 
 const DOC_LIST_DEFAULT = 250
@@ -446,10 +446,10 @@ export default function App() {
                       className="ref-id" title="點擊複製引用 ID"
                       onClick={(e) => { e.stopPropagation(); copyId(h.id) }}
                     >{copiedId === h.id ? '已複製' : h.id}</span>
-                    <span className="ref-ctx">{h.contextBefore || '…'}</span>
-                    <sup className="ref-num">{h.text}</sup>
+                    <span className="ref-ctx">{dispText(h.contextBefore) || '…'}</span>
+                    <sup className="ref-num">{dispText(h.text)}</sup>
                     <span className="ref-arrow">→</span>
-                    <span className="ref-target">{h.targetDisplay ?? '未匹配'}</span>
+                    <span className="ref-target">{dispText(h.targetDisplay) || '未匹配'}</span>
                     <span className={'dot ' + (h.confidence >= 0.95 ? 'green' : h.confidence >= 0.7 ? 'amber' : 'gray')} />
                     {reviewMode && (
                       <span className="rev-btns" onClick={(e) => e.stopPropagation()}>
@@ -482,7 +482,7 @@ export default function App() {
                       <div className="cand-title">選擇正確目標，或標記待 AI 處理：</div>
                       {candidatesOf(h).map((n) => (
                         <button key={n.noteId} onClick={() => { setExpandedId(null); doVerdict(h.id, false, n.noteId) }}>
-                          P{n.page + 1} · {n.text.slice(0, 44)}{n.text.length > 44 ? '…' : ''}
+                          P{n.page + 1} · {dispText(n.text).slice(0, 44)}{n.text.length > 44 ? '…' : ''}
                         </button>
                       ))}
                       <div className="cand-ai-row">
@@ -519,9 +519,9 @@ export default function App() {
                       className="ref-id" title="點擊複製補標 ID"
                       onClick={(ev) => { ev.stopPropagation(); copyId(id) }}
                     >{copiedId === id ? '已複製' : id}</span>
-                    <span className="ref-ctx">補標 {e.number ?? '?'}</span>
+                    <span className="ref-ctx">補標 {dispText(e.number) || '?'}</span>
                     <span className="ref-arrow">→</span>
-                    <span className="ref-target">{e.targetDisplay ?? e.rebindTo ?? e.targetNoteId ?? '未匹配'}</span>
+                    <span className="ref-target">{dispText(e.targetDisplay ?? e.rebindTo ?? e.targetNoteId) || '未匹配'}</span>
                     <span className="rev-btns" onClick={(ev) => ev.stopPropagation()}>
                       {e.status === 'ai_proposed' && (
                         <>
@@ -545,7 +545,7 @@ export default function App() {
                 {cancelledEntries.map(([id, e]) => (
                   <div key={id} className="ref-item cancelled-item">
                     <span className="ref-page">{e.page != null ? `P${e.page + 1}` : ''}</span>
-                    <span className="ref-ctx">已取消 {e.number ?? ''}</span>
+                    <span className="ref-ctx">已取消 {dispText(e.number) || ''}</span>
                     <span className="rev-btns" onClick={(ev) => ev.stopPropagation()}>
                       <button title="恢復此引用（重新顯示於列表與 PDF）" onClick={() => doRestoreHotspot(id.slice(2))}>恢復</button>
                     </span>

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Analysis, Hotspot, Note } from '../api'
+import { dispText } from '../api'
 import { renderPage, toCssRect, TextLayer, type PDFPageProxy } from '../pdfjs'
 
 const HOVER_DELAY_MS = 120          // §8.2 hover 防抖
@@ -305,8 +306,8 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                   return (
                     <div className="tip-item" key={hs.id}>
                       <div className="tip-head">
-                        <span className="tip-num">{hs.text}</span>
-                        <span className="tip-loc">{hs.targetDisplay ?? '未找到對應註釋'}</span>
+                        <span className="tip-num">{dispText(hs.text)}</span>
+                        <span className="tip-loc">{dispText(hs.targetDisplay) || '未找到對應註釋'}</span>
                         <span
                           className="tip-id" title="點擊複製引用 ID"
                           onClick={(e) => { e.stopPropagation(); navigator.clipboard?.writeText(hs.id).catch(() => {}) }}
@@ -317,7 +318,7 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                         {hs.confidence < 0.7 && <span className="badge badge-unresolved">?</span>}
                       </div>
                       <div className="tip-body">
-                        {note ? note.text : '未能在文檔中找到此編號的註釋條目，可在右側引用總覽中人工校對。'}
+                        {note ? dispText(note.text) : '未能在文檔中找到此編號的註釋條目，可在右側引用總覽中人工校對。'}
                       </div>
                       {note && (
                         <div className="tip-foot">
@@ -346,8 +347,8 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                   return (
                     <div className="tip-item" key={m.id}>
                       <div className="tip-head">
-                        <span className="tip-num">{m.number ?? '?'}</span>
-                        <span className="tip-loc">{m.targetDisplay ?? '未找到匹配條目'}</span>
+                        <span className="tip-num">{dispText(m.number) || '?'}</span>
+                        <span className="tip-loc">{dispText(m.targetDisplay) || '未找到匹配條目'}</span>
                         <span
                           className="tip-id" title="點擊複製補標 ID"
                           onClick={(e) => { e.stopPropagation(); navigator.clipboard?.writeText(m.id).catch(() => {}) }}
@@ -355,7 +356,7 @@ export default function PageView({ page, pageNo, scale, analysis, highlightNoteI
                         <span className="badge badge-pending">補標</span>
                       </div>
                       <div className="tip-body">
-                        {note ? note.text : '未能在文檔中找到此編號的註釋條目，可導出 AI 任務處理。'}
+                        {note ? dispText(note.text) : '未能在文檔中找到此編號的註釋條目，可導出 AI 任務處理。'}
                       </div>
                       {note && (
                         <div className="tip-foot">

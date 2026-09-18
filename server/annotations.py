@@ -168,14 +168,16 @@ ROMAN_RE = re.compile(r"x{0,2}(?:ix|iv|v?i{0,3})", re.IGNORECASE)
 
 
 def _anchor_token(t: str) -> str | None:
-    """單個錨點 token 規整：數字/帶圈/符號/字母/羅馬數字 → 規整文本，否則 None。
+    """單個錨點 token 規整：數字/帶圈/符號/字母/羅馬數字/PUA → 規整文本，否則 None。
 
     尾部標點（'7.' / '^,'）先剝離——符號簇 span 常把分隔逗號帶在本 span 內。
+    PUA 私用區字符（U+E000–F8FF，字體自定義圖形符號）作為一類符號整體納入。
     """
     t = t.strip().rstrip(".、)，, ")
     if not t:
         return None
-    if classify(t) or all(ch in miss_syms() for ch in t) or ROMAN_RE.fullmatch(t):
+    is_pua = all("\ue000" <= ch <= "\uf8ff" for ch in t)
+    if classify(t) or all(ch in miss_syms() for ch in t) or is_pua or ROMAN_RE.fullmatch(t):
         return t
     return None
 
