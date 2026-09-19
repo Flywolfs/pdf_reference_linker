@@ -1,5 +1,5 @@
 {
- "version": "1.8",
+ "version": "1.9",
  "docId": "72475cd5",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/FWD/自愿医保/尊衛您（寰譽版）醫療計劃-產品宣傳單張+feb+26.pdf",
@@ -395,6 +395,134 @@
    "text": "因戰爭(不論宣戰與否)、內戰、侵略、外敵行動、敵對行動、叛亂、革命、起義、或軍事政變或奪權事故所招致的治療費用。",
    "textPages": [
     18
+   ]
+  },
+  {
+   "noteId": "p26:1",
+   "anchor": "footer",
+   "page": 26,
+   "bbox": [
+    28.35,
+    692.74,
+    398.39,
+    747.3
+   ],
+   "number": "^",
+   "text": "只適用於續保。 ^For Renewal only. 此標準保費表並未包括由保險業監管局徵收的保費徵費。 This Standard Premium Schedule does not include levy which is collected by the Insurance Authority.",
+   "textPages": [
+    26
+   ]
+  },
+  {
+   "noteId": "p29:1",
+   "anchor": "footer",
+   "page": 29,
+   "bbox": [
+    28.35,
+    692.74,
+    398.39,
+    747.3
+   ],
+   "number": "^",
+   "text": "只適用於續保。 ^For Renewal only. 此標準保費表並未包括由保險業監管局徵收的保費徵費。 This Standard Premium Schedule does not include levy which is collected by the Insurance Authority.",
+   "textPages": [
+    29
+   ]
+  },
+  {
+   "noteId": "p32:1",
+   "anchor": "footer",
+   "page": 32,
+   "bbox": [
+    28.35,
+    692.74,
+    398.39,
+    747.3
+   ],
+   "number": "^",
+   "text": "只適用於續保。 ^For Renewal only. 此標準保費表並未包括由保險業監管局徵收的保費徵費。 This Standard Premium Schedule does not include levy which is collected by the Insurance Authority.",
+   "textPages": [
+    32
+   ]
+  },
+  {
+   "noteId": "p35:1",
+   "anchor": "footer",
+   "page": 35,
+   "bbox": [
+    28.35,
+    692.74,
+    398.39,
+    747.3
+   ],
+   "number": "^",
+   "text": "只適用於續保。 ^For Renewal only. 此標準保費表並未包括由保險業監管局徵收的保費徵費。 This Standard Premium Schedule does not include levy which is collected by the Insurance Authority.",
+   "textPages": [
+    35
+   ]
+  },
+  {
+   "noteId": "p38:1",
+   "anchor": "footer",
+   "page": 38,
+   "bbox": [
+    28.35,
+    692.74,
+    568.98,
+    791.32
+   ],
+   "number": "^",
+   "text": "只適用於續保。 ^For Renewal only. 此適用於中國內地人士之保費表已包括地區風險附加費,但並未包括因健康狀況、職業或其他因素所引致的附加費及由保險業監管局徵收的保費徵費。 This Premium Schedule for Mainland Chinese has applied geographical loading, but does not include loading due to medical conditions, occupation or other factors and levy which is collected by the Insurance Authority. 如海外人士( 不包括香港、澳門及中國內地) 對本計劃之保費有任何查詢,歡迎聯絡我們的理財顧問或致電我們的服務熱線。 If people from overseas (excluding Hong Kong, Macau and Mainland China) have any enquiries on the premiums of the Plan, please contact your financial advisor or call our Service Hotline.",
+   "textPages": [
+    38
+   ]
+  },
+  {
+   "noteId": "p41:1",
+   "anchor": "footer",
+   "page": 41,
+   "bbox": [
+    28.35,
+    692.74,
+    568.98,
+    791.32
+   ],
+   "number": "^",
+   "text": "只適用於續保。 ^For Renewal only. 此適用於中國內地人士之保費表已包括地區風險附加費,但並未包括因健康狀況、職業或其他因素所引致的附加費及由保險業監管局徵收的保費徵費。 This Premium Schedule for Mainland Chinese has applied geographical loading, but does not include loading due to medical conditions, occupation or other factors and levy which is collected by the Insurance Authority. 如海外人士( 不包括香港、澳門及中國內地) 對本計劃之保費有任何查詢,歡迎聯絡我們的理財顧問或致電我們的服務熱線。 If people from overseas (excluding Hong Kong, Macau and Mainland China) have any enquiries on the premiums of the Plan, please contact your financial advisor or call our Service Hotline.",
+   "textPages": [
+    41
+   ]
+  },
+  {
+   "noteId": "p44:1",
+   "anchor": "footer",
+   "page": 44,
+   "bbox": [
+    28.35,
+    692.74,
+    568.98,
+    791.32
+   ],
+   "number": "^",
+   "text": "只適用於續保。 ^For Renewal only. 此適用於中國內地人士之保費表已包括地區風險附加費,但並未包括因健康狀況、職業或其他因素所引致的附加費及由保險業監管局徵收的保費徵費。 This Premium Schedule for Mainland Chinese has applied geographical loading, but does not include loading due to medical conditions, occupation or other factors and levy which is collected by the Insurance Authority. 如海外人士( 不包括香港、澳門及中國內地) 對本計劃之保費有任何查詢,歡迎聯絡我們的理財顧問或致電我們的服務熱線。 If people from overseas (excluding Hong Kong, Macau and Mainland China) have any enquiries on the premiums of the Plan, please contact your financial advisor or call our Service Hotline.",
+   "textPages": [
+    44
+   ]
+  },
+  {
+   "noteId": "p47:1",
+   "anchor": "footer",
+   "page": 47,
+   "bbox": [
+    28.35,
+    692.74,
+    568.98,
+    791.32
+   ],
+   "number": "^",
+   "text": "只適用於續保。 ^For Renewal only. 此適用於中國內地人士之保費表已包括地區風險附加費,但並未包括因健康狀況、職業或其他因素所引致的附加費及由保險業監管局徵收的保費徵費。 This Premium Schedule for Mainland Chinese has applied geographical loading, but does not include loading due to medical conditions, occupation or other factors and levy which is collected by the Insurance Authority. 如海外人士( 不包括香港、澳門及中國內地) 對本計劃之保費有任何查詢,歡迎聯絡我們的理財顧問或致電我們的服務熱線。 If people from overseas (excluding Hong Kong, Macau and Mainland China) have any enquiries on the premiums of the Plan, please contact your financial advisor or call our Service Hotline.",
+   "textPages": [
+    47
    ]
   }
  ],
@@ -4485,7 +4613,7 @@
  ],
  "stats": {
   "anchors": 192,
-  "notes": 24,
+  "notes": 32,
   "resolved": 147
  }
 }

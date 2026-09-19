@@ -1,5 +1,5 @@
 {
- "version": "1.8",
+ "version": "1.9",
  "docId": "8dcf85c7",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/富通/自愿医保/周大福人寿悦康保医疗计划(VHIS)-产品小册子.pdf",
@@ -13,6 +13,22 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p11:1",
+   "anchor": "footer",
+   "page": 11,
+   "bbox": [
+    42.52,
+    736.35,
+    197.54,
+    819.41
+   ],
+   "number": "^",
+   "text": "如需要美元保障表,請聯絡您的理財顧問。 11",
+   "textPages": [
+    11
+   ]
+  },
   {
    "noteId": "p12:1",
    "anchor": "standalone",
@@ -2522,7 +2538,7 @@
  ],
  "stats": {
   "anchors": 102,
-  "notes": 23,
+  "notes": 24,
   "resolved": 99
  }
 }

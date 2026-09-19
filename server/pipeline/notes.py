@@ -89,7 +89,11 @@ def _find_footer_regions(page: int, pls: list, h: float,
         m = _match_item(ln.text, config, t4=True)
         if m and (m.group(1) or "").strip():
             items.append(ln)
-    if len(items) < config.t4_min_items:
+    # 單條目放寬（金標學習：showdoc P6 右欄 / P13 實測）——頁底單條「符號」腳註
+    # 常見（保障表單一定義腳註）。數字段單條與正文行首數字難區分，仍要求 >=2。
+    single_symbol = (len(items) == 1
+                     and bool(re.match(config.symbol_item_pat, items[0].text)))
+    if len(items) < config.t4_min_items and not single_symbol:
         return []
     page_max = max(s.size for l in pls for s in l.spans)
     if any(ln.bbox[1] < h * config.t4_bottom for ln in items):
@@ -111,7 +115,11 @@ def _find_footer_regions(page: int, pls: list, h: float,
         near = 60.0                    # 行首与编号列的水平距离（栏内缩进 <15pt）
         col_items = sorted((ln for ln in items if abs(ln.bbox[0] - c) <= near),
                            key=lambda l: l.bbox[1])
-        if len(col_items) < config.t4_min_items:
+        # 欄內單條目放寬：僅符號/PUA 類（雙欄頁單側單條定義腳註，同上）
+        col_min = 1 if (len(col_items) == 1
+                        and bool(re.match(config.symbol_item_pat, col_items[0].text))) \
+                  else config.t4_min_items
+        if len(col_items) < col_min:
             continue
         first_y = col_items[0].bbox[1]
         col_lines = sorted(

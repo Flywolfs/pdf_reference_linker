@@ -1,5 +1,5 @@
 {
- "version": "1.8",
+ "version": "1.9",
  "docId": "da4e82ca",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/showdoc.jsp.pdf",
@@ -13,6 +13,54 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p7:1",
+   "anchor": "footer",
+   "page": 7,
+   "bbox": [
+    28.35,
+    804.01,
+    279.21,
+    815.1
+   ],
+   "number": "*",
+   "text": "此服務由友邦香港指定服務供應商在香港提供,並不適用於澳門區域。",
+   "textPages": [
+    7
+   ]
+  },
+  {
+   "noteId": "p9:1",
+   "anchor": "footer",
+   "page": 9,
+   "bbox": [
+    28.35,
+    804.44,
+    129.6,
+    814.87
+   ],
+   "number": "~",
+   "text": "需要有關書面建議的證明。",
+   "textPages": [
+    9
+   ]
+  },
+  {
+   "noteId": "p10:1",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    294.79,
+    722.9,
+    333.87,
+    751.95
+   ],
+   "number": "~",
+   "text": "+ ~:",
+   "textPages": [
+    10
+   ]
+  },
   {
    "noteId": "p13:1",
    "anchor": "footer",
@@ -334,7 +382,7 @@
    ]
   },
   {
-   "noteId": "p7:inline20",
+   "noteId": "p7:inline23",
    "anchor": "inline",
    "page": 7,
    "bbox": [
@@ -350,7 +398,7 @@
    ]
   },
   {
-   "noteId": "p8:inline21",
+   "noteId": "p8:inline24",
    "anchor": "inline",
    "page": 8,
    "bbox": [
@@ -1364,7 +1412,7 @@
  ],
  "stats": {
   "anchors": 46,
-  "notes": 22,
+  "notes": 25,
   "resolved": 44
  }
 }

@@ -4,7 +4,7 @@ from typing import Optional
 
 from pydantic import BaseModel, Field
 
-ANALYSIS_VERSION = "1.8"   # 1.8: T4/補標符號集納入 PUA 私用區字符（字體自定義圖形）  # schema 变更时 bump，缓存自动失效
+ANALYSIS_VERSION = "1.9"   # 1.9: T4 單條符號腳註區放寬 + 符號集增 ♠♦~ 與 PUA 範圍（金標學習）  # schema 变更时 bump，缓存自动失效
 
 
 class DocMeta(BaseModel):

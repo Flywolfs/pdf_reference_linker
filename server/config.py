@@ -36,7 +36,7 @@ class ParseConfig:
     # T4 通道编号（无点悬挂形态，编号后须空白或行尾）。PUA 私用区（U+E000–F8FF，
     # 字體自定義符號如 Wingdings 圖形）無法枚舉，以範圍分支納入：
     roman_item_pat: str = r"^\s*(x{0,2}(?:ix|iv|v?i{0,3}))[.、)]?(?:\s+|$)(.*)$"   # i~xxx 小写罗马数字
-    symbol_item_pat: str = r"^\s*([※*†‡§▲#♣^★♠\ue000-\uf8ff]{1,2})[.、)]?(?:\s+|$)(.*)$"
+    symbol_item_pat: str = r"^\s*([※*†‡§▲#♣^★♠♦~\ue000-\uf8ff]{1,2})[.、)]?(?:\s+|$)(.*)$"
 
 
 DEFAULT_CONFIG = ParseConfig()

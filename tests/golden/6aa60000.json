@@ -1,5 +1,5 @@
 {
- "version": "1.8",
+ "version": "1.9",
  "docId": "6aa60000",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/Bowtie/自愿医保/Bowtie自愿医保标准及灵活计划-产品小册子.pdf",
@@ -13,6 +13,54 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p0:1",
+   "anchor": "footer",
+   "page": 0,
+   "bbox": [
+    298.0,
+    771.82,
+    544.8,
+    805.8
+   ],
+   "number": "*",
+   "text": "根據保險業監管局發表的長期保險業務 2021-2023 上半年臨時統計數 字,保泰人壽就網上銷售(即直接銷售)錄得新造個人人壽具保費之保 單數目為全港最高。",
+   "textPages": [
+    0
+   ]
+  },
+  {
+   "noteId": "p4:1",
+   "anchor": "footer",
+   "page": 4,
+   "bbox": [
+    47.0,
+    794.82,
+    352.07,
+    809.12
+   ],
+   "number": "*",
+   "text": "截至 2023 年 9 月,數據為身故風險保障額及健康風險保障額總和,貨幣單位為港元。",
+   "textPages": [
+    4
+   ]
+  },
+  {
+   "noteId": "p5:1",
+   "anchor": "footer",
+   "page": 5,
+   "bbox": [
+    47.0,
+    798.69,
+    216.23,
+    809.6
+   ],
+   "number": "*",
+   "text": "私人門診服務並非 Bowtie 保險產品的一部分。",
+   "textPages": [
+    5
+   ]
+  },
   {
    "noteId": "p18:1",
    "anchor": "footer",
@@ -124,12 +172,15 @@
    "kind": "asterisk",
    "contextBefore": "$600 億+",
    "targets": [
+    "p4:1",
+    "p5:1",
     "p18:2",
     "p19:2",
-    "p20:2"
+    "p20:2",
+    "p0:1"
    ],
-   "targetDisplay": "P19 · 腳註 *",
-   "confidence": 0.75,
+   "targetDisplay": "P5 · 腳註 *",
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -137,7 +188,7 @@
  ],
  "stats": {
   "anchors": 1,
-  "notes": 6,
+  "notes": 9,
   "resolved": 1
  }
 }

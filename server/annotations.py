@@ -10,7 +10,8 @@
   miss（用户框选的漏检角标）
     自动识别+匹配到候选                   → ai_proposed（用户复审）
     未能识别/无候选                       → pending_ai
-  复审：ai_proposed → accept → confirmed（生效）；reject → rejected
+  复审：ai_proposed → accept → confirmed（生效）；reject → 退回 pending_ai
+        （記錄 rejectedTargets，導出任務時提示 AI 避開已錯答案，迭代重試）
   AI 回写（import）：pending_ai → ai_proposed（带 targetNoteId/method/reason）
 """
 import json
@@ -101,9 +102,14 @@ def verdict(doc_id: str, hotspot_id: str, correct: bool, rebind_to: str | None =
     """page_hint：用戶在候選均不對時填寫的頁碼提示（1-based，與 PDF 頁面一致），
     隨 AI 任務導出，幫助 AI 快速定位正確原文。"""
     eid = verdict_entry_id(hotspot_id)
+    prev = load_annotations(doc_id)["entries"].get(eid, {})
     if correct:
-        return set_entry(doc_id, eid,
-                         {"kind": "verdict", "correct": True, "status": "confirmed"})
+        entry = {"kind": "verdict", "correct": True, "status": "confirmed"}
+        # 採納 AI 提案：ai_proposed 的 targetNoteId 視為用戶認可的最終目標
+        if prev.get("status") == "ai_proposed" and prev.get("targetNoteId"):
+            entry["rebindTo"] = prev["targetNoteId"]
+            entry["adoptedAi"] = True
+        return set_entry(doc_id, eid, entry)
     if rebind_to:
         return set_entry(doc_id, eid,
                          {"kind": "verdict", "correct": False, "rebindTo": rebind_to,
@@ -117,7 +123,7 @@ def verdict(doc_id: str, hotspot_id: str, correct: bool, rebind_to: str | None =
 # 補標識別的符號全集：與 notes T4 symbol_item_pat 同集（寬於引擎檢測 STARS——
 # 引擎檢測通道保持保守不動以免黃金快照漂移；人工框選有位置先驗，可放寬）。
 # BASE 之外支援 UI 運行時追加（data/config/symbols.json），即時生效於補標識別。
-BASE_MISS_SYMS = "※*†‡§▲#♣^★♠"
+BASE_MISS_SYMS = "※*†‡§▲#♣^★♠♦~"
 _EXTRA_SYMS_FILE = DATA_DIR / "config" / "symbols.json"
 
 
@@ -321,7 +327,11 @@ def delete_entry(doc_id: str, entry_id: str) -> bool:
 
 
 def review(doc_id: str, entry_id: str, accept: bool, rebind_to: str | None = None) -> dict | None:
-    """复审 ai_proposed：accept → confirmed；reject → rejected。"""
+    """复审 ai_proposed：accept → confirmed；reject → 退回 pending_ai（帶敗績重試）。
+
+    reject 語義（金標學習迭代）：提案錯誤 ≠ 終局——記錄被拒目標（rejectedTargets）
+    並退回待AI，下次導出任務時提示 AI 避開已錯答案；徹底不要用 ✕ 刪除。
+    """
     data = load_annotations(doc_id)
     e = data["entries"].get(entry_id)
     if not e:
@@ -332,7 +342,12 @@ def review(doc_id: str, entry_id: str, accept: bool, rebind_to: str | None = Non
         if target:
             e["rebindTo"] = target
     else:
-        e["status"] = "rejected"
+        e["status"] = "pending_ai"
+        e.pop("targetDisplay", None)
+        rejected = e.setdefault("rejectedTargets", [])
+        wrong = e.pop("targetNoteId", None)
+        if wrong and wrong not in rejected:
+            rejected.append(wrong)
     set_entry(doc_id, entry_id, e)
     return e
 
@@ -360,7 +375,10 @@ def apply_manual(analysis: dict, doc_id: str) -> dict:
             continue
         if not e.get("number") or not e.get("spanBbox"):
             continue
-        target = e.get("rebindTo") or (e.get("targets") or [None])[0]
+        # 目標優先級：鏈接判定（v-{eid} verdict，AI 導入/換綁後的最終目標）
+        # > 補標接受時鎖定的 rebindTo > 當時匹配建議
+        vd = entries.get(f"v-{eid}") or {}
+        target = vd.get("rebindTo") or e.get("rebindTo") or (e.get("targets") or [None])[0]
         analysis["hotspots"].append({
             "id": eid, "page": e["page"], "bbox": e["spanBbox"],
             "text": e["number"], "kind": e.get("anchorKind") or "numeric",
@@ -399,13 +417,28 @@ def export_tasks(doc_id: str, pdf_path: str, analysis: dict) -> tuple[str, int]:
                         + (f"；用户提示正确原文可能在第 {ph} 页（PDF 页码，1-based）" if ph else ""),
             })
         else:
-            tasks.append({
+            task = {
                 "id": eid, "kind": "missed_anchor", "page": e.get("page"),
                 "number": e.get("number"), "bbox": e.get("bbox"),
+                "rejectedTargets": e.get("rejectedTargets") or [],
                 "hint": "用户框选的漏检角标，请从 notesIndex 中找出对应条目",
-            })
+            }
+            if task["rejectedTargets"]:
+                task["hint"] += (f"；以下目標已被用戶拒絕，請勿重複建議，需重新核實："
+                                 f"{', '.join(task['rejectedTargets'])}")
+            tasks.append(task)
     TASKS_DIR.mkdir(parents=True, exist_ok=True)
     out = TASKS_DIR / f"{doc_id}.json"
+    # 歷史歸檔：同名快照會覆蓋，先存 history/{docId}.{generatedAt}.json（可追溯）
+    if out.exists():
+        try:
+            prev = json.loads(out.read_text(encoding="utf-8"))
+            hist_dir = TASKS_DIR / "history"
+            hist_dir.mkdir(parents=True, exist_ok=True)
+            (hist_dir / f"{doc_id}.{prev.get('generatedAt')}.json").write_text(
+                json.dumps(prev, ensure_ascii=False, indent=1), encoding="utf-8")
+        except (json.JSONDecodeError, OSError):
+            pass
     out.write_text(json.dumps({
         "docId": doc_id, "pdfPath": pdf_path, "generatedAt": int(time.time()),
         "notesIndex": notes_idx, "tasks": tasks,

@@ -36,13 +36,14 @@ def _mtime(path: str) -> float:
 
 
 def _composite(doc_id: str, analysis: dict) -> dict:
-    """缓存分析 + 人工数据合成：override 鏈接修正 + 補標熱點注入。
+    """缓存分析 + 人工数据合成：補標熱點注入 → override 鏈接修正。
 
+    須先注入後 override——對注入熱點（m-xxx）的換綁 override 才能生效。
     /api/analyze 與 /api/analysis 必須走同一後處理——否則重開文檔後人工補標
     框與換綁修正全部失效（僅校對後的 refreshAnalysis 路徑可見，實測 bug）。
     """
-    return annotations.apply_manual(
-        cache.apply_overrides(analysis, cache.load_overrides(doc_id)), doc_id)
+    analysis = annotations.apply_manual(analysis, doc_id)
+    return cache.apply_overrides(analysis, cache.load_overrides(doc_id))
 
 
 # ---------- API ----------
@@ -121,6 +122,18 @@ def annotate_verdict(body: VerdictBody):
                 disp = f"P{n['page'] + 1} · {ANCHOR_LABEL.get(n['anchor'], n['anchor'])} {n['number']}"
         cache.save_override(body.docId, body.hotspotId,
                             {"action": "rebind", "targetNoteId": body.rebindTo,
+                             "targetDisplay": disp})
+    elif entry.get("rebindTo"):
+        # 採納 AI 提案（correct + rebindTo）→ 同樣寫換綁 override，閱讀器即時生效
+        analysis = cache.load_analysis(body.docId, _mtime(path))
+        disp = None
+        if analysis:
+            from .pipeline.match import ANCHOR_LABEL
+            n = next((n for n in analysis["notes"] if n["noteId"] == entry["rebindTo"]), None)
+            if n:
+                disp = f"P{n['page'] + 1} · {ANCHOR_LABEL.get(n['anchor'], n['anchor'])} {n['number']}"
+        cache.save_override(body.docId, body.hotspotId,
+                            {"action": "rebind", "targetNoteId": entry["rebindTo"],
                              "targetDisplay": disp})
     else:
         # 改判正確 / 標記待AI → 清除舊換綁覆蓋（重選場景：舊綁定不再生效）

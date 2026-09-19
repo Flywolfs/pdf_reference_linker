@@ -1,5 +1,5 @@
 {
- "version": "1.8",
+ "version": "1.9",
  "docId": "55bce1cc",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/自愿医保灵活计划+.pdf",
@@ -43,6 +43,38 @@
    "text": "指明親屬的定義是根據《稅務條例》 (第112章) 所界定 。 「AIA」、「本公司」或「我們」是指友邦保險 (國際) 有限公司 (於百慕達註冊成立之有限公司) 。",
    "textPages": [
     1
+   ]
+  },
+  {
+   "noteId": "p2:1",
+   "anchor": "footer",
+   "page": 2,
+   "bbox": [
+    28.35,
+    802.85,
+    489.53,
+    813.29
+   ],
+   "number": "*",
+   "text": "環球緊急支援服務是一個額外保障,並不構成自願醫保認可產品的一部份。保單持有人可以書面方式通知本公司取消此額外保障。",
+   "textPages": [
+    2
+   ]
+  },
+  {
+   "noteId": "p3:1",
+   "anchor": "footer",
+   "page": 3,
+   "bbox": [
+    28.35,
+    801.16,
+    228.11,
+    811.59
+   ],
+   "number": "*",
+   "text": "指明親屬的定義是根據《稅務條例》(第112章) 所界定。",
+   "textPages": [
+    3
    ]
   },
   {
@@ -318,7 +350,7 @@
    ]
   },
   {
-   "noteId": "p8:inline19",
+   "noteId": "p8:inline21",
    "anchor": "inline",
    "page": 8,
    "bbox": [
@@ -334,7 +366,7 @@
    ]
   },
   {
-   "noteId": "p10:inline20",
+   "noteId": "p10:inline22",
    "anchor": "inline",
    "page": 10,
    "bbox": [
@@ -1243,7 +1275,7 @@
  ],
  "stats": {
   "anchors": 41,
-  "notes": 21,
+  "notes": 23,
   "resolved": 41
  }
 }

@@ -193,6 +193,12 @@ export default function App() {
   }, [shown])
 
   const hotspots = selected?.analysis.hotspots ?? []
+  // noteId → 展示文本（AI 提案目標渲染用）
+  const noteById = useMemo(() => new Map((selected?.analysis.notes ?? []).map((n) => [n.noteId, n])), [selected])
+  const noteLabel = (noteId?: string | null) => {
+    const n = noteId ? noteById.get(noteId) : null
+    return n ? `P${n.page + 1} · ${dispText(n.number)}` : (noteId ?? '')
+  }
   // 同编号注释条目 = 错链候选（跨注释区复用编号场景）
   const candidatesOf = (h: Hotspot) =>
     (selected?.analysis.notes ?? []).filter((n) => n.anchor !== 'inline' && n.number === h.text)
@@ -433,6 +439,7 @@ export default function App() {
               const v = annos?.entries[`v-${h.id}`]
               const reviewed = v?.kind === 'verdict' && v.status === 'confirmed' && v.correct
               const verdictWrong = v?.kind === 'verdict' && !v.correct
+              const aiProposed = v?.status === 'ai_proposed' && !!v.targetNoteId
               return (
                 <div key={h.id}>
                   <div
@@ -449,8 +456,11 @@ export default function App() {
                     <span className="ref-ctx">{dispText(h.contextBefore) || '…'}</span>
                     <sup className="ref-num">{dispText(h.text)}</sup>
                     <span className="ref-arrow">→</span>
-                    <span className="ref-target">{dispText(h.targetDisplay) || '未匹配'}</span>
+                    <span className="ref-target" title={aiProposed ? 'AI 提案目標（點 ✓ 採納）' : undefined}>
+                      {aiProposed ? noteLabel(v.targetNoteId) : dispText(h.targetDisplay) || '未匹配'}
+                    </span>
                     <span className={'dot ' + (h.confidence >= 0.95 ? 'green' : h.confidence >= 0.7 ? 'amber' : 'gray')} />
+                    {reviewMode && aiProposed && <span className="badge badge-pending">AI提案</span>}
                     {reviewMode && (
                       <span className="rev-btns" onClick={(e) => e.stopPropagation()}>
                         {/* ✓/✗ 常駐可改判：已判定的按鈕帶狀態色，選錯了隨時重選 */}
@@ -521,7 +531,9 @@ export default function App() {
                     >{copiedId === id ? '已複製' : id}</span>
                     <span className="ref-ctx">補標 {dispText(e.number) || '?'}</span>
                     <span className="ref-arrow">→</span>
-                    <span className="ref-target">{dispText(e.targetDisplay ?? e.rebindTo ?? e.targetNoteId) || '未匹配'}</span>
+                    <span className="ref-target">
+                      {dispText(e.targetDisplay ?? e.rebindTo) || noteLabel(e.targetNoteId) || '未匹配'}
+                    </span>
                     <span className="rev-btns" onClick={(ev) => ev.stopPropagation()}>
                       {e.status === 'ai_proposed' && (
                         <>
@@ -531,7 +543,6 @@ export default function App() {
                       )}
                       {e.status === 'pending_ai' && <span className="badge badge-pending">待AI</span>}
                       {e.status === 'confirmed' && <span className="rev-done">✓已生效</span>}
-                      {e.status === 'rejected' && <span className="rev-done">已拒絕</span>}
                       <button title="取消此補標（刪除記錄）" onClick={() => doDeleteMiss(id)}>✕</button>
                     </span>
                   </div>
