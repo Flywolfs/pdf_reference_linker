@@ -168,4 +168,11 @@ export const api = {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ docId, results }),
     }).then(json<{ ok: boolean; imported: number }>),
+
+  exportGold: (docId: string) =>
+    fetch('/api/gold/export', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ docId }),
+    }).then(json<{ ok: boolean; file: string; referenceFile: string; entryCount: number; generatedAt?: number }>),
 }

@@ -4,7 +4,7 @@ from typing import Optional
 
 from pydantic import BaseModel, Field
 
-ANALYSIS_VERSION = "1.9"   # 1.9: T4 單條符號腳註區放寬 + 符號集增 ♠♦~ 與 PUA 範圍（金標學習）  # schema 变更时 bump，缓存自动失效
+ANALYSIS_VERSION = "1.12"  # 1.12: 就近向下匹配規則（同編號腳註跨頁重複時鏈到錨點下方最近者）  # schema 变更时 bump，缓存自动失效
 
 
 class DocMeta(BaseModel):

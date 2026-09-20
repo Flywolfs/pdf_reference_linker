@@ -1,5 +1,5 @@
 {
- "version": "1.9",
+ "version": "1.12",
  "docId": "96d9b97b",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/永明/重疾/永明危疾全护保及至尊保-产品小册子.pdf",
@@ -13,22 +13,6 @@
   "gapRatio": 0.6
  },
  "notes": [
-  {
-   "noteId": "p3:1",
-   "anchor": "footer",
-   "page": 3,
-   "bbox": [
-    42.52,
-    704.84,
-    473.24,
-    830.04
-   ],
-   "number": "*",
-   "text": "餘下保障包括:復發保障、「在乎您」保障、「愛屋及烏」保障升級版及危疾多重額外保障(只適用於永明危疾「至尊」保)。 3",
-   "textPages": [
-    3
-   ]
-  },
   {
    "noteId": "p19:1",
    "anchor": "footer",
@@ -78,7 +62,7 @@
    ]
   },
   {
-   "noteId": "p11:inline4",
+   "noteId": "p11:inline3",
    "anchor": "inline",
    "page": 11,
    "bbox": [
@@ -94,7 +78,7 @@
    ]
   },
   {
-   "noteId": "p11:inline5",
+   "noteId": "p11:inline4",
    "anchor": "inline",
    "page": 11,
    "bbox": [
@@ -110,7 +94,7 @@
    ]
   },
   {
-   "noteId": "p12:inline6",
+   "noteId": "p12:inline5",
    "anchor": "inline",
    "page": 12,
    "bbox": [
@@ -126,7 +110,7 @@
    ]
   },
   {
-   "noteId": "p12:inline7",
+   "noteId": "p12:inline6",
    "anchor": "inline",
    "page": 12,
    "bbox": [
@@ -142,7 +126,7 @@
    ]
   },
   {
-   "noteId": "p12:inline8",
+   "noteId": "p12:inline7",
    "anchor": "inline",
    "page": 12,
    "bbox": [
@@ -158,7 +142,7 @@
    ]
   },
   {
-   "noteId": "p13:inline9",
+   "noteId": "p13:inline8",
    "anchor": "inline",
    "page": 13,
    "bbox": [
@@ -1375,7 +1359,7 @@
  ],
  "stats": {
   "anchors": 63,
-  "notes": 10,
+  "notes": 9,
   "resolved": 0
  }
 }

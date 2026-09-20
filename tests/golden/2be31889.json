@@ -1,5 +1,5 @@
 {
- "version": "1.9",
+ "version": "1.12",
  "docId": "2be31889",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/滙豐/自愿医保/汇丰自愿医保灵活计划-产品册子.pdf",
@@ -13,6 +13,22 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p5:1",
+   "anchor": "footer",
+   "page": 5,
+   "bbox": [
+    26.31,
+    833.85,
+    559.42,
+    874.77
+   ],
+   "number": "^",
+   "text": "「貴賓車安排服務」只為受保於滙豐靈活醫保(鑽級)的合資格客戶提供,並須至少提前一個工作天預約此項服務。此服務須受醫療禮賓服務的詳細條款及細則約束, 並取決於服務供應商當時的貴賓車供應情況。貴賓車接送服務提供者為獨立第三者,並非本公司代理。本公司對服務提供者提供的貴賓車安排服務不承擔任何義務或 責任,本公司毋須就該服務提供者之任何行為或未履行行為而承擔任何責任。本公司對此等服務不負任何責任,且該服務可能隨時更改,恕不另行通知。 5",
+   "textPages": [
+    5
+   ]
+  },
   {
    "noteId": "p18:1",
    "anchor": "standalone",
@@ -254,23 +270,23 @@
    ]
   },
   {
-   "noteId": "p30:1",
+   "noteId": "p25:1",
    "anchor": "footer",
-   "page": 30,
+   "page": 25,
    "bbox": [
-    33.96,
-    763.27,
-    266.9,
-    772.28
+    26.31,
+    819.44,
+    560.79,
+    874.77
    ],
-   "number": "#",
-   "text": "Age refers to the age of the insured person on his or her last birthday.",
+   "number": "^",
+   "text": "Limousine service may be arranged for eligible customers who are insured persons of VHIS Flexi Plan (Diamond level) and are with a reservation of at least one working day in advance, subject to the detailed terms and conditions of Medical Concierge Service11 and availability of a limousine from our service provider at the relevant time. Service providers of limousine transportation are independent third parties and are not agents of the Company. The Company shall not have any obligation or liability whatsoever in relation to the Limousine Arrangement Service provided, and shall not be responsible for any act or failure to act on the part of these service providers. HSBC Life has no liability on the services and the services may change from time to time without prior notice. 5",
    "textPages": [
-    30
+    25
    ]
   },
   {
-   "noteId": "p30:2",
+   "noteId": "p30:1",
    "anchor": "footer",
    "page": 30,
    "bbox": [
@@ -290,22 +306,6 @@
    "anchor": "footer",
    "page": 31,
    "bbox": [
-    34.02,
-    763.27,
-    266.95,
-    772.28
-   ],
-   "number": "#",
-   "text": "Age refers to the age of the insured person on his or her last birthday.",
-   "textPages": [
-    31
-   ]
-  },
-  {
-   "noteId": "p31:2",
-   "anchor": "footer",
-   "page": 31,
-   "bbox": [
     26.31,
     776.94,
     553.9,
@@ -319,22 +319,6 @@
   },
   {
    "noteId": "p32:1",
-   "anchor": "footer",
-   "page": 32,
-   "bbox": [
-    33.96,
-    763.27,
-    266.9,
-    772.28
-   ],
-   "number": "#",
-   "text": "Age refers to the age of the insured person on his or her last birthday.",
-   "textPages": [
-    32
-   ]
-  },
-  {
-   "noteId": "p32:2",
    "anchor": "footer",
    "page": 32,
    "bbox": [
@@ -354,22 +338,6 @@
    "anchor": "footer",
    "page": 33,
    "bbox": [
-    34.02,
-    763.27,
-    266.95,
-    772.28
-   ],
-   "number": "#",
-   "text": "Age refers to the age of the insured person on his or her last birthday.",
-   "textPages": [
-    33
-   ]
-  },
-  {
-   "noteId": "p33:2",
-   "anchor": "footer",
-   "page": 33,
-   "bbox": [
     26.31,
     776.94,
     553.9,
@@ -386,22 +354,6 @@
    "anchor": "footer",
    "page": 34,
    "bbox": [
-    33.96,
-    763.27,
-    266.9,
-    772.28
-   ],
-   "number": "#",
-   "text": "Age refers to the age of the insured person on his or her last birthday.",
-   "textPages": [
-    34
-   ]
-  },
-  {
-   "noteId": "p34:2",
-   "anchor": "footer",
-   "page": 34,
-   "bbox": [
     26.31,
     776.94,
     553.84,
@@ -415,22 +367,6 @@
   },
   {
    "noteId": "p46:1",
-   "anchor": "footer",
-   "page": 46,
-   "bbox": [
-    34.02,
-    735.73,
-    558.19,
-    829.38
-   ],
-   "number": "*",
-   "text": "中国内地及海外医院住院保证免收按金服务是由非本公司之代理的独立承办商(「独立服务供应商」)作协办机构提供的自选服务,并须受以下条款约束: a. 此服务的条款须受中国内地及海外医院住院保证免收按金服务之条款及细则约束。本公司保留不时修订有关条款及细则之权利而不作预先通知。 b. 此为自选服务,客户可透过书面通知本公司选择退出。 c. 受保人使用任何独立服务供应商之服务,须受独立服务供应商(可不时修订)的条款及细则约束。 d. 本公司毋须就该机构提供之服务作表述、保证及承诺。 e. \u0001本公司毋须就以下任何及全部情况向保单持有人或受保人承担任何责任:(i)由任何中国内地及海外医院提供的任何疗程及服务,(ii)任何由协办机构或独立服务供应商提供 的行动、活动、服务或回复,或(iii)受保人及/或保单持有人因该协办机构、独立服务供应商或其代理提供之任何服务或建议或该等服务之供应而直接或间接蒙受或产生 之任何损失、损害、费用、起诉、诉讼或法律程序。",
-   "textPages": [
-    46
-   ]
-  },
-  {
-   "noteId": "p46:2",
    "anchor": "footer",
    "page": 46,
    "bbox": [
@@ -922,12 +858,11 @@
    "kind": "asterisk",
    "contextBefore": "免找數服務7, 8及住院保證免按金服務",
    "targets": [
-    "p30:2",
-    "p31:2",
-    "p32:2",
-    "p33:2",
-    "p34:2",
-    "p46:1"
+    "p30:1",
+    "p31:1",
+    "p32:1",
+    "p33:1",
+    "p34:1"
    ],
    "targetDisplay": "P31 · 腳註 *",
    "confidence": 0.75,
@@ -990,12 +925,11 @@
    "kind": "asterisk",
    "contextBefore": "醫院可享高達7,000美元的住院保證免按金服務。",
    "targets": [
-    "p30:2",
-    "p31:2",
-    "p32:2",
-    "p33:2",
-    "p34:2",
-    "p46:1"
+    "p30:1",
+    "p31:1",
+    "p32:1",
+    "p33:1",
+    "p34:1"
    ],
    "targetDisplay": "P31 · 腳註 *",
    "confidence": 0.75,
@@ -2066,12 +2000,11 @@
    "kind": "asterisk",
    "contextBefore": "service",
    "targets": [
-    "p30:2",
-    "p31:2",
-    "p32:2",
-    "p33:2",
-    "p34:2",
-    "p46:1"
+    "p30:1",
+    "p31:1",
+    "p32:1",
+    "p33:1",
+    "p34:1"
    ],
    "targetDisplay": "P31 · 腳註 *",
    "confidence": 0.75,
@@ -2092,12 +2025,11 @@
    "kind": "asterisk",
    "contextBefore": "er up to USD7,000 at any",
    "targets": [
-    "p30:2",
-    "p31:2",
-    "p32:2",
-    "p33:2",
-    "p34:2",
-    "p46:1"
+    "p30:1",
+    "p31:1",
+    "p32:1",
+    "p33:1",
+    "p34:1"
    ],
    "targetDisplay": "P31 · 腳註 *",
    "confidence": 0.75,
@@ -3063,15 +2995,14 @@
    "kind": "asterisk",
    "contextBefore": "免找数服务7, 8及住院保证免按金服务",
    "targets": [
-    "p46:1",
-    "p30:2",
-    "p31:2",
-    "p32:2",
-    "p33:2",
-    "p34:2"
+    "p30:1",
+    "p31:1",
+    "p32:1",
+    "p33:1",
+    "p34:1"
    ],
-   "targetDisplay": "P47 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P31 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3131,15 +3062,14 @@
    "kind": "asterisk",
    "contextBefore": "医院可享高达7,000美元的住院保证免按金服务。",
    "targets": [
-    "p46:1",
-    "p30:2",
-    "p31:2",
-    "p32:2",
-    "p33:2",
-    "p34:2"
+    "p30:1",
+    "p31:1",
+    "p32:1",
+    "p33:1",
+    "p34:1"
    ],
-   "targetDisplay": "P47 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P31 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3777,7 +3707,7 @@
  ],
  "stats": {
   "anchors": 157,
-  "notes": 27,
+  "notes": 23,
   "resolved": 157
  }
 }

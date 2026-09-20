@@ -20,8 +20,9 @@ class ParseConfig:
     t2_max_head_size: float = 15.0   # T2 页内最大字号上限（排除带大标题的表格页，实测注释页 ≤14pt、表格页 29pt）
     t2_min_span_ratio: float = 0.45  # T2 编号行 y 跨度 / 页高下限
     # ---- 页底悬挂脚注区（T4：罗马数字/符号编号，AIA 单张「資料來源 i~viii」等）----
-    t4_min_items: int = 2            # T4 页内悬挂/同行编号行下限
-    t4_bottom: float = 0.55          # T4 编号行 y0 必须低于页高此比例（页底）
+    t4_min_items: int = 2            # T4 页内编号行下限（符号类单条放寬，見 notes.py）
+    t4_bottom: float = 0.55          # T4 编号行 y0 粗滤阈值（真腳註另須貼近內容底部，見 notes.py）
+    t4_bottom_margin: float = 100.0  # T4 編號行須距頁內內容最底端不超過此 pt（真腳註實測 ≤88；表格列表項 ≥116）
     t4_size_ratio: float = 0.8       # T4 编号行字号 / 页内最大字号上限
     t1_term_ratio: float = 1.15      # T1 跨栏并入时终止行字号 / 注文主字号（基礎計劃保障表 10pt vs 註文 8pt 实测）
     # ---- 匹配（§5.4）----
@@ -36,7 +37,7 @@ class ParseConfig:
     # T4 通道编号（无点悬挂形态，编号后须空白或行尾）。PUA 私用区（U+E000–F8FF，
     # 字體自定義符號如 Wingdings 圖形）無法枚舉，以範圍分支納入：
     roman_item_pat: str = r"^\s*(x{0,2}(?:ix|iv|v?i{0,3}))[.、)]?(?:\s+|$)(.*)$"   # i~xxx 小写罗马数字
-    symbol_item_pat: str = r"^\s*([※*†‡§▲#♣^★♠♦~\ue000-\uf8ff]{1,2})[.、)]?(?:\s+|$)(.*)$"
+    symbol_item_pat: str = r"^\s*([※*†‡§▲#♣^★♠♦~▪\ue000-\uf8ff]{1,2})[.、)]?(?:\s+|$)(.*)$"
 
 
 DEFAULT_CONFIG = ParseConfig()

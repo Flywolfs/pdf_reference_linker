@@ -36,12 +36,21 @@ def match_hotspots(hotspots: list, notes: list, config: ParseConfig,
         scored = []
         for n in cands:
             s = 0
-            if n.page == hs.page and n.anchor == "footer":
-                s += 3                                   # 同页脚注
+            # 就近向下（用戶閱讀習慣，§5.4 修訂）：同編號腳註常跨頁重複出現以便查閱，
+            # 應鏈到錨點「向下最近」的解釋——同頁錨點下方首選，其次後續頁由近及遠，
+            # 更早頁僅在無任何向下候選時兜底。
+            if n.page == hs.page:
+                below = n.bbox[1] >= hs.bbox[3] - 2.0    # 註釋區起點在錨點之下（同行容差）
+                if n.anchor == "footer":
+                    s += 5 if below else 1               # 同頁下方腳註首選；上方罕見
+                else:
+                    s += 4 if below else 1               # 同頁下方備註次之
+            elif n.page > hs.page:
+                s += 3 - min(n.page - hs.page, 3)        # 後續頁：越近越高（2/1/0）
+            else:
+                s -= 4                                   # 更早頁：強懲罰（兜底）
             if hs.text in unique_nums:
                 s += 3                                   # 文档级唯一
-            if (hs.page, hs.bbox[3]) < (n.page, n.bbox[1]):
-                s += 2                                   # 阅读顺序合法
             if n.noteId in titled_note_ids:
                 s += 1                                   # T1 标题锚定区
             key = (n.page, n.anchor)

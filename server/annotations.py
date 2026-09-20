@@ -24,7 +24,7 @@ from .config import ParseConfig
 from .pipeline.anchors import classify
 from .pipeline.extract import _norm
 from .pipeline.match import match_hotspots
-from .pipeline.schema import Hotspot, NoteEntry
+from .pipeline.schema import ANALYSIS_VERSION, Hotspot, NoteEntry
 
 # 人工数据存项目内 data/（劳动成果，不放 ~/.cache 以免被清理工具误删）
 ANNO_DIR = DATA_DIR / "annotations"
@@ -98,9 +98,11 @@ def set_entry(doc_id: str, entry_id: str, entry: dict) -> dict:
 
 
 def verdict(doc_id: str, hotspot_id: str, correct: bool, rebind_to: str | None = None,
-            page_hint: int | None = None) -> dict:
+            page_hint: int | None = None, final_target: str | None = None) -> dict:
     """page_hint：用戶在候選均不對時填寫的頁碼提示（1-based，與 PDF 頁面一致），
-    隨 AI 任務導出，幫助 AI 快速定位正確原文。"""
+    隨 AI 任務導出，幫助 AI 快速定位正確原文。
+    final_target：確認時鎖定的最終目標（路由層由 composite 計算）——
+    記錄用戶認可的目標供金標導出，並由路由層寫 pin override 防重解析漂移。"""
     eid = verdict_entry_id(hotspot_id)
     prev = load_annotations(doc_id)["entries"].get(eid, {})
     if correct:
@@ -109,6 +111,9 @@ def verdict(doc_id: str, hotspot_id: str, correct: bool, rebind_to: str | None =
         if prev.get("status") == "ai_proposed" and prev.get("targetNoteId"):
             entry["rebindTo"] = prev["targetNoteId"]
             entry["adoptedAi"] = True
+        final = rebind_to or entry.get("rebindTo") or final_target
+        if final:
+            entry["targetNoteId"] = final    # 確認即鎖定（金標基準）
         return set_entry(doc_id, eid, entry)
     if rebind_to:
         return set_entry(doc_id, eid,
@@ -123,7 +128,7 @@ def verdict(doc_id: str, hotspot_id: str, correct: bool, rebind_to: str | None =
 # 補標識別的符號全集：與 notes T4 symbol_item_pat 同集（寬於引擎檢測 STARS——
 # 引擎檢測通道保持保守不動以免黃金快照漂移；人工框選有位置先驗，可放寬）。
 # BASE 之外支援 UI 運行時追加（data/config/symbols.json），即時生效於補標識別。
-BASE_MISS_SYMS = "※*†‡§▲#♣^★♠♦~"
+BASE_MISS_SYMS = "※*†‡§▲#♣^★♠♦~▪"
 _EXTRA_SYMS_FILE = DATA_DIR / "config" / "symbols.json"
 
 
@@ -349,6 +354,14 @@ def review(doc_id: str, entry_id: str, accept: bool, rebind_to: str | None = Non
         if wrong and wrong not in rejected:
             rejected.append(wrong)
     set_entry(doc_id, entry_id, e)
+    if accept and target:
+        # 補標重選須同步鏈接判定條目（v-{eid}）：apply_manual 目標優先級
+        # vd.rebindTo > e.rebindTo，不同步則舊 verdict 目標覆蓋用戶新選擇。
+        # rebind override 由路由層同步（須 analysis 上下文生成 display）。
+        vd = load_annotations(doc_id)["entries"].get(f"v-{entry_id}")
+        if vd and vd.get("rebindTo") and vd["rebindTo"] != target:
+            vd["rebindTo"] = target
+            set_entry(doc_id, f"v-{entry_id}", vd)
     return e
 
 
@@ -364,16 +377,48 @@ def restore_hotspot(doc_id: str, hotspot_id: str) -> bool:
     return delete_entry(doc_id, f"x-{hotspot_id}")
 
 
+def sync_miss_target(doc_id: str, hotspot_id: str, target: str,
+                     display: str | None = None) -> None:
+    """verdict 換綁/鎖定時同步 miss 條目的 rebindTo/targetDisplay。
+
+    補標條目區顯示 e.rebindTo（引用總覽區顯示 override/vd.rebindTo），
+    不同步則兩處顯示不一致（P6 '*' 換綁 p5:1 後補標區仍顯示舊 p7:4 實測）。"""
+    data = load_annotations(doc_id)
+    e = data["entries"].get(hotspot_id)
+    if not e or e.get("kind") != "miss":
+        return
+    e["rebindTo"] = target
+    if display:
+        e["targetDisplay"] = display
+    save_annotations(doc_id, data)
+
+
 def apply_manual(analysis: dict, doc_id: str) -> dict:
     """人工數據合成：注入 confirmed 補標熱點 + 過濾已取消引用（誤檢隱藏）。
     過濾須在注入之後——否則取消一個補標注入熱點會被注入步驟加回。"""
     entries = load_annotations(doc_id).get("entries", {})
-    cancelled = {eid[2:] for eid, e in entries.items()
-                 if e.get("kind") == "cancelled" and eid.startswith("x-")}
+    # 墓碑 → 取消時間。墓碑失效規則：取消後條目又被重新框選覆蓋（add_miss
+    # 復用同條目 id、ts 更新）→ 用戶重新框選即視為撤銷取消，引用恢復顯示
+    # （P9 重框 6 個角標被舊墓碑過濾而消失的實測 bug）。
+    tomb_ts: dict[str, float] = {}
+    for eid, e in entries.items():
+        if e.get("kind") == "cancelled" and eid.startswith("x-"):
+            tomb_ts[eid[2:]] = e.get("ts") or 0
+
+    def _tombstoned(hid: str) -> bool:
+        if hid not in tomb_ts:
+            return False
+        me = entries.get(hid)
+        if not me or me.get("kind") != "miss":
+            return True                     # 引擎熱點墓碑：始終有效
+        return (me.get("ts") or 0) <= tomb_ts[hid]
+
     for eid, e in entries.items():
         if e.get("kind") != "miss" or e.get("status") != "confirmed":
             continue
         if not e.get("number") or not e.get("spanBbox"):
+            continue
+        if _tombstoned(eid):
             continue
         # 目標優先級：鏈接判定（v-{eid} verdict，AI 導入/換綁後的最終目標）
         # > 補標接受時鎖定的 rebindTo > 當時匹配建議
@@ -389,7 +434,7 @@ def apply_manual(analysis: dict, doc_id: str) -> dict:
             "group": e.get("group"),
         })
     analysis["hotspots"] = [h for h in analysis.get("hotspots", [])
-                            if h.get("id") not in cancelled]
+                            if not _tombstoned(h.get("id"))]
     return analysis
 
 
@@ -466,3 +511,105 @@ def import_results(doc_id: str, results: dict) -> int:
     if n:
         save_annotations(doc_id, data)
     return n
+
+
+GOLD_DIR = DATA_DIR / "gold"
+
+
+def export_gold(doc_id: str, analysis: dict, raw: dict | None = None) -> tuple[str, str, int]:
+    """導出金標準 + 診斷參考（用戶在 UI 手動觸發，兩個文件一起輸出）。
+
+    gold      data/gold/{docId}.gold.json —— **一個 hotspot 一條記錄**（算 accuracy 用）：
+              verdict 與 miss 對同一補標熱點（m-xxx）會重疊，金標去重合併——
+              link_ok  引擎檢出且判定正確
+              link_fix 引擎檢出但判定錯誤（換綁後的最終目標）
+              miss_add 引擎漏檢、人工補標（m- 條目一律歸此類，其 verdict 併入本條）
+    reference data/gold/{docId}.reference.json —— verdict/miss 全量明細（保留重疊 id），
+              用於區分「系統自己判錯」還是「根本漏檢」、回溯每條判定來源與時間。
+    兩文件均含 cancelled 墓碑（誤檢負樣本，對比時確保未被恢復）。
+    """
+    entries = load_annotations(doc_id).get("entries", {})
+    hs_index = {h["id"]: h for h in analysis["hotspots"]}
+    raw_hs = {h["id"]: h for h in (raw or {}).get("hotspots", [])}
+    notes_idx = {n["noteId"]: n for n in analysis["notes"]}
+
+    def _disp(note_id: str | None) -> str | None:
+        if not note_id or note_id not in notes_idx:
+            return None
+        n = notes_idx[note_id]
+        from .pipeline.match import ANCHOR_LABEL
+        return f"P{n['page'] + 1} · {ANCHOR_LABEL.get(n['anchor'], n['anchor'])} {n['number']}"
+
+    gold_by_id: dict[str, dict] = {}
+    detail = []
+    for eid, e in entries.items():
+        kind = e.get("kind")
+        if kind == "verdict":
+            if e.get("status") != "confirmed":
+                continue
+            hs_id = eid[2:] if eid.startswith("v-") else eid
+            h = hs_index.get(hs_id)
+            if not h:
+                continue
+            final = e.get("targetNoteId") or e.get("rebindTo") or (h.get("targets") or [None])[0]
+            detail.append({
+                "hotspotId": hs_id, "kind": "verdict", "page": h.get("page"),
+                "number": h.get("text"), "contextBefore": h.get("contextBefore"),
+                "anchorBbox": h.get("bbox"),
+                "correct": e.get("correct"), "rebindTo": e.get("rebindTo"),
+                "engineTargets": raw_hs.get(hs_id, {}).get("targets", []),
+                "targetNoteId": final, "targetDisplay": h.get("targetDisplay") or _disp(final),
+                "ts": e.get("ts"),
+            })
+            # 金標通道：引擎熱點（h-）才由 verdict 入 gold；補標熱點（m-）的
+            # verdict 與 miss 記錄重疊，併入 miss_add 條目，保證一 id 一條
+            if not hs_id.startswith("m-"):
+                gold_by_id[hs_id] = {
+                    "hotspotId": hs_id,
+                    "kind": "link_ok" if e.get("correct") else "link_fix",
+                    "page": h.get("page"), "number": h.get("text"),
+                    "contextBefore": h.get("contextBefore"), "anchorBbox": h.get("bbox"),
+                    "engineTargets": raw_hs.get(hs_id, {}).get("targets", []),
+                    "targetNoteId": final,
+                    "targetDisplay": h.get("targetDisplay") or _disp(final),
+                    "ts": e.get("ts"),
+                }
+        elif kind == "miss":
+            if e.get("status") != "confirmed" or not e.get("spanBbox"):
+                continue
+            vd = entries.get(f"v-{eid}") or {}
+            final = (vd.get("targetNoteId") or vd.get("rebindTo") or e.get("rebindTo")
+                     or (e.get("targets") or [None])[0])
+            detail.append({
+                "hotspotId": eid, "kind": "miss", "page": e.get("page"),
+                "number": e.get("number"), "contextBefore": "（人工補標）",
+                "anchorBbox": e.get("spanBbox"),
+                "engineTargets": e.get("targets") or [],
+                "targetNoteId": final, "targetDisplay": _disp(final),
+                "ts": e.get("ts"),
+            })
+            gold_by_id[eid] = {
+                "hotspotId": eid, "kind": "miss_add",
+                "page": e.get("page"), "number": e.get("number"),
+                "contextBefore": "（人工補標）", "anchorBbox": e.get("spanBbox"),
+                "engineTargets": e.get("targets") or [],
+                "targetNoteId": final, "targetDisplay": _disp(final),
+                "ts": e.get("ts"),
+            }
+    cancelled = [
+        {"hotspotId": eid[2:], "page": e.get("page"), "number": e.get("number")}
+        for eid, e in entries.items()
+        if e.get("kind") == "cancelled" and eid.startswith("x-")
+    ]
+    gold_entries = sorted(gold_by_id.values(),
+                          key=lambda g: (g["page"] is None, g["page"], g["hotspotId"]))
+    GOLD_DIR.mkdir(parents=True, exist_ok=True)
+    stamp = {"docId": doc_id, "generatedAt": int(time.time()),
+             "analysisVersion": ANALYSIS_VERSION, "cancelled": cancelled}
+    gold_p = GOLD_DIR / f"{doc_id}.gold.json"
+    gold_p.write_text(json.dumps({**stamp, "entries": gold_entries},
+                                 ensure_ascii=False, indent=1))
+    ref_p = GOLD_DIR / f"{doc_id}.reference.json"
+    ref_p.write_text(json.dumps({**stamp, "entries": detail},
+                                ensure_ascii=False, indent=1))
+    return str(gold_p), str(ref_p), len(gold_entries)

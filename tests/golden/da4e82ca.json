@@ -1,5 +1,5 @@
 {
- "version": "1.9",
+ "version": "1.12",
  "docId": "da4e82ca",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/showdoc.jsp.pdf",
@@ -59,70 +59,6 @@
    "text": "+ ~:",
    "textPages": [
     10
-   ]
-  },
-  {
-   "noteId": "p13:1",
-   "anchor": "footer",
-   "page": 13,
-   "bbox": [
-    78.45,
-    547.64,
-    285.8,
-    580.66
-   ],
-   "number": "1",
-   "text": "脊骨神經科醫生/物理治療師/言語治療師/職業治療師/ 神經外科醫生5 • 診症及/或診療",
-   "textPages": [
-    13
-   ]
-  },
-  {
-   "noteId": "p13:2",
-   "anchor": "footer",
-   "page": 13,
-   "bbox": [
-    78.45,
-    582.74,
-    180.11,
-    603.46
-   ],
-   "number": "2",
-   "text": "腦神經科醫生5 •診症、診療及/或處方西藥",
-   "textPages": [
-    13
-   ]
-  },
-  {
-   "noteId": "p13:3",
-   "anchor": "footer",
-   "page": 13,
-   "bbox": [
-    64.28,
-    605.54,
-    180.11,
-    653.54
-   ],
-   "number": "3",
-   "text": "中醫 •診症、診療及/或處方藥物 (iii)傷殘津貼惠益 連續傷殘超過6個月",
-   "textPages": [
-    13
-   ]
-  },
-  {
-   "noteId": "p13:4",
-   "anchor": "footer",
-   "page": 13,
-   "bbox": [
-    51.52,
-    662.61,
-    230.68,
-    712.25
-   ],
-   "number": "i",
-   "text": "緊急牙齒治療費用賠償 意外發生後3個月內的治療 j. 身故恩恤賠償 如受保人不幸身故,我們將支付此賠償予受益人",
-   "textPages": [
-    13
    ]
   },
   {
@@ -286,6 +222,38 @@
    ]
   },
   {
+   "noteId": "p15:1",
+   "anchor": "footer",
+   "page": 15,
+   "bbox": [
+    48.19,
+    567.0,
+    292.34,
+    624.65
+   ],
+   "number": "4",
+   "text": "會不時波動,您可能因匯率之波動而損失部分的利益價值, 而往後繳交的保費(如有)亦可能會比繳交的首次保費金額為 高。您應留意匯率風險並決定是否承擔該風險。 通脹會導致未來醫療費用增加。因此,本計劃的賠償金額以",
+   "textPages": [
+    15
+   ]
+  },
+  {
+   "noteId": "p15:2",
+   "anchor": "footer",
+   "page": 15,
+   "bbox": [
+    48.19,
+    624.91,
+    228.19,
+    636.65
+   ],
+   "number": "5",
+   "text": "及未來保費率都有可能受調整,以反映通脹。",
+   "textPages": [
+    15
+   ]
+  },
+  {
    "noteId": "p16:1",
    "anchor": "standalone",
    "page": 16,
@@ -382,7 +350,7 @@
    ]
   },
   {
-   "noteId": "p7:inline23",
+   "noteId": "p7:inline21",
    "anchor": "inline",
    "page": 7,
    "bbox": [
@@ -398,7 +366,7 @@
    ]
   },
   {
-   "noteId": "p8:inline24",
+   "noteId": "p8:inline22",
    "anchor": "inline",
    "page": 8,
    "bbox": [
@@ -428,10 +396,11 @@
    "kind": "numeric",
    "contextBefore": "員醫療福利保障",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p15:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
-   "confidence": 0.98,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -450,7 +419,6 @@
    "contextBefore": "且不受其他個人醫療保險計劃",
    "targets": [
     "p14:3",
-    "p13:3",
     "p16:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
@@ -473,7 +441,6 @@
    "contextBefore": "累計上升約39%及27%1",
    "targets": [
     "p14:1",
-    "p13:1",
     "p16:1",
     "p16:4",
     "p16:5"
@@ -498,7 +465,6 @@
    "contextBefore": "累計上升約39%1及27%",
    "targets": [
     "p14:1",
-    "p13:1",
     "p16:1",
     "p16:4",
     "p16:5"
@@ -523,7 +489,6 @@
    "contextBefore": "每日可高達3,800港元",
    "targets": [
     "p14:2",
-    "p13:2",
     "p16:2",
     "p16:6"
    ],
@@ -567,10 +532,11 @@
    "kind": "numeric",
    "contextBefore": "100萬港元",
    "targets": [
-    "p14:4"
+    "p14:4",
+    "p15:1"
    ],
    "targetDisplay": "P15 · 腳註 4",
-   "confidence": 0.98,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -589,7 +555,6 @@
    "contextBefore": "市場首創",
    "targets": [
     "p14:3",
-    "p13:3",
     "p16:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
@@ -654,7 +619,6 @@
    "contextBefore": "市場首創",
    "targets": [
     "p14:3",
-    "p13:3",
     "p16:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
@@ -820,7 +784,6 @@
    "contextBefore": "地域保障範圍選擇",
    "targets": [
     "p14:1",
-    "p13:1",
     "p16:1",
     "p16:4",
     "p16:5"
@@ -845,7 +808,6 @@
    "contextBefore": "長者癌症支援 – 指定癌症豁免自付費",
    "targets": [
     "p14:2",
-    "p13:2",
     "p16:2",
     "p16:6"
    ],
@@ -869,7 +831,6 @@
    "contextBefore": "•罹患指定癌症;及",
    "targets": [
     "p14:3",
-    "p13:3",
     "p16:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
@@ -892,7 +853,6 @@
    "contextBefore": "•\t因該指定癌症而接受任何醫療服務,",
    "targets": [
     "p14:3",
-    "p13:3",
     "p16:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
@@ -915,7 +875,6 @@
    "contextBefore": "受保人罹患的指定癌症所引起的該醫療服務有關的每年",
    "targets": [
     "p14:3",
-    "p13:3",
     "p16:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
@@ -937,7 +896,8 @@
    "kind": "numeric",
    "contextBefore": "保障項目",
    "targets": [
-    "p14:4"
+    "p14:4",
+    "p15:1"
    ],
    "targetDisplay": "P15 · 腳註 4",
    "confidence": 0.98,
@@ -958,7 +918,8 @@
    "kind": "numeric",
    "contextBefore": "d.   專科醫生費",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p15:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -979,7 +940,8 @@
    "kind": "numeric",
    "contextBefore": "i.    訂明診斷成像檢測",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p15:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1042,7 +1004,8 @@
    "kind": "numeric",
    "contextBefore": "k.   入院前或出院後/日間手術前後的門診護理",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p15:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1063,7 +1026,8 @@
    "kind": "numeric",
    "contextBefore": "m. 私家看護費用",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p15:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1084,7 +1048,8 @@
    "kind": "numeric",
    "contextBefore": "n.   透析費用惠益",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p15:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1105,7 +1070,8 @@
    "kind": "numeric",
    "contextBefore": "o.   手術後家中看護惠益",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p15:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1126,7 +1092,8 @@
    "kind": "numeric",
    "contextBefore": "p.  重建手術惠益",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p15:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1147,7 +1114,8 @@
    "kind": "numeric",
    "contextBefore": "保障項目",
    "targets": [
-    "p14:4"
+    "p14:4",
+    "p15:1"
    ],
    "targetDisplay": "P15 · 腳註 4",
    "confidence": 0.98,
@@ -1189,7 +1157,8 @@
    "kind": "numeric",
    "contextBefore": "d.   康復惠益",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p15:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1210,7 +1179,8 @@
    "kind": "numeric",
    "contextBefore": "e.   善終關懷服務惠益",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p15:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1231,7 +1201,8 @@
    "kind": "numeric",
    "contextBefore": "(i)  家中設備提升惠益",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p15:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1252,7 +1223,8 @@
    "kind": "numeric",
    "contextBefore": "神經外科醫生",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p15:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1273,7 +1245,8 @@
    "kind": "numeric",
    "contextBefore": "2.\t 腦神經科醫生",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p15:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1294,7 +1267,8 @@
    "kind": "numeric",
    "contextBefore": "保障項目",
    "targets": [
-    "p14:4"
+    "p14:4",
+    "p15:1"
    ],
    "targetDisplay": "P15 · 腳註 4",
    "confidence": 0.98,
@@ -1316,8 +1290,7 @@
    "contextBefore": "\t 第三期及第四期指定癌症及無法治癒的血液系統惡",
    "targets": [
     "p14:3",
-    "p16:3",
-    "p13:3"
+    "p16:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
    "confidence": 0.98,
@@ -1338,7 +1311,8 @@
    "kind": "numeric",
    "contextBefore": "性腫瘤之第三期臨床試驗藥物賠償",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p15:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1380,7 +1354,8 @@
    "kind": "numeric",
    "contextBefore": "m. 妊娠併發症惠益",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p15:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1412,7 +1387,7 @@
  ],
  "stats": {
   "anchors": 46,
-  "notes": 25,
+  "notes": 23,
   "resolved": 44
  }
 }

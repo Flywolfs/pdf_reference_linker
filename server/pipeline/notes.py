@@ -89,6 +89,13 @@ def _find_footer_regions(page: int, pls: list, h: float,
         m = _match_item(ln.text, config, t4=True)
         if m and (m.group(1) or "").strip():
             items.append(ln)
+    # 貼近內容底部判別（金標學習：showdoc P13 實測）——腳註緊貼本頁內容最底端；
+    # 表格中部列表項（'1. 2. 3.'，y 距底部 >100pt）被濾。比例阈值跨頁高不可靠，
+    # 故以「頁內內容最底端 - margin」為準。
+    bottom_y = max((l.bbox[3] for l in pls), default=0.0)
+    items = [ln for ln in items
+             if ln.bbox[1] >= h * config.t4_bottom
+             and ln.bbox[1] >= bottom_y - config.t4_bottom_margin]
     # 單條目放寬（金標學習：showdoc P6 右欄 / P13 實測）——頁底單條「符號」腳註
     # 常見（保障表單一定義腳註）。數字段單條與正文行首數字難區分，仍要求 >=2。
     single_symbol = (len(items) == 1
@@ -96,8 +103,6 @@ def _find_footer_regions(page: int, pls: list, h: float,
     if len(items) < config.t4_min_items and not single_symbol:
         return []
     page_max = max(s.size for l in pls for s in l.spans)
-    if any(ln.bbox[1] < h * config.t4_bottom for ln in items):
-        return []                      # 编号行必须全部位于页底
     if any(max(s.size for s in ln.spans) > page_max * config.t4_size_ratio
            for ln in items):
         return []                      # 编号行必须小字号

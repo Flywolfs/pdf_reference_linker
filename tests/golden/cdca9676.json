@@ -1,5 +1,5 @@
 {
- "version": "1.9",
+ "version": "1.12",
  "docId": "cdca9676",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/宏利/自愿医保/宏利全护航自愿医保灵活计划-产品单张.pdf",
@@ -190,7 +190,39 @@
    ]
   },
   {
-   "noteId": "p26:inline11",
+   "noteId": "p29:1",
+   "anchor": "footer",
+   "page": 29,
+   "bbox": [
+    55.84,
+    719.32,
+    357.04,
+    742.18
+   ],
+   "number": "iv",
+   "text": "按主診註冊醫生審慎的專業判斷,以最適當的水平向受保人安全及有效地提供。",
+   "textPages": [
+    29
+   ]
+  },
+  {
+   "noteId": "p29:2",
+   "anchor": "footer",
+   "page": 29,
+   "bbox": [
+    36.0,
+    738.32,
+    277.2,
+    812.45
+   ],
+   "number": "v",
+   "text": "有關「合理及慣常」和「醫療所需」的詳細定義,請參閱保單條款。 宏利全護航自願醫保靈活計劃 29",
+   "textPages": [
+    29
+   ]
+  },
+  {
+   "noteId": "p26:inline13",
    "anchor": "inline",
    "page": 26,
    "bbox": [
@@ -267,7 +299,7 @@
  ],
  "stats": {
   "anchors": 3,
-  "notes": 12,
+  "notes": 14,
   "resolved": 0
  }
 }

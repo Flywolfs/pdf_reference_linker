@@ -1,5 +1,5 @@
 {
- "version": "1.9",
+ "version": "1.12",
  "docId": "a9d21f52",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/showdoc.jsp (1).pdf",
@@ -19,22 +19,6 @@
    "page": 1,
    "bbox": [
     623.62,
-    699.18,
-    1116.19,
-    724.37
-   ],
-   "number": "",
-   "text": "有關資格要求的詳情,請參閱本產品簡介第5至6頁。此計劃並不為於中國內地之非「睿選指定醫院」住院及接受或進行醫療服務提供保障。 資料來源(資料搜集日期:2025年9月):",
-   "textPages": [
-    1
-   ]
-  },
-  {
-   "noteId": "p1:2",
-   "anchor": "footer",
-   "page": 1,
-   "bbox": [
-    623.62,
     726.87,
     817.99,
     735.79
@@ -46,7 +30,7 @@
    ]
   },
   {
-   "noteId": "p1:3",
+   "noteId": "p1:2",
    "anchor": "footer",
    "page": 1,
    "bbox": [
@@ -62,7 +46,7 @@
    ]
   },
   {
-   "noteId": "p1:4",
+   "noteId": "p1:3",
    "anchor": "footer",
    "page": 1,
    "bbox": [
@@ -78,7 +62,7 @@
    ]
   },
   {
-   "noteId": "p1:5",
+   "noteId": "p1:4",
    "anchor": "footer",
    "page": 1,
    "bbox": [
@@ -94,7 +78,7 @@
    ]
   },
   {
-   "noteId": "p1:6",
+   "noteId": "p1:5",
    "anchor": "footer",
    "page": 1,
    "bbox": [
@@ -110,7 +94,7 @@
    ]
   },
   {
-   "noteId": "p1:7",
+   "noteId": "p1:6",
    "anchor": "footer",
    "page": 1,
    "bbox": [
@@ -126,7 +110,7 @@
    ]
   },
   {
-   "noteId": "p1:8",
+   "noteId": "p1:7",
    "anchor": "footer",
    "page": 1,
    "bbox": [
@@ -142,7 +126,7 @@
    ]
   },
   {
-   "noteId": "p1:9",
+   "noteId": "p1:8",
    "anchor": "footer",
    "page": 1,
    "bbox": [
@@ -436,17 +420,33 @@
    "bbox": [
     623.62,
     784.54,
-    1005.94,
-    804.29
+    876.92,
+    792.88
    ],
    "number": "▲",
-   "text": "受保人須向友邦提交醫療費用預先批核及出院免找數服務的申請表。 ▪ 有關指定藥物之處方及送遞的重要事項,請參閱本產品簡介第30頁關於此計劃的「產品限制」部分第22項。",
+   "text": "受保人須向友邦提交醫療費用預先批核及出院免找數服務的申請表。",
    "textPages": [
     6
    ]
   },
   {
    "noteId": "p6:6",
+   "anchor": "footer",
+   "page": 6,
+   "bbox": [
+    623.62,
+    794.89,
+    1005.94,
+    804.29
+   ],
+   "number": "▪",
+   "text": "有關指定藥物之處方及送遞的重要事項,請參閱本產品簡介第30頁關於此計劃的「產品限制」部分第22項。",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p6:7",
    "anchor": "footer",
    "page": 6,
    "bbox": [
@@ -910,6 +910,22 @@
    ]
   },
   {
+   "noteId": "p12:1",
+   "anchor": "footer",
+   "page": 12,
+   "bbox": [
+    623.62,
+    787.1,
+    1162.21,
+    815.71
+   ],
+   "number": "*",
+   "text": "全數賠償是指就醫療所需的服務不設分項賠償限額,而賠償申請將按合理及慣常收費進行評估。賠償金額以保障表所列明的保障限額為限,包括每年保 障限額、終身保障限額及每年自付費。有關「合理及慣常」和「醫療所需」的定義,請參閱本產品簡介第28頁之「產品限制」第1項。與住院有關的可賠償 的保障受適用的受保病房所限制。",
+   "textPages": [
+    12
+   ]
+  },
+  {
    "noteId": "p13:1",
    "anchor": "standalone",
    "page": 13,
@@ -1198,6 +1214,38 @@
    ]
   },
   {
+   "noteId": "p14:1",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    640.63,
+    664.33,
+    878.74,
+    722.94
+   ],
+   "number": "*",
+   "text": "全數賠償是指就醫療所需的服務不設分項賠償限額,而賠償申請將 按合理及慣常收費進行評估。賠償金額以保障表所列明的保障限額 為限,包括每年保障限額、終身保障限額及每年自付費。有關「合理 及慣常」和「醫療所需」的定義,請參閱本產品簡介第28頁之「產品 限制」第1項。與住院有關的可賠償的保障受適用的受保病房所限 制。",
+   "textPages": [
+    14
+   ]
+  },
+  {
+   "noteId": "p14:2",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    640.63,
+    731.79,
+    878.72,
+    753.0
+   ],
+   "number": "3",
+   "text": "此計劃下的合資格費用將涵蓋對醫療服務的費用收取或征收 的增值稅和商品及服務稅。",
+   "textPages": [
+    14
+   ]
+  },
+  {
    "noteId": "p18:1",
    "anchor": "standalone",
    "page": 18,
@@ -1246,7 +1294,7 @@
    ]
   },
   {
-   "noteId": "p7:inline77",
+   "noteId": "p7:inline80",
    "anchor": "inline",
    "page": 7,
    "bbox": [
@@ -1262,7 +1310,7 @@
    ]
   },
   {
-   "noteId": "p7:inline78",
+   "noteId": "p7:inline81",
    "anchor": "inline",
    "page": 7,
    "bbox": [
@@ -1317,7 +1365,8 @@
    "targets": [
     "p9:3",
     "p13:3",
-    "p18:3"
+    "p18:3",
+    "p14:2"
    ],
    "targetDisplay": "P10 · 備註 3",
    "confidence": 0.75,
@@ -1361,7 +1410,7 @@
    "kind": "letter",
    "contextBefore": "於2024年,香港的醫療通脹率高達10.3%,而",
    "targets": [
-    "p1:2"
+    "p1:1"
    ],
    "targetDisplay": "P2 · 腳註 i",
    "confidence": 0.98,
@@ -1382,7 +1431,7 @@
    "kind": "letter",
    "contextBefore": "以上人口佔47%",
    "targets": [
-    "p1:6"
+    "p1:5"
    ],
    "targetDisplay": "P2 · 腳註 v",
    "confidence": 0.98,
@@ -1656,7 +1705,8 @@
    "targets": [
     "p9:3",
     "p13:3",
-    "p18:3"
+    "p18:3",
+    "p14:2"
    ],
    "targetDisplay": "P10 · 備註 3",
    "confidence": 0.75,
@@ -1770,7 +1820,8 @@
    "targets": [
     "p9:3",
     "p13:3",
-    "p18:3"
+    "p18:3",
+    "p14:2"
    ],
    "targetDisplay": "P10 · 備註 3",
    "confidence": 0.75,
@@ -2631,7 +2682,7 @@
     "p13:11"
    ],
    "targetDisplay": "P10 · 備註 11",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2653,7 +2704,7 @@
     "p13:11"
    ],
    "targetDisplay": "P10 · 備註 11",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2676,7 +2727,7 @@
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
-   "confidence": 0.75,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2699,7 +2750,7 @@
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
-   "confidence": 0.75,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2722,7 +2773,7 @@
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
-   "confidence": 0.75,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2745,7 +2796,7 @@
     "p18:2"
    ],
    "targetDisplay": "P10 · 備註 2",
-   "confidence": 0.75,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2765,10 +2816,11 @@
    "targets": [
     "p9:3",
     "p13:3",
-    "p18:3"
+    "p18:3",
+    "p14:2"
    ],
    "targetDisplay": "P10 · 備註 3",
-   "confidence": 0.75,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2834,6 +2886,7 @@
    "targets": [
     "p13:3",
     "p18:3",
+    "p14:2",
     "p9:3"
    ],
    "targetDisplay": "P14 · 備註 3",
@@ -2879,6 +2932,7 @@
    "targets": [
     "p13:3",
     "p18:3",
+    "p14:2",
     "p9:3"
    ],
    "targetDisplay": "P14 · 備註 3",
@@ -2902,6 +2956,7 @@
    "targets": [
     "p13:3",
     "p18:3",
+    "p14:2",
     "p9:3"
    ],
    "targetDisplay": "P14 · 備註 3",
@@ -2969,6 +3024,7 @@
    "targets": [
     "p13:3",
     "p18:3",
+    "p14:2",
     "p9:3"
    ],
    "targetDisplay": "P14 · 備註 3",
@@ -2992,6 +3048,7 @@
    "targets": [
     "p13:3",
     "p18:3",
+    "p14:2",
     "p9:3"
    ],
    "targetDisplay": "P14 · 備註 3",
@@ -3015,6 +3072,7 @@
    "targets": [
     "p13:3",
     "p18:3",
+    "p14:2",
     "p9:3"
    ],
    "targetDisplay": "P14 · 備註 3",
@@ -3802,7 +3860,7 @@
     "p9:2"
    ],
    "targetDisplay": "P14 · 備註 2",
-   "confidence": 0.75,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3821,11 +3879,12 @@
    "contextBefore": "必須於「睿選指定醫院」名單內的私家醫",
    "targets": [
     "p13:3",
+    "p14:2",
     "p18:3",
     "p9:3"
    ],
    "targetDisplay": "P14 · 備註 3",
-   "confidence": 0.75,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -4063,7 +4122,8 @@
    "targets": [
     "p18:3",
     "p9:3",
-    "p13:3"
+    "p13:3",
+    "p14:2"
    ],
    "targetDisplay": "P19 · 備註 3",
    "confidence": 0.98,
@@ -4120,7 +4180,7 @@
  ],
  "stats": {
   "anchors": 127,
-  "notes": 79,
+  "notes": 82,
   "resolved": 127
  }
 }

@@ -1,5 +1,5 @@
 {
- "version": "1.9",
+ "version": "1.12",
  "docId": "8b19a4a8",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/Bowtie/重疾/Bowtie早期及多重危疾保-产品条款.pdf",
@@ -12,11 +12,76 @@
   "riseRatio": 0.22,
   "gapRatio": 0.6
  },
- "notes": [],
+ "notes": [
+  {
+   "noteId": "p9:1",
+   "anchor": "footer",
+   "page": 9,
+   "bbox": [
+    104.46,
+    695.94,
+    156.95,
+    708.52
+   ],
+   "number": "23",
+   "text": "脊髓灰質炎",
+   "textPages": [
+    9
+   ]
+  },
+  {
+   "noteId": "p9:2",
+   "anchor": "footer",
+   "page": 9,
+   "bbox": [
+    72.01,
+    713.22,
+    342.17,
+    788.0
+   ],
+   "number": "24",
+   "text": "中風 © 2023 年保泰人壽保險有限公司版權所有。保留所有權利。",
+   "textPages": [
+    9
+   ]
+  },
+  {
+   "noteId": "p9:3",
+   "anchor": "footer",
+   "page": 9,
+   "bbox": [
+    329.4,
+    711.76,
+    399.3,
+    725.8
+   ],
+   "number": "44",
+   "text": "不能獨立生活(b)",
+   "textPages": [
+    9
+   ]
+  },
+  {
+   "noteId": "p9:4",
+   "anchor": "footer",
+   "page": 9,
+   "bbox": [
+    329.4,
+    729.04,
+    399.29,
+    743.08
+   ],
+   "number": "45",
+   "text": "重大醫療情況(c)",
+   "textPages": [
+    9
+   ]
+  }
+ ],
  "hotspots": [],
  "stats": {
   "anchors": 0,
-  "notes": 0,
+  "notes": 4,
   "resolved": 0
  }
 }

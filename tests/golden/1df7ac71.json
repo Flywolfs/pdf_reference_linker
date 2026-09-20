@@ -1,5 +1,5 @@
 {
- "version": "1.9",
+ "version": "1.12",
  "docId": "1df7ac71",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/中銀人壽/重疾/中银人寿危疾188终身寿险计划-产品小册子.pdf",
@@ -13,6 +13,22 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p0:1",
+   "anchor": "footer",
+   "page": 0,
+   "bbox": [
+    89.4,
+    691.65,
+    485.39,
+    711.29
+   ],
+   "number": "*",
+   "text": "資料來源:中銀人壽根據10Life保險比較平台,截至2023年9月30日,中銀人壽危疾188終身壽險計劃在10Life 5星 保險大獎2023榮獲5星終身危疾保險獎及在終身危疾保險類別榮獲「9.3/10」保障評分。詳情: www.10life.com。",
+   "textPages": [
+    0
+   ]
+  },
   {
    "noteId": "p12:1",
    "anchor": "standalone",
@@ -62,7 +78,7 @@
    ]
   },
   {
-   "noteId": "p1:inline3",
+   "noteId": "p1:inline4",
    "anchor": "inline",
    "page": 1,
    "bbox": [
@@ -78,7 +94,7 @@
    ]
   },
   {
-   "noteId": "p3:inline4",
+   "noteId": "p3:inline5",
    "anchor": "inline",
    "page": 3,
    "bbox": [
@@ -94,7 +110,7 @@
    ]
   },
   {
-   "noteId": "p10:inline5",
+   "noteId": "p10:inline6",
    "anchor": "inline",
    "page": 10,
    "bbox": [
@@ -921,9 +937,11 @@
    "text": "*",
    "kind": "asterisk",
    "contextBefore": "10年",
-   "targets": [],
-   "targetDisplay": null,
-   "confidence": 0.5,
+   "targets": [
+    "p0:1"
+   ],
+   "targetDisplay": "P1 · 腳註 *",
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2690,7 +2708,7 @@
  ],
  "stats": {
   "anchors": 134,
-  "notes": 6,
-  "resolved": 15
+  "notes": 7,
+  "resolved": 16
  }
 }

@@ -1,5 +1,5 @@
 {
- "version": "1.9",
+ "version": "1.12",
  "docId": "b8156ad7",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/自愿医保标准计划.pdf",
@@ -47,22 +47,6 @@
   },
   {
    "noteId": "p2:1",
-   "anchor": "footer",
-   "page": 2,
-   "bbox": [
-    28.36,
-    529.54,
-    128.55,
-    543.58
-   ],
-   "number": "x",
-   "text": "4)的稅務扣減金額。",
-   "textPages": [
-    2
-   ]
-  },
-  {
-   "noteId": "p2:2",
    "anchor": "footer",
    "page": 2,
    "bbox": [
@@ -270,7 +254,7 @@
    ]
   },
   {
-   "noteId": "p6:inline16",
+   "noteId": "p6:inline15",
    "anchor": "inline",
    "page": 6,
    "bbox": [
@@ -286,7 +270,7 @@
    ]
   },
   {
-   "noteId": "p8:inline17",
+   "noteId": "p8:inline16",
    "anchor": "inline",
    "page": 8,
    "bbox": [
@@ -320,7 +304,7 @@
     "p14:2"
    ],
    "targetDisplay": "P11 · 腳註 1",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -342,7 +326,7 @@
     "p14:4"
    ],
    "targetDisplay": "P11 · 腳註 2",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -364,7 +348,7 @@
     "p14:3"
    ],
    "targetDisplay": "P11 · 腳註 5",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -386,7 +370,7 @@
     "p14:3"
    ],
    "targetDisplay": "P11 · 腳註 5",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -408,7 +392,7 @@
     "p14:4"
    ],
    "targetDisplay": "P11 · 腳註 2",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0004"
@@ -430,7 +414,7 @@
     "p14:5"
    ],
    "targetDisplay": "P11 · 腳註 3",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0004"
@@ -473,7 +457,7 @@
     "p14:1"
    ],
    "targetDisplay": "P11 · 腳註 4",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -495,7 +479,7 @@
     "p14:4"
    ],
    "targetDisplay": "P11 · 腳註 2",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -525,7 +509,7 @@
  ],
  "stats": {
   "anchors": 10,
-  "notes": 18,
+  "notes": 17,
   "resolved": 10
  }
 }

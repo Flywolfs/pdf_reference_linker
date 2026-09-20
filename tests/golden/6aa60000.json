@@ -1,5 +1,5 @@
 {
- "version": "1.9",
+ "version": "1.12",
  "docId": "6aa60000",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/Bowtie/自愿医保/Bowtie自愿医保标准及灵活计划-产品小册子.pdf",
@@ -156,6 +156,22 @@
    "textPages": [
     20
    ]
+  },
+  {
+   "noteId": "p23:1",
+   "anchor": "footer",
+   "page": 23,
+   "bbox": [
+    48.0,
+    647.82,
+    186.91,
+    661.82
+   ],
+   "number": "^",
+   "text": "賠償詳情(如適用)請參考以下部份。",
+   "textPages": [
+    23
+   ]
   }
  ],
  "hotspots": [
@@ -188,7 +204,7 @@
  ],
  "stats": {
   "anchors": 1,
-  "notes": 9,
+  "notes": 10,
   "resolved": 1
  }
 }

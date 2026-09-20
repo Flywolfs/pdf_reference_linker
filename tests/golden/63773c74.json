@@ -1,5 +1,5 @@
 {
- "version": "1.9",
+ "version": "1.12",
  "docId": "63773c74",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/滙豐/重疾/汇达保危疾保障计划-产品册子.pdf",
@@ -43,22 +43,6 @@
    "text": "醫院管理局香港癌症資料統計中心:2019年香港十大女性癌症(2021年公佈)",
    "textPages": [
     1
-   ]
-  },
-  {
-   "noteId": "p4:1",
-   "anchor": "footer",
-   "page": 4,
-   "bbox": [
-    45.64,
-    605.61,
-    465.66,
-    617.14
-   ],
-   "number": "*",
-   "text": "如受保人確診計劃涵蓋的危疾並最少存活14日,將可獲100%保額,並受制於索償評估及所需醫療證明。",
-   "textPages": [
-    4
    ]
   },
   {
@@ -1727,7 +1711,7 @@
  ],
  "stats": {
   "anchors": 73,
-  "notes": 11,
+  "notes": 10,
   "resolved": 73
  }
 }

@@ -1,5 +1,5 @@
 {
- "version": "1.9",
+ "version": "1.12",
  "docId": "55bce1cc",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/自愿医保灵活计划+.pdf",
@@ -270,6 +270,38 @@
    ]
   },
   {
+   "noteId": "p16:1",
+   "anchor": "footer",
+   "page": 16,
+   "bbox": [
+    48.21,
+    579.0,
+    285.99,
+    626.73
+   ],
+   "number": "4",
+   "text": "若保險計劃的貨幣並非本地貨幣,您須承受匯率風險。匯率 會不時波動,您可能因匯率之波動而損失部分的利益價值, 而往後繳交的保費(如有)亦可能會比繳交的首次保費金額 為高。您應留意匯率風險並決定是否承擔該風險。",
+   "textPages": [
+    16
+   ]
+  },
+  {
+   "noteId": "p16:2",
+   "anchor": "footer",
+   "page": 16,
+   "bbox": [
+    48.21,
+    636.91,
+    283.56,
+    660.65
+   ],
+   "number": "5",
+   "text": "通脹會導致未來醫療費用增加。因此,本計劃的賠償金額以 及未來保費率都有可能受調整,以反映通脹。",
+   "textPages": [
+    16
+   ]
+  },
+  {
    "noteId": "p17:1",
    "anchor": "standalone",
    "page": 17,
@@ -350,7 +382,7 @@
    ]
   },
   {
-   "noteId": "p8:inline21",
+   "noteId": "p8:inline23",
    "anchor": "inline",
    "page": 8,
    "bbox": [
@@ -366,7 +398,7 @@
    ]
   },
   {
-   "noteId": "p10:inline22",
+   "noteId": "p10:inline24",
    "anchor": "inline",
    "page": 10,
    "bbox": [
@@ -547,10 +579,11 @@
    "kind": "numeric",
    "contextBefore": "外科醫生費的35%",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p16:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
-   "confidence": 0.98,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -568,10 +601,11 @@
    "kind": "numeric",
    "contextBefore": "外科醫生費的35%",
    "targets": [
-    "p14:5"
+    "p14:5",
+    "p16:2"
    ],
    "targetDisplay": "P15 · 腳註 5",
-   "confidence": 0.98,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -723,7 +757,7 @@
     "p17:2"
    ],
    "targetDisplay": "P15 · 腳註 1",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0015"
@@ -762,7 +796,8 @@
    "kind": "numeric",
    "contextBefore": "j.    訂明非手術癌症治療",
    "targets": [
-    "p14:4"
+    "p14:4",
+    "p16:1"
    ],
    "targetDisplay": "P15 · 腳註 4",
    "confidence": 0.98,
@@ -788,7 +823,7 @@
     "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -811,7 +846,7 @@
     "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -834,7 +869,7 @@
     "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -941,7 +976,7 @@
     "p17:2"
    ],
    "targetDisplay": "P15 · 腳註 1",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0025"
@@ -1027,7 +1062,7 @@
     "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1050,7 +1085,7 @@
     "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0030"
@@ -1072,7 +1107,7 @@
     "p17:5"
    ],
    "targetDisplay": "P15 · 腳註 3",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0030"
@@ -1095,7 +1130,7 @@
     "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1118,7 +1153,7 @@
     "p17:4"
    ],
    "targetDisplay": "P15 · 腳註 2",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1275,7 +1310,7 @@
  ],
  "stats": {
   "anchors": 41,
-  "notes": 23,
+  "notes": 25,
   "resolved": 41
  }
 }

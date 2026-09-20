@@ -1,5 +1,5 @@
 {
- "version": "1.9",
+ "version": "1.12",
  "docId": "3d63a43d",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/富通/重疾/守护168危疾保障计划(加强版)-产品小册子.pdf",
@@ -13,6 +13,118 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p10:1",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    75.12,
+    739.4,
+    190.97,
+    751.28
+   ],
+   "number": "56",
+   "text": "不能獨立生活(保障至64歲)",
+   "textPages": [
+    10
+   ]
+  },
+  {
+   "noteId": "p10:2",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    75.12,
+    755.56,
+    185.28,
+    767.09
+   ],
+   "number": "57",
+   "text": "喪失肢體(一肢)及單目失明",
+   "textPages": [
+    10
+   ]
+  },
+  {
+   "noteId": "p10:3",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    75.12,
+    771.71,
+    130.02,
+    783.24
+   ],
+   "number": "58",
+   "text": "喪失說話能力",
+   "textPages": [
+    10
+   ]
+  },
+  {
+   "noteId": "p10:4",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    75.12,
+    787.87,
+    171.42,
+    799.4
+   ],
+   "number": "59",
+   "text": "喪失肢體(兩肢或以上)",
+   "textPages": [
+    10
+   ]
+  },
+  {
+   "noteId": "p10:5",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    299.06,
+    739.4,
+    424.09,
+    751.28
+   ],
+   "number": "66",
+   "text": "完全及永久傷殘(保障至75歲)",
+   "textPages": [
+    10
+   ]
+  },
+  {
+   "noteId": "p10:6",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    299.06,
+    755.56,
+    317.24,
+    767.09
+   ],
+   "number": "67",
+   "text": "失明",
+   "textPages": [
+    10
+   ]
+  },
+  {
+   "noteId": "p10:7",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    299.06,
+    771.71,
+    317.24,
+    783.24
+   ],
+   "number": "68",
+   "text": "失聰",
+   "textPages": [
+    10
+   ]
+  },
   {
    "noteId": "p14:1",
    "anchor": "standalone",
@@ -382,7 +494,7 @@
    ]
   },
   {
-   "noteId": "p2:inline23",
+   "noteId": "p2:inline30",
    "anchor": "inline",
    "page": 2,
    "bbox": [
@@ -398,7 +510,7 @@
    ]
   },
   {
-   "noteId": "p9:inline24",
+   "noteId": "p9:inline31",
    "anchor": "inline",
    "page": 9,
    "bbox": [
@@ -2854,7 +2966,7 @@
  ],
  "stats": {
   "anchors": 116,
-  "notes": 25,
+  "notes": 32,
   "resolved": 116
  }
 }

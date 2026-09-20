@@ -98,6 +98,32 @@ def get_annotations(doc_id: str):
     return annotations.load_annotations(doc_id)
 
 
+def _write_rebind_override(doc_id: str, hotspot_id: str, note_id: str) -> str | None:
+    """寫換綁 override（附友好 display），verdict 換綁 / 採納提案 / 確認鎖定共用。"""
+    path = _resolve(doc_id)
+    analysis = cache.load_analysis(doc_id, _mtime(path))
+    disp = None
+    if analysis:
+        from .pipeline.match import ANCHOR_LABEL
+        n = next((n for n in analysis["notes"] if n["noteId"] == note_id), None)
+        if n:
+            disp = f"P{n['page'] + 1} · {ANCHOR_LABEL.get(n['anchor'], n['anchor'])} {n['number']}"
+    cache.save_override(doc_id, hotspot_id,
+                        {"action": "rebind", "targetNoteId": note_id, "targetDisplay": disp})
+    return disp
+
+
+def _current_composite_target(doc_id: str, hotspot_id: str) -> str | None:
+    """確認鎖定用：當前 composite 顯示中該熱點的最終目標（即用戶點 ✓ 時看到的）。"""
+    path = _resolve(doc_id)
+    analysis = cache.load_analysis(doc_id, _mtime(path))
+    if not analysis:
+        return None
+    comp = _composite(doc_id, analysis)
+    h = next((h for h in comp["hotspots"] if h["id"] == hotspot_id), None)
+    return (h.get("targets") or [None])[0] if h else None
+
+
 class VerdictBody(BaseModel):
     docId: str
     hotspotId: str
@@ -108,35 +134,25 @@ class VerdictBody(BaseModel):
 
 @app.post("/api/annotate/verdict")
 def annotate_verdict(body: VerdictBody):
-    path = _resolve(body.docId)
+    _resolve(body.docId)
+    # 確認即鎖定：✓ 時把當前顯示目標 pin 為金標基準（entry.targetNoteId +
+    # rebind override），引擎重解析/規則調整不再漂移用戶已確認的鏈接
+    final_fallback = (_current_composite_target(body.docId, body.hotspotId)
+                      if body.correct and not body.rebindTo else None)
     entry = annotations.verdict(body.docId, body.hotspotId, body.correct,
-                                body.rebindTo, body.pageHint)
-    if entry["status"] == "confirmed" and not entry["correct"]:
-        # 错链换候选 → 写 override（生成友好 display），阅读器即时生效
-        analysis = cache.load_analysis(body.docId, _mtime(path))
-        disp = None
-        if analysis:
-            from .pipeline.match import ANCHOR_LABEL
-            n = next((n for n in analysis["notes"] if n["noteId"] == body.rebindTo), None)
-            if n:
-                disp = f"P{n['page'] + 1} · {ANCHOR_LABEL.get(n['anchor'], n['anchor'])} {n['number']}"
-        cache.save_override(body.docId, body.hotspotId,
-                            {"action": "rebind", "targetNoteId": body.rebindTo,
-                             "targetDisplay": disp})
-    elif entry.get("rebindTo"):
-        # 採納 AI 提案（correct + rebindTo）→ 同樣寫換綁 override，閱讀器即時生效
-        analysis = cache.load_analysis(body.docId, _mtime(path))
-        disp = None
-        if analysis:
-            from .pipeline.match import ANCHOR_LABEL
-            n = next((n for n in analysis["notes"] if n["noteId"] == entry["rebindTo"]), None)
-            if n:
-                disp = f"P{n['page'] + 1} · {ANCHOR_LABEL.get(n['anchor'], n['anchor'])} {n['number']}"
-        cache.save_override(body.docId, body.hotspotId,
-                            {"action": "rebind", "targetNoteId": entry["rebindTo"],
-                             "targetDisplay": disp})
+                                body.rebindTo, body.pageHint,
+                                final_target=final_fallback)
+    if entry["status"] == "confirmed" and not entry["correct"] and body.rebindTo:
+        # 错链换候选 → 写 override（生成友好 display），阅读器即时生效；
+        # 同步 miss 條目（補標區顯示 e.rebindTo，不同步兩處顯示不一致）
+        disp = _write_rebind_override(body.docId, body.hotspotId, body.rebindTo)
+        annotations.sync_miss_target(body.docId, body.hotspotId, body.rebindTo, disp)
+    elif body.correct and entry.get("targetNoteId"):
+        # 確認鎖定 / 採納 AI 提案 → pin override + 同步 miss 條目
+        disp = _write_rebind_override(body.docId, body.hotspotId, entry["targetNoteId"])
+        annotations.sync_miss_target(body.docId, body.hotspotId, entry["targetNoteId"], disp)
     else:
-        # 改判正確 / 標記待AI → 清除舊換綁覆蓋（重選場景：舊綁定不再生效）
+        # 無目標的確認 / 標記待AI → 清除舊換綁覆蓋（重選場景：舊綁定不再生效）
         cache.delete_override(body.docId, body.hotspotId)
     return {"ok": True, "entry": entry}
 
@@ -181,6 +197,10 @@ def annotate_review(body: ReviewBody):
     entry = annotations.review(body.docId, body.entryId, body.accept, body.rebindTo)
     if entry is None:
         raise HTTPException(404, f"标注条目不存在: {body.entryId}")
+    # 補標重選同步 rebind override：_composite 中 apply_overrides 優先級最高，
+    # 不同步則舊 override 目標覆蓋用戶在補標條目上的新選擇（實測 m-ae0d8268 bug）
+    if body.accept and entry.get("rebindTo"):
+        _write_rebind_override(body.docId, body.entryId, entry["rebindTo"])
     return {"ok": True, "entry": entry}
 
 
@@ -211,6 +231,34 @@ def annotate_last_export(doc_id: str):
         return {"generatedAt": json.loads(p.read_text(encoding="utf-8")).get("generatedAt")}
     except json.JSONDecodeError:
         return {"generatedAt": None}
+
+
+@app.get("/api/gold/last-export/{doc_id}")
+def gold_last_export(doc_id: str):
+    """上次金標導出時間（供前端展示導出狀態）。"""
+    _resolve(doc_id)
+    p = annotations.GOLD_DIR / f"{doc_id}.gold.json"
+    if not p.exists():
+        return {"generatedAt": None}
+    try:
+        return {"generatedAt": json.loads(p.read_text(encoding="utf-8")).get("generatedAt")}
+    except json.JSONDecodeError:
+        return {"generatedAt": None}
+
+
+@app.post("/api/gold/export")
+def gold_export(body: DocBody):
+    """導出金標準（一 id 一條，算 accuracy 用）+ 診斷參考（verdict/miss 明細）。"""
+    path = _resolve(body.docId)
+    analysis = cache.load_analysis(body.docId, _mtime(path))
+    if not analysis:
+        analysis = analyze_pdf(path, body.docId, DEFAULT_CONFIG).model_dump()
+        cache.save_analysis(body.docId, analysis)
+    gold_file, ref_file, n = annotations.export_gold(
+        body.docId, _composite(body.docId, analysis), raw=analysis)
+    gen = json.loads(open(gold_file, encoding="utf-8").read()).get("generatedAt")
+    return {"ok": True, "file": gold_file, "referenceFile": ref_file,
+            "entryCount": n, "generatedAt": gen}
 
 
 class CancelBody(BaseModel):

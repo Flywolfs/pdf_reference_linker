@@ -1,5 +1,5 @@
 {
- "version": "1.9",
+ "version": "1.12",
  "docId": "0512e71b",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/FWD/自愿医保/倍衛您醫療計劃-產品宣傳單張.pdf",
@@ -3249,7 +3249,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3271,7 +3271,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3293,7 +3293,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3315,7 +3315,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3356,7 +3356,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3378,7 +3378,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3457,7 +3457,7 @@
     "p19:3"
    ],
    "targetDisplay": "P16 · 備註 3",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0145"
@@ -3479,7 +3479,7 @@
     "p19:8"
    ],
    "targetDisplay": "P16 · 備註 9",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0145"
@@ -3501,7 +3501,7 @@
     "p19:3"
    ],
    "targetDisplay": "P16 · 備註 3",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0147"
@@ -3523,7 +3523,7 @@
     "p19:4"
    ],
    "targetDisplay": "P16 · 備註 4",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0147"
@@ -3545,7 +3545,7 @@
     "p19:3"
    ],
    "targetDisplay": "P16 · 備註 3",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0149"
@@ -3567,7 +3567,7 @@
     "p19:4"
    ],
    "targetDisplay": "P16 · 備註 4",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0149"
@@ -3589,7 +3589,7 @@
     "p19:3"
    ],
    "targetDisplay": "P16 · 備註 3",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0151"
@@ -3611,7 +3611,7 @@
     "p19:4"
    ],
    "targetDisplay": "P16 · 備註 4",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0151"
@@ -3633,7 +3633,7 @@
     "p19:3"
    ],
    "targetDisplay": "P16 · 備註 3",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0153"
@@ -3655,7 +3655,7 @@
     "p19:4"
    ],
    "targetDisplay": "P16 · 備註 4",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0153"
@@ -3677,7 +3677,7 @@
     "p19:3"
    ],
    "targetDisplay": "P16 · 備註 3",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0155"
@@ -3699,7 +3699,7 @@
     "p19:4"
    ],
    "targetDisplay": "P16 · 備註 4",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0155"
@@ -3721,7 +3721,7 @@
     "p19:3"
    ],
    "targetDisplay": "P16 · 備註 3",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0157"
@@ -3743,7 +3743,7 @@
     "p19:4"
    ],
    "targetDisplay": "P16 · 備註 4",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0157"
@@ -3765,7 +3765,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null

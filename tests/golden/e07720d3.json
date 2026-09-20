@@ -1,5 +1,5 @@
 {
- "version": "1.9",
+ "version": "1.12",
  "docId": "e07720d3",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/FWD/自愿医保/醫家保醫療計劃-產品宣傳單張.pdf",
@@ -13,54 +13,6 @@
   "gapRatio": 0.6
  },
  "notes": [
-  {
-   "noteId": "p3:1",
-   "anchor": "footer",
-   "page": 3,
-   "bbox": [
-    42.79,
-    690.42,
-    524.33,
-    708.98
-   ],
-   "number": "*",
-   "text": "此最高可賠償金額由兩部分組成,包括每傷病每保單年度保障總額55萬港元及訂明非手術癌症治療、腎臟透析及器官或骨髓移植的額外保障之每保單年度每傷病55萬港元。",
-   "textPages": [
-    3
-   ]
-  },
-  {
-   "noteId": "p3:2",
-   "anchor": "footer",
-   "page": 3,
-   "bbox": [
-    42.79,
-    700.41,
-    355.13,
-    718.98
-   ],
-   "number": "#",
-   "text": "假設病症3於第2個保單年度及第3個保單年度的合資格費用都是90萬港元,跨越兩個保單年度合共180萬港元。",
-   "textPages": [
-    3
-   ]
-  },
-  {
-   "noteId": "p3:3",
-   "anchor": "footer",
-   "page": 3,
-   "bbox": [
-    42.53,
-    710.41,
-    552.78,
-    819.31
-   ],
-   "number": "^",
-   "text": "雖然病症1與病症3的合資格費用同因結腸癌於同一保單年度所招致,但因病症3的住院於病症1的出院日期超過90日後發生,所以訂明非手術癌症治療、腎臟透析及器官或骨髓移植的 額外保障之每保單年度每傷病最高保障限額及每傷病每保單年度保障總額重新計算。 3",
-   "textPages": [
-    3
-   ]
-  },
   {
    "noteId": "p12:1",
    "anchor": "standalone",
@@ -415,22 +367,6 @@
   },
   {
    "noteId": "p25:1",
-   "anchor": "footer",
-   "page": 25,
-   "bbox": [
-    28.35,
-    706.91,
-    97.78,
-    729.76
-   ],
-   "number": "^",
-   "text": "只適用於續保。",
-   "textPages": [
-    25
-   ]
-  },
-  {
-   "noteId": "p25:2",
    "anchor": "footer",
    "page": 25,
    "bbox": [
@@ -3160,7 +3096,7 @@
     "p16:7"
    ],
    "targetDisplay": "P13 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3182,7 +3118,7 @@
     "p16:1"
    ],
    "targetDisplay": "P13 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3261,7 +3197,7 @@
     "p16:3"
    ],
    "targetDisplay": "P13 · 備註 3",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3283,7 +3219,7 @@
     "p16:8"
    ],
    "targetDisplay": "P13 · 備註 9",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3362,7 +3298,7 @@
     "p16:5"
    ],
    "targetDisplay": "P13 · 備註 5",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3384,7 +3320,7 @@
     "p16:5"
    ],
    "targetDisplay": "P13 · 備註 5",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3406,7 +3342,7 @@
     "p16:5"
    ],
    "targetDisplay": "P13 · 備註 5",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3428,7 +3364,7 @@
     "p16:5"
    ],
    "targetDisplay": "P13 · 備註 5",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3450,7 +3386,7 @@
     "p16:5"
    ],
    "targetDisplay": "P13 · 備註 5",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3472,7 +3408,7 @@
     "p16:5"
    ],
    "targetDisplay": "P13 · 備註 5",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3494,7 +3430,7 @@
     "p16:4"
    ],
    "targetDisplay": "P13 · 備註 4",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3516,7 +3452,7 @@
     "p16:9"
    ],
    "targetDisplay": "P13 · 備註 10",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0144"
@@ -3559,7 +3495,7 @@
     "p16:9"
    ],
    "targetDisplay": "P13 · 備註 10",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0146"
@@ -3602,7 +3538,7 @@
     "p16:9"
    ],
    "targetDisplay": "P13 · 備註 10",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": "g0148"
@@ -3631,7 +3567,7 @@
  ],
  "stats": {
   "anchors": 150,
-  "notes": 27,
+  "notes": 23,
   "resolved": 115
  }
 }

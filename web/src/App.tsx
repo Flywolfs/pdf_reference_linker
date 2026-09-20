@@ -177,6 +177,17 @@ export default function App() {
     }
   }
 
+  const doExportGold = async () => {
+    if (!selected) return
+    if (!window.confirm('導出金標準？將以當前已確認的全部引用鏈接生成回歸基準文件\n（每個引用一條記錄，另附 verdict/miss 全量明細作診斷參考）。')) return
+    try {
+      const r = await api.exportGold(selected.doc.docId)
+      alert(`已導出金標準 ${r.entryCount} 條（一引用一條）→\n${r.file}\n\n診斷參考（含 verdict/miss 明細）→\n${r.referenceFile}`)
+    } catch (e) {
+      alert(`導出失敗：${e}`)
+    }
+  }
+
   const shown = useMemo(
     () => docs.filter((d) => (d.relPath + d.name).toLowerCase().includes(filter.toLowerCase())),
     [docs, filter],
@@ -224,7 +235,7 @@ export default function App() {
         bbox: e.spanBbox ?? e.bbox ?? [0, 0, 0, 0],
         number: e.number ?? null,
         targetDisplay: e.targetDisplay ?? null,
-        targetNoteId: e.rebindTo ?? (e.targets ?? [])[0] ?? null,
+        targetNoteId: e.rebindTo ?? e.targetNoteId ?? (e.targets ?? [])[0] ?? null,
         group: e.group ?? null,
       }))
     const units = new Map<string, typeof raw>()
@@ -378,6 +389,11 @@ export default function App() {
                 導出AI任務
                 {exportStale && <span className="dot-badge" />}
               </button>
+              <button
+                className="export-btn"
+                title="以當前已確認的引用鏈接生成金標準（回歸基準）"
+                onClick={doExportGold}
+              >導出金標</button>
               <button onClick={doImport}>導入結果</button>
               <button
                 className={symPanelOpen ? 'on' : ''}

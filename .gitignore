@@ -13,6 +13,7 @@ wheels/
 # Node
 node_modules/
 web/dist/
+web/tsconfig.tsbuildinfo
 
 # 调试截图（开发过程产物）
 step*.png
