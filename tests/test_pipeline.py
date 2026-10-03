@@ -111,6 +111,34 @@ def test_aia_inline_note_no_match(aia):
     assert all(not n.number for n in inline)
 
 
+# ---------- AIA showdoc.jsp：C8 同字号符号角标 + T5 孤立符号解释行（1.13） ----------
+
+@pytest.fixture(scope="module")
+def showdoc():
+    return _analysis(f"{INS}/AIA/自愿医保/showdoc.jsp.pdf")
+
+
+def test_showdoc_same_size_star_detected(showdoc):
+    """C8：表格「全數賠償*」同字号同基线符号角标应检出（1.13 前漏检）。"""
+    hs = [h for h in showdoc.hotspots if h.page == 12 and h.text == "*"]
+    assert len(hs) >= 8, f"P13 表格应检出 >=8 个 '*' 角标，实得 {len(hs)}"
+
+
+def test_showdoc_orphan_symbol_note(showdoc):
+    """T5：P15 页中部「* 全數賠償是指…」解释行应解析为注释条目（1.13 前三通道错过）。"""
+    notes = [n for n in showdoc.notes if n.page == 14 and n.number == "*"]
+    assert len(notes) == 1, [n.noteId for n in notes]
+    assert "全數賠償" in notes[0].text
+
+
+def test_showdoc_star_nearest_down(showdoc):
+    """就近向下：P13/P14 的 '*' 应链 P15 解释（p14:11），而非兜底到 P8（p7:1）。"""
+    hs = [h for h in showdoc.hotspots if h.page in (12, 13) and h.text == "*"]
+    assert hs, "P13/P14 应检出 '*' 角标"
+    bad = {(h.page, h.targets) for h in hs if not h.targets or h.targets[0] != "p14:11"}
+    assert not bad, bad
+
+
 # ---------- 性能（NFR-1） ----------
 
 def test_perf_under_2s(aia):

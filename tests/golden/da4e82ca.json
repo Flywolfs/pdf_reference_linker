@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.14",
  "docId": "da4e82ca",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/showdoc.jsp.pdf",
@@ -222,6 +222,22 @@
    ]
   },
   {
+   "noteId": "p14:11",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    28.35,
+    452.2,
+    466.52,
+    462.63
+   ],
+   "number": "*",
+   "text": "全數賠償是指不設分項賠償限額。賠償金額以保障表所列明的保障限額為限,包括受限於每年保障限額及終身保障限額。",
+   "textPages": [
+    14
+   ]
+  },
+  {
    "noteId": "p15:1",
    "anchor": "footer",
    "page": 15,
@@ -350,7 +366,7 @@
    ]
   },
   {
-   "noteId": "p7:inline21",
+   "noteId": "p7:inline22",
    "anchor": "inline",
    "page": 7,
    "bbox": [
@@ -366,7 +382,7 @@
    ]
   },
   {
-   "noteId": "p8:inline22",
+   "noteId": "p8:inline23",
    "anchor": "inline",
    "page": 8,
    "bbox": [
@@ -384,7 +400,7 @@
  ],
  "hotspots": [
   {
-   "id": "h0000",
+   "id": "h0163a239",
    "page": 1,
    "bbox": [
     489.19,
@@ -406,7 +422,7 @@
    "group": null
   },
   {
-   "id": "h0001",
+   "id": "h013f0b20",
    "page": 1,
    "bbox": [
     378.83,
@@ -428,7 +444,7 @@
    "group": null
   },
   {
-   "id": "h0002",
+   "id": "h0176ba9c",
    "page": 1,
    "bbox": [
     139.87,
@@ -452,7 +468,7 @@
    "group": null
   },
   {
-   "id": "h0003",
+   "id": "h014285e6",
    "page": 1,
    "bbox": [
     176.54,
@@ -476,7 +492,7 @@
    "group": null
   },
   {
-   "id": "h0004",
+   "id": "h01405977",
    "page": 1,
    "bbox": [
     170.05,
@@ -499,7 +515,7 @@
    "group": null
   },
   {
-   "id": "h0005",
+   "id": "h01e7829d",
    "page": 1,
    "bbox": [
     449.19,
@@ -520,7 +536,7 @@
    "group": null
   },
   {
-   "id": "h0006",
+   "id": "h01b19f24",
    "page": 1,
    "bbox": [
     298.99,
@@ -542,7 +558,7 @@
    "group": null
   },
   {
-   "id": "h0007",
+   "id": "h0207aac0",
    "page": 2,
    "bbox": [
     344.97,
@@ -564,7 +580,7 @@
    "group": null
   },
   {
-   "id": "h0008",
+   "id": "h02d8e01a",
    "page": 2,
    "bbox": [
     168.54,
@@ -585,7 +601,7 @@
    "group": null
   },
   {
-   "id": "h0009",
+   "id": "h0389d2fc",
    "page": 3,
    "bbox": [
     146.86,
@@ -606,7 +622,7 @@
    "group": null
   },
   {
-   "id": "h0010",
+   "id": "h04a73bf9",
    "page": 4,
    "bbox": [
     67.43,
@@ -628,7 +644,7 @@
    "group": null
   },
   {
-   "id": "h0011",
+   "id": "h046732ad",
    "page": 4,
    "bbox": [
     207.91,
@@ -649,7 +665,7 @@
    "group": null
   },
   {
-   "id": "h0012",
+   "id": "h04012ec1",
    "page": 4,
    "bbox": [
     113.42,
@@ -670,7 +686,7 @@
    "group": null
   },
   {
-   "id": "h0013",
+   "id": "h049de362",
    "page": 4,
    "bbox": [
     133.6,
@@ -691,7 +707,7 @@
    "group": null
   },
   {
-   "id": "h0014",
+   "id": "h04a9bc51",
    "page": 4,
    "bbox": [
     179.37,
@@ -710,7 +726,7 @@
    "group": null
   },
   {
-   "id": "h0015",
+   "id": "h04a01163",
    "page": 4,
    "bbox": [
     63.73,
@@ -731,7 +747,7 @@
    "group": null
   },
   {
-   "id": "h0016",
+   "id": "h04533c0e",
    "page": 4,
    "bbox": [
     63.2,
@@ -750,7 +766,7 @@
    "group": null
   },
   {
-   "id": "h0017",
+   "id": "h05d81e77",
    "page": 5,
    "bbox": [
     207.69,
@@ -771,7 +787,51 @@
    "group": null
   },
   {
-   "id": "h0018",
+   "id": "h07e2970a",
+   "page": 7,
+   "bbox": [
+    487.73,
+    303.49,
+    492.95,
+    320.08
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "尊享優質醫療網絡",
+   "targets": [
+    "p7:1",
+    "p14:11"
+   ],
+   "targetDisplay": "P8 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h079cde05",
+   "page": 7,
+   "bbox": [
+    299.64,
+    500.76,
+    304.86,
+    517.35
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "個人療程管理服務與復康管理",
+   "targets": [
+    "p7:1",
+    "p14:11"
+   ],
+   "targetDisplay": "P8 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h11889c82",
    "page": 11,
    "bbox": [
     113.15,
@@ -795,7 +855,7 @@
    "group": null
   },
   {
-   "id": "h0019",
+   "id": "h11766b11",
    "page": 11,
    "bbox": [
     197.71,
@@ -818,7 +878,7 @@
    "group": null
   },
   {
-   "id": "h0020",
+   "id": "h1142dbf9",
    "page": 11,
    "bbox": [
     359.14,
@@ -840,7 +900,7 @@
    "group": null
   },
   {
-   "id": "h0021",
+   "id": "h1195f76f",
    "page": 11,
    "bbox": [
     359.33,
@@ -862,7 +922,7 @@
    "group": null
   },
   {
-   "id": "h0022",
+   "id": "h11eecef0",
    "page": 11,
    "bbox": [
     443.86,
@@ -884,7 +944,7 @@
    "group": null
   },
   {
-   "id": "h0023",
+   "id": "h120560a3",
    "page": 12,
    "bbox": [
     74.12,
@@ -906,7 +966,29 @@
    "group": null
   },
   {
-   "id": "h0024",
+   "id": "h1211b33e",
+   "page": 12,
+   "bbox": [
+    450.56,
+    271.32,
+    454.26,
+    282.41
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p14:11",
+    "p7:1"
+   ],
+   "targetDisplay": "P15 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h125aa605",
    "page": 12,
    "bbox": [
     114.12,
@@ -928,7 +1010,51 @@
    "group": null
   },
   {
-   "id": "h0025",
+   "id": "h12567abb",
+   "page": 12,
+   "bbox": [
+    485.2,
+    326.29,
+    488.9,
+    337.38
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "不論手術的分類全數賠償",
+   "targets": [
+    "p14:11",
+    "p7:1"
+   ],
+   "targetDisplay": "P15 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h129a3fa9",
+   "page": 12,
+   "bbox": [
+    450.55,
+    367.72,
+    454.25,
+    378.81
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p14:11",
+    "p7:1"
+   ],
+   "targetDisplay": "P15 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h12fe3ae3",
    "page": 12,
    "bbox": [
     143.76,
@@ -947,10 +1073,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0025"
+   "group": "g0001"
   },
   {
-   "id": "h0026",
+   "id": "h12082c1d",
    "page": 12,
    "bbox": [
     143.76,
@@ -968,10 +1094,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0025"
+   "group": "g0001"
   },
   {
-   "id": "h0027",
+   "id": "h1224df92",
    "page": 12,
    "bbox": [
     153.86,
@@ -992,7 +1118,7 @@
    "group": null
   },
   {
-   "id": "h0028",
+   "id": "h12a2375a",
    "page": 12,
    "bbox": [
     252.6,
@@ -1014,7 +1140,51 @@
    "group": null
   },
   {
-   "id": "h0029",
+   "id": "h12fd7c64",
+   "page": 12,
+   "bbox": [
+    450.55,
+    421.1,
+    454.25,
+    432.19
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p14:11",
+    "p7:1"
+   ],
+   "targetDisplay": "P15 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h129275a9",
+   "page": 12,
+   "bbox": [
+    450.55,
+    457.67,
+    454.25,
+    468.76
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p14:11",
+    "p7:1"
+   ],
+   "targetDisplay": "P15 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h129393b6",
    "page": 12,
    "bbox": [
     123.89,
@@ -1036,7 +1206,29 @@
    "group": null
   },
   {
-   "id": "h0030",
+   "id": "h12438861",
+   "page": 12,
+   "bbox": [
+    450.55,
+    564.46,
+    454.25,
+    575.55
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p14:11",
+    "p7:1"
+   ],
+   "targetDisplay": "P15 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h124bc318",
    "page": 12,
    "bbox": [
     123.77,
@@ -1058,7 +1250,29 @@
    "group": null
   },
   {
-   "id": "h0031",
+   "id": "h12b59195",
+   "page": 12,
+   "bbox": [
+    450.55,
+    591.53,
+    454.25,
+    602.62
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p14:11",
+    "p7:1"
+   ],
+   "targetDisplay": "P15 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h12977a9c",
    "page": 12,
    "bbox": [
     153.26,
@@ -1080,7 +1294,29 @@
    "group": null
   },
   {
-   "id": "h0032",
+   "id": "h1243ab5d",
+   "page": 12,
+   "bbox": [
+    450.55,
+    608.1,
+    454.25,
+    619.19
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p14:11",
+    "p7:1"
+   ],
+   "targetDisplay": "P15 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h12ee49e1",
    "page": 12,
    "bbox": [
     123.66,
@@ -1102,7 +1338,29 @@
    "group": null
   },
   {
-   "id": "h0033",
+   "id": "h12505f64",
+   "page": 12,
+   "bbox": [
+    450.55,
+    705.06,
+    454.25,
+    716.15
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p14:11",
+    "p7:1"
+   ],
+   "targetDisplay": "P15 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h13dd414f",
    "page": 13,
    "bbox": [
     74.12,
@@ -1124,7 +1382,7 @@
    "group": null
   },
   {
-   "id": "h0034",
+   "id": "h132ca179",
    "page": 13,
    "bbox": [
     494.61,
@@ -1145,7 +1403,29 @@
    "group": null
   },
   {
-   "id": "h0035",
+   "id": "h137ccb08",
+   "page": 13,
+   "bbox": [
+    450.55,
+    275.97,
+    454.25,
+    287.06
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p14:11",
+    "p7:1"
+   ],
+   "targetDisplay": "P15 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h137d802c",
    "page": 13,
    "bbox": [
     104.22,
@@ -1167,7 +1447,7 @@
    "group": null
   },
   {
-   "id": "h0036",
+   "id": "h13071b78",
    "page": 13,
    "bbox": [
     143.79,
@@ -1189,7 +1469,7 @@
    "group": null
   },
   {
-   "id": "h0037",
+   "id": "h13a2f0e4",
    "page": 13,
    "bbox": [
     157.45,
@@ -1211,7 +1491,7 @@
    "group": null
   },
   {
-   "id": "h0038",
+   "id": "h13334ac2",
    "page": 13,
    "bbox": [
     133.88,
@@ -1233,7 +1513,7 @@
    "group": null
   },
   {
-   "id": "h0039",
+   "id": "h13b2fc47",
    "page": 13,
    "bbox": [
     135.89,
@@ -1255,7 +1535,29 @@
    "group": null
   },
   {
-   "id": "h0040",
+   "id": "h13558e76",
+   "page": 13,
+   "bbox": [
+    450.55,
+    669.16,
+    454.25,
+    680.25
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p14:11",
+    "p7:1"
+   ],
+   "targetDisplay": "P15 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h14291798",
    "page": 14,
    "bbox": [
     74.12,
@@ -1277,7 +1579,7 @@
    "group": null
   },
   {
-   "id": "h0041",
+   "id": "h1440ce31",
    "page": 14,
    "bbox": [
     173.18,
@@ -1299,7 +1601,7 @@
    "group": null
   },
   {
-   "id": "h0042",
+   "id": "h14e2b877",
    "page": 14,
    "bbox": [
     213.38,
@@ -1318,10 +1620,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0042"
+   "group": "g0002"
   },
   {
-   "id": "h0043",
+   "id": "h1455cddc",
    "page": 14,
    "bbox": [
     213.38,
@@ -1339,10 +1641,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0042"
+   "group": "g0002"
   },
   {
-   "id": "h0044",
+   "id": "h147b0779",
    "page": 14,
    "bbox": [
     134.01,
@@ -1361,10 +1663,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0044"
+   "group": "g0003"
   },
   {
-   "id": "h0045",
+   "id": "h1421bc75",
    "page": 14,
    "bbox": [
     134.01,
@@ -1382,12 +1684,34 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0044"
+   "group": "g0003"
+  },
+  {
+   "id": "h146b863c",
+   "page": 14,
+   "bbox": [
+    450.55,
+    321.59,
+    454.25,
+    332.68
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p14:11",
+    "p7:1"
+   ],
+   "targetDisplay": "P15 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
   }
  ],
  "stats": {
-  "anchors": 46,
-  "notes": 23,
-  "resolved": 44
+  "anchors": 60,
+  "notes": 24,
+  "resolved": 58
  }
 }

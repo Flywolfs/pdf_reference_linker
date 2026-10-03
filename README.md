@@ -6,7 +6,7 @@
 AI 辅助标注与金标准回归评测闭环。
 
 - 语料库：`/home/zhangchi/Documents/insurance/`（13 家保险公司，35 份 PDF）
-- 解析引擎版本：**v1.12**（就近向下匹配规则）
+- 解析引擎版本：**v1.14**（就近向下匹配 + T5/C8 符号通道 + 内容寻址热点 id）
 - 详细设计文档：[docs/DESIGN.md](docs/DESIGN.md)（算法依据全部来自实测，可复现）
 - 标注数据沉淀规范：[docs/ANNOTATION.md](docs/ANNOTATION.md)
 
@@ -321,6 +321,8 @@ uv run python scripts/compare_gold.py a9d21f52   # 金标 vs 当前缓存+compos
 | 黄金快照回归 | 35 份全量输出冻结 + pytest 字段级 diff |
 | 引擎专项修复 | T4 单符号脚注区放宽（底部边距 ≤100pt）、PUA 私用区字符识别、同字号逗号多编号、扩展符号配置面板 |
 | 匹配规则演进 | v1.12 就近向下原则（同编号跨页重复时链到锚点下方最近解释，废除向上链接） |
+| 符号形态补全（v1.13/1.14） | T5 孤立符号解释行通道（页中部「`*` 全數賠償…」形态）+ C8 同字号符号角标检测（異字族紧贴行尾，loose 检出 + 目标存在性收口） |
+| 热点 id 稳定化（v1.14） | 引擎热点 id 由检出序列号改为内容寻址（page+text+bbox hash）——引擎检出集合变化不再使人工标注跨版本错位；附一次性迁移脚本 `scripts/migrate_stable_ids.py` |
 
 ### 6.3 Backlog（DESIGN.md §13）
 

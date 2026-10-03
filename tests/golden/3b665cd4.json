@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.14",
  "docId": "3b665cd4",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/重疾/AIA爱伴航保险计划2-产品简介.pdf",
@@ -13,6 +13,22 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p2:1",
+   "anchor": "footer",
+   "page": 2,
+   "bbox": [
+    623.34,
+    682.09,
+    1158.59,
+    694.93
+   ],
+   "number": "~",
+   "text": "「全助你」及「一站式腫瘤支援服務」均為額外增值服務,並且非保證及須受其各自的條款及細則所約束,亦不構成「愛伴航」保險計劃2 /「愛伴航–",
+   "textPages": [
+    2
+   ]
+  },
   {
    "noteId": "p4:1",
    "anchor": "footer",
@@ -46,6 +62,22 @@
    ]
   },
   {
+   "noteId": "p6:1",
+   "anchor": "footer",
+   "page": 6,
+   "bbox": [
+    623.62,
+    804.39,
+    771.34,
+    814.82
+   ],
+   "number": "*",
+   "text": "可作為唯一受益人或其中一位受益人。",
+   "textPages": [
+    6
+   ]
+  },
+  {
    "noteId": "p7:1",
    "anchor": "footer",
    "page": 7,
@@ -59,6 +91,38 @@
    "text": "上述個案僅供參考。詳情請參閱「保障一覽」下的「保費」部分。",
    "textPages": [
     7
+   ]
+  },
+  {
+   "noteId": "p8:1",
+   "anchor": "footer",
+   "page": 8,
+   "bbox": [
+    623.62,
+    302.01,
+    1002.33,
+    312.44
+   ],
+   "number": "~",
+   "text": "「全助你」及「一站式腫瘤支援服務」均為額外增值服務,並且非保證及須受其各自的條款及細則所約",
+   "textPages": [
+    8
+   ]
+  },
+  {
+   "noteId": "p11:1",
+   "anchor": "footer",
+   "page": 11,
+   "bbox": [
+    851.87,
+    270.46,
+    936.16,
+    283.5
+   ],
+   "number": "*",
+   "text": "已付賠償金額將不",
+   "textPages": [
+    11
    ]
   },
   {
@@ -446,7 +510,7 @@
    ]
   },
   {
-   "noteId": "p2:inline27",
+   "noteId": "p2:inline31",
    "anchor": "inline",
    "page": 2,
    "bbox": [
@@ -462,7 +526,7 @@
    ]
   },
   {
-   "noteId": "p6:inline28",
+   "noteId": "p6:inline32",
    "anchor": "inline",
    "page": 6,
    "bbox": [
@@ -478,7 +542,7 @@
    ]
   },
   {
-   "noteId": "p9:inline29",
+   "noteId": "p9:inline33",
    "anchor": "inline",
    "page": 9,
    "bbox": [
@@ -496,7 +560,7 @@
  ],
  "hotspots": [
   {
-   "id": "h0000",
+   "id": "h0152fdcc",
    "page": 1,
    "bbox": [
     807.07,
@@ -517,7 +581,7 @@
    "group": null
   },
   {
-   "id": "h0001",
+   "id": "h019c10f5",
    "page": 1,
    "bbox": [
     767.61,
@@ -538,7 +602,7 @@
    "group": null
   },
   {
-   "id": "h0002",
+   "id": "h01aa7801",
    "page": 1,
    "bbox": [
     836.48,
@@ -559,7 +623,7 @@
    "group": null
   },
   {
-   "id": "h0003",
+   "id": "h0125064a",
    "page": 1,
    "bbox": [
     1101.8,
@@ -580,7 +644,7 @@
    "group": null
   },
   {
-   "id": "h0004",
+   "id": "h0142d102",
    "page": 1,
    "bbox": [
     1085.55,
@@ -602,7 +666,7 @@
    "group": null
   },
   {
-   "id": "h0005",
+   "id": "h016aa41b",
    "page": 1,
    "bbox": [
     1085.63,
@@ -624,7 +688,7 @@
    "group": null
   },
   {
-   "id": "h0006",
+   "id": "h0165eef5",
    "page": 1,
    "bbox": [
     792.07,
@@ -646,7 +710,7 @@
    "group": null
   },
   {
-   "id": "h0007",
+   "id": "h014d1652",
    "page": 1,
    "bbox": [
     1076.76,
@@ -668,7 +732,7 @@
    "group": null
   },
   {
-   "id": "h0008",
+   "id": "h01a016be",
    "page": 1,
    "bbox": [
     811.24,
@@ -690,7 +754,7 @@
    "group": null
   },
   {
-   "id": "h0009",
+   "id": "h02ae76cb",
    "page": 2,
    "bbox": [
     771.06,
@@ -711,7 +775,7 @@
    "group": null
   },
   {
-   "id": "h0010",
+   "id": "h026de031",
    "page": 2,
    "bbox": [
     388.12,
@@ -732,7 +796,7 @@
    "group": null
   },
   {
-   "id": "h0011",
+   "id": "h0251e670",
    "page": 2,
    "bbox": [
     1007.78,
@@ -753,7 +817,7 @@
    "group": null
   },
   {
-   "id": "h0012",
+   "id": "h02fbf251",
    "page": 2,
    "bbox": [
     388.12,
@@ -774,7 +838,7 @@
    "group": null
   },
   {
-   "id": "h0013",
+   "id": "h02eee1b8",
    "page": 2,
    "bbox": [
     109.47,
@@ -795,7 +859,7 @@
    "group": null
   },
   {
-   "id": "h0014",
+   "id": "h02ae52b7",
    "page": 2,
    "bbox": [
     388.12,
@@ -816,7 +880,7 @@
    "group": null
   },
   {
-   "id": "h0015",
+   "id": "h02b32861",
    "page": 2,
    "bbox": [
     388.12,
@@ -837,7 +901,7 @@
    "group": null
   },
   {
-   "id": "h0016",
+   "id": "h021bf02e",
    "page": 2,
    "bbox": [
     388.12,
@@ -858,7 +922,7 @@
    "group": null
   },
   {
-   "id": "h0017",
+   "id": "h03852ef2",
    "page": 3,
    "bbox": [
     260.69,
@@ -879,7 +943,7 @@
    "group": null
   },
   {
-   "id": "h0018",
+   "id": "h03b116c5",
    "page": 3,
    "bbox": [
     119.68,
@@ -900,7 +964,7 @@
    "group": null
   },
   {
-   "id": "h0019",
+   "id": "h03bc9702",
    "page": 3,
    "bbox": [
     974.32,
@@ -919,7 +983,7 @@
    "group": null
   },
   {
-   "id": "h0020",
+   "id": "h039bd002",
    "page": 3,
    "bbox": [
     229.1,
@@ -940,7 +1004,7 @@
    "group": null
   },
   {
-   "id": "h0021",
+   "id": "h03d9df76",
    "page": 3,
    "bbox": [
     66.75,
@@ -961,7 +1025,7 @@
    "group": null
   },
   {
-   "id": "h0022",
+   "id": "h03bf0c2d",
    "page": 3,
    "bbox": [
     550.72,
@@ -982,7 +1046,7 @@
    "group": null
   },
   {
-   "id": "h0023",
+   "id": "h04345f38",
    "page": 4,
    "bbox": [
     1065.34,
@@ -1003,7 +1067,7 @@
    "group": null
   },
   {
-   "id": "h0024",
+   "id": "h043a8b86",
    "page": 4,
    "bbox": [
     206.74,
@@ -1024,7 +1088,7 @@
    "group": null
   },
   {
-   "id": "h0025",
+   "id": "h043c294c",
    "page": 4,
    "bbox": [
     728.72,
@@ -1043,7 +1107,7 @@
    "group": null
   },
   {
-   "id": "h0026",
+   "id": "h056b707c",
    "page": 5,
    "bbox": [
     837.55,
@@ -1062,7 +1126,7 @@
    "group": null
   },
   {
-   "id": "h0027",
+   "id": "h05256770",
    "page": 5,
    "bbox": [
     74.32,
@@ -1083,7 +1147,7 @@
    "group": null
   },
   {
-   "id": "h0028",
+   "id": "h0556cc68",
    "page": 5,
    "bbox": [
     869.47,
@@ -1104,7 +1168,7 @@
    "group": null
   },
   {
-   "id": "h0029",
+   "id": "h05bfc279",
    "page": 5,
    "bbox": [
     380.11,
@@ -1123,7 +1187,7 @@
    "group": null
   },
   {
-   "id": "h0030",
+   "id": "h05276176",
    "page": 5,
    "bbox": [
     1072.09,
@@ -1144,7 +1208,7 @@
    "group": null
   },
   {
-   "id": "h0031",
+   "id": "h05f7c5fc",
    "page": 5,
    "bbox": [
     380.65,
@@ -1163,7 +1227,7 @@
    "group": null
   },
   {
-   "id": "h0032",
+   "id": "h059d680b",
    "page": 5,
    "bbox": [
     676.97,
@@ -1184,7 +1248,7 @@
    "group": null
   },
   {
-   "id": "h0033",
+   "id": "h0571f783",
    "page": 5,
    "bbox": [
     338.09,
@@ -1205,7 +1269,7 @@
    "group": null
   },
   {
-   "id": "h0034",
+   "id": "h05a40503",
    "page": 5,
    "bbox": [
     185.55,
@@ -1224,7 +1288,7 @@
    "group": null
   },
   {
-   "id": "h0035",
+   "id": "h05f0d3c1",
    "page": 5,
    "bbox": [
     552.79,
@@ -1243,7 +1307,7 @@
    "group": null
   },
   {
-   "id": "h0036",
+   "id": "h05362257",
    "page": 5,
    "bbox": [
     74.32,
@@ -1264,7 +1328,7 @@
    "group": null
   },
   {
-   "id": "h0037",
+   "id": "h057ed9e9",
    "page": 5,
    "bbox": [
     1007.12,
@@ -1283,7 +1347,7 @@
    "group": null
   },
   {
-   "id": "h0038",
+   "id": "h0532ba76",
    "page": 5,
    "bbox": [
     920.55,
@@ -1302,7 +1366,7 @@
    "group": null
   },
   {
-   "id": "h0039",
+   "id": "h0590cc6c",
    "page": 5,
    "bbox": [
     208.43,
@@ -1323,7 +1387,7 @@
    "group": null
   },
   {
-   "id": "h0040",
+   "id": "h050a6e8d",
    "page": 5,
    "bbox": [
     640.61,
@@ -1342,7 +1406,7 @@
    "group": null
   },
   {
-   "id": "h0041",
+   "id": "h0562fe23",
    "page": 5,
    "bbox": [
     208.43,
@@ -1363,7 +1427,7 @@
    "group": null
   },
   {
-   "id": "h0042",
+   "id": "h05838d74",
    "page": 5,
    "bbox": [
     676.97,
@@ -1384,7 +1448,7 @@
    "group": null
   },
   {
-   "id": "h0043",
+   "id": "h058d123d",
    "page": 5,
    "bbox": [
     926.05,
@@ -1403,7 +1467,7 @@
    "group": null
   },
   {
-   "id": "h0044",
+   "id": "h063eee39",
    "page": 6,
    "bbox": [
     714.95,
@@ -1424,7 +1488,7 @@
    "group": null
   },
   {
-   "id": "h0045",
+   "id": "h06bb2b14",
    "page": 6,
    "bbox": [
     714.95,
@@ -1445,7 +1509,30 @@
    "group": null
   },
   {
-   "id": "h0046",
+   "id": "h0657bd0f",
+   "page": 6,
+   "bbox": [
+    953.05,
+    662.88,
+    955.64,
+    670.64
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "(須為保單持有人或受益人)",
+   "targets": [
+    "p6:1",
+    "p7:1",
+    "p11:1"
+   ],
+   "targetDisplay": "P7 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h07d84e30",
    "page": 7,
    "bbox": [
     74.32,
@@ -1466,7 +1553,7 @@
    "group": null
   },
   {
-   "id": "h0047",
+   "id": "h072e4135",
    "page": 7,
    "bbox": [
     74.32,
@@ -1487,7 +1574,7 @@
    "group": null
   },
   {
-   "id": "h0048",
+   "id": "h07463ae4",
    "page": 7,
    "bbox": [
     825.94,
@@ -1508,7 +1595,7 @@
    "group": null
   },
   {
-   "id": "h0049",
+   "id": "h08b9b4d1",
    "page": 8,
    "bbox": [
     148.58,
@@ -1529,7 +1616,7 @@
    "group": null
   },
   {
-   "id": "h0050",
+   "id": "h082c5e17",
    "page": 8,
    "bbox": [
     225.42,
@@ -1550,7 +1637,7 @@
    "group": null
   },
   {
-   "id": "h0051",
+   "id": "h10235b8d",
    "page": 10,
    "bbox": [
     1070.57,
@@ -1569,7 +1656,7 @@
    "group": null
   },
   {
-   "id": "h0052",
+   "id": "h1008b35c",
    "page": 10,
    "bbox": [
     1092.02,
@@ -1590,7 +1677,7 @@
    "group": null
   },
   {
-   "id": "h0053",
+   "id": "h118a4fa8",
    "page": 11,
    "bbox": [
     1006.47,
@@ -1611,7 +1698,7 @@
    "group": null
   },
   {
-   "id": "h0054",
+   "id": "h11be47ce",
    "page": 11,
    "bbox": [
     93.17,
@@ -1630,7 +1717,7 @@
    "group": null
   },
   {
-   "id": "h0055",
+   "id": "h1183a50f",
    "page": 11,
    "bbox": [
     965.67,
@@ -1649,7 +1736,7 @@
    "group": null
   },
   {
-   "id": "h0056",
+   "id": "h11fb3e3a",
    "page": 11,
    "bbox": [
     932.95,
@@ -1667,10 +1754,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0056"
+   "group": "g0001"
   },
   {
-   "id": "h0057",
+   "id": "h113097f1",
    "page": 11,
    "bbox": [
     932.95,
@@ -1688,10 +1775,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0056"
+   "group": "g0001"
   },
   {
-   "id": "h0058",
+   "id": "h115ee569",
    "page": 11,
    "bbox": [
     1037.08,
@@ -1712,7 +1799,7 @@
    "group": null
   },
   {
-   "id": "h0059",
+   "id": "h119b330d",
    "page": 11,
    "bbox": [
     993.27,
@@ -1733,7 +1820,7 @@
    "group": null
   },
   {
-   "id": "h0060",
+   "id": "h11319fb3",
    "page": 11,
    "bbox": [
     956.23,
@@ -1754,7 +1841,7 @@
    "group": null
   },
   {
-   "id": "h0061",
+   "id": "h11093218",
    "page": 11,
    "bbox": [
     1063.39,
@@ -1775,7 +1862,7 @@
    "group": null
   },
   {
-   "id": "h0062",
+   "id": "h1195144f",
    "page": 11,
    "bbox": [
     953.31,
@@ -1794,7 +1881,7 @@
    "group": null
   },
   {
-   "id": "h0063",
+   "id": "h1240ba65",
    "page": 12,
    "bbox": [
     923.08,
@@ -1815,7 +1902,7 @@
    "group": null
   },
   {
-   "id": "h0064",
+   "id": "h12a096b5",
    "page": 12,
    "bbox": [
     538.35,
@@ -1834,7 +1921,7 @@
    "group": null
   },
   {
-   "id": "h0065",
+   "id": "h12885990",
    "page": 12,
    "bbox": [
     940.98,
@@ -1855,7 +1942,7 @@
    "group": null
   },
   {
-   "id": "h0066",
+   "id": "h136fc3d5",
    "page": 13,
    "bbox": [
     777.35,
@@ -1876,7 +1963,7 @@
    "group": null
   },
   {
-   "id": "h0067",
+   "id": "h1307ca3a",
    "page": 13,
    "bbox": [
     862.85,
@@ -1897,7 +1984,7 @@
    "group": null
   },
   {
-   "id": "h0068",
+   "id": "h1301a3e5",
    "page": 13,
    "bbox": [
     508.93,
@@ -1916,7 +2003,7 @@
    "group": null
   },
   {
-   "id": "h0069",
+   "id": "h13f9f813",
    "page": 13,
    "bbox": [
     922.37,
@@ -1937,7 +2024,7 @@
    "group": null
   },
   {
-   "id": "h0070",
+   "id": "h13774ca8",
    "page": 13,
    "bbox": [
     792.75,
@@ -1958,7 +2045,7 @@
    "group": null
   },
   {
-   "id": "h0071",
+   "id": "h140e6ad0",
    "page": 14,
    "bbox": [
     205.88,
@@ -1979,7 +2066,7 @@
    "group": null
   },
   {
-   "id": "h0072",
+   "id": "h14ffdec6",
    "page": 14,
    "bbox": [
     234.45,
@@ -2000,7 +2087,7 @@
    "group": null
   },
   {
-   "id": "h0073",
+   "id": "h14be1ad8",
    "page": 14,
    "bbox": [
     282.12,
@@ -2021,7 +2108,7 @@
    "group": null
   },
   {
-   "id": "h0074",
+   "id": "h17f9d1bb",
    "page": 17,
    "bbox": [
     1139.07,
@@ -2043,8 +2130,8 @@
   }
  ],
  "stats": {
-  "anchors": 75,
-  "notes": 30,
-  "resolved": 58
+  "anchors": 76,
+  "notes": 34,
+  "resolved": 59
  }
 }

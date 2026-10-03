@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.14",
  "docId": "be514f1e",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AXA/重疾/AXA爱唯守危疾保障(升级版)-产品说明书.pdf",
@@ -112,7 +112,7 @@
  ],
  "hotspots": [
   {
-   "id": "h0000",
+   "id": "h02e9327c",
    "page": 2,
    "bbox": [
     514.95,
@@ -131,7 +131,7 @@
    "group": null
   },
   {
-   "id": "h0001",
+   "id": "h02d7acda",
    "page": 2,
    "bbox": [
     699.94,
@@ -150,7 +150,7 @@
    "group": null
   },
   {
-   "id": "h0002",
+   "id": "h02ead3c8",
    "page": 2,
    "bbox": [
     424.49,
@@ -169,7 +169,7 @@
    "group": null
   },
   {
-   "id": "h0003",
+   "id": "h02eabd00",
    "page": 2,
    "bbox": [
     214.39,
@@ -188,7 +188,7 @@
    "group": null
   },
   {
-   "id": "h0004",
+   "id": "h028de97d",
    "page": 2,
    "bbox": [
     479.05,
@@ -207,7 +207,7 @@
    "group": null
   },
   {
-   "id": "h0005",
+   "id": "h10f8bbfb",
    "page": 10,
    "bbox": [
     70.75,
@@ -226,7 +226,7 @@
    "group": null
   },
   {
-   "id": "h0006",
+   "id": "h28905e41",
    "page": 28,
    "bbox": [
     325.68,
@@ -245,7 +245,7 @@
    "group": null
   },
   {
-   "id": "h0007",
+   "id": "h282e1da7",
    "page": 28,
    "bbox": [
     495.13,
@@ -264,7 +264,7 @@
    "group": null
   },
   {
-   "id": "h0008",
+   "id": "h289a5301",
    "page": 28,
    "bbox": [
     528.45,
@@ -283,7 +283,7 @@
    "group": null
   },
   {
-   "id": "h0009",
+   "id": "h351e43c8",
    "page": 35,
    "bbox": [
     467.72,

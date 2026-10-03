@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.14",
  "docId": "a9d21f52",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/showdoc.jsp (1).pdf",
@@ -137,6 +137,22 @@
    ],
    "number": "viii",
    "text": "《正視港人北上就醫:香港醫療的挑戰與轉型契機》,《香港01》,2025年",
+   "textPages": [
+    1
+   ]
+  },
+  {
+   "noteId": "p1:9",
+   "anchor": "footer",
+   "page": 1,
+   "bbox": [
+    623.62,
+    699.18,
+    1116.19,
+    708.7
+   ],
+   "number": "",
+   "text": "有關資格要求的詳情,請參閱本產品簡介第5至6頁。此計劃並不為於中國內地之非「睿選指定醫院」住院及接受或進行醫療服務提供保障。",
    "textPages": [
     1
    ]
@@ -1294,7 +1310,7 @@
    ]
   },
   {
-   "noteId": "p7:inline80",
+   "noteId": "p7:inline81",
    "anchor": "inline",
    "page": 7,
    "bbox": [
@@ -1310,7 +1326,7 @@
    ]
   },
   {
-   "noteId": "p7:inline81",
+   "noteId": "p7:inline82",
    "anchor": "inline",
    "page": 7,
    "bbox": [
@@ -1328,7 +1344,7 @@
  ],
  "hotspots": [
   {
-   "id": "h0000",
+   "id": "h011fd7d6",
    "page": 1,
    "bbox": [
     834.55,
@@ -1351,7 +1367,7 @@
    "group": null
   },
   {
-   "id": "h0001",
+   "id": "h0151b81d",
    "page": 1,
    "bbox": [
     891.7,
@@ -1375,7 +1391,7 @@
    "group": null
   },
   {
-   "id": "h0002",
+   "id": "h0158ee2f",
    "page": 1,
    "bbox": [
     988.75,
@@ -1398,7 +1414,7 @@
    "group": null
   },
   {
-   "id": "h0003",
+   "id": "h01cfaef4",
    "page": 1,
    "bbox": [
     837.53,
@@ -1419,7 +1435,7 @@
    "group": null
   },
   {
-   "id": "h0004",
+   "id": "h01bc7496",
    "page": 1,
    "bbox": [
     1004.91,
@@ -1440,7 +1456,7 @@
    "group": null
   },
   {
-   "id": "h0005",
+   "id": "h02d9394a",
    "page": 2,
    "bbox": [
     736.33,
@@ -1462,7 +1478,7 @@
    "group": null
   },
   {
-   "id": "h0006",
+   "id": "h02a8620e",
    "page": 2,
    "bbox": [
     187.88,
@@ -1485,7 +1501,7 @@
    "group": null
   },
   {
-   "id": "h0007",
+   "id": "h028895c0",
    "page": 2,
    "bbox": [
     279.59,
@@ -1508,7 +1524,34 @@
    "group": null
   },
   {
-   "id": "h0008",
+   "id": "h02137329",
+   "page": 2,
+   "bbox": [
+    442.3,
+    489.89,
+    445.84,
+    499.89
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "「睿選醫療網絡」連接每個醫療環節,讓您於",
+   "targets": [
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1",
+    "p12:1",
+    "p14:1"
+   ],
+   "targetDisplay": "P3 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h02e52458",
    "page": 2,
    "bbox": [
     847.61,
@@ -1531,7 +1574,7 @@
    "group": null
   },
   {
-   "id": "h0009",
+   "id": "h02cbabf9",
    "page": 2,
    "bbox": [
     289.27,
@@ -1554,7 +1597,7 @@
    "group": null
   },
   {
-   "id": "h0010",
+   "id": "h029de69e",
    "page": 2,
    "bbox": [
     220.31,
@@ -1577,7 +1620,7 @@
    "group": null
   },
   {
-   "id": "h0011",
+   "id": "h02b75fec",
    "page": 2,
    "bbox": [
     531.67,
@@ -1600,7 +1643,7 @@
    "group": null
   },
   {
-   "id": "h0012",
+   "id": "h0223944f",
    "page": 2,
    "bbox": [
     279.09,
@@ -1623,7 +1666,7 @@
    "group": null
   },
   {
-   "id": "h0013",
+   "id": "h022cf9dd",
    "page": 2,
    "bbox": [
     716.03,
@@ -1645,7 +1688,60 @@
    "group": null
   },
   {
-   "id": "h0014",
+   "id": "h02d70bf4",
+   "page": 2,
+   "bbox": [
+    522.0,
+    572.56,
+    525.54,
+    582.56
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "生及外科醫生皆為「睿選醫療網絡」的網絡醫",
+   "targets": [
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1",
+    "p12:1",
+    "p14:1"
+   ],
+   "targetDisplay": "P3 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h02d2181e",
+   "page": 2,
+   "bbox": [
+    780.74,
+    572.86,
+    786.57,
+    578.82
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "「全助你」#,的健康管家將提",
+   "targets": [
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3",
+    "p7:2",
+    "p8:4"
+   ],
+   "targetDisplay": "P3 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h026d7d81",
    "page": 2,
    "bbox": [
     279.1,
@@ -1668,7 +1764,59 @@
    "group": null
   },
   {
-   "id": "h0015",
+   "id": "h025f0377",
+   "page": 2,
+   "bbox": [
+    757.0,
+    587.86,
+    762.83,
+    593.82
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "供醫療費用預先批核^,,▲申請前的行政支援,",
+   "targets": [
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3",
+    "p7:2",
+    "p8:4"
+   ],
+   "targetDisplay": "P3 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h02da8e23",
+   "page": 2,
+   "bbox": [
+    407.93,
+    602.86,
+    413.76,
+    608.82
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "預先批核^,,您可於半私家房2住院",
+   "targets": [
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3",
+    "p7:2",
+    "p8:4"
+   ],
+   "targetDisplay": "P3 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h02a7fe3d",
    "page": 2,
    "bbox": [
     490.85,
@@ -1691,7 +1839,7 @@
    "group": null
   },
   {
-   "id": "h0016",
+   "id": "h029fded2",
    "page": 2,
    "bbox": [
     261.79,
@@ -1715,7 +1863,7 @@
    "group": null
   },
   {
-   "id": "h0017",
+   "id": "h037edee5",
    "page": 3,
    "bbox": [
     441.08,
@@ -1738,7 +1886,7 @@
    "group": null
   },
   {
-   "id": "h0018",
+   "id": "h03ab27f2",
    "page": 3,
    "bbox": [
     1036.35,
@@ -1761,7 +1909,7 @@
    "group": null
   },
   {
-   "id": "h0019",
+   "id": "h0357c5a1",
    "page": 3,
    "bbox": [
     87.18,
@@ -1783,7 +1931,7 @@
    "group": null
   },
   {
-   "id": "h0020",
+   "id": "h03cbac5a",
    "page": 3,
    "bbox": [
     1063.22,
@@ -1806,7 +1954,7 @@
    "group": null
   },
   {
-   "id": "h0021",
+   "id": "h03fc46ed",
    "page": 3,
    "bbox": [
     242.15,
@@ -1830,7 +1978,7 @@
    "group": null
   },
   {
-   "id": "h0022",
+   "id": "h03768b69",
    "page": 3,
    "bbox": [
     1080.26,
@@ -1853,7 +2001,61 @@
    "group": null
   },
   {
-   "id": "h0023",
+   "id": "h03b9bd2c",
+   "page": 3,
+   "bbox": [
+    858.55,
+    377.01,
+    861.88,
+    386.01
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "外科醫生並非為「睿選醫療網絡」的網絡醫生",
+   "targets": [
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1",
+    "p12:1",
+    "p14:1",
+    "p2:1"
+   ],
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h03ed5bf7",
+   "page": 3,
+   "bbox": [
+    1076.13,
+    377.05,
+    1079.32,
+    386.05
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "外科醫生皆為「睿選醫療網絡」的網絡醫生及",
+   "targets": [
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1",
+    "p12:1",
+    "p14:1",
+    "p2:1"
+   ],
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h03ef9f8d",
    "page": 3,
    "bbox": [
     432.88,
@@ -1876,7 +2078,33 @@
    "group": null
   },
   {
-   "id": "h0024",
+   "id": "h03c48c84",
+   "page": 3,
+   "bbox": [
+    1098.2,
+    401.31,
+    1103.45,
+    406.68
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "所有醫療費用均獲預先批核^,",
+   "targets": [
+    "p3:3",
+    "p5:4",
+    "p6:3",
+    "p7:2",
+    "p8:4",
+    "p2:3"
+   ],
+   "targetDisplay": "P4 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h03a24f8a",
    "page": 3,
    "bbox": [
     88.32,
@@ -1898,7 +2126,7 @@
    "group": null
   },
   {
-   "id": "h0025",
+   "id": "h03c6270f",
    "page": 3,
    "bbox": [
     551.11,
@@ -1921,7 +2149,7 @@
    "group": null
   },
   {
-   "id": "h0026",
+   "id": "h03de70c5",
    "page": 3,
    "bbox": [
     800.98,
@@ -1944,7 +2172,7 @@
    "group": null
   },
   {
-   "id": "h0027",
+   "id": "h034b72f3",
    "page": 3,
    "bbox": [
     782.54,
@@ -1966,7 +2194,7 @@
    "group": null
   },
   {
-   "id": "h0028",
+   "id": "h0392b4ec",
    "page": 3,
    "bbox": [
     848.73,
@@ -1989,7 +2217,7 @@
    "group": null
   },
   {
-   "id": "h0029",
+   "id": "h04c781f1",
    "page": 4,
    "bbox": [
     785.55,
@@ -2011,7 +2239,7 @@
    "group": null
   },
   {
-   "id": "h0030",
+   "id": "h04878651",
    "page": 4,
    "bbox": [
     706.18,
@@ -2033,7 +2261,7 @@
    "group": null
   },
   {
-   "id": "h0031",
+   "id": "h040fce7c",
    "page": 4,
    "bbox": [
     851.9,
@@ -2055,7 +2283,7 @@
    "group": null
   },
   {
-   "id": "h0032",
+   "id": "h04613956",
    "page": 4,
    "bbox": [
     674.51,
@@ -2077,7 +2305,60 @@
    "group": null
   },
   {
-   "id": "h0033",
+   "id": "h05e759de",
+   "page": 5,
+   "bbox": [
+    641.11,
+    143.13,
+    644.65,
+    153.13
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "中各個關鍵環節,從搜尋醫生、診斷、治療、繳費到復",
+   "targets": [
+    "p5:1",
+    "p7:4",
+    "p8:1",
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1"
+   ],
+   "targetDisplay": "P6 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h05fb1d44",
+   "page": 5,
+   "bbox": [
+    557.83,
+    433.49,
+    566.0,
+    441.84
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "預先批核服務^,",
+   "targets": [
+    "p5:4",
+    "p6:3",
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3"
+   ],
+   "targetDisplay": "P6 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h05fdfc72",
    "page": 5,
    "bbox": [
     796.63,
@@ -2100,7 +2381,59 @@
    "group": null
   },
   {
-   "id": "h0034",
+   "id": "h05f0d312",
+   "page": 5,
+   "bbox": [
+    996.93,
+    444.83,
+    1005.09,
+    453.18
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "免找數服務†,",
+   "targets": [
+    "p5:4",
+    "p6:3",
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3"
+   ],
+   "targetDisplay": "P6 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h05b307bd",
+   "page": 5,
+   "bbox": [
+    1005.97,
+    466.08,
+    1011.8,
+    472.05
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "一旦出院免找數服務†,",
+   "targets": [
+    "p5:4",
+    "p6:3",
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3"
+   ],
+   "targetDisplay": "P6 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0536419d",
    "page": 5,
    "bbox": [
     684.03,
@@ -2123,7 +2456,7 @@
    "group": null
   },
   {
-   "id": "h0035",
+   "id": "h0552a3e0",
    "page": 5,
    "bbox": [
     740.42,
@@ -2146,7 +2479,7 @@
    "group": null
   },
   {
-   "id": "h0036",
+   "id": "h058ad47f",
    "page": 5,
    "bbox": [
     273.83,
@@ -2168,7 +2501,7 @@
    "group": null
   },
   {
-   "id": "h0037",
+   "id": "h052c085e",
    "page": 5,
    "bbox": [
     757.86,
@@ -2191,7 +2524,7 @@
    "group": null
   },
   {
-   "id": "h0038",
+   "id": "h057b2fa8",
    "page": 5,
    "bbox": [
     932.89,
@@ -2213,7 +2546,60 @@
    "group": null
   },
   {
-   "id": "h0039",
+   "id": "h05996f2c",
+   "page": 5,
+   "bbox": [
+    766.46,
+    551.79,
+    770.0,
+    561.79
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "科醫生皆為「睿選醫療網絡」的網絡醫生",
+   "targets": [
+    "p5:1",
+    "p7:4",
+    "p8:1",
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1"
+   ],
+   "targetDisplay": "P6 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h056bf1c2",
+   "page": 5,
+   "bbox": [
+    857.38,
+    572.75,
+    863.21,
+    578.72
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": " 於住院期間所招致的所有醫療費用均獲預先批核^,",
+   "targets": [
+    "p5:4",
+    "p6:3",
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3"
+   ],
+   "targetDisplay": "P6 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h05c0be10",
    "page": 5,
    "bbox": [
     402.31,
@@ -2232,10 +2618,10 @@
    "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0039"
+   "group": "g0001"
   },
   {
-   "id": "h0040",
+   "id": "h0580199d",
    "page": 5,
    "bbox": [
     402.31,
@@ -2254,10 +2640,10 @@
    "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0039"
+   "group": "g0001"
   },
   {
-   "id": "h0041",
+   "id": "h0568f5f3",
    "page": 5,
    "bbox": [
     1113.67,
@@ -2276,10 +2662,10 @@
    "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0041"
+   "group": "g0002"
   },
   {
-   "id": "h0042",
+   "id": "h051a0a7f",
    "page": 5,
    "bbox": [
     1113.67,
@@ -2298,10 +2684,10 @@
    "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0041"
+   "group": "g0002"
   },
   {
-   "id": "h0043",
+   "id": "h056a9c42",
    "page": 5,
    "bbox": [
     644.55,
@@ -2323,7 +2709,7 @@
    "group": null
   },
   {
-   "id": "h0044",
+   "id": "h050d6f92",
    "page": 5,
    "bbox": [
     1133.14,
@@ -2342,10 +2728,10 @@
    "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0044"
+   "group": "g0003"
   },
   {
-   "id": "h0045",
+   "id": "h05e5d32d",
    "page": 5,
    "bbox": [
     1133.14,
@@ -2364,10 +2750,10 @@
    "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0044"
+   "group": "g0003"
   },
   {
-   "id": "h0046",
+   "id": "h0540a5d2",
    "page": 5,
    "bbox": [
     704.9,
@@ -2386,10 +2772,10 @@
    "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0046"
+   "group": "g0004"
   },
   {
-   "id": "h0047",
+   "id": "h05518faa",
    "page": 5,
    "bbox": [
     704.9,
@@ -2408,10 +2794,10 @@
    "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0046"
+   "group": "g0004"
   },
   {
-   "id": "h0048",
+   "id": "h0615cd42",
    "page": 6,
    "bbox": [
     411.49,
@@ -2433,7 +2819,7 @@
    "group": null
   },
   {
-   "id": "h0049",
+   "id": "h061196cf",
    "page": 6,
    "bbox": [
     791.47,
@@ -2455,7 +2841,59 @@
    "group": null
   },
   {
-   "id": "h0050",
+   "id": "h0654416b",
+   "page": 6,
+   "bbox": [
+    915.08,
+    213.4,
+    927.91,
+    226.52
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "「全助你」#,",
+   "targets": [
+    "p6:3",
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4"
+   ],
+   "targetDisplay": "P7 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h06578c97",
+   "page": 6,
+   "bbox": [
+    764.69,
+    288.92,
+    770.52,
+    294.88
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "康管家將為您於中國內地的健康旅程提供個人化支援。",
+   "targets": [
+    "p6:3",
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4"
+   ],
+   "targetDisplay": "P7 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h06e2fd1e",
    "page": 6,
    "bbox": [
     286.8,
@@ -2478,7 +2916,7 @@
    "group": null
   },
   {
-   "id": "h0051",
+   "id": "h061ed18c",
    "page": 6,
    "bbox": [
     472.51,
@@ -2500,7 +2938,7 @@
    "group": null
   },
   {
-   "id": "h0052",
+   "id": "h06a38da9",
    "page": 6,
    "bbox": [
     553.88,
@@ -2522,7 +2960,7 @@
    "group": null
   },
   {
-   "id": "h0053",
+   "id": "h06e28282",
    "page": 6,
    "bbox": [
     474.01,
@@ -2544,7 +2982,33 @@
    "group": null
   },
   {
-   "id": "h0054",
+   "id": "h065cb127",
+   "page": 6,
+   "bbox": [
+    869.2,
+    435.68,
+    876.2,
+    442.84
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "申請前的行政支援,助您清楚了解所需的醫療費用預算",
+   "targets": [
+    "p6:3",
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4"
+   ],
+   "targetDisplay": "P7 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h064e9160",
    "page": 6,
    "bbox": [
     363.2,
@@ -2566,7 +3030,33 @@
    "group": null
   },
   {
-   "id": "h0055",
+   "id": "h06e9e493",
+   "page": 6,
+   "bbox": [
+    866.54,
+    620.6,
+    879.37,
+    633.72
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "方便的出院免找數服務†,",
+   "targets": [
+    "p6:3",
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4"
+   ],
+   "targetDisplay": "P7 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h06007792",
    "page": 6,
    "bbox": [
     673.53,
@@ -2588,7 +3078,33 @@
    "group": null
   },
   {
-   "id": "h0056",
+   "id": "h069a6a37",
+   "page": 6,
+   "bbox": [
+    873.81,
+    659.27,
+    879.64,
+    665.23
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "免找數服務†,,讓您毋須為繳費及索賠程序而操心。",
+   "targets": [
+    "p6:3",
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4"
+   ],
+   "targetDisplay": "P7 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h074890a6",
    "page": 7,
    "bbox": [
     1071.05,
@@ -2614,7 +3130,138 @@
    "group": null
   },
   {
-   "id": "h0057",
+   "id": "h078189b9",
+   "page": 7,
+   "bbox": [
+    219.36,
+    131.59,
+    229.85,
+    142.33
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "醫療費用預先批核^,及出院免找數服務†,※",
+   "targets": [
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3"
+   ],
+   "targetDisplay": "P8 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h078cfd59",
+   "page": 7,
+   "bbox": [
+    381.49,
+    131.59,
+    391.98,
+    142.33
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "醫療費用預先批核^,※及出院免找數服務†,",
+   "targets": [
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3"
+   ],
+   "targetDisplay": "P8 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h07f493aa",
+   "page": 7,
+   "bbox": [
+    195.35,
+    163.81,
+    198.89,
+    173.81
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": ",都可享方便的醫療費用預先批核^,※及出院免找數",
+   "targets": [
+    "p7:4",
+    "p8:1",
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1"
+   ],
+   "targetDisplay": "P8 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h07ed6814",
+   "page": 7,
+   "bbox": [
+    497.71,
+    164.1,
+    503.54,
+    170.06
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "生,都可享方便的醫療費用預先批核^,及出院免找數",
+   "targets": [
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3"
+   ],
+   "targetDisplay": "P8 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h075fa0e7",
+   "page": 7,
+   "bbox": [
+    93.36,
+    179.1,
+    99.19,
+    185.06
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "服務†,。",
+   "targets": [
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3"
+   ],
+   "targetDisplay": "P8 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h07196f6e",
    "page": 7,
    "bbox": [
     722.16,
@@ -2640,7 +3287,59 @@
    "group": null
   },
   {
-   "id": "h0058",
+   "id": "h072cad06",
+   "page": 7,
+   "bbox": [
+    522.58,
+    208.15,
+    529.58,
+    215.31
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "出院免找數服務†,",
+   "targets": [
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3"
+   ],
+   "targetDisplay": "P8 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h07ae5ff7",
+   "page": 7,
+   "bbox": [
+    317.94,
+    215.65,
+    324.94,
+    222.81
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "醫療費用預先批核服務^,",
+   "targets": [
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3"
+   ],
+   "targetDisplay": "P8 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0721358a",
    "page": 7,
    "bbox": [
     682.79,
@@ -2666,7 +3365,87 @@
    "group": null
   },
   {
-   "id": "h0059",
+   "id": "h07075ad2",
+   "page": 7,
+   "bbox": [
+    255.16,
+    276.3,
+    258.7,
+    286.3
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "由「睿選醫療網絡」的網絡醫生提交申請",
+   "targets": [
+    "p7:4",
+    "p8:1",
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1"
+   ],
+   "targetDisplay": "P8 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0772237e",
+   "page": 7,
+   "bbox": [
+    506.49,
+    301.53,
+    512.32,
+    307.5
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "一旦出院免找數服務†,獲預先批",
+   "targets": [
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3"
+   ],
+   "targetDisplay": "P8 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h07ea52b1",
+   "page": 7,
+   "bbox": [
+    114.96,
+    315.9,
+    118.5,
+    325.9
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "「睿選醫療網絡」",
+   "targets": [
+    "p7:4",
+    "p8:1",
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1"
+   ],
+   "targetDisplay": "P8 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h07d82f1e",
    "page": 7,
    "bbox": [
     475.51,
@@ -2688,7 +3467,107 @@
    "group": null
   },
   {
-   "id": "h0060",
+   "id": "h07d8d49d",
+   "page": 7,
+   "bbox": [
+    1072.03,
+    348.24,
+    1081.63,
+    362.24
+   ],
+   "text": "**",
+   "kind": "asterisk",
+   "contextBefore": "環球緊急支援服務",
+   "targets": [
+    "p7:9"
+   ],
+   "targetDisplay": "P8 · 腳註 **",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h073e4911",
+   "page": 7,
+   "bbox": [
+    821.91,
+    348.6,
+    831.23,
+    358.14
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "香港遙距視像醫療服務,",
+   "targets": [
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3"
+   ],
+   "targetDisplay": "P8 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h07896254",
+   "page": 7,
+   "bbox": [
+    506.49,
+    445.39,
+    512.32,
+    451.36
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "一旦出院免找數服務†,獲預先批",
+   "targets": [
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3"
+   ],
+   "targetDisplay": "P8 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h07797edc",
+   "page": 7,
+   "bbox": [
+    75.24,
+    474.76,
+    78.78,
+    484.76
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "絡」內)",
+   "targets": [
+    "p7:4",
+    "p8:1",
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1"
+   ],
+   "targetDisplay": "P8 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h076eee70",
    "page": 7,
    "bbox": [
     471.45,
@@ -2710,7 +3589,324 @@
    "group": null
   },
   {
-   "id": "h0061",
+   "id": "h077dc054",
+   "page": 7,
+   "bbox": [
+    217.62,
+    568.19,
+    223.45,
+    574.16
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "「全助你」#,的就醫陪診員服務將提供醫療",
+   "targets": [
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3"
+   ],
+   "targetDisplay": "P8 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h07137e77",
+   "page": 7,
+   "bbox": [
+    227.86,
+    583.19,
+    233.69,
+    589.16
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "費用預先批核^,,▲申請前的行政支援",
+   "targets": [
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3"
+   ],
+   "targetDisplay": "P8 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h073026f2",
+   "page": 7,
+   "bbox": [
+    73.74,
+    672.19,
+    79.57,
+    678.15
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "。一旦在支付最終索賠金額後,任何相關的保障限額亦",
+   "targets": [
+    "p7:2",
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3"
+   ],
+   "targetDisplay": "P8 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0816276f",
+   "page": 8,
+   "bbox": [
+    422.33,
+    509.44,
+    426.03,
+    519.44
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "「睿選醫療網絡」的網絡醫生直接聯絡AIA,為",
+   "targets": [
+    "p8:1",
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4"
+   ],
+   "targetDisplay": "P9 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h08c4c7a3",
+   "page": 8,
+   "bbox": [
+    701.33,
+    509.44,
+    705.03,
+    519.44
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "絡醫生直接聯絡AIA,為Vincent提交醫療費",
+   "targets": [
+    "p8:1",
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4"
+   ],
+   "targetDisplay": "P9 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h08400a01",
+   "page": 8,
+   "bbox": [
+    486.57,
+    524.78,
+    492.4,
+    530.74
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "ncent提交醫療費用預先批核^,及出院免找數服",
+   "targets": [
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3",
+    "p7:2"
+   ],
+   "targetDisplay": "P9 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h08d66b50",
+   "page": 8,
+   "bbox": [
+    679.66,
+    524.78,
+    685.49,
+    530.74
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": ",及出院免找數服務†,※的申請,並均獲AIA批核",
+   "targets": [
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3",
+    "p7:2"
+   ],
+   "targetDisplay": "P9 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0892886c",
+   "page": 8,
+   "bbox": [
+    771.57,
+    524.78,
+    777.4,
+    530.74
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": ",※及出院免找數服務†,的申請,並均獲AIA批核",
+   "targets": [
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3",
+    "p7:2"
+   ],
+   "targetDisplay": "P9 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h08d8d5b9",
+   "page": 8,
+   "bbox": [
+    130.65,
+    526.28,
+    134.35,
+    536.28
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "鬆從「睿選醫療網絡」中,找",
+   "targets": [
+    "p8:1",
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4"
+   ],
+   "targetDisplay": "P9 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h087e2a59",
+   "page": 8,
+   "bbox": [
+    246.06,
+    526.28,
+    249.76,
+    536.28
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "選醫療網絡」的網絡醫生的",
+   "targets": [
+    "p8:1",
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4"
+   ],
+   "targetDisplay": "P9 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0869773f",
+   "page": 8,
+   "bbox": [
+    349.07,
+    539.78,
+    354.9,
+    545.74
+   ],
+   "text": "※",
+   "kind": "asterisk",
+   "contextBefore": "務†,的申請,並均獲AIA批核",
+   "targets": [
+    "p8:4",
+    "p2:3",
+    "p3:3",
+    "p5:4",
+    "p6:3",
+    "p7:2"
+   ],
+   "targetDisplay": "P9 · 腳註 ※",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h08d26426",
+   "page": 8,
+   "bbox": [
+    741.99,
+    550.78,
+    745.69,
+    560.78
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "「睿選醫療網絡」的網絡醫生於「睿選指定醫院」1進",
+   "targets": [
+    "p8:1",
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4"
+   ],
+   "targetDisplay": "P9 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h08ea63c6",
    "page": 8,
    "bbox": [
     898.87,
@@ -2733,7 +3929,7 @@
    "group": null
   },
   {
-   "id": "h0062",
+   "id": "h082ea342",
    "page": 8,
    "bbox": [
     734.23,
@@ -2756,7 +3952,7 @@
    "group": null
   },
   {
-   "id": "h0063",
+   "id": "h080f3890",
    "page": 8,
    "bbox": [
     455.5,
@@ -2779,7 +3975,7 @@
    "group": null
   },
   {
-   "id": "h0064",
+   "id": "h084eed51",
    "page": 8,
    "bbox": [
     717.66,
@@ -2802,7 +3998,7 @@
    "group": null
   },
   {
-   "id": "h0065",
+   "id": "h0933acce",
    "page": 9,
    "bbox": [
     472.85,
@@ -2826,7 +4022,7 @@
    "group": null
   },
   {
-   "id": "h0066",
+   "id": "h1024040e",
    "page": 10,
    "bbox": [
     690.68,
@@ -2849,7 +4045,7 @@
    "group": null
   },
   {
-   "id": "h0067",
+   "id": "h1074e0f6",
    "page": 10,
    "bbox": [
     1071.79,
@@ -2872,7 +4068,7 @@
    "group": null
   },
   {
-   "id": "h0068",
+   "id": "h105d7cdf",
    "page": 10,
    "bbox": [
     861.63,
@@ -2896,7 +4092,7 @@
    "group": null
   },
   {
-   "id": "h0069",
+   "id": "h10c7bf99",
    "page": 10,
    "bbox": [
     1045.31,
@@ -2918,7 +4114,7 @@
    "group": null
   },
   {
-   "id": "h0070",
+   "id": "h10e1983c",
    "page": 10,
    "bbox": [
     861.39,
@@ -2942,7 +4138,7 @@
    "group": null
   },
   {
-   "id": "h0071",
+   "id": "h10ff58c0",
    "page": 10,
    "bbox": [
     877.71,
@@ -2966,7 +4162,7 @@
    "group": null
   },
   {
-   "id": "h0072",
+   "id": "h104b5d8e",
    "page": 10,
    "bbox": [
     887.54,
@@ -2988,7 +4184,7 @@
    "group": null
   },
   {
-   "id": "h0073",
+   "id": "h1078aca8",
    "page": 10,
    "bbox": [
     887.63,
@@ -3010,7 +4206,7 @@
    "group": null
   },
   {
-   "id": "h0074",
+   "id": "h10403a00",
    "page": 10,
    "bbox": [
     900.45,
@@ -3034,7 +4230,7 @@
    "group": null
   },
   {
-   "id": "h0075",
+   "id": "h101f9e16",
    "page": 10,
    "bbox": [
     926.29,
@@ -3058,7 +4254,7 @@
    "group": null
   },
   {
-   "id": "h0076",
+   "id": "h100c7bc7",
    "page": 10,
    "bbox": [
     969.45,
@@ -3082,7 +4278,7 @@
    "group": null
   },
   {
-   "id": "h0077",
+   "id": "h10813cac",
    "page": 10,
    "bbox": [
     798.41,
@@ -3104,7 +4300,7 @@
    "group": null
   },
   {
-   "id": "h0078",
+   "id": "h1078abff",
    "page": 10,
    "bbox": [
     907.21,
@@ -3126,7 +4322,7 @@
    "group": null
   },
   {
-   "id": "h0079",
+   "id": "h109e4c8e",
    "page": 10,
    "bbox": [
     907.02,
@@ -3148,7 +4344,7 @@
    "group": null
   },
   {
-   "id": "h0080",
+   "id": "h10870051",
    "page": 10,
    "bbox": [
     989.04,
@@ -3170,7 +4366,7 @@
    "group": null
   },
   {
-   "id": "h0081",
+   "id": "h1142c2b9",
    "page": 11,
    "bbox": [
     74.61,
@@ -3192,7 +4388,7 @@
    "group": null
   },
   {
-   "id": "h0082",
+   "id": "h11d96ef3",
    "page": 11,
    "bbox": [
     669.89,
@@ -3214,7 +4410,7 @@
    "group": null
   },
   {
-   "id": "h0083",
+   "id": "h112aebe9",
    "page": 11,
    "bbox": [
     730.93,
@@ -3236,7 +4432,34 @@
    "group": null
   },
   {
-   "id": "h0084",
+   "id": "h119a8ee6",
+   "page": 11,
+   "bbox": [
+    1019.46,
+    184.08,
+    1023.16,
+    194.08
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1"
+   ],
+   "targetDisplay": "P13 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h1174bc9f",
    "page": 11,
    "bbox": [
     730.56,
@@ -3258,7 +4481,61 @@
    "group": null
   },
   {
-   "id": "h0085",
+   "id": "h11fc0080",
+   "page": 11,
+   "bbox": [
+    1019.46,
+    220.76,
+    1023.16,
+    230.76
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1"
+   ],
+   "targetDisplay": "P13 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h114cf2e1",
+   "page": 11,
+   "bbox": [
+    424.18,
+    223.01,
+    427.88,
+    233.01
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1"
+   ],
+   "targetDisplay": "P13 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h11024a6d",
    "page": 11,
    "bbox": [
     761.34,
@@ -3280,7 +4557,34 @@
    "group": null
   },
   {
-   "id": "h0086",
+   "id": "h119fdd7e",
+   "page": 11,
+   "bbox": [
+    1019.46,
+    244.6,
+    1023.16,
+    254.59
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1"
+   ],
+   "targetDisplay": "P13 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h114e1cd2",
    "page": 11,
    "bbox": [
     124.51,
@@ -3302,7 +4606,7 @@
    "group": null
   },
   {
-   "id": "h0087",
+   "id": "h119fcbbc",
    "page": 11,
    "bbox": [
     730.23,
@@ -3324,7 +4628,61 @@
    "group": null
   },
   {
-   "id": "h0088",
+   "id": "h11ddaf72",
+   "page": 11,
+   "bbox": [
+    424.18,
+    300.43,
+    427.88,
+    310.43
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1"
+   ],
+   "targetDisplay": "P13 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h11b94ea6",
+   "page": 11,
+   "bbox": [
+    424.18,
+    347.53,
+    427.88,
+    357.53
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1"
+   ],
+   "targetDisplay": "P13 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h11cd935e",
    "page": 11,
    "bbox": [
     155.45,
@@ -3343,10 +4701,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0088"
+   "group": "g0005"
   },
   {
-   "id": "h0089",
+   "id": "h11a4e2fc",
    "page": 11,
    "bbox": [
     155.45,
@@ -3365,10 +4723,37 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0088"
+   "group": "g0005"
   },
   {
-   "id": "h0090",
+   "id": "h11bb0ad0",
+   "page": 11,
+   "bbox": [
+    1019.46,
+    370.52,
+    1023.16,
+    380.52
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1"
+   ],
+   "targetDisplay": "P13 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h11cf291d",
    "page": 11,
    "bbox": [
     164.82,
@@ -3390,7 +4775,7 @@
    "group": null
   },
   {
-   "id": "h0091",
+   "id": "h1132d0fa",
    "page": 11,
    "bbox": [
     115.05,
@@ -3412,7 +4797,7 @@
    "group": null
   },
   {
-   "id": "h0092",
+   "id": "h119fd7d6",
    "page": 11,
    "bbox": [
     388.93,
@@ -3434,7 +4819,7 @@
    "group": null
   },
   {
-   "id": "h0093",
+   "id": "h11fcb32d",
    "page": 11,
    "bbox": [
     108.02,
@@ -3455,7 +4840,7 @@
    "group": null
   },
   {
-   "id": "h0094",
+   "id": "h11414ec8",
    "page": 11,
    "bbox": [
     669.89,
@@ -3477,7 +4862,7 @@
    "group": null
   },
   {
-   "id": "h0095",
+   "id": "h118d3da5",
    "page": 11,
    "bbox": [
     425.72,
@@ -3498,7 +4883,34 @@
    "group": null
   },
   {
-   "id": "h0096",
+   "id": "h115649b0",
+   "page": 11,
+   "bbox": [
+    424.18,
+    470.21,
+    427.88,
+    480.21
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1"
+   ],
+   "targetDisplay": "P13 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h116f1898",
    "page": 11,
    "bbox": [
     1061.8,
@@ -3519,7 +4931,7 @@
    "group": null
   },
   {
-   "id": "h0097",
+   "id": "h11a36fbc",
    "page": 11,
    "bbox": [
     354.82,
@@ -3541,7 +4953,34 @@
    "group": null
   },
   {
-   "id": "h0098",
+   "id": "h11575fbf",
+   "page": 11,
+   "bbox": [
+    1019.46,
+    517.02,
+    1023.16,
+    527.02
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1"
+   ],
+   "targetDisplay": "P13 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h11ff48c7",
    "page": 11,
    "bbox": [
     449.8,
@@ -3562,7 +5001,7 @@
    "group": null
   },
   {
-   "id": "h0099",
+   "id": "h112ba191",
    "page": 11,
    "bbox": [
     984.21,
@@ -3584,7 +5023,7 @@
    "group": null
   },
   {
-   "id": "h0100",
+   "id": "h11d3127d",
    "page": 11,
    "bbox": [
     1020.99,
@@ -3605,7 +5044,7 @@
    "group": null
   },
   {
-   "id": "h0101",
+   "id": "h112a8877",
    "page": 11,
    "bbox": [
     201.9,
@@ -3626,7 +5065,7 @@
    "group": null
   },
   {
-   "id": "h0102",
+   "id": "h11878de5",
    "page": 11,
    "bbox": [
     388.93,
@@ -3648,7 +5087,7 @@
    "group": null
   },
   {
-   "id": "h0103",
+   "id": "h110e7595",
    "page": 11,
    "bbox": [
     950.09,
@@ -3670,7 +5109,7 @@
    "group": null
   },
   {
-   "id": "h0104",
+   "id": "h11028e07",
    "page": 11,
    "bbox": [
     425.72,
@@ -3691,7 +5130,7 @@
    "group": null
   },
   {
-   "id": "h0105",
+   "id": "h11cb83ef",
    "page": 11,
    "bbox": [
     1045.07,
@@ -3712,7 +5151,34 @@
    "group": null
   },
   {
-   "id": "h0106",
+   "id": "h117cc468",
+   "page": 11,
+   "bbox": [
+    424.18,
+    636.47,
+    427.88,
+    646.47
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1"
+   ],
+   "targetDisplay": "P13 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h1165a2dc",
    "page": 11,
    "bbox": [
     710.33,
@@ -3734,7 +5200,7 @@
    "group": null
   },
   {
-   "id": "h0107",
+   "id": "h1189c9bd",
    "page": 11,
    "bbox": [
     354.82,
@@ -3756,7 +5222,7 @@
    "group": null
   },
   {
-   "id": "h0108",
+   "id": "h11852612",
    "page": 11,
    "bbox": [
     449.8,
@@ -3777,7 +5243,7 @@
    "group": null
   },
   {
-   "id": "h0109",
+   "id": "h11a100d4",
    "page": 11,
    "bbox": [
     751.08,
@@ -3799,7 +5265,7 @@
    "group": null
   },
   {
-   "id": "h0110",
+   "id": "h12c1599d",
    "page": 12,
    "bbox": [
     74.61,
@@ -3821,7 +5287,7 @@
    "group": null
   },
   {
-   "id": "h0111",
+   "id": "h12eb71ac",
    "page": 12,
    "bbox": [
     669.89,
@@ -3843,7 +5309,7 @@
    "group": null
   },
   {
-   "id": "h0112",
+   "id": "h121e7c28",
    "page": 12,
    "bbox": [
     176.71,
@@ -3866,7 +5332,34 @@
    "group": null
   },
   {
-   "id": "h0113",
+   "id": "h122a3260",
+   "page": 12,
+   "bbox": [
+    1019.46,
+    185.33,
+    1023.16,
+    195.33
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1"
+   ],
+   "targetDisplay": "P13 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h122a25d4",
    "page": 12,
    "bbox": [
     194.94,
@@ -3890,7 +5383,7 @@
    "group": null
   },
   {
-   "id": "h0114",
+   "id": "h12bb6771",
    "page": 12,
    "bbox": [
     740.75,
@@ -3909,10 +5402,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0114"
+   "group": "g0006"
   },
   {
-   "id": "h0115",
+   "id": "h12776548",
    "page": 12,
    "bbox": [
     740.75,
@@ -3930,10 +5423,37 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0114"
+   "group": "g0006"
   },
   {
-   "id": "h0116",
+   "id": "h122ca9d4",
+   "page": 12,
+   "bbox": [
+    1019.46,
+    350.09,
+    1023.16,
+    360.09
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p12:1",
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1"
+   ],
+   "targetDisplay": "P13 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h12ef2e6b",
    "page": 12,
    "bbox": [
     388.93,
@@ -3955,7 +5475,7 @@
    "group": null
   },
   {
-   "id": "h0117",
+   "id": "h12d0a917",
    "page": 12,
    "bbox": [
     425.72,
@@ -3976,7 +5496,7 @@
    "group": null
   },
   {
-   "id": "h0118",
+   "id": "h1260261e",
    "page": 12,
    "bbox": [
     354.82,
@@ -3998,7 +5518,7 @@
    "group": null
   },
   {
-   "id": "h0119",
+   "id": "h1230cfbe",
    "page": 12,
    "bbox": [
     449.8,
@@ -4019,7 +5539,7 @@
    "group": null
   },
   {
-   "id": "h0120",
+   "id": "h122fcd18",
    "page": 12,
    "bbox": [
     173.76,
@@ -4041,7 +5561,7 @@
    "group": null
   },
   {
-   "id": "h0121",
+   "id": "h12835fcd",
    "page": 12,
    "bbox": [
     126.2,
@@ -4063,7 +5583,7 @@
    "group": null
   },
   {
-   "id": "h0122",
+   "id": "h123023c6",
    "page": 12,
    "bbox": [
     159.2,
@@ -4085,7 +5605,61 @@
    "group": null
   },
   {
-   "id": "h0123",
+   "id": "h14884b33",
+   "page": 14,
+   "bbox": [
+    677.56,
+    580.39,
+    680.89,
+    589.39
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償。",
+   "targets": [
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1",
+    "p12:1"
+   ],
+   "targetDisplay": "P15 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h14cb4d83",
+   "page": 14,
+   "bbox": [
+    836.26,
+    640.27,
+    839.59,
+    649.27
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "全數賠償",
+   "targets": [
+    "p14:1",
+    "p2:1",
+    "p3:1",
+    "p5:1",
+    "p7:4",
+    "p8:1",
+    "p12:1"
+   ],
+   "targetDisplay": "P15 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h175a0c72",
    "page": 17,
    "bbox": [
     167.04,
@@ -4108,7 +5682,7 @@
    "group": null
   },
   {
-   "id": "h0124",
+   "id": "h17712b3a",
    "page": 17,
    "bbox": [
     208.55,
@@ -4132,7 +5706,7 @@
    "group": null
   },
   {
-   "id": "h0125",
+   "id": "h17e708ca",
    "page": 17,
    "bbox": [
     141.65,
@@ -4155,7 +5729,7 @@
    "group": null
   },
   {
-   "id": "h0126",
+   "id": "h176b2d3f",
    "page": 17,
    "bbox": [
     315.1,
@@ -4179,8 +5753,8 @@
   }
  ],
  "stats": {
-  "anchors": 127,
-  "notes": 82,
-  "resolved": 127
+  "anchors": 186,
+  "notes": 83,
+  "resolved": 186
  }
 }

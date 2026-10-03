@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.14",
  "docId": "c360cd7d",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/保誠/自愿医保/保诚灵活自主医保计划-产品小册子.pdf",
@@ -12,11 +12,28 @@
   "riseRatio": 0.22,
   "gapRatio": 0.6
  },
- "notes": [],
+ "notes": [
+  {
+   "noteId": "p19:1",
+   "anchor": "footer",
+   "page": 19,
+   "bbox": [
+    35.43,
+    285.54,
+    197.83,
+    298.03
+   ],
+   "number": "^",
+   "text": "本計劃將和基本計劃採用同一貨幣。",
+   "textPages": [
+    19
+   ]
+  }
+ ],
  "hotspots": [],
  "stats": {
   "anchors": 0,
-  "notes": 0,
+  "notes": 1,
   "resolved": 0
  }
 }

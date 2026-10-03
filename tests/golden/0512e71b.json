@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.14",
  "docId": "0512e71b",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/FWD/自愿医保/倍衛您醫療計劃-產品宣傳單張.pdf",
@@ -368,7 +368,7 @@
  ],
  "hotspots": [
   {
-   "id": "h0000",
+   "id": "h0111eae7",
    "page": 1,
    "bbox": [
     252.0,
@@ -390,7 +390,7 @@
    "group": null
   },
   {
-   "id": "h0001",
+   "id": "h01823751",
    "page": 1,
    "bbox": [
     354.33,
@@ -412,7 +412,7 @@
    "group": null
   },
   {
-   "id": "h0002",
+   "id": "h01dec0f6",
    "page": 1,
    "bbox": [
     375.58,
@@ -431,10 +431,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0002"
+   "group": "g0001"
   },
   {
-   "id": "h0003",
+   "id": "h01e1c6d1",
    "page": 1,
    "bbox": [
     375.58,
@@ -453,10 +453,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0002"
+   "group": "g0001"
   },
   {
-   "id": "h0004",
+   "id": "h0127128e",
    "page": 1,
    "bbox": [
     100.35,
@@ -478,7 +478,7 @@
    "group": null
   },
   {
-   "id": "h0005",
+   "id": "h024b9ce2",
    "page": 2,
    "bbox": [
     162.56,
@@ -500,7 +500,7 @@
    "group": null
   },
   {
-   "id": "h0006",
+   "id": "h02aed886",
    "page": 2,
    "bbox": [
     444.49,
@@ -522,7 +522,7 @@
    "group": null
   },
   {
-   "id": "h0007",
+   "id": "h02b5084b",
    "page": 2,
    "bbox": [
     184.1,
@@ -544,7 +544,7 @@
    "group": null
   },
   {
-   "id": "h0008",
+   "id": "h02e99909",
    "page": 2,
    "bbox": [
     455.04,
@@ -563,10 +563,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0008"
+   "group": "g0002"
   },
   {
-   "id": "h0009",
+   "id": "h02e0dc5b",
    "page": 2,
    "bbox": [
     455.04,
@@ -584,10 +584,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0008"
+   "group": "g0002"
   },
   {
-   "id": "h0010",
+   "id": "h02420e97",
    "page": 2,
    "bbox": [
     455.04,
@@ -606,10 +606,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0008"
+   "group": "g0002"
   },
   {
-   "id": "h0011",
+   "id": "h02dd66d4",
    "page": 2,
    "bbox": [
     444.08,
@@ -631,7 +631,7 @@
    "group": null
   },
   {
-   "id": "h0012",
+   "id": "h02a898a6",
    "page": 2,
    "bbox": [
     209.73,
@@ -650,10 +650,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0012"
+   "group": "g0003"
   },
   {
-   "id": "h0013",
+   "id": "h025e8cd0",
    "page": 2,
    "bbox": [
     209.73,
@@ -672,10 +672,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0012"
+   "group": "g0003"
   },
   {
-   "id": "h0014",
+   "id": "h02c1b459",
    "page": 2,
    "bbox": [
     492.9,
@@ -694,10 +694,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0014"
+   "group": "g0004"
   },
   {
-   "id": "h0015",
+   "id": "h02c78e64",
    "page": 2,
    "bbox": [
     492.9,
@@ -716,10 +716,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0014"
+   "group": "g0004"
   },
   {
-   "id": "h0016",
+   "id": "h037b5bfe",
    "page": 3,
    "bbox": [
     222.23,
@@ -741,7 +741,7 @@
    "group": null
   },
   {
-   "id": "h0017",
+   "id": "h03194bcf",
    "page": 3,
    "bbox": [
     279.58,
@@ -763,7 +763,7 @@
    "group": null
   },
   {
-   "id": "h0018",
+   "id": "h0354a76a",
    "page": 3,
    "bbox": [
     511.35,
@@ -785,7 +785,7 @@
    "group": null
   },
   {
-   "id": "h0019",
+   "id": "h0343aea8",
    "page": 3,
    "bbox": [
     436.75,
@@ -806,7 +806,7 @@
    "group": null
   },
   {
-   "id": "h0020",
+   "id": "h03b0e85f",
    "page": 3,
    "bbox": [
     288.8,
@@ -828,7 +828,7 @@
    "group": null
   },
   {
-   "id": "h0021",
+   "id": "h03782f29",
    "page": 3,
    "bbox": [
     247.2,
@@ -850,7 +850,7 @@
    "group": null
   },
   {
-   "id": "h0022",
+   "id": "h039ad236",
    "page": 3,
    "bbox": [
     380.51,
@@ -872,7 +872,7 @@
    "group": null
   },
   {
-   "id": "h0023",
+   "id": "h0323b6df",
    "page": 3,
    "bbox": [
     511.79,
@@ -891,7 +891,7 @@
    "group": null
   },
   {
-   "id": "h0024",
+   "id": "h0348b44b",
    "page": 3,
    "bbox": [
     188.48,
@@ -913,7 +913,7 @@
    "group": null
   },
   {
-   "id": "h0025",
+   "id": "h0413819f",
    "page": 4,
    "bbox": [
     540.18,
@@ -932,7 +932,7 @@
    "group": null
   },
   {
-   "id": "h0026",
+   "id": "h04a6616d",
    "page": 4,
    "bbox": [
     339.74,
@@ -951,7 +951,7 @@
    "group": null
   },
   {
-   "id": "h0027",
+   "id": "h049120e5",
    "page": 4,
    "bbox": [
     436.51,
@@ -973,7 +973,7 @@
    "group": null
   },
   {
-   "id": "h0028",
+   "id": "h0497ef78",
    "page": 4,
    "bbox": [
     243.14,
@@ -992,10 +992,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0028"
+   "group": "g0005"
   },
   {
-   "id": "h0029",
+   "id": "h04cd65be",
    "page": 4,
    "bbox": [
     243.14,
@@ -1014,10 +1014,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0028"
+   "group": "g0005"
   },
   {
-   "id": "h0030",
+   "id": "h04f0ebd9",
    "page": 4,
    "bbox": [
     486.27,
@@ -1036,7 +1036,7 @@
    "group": null
   },
   {
-   "id": "h0031",
+   "id": "h0400aa6b",
    "page": 4,
    "bbox": [
     315.11,
@@ -1058,7 +1058,7 @@
    "group": null
   },
   {
-   "id": "h0032",
+   "id": "h05e71a0d",
    "page": 5,
    "bbox": [
     248.91,
@@ -1080,7 +1080,7 @@
    "group": null
   },
   {
-   "id": "h0033",
+   "id": "h0586a99d",
    "page": 5,
    "bbox": [
     276.73,
@@ -1102,7 +1102,7 @@
    "group": null
   },
   {
-   "id": "h0034",
+   "id": "h059bb96d",
    "page": 5,
    "bbox": [
     435.41,
@@ -1124,7 +1124,7 @@
    "group": null
   },
   {
-   "id": "h0035",
+   "id": "h05da23c9",
    "page": 5,
    "bbox": [
     359.35,
@@ -1146,7 +1146,7 @@
    "group": null
   },
   {
-   "id": "h0036",
+   "id": "h05670c66",
    "page": 5,
    "bbox": [
     377.91,
@@ -1165,10 +1165,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0036"
+   "group": "g0006"
   },
   {
-   "id": "h0037",
+   "id": "h05c38cb5",
    "page": 5,
    "bbox": [
     377.91,
@@ -1186,10 +1186,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0036"
+   "group": "g0006"
   },
   {
-   "id": "h0038",
+   "id": "h05a86560",
    "page": 5,
    "bbox": [
     377.91,
@@ -1208,10 +1208,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0036"
+   "group": "g0006"
   },
   {
-   "id": "h0039",
+   "id": "h05903f6b",
    "page": 5,
    "bbox": [
     501.0,
@@ -1233,7 +1233,7 @@
    "group": null
   },
   {
-   "id": "h0040",
+   "id": "h055f2803",
    "page": 5,
    "bbox": [
     199.59,
@@ -1255,7 +1255,7 @@
    "group": null
   },
   {
-   "id": "h0041",
+   "id": "h057cef81",
    "page": 5,
    "bbox": [
     404.6,
@@ -1274,10 +1274,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0041"
+   "group": "g0007"
   },
   {
-   "id": "h0042",
+   "id": "h05f749a7",
    "page": 5,
    "bbox": [
     404.6,
@@ -1295,10 +1295,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0041"
+   "group": "g0007"
   },
   {
-   "id": "h0043",
+   "id": "h054d2c35",
    "page": 5,
    "bbox": [
     404.6,
@@ -1317,10 +1317,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0041"
+   "group": "g0007"
   },
   {
-   "id": "h0044",
+   "id": "h060b9a15",
    "page": 6,
    "bbox": [
     406.08,
@@ -1342,7 +1342,7 @@
    "group": null
   },
   {
-   "id": "h0045",
+   "id": "h0609f95f",
    "page": 6,
    "bbox": [
     453.36,
@@ -1364,7 +1364,7 @@
    "group": null
   },
   {
-   "id": "h0046",
+   "id": "h0694b83a",
    "page": 6,
    "bbox": [
     259.94,
@@ -1386,7 +1386,7 @@
    "group": null
   },
   {
-   "id": "h0047",
+   "id": "h06e2fdb9",
    "page": 6,
    "bbox": [
     471.31,
@@ -1408,7 +1408,7 @@
    "group": null
   },
   {
-   "id": "h0048",
+   "id": "h06d2617e",
    "page": 6,
    "bbox": [
     463.61,
@@ -1427,7 +1427,7 @@
    "group": null
   },
   {
-   "id": "h0049",
+   "id": "h063eead5",
    "page": 6,
    "bbox": [
     488.01,
@@ -1449,7 +1449,7 @@
    "group": null
   },
   {
-   "id": "h0050",
+   "id": "h069953e2",
    "page": 6,
    "bbox": [
     400.96,
@@ -1471,7 +1471,7 @@
    "group": null
   },
   {
-   "id": "h0051",
+   "id": "h0653e97d",
    "page": 6,
    "bbox": [
     235.82,
@@ -1493,7 +1493,7 @@
    "group": null
   },
   {
-   "id": "h0052",
+   "id": "h0645a4c7",
    "page": 6,
    "bbox": [
     436.66,
@@ -1515,7 +1515,7 @@
    "group": null
   },
   {
-   "id": "h0053",
+   "id": "h064ba5fc",
    "page": 6,
    "bbox": [
     222.55,
@@ -1537,7 +1537,7 @@
    "group": null
   },
   {
-   "id": "h0054",
+   "id": "h07a9e8fc",
    "page": 7,
    "bbox": [
     281.88,
@@ -1556,10 +1556,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0054"
+   "group": "g0008"
   },
   {
-   "id": "h0055",
+   "id": "h07858210",
    "page": 7,
    "bbox": [
     281.88,
@@ -1578,10 +1578,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0054"
+   "group": "g0008"
   },
   {
-   "id": "h0056",
+   "id": "h0715093e",
    "page": 7,
    "bbox": [
     279.3,
@@ -1600,10 +1600,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0056"
+   "group": "g0009"
   },
   {
-   "id": "h0057",
+   "id": "h07c2361b",
    "page": 7,
    "bbox": [
     279.3,
@@ -1622,10 +1622,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0056"
+   "group": "g0009"
   },
   {
-   "id": "h0058",
+   "id": "h0741a080",
    "page": 7,
    "bbox": [
     244.21,
@@ -1647,7 +1647,7 @@
    "group": null
   },
   {
-   "id": "h0059",
+   "id": "h076abd6a",
    "page": 7,
    "bbox": [
     233.38,
@@ -1669,7 +1669,7 @@
    "group": null
   },
   {
-   "id": "h0060",
+   "id": "h07822639",
    "page": 7,
    "bbox": [
     254.79,
@@ -1691,7 +1691,7 @@
    "group": null
   },
   {
-   "id": "h0061",
+   "id": "h08e3a438",
    "page": 8,
    "bbox": [
     278.81,
@@ -1713,7 +1713,7 @@
    "group": null
   },
   {
-   "id": "h0062",
+   "id": "h08bcbf56",
    "page": 8,
    "bbox": [
     250.5,
@@ -1735,7 +1735,7 @@
    "group": null
   },
   {
-   "id": "h0063",
+   "id": "h08909ee4",
    "page": 8,
    "bbox": [
     426.34,
@@ -1757,7 +1757,7 @@
    "group": null
   },
   {
-   "id": "h0064",
+   "id": "h08129c20",
    "page": 8,
    "bbox": [
     81.17,
@@ -1779,7 +1779,7 @@
    "group": null
   },
   {
-   "id": "h0065",
+   "id": "h086243f5",
    "page": 8,
    "bbox": [
     310.54,
@@ -1801,7 +1801,7 @@
    "group": null
   },
   {
-   "id": "h0066",
+   "id": "h09e16b05",
    "page": 9,
    "bbox": [
     317.92,
@@ -1817,10 +1817,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0066"
+   "group": "g0010"
   },
   {
-   "id": "h0067",
+   "id": "h0955b50d",
    "page": 9,
    "bbox": [
     317.92,
@@ -1836,10 +1836,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0066"
+   "group": "g0010"
   },
   {
-   "id": "h0068",
+   "id": "h09fddc34",
    "page": 9,
    "bbox": [
     317.92,
@@ -1855,10 +1855,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0066"
+   "group": "g0010"
   },
   {
-   "id": "h0069",
+   "id": "h09f56894",
    "page": 9,
    "bbox": [
     111.34,
@@ -1877,7 +1877,7 @@
    "group": null
   },
   {
-   "id": "h0070",
+   "id": "h09f74500",
    "page": 9,
    "bbox": [
     294.62,
@@ -1896,7 +1896,7 @@
    "group": null
   },
   {
-   "id": "h0071",
+   "id": "h09c4274a",
    "page": 9,
    "bbox": [
     158.13,
@@ -1918,7 +1918,7 @@
    "group": null
   },
   {
-   "id": "h0072",
+   "id": "h094c82f9",
    "page": 9,
    "bbox": [
     101.34,
@@ -1937,10 +1937,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0072"
+   "group": "g0011"
   },
   {
-   "id": "h0073",
+   "id": "h09f9bfe7",
    "page": 9,
    "bbox": [
     101.34,
@@ -1958,10 +1958,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0072"
+   "group": "g0011"
   },
   {
-   "id": "h0074",
+   "id": "h09b2ee45",
    "page": 9,
    "bbox": [
     101.34,
@@ -1980,10 +1980,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0072"
+   "group": "g0011"
   },
   {
-   "id": "h0075",
+   "id": "h09abc39d",
    "page": 9,
    "bbox": [
     289.62,
@@ -2005,7 +2005,7 @@
    "group": null
   },
   {
-   "id": "h0076",
+   "id": "h09ec008e",
    "page": 9,
    "bbox": [
     279.62,
@@ -2024,7 +2024,7 @@
    "group": null
   },
   {
-   "id": "h0077",
+   "id": "h10137e4d",
    "page": 10,
    "bbox": [
     317.92,
@@ -2040,10 +2040,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0077"
+   "group": "g0012"
   },
   {
-   "id": "h0078",
+   "id": "h101c2baf",
    "page": 10,
    "bbox": [
     317.92,
@@ -2059,10 +2059,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0077"
+   "group": "g0012"
   },
   {
-   "id": "h0079",
+   "id": "h103a4b87",
    "page": 10,
    "bbox": [
     317.92,
@@ -2078,10 +2078,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0077"
+   "group": "g0012"
   },
   {
-   "id": "h0080",
+   "id": "h103d1a03",
    "page": 10,
    "bbox": [
     259.62,
@@ -2103,7 +2103,7 @@
    "group": null
   },
   {
-   "id": "h0081",
+   "id": "h10a2108d",
    "page": 10,
    "bbox": [
     259.62,
@@ -2125,7 +2125,7 @@
    "group": null
   },
   {
-   "id": "h0082",
+   "id": "h101bd4a0",
    "page": 10,
    "bbox": [
     259.62,
@@ -2147,7 +2147,7 @@
    "group": null
   },
   {
-   "id": "h0083",
+   "id": "h101853d5",
    "page": 10,
    "bbox": [
     119.11,
@@ -2169,7 +2169,7 @@
    "group": null
   },
   {
-   "id": "h0084",
+   "id": "h10c60d58",
    "page": 10,
    "bbox": [
     259.62,
@@ -2191,7 +2191,7 @@
    "group": null
   },
   {
-   "id": "h0085",
+   "id": "h10c79a9e",
    "page": 10,
    "bbox": [
     259.62,
@@ -2213,7 +2213,7 @@
    "group": null
   },
   {
-   "id": "h0086",
+   "id": "h1005d4ab",
    "page": 10,
    "bbox": [
     339.62,
@@ -2235,7 +2235,7 @@
    "group": null
   },
   {
-   "id": "h0087",
+   "id": "h10359aa9",
    "page": 10,
    "bbox": [
     259.62,
@@ -2257,7 +2257,7 @@
    "group": null
   },
   {
-   "id": "h0088",
+   "id": "h107d5412",
    "page": 10,
    "bbox": [
     259.62,
@@ -2279,7 +2279,7 @@
    "group": null
   },
   {
-   "id": "h0089",
+   "id": "h10814fe6",
    "page": 10,
    "bbox": [
     259.62,
@@ -2301,7 +2301,7 @@
    "group": null
   },
   {
-   "id": "h0090",
+   "id": "h10e039a2",
    "page": 10,
    "bbox": [
     149.11,
@@ -2320,10 +2320,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0090"
+   "group": "g0013"
   },
   {
-   "id": "h0091",
+   "id": "h1011fdf9",
    "page": 10,
    "bbox": [
     149.11,
@@ -2339,10 +2339,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0090"
+   "group": "g0013"
   },
   {
-   "id": "h0092",
+   "id": "h10196ae3",
    "page": 10,
    "bbox": [
     159.11,
@@ -2361,7 +2361,7 @@
    "group": null
   },
   {
-   "id": "h0093",
+   "id": "h103ff750",
    "page": 10,
    "bbox": [
     259.62,
@@ -2383,7 +2383,7 @@
    "group": null
   },
   {
-   "id": "h0094",
+   "id": "h10f0d7be",
    "page": 10,
    "bbox": [
     259.62,
@@ -2405,7 +2405,7 @@
    "group": null
   },
   {
-   "id": "h0095",
+   "id": "h102c1356",
    "page": 10,
    "bbox": [
     139.11,
@@ -2427,7 +2427,7 @@
    "group": null
   },
   {
-   "id": "h0096",
+   "id": "h10904b7e",
    "page": 10,
    "bbox": [
     119.11,
@@ -2446,7 +2446,7 @@
    "group": null
   },
   {
-   "id": "h0097",
+   "id": "h1173396f",
    "page": 11,
    "bbox": [
     317.92,
@@ -2462,10 +2462,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0097"
+   "group": "g0014"
   },
   {
-   "id": "h0098",
+   "id": "h11ce3158",
    "page": 11,
    "bbox": [
     317.92,
@@ -2481,10 +2481,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0097"
+   "group": "g0014"
   },
   {
-   "id": "h0099",
+   "id": "h11458f11",
    "page": 11,
    "bbox": [
     317.92,
@@ -2500,10 +2500,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0097"
+   "group": "g0014"
   },
   {
-   "id": "h0100",
+   "id": "h11ef09ea",
    "page": 11,
    "bbox": [
     129.11,
@@ -2525,7 +2525,7 @@
    "group": null
   },
   {
-   "id": "h0101",
+   "id": "h111814f2",
    "page": 11,
    "bbox": [
     119.11,
@@ -2544,7 +2544,7 @@
    "group": null
   },
   {
-   "id": "h0102",
+   "id": "h118b16b1",
    "page": 11,
    "bbox": [
     259.61,
@@ -2566,7 +2566,7 @@
    "group": null
   },
   {
-   "id": "h0103",
+   "id": "h115ce82e",
    "page": 11,
    "bbox": [
     129.11,
@@ -2588,7 +2588,7 @@
    "group": null
   },
   {
-   "id": "h0104",
+   "id": "h11a5d4b3",
    "page": 11,
    "bbox": [
     259.61,
@@ -2610,7 +2610,7 @@
    "group": null
   },
   {
-   "id": "h0105",
+   "id": "h11811525",
    "page": 11,
    "bbox": [
     109.11,
@@ -2632,7 +2632,7 @@
    "group": null
   },
   {
-   "id": "h0106",
+   "id": "h11c7d497",
    "page": 11,
    "bbox": [
     314.25,
@@ -2654,7 +2654,7 @@
    "group": null
   },
   {
-   "id": "h0107",
+   "id": "h115da044",
    "page": 11,
    "bbox": [
     294.79,
@@ -2676,7 +2676,7 @@
    "group": null
   },
   {
-   "id": "h0108",
+   "id": "h1169de03",
    "page": 11,
    "bbox": [
     293.71,
@@ -2695,7 +2695,7 @@
    "group": null
   },
   {
-   "id": "h0109",
+   "id": "h11dbd99a",
    "page": 11,
    "bbox": [
     129.11,
@@ -2717,7 +2717,7 @@
    "group": null
   },
   {
-   "id": "h0110",
+   "id": "h11b1322f",
    "page": 11,
    "bbox": [
     259.79,
@@ -2739,7 +2739,7 @@
    "group": null
   },
   {
-   "id": "h0111",
+   "id": "h11ccdeab",
    "page": 11,
    "bbox": [
     139.11,
@@ -2761,7 +2761,7 @@
    "group": null
   },
   {
-   "id": "h0112",
+   "id": "h11231864",
    "page": 11,
    "bbox": [
     259.79,
@@ -2783,7 +2783,7 @@
    "group": null
   },
   {
-   "id": "h0113",
+   "id": "h115f9a38",
    "page": 11,
    "bbox": [
     259.79,
@@ -2805,7 +2805,7 @@
    "group": null
   },
   {
-   "id": "h0114",
+   "id": "h114f9d72",
    "page": 11,
    "bbox": [
     139.11,
@@ -2824,7 +2824,7 @@
    "group": null
   },
   {
-   "id": "h0115",
+   "id": "h110fe5a1",
    "page": 11,
    "bbox": [
     259.79,
@@ -2846,7 +2846,7 @@
    "group": null
   },
   {
-   "id": "h0116",
+   "id": "h11b59991",
    "page": 11,
    "bbox": [
     159.81,
@@ -2865,7 +2865,7 @@
    "group": null
   },
   {
-   "id": "h0117",
+   "id": "h11f36414",
    "page": 11,
    "bbox": [
     109.54,
@@ -2887,7 +2887,7 @@
    "group": null
   },
   {
-   "id": "h0118",
+   "id": "h11c2d734",
    "page": 11,
    "bbox": [
     338.03,
@@ -2906,7 +2906,7 @@
    "group": null
   },
   {
-   "id": "h0119",
+   "id": "h1178537f",
    "page": 11,
    "bbox": [
     338.03,
@@ -2928,7 +2928,7 @@
    "group": null
   },
   {
-   "id": "h0120",
+   "id": "h1123d3fb",
    "page": 11,
    "bbox": [
     308.03,
@@ -2950,7 +2950,7 @@
    "group": null
   },
   {
-   "id": "h0121",
+   "id": "h126ca5a1",
    "page": 12,
    "bbox": [
     308.94,
@@ -2966,10 +2966,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0121"
+   "group": "g0015"
   },
   {
-   "id": "h0122",
+   "id": "h12f361e8",
    "page": 12,
    "bbox": [
     308.94,
@@ -2985,10 +2985,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0121"
+   "group": "g0015"
   },
   {
-   "id": "h0123",
+   "id": "h12342af0",
    "page": 12,
    "bbox": [
     308.94,
@@ -3004,10 +3004,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0121"
+   "group": "g0015"
   },
   {
-   "id": "h0124",
+   "id": "h12ca75a2",
    "page": 12,
    "bbox": [
     149.11,
@@ -3028,7 +3028,7 @@
    "group": null
   },
   {
-   "id": "h0125",
+   "id": "h12b4d41d",
    "page": 12,
    "bbox": [
     259.62,
@@ -3050,7 +3050,7 @@
    "group": null
   },
   {
-   "id": "h0126",
+   "id": "h1222aa98",
    "page": 12,
    "bbox": [
     336.62,
@@ -3069,7 +3069,7 @@
    "group": null
   },
   {
-   "id": "h0127",
+   "id": "h126d8343",
    "page": 12,
    "bbox": [
     149.11,
@@ -3088,7 +3088,7 @@
    "group": null
   },
   {
-   "id": "h0128",
+   "id": "h12ace05d",
    "page": 12,
    "bbox": [
     249.62,
@@ -3110,7 +3110,7 @@
    "group": null
   },
   {
-   "id": "h0129",
+   "id": "h12e2f60b",
    "page": 12,
    "bbox": [
     249.62,
@@ -3132,7 +3132,7 @@
    "group": null
   },
   {
-   "id": "h0130",
+   "id": "h1258c5a4",
    "page": 12,
    "bbox": [
     249.62,
@@ -3154,7 +3154,7 @@
    "group": null
   },
   {
-   "id": "h0131",
+   "id": "h12c192cc",
    "page": 12,
    "bbox": [
     249.62,
@@ -3176,7 +3176,7 @@
    "group": null
   },
   {
-   "id": "h0132",
+   "id": "h13a45401",
    "page": 13,
    "bbox": [
     317.92,
@@ -3192,10 +3192,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0132"
+   "group": "g0016"
   },
   {
-   "id": "h0133",
+   "id": "h13d47b09",
    "page": 13,
    "bbox": [
     317.92,
@@ -3211,10 +3211,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0132"
+   "group": "g0016"
   },
   {
-   "id": "h0134",
+   "id": "h13e9b5f3",
    "page": 13,
    "bbox": [
     317.92,
@@ -3230,10 +3230,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0132"
+   "group": "g0016"
   },
   {
-   "id": "h0135",
+   "id": "h13cd5182",
    "page": 13,
    "bbox": [
     299.62,
@@ -3255,7 +3255,7 @@
    "group": null
   },
   {
-   "id": "h0136",
+   "id": "h13bc8da8",
    "page": 13,
    "bbox": [
     334.62,
@@ -3277,7 +3277,7 @@
    "group": null
   },
   {
-   "id": "h0137",
+   "id": "h1319ba49",
    "page": 13,
    "bbox": [
     300.2,
@@ -3299,7 +3299,7 @@
    "group": null
   },
   {
-   "id": "h0138",
+   "id": "h13b7bde9",
    "page": 13,
    "bbox": [
     484.62,
@@ -3321,7 +3321,7 @@
    "group": null
   },
   {
-   "id": "h0139",
+   "id": "h13470be1",
    "page": 13,
    "bbox": [
     484.62,
@@ -3340,7 +3340,7 @@
    "group": null
   },
   {
-   "id": "h0140",
+   "id": "h1305530b",
    "page": 13,
    "bbox": [
     484.62,
@@ -3362,7 +3362,7 @@
    "group": null
   },
   {
-   "id": "h0141",
+   "id": "h130913a1",
    "page": 13,
    "bbox": [
     464.62,
@@ -3384,7 +3384,7 @@
    "group": null
   },
   {
-   "id": "h0142",
+   "id": "h1405740b",
    "page": 14,
    "bbox": [
     317.92,
@@ -3400,10 +3400,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0142"
+   "group": "g0017"
   },
   {
-   "id": "h0143",
+   "id": "h146af9b6",
    "page": 14,
    "bbox": [
     317.92,
@@ -3419,10 +3419,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0142"
+   "group": "g0017"
   },
   {
-   "id": "h0144",
+   "id": "h14d0e400",
    "page": 14,
    "bbox": [
     317.92,
@@ -3438,10 +3438,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0142"
+   "group": "g0017"
   },
   {
-   "id": "h0145",
+   "id": "h14f9fc80",
    "page": 14,
    "bbox": [
     121.34,
@@ -3460,10 +3460,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0145"
+   "group": "g0018"
   },
   {
-   "id": "h0146",
+   "id": "h14ca0368",
    "page": 14,
    "bbox": [
     121.34,
@@ -3482,10 +3482,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0145"
+   "group": "g0018"
   },
   {
-   "id": "h0147",
+   "id": "h1435df7e",
    "page": 14,
    "bbox": [
     348.13,
@@ -3504,10 +3504,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0147"
+   "group": "g0019"
   },
   {
-   "id": "h0148",
+   "id": "h148c1726",
    "page": 14,
    "bbox": [
     348.13,
@@ -3526,10 +3526,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0147"
+   "group": "g0019"
   },
   {
-   "id": "h0149",
+   "id": "h1439206a",
    "page": 14,
    "bbox": [
     338.13,
@@ -3548,10 +3548,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0149"
+   "group": "g0020"
   },
   {
-   "id": "h0150",
+   "id": "h147ea3cf",
    "page": 14,
    "bbox": [
     338.13,
@@ -3570,10 +3570,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0149"
+   "group": "g0020"
   },
   {
-   "id": "h0151",
+   "id": "h142b3c21",
    "page": 14,
    "bbox": [
     365.48,
@@ -3592,10 +3592,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0151"
+   "group": "g0021"
   },
   {
-   "id": "h0152",
+   "id": "h14fe1a59",
    "page": 14,
    "bbox": [
     365.48,
@@ -3614,10 +3614,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0151"
+   "group": "g0021"
   },
   {
-   "id": "h0153",
+   "id": "h14ce474d",
    "page": 14,
    "bbox": [
     338.13,
@@ -3636,10 +3636,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0153"
+   "group": "g0022"
   },
   {
-   "id": "h0154",
+   "id": "h1439e194",
    "page": 14,
    "bbox": [
     338.13,
@@ -3658,10 +3658,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0153"
+   "group": "g0022"
   },
   {
-   "id": "h0155",
+   "id": "h14e6c39f",
    "page": 14,
    "bbox": [
     298.13,
@@ -3680,10 +3680,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0155"
+   "group": "g0023"
   },
   {
-   "id": "h0156",
+   "id": "h14867569",
    "page": 14,
    "bbox": [
     298.13,
@@ -3702,10 +3702,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0155"
+   "group": "g0023"
   },
   {
-   "id": "h0157",
+   "id": "h148ce13d",
    "page": 14,
    "bbox": [
     338.13,
@@ -3724,10 +3724,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0157"
+   "group": "g0024"
   },
   {
-   "id": "h0158",
+   "id": "h14be0cfc",
    "page": 14,
    "bbox": [
     338.13,
@@ -3746,10 +3746,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0157"
+   "group": "g0024"
   },
   {
-   "id": "h0159",
+   "id": "h14cbfc26",
    "page": 14,
    "bbox": [
     161.69,

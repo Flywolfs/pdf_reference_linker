@@ -10,7 +10,10 @@
   OK       目標一致
   DRIFT    目標漂移（引擎/規則改動導致與金標不符——須逐一歸因：改錯則修，
            屬預期改進則由用戶在 UI 重確認後重新導出金標）
-  GONE     金標熱點在當前 composite 中不存在（被取消/刪除/未注入）
+  UPGRADED 補標退役：引擎升級後自行檢出同位置角標（如 1.13 C8 同字號符號
+           通道）且目標與金標一致——miss_add 的「成功畢業」，非回歸
+  GONE     金標熱點在當前 composite 中不存在（被取消/刪除/未注入，且同位置
+           無引擎熱點或目標不一致）
 
 cancelled 段同時核對：金標導出時已取消的引用現仍應處於取消狀態。
 另可用 data/gold/<docId>.reference.json（verdict/miss 全量明細）追溯單個 id
@@ -25,6 +28,10 @@ sys.path.insert(0, str(ROOT))
 
 from server import annotations  # noqa: E402
 from server.cache import apply_overrides, cache_path, load_overrides  # noqa: E402
+
+
+def _center(b: list) -> tuple:
+    return ((b[0] + b[2]) / 2, (b[1] + b[3]) / 2)
 
 
 def main() -> None:
@@ -47,11 +54,34 @@ def main() -> None:
         annotations.apply_manual(analysis, doc_id), load_overrides(doc_id))
     hs = {h["id"]: h for h in comp["hotspots"]}
 
-    ok, drifts, gone = 0, [], []
+    ok, drifts, gone, upgraded = 0, [], [], []
+    engine_hs = [h for h in comp["hotspots"] if h.get("source") != "manual"]
     for g in gold.get("entries", []):
-        h = hs.get(g["hotspotId"])
+        # 引擎熱點 id 是檢出序列號，引擎升級新增熱點後會整體偏移（1.13 C8 實測），
+        # 不能按 id 跨版本對比——以 內容（頁碼+編號+錨點 bbox 中心距）為準匹配
+        gb = g.get("anchorBbox")
+        h = None
+        if gb:
+            gc = _center(gb)
+            h = next((x for x in comp["hotspots"]
+                      if x["page"] == g["page"] and x["text"] == str(g["number"])
+                      and max(abs(_center(x["bbox"])[0] - gc[0]),
+                              abs(_center(x["bbox"])[1] - gc[1])) <= 3.0), None)
         if h is None:
-            gone.append(g)
+            h = hs.get(g["hotspotId"])          # 兜底：無 bbox 的舊金標記錄
+        if h is None:
+            # 補標退役檢查（1.13）：引擎自行檢出同位置角標且目標與金標一致
+            alt = None
+            if gb:
+                gc = _center(gb)
+                alt = next((x for x in engine_hs
+                            if x["page"] == g["page"] and x["text"] == str(g["number"])
+                            and max(abs(_center(x["bbox"])[0] - gc[0]),
+                                    abs(_center(x["bbox"])[1] - gc[1])) <= 12), None)
+            if alt is not None and (alt.get("targets") or [None])[0] == g["targetNoteId"]:
+                upgraded.append((g, alt["id"]))
+            else:
+                gone.append(g)
             continue
         cur = (h.get("targets") or [None])[0]
         if cur == g["targetNoteId"]:
@@ -73,6 +103,7 @@ def main() -> None:
           f"{len(gold.get('entries', []))} 條")
     print(f"  OK      {ok}")
     print(f"  DRIFT   {len(drifts)}")
+    print(f"  UPGRADED {len(upgraded)}（補標退役：引擎已自行檢出且目標一致）")
     print(f"  GONE    {len(gone)}")
     if revived:
         print(f"  REVIVED {len(revived)}（已取消引用復活）")
@@ -81,6 +112,10 @@ def main() -> None:
         for g, cur in drifts:
             print(f"  [{g['kind']}] {g['hotspotId']} P{g['page'] + 1} '{g['number']}'"
                   f"：金標→{g['targetNoteId']}，當前→{cur}")
+    if upgraded:
+        print("\n補標退役清單（引擎檢出替代人工補標，金標重導出後歸併為 link_ok）：")
+        for g, new_id in upgraded:
+            print(f"  [{g['kind']}] {g['hotspotId']} → {new_id} P{g['page'] + 1} '{g['number']}'")
     if gone:
         print("\n消失熱點清單：")
         for g in gone:
@@ -90,7 +125,7 @@ def main() -> None:
         for c in revived:
             print(f"  {c['hotspotId']} P{c['page'] + 1} '{c['number']}'")
     if not (drifts or gone or revived):
-        print("\n全部一致，無回歸。")
+        print("\n無回歸。")
 
 
 if __name__ == "__main__":

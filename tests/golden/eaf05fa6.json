@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.14",
  "docId": "eaf05fa6",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AXA/自愿医保/AXA智尊守慧医疗保障-产品说明书.pdf",
@@ -240,7 +240,7 @@
  ],
  "hotspots": [
   {
-   "id": "h0000",
+   "id": "h011b09ab",
    "page": 1,
    "bbox": [
     446.71,
@@ -261,7 +261,7 @@
    "group": null
   },
   {
-   "id": "h0001",
+   "id": "h024da980",
    "page": 2,
    "bbox": [
     426.42,
@@ -282,7 +282,7 @@
    "group": null
   },
   {
-   "id": "h0002",
+   "id": "h03222288",
    "page": 3,
    "bbox": [
     458.02,
@@ -300,10 +300,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0002"
+   "group": "g0001"
   },
   {
-   "id": "h0003",
+   "id": "h035dd8cd",
    "page": 3,
    "bbox": [
     458.02,
@@ -321,10 +321,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0002"
+   "group": "g0001"
   },
   {
-   "id": "h0004",
+   "id": "h050046ba",
    "page": 5,
    "bbox": [
     194.61,
@@ -345,7 +345,7 @@
    "group": null
   },
   {
-   "id": "h0005",
+   "id": "h05dcbb62",
    "page": 5,
    "bbox": [
     244.75,
@@ -366,7 +366,7 @@
    "group": null
   },
   {
-   "id": "h0006",
+   "id": "h05ddecf5",
    "page": 5,
    "bbox": [
     376.59,
@@ -387,7 +387,7 @@
    "group": null
   },
   {
-   "id": "h0007",
+   "id": "h0705cfd4",
    "page": 7,
    "bbox": [
     188.81,
@@ -408,7 +408,7 @@
    "group": null
   },
   {
-   "id": "h0008",
+   "id": "h07e98467",
    "page": 7,
    "bbox": [
     215.52,
@@ -429,7 +429,7 @@
    "group": null
   },
   {
-   "id": "h0009",
+   "id": "h07f55d53",
    "page": 7,
    "bbox": [
     275.83,
@@ -450,7 +450,7 @@
    "group": null
   },
   {
-   "id": "h0010",
+   "id": "h08254c1d",
    "page": 8,
    "bbox": [
     211.38,
@@ -471,7 +471,7 @@
    "group": null
   },
   {
-   "id": "h0011",
+   "id": "h08017929",
    "page": 8,
    "bbox": [
     508.88,
@@ -492,7 +492,7 @@
    "group": null
   },
   {
-   "id": "h0012",
+   "id": "h083e8def",
    "page": 8,
    "bbox": [
     450.24,
@@ -513,7 +513,7 @@
    "group": null
   },
   {
-   "id": "h0013",
+   "id": "h09aa0497",
    "page": 9,
    "bbox": [
     307.54,
@@ -534,7 +534,7 @@
    "group": null
   },
   {
-   "id": "h0014",
+   "id": "h098e11f3",
    "page": 9,
    "bbox": [
     484.65,
@@ -555,7 +555,7 @@
    "group": null
   },
   {
-   "id": "h0015",
+   "id": "h09ddf556",
    "page": 9,
    "bbox": [
     142.48,
@@ -573,10 +573,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0015"
+   "group": "g0002"
   },
   {
-   "id": "h0016",
+   "id": "h09c4139b",
    "page": 9,
    "bbox": [
     142.48,
@@ -594,10 +594,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0015"
+   "group": "g0002"
   },
   {
-   "id": "h0017",
+   "id": "h09b9c0f6",
    "page": 9,
    "bbox": [
     142.48,
@@ -615,10 +615,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0015"
+   "group": "g0002"
   },
   {
-   "id": "h0018",
+   "id": "h09253617",
    "page": 9,
    "bbox": [
     162.48,
@@ -639,7 +639,7 @@
    "group": null
   },
   {
-   "id": "h0019",
+   "id": "h1089cd5a",
    "page": 10,
    "bbox": [
     173.65,
@@ -657,10 +657,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0019"
+   "group": "g0003"
   },
   {
-   "id": "h0020",
+   "id": "h10669f2d",
    "page": 10,
    "bbox": [
     173.65,
@@ -678,10 +678,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0019"
+   "group": "g0003"
   },
   {
-   "id": "h0021",
+   "id": "h106ad4c1",
    "page": 10,
    "bbox": [
     338.93,
@@ -699,10 +699,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0021"
+   "group": "g0004"
   },
   {
-   "id": "h0022",
+   "id": "h102fa23b",
    "page": 10,
    "bbox": [
     338.93,
@@ -720,10 +720,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0021"
+   "group": "g0004"
   },
   {
-   "id": "h0023",
+   "id": "h10a77905",
    "page": 10,
    "bbox": [
     461.67,
@@ -741,10 +741,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0023"
+   "group": "g0005"
   },
   {
-   "id": "h0024",
+   "id": "h105fe1d9",
    "page": 10,
    "bbox": [
     461.67,
@@ -762,10 +762,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0023"
+   "group": "g0005"
   },
   {
-   "id": "h0025",
+   "id": "h1097e765",
    "page": 10,
    "bbox": [
     262.96,
@@ -783,10 +783,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0025"
+   "group": "g0006"
   },
   {
-   "id": "h0026",
+   "id": "h10788b8d",
    "page": 10,
    "bbox": [
     262.96,
@@ -804,10 +804,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0025"
+   "group": "g0006"
   },
   {
-   "id": "h0027",
+   "id": "h104f279b",
    "page": 10,
    "bbox": [
     262.96,
@@ -825,10 +825,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0025"
+   "group": "g0006"
   },
   {
-   "id": "h0028",
+   "id": "h1052b30c",
    "page": 10,
    "bbox": [
     178.85,
@@ -846,10 +846,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0028"
+   "group": "g0007"
   },
   {
-   "id": "h0029",
+   "id": "h10458b1a",
    "page": 10,
    "bbox": [
     178.85,
@@ -867,10 +867,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0028"
+   "group": "g0007"
   },
   {
-   "id": "h0030",
+   "id": "h104adcbf",
    "page": 10,
    "bbox": [
     510.58,
@@ -888,10 +888,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0030"
+   "group": "g0008"
   },
   {
-   "id": "h0031",
+   "id": "h10399eb8",
    "page": 10,
    "bbox": [
     510.58,
@@ -909,10 +909,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0030"
+   "group": "g0008"
   },
   {
-   "id": "h0032",
+   "id": "h10a7b3bb",
    "page": 10,
    "bbox": [
     454.86,
@@ -930,10 +930,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0032"
+   "group": "g0009"
   },
   {
-   "id": "h0033",
+   "id": "h10956d26",
    "page": 10,
    "bbox": [
     454.86,
@@ -951,10 +951,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0032"
+   "group": "g0009"
   },
   {
-   "id": "h0034",
+   "id": "h10d72345",
    "page": 10,
    "bbox": [
     374.05,
@@ -972,10 +972,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0034"
+   "group": "g0010"
   },
   {
-   "id": "h0035",
+   "id": "h10a8dcbb",
    "page": 10,
    "bbox": [
     374.05,
@@ -993,10 +993,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0034"
+   "group": "g0010"
   },
   {
-   "id": "h0036",
+   "id": "h10bba8f1",
    "page": 10,
    "bbox": [
     190.96,
@@ -1014,10 +1014,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0036"
+   "group": "g0011"
   },
   {
-   "id": "h0037",
+   "id": "h102ae828",
    "page": 10,
    "bbox": [
     190.96,
@@ -1035,10 +1035,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0036"
+   "group": "g0011"
   },
   {
-   "id": "h0038",
+   "id": "h10ea1f72",
    "page": 10,
    "bbox": [
     460.58,
@@ -1056,10 +1056,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0038"
+   "group": "g0012"
   },
   {
-   "id": "h0039",
+   "id": "h10984b05",
    "page": 10,
    "bbox": [
     460.58,
@@ -1077,10 +1077,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0038"
+   "group": "g0012"
   },
   {
-   "id": "h0040",
+   "id": "h119ba06f",
    "page": 11,
    "bbox": [
     223.51,
@@ -1098,10 +1098,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0040"
+   "group": "g0013"
   },
   {
-   "id": "h0041",
+   "id": "h11b6d344",
    "page": 11,
    "bbox": [
     223.51,
@@ -1119,10 +1119,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0040"
+   "group": "g0013"
   },
   {
-   "id": "h0042",
+   "id": "h11160008",
    "page": 11,
    "bbox": [
     281.31,

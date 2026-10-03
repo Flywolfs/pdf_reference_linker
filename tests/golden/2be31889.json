@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.14",
  "docId": "2be31889",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/滙豐/自愿医保/汇丰自愿医保灵活计划-产品册子.pdf",
@@ -25,6 +25,22 @@
    ],
    "number": "^",
    "text": "「貴賓車安排服務」只為受保於滙豐靈活醫保(鑽級)的合資格客戶提供,並須至少提前一個工作天預約此項服務。此服務須受醫療禮賓服務的詳細條款及細則約束, 並取決於服務供應商當時的貴賓車供應情況。貴賓車接送服務提供者為獨立第三者,並非本公司代理。本公司對服務提供者提供的貴賓車安排服務不承擔任何義務或 責任,本公司毋須就該服務提供者之任何行為或未履行行為而承擔任何責任。本公司對此等服務不負任何責任,且該服務可能隨時更改,恕不另行通知。 5",
+   "textPages": [
+    5
+   ]
+  },
+  {
+   "noteId": "p5:2",
+   "anchor": "footer",
+   "page": 5,
+   "bbox": [
+    34.02,
+    736.34,
+    510.44,
+    745.73
+   ],
+   "number": "*",
+   "text": "中國內地及海外醫院住院保證免收按金服務是由非本公司之代理的獨立承辦商(「獨立服務供應商」)作協辦機構提供的自選服務,並須受以下條款約束:",
    "textPages": [
     5
    ]
@@ -286,6 +302,22 @@
    ]
   },
   {
+   "noteId": "p25:2",
+   "anchor": "footer",
+   "page": 25,
+   "bbox": [
+    34.02,
+    682.43,
+    555.88,
+    691.44
+   ],
+   "number": "*",
+   "text": "The free hospital admission deposit guarantee service (in mainland China and overseas hospital) is an optional service that may be provided by an Assistance",
+   "textPages": [
+    25
+   ]
+  },
+  {
    "noteId": "p30:1",
    "anchor": "footer",
    "page": 30,
@@ -297,6 +329,22 @@
    ],
    "number": "*",
    "text": "The premiums shown are for renewal only. This premium above does not include levy which is collected by the Insurance Authority and discount (if any). In accordance with Section 2 of Part 4 of the Policy Provisions (\"Terms and Benefits\") of HSBC Voluntary Health Insurance Flexi Plan, the Company shall have the right to adjust the standard premium at renewal according to the prevailing standard premium schedule adopted by the Company on an overall portfolio basis. First year premium is based on the premium above according to the attained age, but the actual premiums payable in the future policy years may be subject to adjustment. 14 April 2025 12",
+   "textPages": [
+    30
+   ]
+  },
+  {
+   "noteId": "p30:2",
+   "anchor": "footer",
+   "page": 30,
+   "bbox": [
+    33.96,
+    763.27,
+    266.9,
+    772.28
+   ],
+   "number": "#",
+   "text": "Age refers to the age of the insured person on his or her last birthday.",
    "textPages": [
     30
    ]
@@ -318,6 +366,22 @@
    ]
   },
   {
+   "noteId": "p31:2",
+   "anchor": "footer",
+   "page": 31,
+   "bbox": [
+    34.02,
+    763.27,
+    266.95,
+    772.28
+   ],
+   "number": "#",
+   "text": "Age refers to the age of the insured person on his or her last birthday.",
+   "textPages": [
+    31
+   ]
+  },
+  {
    "noteId": "p32:1",
    "anchor": "footer",
    "page": 32,
@@ -329,6 +393,22 @@
    ],
    "number": "*",
    "text": "The premiums shown are for renewal only. This premium above does not include levy which is collected by the Insurance Authority and discount (if any). In accordance with Section 2 of Part 4 of the Policy Provisions (\"Terms and Benefits\") of HSBC Voluntary Health Insurance Flexi Plan, the Company shall have the right to adjust the standard premium at renewal according to the prevailing standard premium schedule adopted by the Company on an overall portfolio basis. First year premium is based on the premium above according to the attained age, but the actual premiums payable in the future policy years may be subject to adjustment. 14 April 2025 14",
+   "textPages": [
+    32
+   ]
+  },
+  {
+   "noteId": "p32:2",
+   "anchor": "footer",
+   "page": 32,
+   "bbox": [
+    33.96,
+    763.27,
+    266.9,
+    772.28
+   ],
+   "number": "#",
+   "text": "Age refers to the age of the insured person on his or her last birthday.",
    "textPages": [
     32
    ]
@@ -350,6 +430,22 @@
    ]
   },
   {
+   "noteId": "p33:2",
+   "anchor": "footer",
+   "page": 33,
+   "bbox": [
+    34.02,
+    763.27,
+    266.95,
+    772.28
+   ],
+   "number": "#",
+   "text": "Age refers to the age of the insured person on his or her last birthday.",
+   "textPages": [
+    33
+   ]
+  },
+  {
    "noteId": "p34:1",
    "anchor": "footer",
    "page": 34,
@@ -361,6 +457,22 @@
    ],
    "number": "*",
    "text": "The premiums shown are for renewal only. This premium above does not include levy which is collected by the Insurance Authority and discount (if any). In accordance with Section 2 of Part 4 of the Policy Provisions (\"Terms and Benefits\") of HSBC Voluntary Health Insurance Flexi Plan, the Company shall have the right to adjust the standard premium at renewal according to the prevailing standard premium schedule adopted by the Company on an overall portfolio basis. First year premium is based on the premium above according to the attained age, but the actual premiums payable in the future policy years may be subject to adjustment. 14 April 2025 16",
+   "textPages": [
+    34
+   ]
+  },
+  {
+   "noteId": "p34:2",
+   "anchor": "footer",
+   "page": 34,
+   "bbox": [
+    33.96,
+    763.27,
+    266.9,
+    772.28
+   ],
+   "number": "#",
+   "text": "Age refers to the age of the insured person on his or her last birthday.",
    "textPages": [
     34
    ]
@@ -380,11 +492,27 @@
    "textPages": [
     46
    ]
+  },
+  {
+   "noteId": "p46:2",
+   "anchor": "footer",
+   "page": 46,
+   "bbox": [
+    34.02,
+    735.73,
+    510.44,
+    745.12
+   ],
+   "number": "*",
+   "text": "中国内地及海外医院住院保证免收按金服务是由非本公司之代理的独立承办商(「独立服务供应商」)作协办机构提供的自选服务,并须受以下条款约束:",
+   "textPages": [
+    46
+   ]
   }
  ],
  "hotspots": [
   {
-   "id": "h0000",
+   "id": "h014ea1ac",
    "page": 1,
    "bbox": [
     326.21,
@@ -405,7 +533,7 @@
    "group": null
   },
   {
-   "id": "h0001",
+   "id": "h01c8cc74",
    "page": 1,
    "bbox": [
     217.87,
@@ -426,7 +554,7 @@
    "group": null
   },
   {
-   "id": "h0002",
+   "id": "h011f2a55",
    "page": 1,
    "bbox": [
     165.27,
@@ -447,7 +575,7 @@
    "group": null
   },
   {
-   "id": "h0003",
+   "id": "h0263b0f0",
    "page": 2,
    "bbox": [
     318.85,
@@ -468,7 +596,7 @@
    "group": null
   },
   {
-   "id": "h0004",
+   "id": "h02ba53ec",
    "page": 2,
    "bbox": [
     328.22,
@@ -489,7 +617,7 @@
    "group": null
   },
   {
-   "id": "h0005",
+   "id": "h02886f49",
    "page": 2,
    "bbox": [
     401.6,
@@ -510,7 +638,7 @@
    "group": null
   },
   {
-   "id": "h0006",
+   "id": "h022ce4b1",
    "page": 2,
    "bbox": [
     186.85,
@@ -531,7 +659,7 @@
    "group": null
   },
   {
-   "id": "h0007",
+   "id": "h02ecda13",
    "page": 2,
    "bbox": [
     288.85,
@@ -552,7 +680,7 @@
    "group": null
   },
   {
-   "id": "h0008",
+   "id": "h02624ec4",
    "page": 2,
    "bbox": [
     208.22,
@@ -573,7 +701,7 @@
    "group": null
   },
   {
-   "id": "h0009",
+   "id": "h02f0a9b0",
    "page": 2,
    "bbox": [
     321.6,
@@ -594,7 +722,7 @@
    "group": null
   },
   {
-   "id": "h0010",
+   "id": "h02d42cf5",
    "page": 2,
    "bbox": [
     328.22,
@@ -615,7 +743,7 @@
    "group": null
   },
   {
-   "id": "h0011",
+   "id": "h026df82c",
    "page": 2,
    "bbox": [
     308.22,
@@ -636,7 +764,7 @@
    "group": null
   },
   {
-   "id": "h0012",
+   "id": "h0202839d",
    "page": 2,
    "bbox": [
     258.48,
@@ -657,7 +785,7 @@
    "group": null
   },
   {
-   "id": "h0013",
+   "id": "h028c68bd",
    "page": 2,
    "bbox": [
     298.85,
@@ -678,7 +806,7 @@
    "group": null
   },
   {
-   "id": "h0014",
+   "id": "h03e6e149",
    "page": 3,
    "bbox": [
     376.29,
@@ -699,7 +827,7 @@
    "group": null
   },
   {
-   "id": "h0015",
+   "id": "h03c24262",
    "page": 3,
    "bbox": [
     411.27,
@@ -720,7 +848,7 @@
    "group": null
   },
   {
-   "id": "h0016",
+   "id": "h03b7da8c",
    "page": 3,
    "bbox": [
     446.25,
@@ -741,7 +869,7 @@
    "group": null
   },
   {
-   "id": "h0017",
+   "id": "h03503927",
    "page": 3,
    "bbox": [
     188.05,
@@ -762,7 +890,7 @@
    "group": null
   },
   {
-   "id": "h0018",
+   "id": "h032b29fd",
    "page": 3,
    "bbox": [
     474.29,
@@ -783,7 +911,7 @@
    "group": null
   },
   {
-   "id": "h0019",
+   "id": "h0331dcc1",
    "page": 3,
    "bbox": [
     202.35,
@@ -804,7 +932,7 @@
    "group": null
   },
   {
-   "id": "h0020",
+   "id": "h03e131c3",
    "page": 3,
    "bbox": [
     320.49,
@@ -825,7 +953,7 @@
    "group": null
   },
   {
-   "id": "h0021",
+   "id": "h03d41027",
    "page": 3,
    "bbox": [
     501.02,
@@ -846,7 +974,7 @@
    "group": null
   },
   {
-   "id": "h0022",
+   "id": "h042fa4b6",
    "page": 4,
    "bbox": [
     324.83,
@@ -858,20 +986,23 @@
    "kind": "asterisk",
    "contextBefore": "免找數服務7, 8及住院保證免按金服務",
    "targets": [
+    "p5:2",
+    "p25:2",
     "p30:1",
     "p31:1",
     "p32:1",
     "p33:1",
-    "p34:1"
+    "p34:1",
+    "p46:2"
    ],
-   "targetDisplay": "P31 · 腳註 *",
-   "confidence": 0.75,
+   "targetDisplay": "P6 · 腳註 *",
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
   },
   {
-   "id": "h0023",
+   "id": "h04a66623",
    "page": 4,
    "bbox": [
     518.32,
@@ -889,10 +1020,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0023"
+   "group": "g0001"
   },
   {
-   "id": "h0024",
+   "id": "h04782f7c",
    "page": 4,
    "bbox": [
     518.32,
@@ -910,10 +1041,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0023"
+   "group": "g0001"
   },
   {
-   "id": "h0025",
+   "id": "h0480db55",
    "page": 4,
    "bbox": [
     467.12,
@@ -925,20 +1056,23 @@
    "kind": "asterisk",
    "contextBefore": "醫院可享高達7,000美元的住院保證免按金服務。",
    "targets": [
+    "p5:2",
+    "p25:2",
     "p30:1",
     "p31:1",
     "p32:1",
     "p33:1",
-    "p34:1"
+    "p34:1",
+    "p46:2"
    ],
-   "targetDisplay": "P31 · 腳註 *",
-   "confidence": 0.75,
+   "targetDisplay": "P6 · 腳註 *",
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
   },
   {
-   "id": "h0026",
+   "id": "h04b5688a",
    "page": 4,
    "bbox": [
     203.65,
@@ -959,7 +1093,7 @@
    "group": null
   },
   {
-   "id": "h0027",
+   "id": "h043caac5",
    "page": 4,
    "bbox": [
     203.65,
@@ -980,7 +1114,7 @@
    "group": null
   },
   {
-   "id": "h0028",
+   "id": "h04a641a8",
    "page": 4,
    "bbox": [
     323.55,
@@ -1001,7 +1135,7 @@
    "group": null
   },
   {
-   "id": "h0029",
+   "id": "h040111a7",
    "page": 4,
    "bbox": [
     501.65,
@@ -1022,7 +1156,7 @@
    "group": null
   },
   {
-   "id": "h0030",
+   "id": "h04f4071c",
    "page": 4,
    "bbox": [
     203.65,
@@ -1043,7 +1177,7 @@
    "group": null
   },
   {
-   "id": "h0031",
+   "id": "h0503cee6",
    "page": 5,
    "bbox": [
     193.94,
@@ -1064,7 +1198,7 @@
    "group": null
   },
   {
-   "id": "h0032",
+   "id": "h0569d69b",
    "page": 5,
    "bbox": [
     276.62,
@@ -1085,7 +1219,7 @@
    "group": null
   },
   {
-   "id": "h0033",
+   "id": "h069346c0",
    "page": 6,
    "bbox": [
     94.11,
@@ -1106,7 +1240,7 @@
    "group": null
   },
   {
-   "id": "h0034",
+   "id": "h063c04c5",
    "page": 6,
    "bbox": [
     427.29,
@@ -1127,7 +1261,7 @@
    "group": null
   },
   {
-   "id": "h0035",
+   "id": "h06a509d4",
    "page": 6,
    "bbox": [
     124.84,
@@ -1148,7 +1282,7 @@
    "group": null
   },
   {
-   "id": "h0036",
+   "id": "h06653bf3",
    "page": 6,
    "bbox": [
     236.26,
@@ -1169,7 +1303,7 @@
    "group": null
   },
   {
-   "id": "h0037",
+   "id": "h06c5caed",
    "page": 6,
    "bbox": [
     506.88,
@@ -1190,7 +1324,7 @@
    "group": null
   },
   {
-   "id": "h0038",
+   "id": "h07b7d127",
    "page": 7,
    "bbox": [
     340.69,
@@ -1211,7 +1345,7 @@
    "group": null
   },
   {
-   "id": "h0039",
+   "id": "h0769556d",
    "page": 7,
    "bbox": [
     468.76,
@@ -1229,10 +1363,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0039"
+   "group": "g0002"
   },
   {
-   "id": "h0040",
+   "id": "h07953037",
    "page": 7,
    "bbox": [
     468.76,
@@ -1250,10 +1384,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0039"
+   "group": "g0002"
   },
   {
-   "id": "h0041",
+   "id": "h07c70ed1",
    "page": 7,
    "bbox": [
     282.6,
@@ -1274,7 +1408,7 @@
    "group": null
   },
   {
-   "id": "h0042",
+   "id": "h0752d028",
    "page": 7,
    "bbox": [
     278.63,
@@ -1295,7 +1429,7 @@
    "group": null
   },
   {
-   "id": "h0043",
+   "id": "h07da5943",
    "page": 7,
    "bbox": [
     348.63,
@@ -1313,10 +1447,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0043"
+   "group": "g0003"
   },
   {
-   "id": "h0044",
+   "id": "h07624bf3",
    "page": 7,
    "bbox": [
     348.63,
@@ -1334,10 +1468,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0043"
+   "group": "g0003"
   },
   {
-   "id": "h0045",
+   "id": "h075777e4",
    "page": 7,
    "bbox": [
     270.6,
@@ -1355,10 +1489,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0045"
+   "group": "g0004"
   },
   {
-   "id": "h0046",
+   "id": "h079f0d57",
    "page": 7,
    "bbox": [
     270.6,
@@ -1376,10 +1510,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0045"
+   "group": "g0004"
   },
   {
-   "id": "h0047",
+   "id": "h0702e3af",
    "page": 7,
    "bbox": [
     378.63,
@@ -1397,10 +1531,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0047"
+   "group": "g0005"
   },
   {
-   "id": "h0048",
+   "id": "h077872e2",
    "page": 7,
    "bbox": [
     378.63,
@@ -1418,10 +1552,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0047"
+   "group": "g0005"
   },
   {
-   "id": "h0049",
+   "id": "h15ac91a8",
    "page": 15,
    "bbox": [
     229.45,
@@ -1442,7 +1576,7 @@
    "group": null
   },
   {
-   "id": "h0050",
+   "id": "h15420bf2",
    "page": 15,
    "bbox": [
     75.43,
@@ -1463,7 +1597,7 @@
    "group": null
   },
   {
-   "id": "h0051",
+   "id": "h15c59bd5",
    "page": 15,
    "bbox": [
     155.25,
@@ -1484,7 +1618,7 @@
    "group": null
   },
   {
-   "id": "h0052",
+   "id": "h15355c41",
    "page": 15,
    "bbox": [
     209.18,
@@ -1505,7 +1639,7 @@
    "group": null
   },
   {
-   "id": "h0053",
+   "id": "h1663551a",
    "page": 16,
    "bbox": [
     507.69,
@@ -1526,7 +1660,7 @@
    "group": null
   },
   {
-   "id": "h0054",
+   "id": "h16779d0e",
    "page": 16,
    "bbox": [
     336.48,
@@ -1547,7 +1681,7 @@
    "group": null
   },
   {
-   "id": "h0055",
+   "id": "h196da6d7",
    "page": 19,
    "bbox": [
     549.07,
@@ -1568,7 +1702,7 @@
    "group": null
   },
   {
-   "id": "h0056",
+   "id": "h21f457de",
    "page": 21,
    "bbox": [
     271.37,
@@ -1589,7 +1723,7 @@
    "group": null
   },
   {
-   "id": "h0057",
+   "id": "h21c53590",
    "page": 21,
    "bbox": [
     195.89,
@@ -1610,7 +1744,7 @@
    "group": null
   },
   {
-   "id": "h0058",
+   "id": "h21f012aa",
    "page": 21,
    "bbox": [
     203.32,
@@ -1631,7 +1765,7 @@
    "group": null
   },
   {
-   "id": "h0059",
+   "id": "h2205e053",
    "page": 22,
    "bbox": [
     419.65,
@@ -1652,7 +1786,7 @@
    "group": null
   },
   {
-   "id": "h0060",
+   "id": "h22462a20",
    "page": 22,
    "bbox": [
     403.68,
@@ -1673,7 +1807,7 @@
    "group": null
   },
   {
-   "id": "h0061",
+   "id": "h2258abf7",
    "page": 22,
    "bbox": [
     239.99,
@@ -1694,7 +1828,7 @@
    "group": null
   },
   {
-   "id": "h0062",
+   "id": "h22570eb8",
    "page": 22,
    "bbox": [
     191.84,
@@ -1715,7 +1849,7 @@
    "group": null
   },
   {
-   "id": "h0063",
+   "id": "h22feb004",
    "page": 22,
    "bbox": [
     415.16,
@@ -1736,7 +1870,7 @@
    "group": null
   },
   {
-   "id": "h0064",
+   "id": "h225b52af",
    "page": 22,
    "bbox": [
     243.66,
@@ -1757,7 +1891,7 @@
    "group": null
   },
   {
-   "id": "h0065",
+   "id": "h22d3af3e",
    "page": 22,
    "bbox": [
     391.73,
@@ -1778,7 +1912,7 @@
    "group": null
   },
   {
-   "id": "h0066",
+   "id": "h22e51a49",
    "page": 22,
    "bbox": [
     479.19,
@@ -1799,7 +1933,7 @@
    "group": null
   },
   {
-   "id": "h0067",
+   "id": "h2206d8ab",
    "page": 22,
    "bbox": [
     194.4,
@@ -1820,7 +1954,7 @@
    "group": null
   },
   {
-   "id": "h0068",
+   "id": "h22f48c0a",
    "page": 22,
    "bbox": [
     280.72,
@@ -1841,7 +1975,7 @@
    "group": null
   },
   {
-   "id": "h0069",
+   "id": "h222ea72c",
    "page": 22,
    "bbox": [
     367.08,
@@ -1862,7 +1996,7 @@
    "group": null
   },
   {
-   "id": "h0070",
+   "id": "h233c9de9",
    "page": 23,
    "bbox": [
     348.62,
@@ -1883,7 +2017,7 @@
    "group": null
   },
   {
-   "id": "h0071",
+   "id": "h23eb9b21",
    "page": 23,
    "bbox": [
     415.48,
@@ -1904,7 +2038,7 @@
    "group": null
   },
   {
-   "id": "h0072",
+   "id": "h23e83f9e",
    "page": 23,
    "bbox": [
     499.0,
@@ -1925,7 +2059,7 @@
    "group": null
   },
   {
-   "id": "h0073",
+   "id": "h2335d14e",
    "page": 23,
    "bbox": [
     265.87,
@@ -1946,7 +2080,7 @@
    "group": null
   },
   {
-   "id": "h0074",
+   "id": "h2391578d",
    "page": 23,
    "bbox": [
     476.22,
@@ -1967,7 +2101,7 @@
    "group": null
   },
   {
-   "id": "h0075",
+   "id": "h2339eaf9",
    "page": 23,
    "bbox": [
     421.7,
@@ -1988,7 +2122,7 @@
    "group": null
   },
   {
-   "id": "h0076",
+   "id": "h244f7442",
    "page": 24,
    "bbox": [
     170.43,
@@ -2000,20 +2134,23 @@
    "kind": "asterisk",
    "contextBefore": "service",
    "targets": [
+    "p25:2",
     "p30:1",
     "p31:1",
     "p32:1",
     "p33:1",
-    "p34:1"
+    "p34:1",
+    "p46:2",
+    "p5:2"
    ],
-   "targetDisplay": "P31 · 腳註 *",
-   "confidence": 0.75,
+   "targetDisplay": "P26 · 腳註 *",
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
   },
   {
-   "id": "h0077",
+   "id": "h24cbf1de",
    "page": 24,
    "bbox": [
     359.61,
@@ -2025,20 +2162,23 @@
    "kind": "asterisk",
    "contextBefore": "er up to USD7,000 at any",
    "targets": [
+    "p25:2",
     "p30:1",
     "p31:1",
     "p32:1",
     "p33:1",
-    "p34:1"
+    "p34:1",
+    "p46:2",
+    "p5:2"
    ],
-   "targetDisplay": "P31 · 腳註 *",
-   "confidence": 0.75,
+   "targetDisplay": "P26 · 腳註 *",
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
   },
   {
-   "id": "h0078",
+   "id": "h242067de",
    "page": 24,
    "bbox": [
     277.38,
@@ -2059,7 +2199,7 @@
    "group": null
   },
   {
-   "id": "h0079",
+   "id": "h24d18ef8",
    "page": 24,
    "bbox": [
     263.24,
@@ -2080,7 +2220,7 @@
    "group": null
   },
   {
-   "id": "h0080",
+   "id": "h243cc5f4",
    "page": 24,
    "bbox": [
     288.23,
@@ -2101,7 +2241,7 @@
    "group": null
   },
   {
-   "id": "h0081",
+   "id": "h242f2779",
    "page": 24,
    "bbox": [
     305.94,
@@ -2122,7 +2262,7 @@
    "group": null
   },
   {
-   "id": "h0082",
+   "id": "h24e5b947",
    "page": 24,
    "bbox": [
     316.35,
@@ -2143,7 +2283,7 @@
    "group": null
   },
   {
-   "id": "h0083",
+   "id": "h25380a13",
    "page": 25,
    "bbox": [
     233.39,
@@ -2164,7 +2304,7 @@
    "group": null
   },
   {
-   "id": "h0084",
+   "id": "h25e63d78",
    "page": 25,
    "bbox": [
     343.93,
@@ -2185,7 +2325,7 @@
    "group": null
   },
   {
-   "id": "h0085",
+   "id": "h252e7cb7",
    "page": 25,
    "bbox": [
     362.68,
@@ -2206,7 +2346,7 @@
    "group": null
   },
   {
-   "id": "h0086",
+   "id": "h2698caf8",
    "page": 26,
    "bbox": [
     111.61,
@@ -2227,7 +2367,7 @@
    "group": null
   },
   {
-   "id": "h0087",
+   "id": "h26596a69",
    "page": 26,
    "bbox": [
     335.06,
@@ -2248,7 +2388,7 @@
    "group": null
   },
   {
-   "id": "h0088",
+   "id": "h26493f26",
    "page": 26,
    "bbox": [
     138.59,
@@ -2269,7 +2409,7 @@
    "group": null
   },
   {
-   "id": "h0089",
+   "id": "h2655103f",
    "page": 26,
    "bbox": [
     250.28,
@@ -2290,7 +2430,7 @@
    "group": null
   },
   {
-   "id": "h0090",
+   "id": "h2606ef83",
    "page": 26,
    "bbox": [
     542.89,
@@ -2311,7 +2451,7 @@
    "group": null
   },
   {
-   "id": "h0091",
+   "id": "h27995891",
    "page": 27,
    "bbox": [
     124.29,
@@ -2332,7 +2472,7 @@
    "group": null
   },
   {
-   "id": "h0092",
+   "id": "h27429eda",
    "page": 27,
    "bbox": [
     435.64,
@@ -2353,7 +2493,7 @@
    "group": null
   },
   {
-   "id": "h0093",
+   "id": "h2748292f",
    "page": 27,
    "bbox": [
     295.0,
@@ -2374,7 +2514,7 @@
    "group": null
   },
   {
-   "id": "h0094",
+   "id": "h35c45860",
    "page": 35,
    "bbox": [
     280.25,
@@ -2395,7 +2535,7 @@
    "group": null
   },
   {
-   "id": "h0095",
+   "id": "h3537474c",
    "page": 35,
    "bbox": [
     164.66,
@@ -2416,7 +2556,7 @@
    "group": null
   },
   {
-   "id": "h0096",
+   "id": "h35b7c6be",
    "page": 35,
    "bbox": [
     77.95,
@@ -2437,7 +2577,7 @@
    "group": null
   },
   {
-   "id": "h0097",
+   "id": "h35a60bae",
    "page": 35,
    "bbox": [
     135.24,
@@ -2458,7 +2598,7 @@
    "group": null
   },
   {
-   "id": "h0098",
+   "id": "h368452ad",
    "page": 36,
    "bbox": [
     275.6,
@@ -2479,7 +2619,7 @@
    "group": null
   },
   {
-   "id": "h0099",
+   "id": "h36668bda",
    "page": 36,
    "bbox": [
     306.41,
@@ -2500,7 +2640,7 @@
    "group": null
   },
   {
-   "id": "h0100",
+   "id": "h392b4631",
    "page": 39,
    "bbox": [
     410.92,
@@ -2521,7 +2661,7 @@
    "group": null
   },
   {
-   "id": "h0101",
+   "id": "h4214aa7a",
    "page": 42,
    "bbox": [
     326.21,
@@ -2542,7 +2682,7 @@
    "group": null
   },
   {
-   "id": "h0102",
+   "id": "h42963d3a",
    "page": 42,
    "bbox": [
     217.87,
@@ -2563,7 +2703,7 @@
    "group": null
   },
   {
-   "id": "h0103",
+   "id": "h42cfd44a",
    "page": 42,
    "bbox": [
     165.27,
@@ -2584,7 +2724,7 @@
    "group": null
   },
   {
-   "id": "h0104",
+   "id": "h434816d3",
    "page": 43,
    "bbox": [
     318.85,
@@ -2605,7 +2745,7 @@
    "group": null
   },
   {
-   "id": "h0105",
+   "id": "h434cfeb7",
    "page": 43,
    "bbox": [
     328.22,
@@ -2626,7 +2766,7 @@
    "group": null
   },
   {
-   "id": "h0106",
+   "id": "h43a204f2",
    "page": 43,
    "bbox": [
     401.6,
@@ -2647,7 +2787,7 @@
    "group": null
   },
   {
-   "id": "h0107",
+   "id": "h435d3dbb",
    "page": 43,
    "bbox": [
     186.85,
@@ -2668,7 +2808,7 @@
    "group": null
   },
   {
-   "id": "h0108",
+   "id": "h43976988",
    "page": 43,
    "bbox": [
     288.85,
@@ -2689,7 +2829,7 @@
    "group": null
   },
   {
-   "id": "h0109",
+   "id": "h4387551a",
    "page": 43,
    "bbox": [
     208.22,
@@ -2710,7 +2850,7 @@
    "group": null
   },
   {
-   "id": "h0110",
+   "id": "h435f2702",
    "page": 43,
    "bbox": [
     321.6,
@@ -2731,7 +2871,7 @@
    "group": null
   },
   {
-   "id": "h0111",
+   "id": "h4372b33e",
    "page": 43,
    "bbox": [
     328.22,
@@ -2752,7 +2892,7 @@
    "group": null
   },
   {
-   "id": "h0112",
+   "id": "h4379458b",
    "page": 43,
    "bbox": [
     308.22,
@@ -2773,7 +2913,7 @@
    "group": null
   },
   {
-   "id": "h0113",
+   "id": "h43b50614",
    "page": 43,
    "bbox": [
     258.48,
@@ -2794,7 +2934,7 @@
    "group": null
   },
   {
-   "id": "h0114",
+   "id": "h431f89b9",
    "page": 43,
    "bbox": [
     298.85,
@@ -2815,7 +2955,7 @@
    "group": null
   },
   {
-   "id": "h0115",
+   "id": "h44017931",
    "page": 44,
    "bbox": [
     376.29,
@@ -2836,7 +2976,7 @@
    "group": null
   },
   {
-   "id": "h0116",
+   "id": "h44d6a13c",
    "page": 44,
    "bbox": [
     411.27,
@@ -2857,7 +2997,7 @@
    "group": null
   },
   {
-   "id": "h0117",
+   "id": "h440caf57",
    "page": 44,
    "bbox": [
     446.25,
@@ -2878,7 +3018,7 @@
    "group": null
   },
   {
-   "id": "h0118",
+   "id": "h44c0fc57",
    "page": 44,
    "bbox": [
     188.05,
@@ -2899,7 +3039,7 @@
    "group": null
   },
   {
-   "id": "h0119",
+   "id": "h44d57853",
    "page": 44,
    "bbox": [
     474.29,
@@ -2920,7 +3060,7 @@
    "group": null
   },
   {
-   "id": "h0120",
+   "id": "h44d66b1e",
    "page": 44,
    "bbox": [
     202.35,
@@ -2941,7 +3081,7 @@
    "group": null
   },
   {
-   "id": "h0121",
+   "id": "h4433ebbf",
    "page": 44,
    "bbox": [
     320.49,
@@ -2962,7 +3102,7 @@
    "group": null
   },
   {
-   "id": "h0122",
+   "id": "h4460da26",
    "page": 44,
    "bbox": [
     501.02,
@@ -2983,7 +3123,7 @@
    "group": null
   },
   {
-   "id": "h0123",
+   "id": "h4574a2e4",
    "page": 45,
    "bbox": [
     324.83,
@@ -2995,20 +3135,23 @@
    "kind": "asterisk",
    "contextBefore": "免找数服务7, 8及住院保证免按金服务",
    "targets": [
+    "p46:2",
+    "p5:2",
+    "p25:2",
     "p30:1",
     "p31:1",
     "p32:1",
     "p33:1",
     "p34:1"
    ],
-   "targetDisplay": "P31 · 腳註 *",
-   "confidence": 0.75,
+   "targetDisplay": "P47 · 腳註 *",
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
   },
   {
-   "id": "h0124",
+   "id": "h458a31de",
    "page": 45,
    "bbox": [
     517.32,
@@ -3026,10 +3169,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0124"
+   "group": "g0006"
   },
   {
-   "id": "h0125",
+   "id": "h45c23ab6",
    "page": 45,
    "bbox": [
     517.32,
@@ -3047,10 +3190,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0124"
+   "group": "g0006"
   },
   {
-   "id": "h0126",
+   "id": "h4536df3f",
    "page": 45,
    "bbox": [
     467.12,
@@ -3062,20 +3205,23 @@
    "kind": "asterisk",
    "contextBefore": "医院可享高达7,000美元的住院保证免按金服务。",
    "targets": [
+    "p46:2",
+    "p5:2",
+    "p25:2",
     "p30:1",
     "p31:1",
     "p32:1",
     "p33:1",
     "p34:1"
    ],
-   "targetDisplay": "P31 · 腳註 *",
-   "confidence": 0.75,
+   "targetDisplay": "P47 · 腳註 *",
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
   },
   {
-   "id": "h0127",
+   "id": "h4567d089",
    "page": 45,
    "bbox": [
     203.65,
@@ -3096,7 +3242,7 @@
    "group": null
   },
   {
-   "id": "h0128",
+   "id": "h459f4d18",
    "page": 45,
    "bbox": [
     203.65,
@@ -3117,7 +3263,7 @@
    "group": null
   },
   {
-   "id": "h0129",
+   "id": "h459f88e1",
    "page": 45,
    "bbox": [
     323.55,
@@ -3138,7 +3284,7 @@
    "group": null
   },
   {
-   "id": "h0130",
+   "id": "h45507fa3",
    "page": 45,
    "bbox": [
     505.35,
@@ -3159,7 +3305,7 @@
    "group": null
   },
   {
-   "id": "h0131",
+   "id": "h458010e3",
    "page": 45,
    "bbox": [
     203.65,
@@ -3180,7 +3326,7 @@
    "group": null
   },
   {
-   "id": "h0132",
+   "id": "h46f63bb0",
    "page": 46,
    "bbox": [
     193.94,
@@ -3201,7 +3347,7 @@
    "group": null
   },
   {
-   "id": "h0133",
+   "id": "h469710ad",
    "page": 46,
    "bbox": [
     276.62,
@@ -3222,7 +3368,7 @@
    "group": null
   },
   {
-   "id": "h0134",
+   "id": "h4745e4c1",
    "page": 47,
    "bbox": [
     94.11,
@@ -3243,7 +3389,7 @@
    "group": null
   },
   {
-   "id": "h0135",
+   "id": "h476a0318",
    "page": 47,
    "bbox": [
     427.29,
@@ -3264,7 +3410,7 @@
    "group": null
   },
   {
-   "id": "h0136",
+   "id": "h4736273d",
    "page": 47,
    "bbox": [
     124.84,
@@ -3285,7 +3431,7 @@
    "group": null
   },
   {
-   "id": "h0137",
+   "id": "h47bd9a10",
    "page": 47,
    "bbox": [
     236.26,
@@ -3306,7 +3452,7 @@
    "group": null
   },
   {
-   "id": "h0138",
+   "id": "h4796eba5",
    "page": 47,
    "bbox": [
     506.88,
@@ -3327,7 +3473,7 @@
    "group": null
   },
   {
-   "id": "h0139",
+   "id": "h484da159",
    "page": 48,
    "bbox": [
     340.69,
@@ -3348,7 +3494,7 @@
    "group": null
   },
   {
-   "id": "h0140",
+   "id": "h485fa627",
    "page": 48,
    "bbox": [
     468.76,
@@ -3366,10 +3512,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0140"
+   "group": "g0007"
   },
   {
-   "id": "h0141",
+   "id": "h4813c6a7",
    "page": 48,
    "bbox": [
     468.76,
@@ -3387,10 +3533,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0140"
+   "group": "g0007"
   },
   {
-   "id": "h0142",
+   "id": "h48231ac5",
    "page": 48,
    "bbox": [
     282.6,
@@ -3411,7 +3557,7 @@
    "group": null
   },
   {
-   "id": "h0143",
+   "id": "h4821be63",
    "page": 48,
    "bbox": [
     278.63,
@@ -3432,7 +3578,7 @@
    "group": null
   },
   {
-   "id": "h0144",
+   "id": "h48dd4e8a",
    "page": 48,
    "bbox": [
     348.63,
@@ -3450,10 +3596,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0144"
+   "group": "g0008"
   },
   {
-   "id": "h0145",
+   "id": "h48bb377b",
    "page": 48,
    "bbox": [
     348.63,
@@ -3471,10 +3617,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0144"
+   "group": "g0008"
   },
   {
-   "id": "h0146",
+   "id": "h48354d6b",
    "page": 48,
    "bbox": [
     270.6,
@@ -3492,10 +3638,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0146"
+   "group": "g0009"
   },
   {
-   "id": "h0147",
+   "id": "h48a55399",
    "page": 48,
    "bbox": [
     270.6,
@@ -3513,10 +3659,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0146"
+   "group": "g0009"
   },
   {
-   "id": "h0148",
+   "id": "h4828567e",
    "page": 48,
    "bbox": [
     378.63,
@@ -3534,10 +3680,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0148"
+   "group": "g0010"
   },
   {
-   "id": "h0149",
+   "id": "h48f5e41c",
    "page": 48,
    "bbox": [
     378.63,
@@ -3555,10 +3701,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0148"
+   "group": "g0010"
   },
   {
-   "id": "h0150",
+   "id": "h561e8b9c",
    "page": 56,
    "bbox": [
     229.45,
@@ -3579,7 +3725,7 @@
    "group": null
   },
   {
-   "id": "h0151",
+   "id": "h56341f9c",
    "page": 56,
    "bbox": [
     155.25,
@@ -3600,7 +3746,7 @@
    "group": null
   },
   {
-   "id": "h0152",
+   "id": "h56460fe6",
    "page": 56,
    "bbox": [
     75.43,
@@ -3621,7 +3767,7 @@
    "group": null
   },
   {
-   "id": "h0153",
+   "id": "h56308a9d",
    "page": 56,
    "bbox": [
     209.18,
@@ -3642,7 +3788,7 @@
    "group": null
   },
   {
-   "id": "h0154",
+   "id": "h57ca4715",
    "page": 57,
    "bbox": [
     507.69,
@@ -3663,7 +3809,7 @@
    "group": null
   },
   {
-   "id": "h0155",
+   "id": "h571d793c",
    "page": 57,
    "bbox": [
     336.48,
@@ -3684,7 +3830,7 @@
    "group": null
   },
   {
-   "id": "h0156",
+   "id": "h604404d2",
    "page": 60,
    "bbox": [
     549.07,
@@ -3707,7 +3853,7 @@
  ],
  "stats": {
   "anchors": 157,
-  "notes": 23,
+  "notes": 31,
   "resolved": 157
  }
 }

@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.14",
  "docId": "402cf65f",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/FWD/重疾/童步守護+USD+100000+20+YRS.pdf",
@@ -192,7 +192,7 @@
  ],
  "hotspots": [
   {
-   "id": "h0000",
+   "id": "h007953a1",
    "page": 0,
    "bbox": [
     160.86,
@@ -211,7 +211,7 @@
    "group": null
   },
   {
-   "id": "h0001",
+   "id": "h00de11c0",
    "page": 0,
    "bbox": [
     299.62,
@@ -230,7 +230,7 @@
    "group": null
   },
   {
-   "id": "h0002",
+   "id": "h0079bcc6",
    "page": 0,
    "bbox": [
     299.29,
@@ -249,7 +249,7 @@
    "group": null
   },
   {
-   "id": "h0003",
+   "id": "h019bee5b",
    "page": 1,
    "bbox": [
     402.48,
@@ -268,7 +268,7 @@
    "group": null
   },
   {
-   "id": "h0004",
+   "id": "h0113b4e7",
    "page": 1,
    "bbox": [
     541.6,
@@ -287,7 +287,7 @@
    "group": null
   },
   {
-   "id": "h0005",
+   "id": "h03f9e7d1",
    "page": 3,
    "bbox": [
     214.48,
@@ -306,7 +306,7 @@
    "group": null
   },
   {
-   "id": "h0006",
+   "id": "h03e426b1",
    "page": 3,
    "bbox": [
     368.6,
@@ -325,7 +325,7 @@
    "group": null
   },
   {
-   "id": "h0007",
+   "id": "h038be586",
    "page": 3,
    "bbox": [
     526.6,
