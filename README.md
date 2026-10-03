@@ -334,7 +334,7 @@ uv run python scripts/compare_gold.py a9d21f52   # 金标 vs 当前缓存+compos
 
 ## 7. 开发流程（Git flow）
 
-自 2026-09 起采用标准 Git flow：
+自 2026-09 起采用标准 Git flow（流程图见 [git-standard.png](git-standard.png)）：
 
 | 分支 | 来源 | 用途 | 去向 |
 |------|------|------|------|
