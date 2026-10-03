@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.14",
  "docId": "b8156ad7",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/自愿医保标准计划.pdf",
@@ -288,7 +288,117 @@
  ],
  "hotspots": [
   {
-   "id": "h0000",
+   "id": "h0123d944",
+   "page": 1,
+   "bbox": [
+    437.21,
+    251.4,
+    441.65,
+    264.7
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "人或任何一名指明親屬,即每名認可產品的受",
+   "targets": [
+    "p1:2",
+    "p2:1"
+   ],
+   "targetDisplay": "P2 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h01c10fef",
+   "page": 1,
+   "bbox": [
+    387.05,
+    289.39,
+    391.49,
+    302.7
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "額。指明親屬數目不設上限。您可享有適合您",
+   "targets": [
+    "p1:2",
+    "p2:1"
+   ],
+   "targetDisplay": "P2 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h02f4afc5",
+   "page": 2,
+   "bbox": [
+    175.07,
+    359.05,
+    178.77,
+    370.14
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "可為其本人或任何一名指明親屬即每名認可產品的受保",
+   "targets": [
+    "p2:1",
+    "p1:2"
+   ],
+   "targetDisplay": "P3 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0275c97f",
+   "page": 2,
+   "bbox": [
+    181.51,
+    402.04,
+    185.05,
+    413.4
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "可用作申請稅務扣減的指明親屬數目不設上限,只要",
+   "targets": [
+    "p2:1",
+    "p1:2"
+   ],
+   "targetDisplay": "P3 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h026bb68c",
+   "page": 2,
+   "bbox": [
+    213.67,
+    431.22,
+    217.37,
+    442.31
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "本人及/或其指明親屬*即可。指明親屬包括您的配偶",
+   "targets": [
+    "p2:1",
+    "p1:2"
+   ],
+   "targetDisplay": "P3 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h094a7f43",
    "page": 9,
    "bbox": [
     94.71,
@@ -310,7 +420,7 @@
    "group": null
   },
   {
-   "id": "h0001",
+   "id": "h095c8835",
    "page": 9,
    "bbox": [
     120.31,
@@ -332,7 +442,7 @@
    "group": null
   },
   {
-   "id": "h0002",
+   "id": "h0968a6b4",
    "page": 9,
    "bbox": [
     492.47,
@@ -354,7 +464,7 @@
    "group": null
   },
   {
-   "id": "h0003",
+   "id": "h090aea13",
    "page": 9,
    "bbox": [
     492.47,
@@ -376,7 +486,7 @@
    "group": null
   },
   {
-   "id": "h0004",
+   "id": "h093a4479",
    "page": 9,
    "bbox": [
     150.15,
@@ -395,10 +505,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0004"
+   "group": "g0001"
   },
   {
-   "id": "h0005",
+   "id": "h091e032c",
    "page": 9,
    "bbox": [
     150.15,
@@ -417,10 +527,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0004"
+   "group": "g0001"
   },
   {
-   "id": "h0006",
+   "id": "h0944b658",
    "page": 9,
    "bbox": [
     479.87,
@@ -441,7 +551,7 @@
    "group": null
   },
   {
-   "id": "h0007",
+   "id": "h09078392",
    "page": 9,
    "bbox": [
     160.15,
@@ -463,7 +573,7 @@
    "group": null
   },
   {
-   "id": "h0008",
+   "id": "h09bd58d4",
    "page": 9,
    "bbox": [
     255.35,
@@ -485,7 +595,7 @@
    "group": null
   },
   {
-   "id": "h0009",
+   "id": "h105b04a4",
    "page": 10,
    "bbox": [
     175.02,
@@ -508,8 +618,8 @@
   }
  ],
  "stats": {
-  "anchors": 10,
+  "anchors": 15,
   "notes": 17,
-  "resolved": 10
+  "resolved": 15
  }
 }

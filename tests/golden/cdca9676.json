@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.14",
  "docId": "cdca9676",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/宏利/自愿医保/宏利全护航自愿医保灵活计划-产品单张.pdf",
@@ -13,6 +13,38 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p4:1",
+   "anchor": "footer",
+   "page": 4,
+   "bbox": [
+    263.48,
+    138.01,
+    547.09,
+    160.88
+   ],
+   "number": "*",
+   "text": "以上服務由宏利及╱或第三方服務供應商提供,屬於額外增值服務,並不",
+   "textPages": [
+    4
+   ]
+  },
+  {
+   "noteId": "p22:1",
+   "anchor": "footer",
+   "page": 22,
+   "bbox": [
+    67.13,
+    234.7,
+    240.72,
+    260.43
+   ],
+   "number": "*",
+   "text": "不適用於普通房級別下的I.基本保障(d)",
+   "textPages": [
+    22
+   ]
+  },
   {
    "noteId": "p27:1",
    "anchor": "standalone",
@@ -222,7 +254,7 @@
    ]
   },
   {
-   "noteId": "p26:inline13",
+   "noteId": "p26:inline15",
    "anchor": "inline",
    "page": 26,
    "bbox": [
@@ -240,7 +272,29 @@
  ],
  "hotspots": [
   {
-   "id": "h0000",
+   "id": "h04b09ba7",
+   "page": 4,
+   "bbox": [
+    456.48,
+    103.48,
+    460.85,
+    116.98
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "預先批核後,您可透過免找數服務,享有更暢順的治療",
+   "targets": [
+    "p4:1",
+    "p22:1"
+   ],
+   "targetDisplay": "P5 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0586bcef",
    "page": 5,
    "bbox": [
     226.39,
@@ -259,7 +313,7 @@
    "group": null
   },
   {
-   "id": "h0001",
+   "id": "h05013caa",
    "page": 5,
    "bbox": [
     154.04,
@@ -278,7 +332,7 @@
    "group": null
   },
   {
-   "id": "h0002",
+   "id": "h05b03300",
    "page": 5,
    "bbox": [
     308.04,
@@ -298,8 +352,8 @@
   }
  ],
  "stats": {
-  "anchors": 3,
-  "notes": 14,
-  "resolved": 0
+  "anchors": 4,
+  "notes": 16,
+  "resolved": 1
  }
 }

@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.14",
  "docId": "96d9b97b",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/永明/重疾/永明危疾全护保及至尊保-产品小册子.pdf",
@@ -13,6 +13,86 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p3:1",
+   "anchor": "footer",
+   "page": 3,
+   "bbox": [
+    42.52,
+    704.84,
+    473.24,
+    713.98
+   ],
+   "number": "*",
+   "text": "餘下保障包括:復發保障、「在乎您」保障、「愛屋及烏」保障升級版及危疾多重額外保障(只適用於永明危疾「至尊」保)。",
+   "textPages": [
+    3
+   ]
+  },
+  {
+   "noteId": "p6:1",
+   "anchor": "footer",
+   "page": 6,
+   "bbox": [
+    42.72,
+    420.54,
+    231.23,
+    429.24
+   ],
+   "number": "*",
+   "text": "而每一受保人於每次賠償最高可獲美元37,500╱港元300,000",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p7:1",
+   "anchor": "footer",
+   "page": 7,
+   "bbox": [
+    42.52,
+    474.55,
+    162.84,
+    483.25
+   ],
+   "number": "#",
+   "text": "資料來源:http://www.diabetesrisk.hk",
+   "textPages": [
+    7
+   ]
+  },
+  {
+   "noteId": "p7:2",
+   "anchor": "footer",
+   "page": 7,
+   "bbox": [
+    42.52,
+    483.55,
+    103.24,
+    492.25
+   ],
+   "number": "*",
+   "text": "保障有效期至18歲",
+   "textPages": [
+    7
+   ]
+  },
+  {
+   "noteId": "p8:1",
+   "anchor": "footer",
+   "page": 8,
+   "bbox": [
+    42.52,
+    568.44,
+    370.37,
+    577.14
+   ],
+   "number": "*",
+   "text": "此最高總賠償限額包括此基本計劃下的危疾保障、早期危疾保障及危疾多重額外保障各自的賠償限額。",
+   "textPages": [
+    8
+   ]
+  },
   {
    "noteId": "p19:1",
    "anchor": "footer",
@@ -62,7 +142,7 @@
    ]
   },
   {
-   "noteId": "p11:inline3",
+   "noteId": "p11:inline8",
    "anchor": "inline",
    "page": 11,
    "bbox": [
@@ -78,7 +158,7 @@
    ]
   },
   {
-   "noteId": "p11:inline4",
+   "noteId": "p11:inline9",
    "anchor": "inline",
    "page": 11,
    "bbox": [
@@ -94,7 +174,7 @@
    ]
   },
   {
-   "noteId": "p12:inline5",
+   "noteId": "p12:inline10",
    "anchor": "inline",
    "page": 12,
    "bbox": [
@@ -110,7 +190,7 @@
    ]
   },
   {
-   "noteId": "p12:inline6",
+   "noteId": "p12:inline11",
    "anchor": "inline",
    "page": 12,
    "bbox": [
@@ -126,7 +206,7 @@
    ]
   },
   {
-   "noteId": "p12:inline7",
+   "noteId": "p12:inline12",
    "anchor": "inline",
    "page": 12,
    "bbox": [
@@ -142,7 +222,7 @@
    ]
   },
   {
-   "noteId": "p13:inline8",
+   "noteId": "p13:inline13",
    "anchor": "inline",
    "page": 13,
    "bbox": [
@@ -160,7 +240,7 @@
  ],
  "hotspots": [
   {
-   "id": "h0000",
+   "id": "h02171c9e",
    "page": 2,
    "bbox": [
     272.77,
@@ -179,7 +259,7 @@
    "group": null
   },
   {
-   "id": "h0001",
+   "id": "h02af52e0",
    "page": 2,
    "bbox": [
     212.84,
@@ -198,7 +278,7 @@
    "group": null
   },
   {
-   "id": "h0002",
+   "id": "h028194fa",
    "page": 2,
    "bbox": [
     212.84,
@@ -217,7 +297,7 @@
    "group": null
   },
   {
-   "id": "h0003",
+   "id": "h03dc142a",
    "page": 3,
    "bbox": [
     263.61,
@@ -236,7 +316,7 @@
    "group": null
   },
   {
-   "id": "h0004",
+   "id": "h036f2a05",
    "page": 3,
    "bbox": [
     191.21,
@@ -255,7 +335,7 @@
    "group": null
   },
   {
-   "id": "h0005",
+   "id": "h03d0d0da",
    "page": 3,
    "bbox": [
     125.54,
@@ -274,7 +354,7 @@
    "group": null
   },
   {
-   "id": "h0006",
+   "id": "h035de02d",
    "page": 3,
    "bbox": [
     392.49,
@@ -293,7 +373,7 @@
    "group": null
   },
   {
-   "id": "h0007",
+   "id": "h034ef0bd",
    "page": 3,
    "bbox": [
     440.7,
@@ -312,7 +392,32 @@
    "group": null
   },
   {
-   "id": "h0008",
+   "id": "h0317d134",
+   "page": 3,
+   "bbox": [
+    144.83,
+    640.73,
+    149.97,
+    655.86
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "續享有餘下的保障。",
+   "targets": [
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h04cb52b0",
    "page": 4,
    "bbox": [
     274.04,
@@ -331,7 +436,7 @@
    "group": null
   },
   {
-   "id": "h0009",
+   "id": "h0443bb30",
    "page": 4,
    "bbox": [
     279.42,
@@ -350,7 +455,7 @@
    "group": null
   },
   {
-   "id": "h0010",
+   "id": "h05aa9c44",
    "page": 5,
    "bbox": [
     361.96,
@@ -369,7 +474,7 @@
    "group": null
   },
   {
-   "id": "h0011",
+   "id": "h05f91a37",
    "page": 5,
    "bbox": [
     344.7,
@@ -388,7 +493,7 @@
    "group": null
   },
   {
-   "id": "h0012",
+   "id": "h051c1174",
    "page": 5,
    "bbox": [
     200.02,
@@ -407,7 +512,7 @@
    "group": null
   },
   {
-   "id": "h0013",
+   "id": "h053075fc",
    "page": 5,
    "bbox": [
     457.26,
@@ -426,7 +531,7 @@
    "group": null
   },
   {
-   "id": "h0014",
+   "id": "h052cb120",
    "page": 5,
    "bbox": [
     472.96,
@@ -445,7 +550,7 @@
    "group": null
   },
   {
-   "id": "h0015",
+   "id": "h05cab929",
    "page": 5,
    "bbox": [
     200.31,
@@ -464,7 +569,7 @@
    "group": null
   },
   {
-   "id": "h0016",
+   "id": "h05f3fd4e",
    "page": 5,
    "bbox": [
     344.56,
@@ -483,7 +588,7 @@
    "group": null
   },
   {
-   "id": "h0017",
+   "id": "h06dd6b2c",
    "page": 6,
    "bbox": [
     275.23,
@@ -502,7 +607,7 @@
    "group": null
   },
   {
-   "id": "h0018",
+   "id": "h061abdde",
    "page": 6,
    "bbox": [
     185.63,
@@ -521,7 +626,7 @@
    "group": null
   },
   {
-   "id": "h0019",
+   "id": "h074a9d87",
    "page": 7,
    "bbox": [
     275.03,
@@ -540,7 +645,7 @@
    "group": null
   },
   {
-   "id": "h0020",
+   "id": "h073e9eb5",
    "page": 7,
    "bbox": [
     454.53,
@@ -559,7 +664,7 @@
    "group": null
   },
   {
-   "id": "h0021",
+   "id": "h083e5edc",
    "page": 8,
    "bbox": [
     108.22,
@@ -578,7 +683,32 @@
    "group": null
   },
   {
-   "id": "h0022",
+   "id": "h08cdb94a",
+   "page": 8,
+   "bbox": [
+    458.54,
+    410.49,
+    465.22,
+    422.49
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "最高總賠償限額",
+   "targets": [
+    "p8:1",
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2"
+   ],
+   "targetDisplay": "P9 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h08599a8a",
    "page": 8,
    "bbox": [
     503.37,
@@ -597,7 +727,7 @@
    "group": null
   },
   {
-   "id": "h0023",
+   "id": "h09698cb9",
    "page": 9,
    "bbox": [
     186.27,
@@ -616,7 +746,7 @@
    "group": null
   },
   {
-   "id": "h0024",
+   "id": "h099e88f7",
    "page": 9,
    "bbox": [
     447.13,
@@ -635,7 +765,7 @@
    "group": null
   },
   {
-   "id": "h0025",
+   "id": "h091f9651",
    "page": 9,
    "bbox": [
     153.83,
@@ -654,7 +784,7 @@
    "group": null
   },
   {
-   "id": "h0026",
+   "id": "h10a6e6d8",
    "page": 10,
    "bbox": [
     196.74,
@@ -673,7 +803,7 @@
    "group": null
   },
   {
-   "id": "h0027",
+   "id": "h10ce6af0",
    "page": 10,
    "bbox": [
     268.81,
@@ -692,7 +822,7 @@
    "group": null
   },
   {
-   "id": "h0028",
+   "id": "h15aa9d0f",
    "page": 15,
    "bbox": [
     129.07,
@@ -711,7 +841,7 @@
    "group": null
   },
   {
-   "id": "h0029",
+   "id": "h15110b66",
    "page": 15,
    "bbox": [
     380.16,
@@ -730,7 +860,7 @@
    "group": null
   },
   {
-   "id": "h0030",
+   "id": "h15c79aa8",
    "page": 15,
    "bbox": [
     490.71,
@@ -749,7 +879,7 @@
    "group": null
   },
   {
-   "id": "h0031",
+   "id": "h158e4229",
    "page": 15,
    "bbox": [
     376.76,
@@ -768,7 +898,7 @@
    "group": null
   },
   {
-   "id": "h0032",
+   "id": "h154c7b6c",
    "page": 15,
    "bbox": [
     490.31,
@@ -787,7 +917,7 @@
    "group": null
   },
   {
-   "id": "h0033",
+   "id": "h1585c595",
    "page": 15,
    "bbox": [
     119.91,
@@ -806,7 +936,7 @@
    "group": null
   },
   {
-   "id": "h0034",
+   "id": "h15ba411f",
    "page": 15,
    "bbox": [
     156.4,
@@ -825,7 +955,7 @@
    "group": null
   },
   {
-   "id": "h0035",
+   "id": "h1585f97c",
    "page": 15,
    "bbox": [
     401.38,
@@ -844,7 +974,7 @@
    "group": null
   },
   {
-   "id": "h0036",
+   "id": "h153ab091",
    "page": 15,
    "bbox": [
     514.76,
@@ -863,7 +993,7 @@
    "group": null
   },
   {
-   "id": "h0037",
+   "id": "h15ffbfe6",
    "page": 15,
    "bbox": [
     368.36,
@@ -882,7 +1012,7 @@
    "group": null
   },
   {
-   "id": "h0038",
+   "id": "h15904532",
    "page": 15,
    "bbox": [
     142.18,
@@ -901,7 +1031,7 @@
    "group": null
   },
   {
-   "id": "h0039",
+   "id": "h15eab653",
    "page": 15,
    "bbox": [
     420.29,
@@ -920,7 +1050,7 @@
    "group": null
   },
   {
-   "id": "h0040",
+   "id": "h15c8338b",
    "page": 15,
    "bbox": [
     156.4,
@@ -939,7 +1069,7 @@
    "group": null
   },
   {
-   "id": "h0041",
+   "id": "h16910406",
    "page": 16,
    "bbox": [
     129.07,
@@ -958,7 +1088,7 @@
    "group": null
   },
   {
-   "id": "h0042",
+   "id": "h168e0c85",
    "page": 16,
    "bbox": [
     142.18,
@@ -977,7 +1107,7 @@
    "group": null
   },
   {
-   "id": "h0043",
+   "id": "h165c2c41",
    "page": 16,
    "bbox": [
     420.29,
@@ -996,7 +1126,7 @@
    "group": null
   },
   {
-   "id": "h0044",
+   "id": "h16c55aeb",
    "page": 16,
    "bbox": [
     156.4,
@@ -1015,7 +1145,7 @@
    "group": null
   },
   {
-   "id": "h0045",
+   "id": "h16a4ff6e",
    "page": 16,
    "bbox": [
     242.78,
@@ -1034,7 +1164,7 @@
    "group": null
   },
   {
-   "id": "h0046",
+   "id": "h16c7157c",
    "page": 16,
    "bbox": [
     142.18,
@@ -1053,7 +1183,7 @@
    "group": null
   },
   {
-   "id": "h0047",
+   "id": "h161fbd28",
    "page": 16,
    "bbox": [
     156.4,
@@ -1072,7 +1202,7 @@
    "group": null
   },
   {
-   "id": "h0048",
+   "id": "h16b1c2be",
    "page": 16,
    "bbox": [
     420.29,
@@ -1091,7 +1221,7 @@
    "group": null
   },
   {
-   "id": "h0049",
+   "id": "h16713c43",
    "page": 16,
    "bbox": [
     357.43,
@@ -1110,7 +1240,7 @@
    "group": null
   },
   {
-   "id": "h0050",
+   "id": "h17e588a2",
    "page": 17,
    "bbox": [
     128.37,
@@ -1129,7 +1259,7 @@
    "group": null
   },
   {
-   "id": "h0051",
+   "id": "h17d711ec",
    "page": 17,
    "bbox": [
     161.76,
@@ -1145,10 +1275,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0051"
+   "group": "g0001"
   },
   {
-   "id": "h0052",
+   "id": "h178ce4cd",
    "page": 17,
    "bbox": [
     161.76,
@@ -1164,10 +1294,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0051"
+   "group": "g0001"
   },
   {
-   "id": "h0053",
+   "id": "h171aeff4",
    "page": 17,
    "bbox": [
     419.59,
@@ -1186,7 +1316,7 @@
    "group": null
   },
   {
-   "id": "h0054",
+   "id": "h1755919a",
    "page": 17,
    "bbox": [
     155.7,
@@ -1205,7 +1335,7 @@
    "group": null
   },
   {
-   "id": "h0055",
+   "id": "h178de397",
    "page": 17,
    "bbox": [
     228.52,
@@ -1224,7 +1354,7 @@
    "group": null
   },
   {
-   "id": "h0056",
+   "id": "h172e659d",
    "page": 17,
    "bbox": [
     121.21,
@@ -1243,7 +1373,7 @@
    "group": null
   },
   {
-   "id": "h0057",
+   "id": "h177d6618",
    "page": 17,
    "bbox": [
     155.7,
@@ -1262,7 +1392,7 @@
    "group": null
   },
   {
-   "id": "h0058",
+   "id": "h17ac9711",
    "page": 17,
    "bbox": [
     400.68,
@@ -1281,7 +1411,7 @@
    "group": null
   },
   {
-   "id": "h0059",
+   "id": "h177db26d",
    "page": 17,
    "bbox": [
     514.06,
@@ -1300,7 +1430,7 @@
    "group": null
   },
   {
-   "id": "h0060",
+   "id": "h172d7832",
    "page": 17,
    "bbox": [
     367.66,
@@ -1319,7 +1449,578 @@
    "group": null
   },
   {
-   "id": "h0061",
+   "id": "h18d891b5",
+   "page": 18,
+   "bbox": [
+    359.99,
+    156.72,
+    362.92,
+    167.52
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "管、陰道、睪丸或陰莖)",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h18fe1601",
+   "page": 18,
+   "bbox": [
+    426.14,
+    178.72,
+    429.08,
+    189.52
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "狀癌及AJCC第二期或以上的非黑色瘤皮膚癌)",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h18e0bd89",
+   "page": 18,
+   "bbox": [
+    323.47,
+    267.23,
+    326.41,
+    278.03
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "肝炎伴肝硬化",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h1874d575",
+   "page": 18,
+   "bbox": [
+    338.07,
+    279.88,
+    341.01,
+    290.68
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "慢性自體免疫肝炎",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h18f47a5a",
+   "page": 18,
+   "bbox": [
+    494.05,
+    430.0,
+    496.99,
+    440.8
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "嚴重哮喘",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h183e6bfa",
+   "page": 18,
+   "bbox": [
+    359.94,
+    505.87,
+    362.87,
+    516.67
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "心臟起搏器或除顫器植入",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h189e9343",
+   "page": 18,
+   "bbox": [
+    374.52,
+    531.16,
+    377.46,
+    541.96
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "周圍動脈疾病的血管介入治療",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h1848185a",
+   "page": 18,
+   "bbox": [
+    403.71,
+    556.45,
+    406.65,
+    567.25
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "主動脈疾病或主動脈瘤的血管介入治療",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h18b06186",
+   "page": 18,
+   "bbox": [
+    367.2,
+    569.09,
+    370.14,
+    579.89
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "微創性直接冠狀動脈搭橋術",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h18188f4a",
+   "page": 18,
+   "bbox": [
+    418.31,
+    580.09,
+    421.24,
+    590.89
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "血管成形術及其他冠狀動脈之創傷性治療法",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h18395bec",
+   "page": 18,
+   "bbox": [
+    486.68,
+    592.74,
+    489.62,
+    603.54
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "川崎病",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h187d0ae6",
+   "page": 18,
+   "bbox": [
+    537.79,
+    605.38,
+    540.73,
+    616.18
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "風濕熱合併心瓣膜損害",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h1943c94f",
+   "page": 19,
+   "bbox": [
+    381.82,
+    289.02,
+    384.76,
+    299.82
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "頸動脈成形術及其它頸動脈手術",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h1943eee7",
+   "page": 19,
+   "bbox": [
+    494.0,
+    352.11,
+    496.93,
+    362.91
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "智力受損",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h19c692e0",
+   "page": 19,
+   "bbox": [
+    352.7,
+    415.17,
+    355.63,
+    425.97
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "糖尿病引致的腎臟病變",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h1901f564",
+   "page": 19,
+   "bbox": [
+    360.0,
+    427.81,
+    362.94,
+    438.61
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "糖尿病引致的視網膜病變",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h19160d95",
+   "page": 19,
+   "bbox": [
+    165.27,
+    617.2,
+    171.24,
+    628.0
+   ],
+   "text": "**",
+   "kind": "asterisk",
+   "contextBefore": "末期疾病",
+   "targets": [
+    "p19:3"
+   ],
+   "targetDisplay": "P20 · 腳註 **",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h1984350a",
+   "page": 19,
+   "bbox": [
+    381.89,
+    642.47,
+    384.83,
+    653.27
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "因意外受傷而接受面部重建手術",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h19c96da0",
+   "page": 19,
+   "bbox": [
+    538.76,
+    693.05,
+    541.7,
+    703.85
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "A型血友病及B型血友病",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h19a3477a",
+   "page": 19,
+   "bbox": [
+    530.59,
+    705.72,
+    533.52,
+    716.52
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "胰島素依賴型糖尿病",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h19cb4650",
+   "page": 19,
+   "bbox": [
+    501.38,
+    718.36,
+    504.32,
+    729.16
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "成骨不全症",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h19d72212",
+   "page": 19,
+   "bbox": [
+    486.78,
+    743.51,
+    489.72,
+    754.31
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "蒂爾病",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h1952a538",
+   "page": 19,
+   "bbox": [
+    501.38,
+    756.16,
+    504.32,
+    766.96
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "嚴重自閉症",
+   "targets": [
+    "p19:1",
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1"
+   ],
+   "targetDisplay": "P20 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h20b0cabb",
    "page": 20,
    "bbox": [
     141.13,
@@ -1338,7 +2039,7 @@
    "group": null
   },
   {
-   "id": "h0062",
+   "id": "h208addfc",
    "page": 20,
    "bbox": [
     236.81,
@@ -1355,11 +2056,36 @@
    "source": "derived",
    "nativeLink": null,
    "group": null
+  },
+  {
+   "id": "h2096c264",
+   "page": 20,
+   "bbox": [
+    385.59,
+    619.26,
+    388.86,
+    628.86
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "下列第(3)及第(4)項所指就組別1的危疾而提出",
+   "targets": [
+    "p3:1",
+    "p6:1",
+    "p7:2",
+    "p8:1",
+    "p19:1"
+   ],
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
   }
  ],
  "stats": {
-  "anchors": 63,
-  "notes": 9,
-  "resolved": 0
+  "anchors": 89,
+  "notes": 14,
+  "resolved": 26
  }
 }

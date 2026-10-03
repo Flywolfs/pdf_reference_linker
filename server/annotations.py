@@ -19,11 +19,11 @@ import re
 import time
 import uuid
 
-from .cache import DATA_DIR
+from .cache import DATA_DIR, save_override
 from .config import ParseConfig
 from .pipeline.anchors import classify
 from .pipeline.extract import _norm
-from .pipeline.match import match_hotspots
+from .pipeline.match import ANCHOR_LABEL, match_hotspots
 from .pipeline.schema import ANALYSIS_VERSION, Hotspot, NoteEntry
 
 # 人工数据存项目内 data/（劳动成果，不放 ~/.cache 以免被清理工具误删）
@@ -395,7 +395,12 @@ def sync_miss_target(doc_id: str, hotspot_id: str, target: str,
 
 def apply_manual(analysis: dict, doc_id: str) -> dict:
     """人工數據合成：注入 confirmed 補標熱點 + 過濾已取消引用（誤檢隱藏）。
-    過濾須在注入之後——否則取消一個補標注入熱點會被注入步驟加回。"""
+    過濾須在注入之後——否則取消一個補標注入熱點會被注入步驟加回。
+
+    引擎重疊去重（1.13）：C8 檢出歷史上人工補標的同位置符號角標後，補標條目
+    不再重複注入（同頁同編號、中心距 ≤12pt，與 add_miss 去重閾值一致）；用戶
+    確認目標異於引擎 top1 時轉寫為引擎熱點的 rebind override——人工結論不因
+    引擎升級丟失（確認即鎖定原則）。"""
     entries = load_annotations(doc_id).get("entries", {})
     # 墓碑 → 取消時間。墓碑失效規則：取消後條目又被重新框選覆蓋（add_miss
     # 復用同條目 id、ts 更新）→ 用戶重新框選即視為撤銷取消，引用恢復顯示
@@ -413,6 +418,24 @@ def apply_manual(analysis: dict, doc_id: str) -> dict:
             return True                     # 引擎熱點墓碑：始終有效
         return (me.get("ts") or 0) <= tomb_ts[hid]
 
+    eng: dict[tuple, list] = {}
+    for h in analysis.get("hotspots", []):
+        if _tombstoned(h.get("id")):
+            continue                        # 已取消的引擎热点不参与同位置判定
+        eng.setdefault((h.get("page"), h.get("text")), []).append(h)
+    notes_idx = {n["noteId"]: n for n in analysis.get("notes", [])}
+    # 引擎熱點自身有用戶 verdict（v-hXXX confirmed）→ override 以 verdict 為權威，
+    # 補標 twin 對齊不得改寫/清除（多條補標映射同一熱點時 save/delete 競態實測）
+    verdict_locked = {eid[2:] for eid, e in entries.items()
+                      if e.get("kind") == "verdict" and e.get("status") == "confirmed"
+                      and not eid.startswith("v-m-")}
+
+    def _disp(note_id: str) -> str | None:
+        n = notes_idx.get(note_id)
+        if not n:
+            return None
+        return f"P{n['page'] + 1} · {ANCHOR_LABEL.get(n['anchor'], n['anchor'])} {n['number']}"
+
     for eid, e in entries.items():
         if e.get("kind") != "miss" or e.get("status") != "confirmed":
             continue
@@ -420,10 +443,30 @@ def apply_manual(analysis: dict, doc_id: str) -> dict:
             continue
         if _tombstoned(eid):
             continue
-        # 目標優先級：鏈接判定（v-{eid} verdict，AI 導入/換綁後的最終目標）
-        # > 補標接受時鎖定的 rebindTo > 當時匹配建議
+        # 目標優先級（與 export_gold 一致）：鏈接判定 v-{eid} 的 targetNoteId /
+        # rebindTo > 補標接受時鎖定的 rebindTo > 當時匹配建議
         vd = entries.get(f"v-{eid}") or {}
-        target = vd.get("rebindTo") or e.get("rebindTo") or (e.get("targets") or [None])[0]
+        target = (vd.get("targetNoteId") or vd.get("rebindTo") or e.get("rebindTo")
+                  or (e.get("targets") or [None])[0])
+        cx, cy = _center(e["spanBbox"])
+        twin = next((h for h in eng.get((e["page"], e["number"]), [])
+                     if max(abs(_center(h["bbox"])[0] - cx),
+                            abs(_center(h["bbox"])[1] - cy)) <= 12), None)
+        if twin is not None:
+            # 引擎已檢出同位置角標：不重複注入，並把 override 對齊用戶確認目標——
+            # 不一致 → 轉寫 rebind（人工結論鎖定）；一致 → 清除歷史 override 殘留
+            # （引擎已修對，舊換綁不得再覆蓋正確輸出）。熱點自身有用戶 verdict
+            # 時 verdict 為權威，不動 override。
+            if twin["id"] not in verdict_locked:
+                top1 = (twin.get("targets") or [None])[0]
+                if target and target != top1 and not twin.get("nativeLink"):
+                    save_override(doc_id, twin["id"],
+                                  {"action": "rebind", "targetNoteId": target,
+                                   "targetDisplay": _disp(target) or target})
+                elif target and target == top1:
+                    from .cache import delete_override
+                    delete_override(doc_id, twin["id"])
+            continue
         analysis["hotspots"].append({
             "id": eid, "page": e["page"], "bbox": e["spanBbox"],
             "text": e["number"], "kind": e.get("anchorKind") or "numeric",

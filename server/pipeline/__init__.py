@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 """解析管线总装（DESIGN.md §4.3）：extract → anchors → notes → match → AnalysisDoc。"""
+import hashlib
 import time
 
 import pymupdf
@@ -10,6 +11,18 @@ from .extract import extract_lines, has_text_layer, page_heights
 from .match import match_hotspots
 from .notes import extract_inline_notes, find_regions, parse_region
 from .schema import AnalysisDoc, ConfigSnapshot, DocMeta, Hotspot, NativeLink, NoteEntry
+
+
+def hotspot_stable_id(page: int, text: str, bbox: list) -> str:
+    """内容寻址热点 id（1.14）：引擎檢出集合變化（新增通道）不影響既有熱點 id。
+
+    舊 seq 序號 id（h0001…）在引擎升級新增熱點後整體偏移，人工標注
+    （verdict/墓碑/override 鍵）跨版本全部錯位——1.13 C8 實測事故。
+    id = h{page:02d}{sha1(page|text|bbox 0.1pt 取整)[:6]}；同位置同編號碰撞
+    （理論僅重疊角標）以遞增後綴兜底。
+    """
+    key = f"{page}|{text}|{','.join(f'{round(v, 1):g}' for v in bbox)}"
+    return f"h{page:02d}{hashlib.sha1(key.encode()).hexdigest()[:6]}"
 
 
 def analyze_pdf(path: str, doc_id: str, config: ParseConfig = DEFAULT_CONFIG) -> AnalysisDoc:
@@ -35,18 +48,30 @@ def analyze_pdf(path: str, doc_id: str, config: ParseConfig = DEFAULT_CONFIG) ->
 
     # ---- 引用端 ----
     anchors = detect_anchors(lines, config)
-    seq = 0
+    loose_ids: set[str] = set()          # C8 宽松通道检出：匹配后无候选须剔除
+    used_ids: set[str] = set()
+    gseq = 0
     for a in anchors:
         # 多编号角标（如 '2,3'）：每编号独立热点（匹配/校对各異），
         # 但共享 group 供前端聚合为单一命中区 + 列表浮层
-        group = f"g{seq:04d}" if len(a.numbers) > 1 else None
+        group = None
+        if len(a.numbers) > 1:
+            gseq += 1
+            group = f"g{gseq:04d}"
         for num in a.numbers:
+            hid = hotspot_stable_id(a.page, num, a.bbox)
+            n = 0
+            while hid in used_ids:       # 理论仅重叠角标碰撞，递增后缀兜底
+                n += 1
+                hid = f"{hotspot_stable_id(a.page, num, a.bbox)}_{n}"
+            used_ids.add(hid)
             out.hotspots.append(Hotspot(
-                id=f"h{seq:04d}", page=a.page,
+                id=hid, page=a.page,
                 bbox=[round(v, 2) for v in a.bbox],
                 text=num, kind=a.kind, contextBefore=a.context,
                 confidence=a.confidence, group=group))
-            seq += 1
+            if a.loose:
+                loose_ids.add(hid)
 
     # ---- 目标端 ----
     titled_ids: set[str] = set()
@@ -74,6 +99,12 @@ def analyze_pdf(path: str, doc_id: str, config: ParseConfig = DEFAULT_CONFIG) ->
     # ---- 匹配 ----
     match_hotspots(out.hotspots, out.notes, config, titled_ids)
     _apply_native_links(doc, out.hotspots)
+    if loose_ids:
+        # C8 存在性收口：宽松检出的同字号符号角标，无目标候选（文档内无该
+        # 符号解释行）且无原生链接 → 视为正文内容字符，剔除（误报防线）
+        out.hotspots = [h for h in out.hotspots
+                        if not (h.id in loose_ids and not h.targets
+                                and h.source != "native")]
 
     out.stats = {
         "elapsedMs": round((time.time() - t0) * 1000),

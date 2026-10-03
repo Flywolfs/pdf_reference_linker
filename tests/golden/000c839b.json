@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.14",
  "docId": "000c839b",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/永明/自愿医保/永明港称心医疗保-产品小册子.pdf",
@@ -288,7 +288,7 @@
  ],
  "hotspots": [
   {
-   "id": "h0000",
+   "id": "h01ccd78c",
    "page": 1,
    "bbox": [
     280.24,
@@ -310,7 +310,7 @@
    "group": null
   },
   {
-   "id": "h0001",
+   "id": "h02218d3b",
    "page": 2,
    "bbox": [
     176.53,
@@ -332,7 +332,7 @@
    "group": null
   },
   {
-   "id": "h0002",
+   "id": "h02dc97b2",
    "page": 2,
    "bbox": [
     167.35,
@@ -354,7 +354,7 @@
    "group": null
   },
   {
-   "id": "h0003",
+   "id": "h02ef4d6f",
    "page": 2,
    "bbox": [
     376.64,
@@ -376,7 +376,7 @@
    "group": null
   },
   {
-   "id": "h0004",
+   "id": "h022f01d3",
    "page": 2,
    "bbox": [
     466.21,
@@ -398,7 +398,7 @@
    "group": null
   },
   {
-   "id": "h0005",
+   "id": "h03e3e686",
    "page": 3,
    "bbox": [
     495.59,
@@ -419,7 +419,7 @@
    "group": null
   },
   {
-   "id": "h0006",
+   "id": "h031a3366",
    "page": 3,
    "bbox": [
     117.73,
@@ -440,7 +440,7 @@
    "group": null
   },
   {
-   "id": "h0007",
+   "id": "h0318d14b",
    "page": 3,
    "bbox": [
     128.53,
@@ -461,7 +461,7 @@
    "group": null
   },
   {
-   "id": "h0008",
+   "id": "h048d7c74",
    "page": 4,
    "bbox": [
     234.04,
@@ -482,7 +482,7 @@
    "group": null
   },
   {
-   "id": "h0009",
+   "id": "h04a96117",
    "page": 4,
    "bbox": [
     213.2,
@@ -503,7 +503,7 @@
    "group": null
   },
   {
-   "id": "h0010",
+   "id": "h0567615f",
    "page": 5,
    "bbox": [
     178.26,
@@ -524,7 +524,7 @@
    "group": null
   },
   {
-   "id": "h0011",
+   "id": "h067a4d90",
    "page": 6,
    "bbox": [
     506.26,
@@ -545,7 +545,7 @@
    "group": null
   },
   {
-   "id": "h0012",
+   "id": "h08012893",
    "page": 8,
    "bbox": [
     746.73,
@@ -567,7 +567,7 @@
    "group": null
   },
   {
-   "id": "h0013",
+   "id": "h09b0a2f3",
    "page": 9,
    "bbox": [
     746.73,
@@ -589,7 +589,7 @@
    "group": null
   },
   {
-   "id": "h0014",
+   "id": "h0983a5c9",
    "page": 9,
    "bbox": [
     492.96,
@@ -610,7 +610,7 @@
    "group": null
   },
   {
-   "id": "h0015",
+   "id": "h095e8584",
    "page": 9,
    "bbox": [
     123.28,
@@ -631,7 +631,7 @@
    "group": null
   },
   {
-   "id": "h0016",
+   "id": "h09f63ce9",
    "page": 9,
    "bbox": [
     703.1,
@@ -652,7 +652,7 @@
    "group": null
   },
   {
-   "id": "h0017",
+   "id": "h09aebd61",
    "page": 9,
    "bbox": [
     1072.98,
@@ -673,7 +673,7 @@
    "group": null
   },
   {
-   "id": "h0018",
+   "id": "h1069de0b",
    "page": 10,
    "bbox": [
     356.96,
@@ -694,7 +694,7 @@
    "group": null
   },
   {
-   "id": "h0019",
+   "id": "h1069bae5",
    "page": 10,
    "bbox": [
     341.1,
@@ -713,7 +713,7 @@
    "group": null
   },
   {
-   "id": "h0020",
+   "id": "h103f7495",
    "page": 10,
    "bbox": [
     239.25,
@@ -732,7 +732,7 @@
    "group": null
   },
   {
-   "id": "h0021",
+   "id": "h10e7c736",
    "page": 10,
    "bbox": [
     390.21,
@@ -751,7 +751,7 @@
    "group": null
   },
   {
-   "id": "h0022",
+   "id": "h10a260ba",
    "page": 10,
    "bbox": [
     259.51,
@@ -770,7 +770,7 @@
    "group": null
   },
   {
-   "id": "h0023",
+   "id": "h117c05c0",
    "page": 11,
    "bbox": [
     407.97,
@@ -791,7 +791,7 @@
    "group": null
   },
   {
-   "id": "h0024",
+   "id": "h12dbd2a0",
    "page": 12,
    "bbox": [
     86.74,
@@ -807,10 +807,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0024"
+   "group": "g0001"
   },
   {
-   "id": "h0025",
+   "id": "h12fc9fbf",
    "page": 12,
    "bbox": [
     86.74,
@@ -826,10 +826,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0024"
+   "group": "g0001"
   },
   {
-   "id": "h0026",
+   "id": "h128a8af6",
    "page": 12,
    "bbox": [
     117.69,
@@ -850,7 +850,7 @@
    "group": null
   },
   {
-   "id": "h0027",
+   "id": "h12aaa46b",
    "page": 12,
    "bbox": [
     118.64,
@@ -869,7 +869,7 @@
    "group": null
   },
   {
-   "id": "h0028",
+   "id": "h12c18dcd",
    "page": 12,
    "bbox": [
     441.68,
@@ -890,7 +890,7 @@
    "group": null
   },
   {
-   "id": "h0029",
+   "id": "h12ae4fd8",
    "page": 12,
    "bbox": [
     407.79,
@@ -909,7 +909,7 @@
    "group": null
   },
   {
-   "id": "h0030",
+   "id": "h12b83967",
    "page": 12,
    "bbox": [
     407.79,
@@ -928,7 +928,7 @@
    "group": null
   },
   {
-   "id": "h0031",
+   "id": "h128f8934",
    "page": 12,
    "bbox": [
     136.69,
@@ -947,7 +947,7 @@
    "group": null
   },
   {
-   "id": "h0032",
+   "id": "h13df17db",
    "page": 13,
    "bbox": [
     86.61,
@@ -963,10 +963,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0032"
+   "group": "g0002"
   },
   {
-   "id": "h0033",
+   "id": "h1392c32c",
    "page": 13,
    "bbox": [
     86.61,
@@ -982,10 +982,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0032"
+   "group": "g0002"
   },
   {
-   "id": "h0034",
+   "id": "h13efba45",
    "page": 13,
    "bbox": [
     127.06,
@@ -1004,7 +1004,7 @@
    "group": null
   },
   {
-   "id": "h0035",
+   "id": "h130828e8",
    "page": 13,
    "bbox": [
     127.06,
@@ -1023,7 +1023,7 @@
    "group": null
   },
   {
-   "id": "h0036",
+   "id": "h135acf30",
    "page": 13,
    "bbox": [
     146.06,
@@ -1042,7 +1042,7 @@
    "group": null
   },
   {
-   "id": "h0037",
+   "id": "h13936717",
    "page": 13,
    "bbox": [
     155.56,
@@ -1061,7 +1061,7 @@
    "group": null
   },
   {
-   "id": "h0038",
+   "id": "h1322aacb",
    "page": 13,
    "bbox": [
     127.06,

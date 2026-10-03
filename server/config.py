@@ -23,8 +23,14 @@ class ParseConfig:
     t4_min_items: int = 2            # T4 页内编号行下限（符号类单条放寬，見 notes.py）
     t4_bottom: float = 0.55          # T4 编号行 y0 粗滤阈值（真腳註另須貼近內容底部，見 notes.py）
     t4_bottom_margin: float = 100.0  # T4 編號行須距頁內內容最底端不超過此 pt（真腳註實測 ≤88；表格列表項 ≥116）
-    t4_size_ratio: float = 0.8       # T4 编号行字号 / 页内最大字号上限
+    t4_size_ratio: float = 0.8       # T4/T5 编号行字号 / 页内最大字号上限
     t1_term_ratio: float = 1.15      # T1 跨栏并入时终止行字号 / 注文主字号（基礎計劃保障表 10pt vs 註文 8pt 实测）
+    # ---- T5 孤立符号解释行（1.13：页中部「* 全數賠償是指…」形态，showdoc 實測）----
+    t5_min_text: int = 8             # 符号后实质文本最短字符数（排除装饰/列表点）
+    t5_max_per_page: int = 2         # 单页最多捕获条数（异常排版防线）
+    # ---- C8 同字号符号角标（1.13：'*' 与正文同字号同基线、異字族緊貼行尾）----
+    same_size_max_ratio: float = 1.1  # C8 字号比上限（下限复用 size_ratio；排除比正文明显大）
+    same_size_conf: float = 0.75     # C8 命中置信度（probable 档；無目標候選時整體剔除）
     # ---- 匹配（§5.4）----
     certain_gap: int = 2             # top1-top2 分差 >= 此值 → certain
     certain_conf: float = 0.98

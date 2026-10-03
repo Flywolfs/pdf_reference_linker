@@ -3,7 +3,10 @@
 
 双条件（字号比 C1 + 基线升高 C2）为主通道，紧贴性 C4 + 邻接正文 C5 排除
 表格数字列/页码；C7 通道兜底同字号逗号多编号（AIA 表头 '1,7'，每段 <=2 位
-以排除 '8,000' 千位分隔符）。
+以排除 '8,000' 千位分隔符）；C8 通道（1.13）兜底同字号符号角标——'*' 与正文
+同字号同基线但異字族（AIA showdoc 表格「全數賠償*」實測：MHeiHKS vs
+AIAEverest）。C8 僅開放符號集（數字同字號形態誤報太多，見 §2.4 陷阱表），
+檢出標記 loose，管線在匹配後剔除無目標候選者（目標存在性收口）。
 """
 import re
 from dataclasses import dataclass
@@ -27,6 +30,12 @@ class AnchorHit:
     kind: str
     context: str                      # 左侧正文名称（尾部）
     confidence: float
+    loose: bool = False               # 宽松通道（C8）检出：匹配后无候选须剔除
+
+
+def _font_family(font: str) -> str:
+    """字体名 → 家族名（'AIAEverest-Regular' → 'AIAEverest'）。"""
+    return font.split("-")[0].split("+")[0]
 
 
 def classify(text: str) -> str | None:
@@ -62,6 +71,7 @@ def _detect_line(line: Line, config: ParseConfig) -> list[AnchorHit]:
         size_ratio = sp.size / ctx.size if ctx.size > 0.5 else 1.0
         tight = config.gap_neg_ratio * ctx.size <= gap <= config.gap_ratio * ctx.size
         hit = None
+        loose = False
         if (tight and kind is not None
                 and size_ratio <= config.size_ratio
                 and rise >= config.rise_ratio * ctx.size):
@@ -70,13 +80,22 @@ def _detect_line(line: Line, config: ParseConfig) -> list[AnchorHit]:
         elif comma_multi and tight and abs(rise) <= 0.35 * ctx.size:
             # C7：同字号逗号多编号，无法用字号/基线区分，降置信度
             hit = (config.comma_multi_conf, "numeric")
+        elif (tight and kind == "asterisk"
+              and config.size_ratio < size_ratio <= config.same_size_max_ratio
+              and abs(rise) <= 0.35 * ctx.size
+              and _font_family(sp.font) != _font_family(ctx.font)):
+            # C8（1.13）：同字号符号角标——'*' 與正文同字號同基線，緊貼詞尾且
+            # 異字族（符號用西文字體、正文用中文字體，showdoc 實測）。僅符號集
+            # 開放（數字同字號陷阱見 §2.4）；loose 標記 → 匹配後無候選即剔除。
+            hit = (config.same_size_conf, kind)
+            loose = True
         if hit is None:
             last_body = sp          # 判定失败的数字是正文（如年龄、金额、'第112章'）
             continue
         conf, final_kind = hit
         ctx_text = "".join(s.text for s in line.spans if s is not sp).strip()
         hits.append(AnchorHit(line.page, sp.bbox, _split_numbers(sp.text),
-                              final_kind, ctx_text[-24:], conf))
+                              final_kind, ctx_text[-24:], conf, loose))
     return hits
 
 

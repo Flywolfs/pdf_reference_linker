@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.14",
  "docId": "e07720d3",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/FWD/自愿医保/醫家保醫療計劃-產品宣傳單張.pdf",
@@ -13,6 +13,54 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p3:1",
+   "anchor": "footer",
+   "page": 3,
+   "bbox": [
+    42.79,
+    690.42,
+    524.33,
+    708.98
+   ],
+   "number": "*",
+   "text": "此最高可賠償金額由兩部分組成,包括每傷病每保單年度保障總額55萬港元及訂明非手術癌症治療、腎臟透析及器官或骨髓移植的額外保障之每保單年度每傷病55萬港元。",
+   "textPages": [
+    3
+   ]
+  },
+  {
+   "noteId": "p3:2",
+   "anchor": "footer",
+   "page": 3,
+   "bbox": [
+    42.79,
+    700.41,
+    355.13,
+    718.98
+   ],
+   "number": "#",
+   "text": "假設病症3於第2個保單年度及第3個保單年度的合資格費用都是90萬港元,跨越兩個保單年度合共180萬港元。",
+   "textPages": [
+    3
+   ]
+  },
+  {
+   "noteId": "p6:1",
+   "anchor": "footer",
+   "page": 6,
+   "bbox": [
+    184.05,
+    333.39,
+    429.02,
+    356.24
+   ],
+   "number": "*",
+   "text": "個人及額外無索償保費折扣不適用於子女之家添守護選項4之保費。",
+   "textPages": [
+    6
+   ]
+  },
   {
    "noteId": "p12:1",
    "anchor": "standalone",
@@ -384,7 +432,7 @@
  ],
  "hotspots": [
   {
-   "id": "h0000",
+   "id": "h01a172ae",
    "page": 1,
    "bbox": [
     284.29,
@@ -406,7 +454,7 @@
    "group": null
   },
   {
-   "id": "h0001",
+   "id": "h019d4a4e",
    "page": 1,
    "bbox": [
     342.69,
@@ -428,7 +476,7 @@
    "group": null
   },
   {
-   "id": "h0002",
+   "id": "h01f87634",
    "page": 1,
    "bbox": [
     248.45,
@@ -450,7 +498,7 @@
    "group": null
   },
   {
-   "id": "h0003",
+   "id": "h01d09f19",
    "page": 1,
    "bbox": [
     171.78,
@@ -472,7 +520,7 @@
    "group": null
   },
   {
-   "id": "h0004",
+   "id": "h01cccedb",
    "page": 1,
    "bbox": [
     388.76,
@@ -494,7 +542,7 @@
    "group": null
   },
   {
-   "id": "h0005",
+   "id": "h01d22130",
    "page": 1,
    "bbox": [
     70.79,
@@ -516,7 +564,7 @@
    "group": null
   },
   {
-   "id": "h0006",
+   "id": "h02cdbb22",
    "page": 2,
    "bbox": [
     144.02,
@@ -538,7 +586,7 @@
    "group": null
   },
   {
-   "id": "h0007",
+   "id": "h02dc2b08",
    "page": 2,
    "bbox": [
     198.04,
@@ -560,7 +608,7 @@
    "group": null
   },
   {
-   "id": "h0008",
+   "id": "h02328a57",
    "page": 2,
    "bbox": [
     430.67,
@@ -582,7 +630,7 @@
    "group": null
   },
   {
-   "id": "h0009",
+   "id": "h02d8c581",
    "page": 2,
    "bbox": [
     222.99,
@@ -604,7 +652,7 @@
    "group": null
   },
   {
-   "id": "h0010",
+   "id": "h029d6e01",
    "page": 2,
    "bbox": [
     417.47,
@@ -626,7 +674,7 @@
    "group": null
   },
   {
-   "id": "h0011",
+   "id": "h02750101",
    "page": 2,
    "bbox": [
     230.55,
@@ -647,7 +695,7 @@
    "group": null
   },
   {
-   "id": "h0012",
+   "id": "h02ca30b4",
    "page": 2,
    "bbox": [
     300.49,
@@ -669,7 +717,7 @@
    "group": null
   },
   {
-   "id": "h0013",
+   "id": "h02651a6e",
    "page": 2,
    "bbox": [
     399.78,
@@ -688,10 +736,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0013"
+   "group": "g0001"
   },
   {
-   "id": "h0014",
+   "id": "h02e199d1",
    "page": 2,
    "bbox": [
     399.78,
@@ -710,10 +758,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0013"
+   "group": "g0001"
   },
   {
-   "id": "h0015",
+   "id": "h02ac349f",
    "page": 2,
    "bbox": [
     240.2,
@@ -735,7 +783,7 @@
    "group": null
   },
   {
-   "id": "h0016",
+   "id": "h02e97049",
    "page": 2,
    "bbox": [
     234.59,
@@ -757,7 +805,7 @@
    "group": null
   },
   {
-   "id": "h0017",
+   "id": "h029cddf5",
    "page": 2,
    "bbox": [
     153.57,
@@ -779,7 +827,7 @@
    "group": null
   },
   {
-   "id": "h0018",
+   "id": "h02878864",
    "page": 2,
    "bbox": [
     154.82,
@@ -798,10 +846,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0018"
+   "group": "g0002"
   },
   {
-   "id": "h0019",
+   "id": "h021c3d47",
    "page": 2,
    "bbox": [
     154.82,
@@ -819,10 +867,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0018"
+   "group": "g0002"
   },
   {
-   "id": "h0020",
+   "id": "h020322bb",
    "page": 2,
    "bbox": [
     501.47,
@@ -841,10 +889,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0020"
+   "group": "g0003"
   },
   {
-   "id": "h0021",
+   "id": "h02acd88f",
    "page": 2,
    "bbox": [
     501.47,
@@ -862,10 +910,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0020"
+   "group": "g0003"
   },
   {
-   "id": "h0022",
+   "id": "h03cc99ad",
    "page": 3,
    "bbox": [
     212.67,
@@ -887,7 +935,7 @@
    "group": null
   },
   {
-   "id": "h0023",
+   "id": "h0341e239",
    "page": 3,
    "bbox": [
     273.69,
@@ -909,7 +957,7 @@
    "group": null
   },
   {
-   "id": "h0024",
+   "id": "h03f15021",
    "page": 3,
    "bbox": [
     251.25,
@@ -931,7 +979,7 @@
    "group": null
   },
   {
-   "id": "h0025",
+   "id": "h03cca3e3",
    "page": 3,
    "bbox": [
     299.26,
@@ -953,7 +1001,7 @@
    "group": null
   },
   {
-   "id": "h0026",
+   "id": "h03a32911",
    "page": 3,
    "bbox": [
     196.34,
@@ -975,7 +1023,7 @@
    "group": null
   },
   {
-   "id": "h0027",
+   "id": "h034224e7",
    "page": 3,
    "bbox": [
     430.16,
@@ -997,7 +1045,7 @@
    "group": null
   },
   {
-   "id": "h0028",
+   "id": "h039930b7",
    "page": 3,
    "bbox": [
     260.51,
@@ -1019,7 +1067,7 @@
    "group": null
   },
   {
-   "id": "h0029",
+   "id": "h03c7e164",
    "page": 3,
    "bbox": [
     240.01,
@@ -1041,7 +1089,7 @@
    "group": null
   },
   {
-   "id": "h0030",
+   "id": "h03a6f439",
    "page": 3,
    "bbox": [
     403.71,
@@ -1063,7 +1111,7 @@
    "group": null
   },
   {
-   "id": "h0031",
+   "id": "h03352050",
    "page": 3,
    "bbox": [
     286.43,
@@ -1085,7 +1133,7 @@
    "group": null
   },
   {
-   "id": "h0032",
+   "id": "h03dfc910",
    "page": 3,
    "bbox": [
     493.51,
@@ -1107,7 +1155,7 @@
    "group": null
   },
   {
-   "id": "h0033",
+   "id": "h03e7ef18",
    "page": 3,
    "bbox": [
     453.16,
@@ -1129,7 +1177,7 @@
    "group": null
   },
   {
-   "id": "h0034",
+   "id": "h039fc204",
    "page": 3,
    "bbox": [
     384.25,
@@ -1151,7 +1199,7 @@
    "group": null
   },
   {
-   "id": "h0035",
+   "id": "h0471759a",
    "page": 4,
    "bbox": [
     303.73,
@@ -1173,7 +1221,7 @@
    "group": null
   },
   {
-   "id": "h0036",
+   "id": "h0416ad92",
    "page": 4,
    "bbox": [
     263.41,
@@ -1195,7 +1243,7 @@
    "group": null
   },
   {
-   "id": "h0037",
+   "id": "h04e2804f",
    "page": 4,
    "bbox": [
     337.67,
@@ -1217,7 +1265,7 @@
    "group": null
   },
   {
-   "id": "h0038",
+   "id": "h041a2e15",
    "page": 4,
    "bbox": [
     544.86,
@@ -1236,7 +1284,7 @@
    "group": null
   },
   {
-   "id": "h0039",
+   "id": "h04ca0328",
    "page": 4,
    "bbox": [
     251.86,
@@ -1258,7 +1306,7 @@
    "group": null
   },
   {
-   "id": "h0040",
+   "id": "h043dd1c4",
    "page": 4,
    "bbox": [
     273.62,
@@ -1280,7 +1328,7 @@
    "group": null
   },
   {
-   "id": "h0041",
+   "id": "h04e601e1",
    "page": 4,
    "bbox": [
     289.7,
@@ -1299,7 +1347,7 @@
    "group": null
   },
   {
-   "id": "h0042",
+   "id": "h040752dc",
    "page": 4,
    "bbox": [
     357.59,
@@ -1318,7 +1366,7 @@
    "group": null
   },
   {
-   "id": "h0043",
+   "id": "h057333f7",
    "page": 5,
    "bbox": [
     534.62,
@@ -1337,7 +1385,7 @@
    "group": null
   },
   {
-   "id": "h0044",
+   "id": "h056d0279",
    "page": 5,
    "bbox": [
     329.4,
@@ -1356,7 +1404,7 @@
    "group": null
   },
   {
-   "id": "h0045",
+   "id": "h05d75329",
    "page": 5,
    "bbox": [
     240.44,
@@ -1378,7 +1426,7 @@
    "group": null
   },
   {
-   "id": "h0046",
+   "id": "h05e65f2e",
    "page": 5,
    "bbox": [
     253.82,
@@ -1399,7 +1447,7 @@
    "group": null
   },
   {
-   "id": "h0047",
+   "id": "h0561b2cb",
    "page": 5,
    "bbox": [
     431.32,
@@ -1421,7 +1469,7 @@
    "group": null
   },
   {
-   "id": "h0048",
+   "id": "h05d36e18",
    "page": 5,
    "bbox": [
     488.77,
@@ -1443,7 +1491,7 @@
    "group": null
   },
   {
-   "id": "h0049",
+   "id": "h05939771",
    "page": 5,
    "bbox": [
     549.2,
@@ -1465,7 +1513,7 @@
    "group": null
   },
   {
-   "id": "h0050",
+   "id": "h05cd63da",
    "page": 5,
    "bbox": [
     415.25,
@@ -1487,7 +1535,7 @@
    "group": null
   },
   {
-   "id": "h0051",
+   "id": "h051d652f",
    "page": 5,
    "bbox": [
     478.97,
@@ -1509,7 +1557,7 @@
    "group": null
   },
   {
-   "id": "h0052",
+   "id": "h05c7da84",
    "page": 5,
    "bbox": [
     273.27,
@@ -1531,7 +1579,7 @@
    "group": null
   },
   {
-   "id": "h0053",
+   "id": "h05878583",
    "page": 5,
    "bbox": [
     477.43,
@@ -1553,7 +1601,7 @@
    "group": null
   },
   {
-   "id": "h0054",
+   "id": "h06fb0954",
    "page": 6,
    "bbox": [
     514.34,
@@ -1575,7 +1623,7 @@
    "group": null
   },
   {
-   "id": "h0055",
+   "id": "h06389bcd",
    "page": 6,
    "bbox": [
     433.36,
@@ -1597,7 +1645,7 @@
    "group": null
   },
   {
-   "id": "h0056",
+   "id": "h06e50c74",
    "page": 6,
    "bbox": [
     338.89,
@@ -1619,7 +1667,7 @@
    "group": null
   },
   {
-   "id": "h0057",
+   "id": "h0663567d",
    "page": 6,
    "bbox": [
     444.25,
@@ -1641,7 +1689,7 @@
    "group": null
   },
   {
-   "id": "h0058",
+   "id": "h06627920",
    "page": 6,
    "bbox": [
     395.69,
@@ -1663,7 +1711,7 @@
    "group": null
   },
   {
-   "id": "h0059",
+   "id": "h06dc7664",
    "page": 6,
    "bbox": [
     311.11,
@@ -1685,7 +1733,7 @@
    "group": null
   },
   {
-   "id": "h0060",
+   "id": "h06346984",
    "page": 6,
    "bbox": [
     412.4,
@@ -1707,7 +1755,7 @@
    "group": null
   },
   {
-   "id": "h0061",
+   "id": "h0609bf87",
    "page": 6,
    "bbox": [
     369.06,
@@ -1729,7 +1777,7 @@
    "group": null
   },
   {
-   "id": "h0062",
+   "id": "h066327ce",
    "page": 6,
    "bbox": [
     300.48,
@@ -1751,7 +1799,7 @@
    "group": null
   },
   {
-   "id": "h0063",
+   "id": "h06995900",
    "page": 6,
    "bbox": [
     390.05,
@@ -1773,7 +1821,7 @@
    "group": null
   },
   {
-   "id": "h0064",
+   "id": "h06fe031b",
    "page": 6,
    "bbox": [
     297.34,
@@ -1795,7 +1843,7 @@
    "group": null
   },
   {
-   "id": "h0065",
+   "id": "h0757ada4",
    "page": 7,
    "bbox": [
     338.99,
@@ -1814,10 +1862,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0065"
+   "group": "g0004"
   },
   {
-   "id": "h0066",
+   "id": "h076c6159",
    "page": 7,
    "bbox": [
     338.99,
@@ -1835,10 +1883,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0065"
+   "group": "g0004"
   },
   {
-   "id": "h0067",
+   "id": "h0798942c",
    "page": 7,
    "bbox": [
     321.99,
@@ -1859,7 +1907,7 @@
    "group": null
   },
   {
-   "id": "h0068",
+   "id": "h0710bed2",
    "page": 7,
    "bbox": [
     338.68,
@@ -1878,10 +1926,10 @@
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0068"
+   "group": "g0005"
   },
   {
-   "id": "h0069",
+   "id": "h07410871",
    "page": 7,
    "bbox": [
     338.68,
@@ -1899,10 +1947,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0068"
+   "group": "g0005"
   },
   {
-   "id": "h0070",
+   "id": "h08df1a8c",
    "page": 8,
    "bbox": [
     278.81,
@@ -1924,7 +1972,7 @@
    "group": null
   },
   {
-   "id": "h0071",
+   "id": "h08ba4ad7",
    "page": 8,
    "bbox": [
     250.5,
@@ -1946,7 +1994,7 @@
    "group": null
   },
   {
-   "id": "h0072",
+   "id": "h084a0a68",
    "page": 8,
    "bbox": [
     436.34,
@@ -1968,7 +2016,7 @@
    "group": null
   },
   {
-   "id": "h0073",
+   "id": "h0837c860",
    "page": 8,
    "bbox": [
     317.92,
@@ -1984,10 +2032,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0073"
+   "group": "g0006"
   },
   {
-   "id": "h0074",
+   "id": "h08999525",
    "page": 8,
    "bbox": [
     317.92,
@@ -2003,10 +2051,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0073"
+   "group": "g0006"
   },
   {
-   "id": "h0075",
+   "id": "h08ccf066",
    "page": 8,
    "bbox": [
     317.92,
@@ -2022,10 +2070,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0073"
+   "group": "g0006"
   },
   {
-   "id": "h0076",
+   "id": "h0870cbe8",
    "page": 8,
    "bbox": [
     111.34,
@@ -2047,7 +2095,7 @@
    "group": null
   },
   {
-   "id": "h0077",
+   "id": "h0841592e",
    "page": 8,
    "bbox": [
     280.62,
@@ -2066,7 +2114,7 @@
    "group": null
   },
   {
-   "id": "h0078",
+   "id": "h08b47fd9",
    "page": 8,
    "bbox": [
     360.02,
@@ -2088,7 +2136,7 @@
    "group": null
   },
   {
-   "id": "h0079",
+   "id": "h08c07071",
    "page": 8,
    "bbox": [
     82.34,
@@ -2110,7 +2158,7 @@
    "group": null
   },
   {
-   "id": "h0080",
+   "id": "h08e88db3",
    "page": 8,
    "bbox": [
     279.62,
@@ -2129,7 +2177,7 @@
    "group": null
   },
   {
-   "id": "h0081",
+   "id": "h09e1a719",
    "page": 9,
    "bbox": [
     317.92,
@@ -2145,10 +2193,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0081"
+   "group": "g0007"
   },
   {
-   "id": "h0082",
+   "id": "h09c7f85b",
    "page": 9,
    "bbox": [
     317.92,
@@ -2164,10 +2212,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0081"
+   "group": "g0007"
   },
   {
-   "id": "h0083",
+   "id": "h09108ff8",
    "page": 9,
    "bbox": [
     317.92,
@@ -2183,10 +2231,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0081"
+   "group": "g0007"
   },
   {
-   "id": "h0084",
+   "id": "h0976277c",
    "page": 9,
    "bbox": [
     259.62,
@@ -2208,7 +2256,7 @@
    "group": null
   },
   {
-   "id": "h0085",
+   "id": "h095fd5c5",
    "page": 9,
    "bbox": [
     259.62,
@@ -2230,7 +2278,7 @@
    "group": null
   },
   {
-   "id": "h0086",
+   "id": "h09476603",
    "page": 9,
    "bbox": [
     259.62,
@@ -2252,7 +2300,7 @@
    "group": null
   },
   {
-   "id": "h0087",
+   "id": "h09f03706",
    "page": 9,
    "bbox": [
     119.11,
@@ -2271,7 +2319,7 @@
    "group": null
   },
   {
-   "id": "h0088",
+   "id": "h09f7f7af",
    "page": 9,
    "bbox": [
     259.62,
@@ -2293,7 +2341,7 @@
    "group": null
   },
   {
-   "id": "h0089",
+   "id": "h09941a36",
    "page": 9,
    "bbox": [
     259.62,
@@ -2315,7 +2363,7 @@
    "group": null
   },
   {
-   "id": "h0090",
+   "id": "h09b4e63a",
    "page": 9,
    "bbox": [
     339.62,
@@ -2337,7 +2385,7 @@
    "group": null
   },
   {
-   "id": "h0091",
+   "id": "h0902629b",
    "page": 9,
    "bbox": [
     259.62,
@@ -2359,7 +2407,7 @@
    "group": null
   },
   {
-   "id": "h0092",
+   "id": "h098b928b",
    "page": 9,
    "bbox": [
     259.62,
@@ -2381,7 +2429,7 @@
    "group": null
   },
   {
-   "id": "h0093",
+   "id": "h09b3c37c",
    "page": 9,
    "bbox": [
     149.11,
@@ -2397,10 +2445,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0093"
+   "group": "g0008"
   },
   {
-   "id": "h0094",
+   "id": "h099a3e69",
    "page": 9,
    "bbox": [
     149.11,
@@ -2416,10 +2464,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0093"
+   "group": "g0008"
   },
   {
-   "id": "h0095",
+   "id": "h09a6cad7",
    "page": 9,
    "bbox": [
     259.62,
@@ -2441,7 +2489,7 @@
    "group": null
   },
   {
-   "id": "h0096",
+   "id": "h094cc977",
    "page": 9,
    "bbox": [
     159.11,
@@ -2462,7 +2510,7 @@
    "group": null
   },
   {
-   "id": "h0097",
+   "id": "h099cdaac",
    "page": 9,
    "bbox": [
     259.62,
@@ -2484,7 +2532,7 @@
    "group": null
   },
   {
-   "id": "h0098",
+   "id": "h09c7668e",
    "page": 9,
    "bbox": [
     259.62,
@@ -2506,7 +2554,7 @@
    "group": null
   },
   {
-   "id": "h0099",
+   "id": "h097b7463",
    "page": 9,
    "bbox": [
     139.11,
@@ -2525,7 +2573,7 @@
    "group": null
   },
   {
-   "id": "h0100",
+   "id": "h0943dc80",
    "page": 9,
    "bbox": [
     119.11,
@@ -2544,7 +2592,7 @@
    "group": null
   },
   {
-   "id": "h0101",
+   "id": "h09a1411f",
    "page": 9,
    "bbox": [
     259.62,
@@ -2566,7 +2614,7 @@
    "group": null
   },
   {
-   "id": "h0102",
+   "id": "h0909a884",
    "page": 9,
    "bbox": [
     259.62,
@@ -2588,7 +2636,7 @@
    "group": null
   },
   {
-   "id": "h0103",
+   "id": "h098a35ca",
    "page": 9,
    "bbox": [
     129.11,
@@ -2607,7 +2655,7 @@
    "group": null
   },
   {
-   "id": "h0104",
+   "id": "h09025919",
    "page": 9,
    "bbox": [
     259.62,
@@ -2629,7 +2677,7 @@
    "group": null
   },
   {
-   "id": "h0105",
+   "id": "h093c63dc",
    "page": 9,
    "bbox": [
     109.11,
@@ -2648,7 +2696,7 @@
    "group": null
   },
   {
-   "id": "h0106",
+   "id": "h09332512",
    "page": 9,
    "bbox": [
     299.62,
@@ -2670,7 +2718,7 @@
    "group": null
   },
   {
-   "id": "h0107",
+   "id": "h0976487b",
    "page": 9,
    "bbox": [
     129.11,
@@ -2689,7 +2737,7 @@
    "group": null
   },
   {
-   "id": "h0108",
+   "id": "h09cc8f85",
    "page": 9,
    "bbox": [
     259.8,
@@ -2711,7 +2759,7 @@
    "group": null
   },
   {
-   "id": "h0109",
+   "id": "h093aecc9",
    "page": 9,
    "bbox": [
     300.44,
@@ -2733,7 +2781,7 @@
    "group": null
   },
   {
-   "id": "h0110",
+   "id": "h09e62870",
    "page": 9,
    "bbox": [
     259.8,
@@ -2755,7 +2803,7 @@
    "group": null
   },
   {
-   "id": "h0111",
+   "id": "h0906bc1d",
    "page": 9,
    "bbox": [
     139.11,
@@ -2774,7 +2822,7 @@
    "group": null
   },
   {
-   "id": "h0112",
+   "id": "h09c9bbaf",
    "page": 9,
    "bbox": [
     300.44,
@@ -2796,7 +2844,7 @@
    "group": null
   },
   {
-   "id": "h0113",
+   "id": "h09b880d7",
    "page": 9,
    "bbox": [
     259.79,
@@ -2818,7 +2866,7 @@
    "group": null
   },
   {
-   "id": "h0114",
+   "id": "h09e97328",
    "page": 9,
    "bbox": [
     139.11,
@@ -2839,7 +2887,7 @@
    "group": null
   },
   {
-   "id": "h0115",
+   "id": "h09729baf",
    "page": 9,
    "bbox": [
     259.79,
@@ -2861,7 +2909,7 @@
    "group": null
   },
   {
-   "id": "h0116",
+   "id": "h09721c53",
    "page": 9,
    "bbox": [
     159.98,
@@ -2882,7 +2930,7 @@
    "group": null
   },
   {
-   "id": "h0117",
+   "id": "h0989bc6c",
    "page": 9,
    "bbox": [
     109.5,
@@ -2901,7 +2949,7 @@
    "group": null
   },
   {
-   "id": "h0118",
+   "id": "h09be0fba",
    "page": 9,
    "bbox": [
     338.03,
@@ -2922,7 +2970,7 @@
    "group": null
   },
   {
-   "id": "h0119",
+   "id": "h09480f5c",
    "page": 9,
    "bbox": [
     119.78,
@@ -2941,7 +2989,7 @@
    "group": null
   },
   {
-   "id": "h0120",
+   "id": "h0950fbd2",
    "page": 9,
    "bbox": [
     338.03,
@@ -2960,7 +3008,7 @@
    "group": null
   },
   {
-   "id": "h0121",
+   "id": "h092a4c1c",
    "page": 9,
    "bbox": [
     308.03,
@@ -2979,7 +3027,7 @@
    "group": null
   },
   {
-   "id": "h0122",
+   "id": "h09098dfc",
    "page": 9,
    "bbox": [
     300.62,
@@ -3001,7 +3049,7 @@
    "group": null
   },
   {
-   "id": "h0123",
+   "id": "h098eaf82",
    "page": 9,
    "bbox": [
     450.43,
@@ -3023,7 +3071,7 @@
    "group": null
   },
   {
-   "id": "h0124",
+   "id": "h1040da24",
    "page": 10,
    "bbox": [
     317.92,
@@ -3039,10 +3087,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0124"
+   "group": "g0009"
   },
   {
-   "id": "h0125",
+   "id": "h10fc8fa9",
    "page": 10,
    "bbox": [
     317.92,
@@ -3058,10 +3106,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0124"
+   "group": "g0009"
   },
   {
-   "id": "h0126",
+   "id": "h10bcfe15",
    "page": 10,
    "bbox": [
     317.92,
@@ -3077,10 +3125,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0124"
+   "group": "g0009"
   },
   {
-   "id": "h0127",
+   "id": "h103f699c",
    "page": 10,
    "bbox": [
     169.11,
@@ -3102,7 +3150,7 @@
    "group": null
   },
   {
-   "id": "h0128",
+   "id": "h1099ee7e",
    "page": 10,
    "bbox": [
     259.62,
@@ -3124,7 +3172,7 @@
    "group": null
   },
   {
-   "id": "h0129",
+   "id": "h1029f1af",
    "page": 10,
    "bbox": [
     149.11,
@@ -3143,7 +3191,7 @@
    "group": null
   },
   {
-   "id": "h0130",
+   "id": "h10cdc1d2",
    "page": 10,
    "bbox": [
     337.38,
@@ -3162,7 +3210,7 @@
    "group": null
   },
   {
-   "id": "h0131",
+   "id": "h10323c65",
    "page": 10,
    "bbox": [
     149.11,
@@ -3181,7 +3229,7 @@
    "group": null
   },
   {
-   "id": "h0132",
+   "id": "h10909cc5",
    "page": 10,
    "bbox": [
     299.62,
@@ -3203,7 +3251,7 @@
    "group": null
   },
   {
-   "id": "h0133",
+   "id": "h107125ed",
    "page": 10,
    "bbox": [
     169.11,
@@ -3225,7 +3273,7 @@
    "group": null
   },
   {
-   "id": "h0134",
+   "id": "h11c6dac0",
    "page": 11,
    "bbox": [
     317.92,
@@ -3241,10 +3289,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0134"
+   "group": "g0010"
   },
   {
-   "id": "h0135",
+   "id": "h11458a38",
    "page": 11,
    "bbox": [
     317.92,
@@ -3260,10 +3308,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0134"
+   "group": "g0010"
   },
   {
-   "id": "h0136",
+   "id": "h118b1a41",
    "page": 11,
    "bbox": [
     317.92,
@@ -3279,10 +3327,10 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0134"
+   "group": "g0010"
   },
   {
-   "id": "h0137",
+   "id": "h114f8f8c",
    "page": 11,
    "bbox": [
     299.62,
@@ -3304,7 +3352,7 @@
    "group": null
   },
   {
-   "id": "h0138",
+   "id": "h11804828",
    "page": 11,
    "bbox": [
     334.62,
@@ -3326,7 +3374,7 @@
    "group": null
   },
   {
-   "id": "h0139",
+   "id": "h1127710d",
    "page": 11,
    "bbox": [
     300.2,
@@ -3348,7 +3396,7 @@
    "group": null
   },
   {
-   "id": "h0140",
+   "id": "h11b860ad",
    "page": 11,
    "bbox": [
     484.62,
@@ -3370,7 +3418,7 @@
    "group": null
   },
   {
-   "id": "h0141",
+   "id": "h11402ad7",
    "page": 11,
    "bbox": [
     420.62,
@@ -3392,7 +3440,7 @@
    "group": null
   },
   {
-   "id": "h0142",
+   "id": "h11e4a6f6",
    "page": 11,
    "bbox": [
     395.62,
@@ -3414,7 +3462,7 @@
    "group": null
   },
   {
-   "id": "h0143",
+   "id": "h118e2e92",
    "page": 11,
    "bbox": [
     469.62,
@@ -3436,7 +3484,7 @@
    "group": null
   },
   {
-   "id": "h0144",
+   "id": "h1114b7a5",
    "page": 11,
    "bbox": [
     329.89,
@@ -3455,10 +3503,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0144"
+   "group": "g0011"
   },
   {
-   "id": "h0145",
+   "id": "h1125e33a",
    "page": 11,
    "bbox": [
     329.89,
@@ -3476,10 +3524,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0144"
+   "group": "g0011"
   },
   {
-   "id": "h0146",
+   "id": "h11e8cb5f",
    "page": 11,
    "bbox": [
     334.89,
@@ -3498,10 +3546,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0146"
+   "group": "g0012"
   },
   {
-   "id": "h0147",
+   "id": "h1100223b",
    "page": 11,
    "bbox": [
     334.89,
@@ -3519,10 +3567,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0146"
+   "group": "g0012"
   },
   {
-   "id": "h0148",
+   "id": "h1103131c",
    "page": 11,
    "bbox": [
     362.24,
@@ -3541,10 +3589,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0148"
+   "group": "g0013"
   },
   {
-   "id": "h0149",
+   "id": "h11691a13",
    "page": 11,
    "bbox": [
     362.24,
@@ -3562,12 +3610,12 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0148"
+   "group": "g0013"
   }
  ],
  "stats": {
   "anchors": 150,
-  "notes": 23,
+  "notes": 26,
   "resolved": 115
  }
 }

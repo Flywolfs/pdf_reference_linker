@@ -1,5 +1,5 @@
 {
- "version": "1.12",
+ "version": "1.14",
  "docId": "3d63a43d",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/富通/重疾/守护168危疾保障计划(加强版)-产品小册子.pdf",
@@ -13,6 +13,22 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p2:1",
+   "anchor": "footer",
+   "page": 2,
+   "bbox": [
+    42.52,
+    384.03,
+    253.41,
+    405.45
+   ],
+   "number": "*",
+   "text": "詳情請參閱「計劃一覽表」內「嚴重都市疾病額外賠償」部份。",
+   "textPages": [
+    2
+   ]
+  },
   {
    "noteId": "p10:1",
    "anchor": "footer",
@@ -494,7 +510,7 @@
    ]
   },
   {
-   "noteId": "p2:inline30",
+   "noteId": "p2:inline31",
    "anchor": "inline",
    "page": 2,
    "bbox": [
@@ -510,7 +526,7 @@
    ]
   },
   {
-   "noteId": "p9:inline31",
+   "noteId": "p9:inline32",
    "anchor": "inline",
    "page": 9,
    "bbox": [
@@ -528,7 +544,7 @@
  ],
  "hotspots": [
   {
-   "id": "h0000",
+   "id": "h0171db25",
    "page": 1,
    "bbox": [
     525.59,
@@ -549,7 +565,7 @@
    "group": null
   },
   {
-   "id": "h0001",
+   "id": "h0141285e",
    "page": 1,
    "bbox": [
     146.12,
@@ -570,7 +586,7 @@
    "group": null
   },
   {
-   "id": "h0002",
+   "id": "h0102d369",
    "page": 1,
    "bbox": [
     519.66,
@@ -591,7 +607,7 @@
    "group": null
   },
   {
-   "id": "h0003",
+   "id": "h0139f0ba",
    "page": 1,
    "bbox": [
     375.03,
@@ -609,10 +625,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0003"
+   "group": "g0001"
   },
   {
-   "id": "h0004",
+   "id": "h019cd88f",
    "page": 1,
    "bbox": [
     375.03,
@@ -630,10 +646,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0003"
+   "group": "g0001"
   },
   {
-   "id": "h0005",
+   "id": "h01a14c0d",
    "page": 1,
    "bbox": [
     243.52,
@@ -654,7 +670,7 @@
    "group": null
   },
   {
-   "id": "h0006",
+   "id": "h01d8f531",
    "page": 1,
    "bbox": [
     120.63,
@@ -675,7 +691,7 @@
    "group": null
   },
   {
-   "id": "h0007",
+   "id": "h01a61d95",
    "page": 1,
    "bbox": [
     257.51,
@@ -696,7 +712,7 @@
    "group": null
   },
   {
-   "id": "h0008",
+   "id": "h0111ef51",
    "page": 1,
    "bbox": [
     390.39,
@@ -717,7 +733,7 @@
    "group": null
   },
   {
-   "id": "h0009",
+   "id": "h016a1bb8",
    "page": 1,
    "bbox": [
     492.6,
@@ -738,7 +754,7 @@
    "group": null
   },
   {
-   "id": "h0010",
+   "id": "h014a2dae",
    "page": 1,
    "bbox": [
     144.02,
@@ -756,10 +772,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0010"
+   "group": "g0002"
   },
   {
-   "id": "h0011",
+   "id": "h014725b6",
    "page": 1,
    "bbox": [
     144.02,
@@ -777,10 +793,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0010"
+   "group": "g0002"
   },
   {
-   "id": "h0012",
+   "id": "h01131d00",
    "page": 1,
    "bbox": [
     262.11,
@@ -798,10 +814,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0012"
+   "group": "g0003"
   },
   {
-   "id": "h0013",
+   "id": "h013dba2f",
    "page": 1,
    "bbox": [
     262.11,
@@ -819,10 +835,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0012"
+   "group": "g0003"
   },
   {
-   "id": "h0014",
+   "id": "h0112da6e",
    "page": 1,
    "bbox": [
     262.11,
@@ -840,10 +856,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0012"
+   "group": "g0003"
   },
   {
-   "id": "h0015",
+   "id": "h01a2bdc8",
    "page": 1,
    "bbox": [
     450.85,
@@ -864,7 +880,7 @@
    "group": null
   },
   {
-   "id": "h0016",
+   "id": "h02dab1d8",
    "page": 2,
    "bbox": [
     452.09,
@@ -885,7 +901,7 @@
    "group": null
   },
   {
-   "id": "h0017",
+   "id": "h02844d52",
    "page": 2,
    "bbox": [
     51.76,
@@ -906,7 +922,29 @@
    "group": null
   },
   {
-   "id": "h0018",
+   "id": "h028d9059",
+   "page": 2,
+   "bbox": [
+    406.07,
+    207.05,
+    408.99,
+    215.72
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "嚴重都市疾病額外賠償",
+   "targets": [
+    "p2:1",
+    "p18:1"
+   ],
+   "targetDisplay": "P3 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h02977efb",
    "page": 2,
    "bbox": [
     304.74,
@@ -927,7 +965,7 @@
    "group": null
   },
   {
-   "id": "h0019",
+   "id": "h02ade7bb",
    "page": 2,
    "bbox": [
     134.51,
@@ -948,7 +986,7 @@
    "group": null
   },
   {
-   "id": "h0020",
+   "id": "h02e9ff9d",
    "page": 2,
    "bbox": [
     141.52,
@@ -969,7 +1007,7 @@
    "group": null
   },
   {
-   "id": "h0021",
+   "id": "h02a36d76",
    "page": 2,
    "bbox": [
     430.98,
@@ -987,10 +1025,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0021"
+   "group": "g0004"
   },
   {
-   "id": "h0022",
+   "id": "h02a4e1a2",
    "page": 2,
    "bbox": [
     430.98,
@@ -1008,10 +1046,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0021"
+   "group": "g0004"
   },
   {
-   "id": "h0023",
+   "id": "h028b0297",
    "page": 2,
    "bbox": [
     60.88,
@@ -1029,10 +1067,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0023"
+   "group": "g0005"
   },
   {
-   "id": "h0024",
+   "id": "h0220bb9e",
    "page": 2,
    "bbox": [
     60.88,
@@ -1050,10 +1088,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0023"
+   "group": "g0005"
   },
   {
-   "id": "h0025",
+   "id": "h023e6260",
    "page": 2,
    "bbox": [
     130.75,
@@ -1074,7 +1112,7 @@
    "group": null
   },
   {
-   "id": "h0026",
+   "id": "h029a7e7e",
    "page": 2,
    "bbox": [
     215.04,
@@ -1092,10 +1130,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0026"
+   "group": "g0006"
   },
   {
-   "id": "h0027",
+   "id": "h0288e3ff",
    "page": 2,
    "bbox": [
     215.04,
@@ -1113,10 +1151,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0026"
+   "group": "g0006"
   },
   {
-   "id": "h0028",
+   "id": "h020a1780",
    "page": 2,
    "bbox": [
     215.04,
@@ -1134,10 +1172,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0026"
+   "group": "g0006"
   },
   {
-   "id": "h0029",
+   "id": "h02375456",
    "page": 2,
    "bbox": [
     215.04,
@@ -1155,10 +1193,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0026"
+   "group": "g0006"
   },
   {
-   "id": "h0030",
+   "id": "h02c88ebf",
    "page": 2,
    "bbox": [
     471.26,
@@ -1176,10 +1214,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0030"
+   "group": "g0007"
   },
   {
-   "id": "h0031",
+   "id": "h02a2bf58",
    "page": 2,
    "bbox": [
     471.26,
@@ -1197,10 +1235,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0030"
+   "group": "g0007"
   },
   {
-   "id": "h0032",
+   "id": "h02c31f76",
    "page": 2,
    "bbox": [
     471.26,
@@ -1218,10 +1256,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0030"
+   "group": "g0007"
   },
   {
-   "id": "h0033",
+   "id": "h02ed9d23",
    "page": 2,
    "bbox": [
     471.26,
@@ -1239,10 +1277,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0030"
+   "group": "g0007"
   },
   {
-   "id": "h0034",
+   "id": "h02a4969a",
    "page": 2,
    "bbox": [
     471.26,
@@ -1260,10 +1298,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0030"
+   "group": "g0007"
   },
   {
-   "id": "h0035",
+   "id": "h0284f0a1",
    "page": 2,
    "bbox": [
     471.26,
@@ -1281,10 +1319,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0030"
+   "group": "g0007"
   },
   {
-   "id": "h0036",
+   "id": "h02d22533",
    "page": 2,
    "bbox": [
     480.9,
@@ -1305,7 +1343,7 @@
    "group": null
   },
   {
-   "id": "h0037",
+   "id": "h031e8602",
    "page": 3,
    "bbox": [
     424.07,
@@ -1326,7 +1364,7 @@
    "group": null
   },
   {
-   "id": "h0038",
+   "id": "h033dd184",
    "page": 3,
    "bbox": [
     88.61,
@@ -1347,7 +1385,7 @@
    "group": null
   },
   {
-   "id": "h0039",
+   "id": "h03e54627",
    "page": 3,
    "bbox": [
     60.88,
@@ -1365,10 +1403,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0039"
+   "group": "g0008"
   },
   {
-   "id": "h0040",
+   "id": "h033e7a91",
    "page": 3,
    "bbox": [
     60.88,
@@ -1386,10 +1424,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0039"
+   "group": "g0008"
   },
   {
-   "id": "h0041",
+   "id": "h03751d69",
    "page": 3,
    "bbox": [
     330.9,
@@ -1410,7 +1448,7 @@
    "group": null
   },
   {
-   "id": "h0042",
+   "id": "h03505cd1",
    "page": 3,
    "bbox": [
     327.28,
@@ -1431,7 +1469,7 @@
    "group": null
   },
   {
-   "id": "h0043",
+   "id": "h03a40bfc",
    "page": 3,
    "bbox": [
     379.82,
@@ -1449,10 +1487,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0043"
+   "group": "g0009"
   },
   {
-   "id": "h0044",
+   "id": "h0389fa2c",
    "page": 3,
    "bbox": [
     379.82,
@@ -1470,10 +1508,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0043"
+   "group": "g0009"
   },
   {
-   "id": "h0045",
+   "id": "h038c6323",
    "page": 3,
    "bbox": [
     234.88,
@@ -1494,7 +1532,7 @@
    "group": null
   },
   {
-   "id": "h0046",
+   "id": "h0380e826",
    "page": 3,
    "bbox": [
     332.34,
@@ -1515,7 +1553,7 @@
    "group": null
   },
   {
-   "id": "h0047",
+   "id": "h03ca878d",
    "page": 3,
    "bbox": [
     426.5,
@@ -1536,7 +1574,7 @@
    "group": null
   },
   {
-   "id": "h0048",
+   "id": "h0345a2e5",
    "page": 3,
    "bbox": [
     138.36,
@@ -1557,7 +1595,7 @@
    "group": null
   },
   {
-   "id": "h0049",
+   "id": "h03d798a6",
    "page": 3,
    "bbox": [
     360.54,
@@ -1578,7 +1616,7 @@
    "group": null
   },
   {
-   "id": "h0050",
+   "id": "h03cd4686",
    "page": 3,
    "bbox": [
     255.23,
@@ -1599,7 +1637,7 @@
    "group": null
   },
   {
-   "id": "h0051",
+   "id": "h03900d7d",
    "page": 3,
    "bbox": [
     60.88,
@@ -1620,7 +1658,7 @@
    "group": null
   },
   {
-   "id": "h0052",
+   "id": "h04dcd213",
    "page": 4,
    "bbox": [
     427.65,
@@ -1638,10 +1676,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0052"
+   "group": "g0010"
   },
   {
-   "id": "h0053",
+   "id": "h048dd7bc",
    "page": 4,
    "bbox": [
     427.65,
@@ -1659,10 +1697,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0052"
+   "group": "g0010"
   },
   {
-   "id": "h0054",
+   "id": "h04f96998",
    "page": 4,
    "bbox": [
     163.5,
@@ -1683,7 +1721,7 @@
    "group": null
   },
   {
-   "id": "h0055",
+   "id": "h04a47025",
    "page": 4,
    "bbox": [
     235.49,
@@ -1701,10 +1739,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0055"
+   "group": "g0011"
   },
   {
-   "id": "h0056",
+   "id": "h045e3d98",
    "page": 4,
    "bbox": [
     235.49,
@@ -1722,10 +1760,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0055"
+   "group": "g0011"
   },
   {
-   "id": "h0057",
+   "id": "h04d0e846",
    "page": 4,
    "bbox": [
     71.6,
@@ -1743,10 +1781,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0057"
+   "group": "g0012"
   },
   {
-   "id": "h0058",
+   "id": "h0415995f",
    "page": 4,
    "bbox": [
     71.6,
@@ -1764,10 +1802,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0057"
+   "group": "g0012"
   },
   {
-   "id": "h0059",
+   "id": "h04277df4",
    "page": 4,
    "bbox": [
     460.27,
@@ -1788,7 +1826,7 @@
    "group": null
   },
   {
-   "id": "h0060",
+   "id": "h0544e8ca",
    "page": 5,
    "bbox": [
     334.89,
@@ -1809,7 +1847,7 @@
    "group": null
   },
   {
-   "id": "h0061",
+   "id": "h05869f9b",
    "page": 5,
    "bbox": [
     458.91,
@@ -1830,7 +1868,7 @@
    "group": null
   },
   {
-   "id": "h0062",
+   "id": "h05ef9073",
    "page": 5,
    "bbox": [
     382.18,
@@ -1851,7 +1889,7 @@
    "group": null
   },
   {
-   "id": "h0063",
+   "id": "h057cd1b4",
    "page": 5,
    "bbox": [
     465.6,
@@ -1872,7 +1910,7 @@
    "group": null
   },
   {
-   "id": "h0064",
+   "id": "h064c5a0e",
    "page": 6,
    "bbox": [
     214.14,
@@ -1890,10 +1928,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0064"
+   "group": "g0013"
   },
   {
-   "id": "h0065",
+   "id": "h06aaf965",
    "page": 6,
    "bbox": [
     214.14,
@@ -1911,10 +1949,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0064"
+   "group": "g0013"
   },
   {
-   "id": "h0066",
+   "id": "h06e58b4a",
    "page": 6,
    "bbox": [
     214.14,
@@ -1932,10 +1970,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0064"
+   "group": "g0013"
   },
   {
-   "id": "h0067",
+   "id": "h06ed2a9c",
    "page": 6,
    "bbox": [
     214.14,
@@ -1953,10 +1991,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0064"
+   "group": "g0013"
   },
   {
-   "id": "h0068",
+   "id": "h06629503",
    "page": 6,
    "bbox": [
     214.14,
@@ -1974,10 +2012,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0064"
+   "group": "g0013"
   },
   {
-   "id": "h0069",
+   "id": "h0676aa35",
    "page": 6,
    "bbox": [
     247.39,
@@ -1995,10 +2033,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0069"
+   "group": "g0014"
   },
   {
-   "id": "h0070",
+   "id": "h0619dbe4",
    "page": 6,
    "bbox": [
     247.39,
@@ -2016,10 +2054,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0069"
+   "group": "g0014"
   },
   {
-   "id": "h0071",
+   "id": "h06c4dc38",
    "page": 6,
    "bbox": [
     247.39,
@@ -2037,10 +2075,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0069"
+   "group": "g0014"
   },
   {
-   "id": "h0072",
+   "id": "h06b68955",
    "page": 6,
    "bbox": [
     247.39,
@@ -2058,10 +2096,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0069"
+   "group": "g0014"
   },
   {
-   "id": "h0073",
+   "id": "h06c5fb16",
    "page": 6,
    "bbox": [
     247.39,
@@ -2079,10 +2117,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0069"
+   "group": "g0014"
   },
   {
-   "id": "h0074",
+   "id": "h0612fee2",
    "page": 6,
    "bbox": [
     247.39,
@@ -2100,10 +2138,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0074"
+   "group": "g0015"
   },
   {
-   "id": "h0075",
+   "id": "h062abbf6",
    "page": 6,
    "bbox": [
     247.39,
@@ -2121,10 +2159,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0074"
+   "group": "g0015"
   },
   {
-   "id": "h0076",
+   "id": "h06e100af",
    "page": 6,
    "bbox": [
     83.74,
@@ -2142,10 +2180,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0076"
+   "group": "g0016"
   },
   {
-   "id": "h0077",
+   "id": "h068eb020",
    "page": 6,
    "bbox": [
     83.74,
@@ -2163,10 +2201,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0076"
+   "group": "g0016"
   },
   {
-   "id": "h0078",
+   "id": "h068b36f6",
    "page": 6,
    "bbox": [
     83.74,
@@ -2184,10 +2222,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0076"
+   "group": "g0016"
   },
   {
-   "id": "h0079",
+   "id": "h069fa163",
    "page": 6,
    "bbox": [
     83.74,
@@ -2205,10 +2243,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0076"
+   "group": "g0016"
   },
   {
-   "id": "h0080",
+   "id": "h069ca824",
    "page": 6,
    "bbox": [
     247.39,
@@ -2226,10 +2264,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0080"
+   "group": "g0017"
   },
   {
-   "id": "h0081",
+   "id": "h0633d01d",
    "page": 6,
    "bbox": [
     247.39,
@@ -2247,10 +2285,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0080"
+   "group": "g0017"
   },
   {
-   "id": "h0082",
+   "id": "h0605ae97",
    "page": 6,
    "bbox": [
     257.71,
@@ -2271,7 +2309,7 @@
    "group": null
   },
   {
-   "id": "h0083",
+   "id": "h06bb30ec",
    "page": 6,
    "bbox": [
     102.1,
@@ -2292,7 +2330,7 @@
    "group": null
   },
   {
-   "id": "h0084",
+   "id": "h06de00e8",
    "page": 6,
    "bbox": [
     138.82,
@@ -2310,10 +2348,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0084"
+   "group": "g0018"
   },
   {
-   "id": "h0085",
+   "id": "h061888c0",
    "page": 6,
    "bbox": [
     138.82,
@@ -2331,10 +2369,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0084"
+   "group": "g0018"
   },
   {
-   "id": "h0086",
+   "id": "h06ee6df1",
    "page": 6,
    "bbox": [
     138.82,
@@ -2352,10 +2390,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0084"
+   "group": "g0018"
   },
   {
-   "id": "h0087",
+   "id": "h064a1b4a",
    "page": 6,
    "bbox": [
     102.1,
@@ -2376,7 +2414,7 @@
    "group": null
   },
   {
-   "id": "h0088",
+   "id": "h077c16e6",
    "page": 7,
    "bbox": [
     102.1,
@@ -2394,10 +2432,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0088"
+   "group": "g0019"
   },
   {
-   "id": "h0089",
+   "id": "h07b13720",
    "page": 7,
    "bbox": [
     102.1,
@@ -2415,10 +2453,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0088"
+   "group": "g0019"
   },
   {
-   "id": "h0090",
+   "id": "h07d6b062",
    "page": 7,
    "bbox": [
     138.82,
@@ -2436,10 +2474,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0090"
+   "group": "g0020"
   },
   {
-   "id": "h0091",
+   "id": "h077dec62",
    "page": 7,
    "bbox": [
     138.82,
@@ -2457,10 +2495,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0090"
+   "group": "g0020"
   },
   {
-   "id": "h0092",
+   "id": "h08b7ebe4",
    "page": 8,
    "bbox": [
     120.46,
@@ -2478,10 +2516,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0092"
+   "group": "g0021"
   },
   {
-   "id": "h0093",
+   "id": "h08a72358",
    "page": 8,
    "bbox": [
     120.46,
@@ -2499,10 +2537,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0092"
+   "group": "g0021"
   },
   {
-   "id": "h0094",
+   "id": "h092e846c",
    "page": 9,
    "bbox": [
     120.46,
@@ -2523,7 +2561,7 @@
    "group": null
   },
   {
-   "id": "h0095",
+   "id": "h09d55a17",
    "page": 9,
    "bbox": [
     92.92,
@@ -2544,7 +2582,7 @@
    "group": null
   },
   {
-   "id": "h0096",
+   "id": "h095acb00",
    "page": 9,
    "bbox": [
     83.74,
@@ -2562,10 +2600,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0096"
+   "group": "g0022"
   },
   {
-   "id": "h0097",
+   "id": "h09b0d86b",
    "page": 9,
    "bbox": [
     83.74,
@@ -2583,10 +2621,10 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0096"
+   "group": "g0022"
   },
   {
-   "id": "h0098",
+   "id": "h09f940b7",
    "page": 9,
    "bbox": [
     102.1,
@@ -2607,7 +2645,7 @@
    "group": null
   },
   {
-   "id": "h0099",
+   "id": "h09f32f7b",
    "page": 9,
    "bbox": [
     298.92,
@@ -2628,7 +2666,7 @@
    "group": null
   },
   {
-   "id": "h0100",
+   "id": "h09b845a4",
    "page": 9,
    "bbox": [
     129.07,
@@ -2649,7 +2687,7 @@
    "group": null
   },
   {
-   "id": "h0101",
+   "id": "h0979647d",
    "page": 9,
    "bbox": [
     138.82,
@@ -2670,7 +2708,7 @@
    "group": null
   },
   {
-   "id": "h0102",
+   "id": "h11e04004",
    "page": 11,
    "bbox": [
     382.48,
@@ -2691,7 +2729,7 @@
    "group": null
   },
   {
-   "id": "h0103",
+   "id": "h11d804e4",
    "page": 11,
    "bbox": [
     102.66,
@@ -2712,7 +2750,7 @@
    "group": null
   },
   {
-   "id": "h0104",
+   "id": "h111165bf",
    "page": 11,
    "bbox": [
     139.38,
@@ -2733,7 +2771,7 @@
    "group": null
   },
   {
-   "id": "h0105",
+   "id": "h111222c1",
    "page": 11,
    "bbox": [
     428.38,
@@ -2754,7 +2792,7 @@
    "group": null
   },
   {
-   "id": "h0106",
+   "id": "h113a9827",
    "page": 11,
    "bbox": [
     419.2,
@@ -2775,7 +2813,7 @@
    "group": null
   },
   {
-   "id": "h0107",
+   "id": "h11831143",
    "page": 11,
    "bbox": [
     157.74,
@@ -2796,7 +2834,7 @@
    "group": null
   },
   {
-   "id": "h0108",
+   "id": "h12a427cb",
    "page": 12,
    "bbox": [
     333.68,
@@ -2817,7 +2855,7 @@
    "group": null
   },
   {
-   "id": "h0109",
+   "id": "h12f026d9",
    "page": 12,
    "bbox": [
     379.58,
@@ -2838,7 +2876,7 @@
    "group": null
   },
   {
-   "id": "h0110",
+   "id": "h124f1418",
    "page": 12,
    "bbox": [
     425.15,
@@ -2859,7 +2897,7 @@
    "group": null
   },
   {
-   "id": "h0111",
+   "id": "h125b34e0",
    "page": 12,
    "bbox": [
     148.56,
@@ -2880,7 +2918,7 @@
    "group": null
   },
   {
-   "id": "h0112",
+   "id": "h12fdf73a",
    "page": 12,
    "bbox": [
     361.22,
@@ -2901,7 +2939,7 @@
    "group": null
   },
   {
-   "id": "h0113",
+   "id": "h1380f2f0",
    "page": 13,
    "bbox": [
     209.16,
@@ -2922,7 +2960,7 @@
    "group": null
   },
   {
-   "id": "h0114",
+   "id": "h138ad4cc",
    "page": 13,
    "bbox": [
     370.08,
@@ -2943,7 +2981,7 @@
    "group": null
   },
   {
-   "id": "h0115",
+   "id": "h180a8f5c",
    "page": 18,
    "bbox": [
     254.57,
@@ -2955,7 +2993,8 @@
    "kind": "asterisk",
    "contextBefore": "三大皇牌產品系列俹俷俹俼年度分紅實現率全面達標",
    "targets": [
-    "p18:1"
+    "p18:1",
+    "p2:1"
    ],
    "targetDisplay": "P19 · 腳註 *",
    "confidence": 0.98,
@@ -2965,8 +3004,8 @@
   }
  ],
  "stats": {
-  "anchors": 116,
-  "notes": 32,
-  "resolved": 116
+  "anchors": 117,
+  "notes": 33,
+  "resolved": 117
  }
 }

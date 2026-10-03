@@ -6,6 +6,9 @@ T2 整页模式：无标题兜底，页内 >=3 个 N. 小字号编号行
 T3 行内註解：`註：xxx` 无编号就地说明，存档但不参与匹配（实测无角标触发）
 T4 页底悬挂脚注区：罗马数字/符号编号（AIA 单张「資料來源 i~viii」、增值服務 ※/†/*），
    无标题、位于页底、小字号；双栏页按编号列 x0 聚类分栏。
+T5 孤立符号解释行（1.13）：页中部「* 全數賠償是指…」形态——符号开头、小字号、
+   有实质文本，不属于任何 T1/T2/T4 区域（在标题上方 / 不贴页底）。仅收符号编号
+   （数字行首在正文列表中太常见，不开放），单页限额防异常排版。
 条目解析状态机：`N. 内容` 起始；不匹配新编号 → 上一条目续行；整行仅 `N.`/`i`/`※` →
 与下一行合并（FWD p16 悬挂 '7.' / AIA P2 悬挂 'i' 同型）。
 """
@@ -134,6 +137,40 @@ def _find_footer_regions(page: int, pls: list, h: float,
     return out
 
 
+def _find_orphan_symbol_regions(page: int, pls: list, covered: set, page_max: float,
+                                config: ParseConfig) -> list[NoteRegion]:
+    """T5：孤立符号解释行（1.13）——未被 T1/T2/T4 覆盖的「* 全數賠償是指…」行。
+
+    showdoc P15 實測：解釋行位於頁中部（T4 頁底線之上）、「註：」標題上方（T1
+    區域之外），三通道全部錯過 → 該符號全文檔無目標候選，角標被迫兜底鏈到更早
+    頁。觸發條件（全部滿足）：符號編號開頭（symbol_item_pat，數字不開放）、
+    後接實質文本（>= t5_min_text）、小字號（同 t4_size_ratio）、未被其他區域
+    覆蓋；同編號僅收首條，單頁限額 t5_max_per_page。anchor 取 footer（符號
+    腳註語義，同頁下方匹配 +5 與 T4 一致）。
+    """
+    out: list[NoteRegion] = []
+    seen: set[str] = set()
+    for ln in pls:
+        if id(ln) in covered:
+            continue
+        if ln.text and all("\ue000" <= ch <= "\uf8ff" for ch in ln.text):
+            continue                      # PUA 独立行（Wingdings 装饰）非解释行
+        m = re.match(config.symbol_item_pat, ln.text)
+        if not m:
+            continue
+        rest = (m.group(2) or "").strip()
+        if len(rest) < config.t5_min_text:
+            continue                      # 装饰性孤星/短符号，非解释行
+        if max(s.size for s in ln.spans) > page_max * config.t4_size_ratio:
+            continue                      # 与正文同字号的内容行不收
+        num = (m.group(1) or "").strip()
+        if num in seen or len(out) >= config.t5_max_per_page:
+            continue
+        seen.add(num)
+        out.append(NoteRegion(page, "footer", False, [ln], kind="t5"))
+    return out
+
+
 def _page_columns(pls: list) -> list[int]:
     """按行 x 区间重叠的连通分量分栏（DESIGN.md §5.2「同栏区域」/§12 双栏风险）。
 
@@ -237,14 +274,18 @@ def find_regions(lines: list[Line], page_heights: list[float],
                     regions.append(NoteRegion(page, zone, True, body, kind="t1"))
                     head_idx = i
                 break
-        if head_idx is not None:
-            continue
-        t2 = _try_t2(page, pls, h, config)
-        if t2:
-            regions.append(t2)
-            continue
-        # T4：页底罗马数字/符号悬挂脚注（AIA 資料來源 i~viii、※†* 说明区）
-        regions.extend(_find_footer_regions(page, pls, h, config))
+        if head_idx is None:
+            t2 = _try_t2(page, pls, h, config)
+            if t2:
+                regions.append(t2)
+            else:
+                # T4：页底罗马数字/符号悬挂脚注（AIA 資料來源 i~viii、※†* 说明区）
+                regions.extend(_find_footer_regions(page, pls, h, config))
+        # T5：孤立符号解释行（1.13）——T1 命中页也要跑：解释行可在标题上方
+        # （showdoc P15「* 全數賠償…」y=452 <「註：」y=475，T1 區域不覆蓋）
+        page_max = max(s.size for l in pls for s in l.spans)
+        covered = {id(l) for r in regions if r.page == page for l in r.lines}
+        regions.extend(_find_orphan_symbol_regions(page, pls, covered, page_max, config))
     return regions
 
 
@@ -252,7 +293,7 @@ def parse_region(region: NoteRegion, config: ParseConfig) -> list[ParsedNote]:
     notes: list[ParsedNote] = []
     cur: ParsedNote | None = None
     pending_number: str | None = None     # 整行仅编号的悬挂编号
-    t4 = region.kind == "t4"
+    t4 = region.kind in ("t4", "t5")      # T4/T5 均启用罗马数字/符号编号通道
     for ln in region.lines:
         if ln.text and all("\ue000" <= ch <= "\uf8ff" for ch in ln.text):
             continue                      # 私有区符号行（Wingdings 箭头等）不可作编号/内容
