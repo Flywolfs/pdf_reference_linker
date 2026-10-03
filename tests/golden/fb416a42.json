@@ -1,5 +1,5 @@
 {
- "version": "1.14",
+ "version": "1.15",
  "docId": "fb416a42",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/宏利/重疾/宏利守护无间危疾保(保宝未来)-产品单张.pdf",
@@ -13,6 +13,22 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p1:1",
+   "anchor": "footer",
+   "page": 1,
+   "bbox": [
+    36.0,
+    820.24,
+    256.84,
+    843.11
+   ],
+   "number": "*",
+   "text": "就守護無間危疾保 (保寶未來) 而言 , 所述的保障範圍適用",
+   "textPages": [
+    1
+   ]
+  },
   {
    "noteId": "p9:1",
    "anchor": "standalone",
@@ -656,6 +672,27 @@
  ],
  "hotspots": [
   {
+   "id": "h018580bb",
+   "page": 1,
+   "bbox": [
+    206.04,
+    320.07,
+    210.41,
+    333.57
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "蓋多達121種危疾及疾病 , 為受保人提供保障至",
+   "targets": [
+    "p1:1"
+   ],
+   "targetDisplay": "P2 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
    "id": "h03cf95e1",
    "page": 3,
    "bbox": [
@@ -673,11 +710,51 @@
    "source": "derived",
    "nativeLink": null,
    "group": null
+  },
+  {
+   "id": "h145f58b5",
+   "page": 14,
+   "bbox": [
+    452.81,
+    242.36,
+    456.43,
+    250.23
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "間危疾保」 時 , 獲享高達10%的保費折扣 。",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h19aa09af",
+   "page": 19,
+   "bbox": [
+    86.4,
+    82.43,
+    94.51,
+    104.11
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "賠償表",
+   "targets": [
+    "p1:1"
+   ],
+   "targetDisplay": "P2 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
   }
  ],
  "stats": {
-  "anchors": 1,
-  "notes": 40,
-  "resolved": 0
+  "anchors": 4,
+  "notes": 41,
+  "resolved": 2
  }
 }

@@ -1,5 +1,5 @@
 {
- "version": "1.14",
+ "version": "1.15",
  "docId": "34aab386",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/保誠/重疾/保诚诚保一生危疾保系列-产品小册子.pdf",
@@ -13,6 +13,22 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p14:1",
+   "anchor": "footer",
+   "page": 14,
+   "bbox": [
+    415.82,
+    158.17,
+    502.75,
+    171.66
+   ],
+   "number": "+",
+   "text": "特別紅利的面值10",
+   "textPages": [
+    14
+   ]
+  },
   {
    "noteId": "p17:1",
    "anchor": "standalone",
@@ -254,7 +270,23 @@
    ]
   },
   {
-   "noteId": "p4:inline15",
+   "noteId": "p26:1",
+   "anchor": "footer",
+   "page": 26,
+   "bbox": [
+    307.56,
+    527.76,
+    557.47,
+    540.25
+   ],
+   "number": "*",
+   "text": "在「誠保一生」危疾保—摯愛寶下,假如初生嬰兒於出生後90日內符合",
+   "textPages": [
+    26
+   ]
+  },
+  {
+   "noteId": "p4:inline17",
    "anchor": "inline",
    "page": 4,
    "bbox": [
@@ -270,7 +302,7 @@
    ]
   },
   {
-   "noteId": "p6:inline16",
+   "noteId": "p6:inline18",
    "anchor": "inline",
    "page": 6,
    "bbox": [
@@ -286,7 +318,7 @@
    ]
   },
   {
-   "noteId": "p16:inline17",
+   "noteId": "p16:inline19",
    "anchor": "inline",
    "page": 16,
    "bbox": [
@@ -914,7 +946,7 @@
     "p22:4"
    ],
    "targetDisplay": "P18 · 備註 4",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1335,11 +1367,95 @@
    "source": "derived",
    "nativeLink": null,
    "group": null
+  },
+  {
+   "id": "h26dbdf5d",
+   "page": 26,
+   "bbox": [
+    445.04,
+    482.76,
+    448.14,
+    495.25
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "深切治療保障的已賠償總額;",
+   "targets": [
+    "p26:1"
+   ],
+   "targetDisplay": "P27 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h26f2e6f3",
+   "page": 26,
+   "bbox": [
+    346.79,
+    662.76,
+    349.89,
+    675.25
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "總額作為保單貸款,而保單仍可維持生效。",
+   "targets": [
+    "p26:1"
+   ],
+   "targetDisplay": "P27 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h27be29d2",
+   "page": 27,
+   "bbox": [
+    445.04,
+    437.85,
+    448.14,
+    450.34
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "深切治療保障的已賠償總額。",
+   "targets": [
+    "p26:1"
+   ],
+   "targetDisplay": "P27 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h27b3ab36",
+   "page": 27,
+   "bbox": [
+    133.55,
+    661.85,
+    136.65,
+    674.34
+   ],
+   "text": "*",
+   "kind": "asterisk",
+   "contextBefore": "保障的已賠償總額,以及任何未向我們償還之保單",
+   "targets": [
+    "p26:1"
+   ],
+   "targetDisplay": "P27 · 腳註 *",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
   }
  ],
  "stats": {
-  "anchors": 50,
-  "notes": 18,
-  "resolved": 33
+  "anchors": 54,
+  "notes": 20,
+  "resolved": 37
  }
 }

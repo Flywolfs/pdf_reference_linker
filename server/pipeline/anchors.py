@@ -14,11 +14,12 @@ from dataclasses import dataclass
 from ..config import ParseConfig
 from .extract import Line, Span
 
-NUM_RE = re.compile(r"^\d{1,3}(?:[,，]\d{1,3})*$")
-# C7：逗号多编号且每段 <=2 位（千位分隔符至少有一段 3 位，被此式排除）
-COMMA_MULTI_RE = re.compile(r"^\d{1,2}(?:[,，]\d{1,2})+$")
+NUM_RE = re.compile(r"^\d{1,3}(?:\s*[,，]\s*\d{1,3})*$")
+# C7：逗号多编号且每段 <=2 位（千位分隔符至少有一段 3 位，被此式排除）；
+# 1.15 容忍逗号后空格（showdoc '10, 11' 實測）
+COMMA_MULTI_RE = re.compile(r"^\d{1,2}(?:\s*[,，]\s*\d{1,2})+$")
 CIRCLED = set("①②③④⑤⑥⑦⑧⑨⑩⑪⑫⑬⑭⑮⑯⑰⑱⑲⑳")
-STARS = set("*†‡§※")
+STARS = set("*†‡§※+#")
 LETTER_RE = re.compile(r"^[a-z]$", re.IGNORECASE)
 
 
@@ -100,12 +101,59 @@ def _detect_line(line: Line, config: ParseConfig) -> list[AnchorHit]:
 
 
 def _split_numbers(text: str) -> list[str]:
-    parts = [p for p in re.split(r"[,，]", text.strip()) if p]
+    parts = [p.strip() for p in re.split(r"[,，]", text.strip()) if p.strip()]
     return parts or [text.strip()]
 
 
 def detect_anchors(lines: list[Line], config: ParseConfig) -> list[AnchorHit]:
     out: list[AnchorHit] = []
+    # 1.15 孤立符號行：字體/字號差異令 '+  專屬禮賓支援服務' 被拆成兩個 line
+    # （'+' 獨佔一行），C5 同行鄰接失效。符號類孤立行按視覺帶（y 帶重疊）跨行
+    # 找左側正文鄰接，走 C1/C2 判定，conf 0.75 + loose（目標存在性收口同 C8）。
+    by_page: dict[int, list[Line]] = {}
     for line in lines:
-        out.extend(_detect_line(line, config))
+        by_page.setdefault(line.page, []).append(line)
+    for pls in by_page.values():
+        body_spans = [sp for ln in pls for sp in ln.spans
+                      if classify(sp.text) is None
+                      and not COMMA_MULTI_RE.fullmatch(sp.text.strip())]
+        for line in pls:
+            hits = _detect_line(line, config)
+            out.extend(hits)
+            if not hits and line.spans and all(
+                    classify(sp.text) is not None for sp in line.spans):
+                for sp in line.spans:
+                    if classify(sp.text) != "asterisk":
+                        continue          # 數字孤立行（頁碼等）不做跨行判定
+                    hit = _detect_orphan_symbol(line, sp, body_spans, config)
+                    if hit:
+                        out.append(hit)
     return out
+
+
+def _detect_orphan_symbol(line: Line, sp: Span, body_spans: list[Span],
+                          config: ParseConfig) -> AnchorHit | None:
+    """孤立符號 span 的跨行鄰接判定：同視覺帶最近正文 + C1/C2/C4。"""
+    sy = (sp.bbox[1] + sp.bbox[3]) / 2
+    best, best_gap = None, None
+    for ctx in body_spans:
+        cy = (ctx.bbox[1] + ctx.bbox[3]) / 2
+        if abs(cy - sy) > 0.6 * max(ctx.bbox[3] - ctx.bbox[1],
+                                    sp.bbox[3] - sp.bbox[1], 4.0):
+            continue
+        gap = sp.bbox[0] - ctx.bbox[2]
+        if gap < config.gap_neg_ratio * ctx.size:
+            continue
+        if best is None or gap < best_gap:
+            best, best_gap = ctx, gap
+    if best is None:
+        return None
+    ctx = best
+    rise = ctx.origin[1] - sp.origin[1]
+    size_ratio = sp.size / ctx.size if ctx.size > 0.5 else 1.0
+    if not (config.gap_neg_ratio * ctx.size <= best_gap <= config.gap_ratio * ctx.size
+            and size_ratio <= config.size_ratio
+            and rise >= config.rise_ratio * ctx.size):
+        return None
+    return AnchorHit(line.page, sp.bbox, _split_numbers(sp.text), "asterisk",
+                     ctx.text[-24:], config.same_size_conf, loose=True)

@@ -1,5 +1,5 @@
 {
- "version": "1.14",
+ "version": "1.15",
  "docId": "8dcf85c7",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/富通/自愿医保/周大福人寿悦康保医疗计划(VHIS)-产品小册子.pdf",
@@ -789,6 +789,48 @@
    "group": null
   },
   {
+   "id": "h038dba73",
+   "page": 3,
+   "bbox": [
+    288.65,
+    291.3,
+    300.0,
+    299.66
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "磁力共振掃描 ( 「MRI掃描」 )、正電子放射",
+   "targets": [
+    "p12:8"
+   ],
+   "targetDisplay": "P13 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0001"
+  },
+  {
+   "id": "h03e9b112",
+   "page": 3,
+   "bbox": [
+    288.65,
+    291.3,
+    300.0,
+    299.66
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "磁力共振掃描 ( 「MRI掃描」 )、正電子放射",
+   "targets": [
+    "p12:9"
+   ],
+   "targetDisplay": "P13 · 備註 9",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0001"
+  },
+  {
    "id": "h0349feb7",
    "page": 3,
    "bbox": [
@@ -957,6 +999,27 @@
    "group": null
   },
   {
+   "id": "h04878f68",
+   "page": 4,
+   "bbox": [
+    116.36,
+    312.31,
+    119.75,
+    317.56
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "可獲賠償總額",
+   "targets": [
+    "p4:1"
+   ],
+   "targetDisplay": "P5 · 腳註 #",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
    "id": "h04b4b288",
    "page": 4,
    "bbox": [
@@ -972,6 +1035,27 @@
     "p12:3"
    ],
    "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0401643d",
+   "page": 4,
+   "bbox": [
+    116.81,
+    569.84,
+    120.2,
+    575.09
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "可獲賠償總額",
+   "targets": [
+    "p4:1"
+   ],
+   "targetDisplay": "P5 · 腳註 #",
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
@@ -1246,6 +1330,44 @@
    ],
    "targetDisplay": "P13 · 備註 4",
    "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h08bb0b18",
+   "page": 8,
+   "bbox": [
+    440.5,
+    219.24,
+    444.25,
+    227.6
+   ],
+   "text": "+",
+   "kind": "asterisk",
+   "contextBefore": "× 邊際稅率17%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h08252061",
+   "page": 8,
+   "bbox": [
+    362.74,
+    233.09,
+    365.12,
+    238.41
+   ],
+   "text": "+",
+   "kind": "asterisk",
+   "contextBefore": "(假設應課稅入息實額達到",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1797,6 +1919,48 @@
    "group": null
   },
   {
+   "id": "h105e0fc0",
+   "page": 10,
+   "bbox": [
+    156.37,
+    350.89,
+    167.46,
+    359.25
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "(i)\t訂明診斷成像檢測",
+   "targets": [
+    "p12:8"
+   ],
+   "targetDisplay": "P13 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0002"
+  },
+  {
+   "id": "h103bdf6b",
+   "page": 10,
+   "bbox": [
+    156.37,
+    350.89,
+    167.46,
+    359.25
+   ],
+   "text": "9",
+   "kind": "numeric",
+   "contextBefore": "(i)\t訂明診斷成像檢測",
+   "targets": [
+    "p12:9"
+   ],
+   "targetDisplay": "P13 · 備註 9",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0002"
+  },
+  {
    "id": "h10ae7aee",
    "page": 10,
    "bbox": [
@@ -1986,6 +2150,48 @@
    "group": null
   },
   {
+   "id": "h10f300eb",
+   "page": 10,
+   "bbox": [
+    156.37,
+    546.34,
+    171.15,
+    554.7
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "(b)\t 住院私家看護服務",
+   "targets": [
+    "p12:8"
+   ],
+   "targetDisplay": "P13 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0003"
+  },
+  {
+   "id": "h1069df0b",
+   "page": 10,
+   "bbox": [
+    156.37,
+    546.34,
+    171.15,
+    554.7
+   ],
+   "text": "20",
+   "kind": "numeric",
+   "contextBefore": "(b)\t 住院私家看護服務",
+   "targets": [
+    "p12:20"
+   ],
+   "targetDisplay": "P13 · 備註 20",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0003"
+  },
+  {
    "id": "h106df072",
    "page": 10,
    "bbox": [
@@ -2047,6 +2253,48 @@
    "source": "derived",
    "nativeLink": null,
    "group": null
+  },
+  {
+   "id": "h10ccc694",
+   "page": 10,
+   "bbox": [
+    145.15,
+    678.27,
+    159.93,
+    686.63
+   ],
+   "text": "8",
+   "kind": "numeric",
+   "contextBefore": "(c)\t出院後私家看護",
+   "targets": [
+    "p12:8"
+   ],
+   "targetDisplay": "P13 · 備註 8",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0004"
+  },
+  {
+   "id": "h1070b301",
+   "page": 10,
+   "bbox": [
+    145.15,
+    678.27,
+    159.93,
+    686.63
+   ],
+   "text": "20",
+   "kind": "numeric",
+   "contextBefore": "(c)\t出院後私家看護",
+   "targets": [
+    "p12:20"
+   ],
+   "targetDisplay": "P13 · 備註 20",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0004"
   },
   {
    "id": "h107915b0",
@@ -2569,8 +2817,8 @@
   }
  ],
  "stats": {
-  "anchors": 102,
+  "anchors": 114,
   "notes": 26,
-  "resolved": 99
+  "resolved": 109
  }
 }

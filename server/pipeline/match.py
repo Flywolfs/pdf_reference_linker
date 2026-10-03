@@ -51,8 +51,11 @@ def match_hotspots(hotspots: list, notes: list, config: ParseConfig,
                 s -= 4                                   # 更早頁：強懲罰（兜底）
             if hs.text in unique_nums:
                 s += 3                                   # 文档级唯一
-            if n.noteId in titled_note_ids:
-                s += 1                                   # T1 标题锚定区
+            # T1 标题锚定区——僅限鄰近（頁距 ≤3）：錨點之後往往有多個後續注釋區
+            # （行銷頁來源塊 + 產品條款註區），遠距 titled 加分會壓過「閱讀順序
+            # 更早的後續區」；平局時 (page, y) tie-break 已偏向更早的區
+            if n.noteId in titled_note_ids and n.page - hs.page <= 3:
+                s += 1
             key = (n.page, n.anchor)
             try:
                 if int(hs.text) > zone_max.get(key, int(hs.text)):

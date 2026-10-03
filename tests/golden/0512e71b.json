@@ -1,5 +1,5 @@
 {
- "version": "1.14",
+ "version": "1.15",
  "docId": "0512e71b",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/FWD/自愿医保/倍衛您醫療計劃-產品宣傳單張.pdf",
@@ -13,6 +13,22 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p7:1",
+   "anchor": "footer",
+   "page": 7,
+   "bbox": [
+    43.06,
+    654.9,
+    552.76,
+    677.74
+   ],
+   "number": "+",
+   "text": "於2026年2月2日由富衛與本港自願醫保市場之主要保險公司所作出的比較,受保人於指定醫療服務提供者進行指定日間手術或於中國內地進",
+   "textPages": [
+    7
+   ]
+  },
   {
    "noteId": "p15:1",
    "anchor": "standalone",
@@ -180,11 +196,11 @@
    "bbox": [
     43.66,
     201.83,
-    551.03,
-    230.39
+    551.05,
+    256.39
    ],
    "number": "2",
-   "text": "若純粹為接受診斷程序或專職醫療服務(包括但不限於物理治療、職業治療及言語治療)而住院,該住院期間",
+   "text": "若純粹為接受診斷程序或專職醫療服務(包括但不限於物理治療、職業治療及言語治療)而住院,該住院期間 所招致的全部或部分費用。惟若該等程序或服務是在註冊醫生建議下因而進行醫療所需的診斷,或無法以為日症 病人提供醫療服務的方式下有效地進行的傷病治療,則不屬此項。",
    "textPages": [
     19
    ]
@@ -196,11 +212,11 @@
    "bbox": [
     43.66,
     245.83,
-    551.04,
-    274.39
+    551.06,
+    357.39
    ],
    "number": "3",
-   "text": "在保單生效日前,因感染或出現人體免疫力缺乏病毒(“HIV”)及其相關的傷病所招致的費用。不論保單持有人",
+   "text": "在保單生效日前,因感染或出現人體免疫力缺乏病毒(“HIV”)及其相關的傷病所招致的費用。不論保單持有人 或受保人在遞交投保申請文件(若本公司在保單條款之條款及保障中的第一部分第8節提出要求,則包括相關必需 資料的任何更新及改動)時是否知悉,若此傷病在保單生效日前已存在,保單條款之條款及保障則不會賠償此傷病。 若無法證明初次感染或出現此傷病的時間,則此傷病於保單生效日起計5年內發病,將被推定為於保單生效日前 已感染或出現;若在這5年後發病,將被推定為於保單生效日後感染或出現。 惟本第3節的不保事項並不適用於因性侵犯、醫療援助、器官移植、輸血或捐血、或出生時受HIV感染所引致的 傷病,有關賠償將按本條款及保障內其他條款處理。",
    "textPages": [
     19
    ]
@@ -213,10 +229,10 @@
     43.66,
     346.83,
     551.03,
-    375.39
+    388.39
    ],
    "number": "4",
-   "text": "因倚賴或過量服用藥物、酒精、毒品或類似物質(或受其影響)、故意自殘身體或企圖自殺、參與非法活動、或性病",
+   "text": "因倚賴或過量服用藥物、酒精、毒品或類似物質(或受其影響)、故意自殘身體或企圖自殺、參與非法活動、或性病 及經由性接觸傳染的疾病或其後遺症(HIV及其相關的傷病將按本第3節處理)的醫療服務費用。",
    "textPages": [
     19
    ]
@@ -228,11 +244,11 @@
    "bbox": [
     43.65,
     377.83,
-    139.51,
-    406.39
+    551.05,
+    468.39
    ],
    "number": "5",
-   "text": "以下服務的收費 ‒",
+   "text": "以下服務的收費 ‒ (a) 除保單條款之補充文件‒ 升級保障第一部分第1及2節另有規定外,以美容或整容為目的的服務,惟受保人 因意外而受傷,並於意外後90日內接受的必要醫療服務則不屬此項;或 (b) 矯正視力或屈光不正的服務,而該等視力問題可透過驗配眼鏡或隱形眼鏡矯正,包括但不限於眼部屈光治療、 角膜激光矯視手術(LASIK),以及任何相關的檢測、治療程序及服務。",
    "textPages": [
     19
    ]
@@ -244,11 +260,11 @@
    "bbox": [
     43.66,
     457.83,
-    551.04,
-    486.39
+    551.05,
+    566.39
    ],
    "number": "6",
-   "text": "預防性治療及預防性護理的費用,包括但不限於並無症狀下的一般身體檢查、定期檢測或篩查程序、或僅因受保人",
+   "text": "預防性治療及預防性護理的費用,包括但不限於並無症狀下的一般身體檢查、定期檢測或篩查程序、或僅因受保人 及/或其家人過往病歷而進行的篩查或監測程序、頭髮重金屬元素分析、接種疫苗或健康補充品。為免存疑, 本第6節並不適用於 ‒ (a) 為了避免因接受其他醫療服務引起的併發症而進行的治療、監測、檢查或治療程序; (b) 移除癌前病變;及 (c) 為預防過往傷病復發或其併發症的治療。",
    "textPages": [
     19
    ]
@@ -258,13 +274,13 @@
    "anchor": "standalone",
    "page": 19,
    "bbox": [
-    43.65,
-    586.83,
+    62.08,
+    555.83,
     551.03,
-    615.39
+    597.39
    ],
-   "number": "8",
-   "text": "除保單條款之補充文件-升級保障第一部分第13節另有規定外,下列醫療服務及輔導服務的費用 - 產科狀況及其",
+   "number": "7",
+   "text": "牙科醫生進行的牙科治療及口腔頜面手術的費用,惟受保人因意外引致在住院期間接受的急症治療及手術則不屬 此項。出院後的跟進牙科治療及口腔手術則不會獲得賠償。",
    "textPages": [
     19
    ]
@@ -275,12 +291,12 @@
    "page": 19,
    "bbox": [
     43.65,
-    630.83,
+    586.83,
     551.03,
-    659.39
+    641.39
    ],
-   "number": "9",
-   "text": "除保單條款之補充文件-升級保障第一部分第7(a)節另有規定外,購買屬耐用品的醫療設備及儀器的費用,包括",
+   "number": "8",
+   "text": "除保單條款之補充文件-升級保障第一部分第13節另有規定外,下列醫療服務及輔導服務的費用 - 產科狀況及其 併發症,包括但不限於懷孕、分娩、墮胎或流產的診斷檢測;節育或恢復生育;任何性別的結紮或變性;不育(包括 體外受孕或任何其他人工受孕);以及性機能失常,包括但不限於任何原因導致的陽萎、不舉或早泄。",
    "textPages": [
     19
    ]
@@ -291,12 +307,28 @@
    "page": 19,
    "bbox": [
     43.65,
+    630.83,
+    551.04,
+    698.39
+   ],
+   "number": "9",
+   "text": "除保單條款之補充文件-升級保障第一部分第7(a)節另有規定外,購買屬耐用品的醫療設備及儀器的費用,包括 但不限於輪椅、床及家具、呼吸道壓力機及面罩、可攜式氧氣及氧氣治療儀器、血液透析機、運動設備、眼鏡、 助聽器、特殊支架、輔助步行器具、非處方藥物、家居使用的空氣清新機或空調及供熱裝置。為免存疑,住院期間 或日間手術當日所租用的醫療設備及儀器則不屬此項。",
+   "textPages": [
+    19
+   ]
+  },
+  {
+   "noteId": "p19:10",
+   "anchor": "standalone",
+   "page": 19,
+   "bbox": [
+    43.65,
     687.83,
-    551.02,
-    716.39
+    551.03,
+    729.39
    ],
    "number": "10",
-   "text": "除保單條款之補充文件-升級保障第一部分第7(b)及12節另有規定外,傳統中醫治療的費用,包括但不限於中草藥",
+   "text": "除保單條款之補充文件-升級保障第一部分第7(b)及12節另有規定外,傳統中醫治療的費用,包括但不限於中草藥 治療、跌打、針灸、穴位按摩及推拿,以及另類治療,包括但不限於催眠治療、氣功、按摩治療、香薰治療、自然",
    "textPages": [
     19
    ]
@@ -384,7 +416,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -406,7 +438,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -428,7 +460,7 @@
     "p19:3"
    ],
    "targetDisplay": "P16 · 備註 3",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0001"
@@ -450,7 +482,7 @@
     "p19:4"
    ],
    "targetDisplay": "P16 · 備註 4",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0001"
@@ -472,7 +504,7 @@
     "p19:5"
    ],
    "targetDisplay": "P16 · 備註 5",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -494,7 +526,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -516,7 +548,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -538,7 +570,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -560,7 +592,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0002"
@@ -578,10 +610,11 @@
    "kind": "numeric",
    "contextBefore": "豁免自付費",
    "targets": [
-    "p15:7"
+    "p15:7",
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 7",
-   "confidence": 0.98,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0002"
@@ -600,10 +633,10 @@
    "contextBefore": "豁免自付費",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0002"
@@ -625,7 +658,7 @@
     "p19:5"
    ],
    "targetDisplay": "P16 · 備註 5",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -647,7 +680,7 @@
     "p19:3"
    ],
    "targetDisplay": "P16 · 備註 3",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0003"
@@ -666,10 +699,10 @@
    "contextBefore": "給新生兒尊貴守護",
    "targets": [
     "p15:9",
-    "p19:8"
+    "p19:9"
    ],
    "targetDisplay": "P16 · 備註 9",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0003"
@@ -691,7 +724,7 @@
     "p19:3"
    ],
    "targetDisplay": "P16 · 備註 3",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0004"
@@ -713,7 +746,7 @@
     "p19:4"
    ],
    "targetDisplay": "P16 · 備註 4",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0004"
@@ -735,7 +768,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -757,7 +790,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -779,7 +812,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -797,7 +830,7 @@
    "kind": "numeric",
    "contextBefore": "外門診治療及緊急門診牙科治療,時刻為您候命。無論",
    "targets": [
-    "p19:9"
+    "p19:10"
    ],
    "targetDisplay": "P20 · 備註 10",
    "confidence": 0.98,
@@ -822,7 +855,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -844,7 +877,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -866,7 +899,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -904,10 +937,31 @@
    "contextBefore": "臟透析機的租借費用)及器官或骨髓移植。除每年保障",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0448ecbd",
+   "page": 4,
+   "bbox": [
+    391.66,
+    188.72,
+    395.44,
+    207.01
+   ],
+   "text": "+",
+   "kind": "asterisk",
+   "contextBefore": "自願醫保市場首創]受保人於指定醫療服務提供者12",
+   "targets": [
+    "p7:1"
+   ],
+   "targetDisplay": "P8 · 腳註 +",
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -951,6 +1005,48 @@
    "group": null
   },
   {
+   "id": "h04cb829f",
+   "page": 4,
+   "bbox": [
+    272.89,
+    250.72,
+    276.66,
+    269.01
+   ],
+   "text": "+",
+   "kind": "asterisk",
+   "contextBefore": "需要接受按手術表所列或若該手術並無列於手術表內,",
+   "targets": [
+    "p7:1"
+   ],
+   "targetDisplay": "P8 · 腳註 +",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h04084397",
+   "page": 4,
+   "bbox": [
+    272.89,
+    308.72,
+    276.66,
+    327.01
+   ],
+   "text": "+",
+   "kind": "asterisk",
+   "contextBefore": "] 於香港住院期間連續3天或以上入住深切治療部。",
+   "targets": [
+    "p7:1"
+   ],
+   "targetDisplay": "P8 · 腳註 +",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
    "id": "h049120e5",
    "page": 4,
    "bbox": [
@@ -964,10 +1060,10 @@
    "contextBefore": "中風復康治療",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -989,7 +1085,7 @@
     "p19:3"
    ],
    "targetDisplay": "P16 · 備註 3",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0005"
@@ -1011,7 +1107,7 @@
     "p19:4"
    ],
    "targetDisplay": "P16 · 備註 4",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0005"
@@ -1049,10 +1145,10 @@
    "contextBefore": "家居設備提升保障",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1074,7 +1170,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1096,7 +1192,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1118,7 +1214,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1140,7 +1236,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1162,7 +1258,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0006"
@@ -1180,10 +1276,11 @@
    "kind": "numeric",
    "contextBefore": "指定危疾之全額賠償 ‒ 豁免自付費",
    "targets": [
-    "p15:7"
+    "p15:7",
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 7",
-   "confidence": 0.98,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0006"
@@ -1202,10 +1299,10 @@
    "contextBefore": "指定危疾之全額賠償 ‒ 豁免自付費",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0006"
@@ -1227,7 +1324,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1249,7 +1346,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1271,7 +1368,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0007"
@@ -1289,10 +1386,11 @@
    "kind": "numeric",
    "contextBefore": "全額賠償 ‒ 豁免自付費下獲豁免,免除您於治療上",
    "targets": [
-    "p15:7"
+    "p15:7",
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 7",
-   "confidence": 0.98,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0007"
@@ -1311,10 +1409,10 @@
    "contextBefore": "全額賠償 ‒ 豁免自付費下獲豁免,免除您於治療上",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0007"
@@ -1336,7 +1434,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1358,7 +1456,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1380,7 +1478,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1402,7 +1500,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1443,7 +1541,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1465,7 +1563,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1487,7 +1585,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1509,7 +1607,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1531,7 +1629,7 @@
     "p19:5"
    ],
    "targetDisplay": "P16 · 備註 5",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1553,7 +1651,7 @@
     "p19:3"
    ],
    "targetDisplay": "P16 · 備註 3",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0008"
@@ -1572,10 +1670,10 @@
    "contextBefore": "給新生兒 尊貴守護",
    "targets": [
     "p15:9",
-    "p19:8"
+    "p19:9"
    ],
    "targetDisplay": "P16 · 備註 9",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0008"
@@ -1597,7 +1695,7 @@
     "p19:3"
    ],
    "targetDisplay": "P16 · 備註 3",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0009"
@@ -1619,7 +1717,7 @@
     "p19:4"
    ],
    "targetDisplay": "P16 · 備註 4",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0009"
@@ -1641,7 +1739,7 @@
     "p19:4"
    ],
    "targetDisplay": "P16 · 備註 4",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1663,7 +1761,28 @@
     "p19:4"
    ],
    "targetDisplay": "P16 · 備註 4",
-   "confidence": 0.8,
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h0756d86a",
+   "page": 7,
+   "bbox": [
+    259.3,
+    395.06,
+    263.08,
+    413.35
+   ],
+   "text": "+",
+   "kind": "asterisk",
+   "contextBefore": "養和醫療集團(「養和」)合作,推出跨境癌症管理計",
+   "targets": [
+    "p7:1"
+   ],
+   "targetDisplay": "P8 · 腳註 +",
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1685,7 +1804,7 @@
     "p19:4"
    ],
    "targetDisplay": "P16 · 備註 4",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1707,7 +1826,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1729,7 +1848,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1751,7 +1870,7 @@
     "p19:6"
    ],
    "targetDisplay": "P16 · 備註 6",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1773,7 +1892,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1795,7 +1914,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1912,7 +2031,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1934,7 +2053,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0011"
@@ -1952,10 +2071,11 @@
    "kind": "numeric",
    "contextBefore": "豁免自付費",
    "targets": [
-    "p15:7"
+    "p15:7",
+    "p19:7"
    ],
    "targetDisplay": "P16 · 備註 7",
-   "confidence": 0.98,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0011"
@@ -1974,10 +2094,10 @@
    "contextBefore": "豁免自付費",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0011"
@@ -1999,7 +2119,7 @@
     "p19:2"
    ],
    "targetDisplay": "P16 · 備註 2",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2097,7 +2217,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2119,7 +2239,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2141,7 +2261,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2160,10 +2280,10 @@
    "contextBefore": "(d) 專科醫生費",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2185,7 +2305,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2207,7 +2327,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2229,7 +2349,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2251,7 +2371,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2273,7 +2393,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2295,7 +2415,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2314,10 +2434,10 @@
    "contextBefore": "(i) 訂明診斷成像檢測",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0013"
@@ -2377,7 +2497,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2399,7 +2519,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2418,10 +2538,10 @@
    "contextBefore": "前後的門診護理",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2516,10 +2636,10 @@
    "contextBefore": "1. 重建手術保障",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2560,7 +2680,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2579,10 +2699,10 @@
    "contextBefore": "5. 門診腎臟透析",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2604,7 +2724,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2623,10 +2743,10 @@
    "contextBefore": "6. 復康治療",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2645,10 +2765,10 @@
    "contextBefore": "(a) 家居設備提升保障",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2667,10 +2787,10 @@
    "contextBefore": "(b) 中風輔助保障",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2708,10 +2828,10 @@
    "contextBefore": "9. 私家看護費用",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2733,7 +2853,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2752,10 +2872,10 @@
    "contextBefore": "10. 出院後私家看護",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2777,7 +2897,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2799,7 +2919,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2840,7 +2960,7 @@
     "p19:1"
    ],
    "targetDisplay": "P16 · 備註 1",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2878,10 +2998,10 @@
    "contextBefore": "腎臟透析及器官或骨髓移植",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2919,10 +3039,10 @@
    "contextBefore": "腎臟透析於I.基本保障中的保障項目(b)的賠償;",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2941,10 +3061,10 @@
    "contextBefore": "腎臟透析於II.升級保障中的保障項目5的賠償;或",
    "targets": [
     "p15:8",
-    "p19:7"
+    "p19:8"
    ],
    "targetDisplay": "P16 · 備註 8",
-   "confidence": 0.8,
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3019,7 +3139,7 @@
    "kind": "numeric",
    "contextBefore": "3. 緊急門診牙科治療",
    "targets": [
-    "p19:9"
+    "p19:10"
    ],
    "targetDisplay": "P20 · 備註 10",
    "confidence": 0.98,
@@ -3476,7 +3596,7 @@
    "contextBefore": "嬰兒之特別保障",
    "targets": [
     "p15:9",
-    "p19:8"
+    "p19:9"
    ],
    "targetDisplay": "P16 · 備註 9",
    "confidence": 0.98,
@@ -3772,8 +3892,8 @@
   }
  ],
  "stats": {
-  "anchors": 160,
-  "notes": 22,
-  "resolved": 123
+  "anchors": 164,
+  "notes": 24,
+  "resolved": 127
  }
 }

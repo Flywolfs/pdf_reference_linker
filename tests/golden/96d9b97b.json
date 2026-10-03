@@ -1,5 +1,5 @@
 {
- "version": "1.14",
+ "version": "1.15",
  "docId": "96d9b97b",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/永明/重疾/永明危疾全护保及至尊保-产品小册子.pdf",
@@ -94,55 +94,71 @@
    ]
   },
   {
+   "noteId": "p12:1",
+   "anchor": "footer",
+   "page": 12,
+   "bbox": [
+    333.11,
+    801.99,
+    398.23,
+    813.66
+   ],
+   "number": "+",
+   "text": "任何特別紅利",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p13:1",
+   "anchor": "footer",
+   "page": 13,
+   "bbox": [
+    290.39,
+    798.8,
+    385.08,
+    810.47
+   ],
+   "number": "+",
+   "text": "任何特別紅利的面值",
+   "textPages": [
+    13
+   ]
+  },
+  {
+   "noteId": "p15:1",
+   "anchor": "footer",
+   "page": 15,
+   "bbox": [
+    334.49,
+    641.23,
+    426.0,
+    653.65
+   ],
+   "number": "+",
+   "text": "按比例計算之特別",
+   "textPages": [
+    15
+   ]
+  },
+  {
    "noteId": "p19:1",
-   "anchor": "footer",
-   "page": 19,
-   "bbox": [
-    53.86,
-    787.94,
-    131.31,
-    796.64
-   ],
-   "number": "*",
-   "text": "保障期限於65歲至85歲。",
-   "textPages": [
-    19
-   ]
-  },
-  {
-   "noteId": "p19:2",
-   "anchor": "footer",
-   "page": 19,
-   "bbox": [
-    42.52,
-    818.04,
-    50.11,
-    830.04
-   ],
-   "number": "#",
-   "text": "19",
-   "textPages": [
-    19
-   ]
-  },
-  {
-   "noteId": "p19:3",
    "anchor": "footer",
    "page": 19,
    "bbox": [
     319.37,
     787.21,
     554.42,
-    803.56
+    795.91
    ],
    "number": "**",
-   "text": "末期疾病並不在危疾多重額外保障的保障範圍內(只適用於永明危疾 「至尊」保)。",
+   "text": "末期疾病並不在危疾多重額外保障的保障範圍內(只適用於永明危疾",
    "textPages": [
     19
    ]
   },
   {
-   "noteId": "p11:inline8",
+   "noteId": "p11:inline9",
    "anchor": "inline",
    "page": 11,
    "bbox": [
@@ -158,7 +174,7 @@
    ]
   },
   {
-   "noteId": "p11:inline9",
+   "noteId": "p11:inline10",
    "anchor": "inline",
    "page": 11,
    "bbox": [
@@ -174,7 +190,7 @@
    ]
   },
   {
-   "noteId": "p12:inline10",
+   "noteId": "p12:inline11",
    "anchor": "inline",
    "page": 12,
    "bbox": [
@@ -190,7 +206,7 @@
    ]
   },
   {
-   "noteId": "p12:inline11",
+   "noteId": "p12:inline12",
    "anchor": "inline",
    "page": 12,
    "bbox": [
@@ -206,7 +222,7 @@
    ]
   },
   {
-   "noteId": "p12:inline12",
+   "noteId": "p12:inline13",
    "anchor": "inline",
    "page": 12,
    "bbox": [
@@ -222,7 +238,7 @@
    ]
   },
   {
-   "noteId": "p13:inline13",
+   "noteId": "p13:inline14",
    "anchor": "inline",
    "page": 13,
    "bbox": [
@@ -407,8 +423,7 @@
     "p3:1",
     "p6:1",
     "p7:2",
-    "p8:1",
-    "p19:1"
+    "p8:1"
    ],
    "targetDisplay": "P4 · 腳註 *",
    "confidence": 0.98,
@@ -645,6 +660,27 @@
    "group": null
   },
   {
+   "id": "h07238ad2",
+   "page": 7,
+   "bbox": [
+    181.08,
+    216.28,
+    183.33,
+    223.28
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "識仍然相當低。糖尿病可以引起多種疾病,並導致嚴重",
+   "targets": [
+    "p7:1"
+   ],
+   "targetDisplay": "P8 · 腳註 #",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
    "id": "h073e9eb5",
    "page": 7,
    "bbox": [
@@ -662,6 +698,67 @@
    "source": "derived",
    "nativeLink": null,
    "group": null
+  },
+  {
+   "id": "h07c699d0",
+   "page": 7,
+   "bbox": [
+    441.69,
+    347.09,
+    449.8,
+    356.69
+   ],
+   "text": "+",
+   "kind": "asterisk",
+   "contextBefore": "有保障額之25%的額外賠償危疾保障內的應支付金額",
+   "targets": [
+    "p12:1",
+    "p13:1",
+    "p15:1"
+   ],
+   "targetDisplay": "P13 · 腳註 +",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h081f8e4d",
+   "page": 8,
+   "bbox": [
+    225.22,
+    266.28,
+    234.68,
+    273.28
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "高達原有保障額之400%的癌症賠償。危疾多重額外",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0001"
+  },
+  {
+   "id": "h0873d06d",
+   "page": 8,
+   "bbox": [
+    225.22,
+    266.28,
+    234.68,
+    273.28
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "高達原有保障額之400%的癌症賠償。危疾多重額外",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0001"
   },
   {
    "id": "h083e5edc",
@@ -696,7 +793,6 @@
    "contextBefore": "最高總賠償限額",
    "targets": [
     "p8:1",
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2"
@@ -1069,6 +1165,29 @@
    "group": null
   },
   {
+   "id": "h1535fddc",
+   "page": 15,
+   "bbox": [
+    488.44,
+    641.65,
+    495.58,
+    653.65
+   ],
+   "text": "+",
+   "kind": "asterisk",
+   "contextBefore": "(預支)按比例計",
+   "targets": [
+    "p15:1",
+    "p12:1",
+    "p13:1"
+   ],
+   "targetDisplay": "P16 · 腳註 +",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
    "id": "h16910406",
    "page": 16,
    "bbox": [
@@ -1221,6 +1340,52 @@
    "group": null
   },
   {
+   "id": "h16e77c5d",
+   "page": 16,
+   "bbox": [
+    375.04,
+    537.48,
+    382.18,
+    549.48
+   ],
+   "text": "+",
+   "kind": "asterisk",
+   "contextBefore": "(額外)危疾保障",
+   "targets": [
+    "p12:1",
+    "p13:1",
+    "p15:1"
+   ],
+   "targetDisplay": "P13 · 腳註 +",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h168ce7c6",
+   "page": 16,
+   "bbox": [
+    488.44,
+    537.48,
+    495.58,
+    549.48
+   ],
+   "text": "+",
+   "kind": "asterisk",
+   "contextBefore": "(額外)危疾保障",
+   "targets": [
+    "p12:1",
+    "p13:1",
+    "p15:1"
+   ],
+   "targetDisplay": "P13 · 腳註 +",
+   "confidence": 0.75,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
    "id": "h16713c43",
    "page": 16,
    "bbox": [
@@ -1275,7 +1440,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0001"
+   "group": "g0002"
   },
   {
    "id": "h178ce4cd",
@@ -1294,7 +1459,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0001"
+   "group": "g0002"
   },
   {
    "id": "h171aeff4",
@@ -1461,14 +1626,13 @@
    "kind": "asterisk",
    "contextBefore": "管、陰道、睪丸或陰莖)",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1486,14 +1650,13 @@
    "kind": "asterisk",
    "contextBefore": "狀癌及AJCC第二期或以上的非黑色瘤皮膚癌)",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1511,14 +1674,13 @@
    "kind": "asterisk",
    "contextBefore": "肝炎伴肝硬化",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1536,14 +1698,13 @@
    "kind": "asterisk",
    "contextBefore": "慢性自體免疫肝炎",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1561,14 +1722,13 @@
    "kind": "asterisk",
    "contextBefore": "嚴重哮喘",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1586,14 +1746,13 @@
    "kind": "asterisk",
    "contextBefore": "心臟起搏器或除顫器植入",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1611,14 +1770,13 @@
    "kind": "asterisk",
    "contextBefore": "周圍動脈疾病的血管介入治療",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1636,14 +1794,13 @@
    "kind": "asterisk",
    "contextBefore": "主動脈疾病或主動脈瘤的血管介入治療",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1661,14 +1818,13 @@
    "kind": "asterisk",
    "contextBefore": "微創性直接冠狀動脈搭橋術",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1686,14 +1842,13 @@
    "kind": "asterisk",
    "contextBefore": "血管成形術及其他冠狀動脈之創傷性治療法",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1711,14 +1866,13 @@
    "kind": "asterisk",
    "contextBefore": "川崎病",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1736,14 +1890,13 @@
    "kind": "asterisk",
    "contextBefore": "風濕熱合併心瓣膜損害",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1761,14 +1914,13 @@
    "kind": "asterisk",
    "contextBefore": "頸動脈成形術及其它頸動脈手術",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1786,14 +1938,13 @@
    "kind": "asterisk",
    "contextBefore": "智力受損",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1811,14 +1962,13 @@
    "kind": "asterisk",
    "contextBefore": "糖尿病引致的腎臟病變",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1836,14 +1986,13 @@
    "kind": "asterisk",
    "contextBefore": "糖尿病引致的視網膜病變",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1861,9 +2010,30 @@
    "kind": "asterisk",
    "contextBefore": "末期疾病",
    "targets": [
-    "p19:3"
+    "p19:1"
    ],
    "targetDisplay": "P20 · 腳註 **",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h191309b5",
+   "page": 19,
+   "bbox": [
+    338.11,
+    629.4,
+    339.96,
+    636.6
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "意外引起脊椎骨折",
+   "targets": [
+    "p7:1"
+   ],
+   "targetDisplay": "P8 · 腳註 #",
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
@@ -1882,14 +2052,13 @@
    "kind": "asterisk",
    "contextBefore": "因意外受傷而接受面部重建手術",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1907,14 +2076,13 @@
    "kind": "asterisk",
    "contextBefore": "A型血友病及B型血友病",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1932,14 +2100,13 @@
    "kind": "asterisk",
    "contextBefore": "胰島素依賴型糖尿病",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1957,14 +2124,13 @@
    "kind": "asterisk",
    "contextBefore": "成骨不全症",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1982,14 +2148,13 @@
    "kind": "asterisk",
    "contextBefore": "蒂爾病",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2007,14 +2172,13 @@
    "kind": "asterisk",
    "contextBefore": "嚴重自閉症",
    "targets": [
-    "p19:1",
     "p3:1",
     "p6:1",
     "p7:2",
     "p8:1"
    ],
-   "targetDisplay": "P20 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P4 · 腳註 *",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2073,8 +2237,7 @@
     "p3:1",
     "p6:1",
     "p7:2",
-    "p8:1",
-    "p19:1"
+    "p8:1"
    ],
    "targetDisplay": "P4 · 腳註 *",
    "confidence": 0.75,
@@ -2084,8 +2247,8 @@
   }
  ],
  "stats": {
-  "anchors": 89,
-  "notes": 14,
-  "resolved": 26
+  "anchors": 97,
+  "notes": 15,
+  "resolved": 32
  }
 }

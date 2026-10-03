@@ -49,10 +49,16 @@ class ParsedNote:
         return (x0, y0, x1, y1)
 
 
-def _match_item(text: str, config: ParseConfig, t4: bool = False) -> "re.Match | None":
-    """行首编号判定。T4 区域额外启用罗马数字/符号编号通道（§5.2）。"""
-    pats = (config.item_pat, config.roman_item_pat, config.symbol_item_pat) if t4 \
-        else (config.item_pat,)
+def _match_item(text: str, config: ParseConfig, t4: bool = False,
+                t2: bool = False) -> "re.Match | None":
+    """行首编号判定。TAB/裸編號僅 T2 區域啟用（1.15 來源塊專用——在 T1/T4 啟用
+    會把保費表行標籤 '786'、目錄行誤判為條目，實測 +658 假注釋）；T4 区域额外
+    启用罗马数字/符号编号通道（§5.2）。"""
+    pats = (config.item_pat,)
+    if t2:
+        pats = pats + (config.tab_item_pat, config.bare_num_pat)
+    if t4:
+        pats = pats + (config.roman_item_pat, config.symbol_item_pat)
     for pat in pats:
         m = re.match(pat, text)
         if m:
@@ -61,10 +67,32 @@ def _match_item(text: str, config: ParseConfig, t4: bool = False) -> "re.Match |
 
 
 def _try_t2(page: int, pls: list, h: float, config: ParseConfig) -> NoteRegion | None:
-    """T2：整页编号行模式（无标题兜底，保守：仅限无大标题、编号行占据大半页的页面）。"""
-    item_lines = [l for l in pls if re.match(config.item_pat, l.text)]
+    """T2：整页编号行模式（无标题兜底，保守：仅限无大标题、编号行占据大半页的页面）。
+
+    1.15：候选行含 TAB 编号（'1\t 資料來源' 来源块，showdoc P7 實測——無標題、
+    位於頁面上半部，條目僅佔頁高 36%）；跨度條件改為「內容範圍佔比 + 頁高絕對
+    下限」雙條件——純頁高會漏掉上部來源塊，純內容範圍會在內容稀疏頁（信函
+    3 個編號段落）誤觸發。
+    """
+    item_lines = [l for l in pls
+                  if re.match(config.item_pat, l.text)
+                  or re.match(config.tab_item_pat, l.text)
+                  or (re.match(config.bare_num_pat, l.text)
+                      and 0.06 * h <= l.bbox[1] <= 0.9 * h)]   # 排除頁碼（頁眉/頁腳裸數字，FWD p20 '19' 實測）
     if not item_lines:
         return None
+    # 序列門（1.15）：tab/裸編號候選須從 1 起且 ≤24（真來源塊 1-13；保費表行
+    # 標籤 19-993、目錄頁碼 6-8、表格 legend 3-9 全滅）。僅約束**純** tab/裸行
+    # ——同時匹配 item_pat 的行（'12.\t一旦…' 點號+TAB 緊排）屬可信點號條目，
+    # 不參與門控（愛伴航 P19 整頁被誤殺實測）。
+    tb = [int(m.group(1)) for l in item_lines
+          if not re.match(config.item_pat, l.text)
+          and (m := (re.match(config.tab_item_pat, l.text)
+                     or re.match(config.bare_num_pat, l.text)))]
+    if tb:
+        distinct = sorted(set(tb))
+        if distinct[0] != 1 or distinct[-1] > 24:
+            return None
     page_max = max(s.size for l in pls for s in l.spans)
     if page_max > config.t2_max_head_size:
         return None                    # 表格页/正文页（带大标题），排除
@@ -73,8 +101,18 @@ def _try_t2(page: int, pls: list, h: float, config: ParseConfig) -> NoteRegion |
     if len(small) < config.t2_min_items or not small:
         return None
     y_span = (max(l.bbox[3] for l in small) - min(l.bbox[1] for l in small))
-    if y_span >= h * config.t2_min_span_ratio and small[0].bbox[1] < h * 0.5:
-        return NoteRegion(page, "standalone", False, small, kind="t2")
+    extent = max((l.bbox[3] for l in pls), default=0.0) - min((l.bbox[1] for l in pls), default=0.0)
+    if (y_span >= extent * config.t2_min_span_ratio
+            and y_span >= h * config.t2_min_abs_span
+            and small[0].bbox[1] < h * 0.5):
+        # 區域組成含條目帶內全部行（1.15）：T2 原來只收編號行，條目續行被排除
+        # ——懸掛編號（'5'）後無內容行可合併而被丟棄、條目文本缺續行
+        # （showdoc P7 實測）。帶 = 首條目 y0 ～ 末條目 y1+15pt（末條目續行）。
+        first_y = min(l.bbox[1] for l in small)
+        last_y = max(l.bbox[3] for l in small)
+        block = [l for l in pls
+                 if l.bbox[1] >= first_y - 2 and l.bbox[3] <= last_y + 15]
+        return NoteRegion(page, "standalone", False, block, kind="t2")
     return None
 
 
@@ -294,10 +332,33 @@ def parse_region(region: NoteRegion, config: ParseConfig) -> list[ParsedNote]:
     cur: ParsedNote | None = None
     pending_number: str | None = None     # 整行仅编号的悬挂编号
     t4 = region.kind in ("t4", "t5")      # T4/T5 均启用罗马数字/符号编号通道
-    for ln in region.lines:
+    t2 = region.kind == "t2"              # T2 才启用 TAB/裸編號（來源塊專用）
+    # 1.15 懸掛編號倒序修復：小字號編號行的 bbox y0 常略大於同帶內容行（字體
+    # 基線差，showdoc P7 '5' 與其內容行差 2pt），(y,x) 序會把內容行排在前，
+    # 內容被併入上一條目、編號懸空丟失。若 bare 編號行落在前一行的 y 帶內且
+    # x0 更小（編號列在左），交換兩行讓編號行先出現。
+    reordered: list = []
+    for i, ln in enumerate(region.lines):
+        if ln.text and all("\ue000" <= ch <= "\uf8ff" for ch in ln.text):
+            reordered.append(ln)
+            continue
+        m = _match_item(ln.text, config, t4=t4, t2=t2)
+        # 前瞻：編號行後已緊跟右側內容行的（y 帶重疊）＝本已配對，不得交換
+        # （愛伴航 P15 '2./內容' 序實測——誤交換會令全部條目錯位 +1）
+        followed = (i + 1 < len(region.lines)
+                    and region.lines[i + 1].bbox[0] > ln.bbox[0] + 2
+                    and region.lines[i + 1].bbox[1] < ln.bbox[3]
+                    and region.lines[i + 1].bbox[3] > ln.bbox[1])
+        if (m and not followed and not (m.group(2) or "").strip() and reordered
+                and reordered[-1].bbox[1] < ln.bbox[1] < reordered[-1].bbox[3]
+                and ln.bbox[0] < reordered[-1].bbox[0] - 2):
+            reordered.insert(len(reordered) - 1, ln)
+        else:
+            reordered.append(ln)
+    for ln in reordered:
         if ln.text and all("\ue000" <= ch <= "\uf8ff" for ch in ln.text):
             continue                      # 私有区符号行（Wingdings 箭头等）不可作编号/内容
-        m = _match_item(ln.text, config, t4=t4)
+        m = _match_item(ln.text, config, t4=t4, t2=t2)
         if m:
             rest = (m.group(2) or "").strip()
             if rest:                      # 编号与内容同行：新条目

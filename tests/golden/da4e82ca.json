@@ -1,5 +1,5 @@
 {
- "version": "1.14",
+ "version": "1.15",
  "docId": "da4e82ca",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/showdoc.jsp.pdf",
@@ -14,7 +14,231 @@
  },
  "notes": [
   {
+   "noteId": "p6:1",
+   "anchor": "standalone",
+   "page": 6,
+   "bbox": [
+    28.35,
+    96.46,
+    350.23,
+    106.89
+   ],
+   "number": "1",
+   "text": "資料來源:政府統計處 - 消費物價指數(2023年2月公佈),以2012年消費物價指數計算。",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p6:2",
+   "anchor": "standalone",
+   "page": 6,
+   "bbox": [
+    28.35,
+    110.71,
+    528.42,
+    121.14
+   ],
+   "number": "2",
+   "text": "資料來源:養和醫院 - 病房收費(資料搜集日期:2024年1月)(www.hksh-hospital.com/zh-hk/fees-and-charges/accommodation-charges)。",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p6:3",
+   "anchor": "standalone",
+   "page": 6,
+   "bbox": [
+    28.35,
+    124.96,
+    300.07,
+    135.4
+   ],
+   "number": "3",
+   "text": "截至2024年4月1日,與香港主要保險公司提供的個人醫療保險計劃比較。",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p6:4",
+   "anchor": "standalone",
+   "page": 6,
+   "bbox": [
+    28.35,
+    139.22,
+    566.93,
+    159.65
+   ],
+   "number": "4",
+   "text": "假設治療期為3年,乳癌及肺癌治療費用包括診斷、化療、電療及標靶治療等費用。資料來源:仁安醫院收費表(2023年5月15日更新),養和醫院收費 表(2023年8月1日更新),香港乳癌及乳病治療中心,癌症基金會及媒體報導。",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p6:5",
+   "anchor": "standalone",
+   "page": 6,
+   "bbox": [
+    41.11,
+    163.47,
+    567.02,
+    183.9
+   ],
+   "number": "5",
+   "text": "資料來源:香港政府統計處《主題性住戶統計調查第78號報告書》(2024年1月出版)(www.censtatd.gov.hk/en/data/stat_report/product/C0000022/att/ B11302782024XXXXB0100.pdf)。",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p6:6",
+   "anchor": "standalone",
+   "page": 6,
+   "bbox": [
+    28.35,
+    187.72,
+    454.04,
+    198.16
+   ],
+   "number": "6",
+   "text": "資料來源:衞生防護中心非傳染病處《2020-22年度人口健康調查報告書(第一部)》(資料搜集日期:2023年11月)。",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p6:7",
+   "anchor": "standalone",
+   "page": 6,
+   "bbox": [
+    28.35,
+    201.98,
+    353.11,
+    212.41
+   ],
+   "number": "7",
+   "text": "索賠金額受限於保單的每年保障限額及終身保障限額,全數賠償是指不設分項賠償限額。",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p6:8",
+   "anchor": "standalone",
+   "page": 6,
+   "bbox": [
+    28.35,
+    216.23,
+    566.74,
+    289.42
+   ],
+   "number": "8",
+   "text": "處方的第三期臨床試驗藥物必須已在實驗室測試並獲得以下其中一間監管機構批准,就治療指定癌症作人體測試及/或治療,可用作進行第三期臨床 試驗: •美國食品和藥物管理局 (FDA) •歐洲藥品管理局 (EMA) •中國國家藥品監督管理局 (NMPA) •香港衛生署 •澳門衛生局 及於處方給受保人時,該第三期臨床試驗藥物必須是正在進行第三期臨床試驗階段,而該第三期臨床試驗必須由該藥物施用地區之相關研究倫理委員 會批准,而該委員會在初步審查後認為該第三期臨床試驗藥物對該指定癌症是有效的治療。",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p6:9",
+   "anchor": "standalone",
+   "page": 6,
+   "bbox": [
+    28.35,
+    293.24,
+    400.28,
+    303.68
+   ],
+   "number": "9",
+   "text": "資料來源:醫理說,2021年12月26日,www.healthcarethinkers.com/2021/12/藥物進步助與癌共存/。",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p6:10",
+   "anchor": "standalone",
+   "page": 6,
+   "bbox": [
+    28.35,
+    307.49,
+    307.75,
+    317.92
+   ],
+   "number": "10",
+   "text": "就指定癌症的定義,詳情請參閱本產品簡介第18頁之「產品限制」第16項。",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p6:11",
+   "anchor": "standalone",
+   "page": 6,
+   "bbox": [
+    28.35,
+    321.75,
+    566.74,
+    352.18
+   ],
+   "number": "11",
+   "text": "若受保人由專科醫生確診有第三期或第四期惡性瘤,或現有的非實驗性治療無法治癒的末期血癌,並有由專科醫生簽發醫生證明書,證明第三期臨床 試驗藥物是由專科醫生處方及由專科醫生認為處方第三期臨床試驗藥物是對受保人罹患的指定癌症為合適或建議的積極治療或紓緩治療,我們將支付 此賠償。已獲任何其他第三方提供的任何收費或費用(包括第三期臨床試驗藥物的藥劑製品公司、製造商及/或營銷商的贊助)將不受保障。",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p6:12",
+   "anchor": "standalone",
+   "page": 6,
+   "bbox": [
+    28.35,
+    356.0,
+    566.71,
+    376.43
+   ],
+   "number": "12",
+   "text": "就香港、澳門及中國大陸以外的地方所招致並可在第三期及第四期指定癌症及無法治癒的血液系統惡性腫瘤之第三期臨床試驗藥物賠償下獲賠償的 任何合理及慣常的收費而言,在計算應付賠償總額時,該招致的合理及慣常的收費將減少至60%,且不多於每保單年度500,000港元或62,500美元。",
+   "textPages": [
+    6
+   ]
+  },
+  {
+   "noteId": "p6:13",
+   "anchor": "standalone",
+   "page": 6,
+   "bbox": [
+    28.35,
+    380.25,
+    566.93,
+    400.68
+   ],
+   "number": "13",
+   "text": "若保單持有人或受保人在保單生效日起計首90日內已察覺或理應察覺該指定癌症,此長者癌症支援 – 豁免自付費將不適用。此豁免自付費將不適用於 每年自付費選項為$0的保單。",
+   "textPages": [
+    6
+   ]
+  },
+  {
    "noteId": "p7:1",
+   "anchor": "footer",
+   "page": 7,
+   "bbox": [
+    28.35,
+    790.03,
+    318.76,
+    801.77
+   ],
+   "number": "+",
+   "text": "此服務由友邦香港指定服務供應商在中國大陸及香港提供,並不適用於澳門區域。",
+   "textPages": [
+    7
+   ]
+  },
+  {
+   "noteId": "p7:2",
    "anchor": "footer",
    "page": 7,
    "bbox": [
@@ -35,6 +259,22 @@
    "page": 9,
    "bbox": [
     28.35,
+    777.77,
+    348.85,
+    801.54
+   ],
+   "number": "^",
+   "text": "索賠金額受限於保單的每年保障限額及終身保障限額,全數賠償是指不設分項賠償限額。 賠償金額以保障表所列明的保障限額為限,包括受限於每年保障限額及終身保障限額。",
+   "textPages": [
+    9
+   ]
+  },
+  {
+   "noteId": "p9:2",
+   "anchor": "footer",
+   "page": 9,
+   "bbox": [
+    28.35,
     804.44,
     129.6,
     814.87
@@ -46,19 +286,51 @@
    ]
   },
   {
+   "noteId": "p9:3",
+   "anchor": "footer",
+   "page": 9,
+   "bbox": [
+    395.68,
+    733.96,
+    474.02,
+    745.7
+   ],
+   "number": "+",
+   "text": "手術後家中看護惠益",
+   "textPages": [
+    9
+   ]
+  },
+  {
    "noteId": "p10:1",
    "anchor": "footer",
    "page": 10,
    "bbox": [
-    294.79,
-    722.9,
-    333.87,
-    751.95
+    245.0,
+    579.27,
+    410.06,
+    591.9
    ],
    "number": "~",
-   "text": "+ ~:",
+   "text": "治療以改善病情,並就此申請醫療費用預",
    "textPages": [
     10
+   ]
+  },
+  {
+   "noteId": "p11:1",
+   "anchor": "footer",
+   "page": 11,
+   "bbox": [
+    23.39,
+    738.51,
+    408.46,
+    814.44
+   ],
+   "number": "#",
+   "text": "指定澳門醫院名單刊載於本公司網頁 www.aia.com.hk 。公司有權就醫院名單不時作出更改、更新或修訂。 「香港」及「澳門」分別指「香港特別行政區」及「澳門特別行政區」。",
+   "textPages": [
+    11
    ]
   },
   {
@@ -243,12 +515,12 @@
    "page": 15,
    "bbox": [
     48.19,
-    567.0,
+    555.0,
     292.34,
-    624.65
+    602.73
    ],
    "number": "4",
-   "text": "會不時波動,您可能因匯率之波動而損失部分的利益價值, 而往後繳交的保費(如有)亦可能會比繳交的首次保費金額為 高。您應留意匯率風險並決定是否承擔該風險。 通脹會導致未來醫療費用增加。因此,本計劃的賠償金額以",
+   "text": "若保險計劃的貨幣並非本地貨幣,您須承受匯率風險。匯率 會不時波動,您可能因匯率之波動而損失部分的利益價值, 而往後繳交的保費(如有)亦可能會比繳交的首次保費金額為 高。您應留意匯率風險並決定是否承擔該風險。",
    "textPages": [
     15
    ]
@@ -259,12 +531,12 @@
    "page": 15,
    "bbox": [
     48.19,
-    624.91,
-    228.19,
+    612.92,
+    289.84,
     636.65
    ],
    "number": "5",
-   "text": "及未來保費率都有可能受調整,以反映通脹。",
+   "text": "通脹會導致未來醫療費用增加。因此,本計劃的賠償金額以 及未來保費率都有可能受調整,以反映通脹。",
    "textPages": [
     15
    ]
@@ -274,13 +546,13 @@
    "anchor": "standalone",
    "page": 16,
    "bbox": [
-    305.43,
+    28.35,
     117.05,
-    499.61,
-    128.78
+    536.99,
+    230.47
    ],
    "number": "1",
-   "text": "本計劃就特定項目的保障會於以下日期生效:",
+   "text": "本計劃就特定項目的保障會於以下日期生效: 償,詳見保障表第II(k)項) 生效日期 項目 (由保單生效後起計) • 受保人8歲前發病或確診的先天性疾病 受傷 即時 • 已獲任何法律,或由任何政府、僱主或第三方提供的醫療或保險 不適/疾病 即時 計劃賠償的合資格費用 專科網絡服務 即時 妊娠併發症惠益 • 戰爭(不論宣戰與否)、內戰、侵略、外敵行動、敵對行動、叛 300日 亂、革命、起義、或軍事政變或奪權事故",
    "textPages": [
     16
    ]
@@ -290,13 +562,13 @@
    "anchor": "standalone",
    "page": 16,
    "bbox": [
-    305.43,
+    28.34,
     230.9,
     566.93,
-    242.64
+    291.37
    ],
    "number": "2",
-   "text": "就未知的投保前已有病症,本計劃會在第1個保單年度的第31",
+   "text": "就未知的投保前已有病症,本計劃會在第1個保單年度的第31 上述只供參考,有關全部及詳細不保事項,請參閱此計劃之保單契 日起及以後提供100%保障。該保障並不適用於第1個保單年度 約。 的首30日。 保費調整及產品內容改動",
    "textPages": [
     16
    ]
@@ -309,10 +581,10 @@
     305.43,
     281.07,
     566.93,
-    292.81
+    304.8
    ],
    "number": "3",
-   "text": "本計劃下的合資格費用包括由醫療服務所產生的增值稅和商品",
+   "text": "本計劃下的合資格費用包括由醫療服務所產生的增值稅和商品 及服務稅。",
    "textPages": [
     16
    ]
@@ -324,11 +596,11 @@
    "bbox": [
     28.35,
     300.09,
-    78.52,
-    312.33
+    353.43,
+    345.25
    ],
    "number": "1",
-   "text": "保費調整",
+   "text": "保費調整 產品限制 為了持續向您提供保障,我們會每年覆核您計劃下的保費。如 有需要,我們會於保單年度終結時作出相應調整。本計劃的保",
    "textPages": [
     16
    ]
@@ -338,13 +610,13 @@
    "anchor": "standalone",
    "page": 16,
    "bbox": [
-    305.43,
+    41.11,
     338.92,
-    566.93,
-    350.66
+    567.02,
+    486.34
    ],
    "number": "1",
-   "text": "我們只會根據「醫療所需」和「合理及慣常」的原則,為受保人",
+   "text": "我們只會根據「醫療所需」和「合理及慣常」的原則,為受保人 單或本計劃下若干保障選項的保單可能會有整體保費調整。我 所需支付的費用及/或開支作出賠償。 們在覆核時會考慮的因素包括但不限於: 「醫療所需」是指按照一般公認的醫療標準,就診斷或治療相 •此計劃及任何其他由我們決定的相似計劃產生之索賠成本及 關傷病接受醫療服務的需要,而醫療服務必須符合下列條件: 該等保單於未來保單年度的預期索賠支出(反映醫療趨勢、醫 療成本通脹和產品內容改動所帶來的影響) • 需要註冊醫生的專業知識或轉介; •過往投資回報及此計劃相關資產的未來展望 • 符合該傷病的診斷及治療所需; •此計劃的保單退保以及失效情況 •按良好而審慎的醫學標準及主診註冊醫生審慎的專業判斷提 供,而非主要為對受保人、其家庭成員、照顧人員或主診註 •與此計劃直接有關的支出及分配至此計劃的間接開支 冊醫生帶來方便或舒適而提供;",
    "textPages": [
     16
    ]
@@ -356,17 +628,193 @@
    "bbox": [
     28.36,
     491.62,
-    99.03,
-    503.86
+    566.97,
+    508.26
    ],
    "number": "2",
-   "text": "產品內容改動",
+   "text": "產品內容改動 •在環境最適當及符合一般公認的醫療標準的設備下,提供醫",
    "textPages": [
     16
    ]
   },
   {
-   "noteId": "p7:inline22",
+   "noteId": "p17:1",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    41.1,
+    192.67,
+    566.95,
+    276.39
+   ],
+   "number": "8",
+   "text": "如受保人為美國公民,於美國發生任何急症治療,並於該治 療之前的連續12個月內在美國逗留連續或累計達182日或以上 • 公司內部或業界的賠償統計; (包括到達及離境日子),就該急症治療所招致的任何合資格費 用及/或合理及慣常收費,在計算應付賠償總額時將減至50%, • 政府憲報;及/或 受限於上述的第(7)項。該減少之應付賠償適用於保障表內的所有 • 提供治療、服務或物料當地的其他相關參考資料。 保障項目(保障項目II(f)、(g)、(h)(iii)、(j)、(l)及(n)除外)。為免存 疑,如保障項目II(k)提述就香港、澳門及中國大陸以外合資格費",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:2",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    28.34,
+    272.51,
+    566.92,
+    332.23
+   ],
+   "number": "2",
+   "text": "「亞洲」是指阿富汗、澳洲、孟加拉、不丹、汶萊、柬埔寨、 用的減少及此第(8)項提述的減少應付賠償同時適用的情況下, 中國大陸、香港、印度、印尼、日本、哈薩克、吉爾吉斯、老 應付賠償總額將先根據保障項目II(k)減少至60%後,再根據此 撾、澳門、馬來西亞、馬爾代夫、蒙古、緬甸、尼泊爾、新西 第(8)項進一步扣減50%。 蘭、北韓、巴基斯坦、菲律賓、新加坡、南韓、斯里蘭卡、台 灣、塔吉克、泰國、東帝汶、土庫曼、烏茲別克及越南。",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:3",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    305.42,
+    322.57,
+    566.89,
+    346.3
+   ],
+   "number": "9",
+   "text": "於作出上述第(7)及/或第(8)項的保障調整(於扣除每年自付費 余額前)之後,應付賠償(於扣除每年自付費余額前)不應少於按",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:4",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    28.33,
+    342.42,
+    566.92,
+    370.29
+   ],
+   "number": "3",
+   "text": "「美國」是指美利堅合眾國及美國本土外小島嶼。 基礎計劃保障表內的余下限額(於扣除每年自付費余額前)應付 的賠償。",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:5",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    28.33,
+    364.34,
+    281.47,
+    376.08
+   ],
+   "number": "4",
+   "text": "「半私家房」是指在醫院內設有共用浴室的單人或雙人房間。",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:6",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    305.43,
+    380.48,
+    566.98,
+    392.22
+   ],
+   "number": "10",
+   "text": "任何於所選計劃的地域保障範圍以外進行的非急症治療,每項手",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:7",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    28.33,
+    386.27,
+    566.98,
+    422.0
+   ],
+   "number": "5",
+   "text": "「標準私家房」是指在醫院內的連浴室的標準單人住房。為免 術的外科醫生費在基礎計劃保障表內之最高限額將視乎保單的手 存疑,「標準私家房」並不包括在醫院內相比連浴室的標準單 術表所列出的相關手術的分類及該手術程序所屬的分類而定。 人住房較多設施的任何房間。",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:8",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    305.43,
+    426.4,
+    566.93,
+    438.13
+   ],
+   "number": "11",
+   "text": "精神科治療(見保障表第I(l)項)只賠償受保人在專科醫生建議下,",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:9",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    28.32,
+    432.19,
+    557.92,
+    467.92
+   ],
+   "number": "6",
+   "text": "醫院提供不同設備的病房選項,而醫院就病房的分類可能與上 在香港及澳門境內住院接受精神科治療所收取的合資格費用。 述病房的釋義有所不同。若您對個別病房選項是否符合保單下 「半私家房」及「標準私家房」的釋義存疑,請在住院前與本",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:10",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    42.49,
+    460.32,
+    566.92,
+    484.05
+   ],
+   "number": "12",
+   "text": "如合資格費用已獲任何法律,或由任何政府、僱主或第三方提 公司聯絡。 供的醫療或保險計劃賠償,該費用將不會於保單下作出賠償。",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p17:11",
+   "anchor": "standalone",
+   "page": 17,
+   "bbox": [
+    28.31,
+    490.1,
+    289.56,
+    513.83
+   ],
+   "number": "7",
+   "text": "不論受保人在住院期間入住任何病房級別,他都會獲得保障。 然而,如受保人所入住的病房級別較計劃所保障的為高,他所",
+   "textPages": [
+    17
+   ]
+  },
+  {
+   "noteId": "p7:inline50",
    "anchor": "inline",
    "page": 7,
    "bbox": [
@@ -382,7 +830,7 @@
    ]
   },
   {
-   "noteId": "p8:inline23",
+   "noteId": "p8:inline51",
    "anchor": "inline",
    "page": 8,
    "bbox": [
@@ -412,11 +860,13 @@
    "kind": "numeric",
    "contextBefore": "員醫療福利保障",
    "targets": [
+    "p6:5",
     "p14:5",
-    "p15:2"
+    "p15:2",
+    "p17:7"
    ],
-   "targetDisplay": "P15 · 腳註 5",
-   "confidence": 0.8,
+   "targetDisplay": "P7 · 備註 5",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -434,11 +884,13 @@
    "kind": "numeric",
    "contextBefore": "且不受其他個人醫療保險計劃",
    "targets": [
+    "p6:3",
     "p14:3",
-    "p16:3"
+    "p16:3",
+    "p17:4"
    ],
-   "targetDisplay": "P15 · 腳註 3",
-   "confidence": 0.8,
+   "targetDisplay": "P7 · 備註 3",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -456,13 +908,14 @@
    "kind": "numeric",
    "contextBefore": "累計上升約39%及27%1",
    "targets": [
+    "p6:1",
     "p14:1",
     "p16:1",
     "p16:4",
     "p16:5"
    ],
-   "targetDisplay": "P15 · 腳註 1",
-   "confidence": 0.8,
+   "targetDisplay": "P7 · 備註 1",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -480,13 +933,14 @@
    "kind": "numeric",
    "contextBefore": "累計上升約39%1及27%",
    "targets": [
+    "p6:1",
     "p14:1",
     "p16:1",
     "p16:4",
     "p16:5"
    ],
-   "targetDisplay": "P15 · 腳註 1",
-   "confidence": 0.8,
+   "targetDisplay": "P7 · 備註 1",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -504,12 +958,14 @@
    "kind": "numeric",
    "contextBefore": "每日可高達3,800港元",
    "targets": [
+    "p6:2",
     "p14:2",
     "p16:2",
-    "p16:6"
+    "p16:6",
+    "p17:2"
    ],
-   "targetDisplay": "P15 · 腳註 2",
-   "confidence": 0.8,
+   "targetDisplay": "P7 · 備註 2",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -527,10 +983,12 @@
    "kind": "numeric",
    "contextBefore": "體檢查",
    "targets": [
-    "p14:6"
+    "p6:6",
+    "p14:6",
+    "p17:9"
    ],
-   "targetDisplay": "P15 · 腳註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P7 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -548,11 +1006,13 @@
    "kind": "numeric",
    "contextBefore": "100萬港元",
    "targets": [
+    "p6:4",
     "p14:4",
-    "p15:1"
+    "p15:1",
+    "p17:5"
    ],
-   "targetDisplay": "P15 · 腳註 4",
-   "confidence": 0.8,
+   "targetDisplay": "P7 · 備註 4",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -570,11 +1030,13 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
+    "p6:3",
     "p14:3",
-    "p16:3"
+    "p16:3",
+    "p17:4"
    ],
-   "targetDisplay": "P15 · 腳註 3",
-   "confidence": 0.8,
+   "targetDisplay": "P7 · 備註 3",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -592,10 +1054,12 @@
    "kind": "numeric",
    "contextBefore": "全數賠償主要醫療費用,",
    "targets": [
-    "p14:7"
+    "p6:7",
+    "p14:7",
+    "p17:11"
    ],
-   "targetDisplay": "P15 · 腳註 7",
-   "confidence": 0.98,
+   "targetDisplay": "P7 · 備註 7",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -613,10 +1077,12 @@
    "kind": "numeric",
    "contextBefore": "治療後護理,為您全數支付以下一系列主要保障項目:",
    "targets": [
-    "p14:7"
+    "p6:7",
+    "p14:7",
+    "p17:11"
    ],
-   "targetDisplay": "P15 · 腳註 7",
-   "confidence": 0.98,
+   "targetDisplay": "P7 · 備註 7",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -634,10 +1100,12 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
+    "p6:3",
     "p14:3",
-    "p16:3"
+    "p16:3",
+    "p17:4"
    ],
-   "targetDisplay": "P15 · 腳註 3",
+   "targetDisplay": "P7 · 備註 3",
    "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
@@ -656,10 +1124,12 @@
    "kind": "numeric",
    "contextBefore": "第三期臨床試驗藥物賠償",
    "targets": [
-    "p14:8"
+    "p6:8",
+    "p14:8",
+    "p17:1"
    ],
-   "targetDisplay": "P15 · 腳註 8",
-   "confidence": 0.98,
+   "targetDisplay": "P7 · 備註 8",
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -677,13 +1147,60 @@
    "kind": "numeric",
    "contextBefore": "雖然可能有療效,但價格高昂,令許多患者",
    "targets": [
-    "p14:9"
+    "p6:9",
+    "p14:9",
+    "p17:3"
    ],
-   "targetDisplay": "P15 · 腳註 9",
-   "confidence": 0.98,
+   "targetDisplay": "P7 · 備註 9",
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
+  },
+  {
+   "id": "h0439a9cf",
+   "page": 4,
+   "bbox": [
+    212.21,
+    441.76,
+    227.73,
+    448.23
+   ],
+   "text": "10",
+   "kind": "numeric",
+   "contextBefore": "統惡性腫瘤之第三期臨床試驗藥物賠償就",
+   "targets": [
+    "p6:10",
+    "p14:10",
+    "p17:6"
+   ],
+   "targetDisplay": "P7 · 備註 10",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0001"
+  },
+  {
+   "id": "h04fd91e2",
+   "page": 4,
+   "bbox": [
+    212.21,
+    441.76,
+    227.73,
+    448.23
+   ],
+   "text": "11",
+   "kind": "numeric",
+   "contextBefore": "統惡性腫瘤之第三期臨床試驗藥物賠償就",
+   "targets": [
+    "p6:11",
+    "p17:8"
+   ],
+   "targetDisplay": "P7 · 備註 11",
+   "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0001"
   },
   {
    "id": "h049de362",
@@ -698,10 +1215,12 @@
    "kind": "numeric",
    "contextBefore": "第三期臨床試驗藥物提供保障,金額高達每",
    "targets": [
-    "p14:8"
+    "p6:8",
+    "p14:8",
+    "p17:1"
    ],
-   "targetDisplay": "P15 · 腳註 8",
-   "confidence": 0.98,
+   "targetDisplay": "P7 · 備註 8",
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -718,9 +1237,12 @@
    "text": "12",
    "kind": "numeric",
    "contextBefore": "保單年度50萬港元或6.25萬美元。",
-   "targets": [],
-   "targetDisplay": null,
-   "confidence": 0.5,
+   "targets": [
+    "p6:12",
+    "p17:10"
+   ],
+   "targetDisplay": "P7 · 備註 12",
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -738,10 +1260,12 @@
    "kind": "numeric",
    "contextBefore": "癌症,我們將豁免就指定癌症引起的該醫",
    "targets": [
-    "p14:10"
+    "p6:10",
+    "p14:10",
+    "p17:6"
    ],
-   "targetDisplay": "P15 · 腳註 10",
-   "confidence": 0.98,
+   "targetDisplay": "P7 · 備註 10",
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -758,9 +1282,11 @@
    "text": "13",
    "kind": "numeric",
    "contextBefore": "負擔。",
-   "targets": [],
-   "targetDisplay": null,
-   "confidence": 0.5,
+   "targets": [
+    "p6:13"
+   ],
+   "targetDisplay": "P7 · 備註 13",
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -778,9 +1304,33 @@
    "kind": "numeric",
    "contextBefore": "由首個保單年度第31日開始提供全數賠償。",
    "targets": [
-    "p14:7"
+    "p6:7",
+    "p14:7",
+    "p17:11"
    ],
-   "targetDisplay": "P15 · 腳註 7",
+   "targetDisplay": "P7 · 備註 7",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h07949c6a",
+   "page": 7,
+   "bbox": [
+    224.95,
+    304.13,
+    228.62,
+    313.81
+   ],
+   "text": "+",
+   "kind": "asterisk",
+   "contextBefore": "專屬禮賓支援服務",
+   "targets": [
+    "p7:1",
+    "p9:3"
+   ],
+   "targetDisplay": "P8 · 腳註 +",
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
@@ -799,7 +1349,7 @@
    "kind": "asterisk",
    "contextBefore": "尊享優質醫療網絡",
    "targets": [
-    "p7:1",
+    "p7:2",
     "p14:11"
    ],
    "targetDisplay": "P8 · 腳註 *",
@@ -821,7 +1371,7 @@
    "kind": "asterisk",
    "contextBefore": "個人療程管理服務與復康管理",
    "targets": [
-    "p7:1",
+    "p7:2",
     "p14:11"
    ],
    "targetDisplay": "P8 · 腳註 *",
@@ -846,10 +1396,53 @@
     "p14:1",
     "p16:1",
     "p16:4",
-    "p16:5"
+    "p16:5",
+    "p6:1"
    ],
    "targetDisplay": "P15 · 腳註 1",
    "confidence": 0.8,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h11fd4c9a",
+   "page": 11,
+   "bbox": [
+    490.67,
+    555.65,
+    493.28,
+    560.82
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "港、澳門(不包括澳門指定之醫院名單)及中國大陸)",
+   "targets": [
+    "p11:1"
+   ],
+   "targetDisplay": "P12 · 腳註 #",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h116ff053",
+   "page": 11,
+   "bbox": [
+    527.79,
+    586.9,
+    530.4,
+    592.12
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "、澳門及中國大陸除外)及/或澳門指定之醫院名單)",
+   "targets": [
+    "p11:1"
+   ],
+   "targetDisplay": "P12 · 腳註 #",
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -869,7 +1462,9 @@
    "targets": [
     "p14:2",
     "p16:2",
-    "p16:6"
+    "p16:6",
+    "p17:2",
+    "p6:2"
    ],
    "targetDisplay": "P15 · 腳註 2",
    "confidence": 0.8,
@@ -891,7 +1486,9 @@
    "contextBefore": "•罹患指定癌症;及",
    "targets": [
     "p14:3",
-    "p16:3"
+    "p16:3",
+    "p17:4",
+    "p6:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
    "confidence": 0.8,
@@ -913,7 +1510,9 @@
    "contextBefore": "•\t因該指定癌症而接受任何醫療服務,",
    "targets": [
     "p14:3",
-    "p16:3"
+    "p16:3",
+    "p17:4",
+    "p6:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
    "confidence": 0.8,
@@ -935,7 +1534,9 @@
    "contextBefore": "受保人罹患的指定癌症所引起的該醫療服務有關的每年",
    "targets": [
     "p14:3",
-    "p16:3"
+    "p16:3",
+    "p17:4",
+    "p6:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
    "confidence": 0.8,
@@ -957,7 +1558,9 @@
    "contextBefore": "保障項目",
    "targets": [
     "p14:4",
-    "p15:1"
+    "p15:1",
+    "p17:5",
+    "p6:4"
    ],
    "targetDisplay": "P15 · 腳註 4",
    "confidence": 0.98,
@@ -979,7 +1582,7 @@
    "contextBefore": "全數賠償",
    "targets": [
     "p14:11",
-    "p7:1"
+    "p7:2"
    ],
    "targetDisplay": "P15 · 腳註 *",
    "confidence": 0.98,
@@ -1001,7 +1604,9 @@
    "contextBefore": "d.   專科醫生費",
    "targets": [
     "p14:5",
-    "p15:2"
+    "p15:2",
+    "p17:7",
+    "p6:5"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1023,7 +1628,7 @@
    "contextBefore": "不論手術的分類全數賠償",
    "targets": [
     "p14:11",
-    "p7:1"
+    "p7:2"
    ],
    "targetDisplay": "P15 · 腳註 *",
    "confidence": 0.98,
@@ -1045,7 +1650,7 @@
    "contextBefore": "全數賠償",
    "targets": [
     "p14:11",
-    "p7:1"
+    "p7:2"
    ],
    "targetDisplay": "P15 · 腳註 *",
    "confidence": 0.98,
@@ -1067,13 +1672,15 @@
    "contextBefore": "i.    訂明診斷成像檢測",
    "targets": [
     "p14:5",
-    "p15:2"
+    "p15:2",
+    "p17:7",
+    "p6:5"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0001"
+   "group": "g0002"
   },
   {
    "id": "h12082c1d",
@@ -1088,13 +1695,15 @@
    "kind": "numeric",
    "contextBefore": "i.    訂明診斷成像檢測",
    "targets": [
-    "p14:6"
+    "p14:6",
+    "p17:9",
+    "p6:6"
    ],
    "targetDisplay": "P15 · 腳註 6",
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0001"
+   "group": "g0002"
   },
   {
    "id": "h1224df92",
@@ -1109,7 +1718,9 @@
    "kind": "numeric",
    "contextBefore": "j.    訂明非手術癌症治療",
    "targets": [
-    "p14:7"
+    "p14:7",
+    "p17:11",
+    "p6:7"
    ],
    "targetDisplay": "P15 · 腳註 7",
    "confidence": 0.98,
@@ -1131,7 +1742,9 @@
    "contextBefore": "k.   入院前或出院後/日間手術前後的門診護理",
    "targets": [
     "p14:5",
-    "p15:2"
+    "p15:2",
+    "p17:7",
+    "p6:5"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1153,7 +1766,7 @@
    "contextBefore": "全數賠償",
    "targets": [
     "p14:11",
-    "p7:1"
+    "p7:2"
    ],
    "targetDisplay": "P15 · 腳註 *",
    "confidence": 0.98,
@@ -1175,7 +1788,7 @@
    "contextBefore": "全數賠償",
    "targets": [
     "p14:11",
-    "p7:1"
+    "p7:2"
    ],
    "targetDisplay": "P15 · 腳註 *",
    "confidence": 0.98,
@@ -1197,7 +1810,9 @@
    "contextBefore": "m. 私家看護費用",
    "targets": [
     "p14:5",
-    "p15:2"
+    "p15:2",
+    "p17:7",
+    "p6:5"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1219,7 +1834,7 @@
    "contextBefore": "全數賠償",
    "targets": [
     "p14:11",
-    "p7:1"
+    "p7:2"
    ],
    "targetDisplay": "P15 · 腳註 *",
    "confidence": 0.98,
@@ -1241,7 +1856,9 @@
    "contextBefore": "n.   透析費用惠益",
    "targets": [
     "p14:5",
-    "p15:2"
+    "p15:2",
+    "p17:7",
+    "p6:5"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1263,7 +1880,7 @@
    "contextBefore": "全數賠償",
    "targets": [
     "p14:11",
-    "p7:1"
+    "p7:2"
    ],
    "targetDisplay": "P15 · 腳註 *",
    "confidence": 0.98,
@@ -1285,7 +1902,9 @@
    "contextBefore": "o.   手術後家中看護惠益",
    "targets": [
     "p14:5",
-    "p15:2"
+    "p15:2",
+    "p17:7",
+    "p6:5"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1307,7 +1926,7 @@
    "contextBefore": "全數賠償",
    "targets": [
     "p14:11",
-    "p7:1"
+    "p7:2"
    ],
    "targetDisplay": "P15 · 腳註 *",
    "confidence": 0.98,
@@ -1329,7 +1948,9 @@
    "contextBefore": "p.  重建手術惠益",
    "targets": [
     "p14:5",
-    "p15:2"
+    "p15:2",
+    "p17:7",
+    "p6:5"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1351,7 +1972,7 @@
    "contextBefore": "全數賠償",
    "targets": [
     "p14:11",
-    "p7:1"
+    "p7:2"
    ],
    "targetDisplay": "P15 · 腳註 *",
    "confidence": 0.98,
@@ -1373,7 +1994,9 @@
    "contextBefore": "保障項目",
    "targets": [
     "p14:4",
-    "p15:1"
+    "p15:1",
+    "p17:5",
+    "p6:4"
    ],
    "targetDisplay": "P15 · 腳註 4",
    "confidence": 0.98,
@@ -1394,7 +2017,9 @@
    "kind": "numeric",
    "contextBefore": "器官移植手術費用總和的30%",
    "targets": [
-    "p14:8"
+    "p14:8",
+    "p17:1",
+    "p6:8"
    ],
    "targetDisplay": "P15 · 腳註 8",
    "confidence": 0.98,
@@ -1416,7 +2041,7 @@
    "contextBefore": "全數賠償",
    "targets": [
     "p14:11",
-    "p7:1"
+    "p7:2"
    ],
    "targetDisplay": "P15 · 腳註 *",
    "confidence": 0.98,
@@ -1438,7 +2063,9 @@
    "contextBefore": "d.   康復惠益",
    "targets": [
     "p14:5",
-    "p15:2"
+    "p15:2",
+    "p17:7",
+    "p6:5"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1460,7 +2087,9 @@
    "contextBefore": "e.   善終關懷服務惠益",
    "targets": [
     "p14:5",
-    "p15:2"
+    "p15:2",
+    "p17:7",
+    "p6:5"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1482,7 +2111,9 @@
    "contextBefore": "(i)  家中設備提升惠益",
    "targets": [
     "p14:5",
-    "p15:2"
+    "p15:2",
+    "p17:7",
+    "p6:5"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1504,7 +2135,9 @@
    "contextBefore": "神經外科醫生",
    "targets": [
     "p14:5",
-    "p15:2"
+    "p15:2",
+    "p17:7",
+    "p6:5"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1526,7 +2159,9 @@
    "contextBefore": "2.\t 腦神經科醫生",
    "targets": [
     "p14:5",
-    "p15:2"
+    "p15:2",
+    "p17:7",
+    "p6:5"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
@@ -1548,7 +2183,7 @@
    "contextBefore": "全數賠償",
    "targets": [
     "p14:11",
-    "p7:1"
+    "p7:2"
    ],
    "targetDisplay": "P15 · 腳註 *",
    "confidence": 0.98,
@@ -1570,7 +2205,9 @@
    "contextBefore": "保障項目",
    "targets": [
     "p14:4",
-    "p15:1"
+    "p15:1",
+    "p17:5",
+    "p6:4"
    ],
    "targetDisplay": "P15 · 腳註 4",
    "confidence": 0.98,
@@ -1592,7 +2229,9 @@
    "contextBefore": "\t 第三期及第四期指定癌症及無法治癒的血液系統惡",
    "targets": [
     "p14:3",
-    "p16:3"
+    "p16:3",
+    "p17:4",
+    "p6:3"
    ],
    "targetDisplay": "P15 · 腳註 3",
    "confidence": 0.98,
@@ -1614,13 +2253,15 @@
    "contextBefore": "性腫瘤之第三期臨床試驗藥物賠償",
    "targets": [
     "p14:5",
-    "p15:2"
+    "p15:2",
+    "p17:7",
+    "p6:5"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0002"
+   "group": "g0003"
   },
   {
    "id": "h1455cddc",
@@ -1635,13 +2276,15 @@
    "kind": "numeric",
    "contextBefore": "性腫瘤之第三期臨床試驗藥物賠償",
    "targets": [
-    "p14:9"
+    "p14:9",
+    "p17:3",
+    "p6:9"
    ],
    "targetDisplay": "P15 · 腳註 9",
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0002"
+   "group": "g0003"
   },
   {
    "id": "h147b0779",
@@ -1657,13 +2300,15 @@
    "contextBefore": "m. 妊娠併發症惠益",
    "targets": [
     "p14:5",
-    "p15:2"
+    "p15:2",
+    "p17:7",
+    "p6:5"
    ],
    "targetDisplay": "P15 · 腳註 5",
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0003"
+   "group": "g0004"
   },
   {
    "id": "h1421bc75",
@@ -1678,13 +2323,15 @@
    "kind": "numeric",
    "contextBefore": "m. 妊娠併發症惠益",
    "targets": [
-    "p14:10"
+    "p14:10",
+    "p17:6",
+    "p6:10"
    ],
    "targetDisplay": "P15 · 腳註 10",
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0003"
+   "group": "g0004"
   },
   {
    "id": "h146b863c",
@@ -1700,7 +2347,7 @@
    "contextBefore": "全數賠償",
    "targets": [
     "p14:11",
-    "p7:1"
+    "p7:2"
    ],
    "targetDisplay": "P15 · 腳註 *",
    "confidence": 0.98,
@@ -1710,8 +2357,8 @@
   }
  ],
  "stats": {
-  "anchors": 60,
-  "notes": 24,
-  "resolved": 58
+  "anchors": 65,
+  "notes": 52,
+  "resolved": 65
  }
 }

@@ -1,5 +1,5 @@
 {
- "version": "1.14",
+ "version": "1.15",
  "docId": "eaf05fa6",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AXA/自愿医保/AXA智尊守慧医疗保障-产品说明书.pdf",
@@ -1141,10 +1141,48 @@
    "source": "derived",
    "nativeLink": null,
    "group": null
+  },
+  {
+   "id": "h1298815b",
+   "page": 12,
+   "bbox": [
+    72.44,
+    273.88,
+    75.87,
+    290.51
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "保費",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h12dc9d84",
+   "page": 12,
+   "bbox": [
+    112.44,
+    439.3,
+    115.87,
+    455.93
+   ],
+   "text": "+",
+   "kind": "asterisk",
+   "contextBefore": "地域範圍限制",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
   }
  ],
  "stats": {
-  "anchors": 43,
+  "anchors": 45,
   "notes": 14,
   "resolved": 43
  }

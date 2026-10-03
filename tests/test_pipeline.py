@@ -36,10 +36,10 @@ def test_trap_statute_number_not_anchor(aia):
 
 
 def test_trap_no_native_hotspots_on_blank(aia):
-    """解析完整性：热点编号必须为短编号（<=3 位数字/带圈/星号/字母）。"""
+    """解析完整性：热点编号必须为短编号（<=3 位数字/带圈/符号/字母）。"""
     import re
     for h in aia.hotspots:
-        assert re.fullmatch(r"\d{1,3}|[①-⑳]+|[*†‡§※]+|[a-zA-Z]", h.text), h
+        assert re.fullmatch(r"\d{1,3}|[①-⑳]+|[*†‡§※+#]+|[a-zA-Z]", h.text), h
 
 
 # ---------- FWD 倍衛您：正文+表格角标 → 文末備註区 ----------
@@ -137,6 +137,32 @@ def test_showdoc_star_nearest_down(showdoc):
     assert hs, "P13/P14 应检出 '*' 角标"
     bad = {(h.page, h.targets) for h in hs if not h.targets or h.targets[0] != "p14:11"}
     assert not bad, bad
+
+
+# ---------- AIA showdoc.jsp：1.15 TAB 來源塊 + 逗號空格多編號 + 符號黏內容 ----------
+
+def test_showdoc_tab_source_block(showdoc):
+    """T2：P7「N<TAB> 資料來源」来源块应解析出 1-13 全部条目（含悬挂裸编号 5）。"""
+    notes = {n.number: n for n in showdoc.notes if n.page == 6}
+    assert set(notes) == {str(i) for i in range(1, 14)}, sorted(notes, key=str)
+    assert "主題性住戶統計調查" in notes["5"].text, "悬挂编号 5 应与内容行合并"
+
+
+def test_showdoc_comma_space_anchor(showdoc):
+    """C7/NUM 容空格：'10, 11'（逗号后带空格）应拆为两个热点并链 P7 来源块。"""
+    hs10 = [h for h in showdoc.hotspots if h.page == 4 and h.text == "10"]
+    hs11 = [h for h in showdoc.hotspots if h.page == 4 and h.text == "11"]
+    assert hs10 and hs11, "P5 '10, 11' 应检出两个热点"
+    assert hs10[0].targets and hs10[0].targets[0] == "p6:10"
+    assert hs11[0].targets and hs11[0].targets[0] == "p6:11"
+
+
+def test_showdoc_plus_hash_symbols(showdoc):
+    """'+' / '#' 角标（含解释行）应检出并链同页脚注。"""
+    plus = [h for h in showdoc.hotspots if h.page == 7 and h.text == "+"]
+    hash_hs = [h for h in showdoc.hotspots if h.page == 11 and h.text == "#"]
+    assert plus and all(h.targets and h.targets[0] == "p7:1" for h in plus)
+    assert hash_hs and all(h.targets and h.targets[0] == "p11:1" for h in hash_hs)
 
 
 # ---------- 性能（NFR-1） ----------
