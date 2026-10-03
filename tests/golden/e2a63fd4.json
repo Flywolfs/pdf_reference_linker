@@ -1,5 +1,5 @@
 {
- "version": "1.14",
+ "version": "1.15",
  "docId": "e2a63fd4",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/Blue/重疾/Blue WeCare危疾保障计划1-产品概要.pdf",
@@ -41,6 +41,22 @@
    ],
    "number": "#",
    "text": "子女指與受保人有合法父母子女關係的18 歲以下親生、繼或領養子女。 1",
+   "textPages": [
+    0
+   ]
+  },
+  {
+   "noteId": "p0:3",
+   "anchor": "footer",
+   "page": 0,
+   "bbox": [
+    253.87,
+    542.77,
+    552.85,
+    569.92
+   ],
+   "number": "#",
+   "text": ",在此情況下,如受保人子女確診受保危疾,於受保人(每名父母)",
    "textPages": [
     0
    ]
@@ -92,7 +108,7 @@
  ],
  "stats": {
   "anchors": 2,
-  "notes": 2,
+  "notes": 3,
   "resolved": 2
  }
 }

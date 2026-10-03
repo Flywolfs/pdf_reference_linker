@@ -1,5 +1,5 @@
 {
- "version": "1.14",
+ "version": "1.15",
  "docId": "be514f1e",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AXA/重疾/AXA爱唯守危疾保障(升级版)-产品说明书.pdf",
@@ -226,6 +226,44 @@
    "group": null
   },
   {
+   "id": "h270be5a4",
+   "page": 27,
+   "bbox": [
+    72.61,
+    635.9,
+    75.93,
+    652.54
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "保費",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h276ed6c3",
+   "page": 27,
+   "bbox": [
+    93.67,
+    694.15,
+    96.99,
+    710.79
+   ],
+   "text": "+",
+   "kind": "asterisk",
+   "contextBefore": "最低保額",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
    "id": "h28905e41",
    "page": 28,
    "bbox": [
@@ -303,7 +341,7 @@
   }
  ],
  "stats": {
-  "anchors": 10,
+  "anchors": 12,
   "notes": 6,
   "resolved": 0
  }

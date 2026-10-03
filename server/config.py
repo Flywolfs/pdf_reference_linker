@@ -40,10 +40,21 @@ class ParseConfig:
     note_head_pat: str = r"^\s*(?:備註|附註|註釋|注釋|备注|備注|註|注|Notes?)\s*[:：]?\s*$"
     inline_note_pat: str = r"^\s*(?:註|注|備註|备注)\s*[:：]\s*\S"
     item_pat: str = r"^\s*(\d{1,3})\s*[.、)](?:\s+|$)(.*)$"  # 编号点后必须是空白/行尾，排除小数费率（保费表 '0.545'）
-    # T4 通道编号（无点悬挂形态，编号后须空白或行尾）。PUA 私用区（U+E000–F8FF，
+    # TAB 编号条目（1.15：「1\t 資料來源：…」来源块形态，showdoc P7 實測——编号后
+    # 无点号、TAB 分隔。TAB 是强分隔符，正文行首「数字+TAB」几乎不存在，可放心：
+    # 点号可选（'0.545' 点后非 TAB 仍被排除）
+    tab_item_pat: str = r"^\s*(\d{1,3})[.、)]?\t\s*(\S.*)$"
+    # 裸编号行（1.15：整行仅 '5'，無點號——showdoc P7 條目 5 懸掛編號實測；
+    # FWD '7.' 有點號形態由 item_pat 覆蓋）。區域內作 pending 編號與下一行合併
+    bare_num_pat: str = r"^\s*(\d{1,3})(\s*)$"
+    # T2 整页模式跨度：同时要求 达到内容范围的 t2_min_span_ratio 和页高的绝对下限
+    # （纯内容范围会在内容稀疏页失效：信函页 3 个编号段落即占满内容范围）
+    t2_min_abs_span: float = 0.3
+    # T4 通道编号（无点悬挂形态）。1.15：容許符號直接黏內容（'+此服務由…'、
+    # '#指定澳門醫院名單…' showdoc 實測無空格形態）。PUA 私用区（U+E000–F8FF，
     # 字體自定義符號如 Wingdings 圖形）無法枚舉，以範圍分支納入：
     roman_item_pat: str = r"^\s*(x{0,2}(?:ix|iv|v?i{0,3}))[.、)]?(?:\s+|$)(.*)$"   # i~xxx 小写罗马数字
-    symbol_item_pat: str = r"^\s*([※*†‡§▲#♣^★♠♦~▪\ue000-\uf8ff]{1,2})[.、)]?(?:\s+|$)(.*)$"
+    symbol_item_pat: str = r"^\s*([※*†‡§▲#♣+^★♠♦~▪\ue000-\uf8ff]{1,2})[.、)]?\s*(.*)$"
 
 
 DEFAULT_CONFIG = ParseConfig()

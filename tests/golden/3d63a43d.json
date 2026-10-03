@@ -1,5 +1,5 @@
 {
- "version": "1.14",
+ "version": "1.15",
  "docId": "3d63a43d",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/富通/重疾/守护168危疾保障计划(加强版)-产品小册子.pdf",
@@ -19,6 +19,22 @@
    "page": 2,
    "bbox": [
     42.52,
+    380.23,
+    256.38,
+    390.12
+   ],
+   "number": "^",
+   "text": "假設未曾就嚴重程度1、2和3之危疾及兒童疾病支付生存賠償。",
+   "textPages": [
+    2
+   ]
+  },
+  {
+   "noteId": "p2:2",
+   "anchor": "footer",
+   "page": 2,
+   "bbox": [
+    42.52,
     384.03,
     253.41,
     405.45
@@ -30,17 +46,65 @@
    ]
   },
   {
+   "noteId": "p3:1",
+   "anchor": "footer",
+   "page": 3,
+   "bbox": [
+    42.52,
+    406.02,
+    258.6,
+    415.91
+   ],
+   "number": "^",
+   "text": "假設未曾就嚴重程度1、2和3之危疾及兒童疾病支付生存賠償。",
+   "textPages": [
+    3
+   ]
+  },
+  {
+   "noteId": "p3:2",
+   "anchor": "footer",
+   "page": 3,
+   "bbox": [
+    42.52,
+    415.02,
+    370.56,
+    424.91
+   ],
+   "number": "*",
+   "text": "已包括因首次生存賠償及上一次嚴重都市疾病額外賠償而已支付或應付的關愛援助保障的賠償2。",
+   "textPages": [
+    3
+   ]
+  },
+  {
+   "noteId": "p4:1",
+   "anchor": "footer",
+   "page": 4,
+   "bbox": [
+    42.52,
+    437.78,
+    252.52,
+    447.68
+   ],
+   "number": "#",
+   "text": "呼吸系統疾病額外賠償於受保人年屆70歲的保單週年日終止。",
+   "textPages": [
+    4
+   ]
+  },
+  {
    "noteId": "p10:1",
    "anchor": "footer",
    "page": 10,
    "bbox": [
     75.12,
-    739.4,
-    190.97,
-    751.28
+    723.25,
+    203.46,
+    734.78
    ],
    "number": "56",
-   "text": "不能獨立生活(保障至64歲)",
+   "text": "因輸血感染人類免疫力缺乏病毒",
    "textPages": [
     10
    ]
@@ -51,12 +115,12 @@
    "page": 10,
    "bbox": [
     75.12,
-    755.56,
-    185.28,
-    767.09
+    739.4,
+    190.97,
+    751.28
    ],
    "number": "57",
-   "text": "喪失肢體(一肢)及單目失明",
+   "text": "不能獨立生活(保障至64歲)",
    "textPages": [
     10
    ]
@@ -67,12 +131,12 @@
    "page": 10,
    "bbox": [
     75.12,
-    771.71,
-    130.02,
-    783.24
+    755.56,
+    185.28,
+    767.09
    ],
    "number": "58",
-   "text": "喪失說話能力",
+   "text": "喪失肢體(一肢)及單目失明",
    "textPages": [
     10
    ]
@@ -83,12 +147,12 @@
    "page": 10,
    "bbox": [
     75.12,
-    787.87,
-    171.42,
-    799.4
+    771.71,
+    130.02,
+    783.24
    ],
    "number": "59",
-   "text": "喪失肢體(兩肢或以上)",
+   "text": "喪失說話能力",
    "textPages": [
     10
    ]
@@ -98,13 +162,13 @@
    "anchor": "footer",
    "page": 10,
    "bbox": [
-    299.06,
-    739.4,
-    424.09,
-    751.28
+    75.12,
+    787.87,
+    171.42,
+    799.4
    ],
-   "number": "66",
-   "text": "完全及永久傷殘(保障至75歲)",
+   "number": "60",
+   "text": "喪失肢體(兩肢或以上)",
    "textPages": [
     10
    ]
@@ -115,12 +179,12 @@
    "page": 10,
    "bbox": [
     299.06,
-    755.56,
-    317.24,
-    767.09
+    723.25,
+    335.6,
+    734.78
    ],
-   "number": "67",
-   "text": "失明",
+   "number": "66",
+   "text": "末期疾病",
    "textPages": [
     10
    ]
@@ -131,14 +195,1646 @@
    "page": 10,
    "bbox": [
     299.06,
+    739.4,
+    424.09,
+    751.28
+   ],
+   "number": "67",
+   "text": "完全及永久傷殘(保障至75歲)",
+   "textPages": [
+    10
+   ]
+  },
+  {
+   "noteId": "p10:8",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    299.06,
+    755.56,
+    317.24,
+    767.09
+   ],
+   "number": "68",
+   "text": "失明",
+   "textPages": [
+    10
+   ]
+  },
+  {
+   "noteId": "p10:9",
+   "anchor": "footer",
+   "page": 10,
+   "bbox": [
+    299.06,
     771.71,
     317.24,
     783.24
    ],
-   "number": "68",
+   "number": "69",
    "text": "失聰",
    "textPages": [
     10
+   ]
+  },
+  {
+   "noteId": "p11:1",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.12,
+    95.15,
+    212.64,
+    106.68
+   ],
+   "number": "1",
+   "text": "乳房原位癌的全乳房切除手術治療",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:2",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    46.78,
+    95.15,
+    525.41,
+    125.18
+   ],
+   "number": "2",
+   "text": "次級嚴重前列腺惡性腫瘤的全前列腺切除手術治療 組別二:與肺和功能有關的疾病",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:3",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    46.78,
+    132.16,
+    202.66,
+    162.19
+   ],
+   "number": "3",
+   "text": "單肺切除手術 組別三:與主要器官和功能有關的疾病",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:4",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.13,
+    169.17,
+    139.21,
+    180.69
+   ],
+   "number": "4",
+   "text": "慢性腎功能損害",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:5",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    46.79,
+    169.17,
+    391.5,
+    199.2
+   ],
+   "number": "5",
+   "text": "肝炎引致肝硬化 組別四:與心臟有關的疾病",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:6",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.14,
+    206.17,
+    235.7,
+    217.7
+   ],
+   "number": "6",
+   "text": "心臟瓣膜替換(連永久裝置或取代假體)",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:7",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    327.43,
+    206.17,
+    409.87,
+    217.7
+   ],
+   "number": "8",
+   "text": "主動脈瘤支架置入術",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:8",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    46.8,
+    224.68,
+    175.14,
+    254.71
+   ],
+   "number": "7",
+   "text": "微創冠狀動脈搭橋手術 組別五:與神經系統相關的疾病",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:9",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.15,
+    261.69,
+    175.95,
+    273.21
+   ],
+   "number": "9",
+   "text": "腦動脈瘤的開顱手術治療",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:10",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    327.44,
+    261.69,
+    377.84,
+    273.21
+   ],
+   "number": "11",
+   "text": "癱瘓(一肢)",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:11",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    46.81,
+    280.19,
+    122.07,
+    310.22
+   ],
+   "number": "10",
+   "text": "昏迷72小時 組別六:其他危疾",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:12",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.16,
+    317.2,
+    212.68,
+    328.73
+   ],
+   "number": "12",
+   "text": "因侵害而感染人類免疫力缺乏病毒",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:13",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    327.45,
+    317.2,
+    396.21,
+    328.73
+   ],
+   "number": "14",
+   "text": "喪失肢體(一肢)",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:14",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.17,
+    335.7,
+    231.05,
+    347.23
+   ],
+   "number": "13",
+   "text": "因器官移植而感染人類免疫力缺乏病毒",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:15",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    42.52,
+    335.7,
+    373.17,
+    411.7
+   ],
+   "number": "15",
+   "text": "視神經萎縮 1,7,11,12,20 – 保額20% 嚴重程度1之危疾 組別一:癌症",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:16",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    327.4,
+    418.68,
+    385.4,
+    430.21
+   ],
+   "number": "2",
+   "text": "次級嚴重癌症1",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:17",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    46.77,
+    418.68,
+    175.11,
+    448.71
+   ],
+   "number": "1",
+   "text": "原位癌1 組別二:與肺和功能有關的疾病",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:18",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.12,
+    455.68,
+    111.66,
+    467.21
+   ],
+   "number": "3",
+   "text": "慢性肺病",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:19",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    46.78,
+    455.68,
+    382.31,
+    485.72
+   ],
+   "number": "4",
+   "text": "粟粒性肺結核 組別三:與主要器官和功能有關的疾病",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:20",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.13,
+    492.69,
+    148.39,
+    504.22
+   ],
+   "number": "5",
+   "text": "膽道系統重建手術",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:21",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    327.42,
+    492.69,
+    428.22,
+    504.22
+   ],
+   "number": "12",
+   "text": "次級嚴重系統性紅斑狼瘡",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:22",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.14,
+    511.2,
+    203.48,
+    522.72
+   ],
+   "number": "6",
+   "text": "腸系膜動脈疾病之血管介入治療",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:23",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    327.43,
+    511.2,
+    419.05,
+    522.72
+   ],
+   "number": "13",
+   "text": "次級嚴重潰瘍性結腸炎",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:24",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.15,
+    529.7,
+    185.13,
+    541.23
+   ],
+   "number": "7",
+   "text": "腎動脈疾病之血管介入治療",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:25",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    327.44,
+    529.7,
+    497.18,
+    541.23
+   ],
+   "number": "14",
+   "text": "主要器官移植(於器官移植輪候冊名單上)",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:26",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.16,
+    548.2,
+    148.42,
+    559.73
+   ],
+   "number": "8",
+   "text": "次級嚴重克隆氏病",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:27",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    327.45,
+    548.2,
+    382.35,
+    559.73
+   ],
+   "number": "15",
+   "text": "局部肝臟手術",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:28",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.17,
+    566.71,
+    139.25,
+    578.24
+   ],
+   "number": "9",
+   "text": "次級嚴重腎衰竭",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:29",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    327.45,
+    566.71,
+    391.53,
+    578.24
+   ],
+   "number": "16",
+   "text": "植入靜脈過濾器",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:30",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.18,
+    585.21,
+    166.8,
+    596.74
+   ],
+   "number": "10",
+   "text": "次級嚴重類風濕關節炎",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:31",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    327.46,
+    585.21,
+    382.36,
+    596.74
+   ],
+   "number": "17",
+   "text": "單腎切除手術",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:32",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.18,
+    603.72,
+    139.26,
+    615.24
+   ],
+   "number": "11",
+   "text": "次級嚴重硬皮病",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:33",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    46.84,
+    603.72,
+    373.19,
+    633.5
+   ],
+   "number": "18",
+   "text": "氣管造口術 組別四:與心臟有關的疾病",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:34",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    327.4,
+    640.45,
+    428.2,
+    651.98
+   ],
+   "number": "25",
+   "text": "次級嚴重感染性心內膜炎",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:35",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.19,
+    640.47,
+    145.32,
+    652.0
+   ],
+   "number": "19",
+   "text": "冠狀血管成形術20",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:36",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.13,
+    658.95,
+    120.85,
+    670.48
+   ],
+   "number": "20",
+   "text": "頸動脈手術",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:37",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    327.41,
+    658.95,
+    373.13,
+    670.48
+   ],
+   "number": "26",
+   "text": "心包切除術",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:38",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.13,
+    677.46,
+    166.75,
+    688.99
+   ],
+   "number": "21",
+   "text": "經血管內心臟瓣膜介入",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:39",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    327.42,
+    677.46,
+    434.32,
+    688.99
+   ],
+   "number": "27",
+   "text": "永久性植入心臟除纖顫器20",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:40",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.12,
+    695.96,
+    231.0,
+    707.49
+   ],
+   "number": "22",
+   "text": "主動脈疾病的血管介入治療或主動脈瘤",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:41",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    327.41,
+    695.96,
+    425.14,
+    707.49
+   ],
+   "number": "28",
+   "text": "永久性植入心臟起搏器20",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:42",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.12,
+    714.46,
+    139.2,
+    725.99
+   ],
+   "number": "23",
+   "text": "次級嚴重心肌病",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:43",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    327.41,
+    714.46,
+    400.67,
+    725.99
+   ],
+   "number": "29",
+   "text": "繼發性肺動脈高壓",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p11:44",
+   "anchor": "standalone",
+   "page": 11,
+   "bbox": [
+    75.13,
+    732.96,
+    163.68,
+    744.49
+   ],
+   "number": "24",
+   "text": "次級嚴重心臟病發作20",
+   "textPages": [
+    11
+   ]
+  },
+  {
+   "noteId": "p12:1",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.12,
+    66.87,
+    148.38,
+    78.4
+   ],
+   "number": "30",
+   "text": "植入大腦內分流器",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:2",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.15,
+    66.87,
+    397.77,
+    78.4
+   ],
+   "number": "41",
+   "text": "次級嚴重重症肌無力症",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:3",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.13,
+    85.37,
+    226.51,
+    96.9
+   ],
+   "number": "31",
+   "text": "早期腦退化症(包括早期阿滋海默症)",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:4",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.16,
+    85.37,
+    379.42,
+    96.9
+   ],
+   "number": "42",
+   "text": "次級嚴重帕金遜症",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:5",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.14,
+    103.88,
+    203.48,
+    115.41
+   ],
+   "number": "32",
+   "text": "腦動脈瘤的血管內介入手術治療",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:6",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.17,
+    103.88,
+    388.61,
+    115.41
+   ],
+   "number": "43",
+   "text": "次級嚴重脊髓灰質炎",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:7",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.15,
+    122.38,
+    212.67,
+    133.91
+   ],
+   "number": "33",
+   "text": "次級嚴重肌萎縮性脊髓側索硬化症",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:8",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.18,
+    122.38,
+    416.16,
+    133.91
+   ],
+   "number": "44",
+   "text": "次級嚴重原發性側索硬化症",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:9",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.16,
+    140.89,
+    166.78,
+    152.41
+   ],
+   "number": "34",
+   "text": "次級嚴重細菌性腦膜炎",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:10",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.19,
+    140.89,
+    406.99,
+    152.41
+   ],
+   "number": "45",
+   "text": "次級嚴重延髓性逐漸癱瘓",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:11",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.17,
+    159.39,
+    130.07,
+    170.92
+   ],
+   "number": "35",
+   "text": "次級嚴重昏迷",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:12",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.2,
+    159.39,
+    407.0,
+    170.92
+   ],
+   "number": "46",
+   "text": "次級嚴重進行性肌肉萎縮",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:13",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.18,
+    177.89,
+    199.02,
+    189.42
+   ],
+   "number": "36",
+   "text": "次級嚴重克雅二氏病(瘋牛病)",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:14",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.21,
+    177.89,
+    434.55,
+    189.42
+   ],
+   "number": "47",
+   "text": "次級嚴重進行性核上神經痳痺症",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:15",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.18,
+    196.4,
+    130.08,
+    207.93
+   ],
+   "number": "37",
+   "text": "次級嚴重腦炎",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:16",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.21,
+    196.4,
+    407.01,
+    207.93
+   ],
+   "number": "48",
+   "text": "次級嚴重脊髓肌肉萎縮症",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:17",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.19,
+    214.9,
+    148.45,
+    226.43
+   ],
+   "number": "38",
+   "text": "次級嚴重頭部創傷",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:18",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.22,
+    214.9,
+    336.6,
+    226.43
+   ],
+   "number": "49",
+   "text": "垂體瘤1",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:19",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.12,
+    233.39,
+    166.74,
+    244.91
+   ],
+   "number": "39",
+   "text": "次級嚴重多發性硬化症",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:20",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.15,
+    233.39,
+    379.41,
+    244.91
+   ],
+   "number": "50",
+   "text": "腦硬膜下血腫手術",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:21",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.13,
+    251.89,
+    175.93,
+    263.42
+   ],
+   "number": "40",
+   "text": "次級嚴重肌肉營養不良症",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:22",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    46.79,
+    251.89,
+    361.06,
+    281.67
+   ],
+   "number": "51",
+   "text": "結核性脊髓炎 組別六:其他危疾",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:23",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.14,
+    288.65,
+    157.58,
+    300.17
+   ],
+   "number": "52",
+   "text": "急性再生障礙性貧血",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:24",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.17,
+    288.65,
+    361.07,
+    300.17
+   ],
+   "number": "61",
+   "text": "次級嚴重燒傷",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:25",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.15,
+    307.15,
+    175.95,
+    318.68
+   ],
+   "number": "53",
+   "text": "急性壞死及出血性胰腺炎",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:26",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.18,
+    307.15,
+    370.26,
+    318.68
+   ],
+   "number": "62",
+   "text": "次級嚴重象皮病",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:27",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.16,
+    325.65,
+    175.96,
+    337.18
+   ],
+   "number": "54",
+   "text": "因腎上腺腺瘤切除腎上腺",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:28",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.19,
+    325.5,
+    428.07,
+    337.52
+   ],
+   "number": "63",
+   "text": "主要器官功能損害1市場首創3",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:29",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.12,
+    344.15,
+    185.1,
+    355.68
+   ],
+   "number": "55",
+   "text": "糖尿病併發症引致切除單足",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:30",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.15,
+    344.15,
+    342.69,
+    355.68
+   ],
+   "number": "64",
+   "text": "單目失明",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:31",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.15,
+    362.65,
+    425.31,
+    374.18
+   ],
+   "number": "65",
+   "text": "因聲帶麻痺導致喪失說話能力",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:32",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.13,
+    362.65,
+    154.5,
+    374.18
+   ],
+   "number": "56",
+   "text": "植入人工耳蝸手術20",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:33",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.12,
+    381.15,
+    148.38,
+    392.68
+   ],
+   "number": "57",
+   "text": "糖尿病視網膜病變",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:34",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.15,
+    381.15,
+    443.37,
+    393.02
+   ],
+   "number": "66",
+   "text": "骨質疏鬆症連骨折(保障至170歲)",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:35",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.12,
+    399.66,
+    157.56,
+    411.18
+   ],
+   "number": "58",
+   "text": "意外引致的臉部燒傷",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:36",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.15,
+    399.65,
+    432.03,
+    411.52
+   ],
+   "number": "67",
+   "text": "嚴重聽力受損20(保障由2歲起)",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:37",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.12,
+    418.16,
+    194.28,
+    429.69
+   ],
+   "number": "59",
+   "text": "意外受傷所需的面容重建手術",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:38",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.15,
+    418.16,
+    342.69,
+    429.69
+   ],
+   "number": "68",
+   "text": "皮膚移植",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:39",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    42.52,
+    436.66,
+    295.4,
+    485.56
+   ],
+   "number": "60",
+   "text": "溶血性鏈球菌引致之壞疽 1,6,7,11,12 – 保額20%(保障至18歲) 兒童疾病",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:40",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.12,
+    501.16,
+    102.48,
+    512.69
+   ],
+   "number": "1",
+   "text": "自閉症",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:41",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.15,
+    501.16,
+    342.69,
+    512.69
+   ],
+   "number": "10",
+   "text": "嚴重哮喘",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:42",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.13,
+    519.66,
+    130.03,
+    531.19
+   ],
+   "number": "2",
+   "text": "出血性登革熱",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:43",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.16,
+    519.66,
+    342.7,
+    531.19
+   ],
+   "number": "11",
+   "text": "嚴重癲癇",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:44",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.14,
+    538.17,
+    157.58,
+    549.7
+   ],
+   "number": "3",
+   "text": "胰島素依賴型糖尿病",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:45",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.17,
+    538.17,
+    370.25,
+    549.7
+   ],
+   "number": "12",
+   "text": "嚴重甲型血友病",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:46",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.15,
+    556.67,
+    202.35,
+    568.54
+   ],
+   "number": "4",
+   "text": "因疾病及 / 或受傷導致智力缺陷",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:47",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.18,
+    556.67,
+    370.26,
+    568.2
+   ],
+   "number": "13",
+   "text": "嚴重乙型血友病",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:48",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.16,
+    575.17,
+    148.42,
+    586.7
+   ],
+   "number": "5",
+   "text": "兒童亨廷頓舞蹈症",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:49",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.19,
+    575.17,
+    342.73,
+    586.7
+   ],
+   "number": "14",
+   "text": "斯蒂爾病",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:50",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.17,
+    593.68,
+    102.53,
+    605.21
+   ],
+   "number": "6",
+   "text": "川崎病",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:51",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.2,
+    593.68,
+    397.82,
+    605.21
+   ],
+   "number": "15",
+   "text": "第一型兒童脊髓肌萎縮",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:52",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.18,
+    612.18,
+    180.66,
+    623.71
+   ],
+   "number": "7",
+   "text": "大理石骨病(骨質石化病)",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:53",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.21,
+    612.18,
+    397.83,
+    623.71
+   ],
+   "number": "16",
+   "text": "第二型兒童脊髓肌萎縮",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:54",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.18,
+    630.69,
+    148.44,
+    642.22
+   ],
+   "number": "8",
+   "text": "成骨不全症第三型",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:55",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    306.21,
+    630.69,
+    342.75,
+    642.22
+   ],
+   "number": "17",
+   "text": "威爾森病",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:56",
+   "anchor": "standalone",
+   "page": 12,
+   "bbox": [
+    75.19,
+    649.19,
+    139.27,
+    660.72
+   ],
+   "number": "9",
+   "text": "風濕熱瓣膜病變",
+   "textPages": [
+    12
    ]
   },
   {
@@ -510,7 +2206,7 @@
    ]
   },
   {
-   "noteId": "p2:inline31",
+   "noteId": "p2:inline137",
    "anchor": "inline",
    "page": 2,
    "bbox": [
@@ -526,7 +2222,7 @@
    ]
   },
   {
-   "noteId": "p9:inline32",
+   "noteId": "p9:inline138",
    "anchor": "inline",
    "page": 9,
    "bbox": [
@@ -556,10 +2252,13 @@
    "kind": "numeric",
    "contextBefore": "保障「主要器官功能損害」1的狀況及關愛援助保障,",
    "targets": [
+    "p11:2",
+    "p11:16",
+    "p12:42",
     "p14:2"
    ],
-   "targetDisplay": "P15 · 備註 2",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 2",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -577,10 +2276,13 @@
    "kind": "numeric",
    "contextBefore": "發作提供關愛援助保障",
    "targets": [
+    "p11:2",
+    "p11:16",
+    "p12:42",
     "p14:2"
    ],
-   "targetDisplay": "P15 · 備註 2",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 2",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -598,10 +2300,13 @@
    "kind": "numeric",
    "contextBefore": "還原高達100%保額",
    "targets": [
+    "p11:8",
+    "p11:24",
+    "p12:52",
     "p14:7"
    ],
-   "targetDisplay": "P15 · 備註 7",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 7",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -619,10 +2324,13 @@
    "kind": "numeric",
    "contextBefore": "之多重賠償",
    "targets": [
+    "p11:5",
+    "p11:20",
+    "p12:48",
     "p14:5"
    ],
-   "targetDisplay": "P15 · 備註 5",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 5",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0001"
@@ -640,10 +2348,13 @@
    "kind": "numeric",
    "contextBefore": "之多重賠償",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0001"
@@ -661,10 +2372,13 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
+    "p11:3",
+    "p11:18",
+    "p12:44",
     "p14:3"
    ],
-   "targetDisplay": "P15 · 備註 3",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 3",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -682,10 +2396,13 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
+    "p11:3",
+    "p11:18",
+    "p12:44",
     "p14:3"
    ],
-   "targetDisplay": "P15 · 備註 3",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 3",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -703,10 +2420,13 @@
    "kind": "numeric",
    "contextBefore": "涵蓋168種疾病",
    "targets": [
+    "p11:4",
+    "p11:19",
+    "p12:46",
     "p14:4"
    ],
-   "targetDisplay": "P15 · 備註 4",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 4",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -724,10 +2444,13 @@
    "kind": "numeric",
    "contextBefore": "周全保障良性病變",
    "targets": [
+    "p11:11",
+    "p11:30",
+    "p12:41",
     "p14:10"
    ],
-   "targetDisplay": "P15 · 備註 10",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 10",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -745,10 +2468,13 @@
    "kind": "numeric",
    "contextBefore": "原位癌",
    "targets": [
+    "p11:1",
+    "p11:17",
+    "p12:40",
     "p14:1"
    ],
-   "targetDisplay": "P15 · 備註 1",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 1",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -766,10 +2492,13 @@
    "kind": "numeric",
    "contextBefore": "額外最高60%保額賠償",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0002"
@@ -787,10 +2516,13 @@
    "kind": "numeric",
    "contextBefore": "額外最高60%保額賠償",
    "targets": [
+    "p11:7",
+    "p11:26",
+    "p12:54",
     "p14:8"
    ],
-   "targetDisplay": "P15 · 備註 8",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 8",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0002"
@@ -808,10 +2540,13 @@
    "kind": "numeric",
    "contextBefore": "高達160%保額賠償",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0003"
@@ -829,10 +2564,13 @@
    "kind": "numeric",
    "contextBefore": "高達160%保額賠償",
    "targets": [
+    "p11:7",
+    "p11:26",
+    "p12:54",
     "p14:8"
    ],
-   "targetDisplay": "P15 · 備註 8",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 8",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0003"
@@ -850,10 +2588,13 @@
    "kind": "numeric",
    "contextBefore": "高達160%保額賠償",
    "targets": [
+    "p11:9",
+    "p11:28",
+    "p12:56",
     "p14:9"
    ],
-   "targetDisplay": "P15 · 備註 9",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 9",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0003"
@@ -871,10 +2612,13 @@
    "kind": "numeric",
    "contextBefore": "及理賠嚴重程度2或3之危疾後更豁免日後應付的保費",
    "targets": [
+    "p11:10",
+    "p11:32",
+    "p12:43",
     "p14:11"
    ],
-   "targetDisplay": "P15 · 備註 11",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 11",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -892,10 +2636,13 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
+    "p11:3",
+    "p11:18",
+    "p12:44",
     "p14:3"
    ],
-   "targetDisplay": "P15 · 備註 3",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 3",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -913,10 +2660,13 @@
    "kind": "numeric",
    "contextBefore": "危疾的癌症、中風或嚴重心臟病發作,保單持有人可於",
    "targets": [
+    "p11:2",
+    "p11:16",
+    "p12:42",
     "p14:2"
    ],
-   "targetDisplay": "P15 · 備註 2",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 2",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -934,7 +2684,8 @@
    "kind": "asterisk",
    "contextBefore": "嚴重都市疾病額外賠償",
    "targets": [
-    "p2:1",
+    "p2:2",
+    "p3:2",
     "p18:1"
    ],
    "targetDisplay": "P3 · 腳註 *",
@@ -956,10 +2707,13 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
+    "p11:3",
+    "p11:18",
+    "p12:44",
     "p14:3"
    ],
-   "targetDisplay": "P15 · 備註 3",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 3",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -977,10 +2731,13 @@
    "kind": "numeric",
    "contextBefore": "生存賠償。有關指定情況請參閱受保疾病賠償一覽表。",
    "targets": [
+    "p11:1",
+    "p11:17",
+    "p12:40",
     "p14:1"
    ],
-   "targetDisplay": "P15 · 備註 1",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 1",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -998,10 +2755,13 @@
    "kind": "numeric",
    "contextBefore": "蓋168種疾病外,更特別保障「主要器官功能損害」",
    "targets": [
+    "p11:4",
+    "p11:19",
+    "p12:46",
     "p14:4"
    ],
-   "targetDisplay": "P15 · 備註 4",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 4",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1019,10 +2779,13 @@
    "kind": "numeric",
    "contextBefore": "劃更涵蓋大眾相當關注之次級嚴重癌症及所有器官之原",
    "targets": [
+    "p11:1",
+    "p11:17",
+    "p12:40",
     "p14:1"
    ],
-   "targetDisplay": "P15 · 備註 1",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 1",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0004"
@@ -1040,10 +2803,13 @@
    "kind": "numeric",
    "contextBefore": "劃更涵蓋大眾相當關注之次級嚴重癌症及所有器官之原",
    "targets": [
+    "p11:4",
+    "p11:19",
+    "p12:46",
     "p14:4"
    ],
-   "targetDisplay": "P15 · 備註 4",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 4",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0004"
@@ -1061,10 +2827,13 @@
    "kind": "numeric",
    "contextBefore": "位癌。",
    "targets": [
+    "p11:1",
+    "p11:17",
+    "p12:40",
     "p14:1"
    ],
-   "targetDisplay": "P15 · 備註 1",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 1",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0005"
@@ -1082,10 +2851,13 @@
    "kind": "numeric",
    "contextBefore": "位癌。",
    "targets": [
+    "p11:4",
+    "p11:19",
+    "p12:46",
     "p14:4"
    ],
-   "targetDisplay": "P15 · 備註 4",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 4",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0005"
@@ -1103,10 +2875,13 @@
    "kind": "numeric",
    "contextBefore": "受保人不幸確診任何一種受保的危疾,將分別獲得一筆",
    "targets": [
+    "p11:10",
+    "p11:32",
+    "p12:43",
     "p14:11"
    ],
-   "targetDisplay": "P15 · 備註 11",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 11",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1124,10 +2899,13 @@
    "kind": "numeric",
    "contextBefore": "計劃亦為17種兒童疾病1,4,6,7,11,12",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0006"
@@ -1145,10 +2923,13 @@
    "kind": "numeric",
    "contextBefore": "計劃亦為17種兒童疾病1,4,6,7,11,12",
    "targets": [
+    "p11:8",
+    "p11:24",
+    "p12:52",
     "p14:7"
    ],
-   "targetDisplay": "P15 · 備註 7",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 7",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0006"
@@ -1166,10 +2947,13 @@
    "kind": "numeric",
    "contextBefore": "計劃亦為17種兒童疾病1,4,6,7,11,12",
    "targets": [
+    "p11:12",
+    "p11:21",
+    "p12:45",
     "p14:12"
    ],
-   "targetDisplay": "P15 · 備註 12",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 12",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0006"
@@ -1187,10 +2971,13 @@
    "kind": "numeric",
    "contextBefore": "計劃亦為17種兒童疾病1,4,6,7,11,12",
    "targets": [
+    "p11:14",
+    "p11:23",
+    "p12:47",
     "p14:13"
    ],
-   "targetDisplay": "P15 · 備註 13",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 13",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0006"
@@ -1208,10 +2995,13 @@
    "kind": "numeric",
    "contextBefore": "支付有關醫療費用。另外,此計劃亦為17種兒童疾病",
    "targets": [
+    "p11:1",
+    "p11:17",
+    "p12:40",
     "p14:1"
    ],
-   "targetDisplay": "P15 · 備註 1",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 1",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0007"
@@ -1229,10 +3019,13 @@
    "kind": "numeric",
    "contextBefore": "支付有關醫療費用。另外,此計劃亦為17種兒童疾病",
    "targets": [
+    "p11:4",
+    "p11:19",
+    "p12:46",
     "p14:4"
    ],
-   "targetDisplay": "P15 · 備註 4",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 4",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0007"
@@ -1250,10 +3043,13 @@
    "kind": "numeric",
    "contextBefore": "支付有關醫療費用。另外,此計劃亦為17種兒童疾病",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0007"
@@ -1271,10 +3067,13 @@
    "kind": "numeric",
    "contextBefore": "支付有關醫療費用。另外,此計劃亦為17種兒童疾病",
    "targets": [
+    "p11:8",
+    "p11:24",
+    "p12:52",
     "p14:7"
    ],
-   "targetDisplay": "P15 · 備註 7",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 7",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0007"
@@ -1292,10 +3091,13 @@
    "kind": "numeric",
    "contextBefore": "支付有關醫療費用。另外,此計劃亦為17種兒童疾病",
    "targets": [
+    "p11:10",
+    "p11:32",
+    "p12:43",
     "p14:11"
    ],
-   "targetDisplay": "P15 · 備註 11",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 11",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0007"
@@ -1313,10 +3115,13 @@
    "kind": "numeric",
    "contextBefore": "支付有關醫療費用。另外,此計劃亦為17種兒童疾病",
    "targets": [
+    "p11:12",
+    "p11:21",
+    "p12:45",
     "p14:12"
    ],
-   "targetDisplay": "P15 · 備註 12",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 12",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0007"
@@ -1334,10 +3139,13 @@
    "kind": "numeric",
    "contextBefore": "100%保額",
    "targets": [
+    "p11:8",
+    "p11:24",
+    "p12:52",
     "p14:7"
    ],
-   "targetDisplay": "P15 · 備註 7",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 7",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1355,10 +3163,13 @@
    "kind": "numeric",
    "contextBefore": "計劃保障所有器官之原位癌,並就不同器官之原位癌提",
    "targets": [
+    "p11:1",
+    "p11:17",
+    "p12:40",
     "p14:1"
    ],
-   "targetDisplay": "P15 · 備註 1",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 1",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1376,10 +3187,13 @@
    "kind": "numeric",
    "contextBefore": "保額的20%,全方位為您提供癌症守護。",
    "targets": [
+    "p11:1",
+    "p11:17",
+    "p12:40",
     "p14:1"
    ],
-   "targetDisplay": "P15 · 備註 1",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 1",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1397,10 +3211,13 @@
    "kind": "numeric",
    "contextBefore": "額的賠償5,大大紓緩於危疾不幸復發時的財政壓力。",
    "targets": [
+    "p11:5",
+    "p11:20",
+    "p12:48",
     "p14:5"
    ],
-   "targetDisplay": "P15 · 備註 5",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 5",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0008"
@@ -1418,10 +3235,13 @@
    "kind": "numeric",
    "contextBefore": "額的賠償5,大大紓緩於危疾不幸復發時的財政壓力。",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0008"
@@ -1439,10 +3259,13 @@
    "kind": "numeric",
    "contextBefore": "保額的賠償,大大紓緩於危疾不幸復發時的財政壓力。",
    "targets": [
+    "p11:5",
+    "p11:20",
+    "p12:48",
     "p14:5"
    ],
-   "targetDisplay": "P15 · 備註 5",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 5",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1460,10 +3283,13 @@
    "kind": "numeric",
    "contextBefore": "更包括原有癌症的延續 / 復發 / 相關的癌症。",
    "targets": [
+    "p11:5",
+    "p11:20",
+    "p12:48",
     "p14:5"
    ],
-   "targetDisplay": "P15 · 備註 5",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 5",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1481,10 +3307,13 @@
    "kind": "numeric",
    "contextBefore": "4次嚴重都市疾病額外賠償",
    "targets": [
+    "p11:5",
+    "p11:20",
+    "p12:48",
     "p14:5"
    ],
-   "targetDisplay": "P15 · 備註 5",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 5",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0009"
@@ -1502,10 +3331,13 @@
    "kind": "numeric",
    "contextBefore": "4次嚴重都市疾病額外賠償",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0009"
@@ -1523,10 +3355,13 @@
    "kind": "numeric",
    "contextBefore": "等候期",
    "targets": [
+    "p11:13",
+    "p11:25",
+    "p12:49",
     "p14:14"
    ],
-   "targetDisplay": "P15 · 備註 14",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 14",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1544,10 +3379,13 @@
    "kind": "numeric",
    "contextBefore": "等候期",
    "targets": [
+    "p11:13",
+    "p11:25",
+    "p12:49",
     "p14:14"
    ],
-   "targetDisplay": "P15 · 備註 14",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 14",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1565,10 +3403,13 @@
    "kind": "numeric",
    "contextBefore": "等候期",
    "targets": [
+    "p11:13",
+    "p11:25",
+    "p12:49",
     "p14:14"
    ],
-   "targetDisplay": "P15 · 備註 14",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 14",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1586,10 +3427,13 @@
    "kind": "numeric",
    "contextBefore": "等候期",
    "targets": [
+    "p11:13",
+    "p11:25",
+    "p12:49",
     "p14:14"
    ],
-   "targetDisplay": "P15 · 備註 14",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 14",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1607,10 +3451,13 @@
    "kind": "numeric",
    "contextBefore": "疾病額外賠償而已支付或應付的關愛援助保障的賠償。",
    "targets": [
+    "p11:2",
+    "p11:16",
+    "p12:42",
     "p14:2"
    ],
-   "targetDisplay": "P15 · 備註 2",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 2",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1628,10 +3475,13 @@
    "kind": "numeric",
    "contextBefore": "0%保額,計劃會再次提供最高100%保額之保障。",
    "targets": [
+    "p11:8",
+    "p11:24",
+    "p12:52",
     "p14:7"
    ],
-   "targetDisplay": "P15 · 備註 7",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 7",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1649,10 +3499,13 @@
    "kind": "numeric",
    "contextBefore": "例子",
    "targets": [
+    "p11:8",
+    "p11:24",
+    "p12:52",
     "p14:7"
    ],
-   "targetDisplay": "P15 · 備註 7",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 7",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1670,10 +3523,13 @@
    "kind": "numeric",
    "contextBefore": "額外60%保額賠償",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0010"
@@ -1691,10 +3547,13 @@
    "kind": "numeric",
    "contextBefore": "額外60%保額賠償",
    "targets": [
+    "p11:7",
+    "p11:26",
+    "p12:54",
     "p14:8"
    ],
-   "targetDisplay": "P15 · 備註 8",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 8",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0010"
@@ -1712,10 +3571,13 @@
    "kind": "numeric",
    "contextBefore": "(投保年齡為20歲或以下)或從第9個保單週年日起",
    "targets": [
+    "p11:15",
+    "p11:27",
+    "p12:51",
     "p14:15"
    ],
-   "targetDisplay": "P15 · 備註 15",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 15",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1733,10 +3595,13 @@
    "kind": "numeric",
    "contextBefore": "病,可獲高達60%保額之呼吸系統疾病額外賠償。",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0011"
@@ -1754,13 +3619,37 @@
    "kind": "numeric",
    "contextBefore": "病,可獲高達60%保額之呼吸系統疾病額外賠償。",
    "targets": [
+    "p11:7",
+    "p11:26",
+    "p12:54",
     "p14:8"
    ],
-   "targetDisplay": "P15 · 備註 8",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 8",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0011"
+  },
+  {
+   "id": "h04098775",
+   "page": 4,
+   "bbox": [
+    306.65,
+    333.3,
+    309.56,
+    339.36
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "呼吸系統疾病額外賠償",
+   "targets": [
+    "p4:1"
+   ],
+   "targetDisplay": "P5 · 腳註 #",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
   },
   {
    "id": "h04d0e846",
@@ -1775,10 +3664,13 @@
    "kind": "numeric",
    "contextBefore": "額外賠償不會影響往後的生存賠償金額,為您減輕財務",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0012"
@@ -1796,10 +3688,13 @@
    "kind": "numeric",
    "contextBefore": "額外賠償不會影響往後的生存賠償金額,為您減輕財務",
    "targets": [
+    "p11:12",
+    "p11:21",
+    "p12:45",
     "p14:12"
    ],
-   "targetDisplay": "P15 · 備註 12",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 12",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0012"
@@ -1817,10 +3712,13 @@
    "kind": "numeric",
    "contextBefore": "我們或會徵收額外保費讓受保人獲享全面保障。如指定",
    "targets": [
+    "p11:11",
+    "p11:30",
+    "p12:41",
     "p14:10"
    ],
-   "targetDisplay": "P15 · 備註 10",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 10",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1838,10 +3736,12 @@
    "kind": "numeric",
    "contextBefore": "償,加上額外身故賠償(如有),以應付突如其來之8",
    "targets": [
+    "p11:29",
+    "p12:53",
     "p14:16"
    ],
-   "targetDisplay": "P15 · 備註 16",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 16",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1859,10 +3759,13 @@
    "kind": "numeric",
    "contextBefore": "往後的基本計劃的應付保費可獲豁免,受保人可繼續獲",
    "targets": [
+    "p11:10",
+    "p11:32",
+    "p12:43",
     "p14:11"
    ],
-   "targetDisplay": "P15 · 備註 11",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 11",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1880,10 +3783,13 @@
    "kind": "numeric",
    "contextBefore": "時,您可獲得退保利益。有關詳情請參閱計劃一覽表。",
    "targets": [
+    "p11:14",
+    "p11:23",
+    "p12:47",
     "p14:13"
    ],
-   "targetDisplay": "P15 · 備註 13",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 13",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1901,10 +3807,11 @@
    "kind": "numeric",
    "contextBefore": "而設的24小時免費環球緊急支援服務,賠償限額高達",
    "targets": [
+    "p11:35",
     "p14:19"
    ],
-   "targetDisplay": "P15 · 備註 19",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 19",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1922,10 +3829,13 @@
    "kind": "numeric",
    "contextBefore": "兒童疾病",
    "targets": [
+    "p11:1",
+    "p11:17",
+    "p12:40",
     "p14:1"
    ],
-   "targetDisplay": "P15 · 備註 1",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 1",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0013"
@@ -1943,10 +3853,13 @@
    "kind": "numeric",
    "contextBefore": "兒童疾病",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0013"
@@ -1964,10 +3877,13 @@
    "kind": "numeric",
    "contextBefore": "兒童疾病",
    "targets": [
+    "p11:8",
+    "p11:24",
+    "p12:52",
     "p14:7"
    ],
-   "targetDisplay": "P15 · 備註 7",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 7",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0013"
@@ -1985,10 +3901,13 @@
    "kind": "numeric",
    "contextBefore": "兒童疾病",
    "targets": [
+    "p11:10",
+    "p11:32",
+    "p12:43",
     "p14:11"
    ],
-   "targetDisplay": "P15 · 備註 11",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 11",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0013"
@@ -2006,10 +3925,13 @@
    "kind": "numeric",
    "contextBefore": "兒童疾病",
    "targets": [
+    "p11:12",
+    "p11:21",
+    "p12:45",
     "p14:12"
    ],
-   "targetDisplay": "P15 · 備註 12",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 12",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0013"
@@ -2027,10 +3949,13 @@
    "kind": "numeric",
    "contextBefore": "嚴重程度1之危疾",
    "targets": [
+    "p11:1",
+    "p11:17",
+    "p12:40",
     "p14:1"
    ],
-   "targetDisplay": "P15 · 備註 1",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 1",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0014"
@@ -2048,10 +3973,13 @@
    "kind": "numeric",
    "contextBefore": "嚴重程度1之危疾",
    "targets": [
+    "p11:8",
+    "p11:24",
+    "p12:52",
     "p14:7"
    ],
-   "targetDisplay": "P15 · 備註 7",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 7",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0014"
@@ -2069,10 +3997,13 @@
    "kind": "numeric",
    "contextBefore": "嚴重程度1之危疾",
    "targets": [
+    "p11:10",
+    "p11:32",
+    "p12:43",
     "p14:11"
    ],
-   "targetDisplay": "P15 · 備註 11",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 11",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0014"
@@ -2090,10 +4021,13 @@
    "kind": "numeric",
    "contextBefore": "嚴重程度1之危疾",
    "targets": [
+    "p11:12",
+    "p11:21",
+    "p12:45",
     "p14:12"
    ],
-   "targetDisplay": "P15 · 備註 12",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 12",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0014"
@@ -2111,10 +4045,11 @@
    "kind": "numeric",
    "contextBefore": "嚴重程度1之危疾",
    "targets": [
+    "p11:36",
     "p14:20"
    ],
-   "targetDisplay": "P15 · 備註 20",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 20",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0014"
@@ -2132,10 +4067,13 @@
    "kind": "numeric",
    "contextBefore": "嚴重程度2之危疾",
    "targets": [
+    "p11:8",
+    "p11:24",
+    "p12:52",
     "p14:7"
    ],
-   "targetDisplay": "P15 · 備註 7",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 7",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0015"
@@ -2153,10 +4091,13 @@
    "kind": "numeric",
    "contextBefore": "嚴重程度2之危疾",
    "targets": [
+    "p11:12",
+    "p11:21",
+    "p12:45",
     "p14:12"
    ],
-   "targetDisplay": "P15 · 備註 12",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 12",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0015"
@@ -2174,10 +4115,13 @@
    "kind": "numeric",
    "contextBefore": "生存賠償",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0016"
@@ -2195,10 +4139,13 @@
    "kind": "numeric",
    "contextBefore": "生存賠償",
    "targets": [
+    "p11:8",
+    "p11:24",
+    "p12:52",
     "p14:7"
    ],
-   "targetDisplay": "P15 · 備註 7",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 7",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0016"
@@ -2216,10 +4163,13 @@
    "kind": "numeric",
    "contextBefore": "生存賠償",
    "targets": [
+    "p11:12",
+    "p11:21",
+    "p12:45",
     "p14:12"
    ],
-   "targetDisplay": "P15 · 備註 12",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 12",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0016"
@@ -2237,10 +4187,13 @@
    "kind": "numeric",
    "contextBefore": "生存賠償",
    "targets": [
+    "p11:14",
+    "p11:23",
+    "p12:47",
     "p14:13"
    ],
-   "targetDisplay": "P15 · 備註 13",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 13",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0016"
@@ -2258,10 +4211,13 @@
    "kind": "numeric",
    "contextBefore": "嚴重程度3之危疾",
    "targets": [
+    "p11:8",
+    "p11:24",
+    "p12:52",
     "p14:7"
    ],
-   "targetDisplay": "P15 · 備註 7",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 7",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0017"
@@ -2279,10 +4235,13 @@
    "kind": "numeric",
    "contextBefore": "嚴重程度3之危疾",
    "targets": [
+    "p11:12",
+    "p11:21",
+    "p12:45",
     "p14:12"
    ],
-   "targetDisplay": "P15 · 備註 12",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 12",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0017"
@@ -2300,10 +4259,12 @@
    "kind": "numeric",
    "contextBefore": "的100%及終期紅利(如有)",
    "targets": [
+    "p11:31",
+    "p12:55",
     "p14:17"
    ],
-   "targetDisplay": "P15 · 備註 17",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 17",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2321,10 +4282,13 @@
    "kind": "numeric",
    "contextBefore": "關愛援助保障",
    "targets": [
+    "p11:2",
+    "p11:16",
+    "p12:42",
     "p14:2"
    ],
-   "targetDisplay": "P15 · 備註 2",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 2",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2342,10 +4306,13 @@
    "kind": "numeric",
    "contextBefore": "嚴重都市疾病額外賠償",
    "targets": [
+    "p11:5",
+    "p11:20",
+    "p12:48",
     "p14:5"
    ],
-   "targetDisplay": "P15 · 備註 5",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 5",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0018"
@@ -2363,10 +4330,13 @@
    "kind": "numeric",
    "contextBefore": "嚴重都市疾病額外賠償",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0018"
@@ -2384,10 +4354,13 @@
    "kind": "numeric",
    "contextBefore": "嚴重都市疾病額外賠償",
    "targets": [
+    "p11:13",
+    "p11:25",
+    "p12:49",
     "p14:14"
    ],
-   "targetDisplay": "P15 · 備註 14",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 14",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0018"
@@ -2405,10 +4378,13 @@
    "kind": "numeric",
    "contextBefore": "保障還原利益",
    "targets": [
+    "p11:8",
+    "p11:24",
+    "p12:52",
     "p14:7"
    ],
-   "targetDisplay": "P15 · 備註 7",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 7",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2426,10 +4402,13 @@
    "kind": "numeric",
    "contextBefore": "額外生存賠償",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0019"
@@ -2447,13 +4426,37 @@
    "kind": "numeric",
    "contextBefore": "額外生存賠償",
    "targets": [
+    "p11:7",
+    "p11:26",
+    "p12:54",
     "p14:8"
    ],
-   "targetDisplay": "P15 · 備註 8",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 8",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0019"
+  },
+  {
+   "id": "h079bfc44",
+   "page": 7,
+   "bbox": [
+    459.76,
+    184.81,
+    462.68,
+    190.87
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "呼吸系統疾病額外賠償",
+   "targets": [
+    "p4:1"
+   ],
+   "targetDisplay": "P5 · 腳註 #",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
   },
   {
    "id": "h07d6b062",
@@ -2468,10 +4471,13 @@
    "kind": "numeric",
    "contextBefore": "呼吸系統疾病額外賠償",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0020"
@@ -2489,10 +4495,13 @@
    "kind": "numeric",
    "contextBefore": "呼吸系統疾病額外賠償",
    "targets": [
+    "p11:7",
+    "p11:26",
+    "p12:54",
     "p14:8"
    ],
-   "targetDisplay": "P15 · 備註 8",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 8",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0020"
@@ -2510,10 +4519,13 @@
    "kind": "numeric",
    "contextBefore": "良性腫瘤額外賠償",
    "targets": [
+    "p11:6",
+    "p11:22",
+    "p12:50",
     "p14:6"
    ],
-   "targetDisplay": "P15 · 備註 6",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 6",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0021"
@@ -2531,10 +4543,13 @@
    "kind": "numeric",
    "contextBefore": "良性腫瘤額外賠償",
    "targets": [
+    "p11:12",
+    "p11:21",
+    "p12:45",
     "p14:12"
    ],
-   "targetDisplay": "P15 · 備註 12",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 12",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0021"
@@ -2552,10 +4567,13 @@
    "kind": "numeric",
    "contextBefore": "良性病變專屬保障",
    "targets": [
+    "p11:11",
+    "p11:30",
+    "p12:41",
     "p14:10"
    ],
-   "targetDisplay": "P15 · 備註 10",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 10",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2573,10 +4591,13 @@
    "kind": "numeric",
    "contextBefore": "可轉換權益",
    "targets": [
+    "p11:15",
+    "p11:27",
+    "p12:51",
     "p14:15"
    ],
-   "targetDisplay": "P15 · 備註 15",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 15",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2594,10 +4615,13 @@
    "kind": "numeric",
    "contextBefore": "身故賠償",
    "targets": [
+    "p11:8",
+    "p11:24",
+    "p12:52",
     "p14:7"
    ],
-   "targetDisplay": "P15 · 備註 7",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 7",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0022"
@@ -2615,10 +4639,13 @@
    "kind": "numeric",
    "contextBefore": "身故賠償",
    "targets": [
+    "p11:14",
+    "p11:23",
+    "p12:47",
     "p14:13"
    ],
-   "targetDisplay": "P15 · 備註 13",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 13",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": "g0022"
@@ -2636,10 +4663,13 @@
    "kind": "numeric",
    "contextBefore": "保費豁免保障",
    "targets": [
+    "p11:10",
+    "p11:32",
+    "p12:43",
     "p14:11"
    ],
-   "targetDisplay": "P15 · 備註 11",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 11",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2657,10 +4687,12 @@
    "kind": "numeric",
    "contextBefore": "– 已付或應付之生存賠償的累積總金額(如有) –",
    "targets": [
+    "p11:31",
+    "p12:55",
     "p14:17"
    ],
-   "targetDisplay": "P15 · 備註 17",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 17",
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2678,10 +4710,13 @@
    "kind": "numeric",
    "contextBefore": "退保利益 / 期滿利益",
    "targets": [
+    "p11:14",
+    "p11:23",
+    "p12:47",
     "p14:13"
    ],
-   "targetDisplay": "P15 · 備註 13",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 13",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2699,10 +4734,11 @@
    "kind": "numeric",
    "contextBefore": "免費環球緊急支援服務",
    "targets": [
+    "p11:35",
     "p14:19"
    ],
-   "targetDisplay": "P15 · 備註 19",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 19",
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2720,10 +4756,13 @@
    "kind": "numeric",
    "contextBefore": "次級嚴重癌症",
    "targets": [
+    "p12:40",
+    "p11:1",
+    "p11:17",
     "p14:1"
    ],
-   "targetDisplay": "P15 · 備註 1",
-   "confidence": 0.98,
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2741,10 +4780,13 @@
    "kind": "numeric",
    "contextBefore": "原位癌",
    "targets": [
+    "p12:40",
+    "p11:1",
+    "p11:17",
     "p14:1"
    ],
-   "targetDisplay": "P15 · 備註 1",
-   "confidence": 0.98,
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2762,9 +4804,10 @@
    "kind": "numeric",
    "contextBefore": "冠狀血管成形術",
    "targets": [
+    "p11:36",
     "p14:20"
    ],
-   "targetDisplay": "P15 · 備註 20",
+   "targetDisplay": "P12 · 備註 20",
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
@@ -2783,10 +4826,11 @@
    "kind": "numeric",
    "contextBefore": "永久性植入心臟除纖顫器",
    "targets": [
+    "p11:36",
     "p14:20"
    ],
-   "targetDisplay": "P15 · 備註 20",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 20",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2804,10 +4848,11 @@
    "kind": "numeric",
    "contextBefore": "永久性植入心臟起搏器",
    "targets": [
+    "p11:36",
     "p14:20"
    ],
-   "targetDisplay": "P15 · 備註 20",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 20",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2825,10 +4870,11 @@
    "kind": "numeric",
    "contextBefore": "次級嚴重心臟病發作",
    "targets": [
+    "p11:36",
     "p14:20"
    ],
-   "targetDisplay": "P15 · 備註 20",
-   "confidence": 0.98,
+   "targetDisplay": "P12 · 備註 20",
+   "confidence": 0.75,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2846,9 +4892,12 @@
    "kind": "numeric",
    "contextBefore": "垂體瘤",
    "targets": [
-    "p14:1"
+    "p12:40",
+    "p14:1",
+    "p11:1",
+    "p11:17"
    ],
-   "targetDisplay": "P15 · 備註 1",
+   "targetDisplay": "P13 · 備註 1",
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
@@ -2867,9 +4916,12 @@
    "kind": "numeric",
    "contextBefore": "主要器官功能損害市場首創3",
    "targets": [
-    "p14:1"
+    "p12:40",
+    "p14:1",
+    "p11:1",
+    "p11:17"
    ],
-   "targetDisplay": "P15 · 備註 1",
+   "targetDisplay": "P13 · 備註 1",
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
@@ -2888,9 +4940,12 @@
    "kind": "numeric",
    "contextBefore": "主要器官功能損害1市場首創",
    "targets": [
-    "p14:3"
+    "p12:44",
+    "p14:3",
+    "p11:3",
+    "p11:18"
    ],
-   "targetDisplay": "P15 · 備註 3",
+   "targetDisplay": "P13 · 備註 3",
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
@@ -2909,7 +4964,8 @@
    "kind": "numeric",
    "contextBefore": "植入人工耳蝸手術",
    "targets": [
-    "p14:20"
+    "p14:20",
+    "p11:36"
    ],
    "targetDisplay": "P15 · 備註 20",
    "confidence": 0.98,
@@ -2930,7 +4986,8 @@
    "kind": "numeric",
    "contextBefore": "嚴重聽力受損(保障由2歲起)",
    "targets": [
-    "p14:20"
+    "p14:20",
+    "p11:36"
    ],
    "targetDisplay": "P15 · 備註 20",
    "confidence": 0.98,
@@ -2951,7 +5008,10 @@
    "kind": "numeric",
    "contextBefore": "市場首創",
    "targets": [
-    "p14:3"
+    "p14:3",
+    "p11:3",
+    "p11:18",
+    "p12:44"
    ],
    "targetDisplay": "P15 · 備註 3",
    "confidence": 0.98,
@@ -2972,7 +5032,10 @@
    "kind": "numeric",
    "contextBefore": "濾率低於或相等於40mL/min/1.73 m。",
    "targets": [
-    "p14:2"
+    "p14:2",
+    "p11:2",
+    "p11:16",
+    "p12:42"
    ],
    "targetDisplay": "P15 · 備註 2",
    "confidence": 0.98,
@@ -2994,7 +5057,8 @@
    "contextBefore": "三大皇牌產品系列俹俷俹俼年度分紅實現率全面達標",
    "targets": [
     "p18:1",
-    "p2:1"
+    "p2:2",
+    "p3:2"
    ],
    "targetDisplay": "P19 · 腳註 *",
    "confidence": 0.98,
@@ -3004,8 +5068,8 @@
   }
  ],
  "stats": {
-  "anchors": 117,
-  "notes": 33,
-  "resolved": 117
+  "anchors": 119,
+  "notes": 139,
+  "resolved": 119
  }
 }

@@ -4,7 +4,7 @@ from typing import Optional
 
 from pydantic import BaseModel, Field
 
-ANALYSIS_VERSION = "1.14"  # 1.14: 熱點 id 內容尋址（1.13: T5 孤立符號解釋行 + C8 同字號符號角標）  # schema 变更时 bump，缓存自动失效
+ANALYSIS_VERSION = "1.15"  # 1.15: TAB 編號來源塊（T2 內容跨度）+ 逗號空格多編號 + 符號集 +#  # schema 变更时 bump，缓存自动失效
 
 
 class DocMeta(BaseModel):

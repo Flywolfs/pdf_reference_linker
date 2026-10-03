@@ -1,5 +1,5 @@
 {
- "version": "1.14",
+ "version": "1.15",
  "docId": "1df7ac71",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/中銀人壽/重疾/中银人寿危疾188终身寿险计划-产品小册子.pdf",
@@ -27,6 +27,86 @@
    "text": "資料來源:中銀人壽根據10Life保險比較平台,截至2023年9月30日,中銀人壽危疾188終身壽險計劃在10Life 5星 保險大獎2023榮獲5星終身危疾保險獎及在終身危疾保險類別榮獲「9.3/10」保障評分。詳情: www.10life.com。",
    "textPages": [
     0
+   ]
+  },
+  {
+   "noteId": "p4:1",
+   "anchor": "footer",
+   "page": 4,
+   "bbox": [
+    28.09,
+    757.64,
+    567.11,
+    818.19
+   ],
+   "number": "*",
+   "text": "非保證的終期紅利尚未包括在計算以上嚴重疾病的賠償額內,而說明例子假設(i) 所有應繳保費已全數如期繳付(配偶身故的保費豁免保障9下已獲豁免的 保費除外)及(ii) 並無作出保單貸款。 上述例子乃假設並僅供舉例說明之用。客戶應根據自身情況包括個人需要及負擔能力選擇合適的保險產品及投保額。本計劃及附加利益 保障(如有)詳情(包括但不限於各項保障項目及承保範圍、詳盡條款、主要風險、細則、除外事項、保費費用及收費),受中銀人壽 繕發的正式保單文件及條款所限制。如有任何查詢,請聯絡您的專業理財顧問。",
+   "textPages": [
+    4
+   ]
+  },
+  {
+   "noteId": "p4:2",
+   "anchor": "footer",
+   "page": 4,
+   "bbox": [
+    73.64,
+    370.34,
+    280.08,
+    384.01
+   ],
+   "number": "+",
+   "text": "嚴重疾病賠償升級保障(只適用於首10個保單年度)6",
+   "textPages": [
+    4
+   ]
+  },
+  {
+   "noteId": "p5:1",
+   "anchor": "footer",
+   "page": 5,
+   "bbox": [
+    78.64,
+    237.97,
+    273.97,
+    251.64
+   ],
+   "number": "+",
+   "text": "嚴重疾病賠償升級保障6(只適用於首10個保單年度)",
+   "textPages": [
+    5
+   ]
+  },
+  {
+   "noteId": "p5:2",
+   "anchor": "footer",
+   "page": 5,
+   "bbox": [
+    28.93,
+    637.89,
+    564.97,
+    648.33
+   ],
+   "number": "*",
+   "text": "非保證終期紅利尚未包括在計算以上嚴重疾病的賠償額內,而說明例子假設(i) 所有應繳保費已全數如期繳付(嚴重疾病後的保費豁免保障8下已獲豁免的",
+   "textPages": [
+    5
+   ]
+  },
+  {
+   "noteId": "p7:1",
+   "anchor": "footer",
+   "page": 7,
+   "bbox": [
+    429.63,
+    771.88,
+    554.14,
+    783.62
+   ],
+   "number": "+",
+   "text": "M6.w 因良性病變狀況而衍生的",
+   "textPages": [
+    7
    ]
   },
   {
@@ -78,7 +158,7 @@
    ]
   },
   {
-   "noteId": "p1:inline4",
+   "noteId": "p1:inline9",
    "anchor": "inline",
    "page": 1,
    "bbox": [
@@ -94,7 +174,7 @@
    ]
   },
   {
-   "noteId": "p3:inline5",
+   "noteId": "p3:inline10",
    "anchor": "inline",
    "page": 3,
    "bbox": [
@@ -110,7 +190,7 @@
    ]
   },
   {
-   "noteId": "p10:inline6",
+   "noteId": "p10:inline11",
    "anchor": "inline",
    "page": 10,
    "bbox": [
@@ -127,6 +207,206 @@
   }
  ],
  "hotspots": [
+  {
+   "id": "h0141cd65",
+   "page": 1,
+   "bbox": [
+    395.5,
+    23.79,
+    404.67,
+    31.78
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "供持續支援保障,額外癌症賠償2, 4、額外心臟病",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0001"
+  },
+  {
+   "id": "h0189edf2",
+   "page": 1,
+   "bbox": [
+    395.5,
+    23.79,
+    404.67,
+    31.78
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "供持續支援保障,額外癌症賠償2, 4、額外心臟病",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0001"
+  },
+  {
+   "id": "h01fc9993",
+   "page": 1,
+   "bbox": [
+    477.96,
+    23.79,
+    487.38,
+    31.78
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "供持續支援保障1, 4,額外癌症賠償、額外心臟病",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0002"
+  },
+  {
+   "id": "h01a0866d",
+   "page": 1,
+   "bbox": [
+    477.96,
+    23.79,
+    487.38,
+    31.78
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "供持續支援保障1, 4,額外癌症賠償、額外心臟病",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0002"
+  },
+  {
+   "id": "h01c52ac9",
+   "page": 1,
+   "bbox": [
+    332.68,
+    37.79,
+    342.1,
+    45.78
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "額外中風賠償3, 4及額外腎衰竭賠償3, 4,以",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0003"
+  },
+  {
+   "id": "h01c28b1d",
+   "page": 1,
+   "bbox": [
+    332.68,
+    37.79,
+    342.1,
+    45.78
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外中風賠償3, 4及額外腎衰竭賠償3, 4,以",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0003"
+  },
+  {
+   "id": "h0176adbb",
+   "page": 1,
+   "bbox": [
+    418.24,
+    37.79,
+    428.57,
+    45.78
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": ", 4、額外中風賠償及額外腎衰竭賠償3, 4,以",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0004"
+  },
+  {
+   "id": "h01dc98b9",
+   "page": 1,
+   "bbox": [
+    418.24,
+    37.79,
+    428.57,
+    45.78
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": ", 4、額外中風賠償及額外腎衰竭賠償3, 4,以",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0004"
+  },
+  {
+   "id": "h010c3043",
+   "page": 1,
+   "bbox": [
+    517.4,
+    37.79,
+    527.74,
+    45.78
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": ", 4、額外中風賠償3, 4及額外腎衰竭賠償,以",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0005"
+  },
+  {
+   "id": "h017bdab1",
+   "page": 1,
+   "bbox": [
+    517.4,
+    37.79,
+    527.74,
+    45.78
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": ", 4、額外中風賠償3, 4及額外腎衰竭賠償,以",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0005"
+  },
   {
    "id": "h01959ba5",
    "page": 1,
@@ -297,6 +577,206 @@
    "source": "derived",
    "nativeLink": null,
    "group": null
+  },
+  {
+   "id": "h011af4dc",
+   "page": 1,
+   "bbox": [
+    120.96,
+    468.27,
+    129.78,
+    475.11
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0006"
+  },
+  {
+   "id": "h013b3c3e",
+   "page": 1,
+   "bbox": [
+    120.96,
+    468.27,
+    129.78,
+    475.11
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0006"
+  },
+  {
+   "id": "h010dc024",
+   "page": 1,
+   "bbox": [
+    121.31,
+    485.27,
+    130.13,
+    492.11
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "償、額外心臟病賠償3, 4、額外中風賠償3, 4",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0007"
+  },
+  {
+   "id": "h01701b4f",
+   "page": 1,
+   "bbox": [
+    121.31,
+    485.27,
+    130.13,
+    492.11
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "償、額外心臟病賠償3, 4、額外中風賠償3, 4",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0007"
+  },
+  {
+   "id": "h018f2d25",
+   "page": 1,
+   "bbox": [
+    204.24,
+    485.27,
+    213.06,
+    492.11
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "償2, 4、額外心臟病賠償、額外中風賠償3, 4",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0008"
+  },
+  {
+   "id": "h0179f193",
+   "page": 1,
+   "bbox": [
+    204.24,
+    485.27,
+    213.06,
+    492.11
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "償2, 4、額外心臟病賠償、額外中風賠償3, 4",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0008"
+  },
+  {
+   "id": "h01dd4c04",
+   "page": 1,
+   "bbox": [
+    278.03,
+    485.27,
+    286.85,
+    492.11
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "償2, 4、額外心臟病賠償3, 4、額外中風賠償",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0009"
+  },
+  {
+   "id": "h01e64971",
+   "page": 1,
+   "bbox": [
+    278.03,
+    485.27,
+    286.85,
+    492.11
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "償2, 4、額外心臟病賠償3, 4、額外中風賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0009"
+  },
+  {
+   "id": "h0139eda5",
+   "page": 1,
+   "bbox": [
+    139.09,
+    500.27,
+    147.91,
+    507.11
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "及額外腎衰竭賠償",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0010"
+  },
+  {
+   "id": "h016415af",
+   "page": 1,
+   "bbox": [
+    139.09,
+    500.27,
+    147.91,
+    507.11
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "及額外腎衰竭賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0010"
   },
   {
    "id": "h011769bd",
@@ -546,6 +1026,46 @@
    "group": null
   },
   {
+   "id": "h01ea708f",
+   "page": 1,
+   "bbox": [
+    391.34,
+    697.94,
+    400.1,
+    705.08
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0011"
+  },
+  {
+   "id": "h01e7b177",
+   "page": 1,
+   "bbox": [
+    391.34,
+    697.94,
+    400.1,
+    705.08
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0011"
+  },
+  {
    "id": "h01cc5e49",
    "page": 1,
    "bbox": [
@@ -563,6 +1083,366 @@
    "source": "derived",
    "nativeLink": null,
    "group": null
+  },
+  {
+   "id": "h01b10351",
+   "page": 1,
+   "bbox": [
+    530.08,
+    734.45,
+    538.83,
+    741.29
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "將於該疾病獲賠付嚴重疾病賠償14、額外癌症賠償、",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0012"
+  },
+  {
+   "id": "h01411d95",
+   "page": 1,
+   "bbox": [
+    530.08,
+    734.45,
+    538.83,
+    741.29
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "將於該疾病獲賠付嚴重疾病賠償14、額外癌症賠償、",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0012"
+  },
+  {
+   "id": "h010b4981",
+   "page": 1,
+   "bbox": [
+    376.11,
+    749.45,
+    384.86,
+    756.29
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "償、額外中風賠償3, 4或額外腎衰竭賠償3, 4",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0013"
+  },
+  {
+   "id": "h015525a2",
+   "page": 1,
+   "bbox": [
+    376.11,
+    749.45,
+    384.86,
+    756.29
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "償、額外中風賠償3, 4或額外腎衰竭賠償3, 4",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0013"
+  },
+  {
+   "id": "h0187fa9d",
+   "page": 1,
+   "bbox": [
+    450.86,
+    749.45,
+    459.61,
+    756.29
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "償3, 4、額外中風賠償或額外腎衰竭賠償3, 4",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0014"
+  },
+  {
+   "id": "h01dd3c3b",
+   "page": 1,
+   "bbox": [
+    450.86,
+    749.45,
+    459.61,
+    756.29
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "償3, 4、額外中風賠償或額外腎衰竭賠償3, 4",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0014"
+  },
+  {
+   "id": "h01ae9c3a",
+   "page": 1,
+   "bbox": [
+    536.39,
+    749.45,
+    545.14,
+    756.29
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "償3, 4、額外中風賠償3, 4或額外腎衰竭賠償",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0015"
+  },
+  {
+   "id": "h01feac14",
+   "page": 1,
+   "bbox": [
+    536.39,
+    749.45,
+    545.14,
+    756.29
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "償3, 4、額外中風賠償3, 4或額外腎衰竭賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0015"
+  },
+  {
+   "id": "h011b0b9f",
+   "page": 1,
+   "bbox": [
+    455.26,
+    779.45,
+    464.01,
+    786.29
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "保單權益人每月支付持續支援保障,保障金額相等於投",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0016"
+  },
+  {
+   "id": "h01d338a3",
+   "page": 1,
+   "bbox": [
+    455.26,
+    779.45,
+    464.01,
+    786.29
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "保單權益人每月支付持續支援保障,保障金額相等於投",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0016"
+  },
+  {
+   "id": "h02f98388",
+   "page": 2,
+   "bbox": [
+    113.01,
+    41.13,
+    121.76,
+    48.27
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "額外癌症賠償、額外心臟病賠償3, 4、",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0017"
+  },
+  {
+   "id": "h0282fb6c",
+   "page": 2,
+   "bbox": [
+    113.01,
+    41.13,
+    121.76,
+    48.27
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外癌症賠償、額外心臟病賠償3, 4、",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0017"
+  },
+  {
+   "id": "h02618d68",
+   "page": 2,
+   "bbox": [
+    194.89,
+    41.13,
+    203.64,
+    48.27
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "額外癌症賠償2, 4、額外心臟病賠償、",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0018"
+  },
+  {
+   "id": "h02c35a8a",
+   "page": 2,
+   "bbox": [
+    194.89,
+    41.13,
+    203.64,
+    48.27
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外癌症賠償2, 4、額外心臟病賠償、",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0018"
+  },
+  {
+   "id": "h029a9b90",
+   "page": 2,
+   "bbox": [
+    113.01,
+    53.13,
+    121.76,
+    60.27
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "額外中風賠償及額外腎衰竭賠償3, 4",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0019"
+  },
+  {
+   "id": "h026488e6",
+   "page": 2,
+   "bbox": [
+    113.01,
+    53.13,
+    121.76,
+    60.27
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外中風賠償及額外腎衰竭賠償3, 4",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0019"
+  },
+  {
+   "id": "h020fc677",
+   "page": 2,
+   "bbox": [
+    196.01,
+    53.13,
+    204.76,
+    60.27
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "額外中風賠償3, 4及額外腎衰竭賠償",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0020"
+  },
+  {
+   "id": "h02f61668",
+   "page": 2,
+   "bbox": [
+    196.01,
+    53.13,
+    204.76,
+    60.27
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外中風賠償3, 4及額外腎衰竭賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0020"
   },
   {
    "id": "h02b52ee6",
@@ -938,10 +1818,12 @@
    "kind": "asterisk",
    "contextBefore": "10年",
    "targets": [
+    "p4:1",
+    "p5:2",
     "p0:1"
    ],
-   "targetDisplay": "P1 · 腳註 *",
-   "confidence": 0.98,
+   "targetDisplay": "P5 · 腳註 *",
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1080,6 +1962,46 @@
    "group": null
   },
   {
+   "id": "h042c69e5",
+   "page": 4,
+   "bbox": [
+    412.19,
+    368.35,
+    420.94,
+    375.19
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0021"
+  },
+  {
+   "id": "h04395dc5",
+   "page": 4,
+   "bbox": [
+    412.19,
+    368.35,
+    420.94,
+    375.19
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0021"
+  },
+  {
    "id": "h044c6ab1",
    "page": 4,
    "bbox": [
@@ -1135,6 +2057,286 @@
    "source": "derived",
    "nativeLink": null,
    "group": null
+  },
+  {
+   "id": "h04f5dc8b",
+   "page": 4,
+   "bbox": [
+    412.19,
+    455.91,
+    420.94,
+    462.76
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0022"
+  },
+  {
+   "id": "h04ec8480",
+   "page": 4,
+   "bbox": [
+    412.19,
+    455.91,
+    420.94,
+    462.76
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0022"
+  },
+  {
+   "id": "h0411ee2e",
+   "page": 4,
+   "bbox": [
+    128.76,
+    466.44,
+    137.52,
+    473.28
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "額外癌症賠償",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0023"
+  },
+  {
+   "id": "h04fe0d02",
+   "page": 4,
+   "bbox": [
+    128.76,
+    466.44,
+    137.52,
+    473.28
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外癌症賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0023"
+  },
+  {
+   "id": "h04bdf387",
+   "page": 4,
+   "bbox": [
+    412.19,
+    529.08,
+    420.94,
+    535.92
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0024"
+  },
+  {
+   "id": "h04ed2098",
+   "page": 4,
+   "bbox": [
+    412.19,
+    529.08,
+    420.94,
+    535.92
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0024"
+  },
+  {
+   "id": "h04f6b328",
+   "page": 4,
+   "bbox": [
+    128.76,
+    539.49,
+    137.52,
+    546.33
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "額外癌症賠償",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0025"
+  },
+  {
+   "id": "h04394fdc",
+   "page": 4,
+   "bbox": [
+    128.76,
+    539.49,
+    137.52,
+    546.33
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外癌症賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0025"
+  },
+  {
+   "id": "h04edda8b",
+   "page": 4,
+   "bbox": [
+    412.19,
+    601.48,
+    420.94,
+    608.33
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0026"
+  },
+  {
+   "id": "h04149567",
+   "page": 4,
+   "bbox": [
+    412.19,
+    601.48,
+    420.94,
+    608.33
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0026"
+  },
+  {
+   "id": "h0497d84d",
+   "page": 4,
+   "bbox": [
+    128.76,
+    612.21,
+    137.52,
+    619.05
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "額外癌症賠償",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0027"
+  },
+  {
+   "id": "h04c09c28",
+   "page": 4,
+   "bbox": [
+    128.76,
+    612.21,
+    137.52,
+    619.05
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外癌症賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0027"
+  },
+  {
+   "id": "h048d4a12",
+   "page": 4,
+   "bbox": [
+    128.76,
+    685.27,
+    137.52,
+    692.11
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "額外癌症賠償",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0028"
+  },
+  {
+   "id": "h04c6a3ad",
+   "page": 4,
+   "bbox": [
+    128.76,
+    685.27,
+    137.52,
+    692.11
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外癌症賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0028"
   },
   {
    "id": "h04c2fffe",
@@ -1308,6 +2510,366 @@
    "group": null
   },
   {
+   "id": "h050842f3",
+   "page": 5,
+   "bbox": [
+    412.19,
+    326.56,
+    420.94,
+    333.4
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0029"
+  },
+  {
+   "id": "h056885f1",
+   "page": 5,
+   "bbox": [
+    412.19,
+    326.56,
+    420.94,
+    333.4
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0029"
+  },
+  {
+   "id": "h050930c2",
+   "page": 5,
+   "bbox": [
+    142.77,
+    337.08,
+    151.52,
+    343.92
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "額外心臟病賠償",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0030"
+  },
+  {
+   "id": "h0587b9d7",
+   "page": 5,
+   "bbox": [
+    142.77,
+    337.08,
+    151.52,
+    343.92
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外心臟病賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0030"
+  },
+  {
+   "id": "h050bf8f4",
+   "page": 5,
+   "bbox": [
+    412.19,
+    398.7,
+    420.94,
+    405.54
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0031"
+  },
+  {
+   "id": "h05fcc326",
+   "page": 5,
+   "bbox": [
+    412.19,
+    398.7,
+    420.94,
+    405.54
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0031"
+  },
+  {
+   "id": "h0530306b",
+   "page": 5,
+   "bbox": [
+    133.77,
+    409.22,
+    142.52,
+    416.06
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "額外中風賠償",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0032"
+  },
+  {
+   "id": "h0598094d",
+   "page": 5,
+   "bbox": [
+    133.77,
+    409.22,
+    142.52,
+    416.06
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外中風賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0032"
+  },
+  {
+   "id": "h05a910b7",
+   "page": 5,
+   "bbox": [
+    412.19,
+    470.57,
+    420.94,
+    477.41
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0033"
+  },
+  {
+   "id": "h053e6efb",
+   "page": 5,
+   "bbox": [
+    412.19,
+    470.57,
+    420.94,
+    477.41
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0033"
+  },
+  {
+   "id": "h05acb7d4",
+   "page": 5,
+   "bbox": [
+    142.77,
+    480.99,
+    151.52,
+    487.83
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "額外腎衰竭賠償",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0034"
+  },
+  {
+   "id": "h05f10bfe",
+   "page": 5,
+   "bbox": [
+    142.77,
+    480.99,
+    151.52,
+    487.83
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外腎衰竭賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0034"
+  },
+  {
+   "id": "h05b3deb4",
+   "page": 5,
+   "bbox": [
+    527.32,
+    580.4,
+    536.07,
+    587.25
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "下投保額的76%可供張先生索償額外癌症賠償、額外",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0035"
+  },
+  {
+   "id": "h05033490",
+   "page": 5,
+   "bbox": [
+    527.32,
+    580.4,
+    536.07,
+    587.25
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "下投保額的76%可供張先生索償額外癌症賠償、額外",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0035"
+  },
+  {
+   "id": "h05b8a28f",
+   "page": 5,
+   "bbox": [
+    75.06,
+    595.4,
+    83.81,
+    602.25
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "情況而定) 多一次,總賠償額可高達投保額550%",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0036"
+  },
+  {
+   "id": "h0591b842",
+   "page": 5,
+   "bbox": [
+    75.06,
+    595.4,
+    83.81,
+    602.25
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "情況而定) 多一次,總賠償額可高達投保額550%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0036"
+  },
+  {
+   "id": "h05cae7db",
+   "page": 5,
+   "bbox": [
+    149.06,
+    595.4,
+    157.81,
+    602.25
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "情況而定) 多一次,總賠償額可高達投保額550%",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0037"
+  },
+  {
+   "id": "h05ee5b4c",
+   "page": 5,
+   "bbox": [
+    149.06,
+    595.4,
+    157.81,
+    602.25
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "情況而定) 多一次,總賠償額可高達投保額550%",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0037"
+  },
+  {
    "id": "h0582f767",
    "page": 5,
    "bbox": [
@@ -1322,6 +2884,67 @@
    "targets": [],
    "targetDisplay": null,
    "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h06487de0",
+   "page": 6,
+   "bbox": [
+    205.32,
+    727.29,
+    208.24,
+    734.13
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "不能獨立生活",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h07cc31f9",
+   "page": 7,
+   "bbox": [
+    401.89,
+    635.78,
+    404.81,
+    642.62
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "M6.i 次級嚴重不能獨立生活",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h078fd67c",
+   "page": 7,
+   "bbox": [
+    383.89,
+    765.38,
+    386.96,
+    772.22
+   ],
+   "text": "+",
+   "kind": "asterisk",
+   "contextBefore": "M6.p 骨質疏鬆症連骨折",
+   "targets": [
+    "p7:1",
+    "p4:2",
+    "p5:1"
+   ],
+   "targetDisplay": "P8 · 腳註 +",
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -1471,6 +3094,25 @@
    "text": "14",
    "kind": "numeric",
    "contextBefore": "償15、嚴重疾病賠償及身故賠償將會",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h083d38cf",
+   "page": 8,
+   "bbox": [
+    186.41,
+    352.31,
+    189.33,
+    359.15
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "(不能獨立生活及完全及",
    "targets": [],
    "targetDisplay": null,
    "confidence": 0.5,
@@ -1745,6 +3387,25 @@
    "group": null
   },
   {
+   "id": "h0805eb4a",
+   "page": 8,
+   "bbox": [
+    220.86,
+    680.45,
+    223.77,
+    687.29
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "(次級嚴重不能獨立生活、",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
    "id": "h08d15eb3",
    "page": 8,
    "bbox": [
@@ -1954,6 +3615,646 @@
    "group": null
   },
   {
+   "id": "h09a17344",
+   "page": 9,
+   "bbox": [
+    544.86,
+    355.19,
+    552.98,
+    362.03
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "付嚴重疾病賠償14、額外癌症賠償、",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0038"
+  },
+  {
+   "id": "h09eb4cce",
+   "page": 9,
+   "bbox": [
+    544.86,
+    355.19,
+    552.98,
+    362.03
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "付嚴重疾病賠償14、額外癌症賠償、",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0038"
+  },
+  {
+   "id": "h097610b0",
+   "page": 9,
+   "bbox": [
+    478.1,
+    365.69,
+    486.54,
+    372.53
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "額外心臟病賠償、額外中風賠償3, 4",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0039"
+  },
+  {
+   "id": "h09b5e92a",
+   "page": 9,
+   "bbox": [
+    478.1,
+    365.69,
+    486.54,
+    372.53
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外心臟病賠償、額外中風賠償3, 4",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0039"
+  },
+  {
+   "id": "h09416e11",
+   "page": 9,
+   "bbox": [
+    550.65,
+    365.69,
+    559.08,
+    372.53
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "額外心臟病賠償3, 4、額外中風賠償",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0040"
+  },
+  {
+   "id": "h0954f4d4",
+   "page": 9,
+   "bbox": [
+    550.65,
+    365.69,
+    559.08,
+    372.53
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外心臟病賠償3, 4、額外中風賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0040"
+  },
+  {
+   "id": "h0964b011",
+   "page": 9,
+   "bbox": [
+    486.85,
+    376.19,
+    495.29,
+    383.03
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "或額外腎衰竭賠償(視乎情況而定)",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0041"
+  },
+  {
+   "id": "h09a9ef09",
+   "page": 9,
+   "bbox": [
+    486.85,
+    376.19,
+    495.29,
+    383.03
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "或額外腎衰竭賠償(視乎情況而定)",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0041"
+  },
+  {
+   "id": "h0936ad05",
+   "page": 9,
+   "bbox": [
+    94.42,
+    393.42,
+    103.17,
+    400.27
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0042"
+  },
+  {
+   "id": "h09634d02",
+   "page": 9,
+   "bbox": [
+    94.42,
+    393.42,
+    103.17,
+    400.27
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "持續支援保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0042"
+  },
+  {
+   "id": "h09eaddd9",
+   "page": 9,
+   "bbox": [
+    441.28,
+    407.69,
+    449.72,
+    414.53
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "援保障",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0043"
+  },
+  {
+   "id": "h093bdcbf",
+   "page": 9,
+   "bbox": [
+    441.28,
+    407.69,
+    449.72,
+    414.53
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "援保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0043"
+  },
+  {
+   "id": "h091e2dea",
+   "page": 9,
+   "bbox": [
+    466.66,
+    418.19,
+    474.78,
+    425.03
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "• 額外癌症賠償、額外心臟病賠償3, 4、",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0044"
+  },
+  {
+   "id": "h09ff3894",
+   "page": 9,
+   "bbox": [
+    466.66,
+    418.19,
+    474.78,
+    425.03
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "• 額外癌症賠償、額外心臟病賠償3, 4、",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0044"
+  },
+  {
+   "id": "h0962fc98",
+   "page": 9,
+   "bbox": [
+    544.82,
+    418.19,
+    552.94,
+    425.03
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "• 額外癌症賠償2, 4、額外心臟病賠償、",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0045"
+  },
+  {
+   "id": "h0909d046",
+   "page": 9,
+   "bbox": [
+    544.82,
+    418.19,
+    552.94,
+    425.03
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "• 額外癌症賠償2, 4、額外心臟病賠償、",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0045"
+  },
+  {
+   "id": "h09a3c996",
+   "page": 9,
+   "bbox": [
+    469.03,
+    428.69,
+    477.46,
+    435.53
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "額外中風賠償、額外腎衰竭賠償3, 4",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0046"
+  },
+  {
+   "id": "h09d86036",
+   "page": 9,
+   "bbox": [
+    469.03,
+    428.69,
+    477.46,
+    435.53
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外中風賠償、額外腎衰竭賠償3, 4",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0046"
+  },
+  {
+   "id": "h09c1fa0c",
+   "page": 9,
+   "bbox": [
+    550.65,
+    428.69,
+    559.08,
+    435.53
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "額外中風賠償3, 4、額外腎衰竭賠償",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0047"
+  },
+  {
+   "id": "h09b7029a",
+   "page": 9,
+   "bbox": [
+    550.65,
+    428.69,
+    559.08,
+    435.53
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外中風賠償3, 4、額外腎衰竭賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0047"
+  },
+  {
+   "id": "h091e81d2",
+   "page": 9,
+   "bbox": [
+    482.01,
+    439.19,
+    490.77,
+    446.03
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "及持續支援保障之最高賠償總額",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0048"
+  },
+  {
+   "id": "h095cd3e6",
+   "page": 9,
+   "bbox": [
+    482.01,
+    439.19,
+    490.77,
+    446.03
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "及持續支援保障之最高賠償總額",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0048"
+  },
+  {
+   "id": "h093e0722",
+   "page": 9,
+   "bbox": [
+    94.42,
+    471.21,
+    103.17,
+    478.05
+   ],
+   "text": "2",
+   "kind": "numeric",
+   "contextBefore": "額外癌症保障",
+   "targets": [
+    "p12:2"
+   ],
+   "targetDisplay": "P13 · 備註 2",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0049"
+  },
+  {
+   "id": "h093a5875",
+   "page": 9,
+   "bbox": [
+    94.42,
+    471.21,
+    103.17,
+    478.05
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外癌症保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0049"
+  },
+  {
+   "id": "h09fbcb06",
+   "page": 9,
+   "bbox": [
+    103.42,
+    493.58,
+    112.17,
+    500.42
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "額外心臟病賠償",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0050"
+  },
+  {
+   "id": "h096cff65",
+   "page": 9,
+   "bbox": [
+    103.42,
+    493.58,
+    112.17,
+    500.42
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外心臟病賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0050"
+  },
+  {
+   "id": "h0975a1d8",
+   "page": 9,
+   "bbox": [
+    94.42,
+    514.95,
+    103.17,
+    521.79
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "額外中風賠償",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0051"
+  },
+  {
+   "id": "h096adc25",
+   "page": 9,
+   "bbox": [
+    94.42,
+    514.95,
+    103.17,
+    521.79
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外中風賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0051"
+  },
+  {
+   "id": "h09b7adb3",
+   "page": 9,
+   "bbox": [
+    359.79,
+    517.39,
+    368.54,
+    524.23
+   ],
+   "text": "1",
+   "kind": "numeric",
+   "contextBefore": "付或須支付的持續支援保障",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 備註 1",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0052"
+  },
+  {
+   "id": "h09ee1e74",
+   "page": 9,
+   "bbox": [
+    359.79,
+    517.39,
+    368.54,
+    524.23
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "付或須支付的持續支援保障",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0052"
+  },
+  {
+   "id": "h095ac5af",
+   "page": 9,
+   "bbox": [
+    103.42,
+    536.32,
+    112.17,
+    543.16
+   ],
+   "text": "3",
+   "kind": "numeric",
+   "contextBefore": "額外腎衰竭賠償",
+   "targets": [
+    "p12:3"
+   ],
+   "targetDisplay": "P13 · 備註 3",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0053"
+  },
+  {
+   "id": "h091704c2",
+   "page": 9,
+   "bbox": [
+    103.42,
+    536.32,
+    112.17,
+    543.16
+   ],
+   "text": "4",
+   "kind": "numeric",
+   "contextBefore": "額外腎衰竭賠償",
+   "targets": [],
+   "targetDisplay": null,
+   "confidence": 0.5,
+   "source": "derived",
+   "nativeLink": null,
+   "group": "g0053"
+  },
+  {
    "id": "h09f459a6",
    "page": 9,
    "bbox": [
@@ -2067,7 +4368,7 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0001"
+   "group": "g0054"
   },
   {
    "id": "h106a83bc",
@@ -2086,7 +4387,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0001"
+   "group": "g0054"
   },
   {
    "id": "h105deb4c",
@@ -2126,7 +4427,7 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0002"
+   "group": "g0055"
   },
   {
    "id": "h10ef1bed",
@@ -2145,7 +4446,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0002"
+   "group": "g0055"
   },
   {
    "id": "h1000dedf",
@@ -2166,7 +4467,7 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0003"
+   "group": "g0056"
   },
   {
    "id": "h10fa6c0e",
@@ -2185,7 +4486,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0003"
+   "group": "g0056"
   },
   {
    "id": "h10209a37",
@@ -2206,7 +4507,7 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0004"
+   "group": "g0057"
   },
   {
    "id": "h1069f7ca",
@@ -2225,7 +4526,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0004"
+   "group": "g0057"
   },
   {
    "id": "h10c98741",
@@ -2246,7 +4547,7 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0005"
+   "group": "g0058"
   },
   {
    "id": "h10c91353",
@@ -2265,7 +4566,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0005"
+   "group": "g0058"
   },
   {
    "id": "h10586019",
@@ -2286,7 +4587,7 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0006"
+   "group": "g0059"
   },
   {
    "id": "h10c726a4",
@@ -2305,7 +4606,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0006"
+   "group": "g0059"
   },
   {
    "id": "h109c0f18",
@@ -2345,7 +4646,7 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0007"
+   "group": "g0060"
   },
   {
    "id": "h100d183b",
@@ -2364,7 +4665,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0007"
+   "group": "g0060"
   },
   {
    "id": "h100e6379",
@@ -2385,7 +4686,7 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0008"
+   "group": "g0061"
   },
   {
    "id": "h1059b9d3",
@@ -2404,7 +4705,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0008"
+   "group": "g0061"
   },
   {
    "id": "h10020665",
@@ -2425,7 +4726,7 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0009"
+   "group": "g0062"
   },
   {
    "id": "h10816c1f",
@@ -2444,7 +4745,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0009"
+   "group": "g0062"
   },
   {
    "id": "h106d3685",
@@ -2465,7 +4766,7 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0010"
+   "group": "g0063"
   },
   {
    "id": "h10f84858",
@@ -2484,7 +4785,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0010"
+   "group": "g0063"
   },
   {
    "id": "h10297895",
@@ -2505,7 +4806,7 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0011"
+   "group": "g0064"
   },
   {
    "id": "h1030577a",
@@ -2524,7 +4825,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0011"
+   "group": "g0064"
   },
   {
    "id": "h10d6b0be",
@@ -2564,7 +4865,7 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0012"
+   "group": "g0065"
   },
   {
    "id": "h1033230b",
@@ -2583,7 +4884,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0012"
+   "group": "g0065"
   },
   {
    "id": "h10c28566",
@@ -2604,7 +4905,7 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0013"
+   "group": "g0066"
   },
   {
    "id": "h10bdc81c",
@@ -2623,7 +4924,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0013"
+   "group": "g0066"
   },
   {
    "id": "h10ce1b56",
@@ -2644,7 +4945,7 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0014"
+   "group": "g0067"
   },
   {
    "id": "h109cf622",
@@ -2663,7 +4964,7 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0014"
+   "group": "g0067"
   },
   {
    "id": "h1017fce9",
@@ -2684,7 +4985,7 @@
    "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0015"
+   "group": "g0068"
   },
   {
    "id": "h10fa9bbf",
@@ -2703,12 +5004,12 @@
    "confidence": 0.5,
    "source": "derived",
    "nativeLink": null,
-   "group": "g0015"
+   "group": "g0068"
   }
  ],
  "stats": {
-  "anchors": 134,
-  "notes": 7,
-  "resolved": 16
+  "anchors": 245,
+  "notes": 12,
+  "resolved": 70
  }
 }

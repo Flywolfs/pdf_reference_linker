@@ -1,5 +1,5 @@
 {
- "version": "1.14",
+ "version": "1.15",
  "docId": "63773c74",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/滙豐/重疾/汇达保危疾保障计划-产品册子.pdf",
@@ -20,17 +20,33 @@
    "bbox": [
     36.64,
     786.35,
-    409.49,
-    803.72
+    207.99,
+    795.32
    ],
    "number": "*",
-   "text": "「十大致命疾病」由世界衛生組織於2020年12月發佈 + 醫院管理局香港癌症資料統計中心:2019年香港癌症資料統計概覽(2021年10月,https://www3.ha.org.hk/cancereg)",
+   "text": "「十大致命疾病」由世界衛生組織於2020年12月發佈",
    "textPages": [
     1
    ]
   },
   {
    "noteId": "p1:2",
+   "anchor": "footer",
+   "page": 1,
+   "bbox": [
+    36.64,
+    794.76,
+    409.49,
+    803.72
+   ],
+   "number": "+",
+   "text": "醫院管理局香港癌症資料統計中心:2019年香港癌症資料統計概覽(2021年10月,https://www3.ha.org.hk/cancereg)",
+   "textPages": [
+    1
+   ]
+  },
+  {
+   "noteId": "p1:3",
    "anchor": "footer",
    "page": 1,
    "bbox": [
@@ -191,6 +207,48 @@
   }
  ],
  "hotspots": [
+  {
+   "id": "h01fca92e",
+   "page": 1,
+   "bbox": [
+    351.88,
+    421.49,
+    354.95,
+    426.74
+   ],
+   "text": "+",
+   "kind": "asterisk",
+   "contextBefore": "96人。",
+   "targets": [
+    "p1:2"
+   ],
+   "targetDisplay": "P2 · 腳註 +",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
+  {
+   "id": "h01828e27",
+   "page": 1,
+   "bbox": [
+    258.46,
+    515.45,
+    261.37,
+    522.18
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "最年輕個案顯示,患者不足25歲。",
+   "targets": [
+    "p1:3"
+   ],
+   "targetDisplay": "P2 · 腳註 #",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  },
   {
    "id": "h0298ab45",
    "page": 2,
@@ -1726,8 +1784,8 @@
   }
  ],
  "stats": {
-  "anchors": 73,
-  "notes": 11,
-  "resolved": 73
+  "anchors": 75,
+  "notes": 12,
+  "resolved": 75
  }
 }

@@ -1,5 +1,5 @@
 {
- "version": "1.14",
+ "version": "1.15",
  "docId": "a9d21f52",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/AIA/自愿医保/showdoc.jsp (1).pdf",
@@ -1381,8 +1381,8 @@
    "targets": [
     "p9:3",
     "p13:3",
-    "p18:3",
-    "p14:2"
+    "p14:2",
+    "p18:3"
    ],
    "targetDisplay": "P10 · 備註 3",
    "confidence": 0.75,
@@ -1853,8 +1853,8 @@
    "targets": [
     "p9:3",
     "p13:3",
-    "p18:3",
-    "p14:2"
+    "p14:2",
+    "p18:3"
    ],
    "targetDisplay": "P10 · 備註 3",
    "confidence": 0.75,
@@ -1968,8 +1968,8 @@
    "targets": [
     "p9:3",
     "p13:3",
-    "p18:3",
-    "p14:2"
+    "p14:2",
+    "p18:3"
    ],
    "targetDisplay": "P10 · 備註 3",
    "confidence": 0.75,
@@ -2813,7 +2813,7 @@
     "p13:5"
    ],
    "targetDisplay": "P10 · 備註 5",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2835,7 +2835,7 @@
     "p13:4"
    ],
    "targetDisplay": "P10 · 備註 4",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2910,7 +2910,7 @@
     "p18:1"
    ],
    "targetDisplay": "P10 · 備註 1",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2932,7 +2932,7 @@
     "p13:9"
    ],
    "targetDisplay": "P10 · 備註 9",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2954,7 +2954,7 @@
     "p13:9"
    ],
    "targetDisplay": "P10 · 備註 9",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -2976,7 +2976,7 @@
     "p13:9"
    ],
    "targetDisplay": "P10 · 備註 9",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3024,7 +3024,7 @@
     "p13:12"
    ],
    "targetDisplay": "P10 · 備註 12",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3072,7 +3072,7 @@
     "p13:11"
    ],
    "targetDisplay": "P10 · 備註 11",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3461,7 +3461,7 @@
     "p13:11"
    ],
    "targetDisplay": "P10 · 備註 11",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -3583,7 +3583,7 @@
     "p13:11"
    ],
    "targetDisplay": "P10 · 備註 11",
-   "confidence": 0.8,
+   "confidence": 0.98,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -4012,8 +4012,8 @@
    "targets": [
     "p9:3",
     "p13:3",
-    "p18:3",
-    "p14:2"
+    "p14:2",
+    "p18:3"
    ],
    "targetDisplay": "P10 · 備註 3",
    "confidence": 0.98,
@@ -4039,7 +4039,7 @@
     "p9:1"
    ],
    "targetDisplay": "P14 · 備註 1",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -4062,7 +4062,7 @@
     "p9:2"
    ],
    "targetDisplay": "P14 · 備註 2",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -4081,12 +4081,12 @@
    "contextBefore": "香港:",
    "targets": [
     "p13:3",
-    "p18:3",
     "p14:2",
+    "p18:3",
     "p9:3"
    ],
    "targetDisplay": "P14 · 備註 3",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -4127,12 +4127,12 @@
    "contextBefore": "澳門:",
    "targets": [
     "p13:3",
-    "p18:3",
     "p14:2",
+    "p18:3",
     "p9:3"
    ],
    "targetDisplay": "P14 · 備註 3",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -4151,12 +4151,12 @@
    "contextBefore": "中國內地:",
    "targets": [
     "p13:3",
-    "p18:3",
     "p14:2",
+    "p18:3",
     "p9:3"
    ],
    "targetDisplay": "P14 · 備註 3",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -4219,12 +4219,12 @@
    "contextBefore": "亞洲內(除香港、澳門3及中國內地3外):普通房",
    "targets": [
     "p13:3",
-    "p18:3",
     "p14:2",
+    "p18:3",
     "p9:3"
    ],
    "targetDisplay": "P14 · 備註 3",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -4243,12 +4243,12 @@
    "contextBefore": "亞洲內(除香港3、澳門及中國內地3外):普通房",
    "targets": [
     "p13:3",
-    "p18:3",
     "p14:2",
+    "p18:3",
     "p9:3"
    ],
    "targetDisplay": "P14 · 備註 3",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null
@@ -4267,12 +4267,12 @@
    "contextBefore": "亞洲內(除香港3、澳門3及中國內地外):普通房",
    "targets": [
     "p13:3",
-    "p18:3",
     "p14:2",
+    "p18:3",
     "p9:3"
    ],
    "targetDisplay": "P14 · 備註 3",
-   "confidence": 0.75,
+   "confidence": 0.8,
    "source": "derived",
    "nativeLink": null,
    "group": null

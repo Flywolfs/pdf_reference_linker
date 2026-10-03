@@ -1,5 +1,5 @@
 {
- "version": "1.14",
+ "version": "1.15",
  "docId": "6aa60000",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/Bowtie/自愿医保/Bowtie自愿医保标准及灵活计划-产品小册子.pdf",
@@ -59,6 +59,38 @@
    "text": "私人門診服務並非 Bowtie 保險產品的一部分。",
    "textPages": [
     5
+   ]
+  },
+  {
+   "noteId": "p12:1",
+   "anchor": "footer",
+   "page": 12,
+   "bbox": [
+    47.0,
+    764.9,
+    535.49,
+    788.81
+   ],
+   "number": "#",
+   "text": "精神科治療、康復治療及醫療疏忽保障僅適用於香港。指若受保人要移民,保費或會按日後移居地區的潛在風險而調整。有關詳情,請致電 30088123聯絡Bowtie客戶服務部。",
+   "textPages": [
+    12
+   ]
+  },
+  {
+   "noteId": "p12:2",
+   "anchor": "footer",
+   "page": 12,
+   "bbox": [
+    47.0,
+    784.9,
+    541.19,
+    808.81
+   ],
+   "number": "*",
+   "text": "Bowtie自願醫保-標準計及靈活計劃就「未知已有病症」設有等候期。標準計劃的首個保單年度為等候期,第二個保單年度開始按保障限額提 供部分保障:第二年25%、第三年50%,第四年100%。而靈活計劃則由保單生效日起計第181日及之後,按保障限額提供100%賠償。",
+   "textPages": [
+    12
    ]
   },
   {
@@ -206,6 +238,7 @@
    "targets": [
     "p4:1",
     "p5:1",
+    "p12:2",
     "p18:2",
     "p19:2",
     "p20:2",
@@ -216,11 +249,32 @@
    "source": "derived",
    "nativeLink": null,
    "group": null
+  },
+  {
+   "id": "h12e78b59",
+   "page": 12,
+   "bbox": [
+    389.41,
+    638.76,
+    394.68,
+    653.88
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "全球適用(移民及旅行均受保障)",
+   "targets": [
+    "p12:1"
+   ],
+   "targetDisplay": "P13 · 腳註 #",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
   }
  ],
  "stats": {
-  "anchors": 1,
-  "notes": 11,
-  "resolved": 1
+  "anchors": 2,
+  "notes": 13,
+  "resolved": 2
  }
 }

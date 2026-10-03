@@ -1,5 +1,5 @@
 {
- "version": "1.14",
+ "version": "1.15",
  "docId": "6527c9ce",
  "meta": {
   "path": "/home/zhangchi/Documents/insurance/中銀人壽/自愿医保/中银人寿标准自愿医保-产品小册子.pdf",
@@ -13,6 +13,38 @@
   "gapRatio": 0.6
  },
  "notes": [
+  {
+   "noteId": "p2:1",
+   "anchor": "footer",
+   "page": 2,
+   "bbox": [
+    133.3,
+    789.77,
+    400.89,
+    800.01
+   ],
+   "number": "#",
+   "text": "以附加利益保障方式投保本計劃,必須附加於中銀人壽所指定的基本計劃。",
+   "textPages": [
+    2
+   ]
+  },
+  {
+   "noteId": "p2:2",
+   "anchor": "footer",
+   "page": 2,
+   "bbox": [
+    135.68,
+    503.0,
+    565.98,
+    513.25
+   ],
+   "number": "^",
+   "text": "倘若續保保費已獲折扣,但其後就之前的有關連續三個保單年度出現應付之賠償,中銀人壽將會重新計算實際之合資格的",
+   "textPages": [
+    2
+   ]
+  },
   {
    "noteId": "p3:1",
    "anchor": "footer",
@@ -222,7 +254,7 @@
    ]
   },
   {
-   "noteId": "p4:inline13",
+   "noteId": "p4:inline15",
    "anchor": "inline",
    "page": 4,
    "bbox": [
@@ -238,10 +270,32 @@
    ]
   }
  ],
- "hotspots": [],
+ "hotspots": [
+  {
+   "id": "h0277e9ca",
+   "page": 2,
+   "bbox": [
+    511.0,
+    636.38,
+    513.92,
+    642.5
+   ],
+   "text": "#",
+   "kind": "asterisk",
+   "contextBefore": "基本計劃或附加利益保障",
+   "targets": [
+    "p2:1"
+   ],
+   "targetDisplay": "P3 · 腳註 #",
+   "confidence": 0.98,
+   "source": "derived",
+   "nativeLink": null,
+   "group": null
+  }
+ ],
  "stats": {
-  "anchors": 0,
-  "notes": 14,
-  "resolved": 0
+  "anchors": 1,
+  "notes": 16,
+  "resolved": 1
  }
 }
